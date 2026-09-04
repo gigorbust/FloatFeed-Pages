@@ -6,7 +6,7 @@
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
     "sourceCount": 451,
-    "feedSourceCount": 170,
+    "feedSourceCount": 169,
     "articleCount": 1191,
     "rssUrl": "/feeds/all.xml"
   },
@@ -16,7 +16,7 @@
     "shortTitle": "Onewheel",
     "color": "#08c66a",
     "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
-    "sourceCount": 87,
+    "sourceCount": 88,
     "feedSourceCount": 37,
     "articleCount": 109,
     "rssUrl": "/feeds/onewheel.xml"
@@ -28,7 +28,7 @@
     "color": "#2f7df6",
     "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
     "sourceCount": 47,
-    "feedSourceCount": 20,
+    "feedSourceCount": 18,
     "articleCount": 262,
     "rssUrl": "/feeds/news.xml"
   },
@@ -60,7 +60,7 @@
     "shortTitle": "Tech",
     "color": "#7a5cff",
     "description": "VESC, repair, right-to-repair, build logs, and technical sources.",
-    "sourceCount": 10,
+    "sourceCount": 9,
     "feedSourceCount": 3,
     "articleCount": 29,
     "rssUrl": "/feeds/tech.xml"
@@ -72,7 +72,7 @@
     "color": "#94b447",
     "description": "Forums, Reddit, social sources, and community discussion streams.",
     "sourceCount": 106,
-    "feedSourceCount": 32,
+    "feedSourceCount": 33,
     "articleCount": 170,
     "rssUrl": "/feeds/community.xml"
   }
