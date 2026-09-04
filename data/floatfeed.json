@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:02:18.584Z",
+  "generatedAt": "2026-09-04T20:39:26.330Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "intent": {
     "productReference": "Modeled after Panda/usepanda.com: compact source deck, fast scanning, flat modern surfaces, source columns, and public feed links.",
@@ -27,13 +27,13 @@
     "rssAppDirect": null,
     "sourceRepairs": {
       "artifact": "/Users/georgegayl/Documents/Codex/2026-05-17/do-deep-reserah-to-see-if/FloatFeed/reports/source-health/validated-source-repairs.json",
-      "generatedAt": "2026-09-04T19:51:21.422Z",
+      "generatedAt": "2026-09-04T20:35:03.027Z",
       "applied": 172,
       "included": 172
     },
     "sourceHealth": {
       "artifact": "/Users/georgegayl/Documents/Codex/2026-05-17/do-deep-reserah-to-see-if/FloatFeed/reports/source-health/source-health-2026-09-04.json",
-      "generatedAt": "2026-09-04T19:51:21.422Z",
+      "generatedAt": "2026-09-04T20:35:03.027Z",
       "audited": 720
     }
   },
@@ -44,13 +44,13 @@
     "sources": 451,
     "publishingSources": 112,
     "feedSources": 170,
-    "fetchedSources": 128,
-    "nonemptySources": 128,
+    "fetchedSources": 127,
+    "nonemptySources": 127,
     "emptySources": 0,
-    "cachedFallbackSources": 20,
-    "unreachableSources": 196,
-    "fetchedArticles": 3743,
-    "filteredOutArticles": 2552,
+    "cachedFallbackSources": 21,
+    "unreachableSources": 198,
+    "fetchedArticles": 3764,
+    "filteredOutArticles": 2573,
     "articles": 1191,
     "currentArticles": 196,
     "archiveArticles": 995,
@@ -327,7 +327,7 @@
       "sourceContainer": "website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -1151,20 +1151,21 @@
       "deck": "community",
       "kind": "social",
       "sourcePlatform": "Reddit",
-      "sourceSystem": "Feedly OPML export",
-      "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
+      "sourceSystem": "Feedly normalization manifest",
+      "sourceContainer": "feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032",
       "sourceArtifact": "",
-      "acquisitionMethod": "web",
-      "liveAccessStatus": "live audit reachable_nonfeed HTTP 200",
+      "acquisitionMethod": "feed",
+      "liveAccessStatus": "live audit rate_limited HTTP 429",
       "rssAppFeed": false,
       "hasFeed": false,
-      "liveAuditStatus": "reachable_nonfeed",
+      "liveAuditStatus": "rate_limited",
       "catalogSourceIds": [
+        "src_428bce42cb537123",
         "src_755b174234553327"
       ],
       "articleCount": 0,
-      "fetchStatus": "directory_only",
-      "fetchError": "live audit: reachable_nonfeed"
+      "fetchStatus": "blocked_or_unreachable",
+      "fetchError": "live audit: rate_limited"
     },
     {
       "id": "onewheel-reddit-alert-1iiw4o8",
@@ -1185,8 +1186,7 @@
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
       "catalogSourceIds": [
-        "src_59949d32b49eb243",
-        "src_428bce42cb537123"
+        "src_59949d32b49eb243"
       ],
       "articleCount": 27,
       "fetchStatus": "ok_nonempty",
@@ -1611,7 +1611,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "web; reddit_native_rss",
-      "liveAccessStatus": "validated repair 2026-09-04T14:13:03.135Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -1694,8 +1694,8 @@
         "src_65112a2151be29f5"
       ],
       "articleCount": 20,
-      "fetchStatus": "ok_nonempty",
-      "fetchError": ""
+      "fetchStatus": "cached_fallback",
+      "fetchError": "HTTP 429"
     },
     {
       "id": "reddit-r-electricunicycle-c9d87u",
@@ -1761,7 +1761,7 @@
       "sourceContainer": "wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "feed; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -2116,7 +2116,7 @@
       "sourceContainer": "wrapper | replaced_by_portable_source | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | Onewheel Board",
       "sourceArtifact": "",
       "acquisitionMethod": "feed; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T08:01:10.705Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -2269,10 +2269,10 @@
       "sourceContainer": "feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED | list-1264927333211308032",
       "sourceArtifact": "",
       "acquisitionMethod": "feed",
-      "liveAccessStatus": "live audit empty_feed HTTP 200",
+      "liveAccessStatus": "live audit rate_limited HTTP 429",
       "rssAppFeed": false,
       "hasFeed": true,
-      "liveAuditStatus": "empty_feed",
+      "liveAuditStatus": "rate_limited",
       "catalogSourceIds": [
         "src_ae93d258cf480ff8"
       ],
@@ -4034,7 +4034,7 @@
       "sourceContainer": "website_discovery | recovered_from_paid_only_surface | One Stop Board Shop | Onewheel Product Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -4236,7 +4236,7 @@
       "sourceContainer": "website_discovery | configured | DEFAULT_FEED_SOURCES",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -4647,7 +4647,7 @@
       "sourceContainer": "website_discovery | configured | DEFAULT_FEED_SOURCES",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -5028,7 +5028,7 @@
       "sourceContainer": "website_discovery | ONEWHEEL FEED | DEFAULT_FEED_SOURCES",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -5114,7 +5114,7 @@
         "src_b6e475a143db6f45",
         "src_21539e811c7f4f5c"
       ],
-      "articleCount": 164,
+      "articleCount": 162,
       "fetchStatus": "ok_nonempty",
       "fetchError": ""
     },
@@ -5132,7 +5132,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | blocked_or_unreachable",
       "sourceArtifact": "",
       "acquisitionMethod": "web; same_publisher_scoped_content_recovery",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -5157,7 +5157,7 @@
       "sourceContainer": "website_discovery | directory_only | feed | blocked_or_unreachable",
       "sourceArtifact": "",
       "acquisitionMethod": "web; same_publisher_scoped_content_recovery",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -6623,7 +6623,7 @@
       "sourceContainer": "website_discovery | recovered_from_paid_only_surface | Onewheel Board",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -6649,7 +6649,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -6726,7 +6726,7 @@
       "sourceContainer": "website_discovery | enabled | public.event_sources",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -6804,7 +6804,7 @@
       "sourceContainer": "website_discovery | ONEWHEEL FEED | Fallman.tech \"Onewheel\" Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -7008,16 +7008,16 @@
       "sourceContainer": "website_discovery | directory_only | website_discovery | enabled | public.event_sources | public.event_sources",
       "sourceArtifact": "",
       "acquisitionMethod": "web",
-      "liveAccessStatus": "live audit reachable_nonfeed HTTP 200",
+      "liveAccessStatus": "live audit tls_or_connection_reset",
       "rssAppFeed": false,
       "hasFeed": false,
-      "liveAuditStatus": "reachable_nonfeed",
+      "liveAuditStatus": "tls_or_connection_reset",
       "catalogSourceIds": [
         "src_bbba13145cf84cb7"
       ],
       "articleCount": 0,
-      "fetchStatus": "directory_only",
-      "fetchError": "live audit: reachable_nonfeed"
+      "fetchStatus": "blocked_or_unreachable",
+      "fetchError": "live audit: tls_or_connection_reset"
     },
     {
       "id": "flux-mvmnt-hb2d8m",
@@ -7110,7 +7110,7 @@
       "sourceContainer": "wrapper | nonportable_sources | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "feed; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -7516,7 +7516,7 @@
       "sourceContainer": "website_discovery | ONEWHEEL FEED | current Folo Onewheel thread",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -7592,7 +7592,7 @@
       "sourceContainer": "website_discovery | ONEWHEEL FEED | current Folo Onewheel thread",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8148,7 +8148,7 @@
       "sourceContainer": "website_discovery | ONEWHEEL FEED | manual_rss_sources",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8251,7 +8251,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | Onewheel AI Feed",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8352,7 +8352,7 @@
       "sourceContainer": "website_discovery | enabled | public.event_sources",
       "sourceArtifact": "",
       "acquisitionMethod": "web; publisher_advertised_or_standard_feed",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8730,7 +8730,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | ok | EUC",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8806,7 +8806,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8832,7 +8832,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8883,7 +8883,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8909,7 +8909,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8935,7 +8935,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8961,7 +8961,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -8987,7 +8987,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9013,7 +9013,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | ok | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9064,7 +9064,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | public.rss_sources | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9090,7 +9090,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9141,7 +9141,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9167,7 +9167,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9293,7 +9293,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9319,7 +9319,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | ok | Onewheel AI Feed | ESK8 | eSkate",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9370,7 +9370,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9396,7 +9396,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9422,7 +9422,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9548,7 +9548,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9574,7 +9574,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9600,7 +9600,7 @@
       "sourceContainer": "website_discovery | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9626,7 +9626,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9652,7 +9652,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9878,7 +9878,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9904,7 +9904,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9930,7 +9930,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9956,7 +9956,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -9982,7 +9982,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10033,7 +10033,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10084,7 +10084,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10110,7 +10110,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10136,7 +10136,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10162,7 +10162,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10188,7 +10188,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10214,7 +10214,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10240,7 +10240,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10266,7 +10266,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10317,7 +10317,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10443,7 +10443,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10494,7 +10494,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10520,7 +10520,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10596,7 +10596,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10622,7 +10622,7 @@
       "sourceContainer": "website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | Onewheel Board",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10648,7 +10648,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10674,7 +10674,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Future Motion Onewheel AI Feed | Floatwheel AI Feed | public.rss_sources | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10700,7 +10700,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel Board | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10726,7 +10726,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10802,7 +10802,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10828,7 +10828,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10854,7 +10854,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Onewheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10880,7 +10880,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10906,7 +10906,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10932,7 +10932,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -10958,7 +10958,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11010,7 +11010,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11036,7 +11036,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11087,7 +11087,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11113,7 +11113,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11164,7 +11164,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11215,7 +11215,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11241,7 +11241,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11267,7 +11267,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11293,7 +11293,7 @@
       "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED",
       "sourceArtifact": "",
       "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-04T19:51:21.422Z",
+      "liveAccessStatus": "validated repair 2026-09-04T20:35:03.027Z",
       "rssAppFeed": false,
       "hasFeed": true,
       "liveAuditStatus": "valid_feed",
@@ -11651,7 +11651,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "86uije-1mfabo8",
@@ -11672,7 +11672,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "ya37wq-1czfdl1",
@@ -11757,7 +11757,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1jf6y6d-1mfabo8",
@@ -13752,7 +13752,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "ff1ub0-frtrep",
@@ -14238,7 +14238,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1lnocib-frtrep",
@@ -14581,7 +14581,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "l69awt-1czfdl1",
@@ -15051,7 +15051,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "a6j44r-1k6th9l",
@@ -15263,7 +15263,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "16joiuq-1czfdl1",
@@ -15326,7 +15326,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "6em80n-1ryezx2",
@@ -15368,7 +15368,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1vmdjo4-14o2nhz",
@@ -16803,7 +16803,7 @@
     },
     {
       "id": "eve6it-1joxsrd",
-      "title": "Amazing Dog Riding a Onewheel Is 'What the Internet Was Made For' - yahoo.com",
+      "title": "Amazing Dog Riding a Onewheel Is 'What the Internet Was Made For' - Yahoo",
       "description": "Amazing Dog Riding a Onewheel Is 'What the Internet Was Made For' yahoo.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGpJUVlwQ2VLQ1M4ZTVQR3M5NnJoUlV3bmZVOUNPTjczWjYxbDJsaWpkR050S3FfX1dDelBHMUpiRkpMbWdaVEFLX0xlM3dFR1lEX1hQU1BxUC1MOGlNcGE2Y1Jod0wtU3p5M3JiU2poN1lsSGNxQjh1eDRZRENRY25taV9aZmpxWlJQZTEtaE9QQVQ2SFpn?oc=5\" target=\"_blank\">Amazing Dog Riding a Onewheel Is 'What the Internet Was Made For'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">yahoo.com</font>",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcGpJUVlwQ2VLQ1M4ZTVQR3M5NnJoUlV3bmZVOUNPTjczWjYxbDJsaWpkR050S3FfX1dDelBHMUpiRkpMbWdaVEFLX0xlM3dFR1lEX1hQU1BxUC1MOGlNcGE2Y1Jod0wtU3p5M3JiU2poN1lsSGNxQjh1eDRZRENRY25taV9aZmpxWlJQZTEtaE9QQVQ2SFpn?oc=5",
@@ -17030,7 +17030,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "96dxji-8kv0cu",
@@ -17177,7 +17177,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "ql265n-1bh986t",
@@ -17303,7 +17303,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1yecvng-9o596",
@@ -17430,7 +17430,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "fpami-644f8j",
@@ -17451,7 +17451,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1x1ni6l-9o596",
@@ -17535,7 +17535,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "v97ake-2ihfsk",
@@ -17703,7 +17703,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1n5zsac-1dvf1mj",
@@ -17940,7 +17940,7 @@
     },
     {
       "id": "i6vsv7-1joxsrd",
-      "title": "Justin Bieber Suffers Painful Rib Injury After Onewheel Skateboard Accident - yahoo.com",
+      "title": "Justin Bieber Suffers Painful Rib Injury After Onewheel Skateboard Accident - Yahoo",
       "description": "Justin Bieber Suffers Painful Rib Injury After Onewheel Skateboard Accident yahoo.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPY1VrSDFUc3NzTTAxSjF2SzVIQlM5YXZDNzFycDEtaldEY1ZHWER0ZmpxSm54UGo3Mmcwb3JNZkhUbzFVU1FLSFV4eWgwZHRKRE43REtENXAxdzdBb21VRURXNjlKdllZZ1JlQVFpbko5dVVweUJHWVVPNmlnUF9ROWthVzI0N2pfMkNTTjJSNkMtSHIxTEl5VWNjVHI4Yi16N3VpUVZR?oc=5\" target=\"_blank\">Justin Bieber Suffers Painful Rib Injury After Onewheel Skateboard Accident</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">yahoo.com</font>",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY1VrSDFUc3NzTTAxSjF2SzVIQlM5YXZDNzFycDEtaldEY1ZHWER0ZmpxSm54UGo3Mmcwb3JNZkhUbzFVU1FLSFV4eWgwZHRKRE43REtENXAxdzdBb21VRURXNjlKdllZZ1JlQVFpbko5dVVweUJHWVVPNmlnUF9ROWthVzI0N2pfMkNTTjJSNkMtSHIxTEl5VWNjVHI4Yi16N3VpUVZR?oc=5",
@@ -18062,7 +18062,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "18zfpmy-9o596",
@@ -18230,7 +18230,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "ejfado-644f8j",
@@ -18251,7 +18251,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "16ak5qq-644f8j",
@@ -18272,7 +18272,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1ae8bbp-1kntbl3",
@@ -18377,7 +18377,7 @@
       "duplicateSourceIds": [
         "top-posts-on-r-electricskateboarding-containing-onewheel-yux392"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1pk5dt6-9o596",
@@ -27465,7 +27465,7 @@
     },
     {
       "id": "1wowj0n-1k6th9l",
-      "title": "Onewheel electric skateboards recalled worldwide after deaths - news.sky.com",
+      "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
       "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled worldwide after deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sky.com</font>",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5",
@@ -27846,7 +27846,7 @@
     },
     {
       "id": "c4oty5-1k6th9l",
-      "title": "All Onewheel electric skateboards recalled after four deaths and multiple injuries reported - CNN",
+      "title": "All Onewheel electric skateboards recalled after four deaths and multiple injuries reported - cnn.com",
       "description": "All Onewheel electric skateboards recalled after four deaths and multiple injuries reported cnn.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPemRfeWtMZXFuUGdQd1hMTDF0S0NEZWlZRXhjVWJPUENNUDJQTTd3STl2R1hUaUdTM3I0cEV5MmN6S2pTREVyV3hrdHdOMXc4aGtPTS16Rms0NTZSekdDOU94TzBfcDRuckRHRS1meWRpSm5DTUtrMkhUZm1kV3hub1JB?oc=5\" target=\"_blank\">All Onewheel electric skateboards recalled after four deaths and multiple injuries reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnn.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPemRfeWtMZXFuUGdQd1hMTDF0S0NEZWlZRXhjVWJPUENNUDJQTTd3STl2R1hUaUdTM3I0cEV5MmN6S2pTREVyV3hrdHdOMXc4aGtPTS16Rms0NTZSekdDOU94TzBfcDRuckRHRS1meWRpSm5DTUtrMkhUZm1kV3hub1JB?oc=5",
@@ -30577,14 +30577,13 @@
       "deck": "news",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
     },
     {
       "id": "qztwll-1joxsrd",
-      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL News",
+      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - ksl.com",
       "description": "How hard is it to ride a Onewheel? And are they safe for kids? KSL News",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5\" target=\"_blank\">How hard is it to ride a Onewheel? And are they safe for kids?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KSL News</font>",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5",
@@ -30649,7 +30648,7 @@
     },
     {
       "id": "1se9bez-1k6th9l",
-      "title": "CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall - SlashGear",
+      "title": "CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall - slashgear.com",
       "description": "CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall slashgear.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjFjNWdrdFNSX0FVY05qLVNnQ2x2cS1reklZd19UWUlZSS1PY1JwV3VfMGVDTlNtR2JHMVY2TmFoTmlYc3NsZ3JYUHJVVzhJMkVSWDVKajlDR0RDaFVxaU9xb1hyWDZCTHdRdEVSYnM2NkxpbU93SmhoT0NYY1NsV05lYzgwTExGMjF2dE9IQ2tfTGp2TGNCMXhJT2hCM2NScFNOODR2ejY5WXpUT1dhelJGWDNRRWpNMzRZTldGb2tMVHhPb2JiZVU5S1g?oc=5\" target=\"_blank\">CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">slashgear.com</font>",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjFjNWdrdFNSX0FVY05qLVNnQ2x2cS1reklZd19UWUlZSS1PY1JwV3VfMGVDTlNtR2JHMVY2TmFoTmlYc3NsZ3JYUHJVVzhJMkVSWDVKajlDR0RDaFVxaU9xb1hyWDZCTHdRdEVSYnM2NkxpbU93SmhoT0NYY1NsV05lYzgwTExGMjF2dE9IQ2tfTGp2TGNCMXhJT2hCM2NScFNOODR2ejY5WXpUT1dhelJGWDNRRWpNMzRZTldGb2tMVHhPb2JiZVU5S1g?oc=5",
@@ -35658,9 +35657,9 @@
     },
     {
       "id": "1yx4nlh-1k6th9l",
-      "title": "With 18 Miles Of Range, The Onewheel+ XR Can Make For A Viable Commuter Ride - coolthings.com",
-      "description": "With 18 Miles Of Range, The Onewheel+ XR Can Make For A Viable Commuter Ride coolthings.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RVNmU2c1ZE5TQUh3MGJFV2E1RUhOeV9nTUpsRWFMR1E2Q0lWd0RYemo3VHVnaHRHWTFZTjFaU2VGVDlwM3UtWllGOFVObWxMd1cxalNyRUdGWUJWQUQ2bEFlZ2pDOTJDeUtzTmVlSks2YWgxS2c?oc=5\" target=\"_blank\">With 18 Miles Of Range, The Onewheel+ XR Can Make For A Viable Commuter Ride</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coolthings.com</font>",
+      "title": "With 18 Miles Of Range, The Onewheel+ XR Can Make For A Viable Commuter Ride - CoolThings.com",
+      "description": "With 18 Miles Of Range, The Onewheel+ XR Can Make For A Viable Commuter Ride CoolThings.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RVNmU2c1ZE5TQUh3MGJFV2E1RUhOeV9nTUpsRWFMR1E2Q0lWd0RYemo3VHVnaHRHWTFZTjFaU2VGVDlwM3UtWllGOFVObWxMd1cxalNyRUdGWUJWQUQ2bEFlZ2pDOTJDeUtzTmVlSks2YWgxS2c?oc=5\" target=\"_blank\">With 18 Miles Of Range, The Onewheel+ XR Can Make For A Viable Commuter Ride</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CoolThings.com</font>",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2RVNmU2c1ZE5TQUh3MGJFV2E1RUhOeV9nTUpsRWFMR1E2Q0lWd0RYemo3VHVnaHRHWTFZTjFaU2VGVDlwM3UtWllGOFVObWxMd1cxalNyRUdGWUJWQUQ2bEFlZ2pDOTJDeUtzTmVlSks2YWgxS2c?oc=5",
       "publishedAt": "2018-01-18T08:00:00.000Z",
       "author": "",
@@ -36618,8 +36617,7 @@
       "deck": "news",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
     },
