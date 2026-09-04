@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>FloatFeed - ONEWHEEL FEED</title>
+    <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
+    <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages//feeds/onewheel.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Sep 2026 14:46:37 GMT</lastBuildDate>
+    <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Pint X (7314 / Hydrus 5200) — Best Path to More Range Before VESC?]]></title>
+      <link>https://pev.dev/t/pint-x-7314-hydrus-5200-best-path-to-more-range-before-vesc/2993#post_5</link>
+      <guid isPermaLink="false">ya37wq-1czfdl1</guid>
+      <pubDate>Fri, 04 Sep 2026 02:56:11 GMT</pubDate>
+      <description><![CDATA[If you open up your battery box you’ll see the BMS has 4 different cables going into it. The smallest one that sticks out perpendicular to the PCB is what lets your BMS tell your ESC that your board is charging. If you unplug it, it has no way of knowing so you can charge your board as you ride if you get a backpack setup This might break FM firmware as well, I can’t be completely sure. Personally, I recommend the PintV Kit. That opens your door far beyond FM support and restriction, so the skies (or rather your wallet) the limit for battery possibility. Easy as to install If you’ve got more d]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Rattling/Vibrating of Onewheel XRV Power Kit]]></title>
+      <link>https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_1</link>
+      <guid isPermaLink="false">55wbn0-1czfdl1</guid>
+      <pubDate>Mon, 17 Aug 2026 07:35:48 GMT</pubDate>
+      <description><![CDATA[Hey there, lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior. First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as tho]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Terrain Guide: Riding on Pavement, Grass, Trails, Sand and Snow]]></title>
+      <link>https://fallman.tech/onewheel-terrain/</link>
+      <guid isPermaLink="false">1t4ylp6-m6g0vw</guid>
+      <pubDate>Sun, 16 Aug 2026 15:13:58 GMT</pubDate>
+      <description><![CDATA[Yes, a Onewheel can ride on many different surfaces, including pavement, grass, gravel, dirt, sand and snow. The riding experience changes considerably depending on the terrain, though, with loose surfaces requiring more power and reducing traction and range. The tire, tire pressure, weather and type of terrain all affect how the board behaves and how ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[VESC Motor List]]></title>
+      <link>https://pev.dev/t/vesc-motor-list/2086#post_9</link>
+      <guid isPermaLink="false">10ghqba-1czfdl1</guid>
+      <pubDate>Mon, 10 Aug 2026 19:36:43 GMT</pubDate>
+      <description><![CDATA[Are we sure the superflux uses a Higo L1019DG connector? I think they’re similar but not exactly the same. On the fungineers website it says “plug-in locking proprietary connector… the only one of its kind in existence” I only say this to prevent someone from buying the wrong thing.]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Race for the Rail 2026: Joseph Katz and Zayne Carter Take the Titles at Hollister Hills]]></title>
+      <link>https://fallman.tech/race-for-the-rail-2026-winners-joseph-katz-zayne-carter/</link>
+      <guid isPermaLink="false">9pehzk-m6g0vw</guid>
+      <pubDate>Sun, 09 Aug 2026 07:10:12 GMT</pubDate>
+      <description><![CDATA[Race for the Rail 2026 took place on 8 August at Hollister Hills SVRA, delivered the kind of racing that defines the Onewheel community: tight battles, unpredictable moments, crashes, and two champions who earned their wins. Under the sun, heat and dust of Hollister Hills, Joseph Katz and Zayne Carter claimed the Pro Men’s and ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Flipsky 75200 Pro FOC Detection Stuck at 0.000 Flux Linkage]]></title>
+      <link>https://pev.dev/t/flipsky-75200-pro-foc-detection-stuck-at-0-000-flux-linkage/3027#post_1</link>
+      <guid isPermaLink="false">1wuyvg3-1czfdl1</guid>
+      <pubDate>Fri, 07 Aug 2026 18:12:44 GMT</pubDate>
+      <description><![CDATA[Controller: Flipsky 75200 Pro (original, not V2), Hardware: 75_300_R2 Motor: Original 2000W Phat Scooter hub motor (worked perfectly on the stock controller) Firmware: 7.00 VESC Tool: 7.00 (iOS) Problem: After replacing the stock controller with the Flipsky, the motor only spins with a loud grinding/buzzing noise. It never runs smoothly. FOC detection consistently detects: Resistance: ~3.5–4.7 mΩ Inductance: ~350 µH Hall sensors detected However: Flux linkage is always 0.000 mWb. Hall detection never generates a hall table. I’ve also seen “Phase filter fault, invalid phase filter readings” and]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[How to verify proper hall sensor recognition and alignment in VESC tool]]></title>
+      <link>https://pev.dev/t/how-to-verify-proper-hall-sensor-recognition-and-alignment-in-vesc-tool/3025#post_1</link>
+      <guid isPermaLink="false">1i4441b-1czfdl1</guid>
+      <pubDate>Fri, 07 Aug 2026 00:44:34 GMT</pubDate>
+      <description><![CDATA[You got issues with hall sensor detection? Let’s verify if there is an actual issue before throwing hands with your board. Prereqs: VESC Tool on mobile AND PC. This is a direct download for the 6.06 exe. Your board. A working wifi connection that both your phone and PC are connected to. Part 1: Ensuring proper hall sensor behavior Step 1: Power on and connect to your board using VESC Tool on your phone. Ensure you are connected to/CANned into your controller. Step 2: On the main START page, scroll down until you see “Wireless Bridge to Computer (TCP)”. Click “Activate Bridge” and ensure two IP]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Race for the Rail: The Boards That Defined the Competition]]></title>
+      <link>https://fallman.tech/race-for-the-rail-board-history/</link>
+      <guid isPermaLink="false">1uewj9z-m6g0vw</guid>
+      <pubDate>Thu, 06 Aug 2026 19:12:54 GMT</pubDate>
+      <description><![CDATA[Every year, the Race for the Rail showcases the fastest, most skilled riders, and the boards that make it possible. From the Onewheel Original to the high‑torque Rally XL, each generation has shaped how the Race for the Rail has been, pushing both riders and the boards to the limits on dirt, gravel, and mountain ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Slang: 20+ Terms Every Rider Should Know (2026 Guide)]]></title>
+      <link>https://fallman.tech/onewheel-slang/</link>
+      <guid isPermaLink="false">wh2goa-m6g0vw</guid>
+      <pubDate>Wed, 05 Aug 2026 13:42:39 GMT</pubDate>
+      <description><![CDATA[If you’ve spent time on Reddit, Facebook groups, or joined a local Onewheel group ride, you’ve probably heard words like nosedive, ghosting, Captain Morgan, bonk, or badgering. For new riders, the community has its own language that can be confusing. This guide explains the most common Onewheel slang, technical terms, and community expressions, helping you ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Initial VESCTool Configuration Guide]]></title>
+      <link>https://pev.dev/t/initial-vesctool-configuration-guide/3022#post_1</link>
+      <guid isPermaLink="false">l69awt-1czfdl1</guid>
+      <pubDate>Sun, 02 Aug 2026 00:47:39 GMT</pubDate>
+      <description><![CDATA[This is a configuration guide I started when I first started building VESC boards (Onewheels) in August of 2023. I do my best to keep updating this guide as technology advances. If you follow it from top to bottom you should be able to setup your VESC and have a rideable board to then fine tune to your riding style. I’ve used some of the settings and the advice from @surfdado, @NicoAleman , and @theboardgarage along with my own experience. Load Generic Bootloader prior to flashing firmware on Ennoid controllers Thor400 Hall Sensors Bug FIX: Motor Cfg > FOC > General > Sensor Mode = Hall Sensor]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Pricing Explained: What You Actually Pay and What You Get]]></title>
+      <link>https://fallman.tech/how-much-does-a-onewheel-cost/</link>
+      <guid isPermaLink="false">trucoh-m6g0vw</guid>
+      <pubDate>Thu, 30 Jul 2026 07:52:10 GMT</pubDate>
+      <description><![CDATA[The price of an Onewheel is high, even for the cheapest Pint, still, it’s the entry ticket to a completely different way of moving through the world. Whether you’re eyeing your first board or upgrading to something with more torque and range, the cost depends on far more than the sticker price. Models, accessories, maintenance, ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[The Float Life Acquires 1Protect Gloves]]></title>
+      <link>https://fallman.tech/the-float-life-acquires-1protect-gloves/</link>
+      <guid isPermaLink="false">8jq866-m6g0vw</guid>
+      <pubDate>Wed, 29 Jul 2026 12:50:49 GMT</pubDate>
+      <description><![CDATA[The Float Life has officially acquired 1Protect Gloves, bringing two rider‑built brands together under one roof. With TFL’s long track record, over 100,000 orders shipped and 10,000+ five‑star reviews, and 1Protect’s reputation for purpose‑built Onewheel protection, this move marks a major moment for the community. Below is the full breakdown of what the acquisition means, ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Race for the Rail: Winners Through the Years]]></title>
+      <link>https://fallman.tech/race-for-the-rail-winners-through-the-years/</link>
+      <guid isPermaLink="false">bpf2uj-m6g0vw</guid>
+      <pubDate>Tue, 28 Jul 2026 20:08:04 GMT</pubDate>
+      <description><![CDATA[Race for the Rail (RFTR) has been around long enough now that it’s built its own history, from the early community area with no women’s division to the modern era with proper brackets and prize money. Here’s a clear look at how the event has evolved, and who actually stood on top each year. Race ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Race for the Rail 2026: The Onewheel Community’s Super Bowl Is About to Begin]]></title>
+      <link>https://fallman.tech/race-for-the-rail-2026-the-onewheel-communitys-super-bowl-is-about-to-begin/</link>
+      <guid isPermaLink="false">13lcd4v-m6g0vw</guid>
+      <pubDate>Mon, 27 Jul 2026 20:24:30 GMT</pubDate>
+      <description><![CDATA[For the past decade, August has meant one thing for the Onewheel community: everyone comes together, this year at Hollister Hills SVRA, to answer the only question that really matters. Not who posted the flashiest Instagram clip, not who crushed a local group ride. The real question is simple: who’s actually the fastest Onewheel rider ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[The Best Onewheel Safety Gear (Elbow/Knee Pads, Helmet, Wristguard)]]></title>
+      <link>https://fallman.tech/safety-gear-for-commuting-with-a-last-mile-device/</link>
+      <guid isPermaLink="false">6paosw-m6g0vw</guid>
+      <pubDate>Sun, 26 Jul 2026 12:30:00 GMT</pubDate>
+      <description><![CDATA[Commuting on a last‑mile device is supposed to make life easier — faster mornings, fewer buses, and a bit of fun baked into the daily grind. But the moment you mix traffic, weather, and unpredictable pavement, the stakes change. Safety gear isn’t optional anymore; it’s the difference between a close call and a bad day. ... Read more]]></description>
+      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[XR revival build from Belgium: Thor301 vs LFOCer V4 vs XRV, and best 20s2p sourcing in the EU?]]></title>
+      <link>https://pev.dev/t/xr-revival-build-from-belgium-thor301-vs-lfocer-v4-vs-xrv-and-best-20s2p-sourcing-in-the-eu/3017#post_1</link>
+      <guid isPermaLink="false">x5297i-1czfdl1</guid>
+      <pubDate>Sun, 26 Jul 2026 06:47:19 GMT</pubDate>
+      <description><![CDATA[Planning a full revival of my Onewheel+ XR (8+ years old) and would appreciate a sanity check before I order. Current state: motor, rails and body all healthy. Battery is the original 15s2p with known cell imbalance, so it’s being replaced regardless — which makes this the moment to do controller + battery in one go. Where I’m at after research: - Controller: Thor301 seems like the community flagship (onboard Express, native LED, 300A-tested FETs), LFOCer V4 the value option (but kits appear out of stock at CustomWheel), XRV the low-effort drop-in. Am I missing anything current? Anyone running]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
+      <link>https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956#post_16</link>
+      <guid isPermaLink="false">1mop5jh-1czfdl1</guid>
+      <pubDate>Thu, 23 Jul 2026 18:18:52 GMT</pubDate>
+      <description><![CDATA[Thanks. The smoothing in the package and the firmware do different things, if you change both at once I imagine the difference is quite markable, I’ve gotten similar feedback from others. I never experienced it, for me it was a lot of gradual testing and tweaking (and dealing with issues on the firmware side of changes). But still happy about how my board rides right now (and planning on ironing out the remaining kinks). Wasn’t aware 6.06 won’t pair with 7.0 Tool anymore, don’t think there’s a real reason for it. I’ll do a 7.0 release at some point. Haven’t tested riding 7.0 yet, but looking i]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[New build but I don’t have experience]]></title>
+      <link>https://pev.dev/t/new-build-but-i-don-t-have-experience/2979#post_2</link>
+      <guid isPermaLink="false">33fzyc-1czfdl1</guid>
+      <pubDate>Thu, 09 Jul 2026 14:11:09 GMT</pubDate>
+      <description><![CDATA[I’ve been wanting to upgrade my GT and I’ve been talking around I want to get a 6 inch hub n52 magnets GTV or Thor 301 kit Indy speed control 20s2p pnp battery with bms flight fins The only question I have is what is better to do consider considering I’m new and I don’t have any experience. Should I try the Thor 301 I’ve never vesc anything before and I’m not sure if I want to screw up my GT by doing something wrong 2 posts - 2 participants Read full topic]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Vesc using Ubox single]]></title>
+      <link>https://pev.dev/t/vesc-using-ubox-single/3009#post_2</link>
+      <guid isPermaLink="false">acsg5d-1czfdl1</guid>
+      <pubDate>Wed, 08 Jul 2026 16:20:16 GMT</pubDate>
+      <description><![CDATA[Hey yall! I have been doing lots of reading and looking into controllers, wiring, bms, pin outs and all the fun of getting into vesc. Many have not/will not use the ubox for there onewheel and so theres not a lot of upto date info on the wiring of one. Yes you can piece it together, but the more info the better I would think. While digging around the Spintend website they have created a digram for how they want someone to wire up a ubox specifically for the onewheel! Spintend Single UBox 100V 100A wiring diagram on escooter | on onewheel application Atttention : If you're trying to diy escoote]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Refloat version 1.3]]></title>
+      <link>https://pev.dev/t/refloat-version-1-3/2995#post_6</link>
+      <guid isPermaLink="false">16joiuq-1czfdl1</guid>
+      <pubDate>Mon, 06 Jul 2026 20:12:55 GMT</pubDate>
+      <description><![CDATA[Thank you, I’m on a ubox 85V 150A, so ubox_single_80 firmware under vesc 7.0.]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Refloat version 1.1]]></title>
+      <link>https://pev.dev/t/refloat-version-1-1/2480#post_18</link>
+      <guid isPermaLink="false">1wfei3e-1czfdl1</guid>
+      <pubDate>Mon, 15 Jun 2026 07:13:04 GMT</pubDate>
+      <description><![CDATA[I created a branch to node lock vesc with phone app if vesc doesn’t see phone for 5min it locks. this provides Tesla style lock and unlock. would like me branch to merge w tree. testapp at CaliBike 33C3 Dashboard rafe 1.951.454 .0893]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Floatwheel LCM (ADV/GTV/XRV/PintV)]]></title>
+      <link>https://pev.dev/t/floatwheel-lcm-adv-gtv-xrv-pintv/1024#post_9</link>
+      <guid isPermaLink="false">p9dkri-1czfdl1</guid>
+      <pubDate>Mon, 15 Jun 2026 01:55:57 GMT</pubDate>
+      <description><![CDATA[Refloat no longer has just LED Module. instead there is LED Mode, LED Pin and LED Pin Configuration. Either way I can’t get it to consistently work (show the tiffany blue for footpad activation)]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Gosmilo X7 : Une nouvelle board dans le game]]></title>
+      <link>https://uneroo.fr/gosmilo-x7-une-nouvelle-board-dans-le-game/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=gosmilo-x7-une-nouvelle-board-dans-le-game</link>
+      <guid isPermaLink="false">lxfnmt-1bh986t</guid>
+      <pubDate>Wed, 10 Jun 2026 20:59:37 GMT</pubDate>
+      <description><![CDATA[Le monde du Onewheel a longtemps été dominé par une seule marque : Future Motion. Depuis quelques années, des alternatives sérieuses émergent et viennet bousculer cette hégémonie. Parmi les outsiders, on retrouve le Gosmilo X7, conçu par une équipe de passionnés pour concurrencer directement le Onewheel GT . Avec son X7, Gosmilo propose une machine … Lire la suite de « Gosmilo X7 : Une nouvelle board dans le game » L’article Gosmilo X7 : Une nouvelle board dans le game est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Refloat version 1.2]]></title>
+      <link>https://pev.dev/t/refloat-version-1-2/2795#post_18</link>
+      <guid isPermaLink="false">1r84lmy-1czfdl1</guid>
+      <pubDate>Tue, 09 Jun 2026 12:26:40 GMT</pubDate>
+      <description><![CDATA[I’ve been running 6.06 with the previous version for quite some time without issue. Well, there is one issue when my configs don’t load completely in VESC tool and I have to close the app and restart my board. Not sure what causes that. I’m on a GTV 84v. I just upgraded and there was no dialog about restoring my preferences but from what I can tell it did anyway.]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Video Overlays from log files]]></title>
+      <link>https://pev.dev/t/video-overlays-from-log-files/2990#post_1</link>
+      <guid isPermaLink="false">czjhln-1czfdl1</guid>
+      <pubDate>Thu, 04 Jun 2026 02:48:29 GMT</pubDate>
+      <description><![CDATA[Video Overlay Utility by Lachlan Hurst Load Floaty or Float Control logs and generate a video overlay file: ESC Log Video Insta360 + GPX, all on your phone You can export GPX files from Float Control, Insta360 knows to match up the data with the right videos based on the timestamp data, for an example see Cameron’s Reel: Instagram Cameron Onewheel Patecell on Instagram: "@dirtsurferz mass start race sneak... 856 likes, 40 comments - cameronewheel on May 18, 2026: "@dirtsurferz mass start race sneak peak 🏎️ 💨 #onewheel we started at the bottom of the road leading to the trails so it was my fi]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[VESC Service Centers / Vendors / Builders!]]></title>
+      <link>https://pev.dev/t/vesc-service-centers-vendors-builders/887#post_15</link>
+      <guid isPermaLink="false">kphj0n-1czfdl1</guid>
+      <pubDate>Thu, 28 May 2026 13:12:39 GMT</pubDate>
+      <description><![CDATA[Left back in 2024 for a different state.]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Comment entretenir son Onewheel ?]]></title>
+      <link>https://uneroo.fr/comment-entretenir-son-onewheel/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=comment-entretenir-son-onewheel</link>
+      <guid isPermaLink="false">ujvf67-1bh986t</guid>
+      <pubDate>Wed, 27 May 2026 22:17:52 GMT</pubDate>
+      <description><![CDATA[Un Onewheel, ça coûte un bras ! On est d’accord hein ? 😉 Il faut donc le soigner, s’en occuper, le bichonner. Votre Onewheel, finalement, c’est un peu comme une moto : si on ne l’entretient pas régulièrement, il finit par s’encrasser et s’user prématurément.Dans cet article, nous allons vous donner quelques conseils simples et … Lire la suite de « Comment entretenir son Onewheel ? » L’article Comment entretenir son Onewheel ? est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Pint Motor and Footpad Connector Digikey]]></title>
+      <link>https://pev.dev/t/onewheel-pint-motor-and-footpad-connector-digikey/2593#post_2</link>
+      <guid isPermaLink="false">haqchk-1czfdl1</guid>
+      <pubDate>Wed, 27 May 2026 17:33:58 GMT</pubDate>
+      <description><![CDATA[This is the actual controller box connector.. the other one isn’t as strong as this one. I have a list on digikey that I have complied for onewheels. AAAA-CML09000071 Amphenol LTW | Circular Connector Assemblies | DigiKey https://share.google/TJU4SlRetazngWPLs digikey.com myLists – Parts List Management | DigiKey Checking Price and Availability on millions of electronic components, managing your BOMs, and locating your favorites through Digi-Key Electronics has never been easier. Get started on Digi-Key’s myLists and create your order today!]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Why is the VESC color selection like that]]></title>
+      <link>https://pev.dev/t/why-is-the-vesc-color-selection-like-that/2976</link>
+      <guid isPermaLink="false">iiqplr-vbx98k</guid>
+      <pubDate>Tue, 12 May 2026 04:00:04 GMT</pubDate>
+      <description><![CDATA[I mean the massive drop-down works I guess but wouldn’t it make more sense to just have a HEX or 0-255(for each channel) input? 1 post - 1 participant Read full topic]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Can the re-float package control dual-version motors (autoro v6 dual)?]]></title>
+      <link>https://pev.dev/t/can-the-re-float-package-control-dual-version-motors-autoro-v6-dual/2974</link>
+      <guid isPermaLink="false">dpjnfn-vbx98k</guid>
+      <pubDate>Thu, 07 May 2026 15:04:31 GMT</pubDate>
+      <description><![CDATA[I have a dual Autoro V6 board with Bluetooth. I connected the IMU directly to the master board (12C) and installed the Re-Float. I have two hoverboard motors installed on the same wheel, facing each other. However, when I contacted Autoro's support, they told me that the Re-Float can only control one wheel. Does anyone know if they understand what they're talking about? "Hello! Good morning. I understand your question. For both motors to work together (master and slave via CAN bus), it is mandatory to use one of the following control modes supported by VESC for multiple ESCs: PPM, ADC, NRF, or]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Garantie Onewheel]]></title>
+      <link>https://uneroo.fr/garantie-onewheel/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=garantie-onewheel</link>
+      <guid isPermaLink="false">mypcnz-1bh986t</guid>
+      <pubDate>Sun, 12 Apr 2026 10:50:00 GMT</pubDate>
+      <description><![CDATA[L’achat d’un Onewheel représente un certain effort financier pouvant aller jusqu’à 4000€. Nul n’étant à l’abri d’une panne, si votre Onewheel a moins de 2ans, vous pouvez faire jouer la Garantie Légale de Conformité qui offre des garanties bien supérieures à la garantie constructeur qui n’est que de 6mois/1000km ou la garantie commerciale. Il est … Lire la suite de « Garantie Onewheel » L’article Garantie Onewheel est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Floatwheel ADV vs Onewheel GT – Infinity War]]></title>
+      <link>https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=floatwheel-adv-vs-onewheel-gt</link>
+      <guid isPermaLink="false">11fyvaj-1bh986t</guid>
+      <pubDate>Sun, 22 Mar 2026 21:15:07 GMT</pubDate>
+      <description><![CDATA[Floatwheel ADV vs Onewheel GT – Infinity War Grace à un prix des plus attractifs, basé sur la technologie open source VESC et très bien équipé, le Floatwheel ADV se présente clairement comme un sérieux outsider face au Onewheel GT. L’ADV propose en effet des améliorations significatives en termes de tension de batterie, de puissance, … Lire la suite de « Floatwheel ADV vs Onewheel GT – Infinity War » L’article Floatwheel ADV vs Onewheel GT – Infinity War est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel XR vs XR Classic]]></title>
+      <link>https://uneroo.fr/onewheel-xr-vs-xr-classic/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=onewheel-xr-vs-xr-classic</link>
+      <guid isPermaLink="false">thjiun-1bh986t</guid>
+      <pubDate>Mon, 09 Mar 2026 15:48:22 GMT</pubDate>
+      <description><![CDATA[Le Onewheel XR Classic est vendu comme une évolution de l’XR original. En réalité, il partage bien plus d’ADN avec le GT qu’avec son supposé prédécesseur le XR… et c’est une information significative avant d’acheter. XR Classic : Ce que Future Motion ne vous dit pas vraiment Quand Future Motion a lancé le Onewheel XR Classic fin … Lire la suite de « Onewheel XR vs XR Classic » L’article Onewheel XR vs XR Classic est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Floatwheel ADV vs Onewheel GT-S – ENDGAME]]></title>
+      <link>https://uneroo.fr/floatwheel-adv-vs-onewheel-gt-s/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=floatwheel-adv-vs-onewheel-gt-s</link>
+      <guid isPermaLink="false">ql265n-1bh986t</guid>
+      <pubDate>Fri, 27 Feb 2026 23:00:56 GMT</pubDate>
+      <description><![CDATA[Floatwheel ADV vs Onewheel GT-S – ENDGAME Octobre 2023 : Lancement du Onewheel GT-S à 3850€ pour faire face aux performances du Floatwheel ADV présenté comme LE « GT Killer ».Vendu à 2150USD et bien équipé, le Floatwheel ADV est basé sur la technologie open source VESC et propose des performances assez proches et même parfois bien … Lire la suite de « Floatwheel ADV vs Onewheel GT-S – ENDGAME » L’article Floatwheel ADV vs Onewheel GT-S – ENDGAME est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Performing a motor harness swap/repair]]></title>
+      <link>https://pev.dev/t/performing-a-motor-harness-swap-repair/2914</link>
+      <guid isPermaLink="false">x3251j-vbx98k</guid>
+      <pubDate>Sun, 28 Dec 2025 02:23:16 GMT</pubDate>
+      <description><![CDATA[Here is a full video tutorial on how to perform a harness swap on your onewheel motor. This tutorial is pretty close to universal across motors, but will vary depending on your personal configuration (fusion core, etc). 3 posts - 3 participants Read full topic]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Rally XL Is Here: The Most Powerful Onewheel Ever Built]]></title>
+      <link>https://fallman.tech/onewheel-rally-xl-performance-review/</link>
+      <guid isPermaLink="false">1mwte8g-1p4alnb</guid>
+      <pubDate>Mon, 11 Aug 2025 18:53:35 GMT</pubDate>
+      <description><![CDATA[The moment you step onto the Rally XL, you know it’s different. The tire hums, torque surges, and the trail ahead suddenly feels smaller. Future Motion didn’t just make a bigger board, they built a machine that redefines what a Onewheel can do, improving the GT S-Series. What’s New with the Rally XL? The Rally ... Read more]]></description>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel FST]]></title>
+      <link>https://uneroo.fr/onewheel-fst/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=onewheel-fst</link>
+      <guid isPermaLink="false">1h06xmp-1bh986t</guid>
+      <pubDate>Mon, 07 Jul 2025 21:06:20 GMT</pubDate>
+      <description><![CDATA[FST signifie Fluid Stance Technology. Il s’agit d’un système modulaire pour les pads avant et arrière de votre Onewheel GT, GT-S, Pint et PintX. Ce kit FST est conçu pour offrir aux riders un meilleur contrôle de leur Onewheel. Seulement disponible aux USA à ce jour, le kit FST de base (sans blocks incurvés) revient … Lire la suite de « Onewheel FST » L’article Onewheel FST est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Appairage sur un Onewheel]]></title>
+      <link>https://uneroo.fr/appairage-controleur-bms-onewheel/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=appairage-controleur-bms-onewheel</link>
+      <guid isPermaLink="false">1eqp73z-1bh986t</guid>
+      <pubDate>Wed, 05 Mar 2025 22:03:40 GMT</pubDate>
+      <description><![CDATA[Sur un Onewheel, l’appairage du contrôleur et du BMS est un processus qui associe ces deux composants électroniques essentiels au bon fonctionnement de votre planche. Le contrôleur c’est un peu le cerveau du Onewheel. Il gère l’équilibre, la vitesse et la puissance envoyée au moteur.Le BMS (Battery Management System), quant à lui, s’occupe de la … Lire la suite de « Appairage sur un Onewheel » L’article Appairage sur un Onewheel est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheels In Snow]]></title>
+      <link>https://thesidewaysmovement.com/onewheels-in-snow/</link>
+      <guid isPermaLink="false">ifzov8-x68bug</guid>
+      <pubDate>Thu, 27 Feb 2025 06:13:45 GMT</pubDate>
+      <description><![CDATA[Onewheels In Snow. The Onewheel is a marvel of personal transportation, a single-wheeled wonder that lets you carve through pavement like a snowboard on asphalt. But what about when the asphalt disappears under a blanket of white? Can you really ride a Onewheel in the snow? The answer is a qualified “yes,” but it comes […] The post Onewheels In Snow appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel XR Classic vs XR]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-xr-classic-vs-xr/</link>
+      <guid isPermaLink="false">1j9bzdo-pvoxjp</guid>
+      <pubDate>Fri, 10 Jan 2025 05:55:09 GMT</pubDate>
+      <description><![CDATA[Onewheel XR Classic VS XR. The Onewheel XR Classic is an exciting evolution in the world of personal electric transportation. It builds upon the success of its predecessor, the original Onewheel XR. With various enhancements designed for novice riders and seasoned enthusiasts, the XR Classic promises to deliver an unparalleled riding experience. Introducing the Onewheel […] The post Onewheel XR Classic vs XR appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/feed/">The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Review Top Ride the Waves: The Best Figueira da Foz Onewheel Lessons & Tours]]></title>
+      <link>https://medium.com/@virgendelorse/review-top-ride-the-waves-the-best-figueira-da-foz-onewheel-lessons-tours-dbf5df565610?source=rss------onewheel-5</link>
+      <guid isPermaLink="false">jzxxle-bhpslz</guid>
+      <pubDate>Wed, 06 Nov 2024 09:16:16 GMT</pubDate>
+      <description><![CDATA[Ride the Waves: The Best Figueira da Foz Onewheel Lessons & Tours Continue reading on Medium »]]></description>
+      <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Review Top Onewheel Electric Hoverboard Lessons and Bay Ride: Your Ultimate California Adventure]]></title>
+      <link>https://medium.com/@ricksmacklin/review-top-onewheel-electric-hoverboard-lessons-and-bay-ride-your-ultimate-california-adventure-cdfe3f24d70d?source=rss------onewheel-5</link>
+      <guid isPermaLink="false">14l4m83-bhpslz</guid>
+      <pubDate>Tue, 22 Oct 2024 18:56:21 GMT</pubDate>
+      <description><![CDATA[Onewheel Electric Hoverboard Lessons and Bay Ride: Your Ultimate California Adventure Continue reading on Medium »]]></description>
+      <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Maintenance]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-maintenance/</link>
+      <guid isPermaLink="false">10hd3yd-x68bug</guid>
+      <pubDate>Fri, 27 Sep 2024 05:39:59 GMT</pubDate>
+      <description><![CDATA[As any Onewheel enthusiast knows, proper maintenance is key to ensuring a smooth, safe, and enjoyable ride. A well-maintained Onewheel boosts performance and extends its lifespan, giving you many thrilling rides on the road, trail, or wherever your adventure takes you. Onewheel Maintenance Schedule – Tips and Tricks for a Smooth Ride In this blog […] The post Onewheel Maintenance appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[VESC battery packs]]></title>
+      <link>https://eastride.de/vesc-battery-packs/</link>
+      <guid isPermaLink="false">1k9jkvg-1mgosak</guid>
+      <pubDate>Sun, 24 Mar 2024 11:55:25 GMT</pubDate>
+      <description><![CDATA[When Onewheel and VESC-Conversions becoming popular the demand on professional and secure batteries and BMS-solutions was getting high. There a some professional and trusty battery builder out there. This site should give you some overview and reference to the available battery options as well as DIY solutions for the US and EU market. Available /… VESC battery packs weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Buy a Onewheel or read this]]></title>
+      <link>https://medium.com/@nathansantos_79159/buy-a-onewheel-or-read-this-c77813351e01?source=rss------onewheel-5</link>
+      <guid isPermaLink="false">1eo8w9r-bhpslz</guid>
+      <pubDate>Fri, 02 Feb 2024 17:18:43 GMT</pubDate>
+      <description><![CDATA[Personal experiences and insights gained from two years of riding Onewheels, exploring how this hobby can shape one’s perspective. Continue reading on Medium »]]></description>
+      <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Pourquoi choisir VESC ?]]></title>
+      <link>https://uneroo.fr/pourquoi-choisir-vesc/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=pourquoi-choisir-vesc</link>
+      <guid isPermaLink="false">llfypr-1bh986t</guid>
+      <pubDate>Tue, 23 Jan 2024 01:11:51 GMT</pubDate>
+      <description><![CDATA[Pourquoi donc choisir VESC ? Pour bien comprendre pourquoi de plus en plus d’utilisateurs préfèrent VESC à Onewheel, il faut d’abord se pencher sur les différences fondamentales entre les deux plateformes. VESC (Vedder Electronic Speed Controller) est un contrôleur de moteur open-source qui peut être utilisé pour convertir divers types de boards ou créer sa … Lire la suite de « Pourquoi choisir VESC ? » L’article Pourquoi choisir VESC ? est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel S-Series: The World’s First High Performance Onewheel for Racers and Average Riders (Me)]]></title>
+      <link>https://oneradwheel.com/onewheel-s-series-the-worlds-first-high-performance-onewheel-for-racers-and-average-riders-me/</link>
+      <guid isPermaLink="false">ltvvjt-1r0910t</guid>
+      <pubDate>Wed, 10 Jan 2024 16:48:23 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our full article here. Summary below. The Onewheel GT S-Series, priced at $3200, addresses safety concerns despite a recent...]]></description>
+      <source url="https://oneradwheel.com/feed">OneRadWheel - Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Riparo Padded CE Kevlar® Flannel Shirt Review: Onewheel, Motorcycle, or Skateboard Riding…]]></title>
+      <link>https://honestinfluencer.medium.com/riparo-padded-ce-kevlar-flannel-shirt-review-onewheel-or-skateboard-riding-protection-b0520e49bbcc?source=rss------onewheel-5</link>
+      <guid isPermaLink="false">17deey0-bhpslz</guid>
+      <pubDate>Sat, 06 Jan 2024 13:19:49 GMT</pubDate>
+      <description><![CDATA[This RIPARO PADDED FLANNEL SHIRT w/ Kevlar® interior isn’t just another layer; it’s a game-changer for riders like me. From carving… Continue reading on Medium »]]></description>
+      <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[FloatBoxx]]></title>
+      <link>https://uneroo.fr/floatboxx/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=floatboxx</link>
+      <guid isPermaLink="false">1bmtqo7-1bh986t</guid>
+      <pubDate>Tue, 28 Nov 2023 13:58:44 GMT</pubDate>
+      <description><![CDATA[FloatBoxx est une entreprise belge qui conçoit et produit des pièces détachées destinés aux passionnés de Onewheel désirant monter des board à base de contrôleur VESC. Leur produit phare est la déjà mythique FloatBoxx. Ils produisent aussi des rails (CyberRails) pour VESC et Onewheel. 👉🏼 Voir aussi CustomWheelShop FloatBoxx La Floatboxx est un boitier permettant … Lire la suite de « FloatBoxx » L’article FloatBoxx est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Hoverwheel V1]]></title>
+      <link>https://bwees.io/blog/hoverwheel-v1/</link>
+      <guid isPermaLink="false">lo9306-8s5mi4</guid>
+      <pubDate>Tue, 21 Nov 2023 16:35:58 GMT</pubDate>
+      <description><![CDATA[A Onewheel alternative built from the electronics of a broken hoverboard for $400]]></description>
+      <source url="https://bwees.io/index.xml">bwees.io</source>
+    </item>
+    <item>
+      <title><![CDATA[Indice de réparabilité]]></title>
+      <link>https://uneroo.fr/indice-reparabilite/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=indice-reparabilite</link>
+      <guid isPermaLink="false">nv55uv-1bh986t</guid>
+      <pubDate>Fri, 17 Nov 2023 08:09:10 GMT</pubDate>
+      <description><![CDATA[L’indice de réparabilité est une note ou mesure qui évalue la facilité avec laquelle un produit peut être réparé. Il vise à informer les consommateurs sur la capacité de réparation des produits qu’ils achètent. Cela permet d’encourager ainsi la durabilité, de réelles économies et la réduction des déchets électroniques. Comment est il calculé ? Cet … Lire la suite de « Indice de réparabilité » L’article Indice de réparabilité est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel GT S-Series]]></title>
+      <link>https://uneroo.fr/onewheel-gt-s/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=onewheel-gt-s</link>
+      <guid isPermaLink="false">15mmq3f-1bh986t</guid>
+      <pubDate>Wed, 08 Nov 2023 07:11:57 GMT</pubDate>
+      <description><![CDATA[Onewheel GT-S Series Le Onewheel GT-S Series est une déclinaison du Onewheel GT axée sur la performance. La vitesse max est désormais de 40km/h. Son arrivée suscite naturellement une comparaison avec son prédécesseur, le Onewheel GT. Le Onewheel GT-S est taillée pour les riders aguerris et les passionnés cherchant à repousser les limites de leurs … Lire la suite de « Onewheel GT S-Series » L’article Onewheel GT S-Series est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Should you buy a Onewheel GT or a Onewheel Pint X?]]></title>
+      <link>https://floatgang.com/2023/10/07/should-you-buy-onewheel-gt-or-onewheel-pint-x/</link>
+      <guid isPermaLink="false">owfenj-mr6em8</guid>
+      <pubDate>Sun, 08 Oct 2023 02:15:46 GMT</pubDate>
+      <description><![CDATA[Onewheels have been making waves in the world of personal electric vehicles lately. Thanks to a CSPC-mandated recall enforced upon Future Motion, the company behind Onewheel products, these innovative devices have garnered... The post Should you buy a Onewheel GT or a Onewheel Pint X? appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel vs Electric Scooter: Urban Commuting Redefined]]></title>
+      <link>https://scootershype.medium.com/onewheel-vs-electric-scooter-urban-commuting-redefined-d69b3063b02a?source=rss------onewheel-5</link>
+      <guid isPermaLink="false">s5rd4x-bhpslz</guid>
+      <pubDate>Thu, 05 Oct 2023 03:16:20 GMT</pubDate>
+      <description><![CDATA[In the bustling streets of the urban jungle, Onewheel and electric scooters stand out as modern alternatives for commuting. Continue reading on Medium »]]></description>
+      <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Haptic Buzz]]></title>
+      <link>https://uneroo.fr/haptic-buzz/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=haptic-buzz</link>
+      <guid isPermaLink="false">1oqsi0n-1bh986t</guid>
+      <pubDate>Sun, 01 Oct 2023 10:29:47 GMT</pubDate>
+      <description><![CDATA[Depuis 2015 et le tout premier Onewheel, ce produit est devenu assez controversé. Est-il dangereux ou pas ? Ce qui est sûr, c’est que plusieurs blessures très graves causées par des chutes et même des décès démontrent que rider un Onewheel comporte des risques sérieux. En effet, la CPSC (commission américaine de sécurité des produits … Lire la suite de « Haptic Buzz » L’article Haptic Buzz est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Ultimate Guide: Onewheel Accessories in 2023]]></title>
+      <link>https://floatgang.com/2023/08/23/best-onewheel-accessories/</link>
+      <guid isPermaLink="false">1hhqe4k-mr6em8</guid>
+      <pubDate>Wed, 23 Aug 2023 17:53:23 GMT</pubDate>
+      <description><![CDATA[Welcome to the Ultimate Onewheel Accessories Guide. Whether you’re a seasoned Onewheel rider seeking to fine-tune your board’s performance or a curious newcomer eager to float on your first journey,... The post Ultimate Guide: Onewheel Accessories in 2023 appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Orlando Onewheel – Wheel Wednesday Group Ride]]></title>
+      <link>https://floatgang.com/2023/05/31/orlando-onewheel-group-ride-review/</link>
+      <guid isPermaLink="false">1g2bcvq-mr6em8</guid>
+      <pubDate>Wed, 31 May 2023 15:13:16 GMT</pubDate>
+      <description><![CDATA[Most people get excited about Taco Tuesday or Sushi Wednesday at Publix, I would be lying if I said I didn’t get frothed about Tacos too… but when it comes... The post Orlando Onewheel – Wheel Wednesday Group Ride appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Etoil’ Clown !]]></title>
+      <link>https://uneroo.fr/etoil-clown/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=etoil-clown</link>
+      <guid isPermaLink="false">d19skv-1bh986t</guid>
+      <pubDate>Thu, 18 May 2023 22:44:28 GMT</pubDate>
+      <description><![CDATA[Un soignant se lance dans un tour de France en Onewheel pour apporter des fonds à l’association Etoil’ Clown Source : France Televisions Écrit par Carla Butting Aide-soignant à La Rochelle, Jerem Ada part pour un tour de France caritatif. Il voyagera à bord de son Onewheel GT, pour l’association Etoil’ Clown, qui organise des visites … Lire la suite de « Etoil’ Clown ! » L’article Etoil&rsquo; Clown ! est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[What’s a Onewheel? – Onewheel vs Hoverboards]]></title>
+      <link>https://floatgang.com/2023/05/15/onewheel-hoverboards/</link>
+      <guid isPermaLink="false">1hghdv0-mr6em8</guid>
+      <pubDate>Mon, 15 May 2023 19:59:03 GMT</pubDate>
+      <description><![CDATA[“Hey, wanna float?” No, that’s not an invitation to go hang out in a lazy river. It’s not a plea to take part in your local parade. And it’s probably... The post What’s a Onewheel? – Onewheel vs Hoverboards appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Tips For New Onewheel Riders]]></title>
+      <link>https://floatgang.com/2023/04/05/tips-for-new-onewheel-riders/</link>
+      <guid isPermaLink="false">1neyi6w-mr6em8</guid>
+      <pubDate>Wed, 05 Apr 2023 20:00:27 GMT</pubDate>
+      <description><![CDATA[So, you finally got yourself a Onewheel. First, welcome to the gang. Second, what took you so long? This electric skateboard with a go-kart wheel stuck in the middle of... The post Tips For New Onewheel Riders appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Tire weight comparison chart]]></title>
+      <link>https://eastride.de/onewheel-tire-weights/</link>
+      <guid isPermaLink="false">1lgdjmu-1mgosak</guid>
+      <pubDate>Tue, 28 Mar 2023 20:03:03 GMT</pubDate>
+      <description><![CDATA[Slick FF x Hoosier Whisper Wide (Pint) = 38.2oz – 1083gFF x Hoosier Whisper 6″ = 39.6oz – 1123gTFL HellaRad 5“ (Pint) = 42.3oz – 1199gStock 5” Unilli Slick (Pint) = 42.9oz – 1216gBurris 5“ Slick (Pint) = 42.9oz – 1216gBurris 6″ Slick = 43.8oz – 1241gFF x Hoosier Nimbus 5.5″ = 44.4oz – 1259gC&R… Onewheel Tire weight comparison chart weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Favorite Onewheel Tricks]]></title>
+      <link>https://floatgang.com/2023/03/22/favorite-onewheel-tricks/</link>
+      <guid isPermaLink="false">ovftoi-mr6em8</guid>
+      <pubDate>Wed, 22 Mar 2023 20:01:35 GMT</pubDate>
+      <description><![CDATA[There are so many incredible things you can do on a Onewheel. You can cruise around town drinking a latte. Commute through the city to work. Head to and from... The post Favorite Onewheel Tricks appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Top Places to Float in Orlando]]></title>
+      <link>https://floatgang.com/2023/02/04/best-places-to-float-in-orlando/</link>
+      <guid isPermaLink="false">1nzcwy-mr6em8</guid>
+      <pubDate>Sun, 05 Feb 2023 03:54:25 GMT</pubDate>
+      <description><![CDATA[We love our Onewheel, this wonderful device that is so versatile and fun. These EV bundles of joy are perfect for so many different occasions. What other device can get... The post Top Places to Float in Orlando appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Can I travel with my Onewheel on an Airplane?]]></title>
+      <link>https://floatgang.com/2023/01/26/can-i-travel-with-my-onewheel-on-an-airplane/</link>
+      <guid isPermaLink="false">4hk4eh-mr6em8</guid>
+      <pubDate>Thu, 26 Jan 2023 15:00:54 GMT</pubDate>
+      <description><![CDATA[Onewheel’s make it a fun way to explore different terrains, but if you plan to travel with one, it’s important to know if you can bring it on an airplane... The post Can I travel with my Onewheel on an Airplane? appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Firmware modification tools for Onewheel]]></title>
+      <link>https://eastride.de/onewheel-fw-hack/</link>
+      <guid isPermaLink="false">1f92xpn-1mgosak</guid>
+      <pubDate>Wed, 28 Dec 2022 14:51:08 GMT</pubDate>
+      <description><![CDATA[Firmware Modifications for your Onewheel by Rewheel.app / Nishanth Samala What is this Onewheel Firmware Hack? Basically you can access the Factory Mode of your Onewheel when connecting via bluetooth and nRF app or website and writing commands to your fm controller firmware to calibrate your hall effect sensors, tilt or BMS / Battery pairing.… Firmware modification tools for Onewheel weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Best One Wheel Electric Scooter — Self Balancing Best Electric Unicycles in 2022]]></title>
+      <link>https://medium.com/@electricscooteradviser/best-one-wheel-electric-scooter-self-balancing-best-electric-unicycles-in-2022-cea9fe53d269?source=rss------onewheel-5</link>
+      <guid isPermaLink="false">106br53-bhpslz</guid>
+      <pubDate>Thu, 15 Dec 2022 07:18:18 GMT</pubDate>
+      <description><![CDATA[Looking for the best one wheel electric scooters? Yeah, it’s a demand of time as electric unicycles are considered to be the next road… Continue reading on Medium »]]></description>
+      <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Bearing Press]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-bearing-press/</link>
+      <guid isPermaLink="false">16kpbqw-1fni7hx</guid>
+      <pubDate>Sun, 11 Dec 2022 06:37:50 GMT</pubDate>
+      <description><![CDATA[Onewheel Bearing Press. I am setting up a Onewheel Mechanical Service Shop in my garage, so to make it easy to change Onewheel Bearings, I decided to get myself a 3 Ton Arbor Press. I am Psyched to use this 3-ton Arbor Press for Onewheel Bearing Changes as well as other projects. It fits nicely […] The post Onewheel Bearing Press appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
+      <link>https://uneroo.fr/floatwheel-adv-onewheel-alternative/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=floatwheel-adv-onewheel-alternative</link>
+      <guid isPermaLink="false">14jcfu7-1bh986t</guid>
+      <pubDate>Fri, 09 Dec 2022 06:04:52 GMT</pubDate>
+      <description><![CDATA[Floatwheel ADV, l’alternative au Onewheel ? Le Onewheel a été créé en 2015 par Kyle Doerksen. La commercialisation du tout premier Onewheel (Original) s’est accompagnée de son lot de brevets et rime encore avec un monopole qui dure depuis bien longtemps. Future Motion, le fabricant, n’a donc eu aucune concurrence pendant des années régnant ainsi … Lire la suite de « Floatwheel ADV, l’alternative au Onewheel ? » L’article Floatwheel ADV, l’alternative au Onewheel ? est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[The Onewheel Podcast with Guest Jimmy Chang]]></title>
+      <link>https://oneradwheel.com/the-onewheel-podcast-with-guest-jimmy-chang/</link>
+      <guid isPermaLink="false">teegqm-1r0910t</guid>
+      <pubDate>Wed, 19 Oct 2022 00:30:05 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. I’ve long critiqued Future Motion, particularly regarding the Onewheel, while also being a...]]></description>
+      <source url="https://oneradwheel.com/feed">OneRadWheel - Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Conversion Onewheel VESC]]></title>
+      <link>https://uneroo.fr/conversion-onewheel-vesc/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=conversion-onewheel-vesc</link>
+      <guid isPermaLink="false">iust27-1bh986t</guid>
+      <pubDate>Sun, 16 Oct 2022 10:09:47 GMT</pubDate>
+      <description><![CDATA[Conversion Onewheel en VESC Dans cet article, nous allons essayer de vous expliquer un peu ce qu’est VESC, à quoi ça sert, comment convertir son Onewheel XR ou Onewheel+ en VESC et où trouver les éléments nécessaires à cette conversion. Qu’est ce que VESC ? VESC, c’est l’abréviation de Vedder’s Electronic Speed Controller, un projet … Lire la suite de « Conversion Onewheel VESC » L’article Conversion Onewheel VESC est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Test Autonomie GT vs XR + CBXR]]></title>
+      <link>https://uneroo.fr/test-autonomie-gt-vs-xr/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=test-autonomie-gt-vs-xr</link>
+      <guid isPermaLink="false">nq0gev-1bh986t</guid>
+      <pubDate>Fri, 07 Oct 2022 10:02:16 GMT</pubDate>
+      <description><![CDATA[Test Autonomie GT vs XR + CBXR L’équipe The Float Life nous régale encore avec un test d’autonomie entre le Onewheel GT et un XR monté avec une batterie CBXR. Jeff Mc Cosker et Elijah Soto se font plaisir sur un parcours 50% street et 50% trail où ils leur en mettent plein la geule … Lire la suite de « Test Autonomie GT vs XR + CBXR » L’article Test Autonomie GT vs XR + CBXR est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[La politique de Future Motion]]></title>
+      <link>https://uneroo.fr/la-politique-de-future-motion/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=la-politique-de-future-motion</link>
+      <guid isPermaLink="false">11x2nfj-1bh986t</guid>
+      <pubDate>Wed, 05 Oct 2022 17:30:56 GMT</pubDate>
+      <description><![CDATA[La politique de FUTURE MOTION Future Motion est implantée à Santa Cruz, Californie. Le spot préféré des surfeurs californiens.Au début, en 2015, Future Motion était plutôt cool. L’esprit startup, ils venaient de sortir le Onewheel (v1) qui était à l’époque un ovni. Puis, en 2017, le Onewheel+ est sorti avec 50% de puissance supplémentaire et … Lire la suite de « La politique de Future Motion » L’article La politique de Future Motion est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Comparatif Onewheel XR vs GT]]></title>
+      <link>https://uneroo.fr/comparatif-onewheel-xr-vs-gt/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=comparatif-onewheel-xr-vs-gt</link>
+      <guid isPermaLink="false">1ux0yzp-1bh986t</guid>
+      <pubDate>Wed, 05 Oct 2022 17:30:25 GMT</pubDate>
+      <description><![CDATA[Comparatif Onewheel XR vs GT Après de longues semaines d’attente, le Onewheel GT a enfin quitté l’usine de Santa Cruz. Les premiers utilisateurs américains livrés en mars ont pu découvrir la bête que tout le monde attendait et n’ont pas manqué de la comparer au roi XR qui régnait depuis 4ans. La GT en quelques … Lire la suite de « Comparatif Onewheel XR vs GT » L’article Comparatif Onewheel XR vs GT est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Avis pneus sculptés pour Onewheel XR]]></title>
+      <link>https://uneroo.fr/avis-pneus-sculptes-onewheel-xr/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=avis-pneus-sculptes-onewheel-xr</link>
+      <guid isPermaLink="false">pco9fr-1bh986t</guid>
+      <pubDate>Mon, 03 Oct 2022 10:43:14 GMT</pubDate>
+      <description><![CDATA[Avis pneus sculptés pour Onewheel XR On entend souvent la question : C’est quoi le meilleur pneu pour Onewheel ? Il n’y a pas vraiment de réponse à cette question. Tout ça est très personnel, c’est une question de feeling. Ça dépend beaucoup de notre style de ride, de ce que l’on recherche dans un … Lire la suite de « Avis pneus sculptés pour Onewheel XR » L’article Avis pneus sculptés pour Onewheel XR est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[How to Rent a Onewheel in Orlando]]></title>
+      <link>https://floatgang.com/2022/06/25/orlando-onewheel-rentals/</link>
+      <guid isPermaLink="false">1j8n7tv-mr6em8</guid>
+      <pubDate>Sat, 25 Jun 2022 14:37:02 GMT</pubDate>
+      <description><![CDATA[Commitment is tough – we get it. With a Onewheel costing anywhere from $1800 – $2200, it’s no wonder everyone is asking: Can I rent a Onewheel before I make... The post How to Rent a Onewheel in Orlando appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[Is The Onewheel GT Worth It?]]></title>
+      <link>https://floatgang.com/2022/05/31/is-the-onewheel-gt-worth-it/</link>
+      <guid isPermaLink="false">1hsd25d-mr6em8</guid>
+      <pubDate>Tue, 31 May 2022 14:50:25 GMT</pubDate>
+      <description><![CDATA[There’s a new king of the Onewheel universe! The Onewheel GT is a completely new electric board that takes the best parts of the Onewheel Pint X and Onewheel XR... The post Is The Onewheel GT Worth It? appeared first on Float Gang .]]></description>
+      <source url="https://floatgang.com/feed/">Float Gang</source>
+    </item>
+    <item>
+      <title><![CDATA[VESC-XR Onewheel Conversion]]></title>
+      <link>https://eastride.de/vesc-xr-onewheel-conversion/</link>
+      <guid isPermaLink="false">hieqnv-1mgosak</guid>
+      <pubDate>Thu, 05 May 2022 06:57:49 GMT</pubDate>
+      <description><![CDATA[LAST UPDATE: 07/12/2022 AN OVERVIEW AND GUIDE FOR CONVERTING YOUR ONEWHEEL XR TO VESCParts List + Infos + Prices + Installation + Shapes + Reviews + Links & Community Madd Max (@mexichinoguy) VESC review VESC: the Torque King & Onewheel GT killer? VESC Parts LITTLE FOCFM V3 ESC 84V 20S COMPLETE KIT Includes all the… VESC-XR Onewheel Conversion weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Best Onewheel Helmet: TSG PASS PRO vs PREDATOR DH6-XG Review]]></title>
+      <link>https://oneradwheel.com/best-onewheel-helmet-tsg-pass-pro-vs-predator-dh6-xg-review/</link>
+      <guid isPermaLink="false">1xntiz8-1r0910t</guid>
+      <pubDate>Wed, 04 May 2022 16:16:11 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL comparison here. Review summary below. The TSG Pass Pro and Predator DH6-Xg helmets are two popular choices...]]></description>
+      <source url="https://oneradwheel.com/feed">OneRadWheel - Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[The Float Effect]]></title>
+      <link>https://eastride.de/the-float-effect/</link>
+      <guid isPermaLink="false">ru8lim-1mgosak</guid>
+      <pubDate>Mon, 11 Apr 2022 11:48:00 GMT</pubDate>
+      <description><![CDATA[THE BEST ONEWHEEL MOVIES : A OVERVIEW There are a lot of new onewheel films / movies recently published. Here you will find an overview of my personal fav’s. From onewheel trickery and stunts, festivals over polished onewheel commercials to really cinematic onewheel films with great story and a onewheel rap video for the movie… The Float Effect weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Future Motion CEO Explains the Reason for Onewheel GT Ghosting]]></title>
+      <link>https://oneradwheel.com/future-motion-ceo-explains-the-reason-for-onewheel-gt-ghosting/</link>
+      <guid isPermaLink="false">10iek1p-1ajghu</guid>
+      <pubDate>Tue, 05 Apr 2022 16:40:23 GMT</pubDate>
+      <description><![CDATA[FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[The Scoop on Future Motion’s Latest Self-Sabotage]]></title>
+      <link>https://oneradwheel.com/the-scoop-on-future-motions-latest-self-sabotage/</link>
+      <guid isPermaLink="false">1wz0rw7-1r0910t</guid>
+      <pubDate>Sat, 02 Apr 2022 21:26:18 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. In 2022, Future Motion, the creator of Onewheel, faced significant challenges, mostly of...]]></description>
+      <source url="https://oneradwheel.com/feed">OneRadWheel - Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Is the Onewheel GT Ghosting Problem Real or Overblown?]]></title>
+      <link>https://oneradwheel.com/is-the-onewheel-gt-ghosting-problem-real-or-overblown/</link>
+      <guid isPermaLink="false">79cv5l-1ajghu</guid>
+      <pubDate>Fri, 01 Apr 2022 01:18:16 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. Onewheel Ghosting is a concerning phenomenon where a Onewheel continues to self-balance and...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[1# EASTRIDE Workshop]]></title>
+      <link>https://eastride.de/1-eastride-workshop-2022/</link>
+      <guid isPermaLink="false">1qnfzru-1mgosak</guid>
+      <pubDate>Wed, 30 Mar 2022 17:43:41 GMT</pubDate>
+      <description><![CDATA[Am 5.3. 2022 fand unser erster EASTRIDE – Onewheel Workshop / Einsteiger-Kurs statt. Es ist ein Gefühl wie fliegen, ein Gefühl der Leichtigkeit und der Freiheit. Es bewegt dich dazu rauszugehen, neue Orte oder wunderschöne Trails zu entdecken und den ganzen Tag durch die Natur & Landschaft zu floaten. Welcome to the Floatlife -o-Tom &… 1# EASTRIDE Workshop weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel GT DOA and Ghosting: Should We Be Concerned?]]></title>
+      <link>https://oneradwheel.com/onewheel-gt-ghosting-should-we-be-concerned/</link>
+      <guid isPermaLink="false">q224v1-1ajghu</guid>
+      <pubDate>Sun, 13 Mar 2022 06:22:00 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. The new Onewheel GT has been plagued by significant issues. Many reports have...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[The New Onewheel GT: Early Review]]></title>
+      <link>https://oneradwheel.com/the-new-onewheel-gt-early-review/</link>
+      <guid isPermaLink="false">1eo8926-1ajghu</guid>
+      <pubDate>Thu, 10 Mar 2022 15:40:47 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. The Onewheel GT is a high-performance electric board that excels in speed and...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Trail Etiquette and General Good Riding Practices]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-trail-etiquette/</link>
+      <guid isPermaLink="false">1aul5qj-x68bug</guid>
+      <pubDate>Fri, 18 Feb 2022 03:12:46 GMT</pubDate>
+      <description><![CDATA[Onewheel Trail Etiquette. As with everything in life, respect and common sense go a long way in garnering a good standing in your community. And once you lose it, it is hard to get it back. Not only can you help your local Onewheel community, but the Onewheel movement as a whole. Do what you […] The post Onewheel Trail Etiquette and General Good Riding Practices appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Best Cold Weather Gloves for Onewheel, EUC, Escooter & Ebike: 1Protect All Weather Gloves]]></title>
+      <link>https://oneradwheel.com/best-cold-weather-gloves-for-onewheel-euc-escooter-eskate-ebike-1protect-all-weather-gloves/</link>
+      <guid isPermaLink="false">19x7wqf-1ajghu</guid>
+      <pubDate>Sun, 09 Jan 2022 00:04:00 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. The 1Protect Gloves are perfect for riders who value protection but dislike bulky...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Adding a Onewheel GPS Tracker that Works! Invoxia Review]]></title>
+      <link>https://oneradwheel.com/a-onewheel-gps-tracker-that-works-invoxia-review/</link>
+      <guid isPermaLink="false">530d4h-1ajghu</guid>
+      <pubDate>Thu, 09 Dec 2021 15:05:00 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL review here. Summary below. The Invoxia Cellular GPS tracker offers an effective solution for tracking and potentially...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[The New Onewheel Pint X is an XR Killer]]></title>
+      <link>https://oneradwheel.com/the-new-pint-x-is-a-onewheel-xr-killer/</link>
+      <guid isPermaLink="false">1isagk-1ajghu</guid>
+      <pubDate>Sat, 27 Nov 2021 04:15:00 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. The Onewheel Pint X offers the guts of the Onewheel XR in a...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Balance Board]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-balance-board/</link>
+      <guid isPermaLink="false">10yozun-1fni7hx</guid>
+      <pubDate>Fri, 08 Oct 2021 03:11:02 GMT</pubDate>
+      <description><![CDATA[Building a Onewheel Balance Board. With the growing popularity of aftermarket Onewheel rails and other 3rd party accessories. Many Onewheel enthusiasts probably have a box full of Onewheel parts and spares, enough to be ready for almost any situation. A great way to use up those spares, as well as to challenge and train your […] The post Onewheel Balance Board appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Get the Best Onewheel Suspension with Kiil Rides]]></title>
+      <link>https://oneradwheel.com/get-the-best-onewheel-suspension-with-kiil-rides/</link>
+      <guid isPermaLink="false">hyvjhh-1ajghu</guid>
+      <pubDate>Sun, 22 Aug 2021 05:09:16 GMT</pubDate>
+      <description><![CDATA[We’ve moved! Check out our FULL article here. Summary below. The Kiil Rides Suspension for the Onewheel caters to avid Onewheel enthusiasts seeking...]]></description>
+      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[eastride – Onewheel Power Button & Sidekicks]]></title>
+      <link>https://eastride.de/eastride-power-button-sidekicks/</link>
+      <guid isPermaLink="false">k1is0l-1mgosak</guid>
+      <pubDate>Tue, 13 Jul 2021 15:03:25 GMT</pubDate>
+      <description><![CDATA[EASTRIDE ONEWHEEL XR RAIL GUARDS / RAILKICKS + EASTRIDE POWER BUTTON PLUG / COVER EASTRIDE RAILKICKS POWER BUTTON PLUG COVER This is the first batch / prototype of the custom EAST RIDE Sidekicks in black & white. The EAST RIDE Power Button Plug / Cover in white is available soon. Join our newsletter to be… eastride – Onewheel Power Button & Sidekicks weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[eastride / Livestream Talk]]></title>
+      <link>https://eastride.de/eastride-livestream-talk-with-no-limits-to-ride-electric/</link>
+      <guid isPermaLink="false">qclcvc-1mgosak</guid>
+      <pubDate>Mon, 31 May 2021 12:08:21 GMT</pubDate>
+      <description><![CDATA[EASTRIDE onewheel -o- Livestreaming Talk with Nelson from „No Limits to Ride Electric!“ – 30.05.2021]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[How Much Does A Onewheel Weigh?]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-weights/</link>
+      <guid isPermaLink="false">455m7v-x68bug</guid>
+      <pubDate>Sat, 15 May 2021 18:00:54 GMT</pubDate>
+      <description><![CDATA[How much does a onewheel weigh? Maybe you are curious how much weight you just carried on that long walk of shame when your battery died? Or maybe you are estimating your weights when packing for a trip? Either way, there are many reasons why you may want this information. A Onewheel is heavy, and […] The post How Much Does A Onewheel Weigh? appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Racing League]]></title>
+      <link>https://eastride.de/onewheel-racing-league-orl/</link>
+      <guid isPermaLink="false">ot6930-1mgosak</guid>
+      <pubDate>Sat, 10 Apr 2021 11:20:39 GMT</pubDate>
+      <description><![CDATA[Onewheel Racing League (ORL) The ORL is the global organization for elite Onewheel competition founded by Future Motion, the creator of the Onewheel. With the best riders sending it down all types of terrain to finish first, Onewheel racing is a must-watch viewing. The ORL is committed to delivering the highest level racing product, thrilling… Onewheel Racing League weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[OneWheel what?]]></title>
+      <link>https://eastride.de/onewheel-what/</link>
+      <guid isPermaLink="false">6fs2ba-1mgosak</guid>
+      <pubDate>Tue, 23 Mar 2021 20:34:00 GMT</pubDate>
+      <description><![CDATA[I was invited to talk at Radio F.R.E.I., a local radio station in my hometown Erfurt. I had the opportunity to speak about the onewheel, eastride, the addiction, the onewheel community in (eastern) germany, some legal facts and more about this wonderful new e-sport and way of commuting. A big thank you to André Neumann… OneWheel what? weiterlesen]]></description>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Battery Upgrades – ChiBatterySystems]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-battery-upgrades/</link>
+      <guid isPermaLink="false">x293cl-1fni7hx</guid>
+      <pubDate>Wed, 10 Feb 2021 22:35:29 GMT</pubDate>
+      <description><![CDATA[Onewheel Battery Upgrades. Chibatterysystems – Chargers and Battery Upgrade For Onewheel. As Onewheels and other electric rideables become more popular, users have been looking for more range. Some manufacturers have stepped up (namely the Kingsong 16X Electric unicycle) and now offer models with expanded battery capacity giving an “extreme” range to the tune of 100 […] The post Onewheel Battery Upgrades – ChiBatterySystems appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Waterproofing Onewheel Shoes]]></title>
+      <link>https://thesidewaysmovement.com/waterproofing-onewheel-shoes/</link>
+      <guid isPermaLink="false">1d8ntfw-1fni7hx</guid>
+      <pubDate>Fri, 22 Jan 2021 04:43:23 GMT</pubDate>
+      <description><![CDATA[Waterproofing Onewheel Shoes. Are you a rain or shine Onewheeler? Commuting on rainy days and don’t want to get wet feet? Or just love to shred in the rain? You should try Waterproofing Your Onewheel Shoes with a spray-on Silicone waterproofing restorer. Waterproofing Onewheel Shoes Before moving to Vancouver Island, I was somewhat of a […] The post Waterproofing Onewheel Shoes appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Installing FlightFins FlightFrame]]></title>
+      <link>https://thesidewaysmovement.com/installing-flightfins-flightframe/</link>
+      <guid isPermaLink="false">14vrm3e-1fni7hx</guid>
+      <pubDate>Sat, 10 Oct 2020 15:39:37 GMT</pubDate>
+      <description><![CDATA[After hearing some of the benefits of upgrading to Extended Onewheel Rails, we decided to go about installing and testing out the new FlightFins FlightFrame. Replacing a set of Onewheel rails requires a complete disassembly of the board. So what better time to complete some other Onewheel Maintenance projects before installing our FlightFins FlightFrame Onewheel […] The post Installing FlightFins FlightFrame appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-fun-box-obstacle/</link>
+      <guid isPermaLink="false">sfofit-1fni7hx</guid>
+      <pubDate>Tue, 15 Sep 2020 01:11:13 GMT</pubDate>
+      <description><![CDATA[Onewheel Fun Box Obstacle. The Onewheel has allowed riders to ride fun lines just about everywhere they go. But what if you can’t go far? Building an Onewheel Fun Box / Obstacle lets you bring the party with you 🥳 Onewheel Fun Box Obstacle WARNING: Full warning for anyone trying this type of obstacle. At […] The post Onewheel Fun Box Obstacle appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
+      <link>https://thesidewaysmovement.com/fluxskinz-design-your-own-sole-tape/</link>
+      <guid isPermaLink="false">e8p5s1-1fni7hx</guid>
+      <pubDate>Sun, 30 Aug 2020 19:50:54 GMT</pubDate>
+      <description><![CDATA[Fluxskinz Design Your Own Onewheel Sole Tape Grip. The Onewheel community is well known for custom Onewheels. And, with Onewheel accessories now coming in so many different colors, the variations are almost endless. And yet, there is still a chance someone may have a similar, or identical Onewheel. Well not […] The post Fluxskinz Design Your Own Sole Tape appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Rail Badge – Logo – Emblem]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-rail-badge/</link>
+      <guid isPermaLink="false">yf14w-1fni7hx</guid>
+      <pubDate>Sat, 25 Jul 2020 02:21:06 GMT</pubDate>
+      <description><![CDATA[Onewheel Rail Badge. If you are looking for another cool and unique way to customize your Onewheel you have to get yourself a… Custom Onewheel Rail Badge Rep your favorite OW brand or steeze out your OW and stand out from the rest with a one of a kind custom rail badge. What is a […] The post Onewheel Rail Badge – Logo – Emblem appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Lights Not Working – Flickering]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-lights-not-working/</link>
+      <guid isPermaLink="false">1x6dsn3-1fni7hx</guid>
+      <pubDate>Thu, 07 May 2020 04:33:11 GMT</pubDate>
+      <description><![CDATA[Onewheel Lights Not Working? Recently the lights on my Onewheel started flickering, on and off, then shortly after that they started not working at all. More than likely, the Ferrite Ring inside my Onewheel plus controller has caused my headlights to stop working. Time to crack open this Onewheel Plus Controller to confirm why our… […] The post Onewheel Lights Not Working – Flickering appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Painting Your Onewheel Footpad]]></title>
+      <link>https://thesidewaysmovement.com/painting-your-onewheel-footpad/</link>
+      <guid isPermaLink="false">7iw4ei-1fni7hx</guid>
+      <pubDate>Sat, 25 Apr 2020 16:14:00 GMT</pubDate>
+      <description><![CDATA[Painting your Onewheel front Footpad. If you love that clean all-black look of the Kush or Cobra concave rear Footpad, then you have no doubt thought how to blackout the wood on your front Footpad? There are a couple of different ways you can accomplish this and you will be amazed by how easily it […] The post Painting Your Onewheel Footpad appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Blog Sites – Best Of 2020]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-blog-sites/</link>
+      <guid isPermaLink="false">czp32h-x68bug</guid>
+      <pubDate>Thu, 21 Nov 2019 14:58:56 GMT</pubDate>
+      <description><![CDATA[What Are The Best Blog Style, Onewheel Informational Websites? Without a doubt, YouTube is the place most people go for their Onewheel information or to get a fix when they can’t get out and ride. But by no means does this mean blogs are dead! Onewheel Blog Sites A video has to be done extremely […] The post Onewheel Blog Sites – Best Of 2020 appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Pint First Look]]></title>
+      <link>https://thesidewaysmovement.com/onewheel-pint-first-look/</link>
+      <guid isPermaLink="false">ro5z6y-x68bug</guid>
+      <pubDate>Sun, 04 Aug 2019 13:00:48 GMT</pubDate>
+      <description><![CDATA[As you can imagine the excitement had been brewing almost to a bursting point. Seeing so many points being delivered was exciting and disappointing at the same time. Now all the waiting has paid off because my new Onewheel pint is finally here. I am ecstatic to get my first hands-on look at the new […] The post Onewheel Pint First Look appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Early Onewheel Pint Reviews]]></title>
+      <link>https://thesidewaysmovement.com/early-onewheel-pint-reviews/</link>
+      <guid isPermaLink="false">16tc90z-x68bug</guid>
+      <pubDate>Sun, 30 Jun 2019 11:00:59 GMT</pubDate>
+      <description><![CDATA[I’m sure the recent Onewheel Pint shipping “push back” announced by Onewheel has left many people a little disappointed (Including Future Motion!). So to help keep the Onewheel Pint stoke alive, I have compiled a recap of some early HANDS ON reviews of the new Onewheel model the Onewheel Pint! There have been a few […] The post Early Onewheel Pint Reviews appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
+      <link>https://thesidewaysmovement.com/different-terrain-you-can-ride-on-a-onewheel/</link>
+      <guid isPermaLink="false">1n3gj7t-x68bug</guid>
+      <pubDate>Mon, 24 Jun 2019 04:23:32 GMT</pubDate>
+      <description><![CDATA[One of the great things about the Onewheel is how diverse it is when it comes to its abilities to tackle just about any terrain. There are so many different types of terrain you can ride on a Onewheel. Whether it is just cruising around town on smooth pavement or crushing your favorite single track, […] The post Different Terrain You Can Ride On A Onewheel appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+    <item>
+      <title><![CDATA[Why You Need a Onewheel Pint]]></title>
+      <link>https://thesidewaysmovement.com/why-you-need-a-onewheel-pint/</link>
+      <guid isPermaLink="false">1qb6rbv-x68bug</guid>
+      <pubDate>Tue, 07 May 2019 13:00:28 GMT</pubDate>
+      <description><![CDATA[The release of Future Motion’s new Onewheel Pint is exciting, to say the least. Now, I know that some hardcore Onewheel enthusiasts were a little disappointed to hear that Future Motion didn’t announce a new Onewheel XR replacement flagship model. But I understand why Future Motion chose to develop this new smaller model. For new […] The post Why You Need a Onewheel Pint appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+    </item>
+  </channel>
+</rss>

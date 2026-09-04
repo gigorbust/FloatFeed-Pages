@@ -1,0 +1,79 @@
+[
+  {
+    "id": "all",
+    "title": "Latest",
+    "shortTitle": "Latest",
+    "color": "#111827",
+    "description": "Current Onewheel-community stories across every publishing topic.",
+    "sourceCount": 450,
+    "feedSourceCount": 168,
+    "articleCount": 1169,
+    "rssUrl": "/feeds/all.xml"
+  },
+  {
+    "id": "onewheel",
+    "title": "ONEWHEEL FEED",
+    "shortTitle": "Onewheel",
+    "color": "#08c66a",
+    "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
+    "sourceCount": 86,
+    "feedSourceCount": 35,
+    "articleCount": 109,
+    "rssUrl": "/feeds/onewheel.xml"
+  },
+  {
+    "id": "news",
+    "title": "Onewheel news + blogs",
+    "shortTitle": "News",
+    "color": "#2f7df6",
+    "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
+    "sourceCount": 47,
+    "feedSourceCount": 20,
+    "articleCount": 262,
+    "rssUrl": "/feeds/news.xml"
+  },
+  {
+    "id": "video",
+    "title": "Video + podcasts",
+    "shortTitle": "Video",
+    "color": "#ff3b6b",
+    "description": "YouTube, media feeds, podcasts, and riding videos.",
+    "sourceCount": 114,
+    "feedSourceCount": 66,
+    "articleCount": 519,
+    "rssUrl": "/feeds/video.xml"
+  },
+  {
+    "id": "gear",
+    "title": "Gear + vendors",
+    "shortTitle": "Gear",
+    "color": "#ff7a18",
+    "description": "Products, shops, brands, accessories, and commerce sources.",
+    "sourceCount": 87,
+    "feedSourceCount": 12,
+    "articleCount": 100,
+    "rssUrl": "/feeds/gear.xml"
+  },
+  {
+    "id": "tech",
+    "title": "Tech + repair",
+    "shortTitle": "Tech",
+    "color": "#7a5cff",
+    "description": "VESC, repair, right-to-repair, build logs, and technical sources.",
+    "sourceCount": 10,
+    "feedSourceCount": 3,
+    "articleCount": 29,
+    "rssUrl": "/feeds/tech.xml"
+  },
+  {
+    "id": "community",
+    "title": "Community pulse",
+    "shortTitle": "Community",
+    "color": "#94b447",
+    "description": "Forums, Reddit, social sources, and community discussion streams.",
+    "sourceCount": 106,
+    "feedSourceCount": 32,
+    "articleCount": 150,
+    "rssUrl": "/feeds/community.xml"
+  }
+]
