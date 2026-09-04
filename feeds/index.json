@@ -5,9 +5,9 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 452,
-    "feedSourceCount": 172,
-    "articleCount": 1169,
+    "sourceCount": 451,
+    "feedSourceCount": 170,
+    "articleCount": 1191,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -16,7 +16,7 @@
     "shortTitle": "Onewheel",
     "color": "#08c66a",
     "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
-    "sourceCount": 88,
+    "sourceCount": 87,
     "feedSourceCount": 37,
     "articleCount": 109,
     "rssUrl": "/feeds/onewheel.xml"
@@ -28,7 +28,7 @@
     "color": "#2f7df6",
     "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
     "sourceCount": 47,
-    "feedSourceCount": 21,
+    "feedSourceCount": 20,
     "articleCount": 262,
     "rssUrl": "/feeds/news.xml"
   },
@@ -40,7 +40,7 @@
     "description": "YouTube, media feeds, podcasts, and riding videos.",
     "sourceCount": 114,
     "feedSourceCount": 66,
-    "articleCount": 519,
+    "articleCount": 521,
     "rssUrl": "/feeds/video.xml"
   },
   {
@@ -49,8 +49,8 @@
     "shortTitle": "Gear",
     "color": "#ff7a18",
     "description": "Products, shops, brands, accessories, and commerce sources.",
-    "sourceCount": 88,
-    "feedSourceCount": 13,
+    "sourceCount": 87,
+    "feedSourceCount": 12,
     "articleCount": 100,
     "rssUrl": "/feeds/gear.xml"
   },
@@ -60,7 +60,7 @@
     "shortTitle": "Tech",
     "color": "#7a5cff",
     "description": "VESC, repair, right-to-repair, build logs, and technical sources.",
-    "sourceCount": 9,
+    "sourceCount": 10,
     "feedSourceCount": 3,
     "articleCount": 29,
     "rssUrl": "/feeds/tech.xml"
@@ -73,7 +73,7 @@
     "description": "Forums, Reddit, social sources, and community discussion streams.",
     "sourceCount": 106,
     "feedSourceCount": 32,
-    "articleCount": 150,
+    "articleCount": 170,
     "rssUrl": "/feeds/community.xml"
   }
 ]

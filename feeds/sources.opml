@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Fri, 04 Sep 2026 16:25:15 GMT</dateCreated>
+    <dateCreated>Fri, 04 Sep 2026 20:02:18 GMT</dateCreated>
   </head>
   <body>
     <outline text="website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -91,25 +91,20 @@
     </outline>
     <outline text="website_discovery | configured | DEFAULT_FEED_SOURCES" title="website_discovery | configured | DEFAULT_FEED_SOURCES">
       <outline text="FlightFins Store" title="FlightFins Store" type="rss" xmlUrl="https://flightfins.com/feed/" htmlUrl="https://flightfins.com/" />
+      <outline text="One Stop Board Shop (News)" title="One Stop Board Shop (News)" type="rss" xmlUrl="https://onestopboardshop.com/blogs/news.atom" htmlUrl="https://onestopboardshop.com/" />
       <outline text="Onewheel Trail Finders" title="Onewheel Trail Finders" type="rss" xmlUrl="https://owtrailfinders.wordpress.com/feed/" htmlUrl="https://owtrailfinders.wordpress.com/" />
-      <outline text="PEV Dispensary Blog" title="PEV Dispensary Blog" type="rss" xmlUrl="https://pevdispensary.com/blogs/news.atom" htmlUrl="https://pevdispensary.com/blogs/news" />
+      <outline text="PEV Dispensary Blog (News)" title="PEV Dispensary Blog (News)" type="rss" xmlUrl="https://pevdispensary.com/blogs/news.atom" htmlUrl="https://pevdispensary.com/blogs/news" />
     </outline>
     <outline text="website_discovery | directory_only | feed | blocked_or_unreachable" title="website_discovery | directory_only | feed | blocked_or_unreachable">
       <outline text="floatershack.com (News)" title="floatershack.com (News)" type="rss" xmlUrl="https://floatershack.com/blogs/news.atom" htmlUrl="https://floatershack.com/products/roadsterx-fender-for-onewheel-gt-1" />
       <outline text="13. Takeoff Luxury Toys - https://takeoffluxurytoys.com/blog/electric-scooters/onewheel/" title="13. Takeoff Luxury Toys - https://takeoffluxurytoys.com/blog/electric-scooters/onewheel/" type="rss" xmlUrl="https://takeoffluxurytoys.com/blog/electric-scooters/onewheel/feed/" htmlUrl="https://takeoffluxurytoys.com/blog/electric-scooters/onewheel/" />
     </outline>
-    <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources">
-      <outline text="One Stop Board Shop - Blog" title="One Stop Board Shop - Blog" type="rss" xmlUrl="https://onestopboardshop.com/blogs/news.atom" htmlUrl="https://onestopboardshop.com/blogs/news" />
-    </outline>
-    <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032">
-      <outline text="One Stop Board Shop (onestopboardshop.com)" title="One Stop Board Shop (onestopboardshop.com)" type="rss" xmlUrl="https://onestopboardshop.com/collections/osbs-yard-sale.atom" htmlUrl="https://onestopboardshop.com/collections/all" />
-    </outline>
     <outline text="wrapper | nonportable_sources | ONEWHEEL FEED" title="wrapper | nonportable_sources | ONEWHEEL FEED">
       <outline text="One Stop Board Shop | Onewheel Product Feed" title="One Stop Board Shop | Onewheel Product Feed" type="rss" xmlUrl="https://onestopboardshop.com/collections/onewheel.atom" htmlUrl="https://onestopboardshop.com/collections/onewheel" />
       <outline text="FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed" title="FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed" type="rss" xmlUrl="https://oneradwheel.com/category/onewheel/feed" htmlUrl="https://oneradwheel.com/category/onewheel/" />
     </outline>
-    <outline text="feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources" title="feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources">
-      <outline text="RenteBoards Houston Onewheel Products (News)" title="RenteBoards Houston Onewheel Products (News)" type="rss" xmlUrl="https://houston.renteboards.com/blogs/news.atom" htmlUrl="https://rent-eboards-houston.myshopify.com/blogs/news.atom" />
+    <outline text="feed | ok_nonempty | feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources" title="feed | ok_nonempty | feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources">
+      <outline text="RenteBoards Houston Onewheel Products" title="RenteBoards Houston Onewheel Products" type="rss" xmlUrl="https://houston.renteboards.com/blogs/news.atom" htmlUrl="https://rent-eboards-houston.myshopify.com/blogs/news.atom" />
     </outline>
     <outline text="feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources" title="feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources">
       <outline text="Sharky Shred Shop Products (News)" title="Sharky Shred Shop Products (News)" type="rss" xmlUrl="https://sharkyshredshop.com/blogs/news.atom" htmlUrl="https://sharkyshredshop.com/products.atom" />
@@ -134,6 +129,7 @@
     </outline>
     <outline text="feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="feed | recovered_from_paid_only_surface | Onewheel AI Feed">
       <outline text="autoevolution green, hybrid and EV news" title="autoevolution green, hybrid and EV news" type="rss" xmlUrl="https://www.autoevolution.com/rss/backend-green.xml" htmlUrl="https://www.autoevolution.com/rss/backend-green.xml" />
+      <outline text="Law.com" title="Law.com" type="rss" xmlUrl="https://feeds.feedblitz.com/law/legal-news/" htmlUrl="https://feeds.feedblitz.com/www.law.com/" />
       <outline text="Snow Industry News RSS" title="Snow Industry News RSS" type="rss" xmlUrl="https://www.snowsportsnews.com/rss" htmlUrl="https://www.snowindustrynews.com/" />
       <outline text="Bit Rebels" title="Bit Rebels" type="rss" xmlUrl="https://bitrebels.com/feed/" htmlUrl="https://bitrebels.com/" />
       <outline text="cs.RO updates on arXiv.org" title="cs.RO updates on arXiv.org" type="rss" xmlUrl="https://export.arxiv.org/rss/cs.RO" htmlUrl="http://rss.arxiv.org/rss/cs.RO" />
@@ -142,9 +138,6 @@
       <outline text="MobileSyrup" title="MobileSyrup" type="rss" xmlUrl="https://mobilesyrup.com/feed/" htmlUrl="https://mobilesyrup.com/" />
       <outline text="PCMag Australia" title="PCMag Australia" type="rss" xmlUrl="https://au.pcmag.com/feed.xml" htmlUrl="https://au.pcmag.com/" />
       <outline text="TREND HUNTER - The Latest Trends (trendhunter.com)" title="TREND HUNTER - The Latest Trends (trendhunter.com)" type="rss" xmlUrl="https://www.trendhunter.com/rss" htmlUrl="http://www.trendhunter.com/" />
-    </outline>
-    <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed">
-      <outline text="Law.com" title="Law.com" type="rss" xmlUrl="https://feeds.feedblitz.com/law/legal-news" htmlUrl="https://feeds.feedblitz.com/www.law.com/" />
     </outline>
     <outline text="feed | ok_nonempty | feed | sitemap_blogs_1.xml | sitemap_blogs_1.xml" title="feed | ok_nonempty | feed | sitemap_blogs_1.xml | sitemap_blogs_1.xml">
       <outline text="Onewheel California Tour Archive" title="Onewheel California Tour Archive" type="rss" xmlUrl="https://onewheel.com/blogs/california-tour.atom" htmlUrl="https://onewheel.com/blogs/california-tour" />
@@ -166,9 +159,6 @@
     </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | sitemap_blogs_1.xml | ONEWHEEL FEED | list-1264927333211308032 | sitemap_blogs_1.xml" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | sitemap_blogs_1.xml | ONEWHEEL FEED | list-1264927333211308032 | sitemap_blogs_1.xml">
       <outline text="Onewheel Secret Stash Archive" title="Onewheel Secret Stash Archive" type="rss" xmlUrl="https://onewheel.com/blogs/onewheel-secret-stash.atom" htmlUrl="https://onewheel.com/blogs/onewheel-secret-stash" />
-    </outline>
-    <outline text="feed | ok_nonempty | feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources | public.manual_rss_sources | manual_rss_sources" title="feed | ok_nonempty | feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources | public.manual_rss_sources | manual_rss_sources">
-      <outline text="RenteBoards News Blog" title="RenteBoards News Blog" type="rss" xmlUrl="https://renteboards.com/blogs/news.atom" htmlUrl="https://renteboards.com/blogs/news.atom" />
     </outline>
     <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed">
       <outline text="AboutLawsuits.com" title="AboutLawsuits.com" type="rss" xmlUrl="http://feeds.feedburner.com/aboutlawsuits" htmlUrl="https://www.aboutlawsuits.com/" />
