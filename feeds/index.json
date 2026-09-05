@@ -5,9 +5,9 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 510,
-    "feedSourceCount": 165,
-    "articleCount": 1192,
+    "sourceCount": 449,
+    "feedSourceCount": 171,
+    "articleCount": 1193,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -27,9 +27,9 @@
     "shortTitle": "News",
     "color": "#2f7df6",
     "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
-    "sourceCount": 47,
-    "feedSourceCount": 20,
-    "articleCount": 263,
+    "sourceCount": 46,
+    "feedSourceCount": 21,
+    "articleCount": 264,
     "rssUrl": "/feeds/news.xml"
   },
   {
@@ -38,8 +38,8 @@
     "shortTitle": "Video",
     "color": "#ff3b6b",
     "description": "YouTube, media feeds, podcasts, and riding videos.",
-    "sourceCount": 174,
-    "feedSourceCount": 63,
+    "sourceCount": 114,
+    "feedSourceCount": 66,
     "articleCount": 521,
     "rssUrl": "/feeds/video.xml"
   },
@@ -49,8 +49,8 @@
     "shortTitle": "Gear",
     "color": "#ff7a18",
     "description": "Products, shops, brands, accessories, and commerce sources.",
-    "sourceCount": 87,
-    "feedSourceCount": 12,
+    "sourceCount": 86,
+    "feedSourceCount": 13,
     "articleCount": 100,
     "rssUrl": "/feeds/gear.xml"
   },
@@ -71,8 +71,8 @@
     "shortTitle": "Community",
     "color": "#94b447",
     "description": "Forums, Reddit, social sources, and community discussion streams.",
-    "sourceCount": 105,
-    "feedSourceCount": 31,
+    "sourceCount": 106,
+    "feedSourceCount": 32,
     "articleCount": 170,
     "rssUrl": "/feeds/community.xml"
   }
