@@ -5,8 +5,8 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 509,
-    "feedSourceCount": 169,
+    "sourceCount": 510,
+    "feedSourceCount": 170,
     "articleCount": 1204,
     "rssUrl": "/feeds/all.xml"
   },
@@ -27,8 +27,8 @@
     "shortTitle": "News",
     "color": "#2f7df6",
     "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
-    "sourceCount": 46,
-    "feedSourceCount": 21,
+    "sourceCount": 47,
+    "feedSourceCount": 22,
     "articleCount": 274,
     "rssUrl": "/feeds/news.xml"
   },

@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Mon, 14 Sep 2026 06:39:26 GMT</dateCreated>
+    <dateCreated>Mon, 14 Sep 2026 06:57:39 GMT</dateCreated>
   </head>
   <body>
     <outline text="website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -135,8 +135,8 @@
     </outline>
     <outline text="feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="feed | recovered_from_paid_only_surface | Onewheel AI Feed">
       <outline text="autoevolution green, hybrid and EV news" title="autoevolution green, hybrid and EV news" type="rss" xmlUrl="https://www.autoevolution.com/rss/backend-green.xml" htmlUrl="https://www.autoevolution.com/rss/backend-green.xml" />
+      <outline text="Bit Rebels (Site feed)" title="Bit Rebels (Site feed)" type="rss" xmlUrl="http://www.bitrebels.com/blog/feed/" htmlUrl="https://bitrebels.com/" />
       <outline text="Snow Industry News RSS" title="Snow Industry News RSS" type="rss" xmlUrl="https://www.snowsportsnews.com/rss" htmlUrl="https://www.snowindustrynews.com/" />
-      <outline text="Bit Rebels" title="Bit Rebels" type="rss" xmlUrl="https://bitrebels.com/feed/" htmlUrl="https://bitrebels.com/" />
       <outline text="cs.RO updates on arXiv.org" title="cs.RO updates on arXiv.org" type="rss" xmlUrl="https://export.arxiv.org/rss/cs.RO" htmlUrl="http://rss.arxiv.org/rss/cs.RO" />
       <outline text="Electrek" title="Electrek" type="rss" xmlUrl="https://electrek.co/feed/" htmlUrl="https://electrek.co/" />
       <outline text="Law360: Technology" title="Law360: Technology" type="rss" xmlUrl="https://www.law360.com/technology/rss" htmlUrl="https://www.law360.com/technology?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=section" />
@@ -146,6 +146,7 @@
     </outline>
     <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed">
       <outline text="Law.com" title="Law.com" type="rss" xmlUrl="https://feeds.feedblitz.com/law/legal-news" htmlUrl="https://feeds.feedblitz.com/www.law.com/" />
+      <outline text="Bit Rebels (bitrebels.com)" title="Bit Rebels (bitrebels.com)" type="rss" xmlUrl="https://bitrebels.com/rss" htmlUrl="https://bitrebels.com/" />
     </outline>
     <outline text="feed | ok_nonempty | feed | sitemap_blogs_1.xml | sitemap_blogs_1.xml" title="feed | ok_nonempty | feed | sitemap_blogs_1.xml | sitemap_blogs_1.xml">
       <outline text="Onewheel California Tour Archive" title="Onewheel California Tour Archive" type="rss" xmlUrl="https://onewheel.com/blogs/california-tour.atom" htmlUrl="https://onewheel.com/blogs/california-tour" />
