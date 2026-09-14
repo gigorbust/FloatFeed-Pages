@@ -16,7 +16,7 @@
     ]
   },
   "upstream": {
-    "sourceDatabase": "/home/runner/work/FloatFeed/FloatFeed/data/sources/source-database.json",
+    "sourceDatabase": "private:source-database",
     "generatedAt": "2026-09-04T11:13:37.620338+00:00",
     "sourceCounts": {
       "inputSources": 720,
@@ -26,13 +26,13 @@
     "feedlyDirect": null,
     "rssAppDirect": null,
     "sourceRepairs": {
-      "artifact": "/home/runner/work/_temp/floatfeed-source-health/validated-source-repairs.json",
+      "artifact": "private:validated-source-repairs",
       "generatedAt": "2026-09-14T07:25:11.944Z",
       "applied": 171,
       "included": 171
     },
     "sourceHealth": {
-      "artifact": "/home/runner/work/_temp/floatfeed-source-health/source-health-2026-09-14.json",
+      "artifact": "private:source-health",
       "generatedAt": "2026-09-14T07:25:11.944Z",
       "audited": 720
     }
