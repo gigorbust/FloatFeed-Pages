@@ -5,22 +5,22 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages//feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 05 Sep 2026 15:17:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 06:39:26 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Rattling/Vibrating of Onewheel XRV Power Kit]]></title>
+      <link>https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_2</link>
+      <guid isPermaLink="false">5zv4px-1czfdl1</guid>
+      <pubDate>Sun, 13 Sep 2026 17:02:58 GMT</pubDate>
+      <description><![CDATA[Hey there, lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior. First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as tho]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
     <item>
       <title><![CDATA[Pint X (7314 / Hydrus 5200) — Best Path to More Range Before VESC?]]></title>
       <link>https://pev.dev/t/pint-x-7314-hydrus-5200-best-path-to-more-range-before-vesc/2993#post_5</link>
       <guid isPermaLink="false">ya37wq-1czfdl1</guid>
       <pubDate>Fri, 04 Sep 2026 02:56:11 GMT</pubDate>
       <description><![CDATA[If you open up your battery box you’ll see the BMS has 4 different cables going into it. The smallest one that sticks out perpendicular to the PCB is what lets your BMS tell your ESC that your board is charging. If you unplug it, it has no way of knowing so you can charge your board as you ride if you get a backpack setup This might break FM firmware as well, I can’t be completely sure. Personally, I recommend the PintV Kit. That opens your door far beyond FM support and restriction, so the skies (or rather your wallet) the limit for battery possibility. Easy as to install If you’ve got more d]]></description>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
-    </item>
-    <item>
-      <title><![CDATA[Rattling/Vibrating of Onewheel XRV Power Kit]]></title>
-      <link>https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_1</link>
-      <guid isPermaLink="false">55wbn0-1czfdl1</guid>
-      <pubDate>Mon, 17 Aug 2026 07:35:48 GMT</pubDate>
-      <description><![CDATA[Hey there, lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior. First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as tho]]></description>
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
@@ -201,11 +201,11 @@
     </item>
     <item>
       <title><![CDATA[Video Overlays from log files]]></title>
-      <link>https://pev.dev/t/video-overlays-from-log-files/2990#post_1</link>
-      <guid isPermaLink="false">czjhln-1czfdl1</guid>
+      <link>https://pev.dev/t/video-overlays-from-log-files/2990</link>
+      <guid isPermaLink="false">1u25rlw-vbx98k</guid>
       <pubDate>Thu, 04 Jun 2026 02:48:29 GMT</pubDate>
       <description><![CDATA[Video Overlay Utility by Lachlan Hurst Load Floaty or Float Control logs and generate a video overlay file: ESC Log Video Insta360 + GPX, all on your phone You can export GPX files from Float Control, Insta360 knows to match up the data with the right videos based on the timestamp data, for an example see Cameron’s Reel: Instagram Cameron Onewheel Patecell on Instagram: "@dirtsurferz mass start race sneak... 856 likes, 40 comments - cameronewheel on May 18, 2026: "@dirtsurferz mass start race sneak peak 🏎️ 💨 #onewheel we started at the bottom of the road leading to the trails so it was my fi]]></description>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[VESC Service Centers / Vendors / Builders!]]></title>
