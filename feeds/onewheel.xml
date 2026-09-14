@@ -5,7 +5,7 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages//feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 14 Sep 2026 06:57:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 07:30:24 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Rattling/Vibrating of Onewheel XRV Power Kit]]></title>
@@ -13,6 +13,14 @@
       <guid isPermaLink="false">5zv4px-1czfdl1</guid>
       <pubDate>Sun, 13 Sep 2026 17:02:58 GMT</pubDate>
       <description><![CDATA[Hey there, lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior. First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as tho]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Nosedives on XRV Kit]]></title>
+      <link>https://pev.dev/t/nosedives-on-xrv-kit/3035#post_1</link>
+      <guid isPermaLink="false">o55rlx-1czfdl1</guid>
+      <pubDate>Mon, 07 Sep 2026 03:28:06 GMT</pubDate>
+      <description><![CDATA[Hello floaters, can you please help me diagnose two nosedives I had on a recent ride? Both occurred while pushing the board pretty hard on sustained up-slopes on paved roads in the mountains. With how hard I felt I was pushing the board (and resulting nose dives) I was shocked to see that the duty cycle was only about 55% at the time of both nosedives. My only other theory was that the motor or controller was overtemp, however at the time of both nosedives, motor was about 52-57C and controller 43-45C according to the logs. Not sure how reliable this is. Could you wise individuals impart some ]]></description>
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
@@ -24,12 +32,28 @@
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
+      <title><![CDATA[Refloat version 1.3]]></title>
+      <link>https://pev.dev/t/refloat-version-1-3/2995#post_9</link>
+      <guid isPermaLink="false">17dnbxn-1czfdl1</guid>
+      <pubDate>Mon, 24 Aug 2026 07:09:58 GMT</pubDate>
+      <description><![CDATA[Final version is out! Refloat 1.3.0 On top of beta3 it contains these two changes which kind of get lost in the complete changelog so listing them here: Fix BMS Integration sometimes reporting Connection Error and not recovering or potentially getting stuck on another error Add the “Control Loop Latency” metric to realtime data Shows how much later than usual the control loop processed each IMU sample, in milliseconds. Ideally it stays near zero; spikes mean the processing of a sample was delayed, e.g. by other tasks running on the controller. Note the value is relative to the best case observ]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
       <title><![CDATA[Onewheel Terrain Guide: Riding on Pavement, Grass, Trails, Sand and Snow]]></title>
       <link>https://fallman.tech/onewheel-terrain/</link>
       <guid isPermaLink="false">1t4ylp6-m6g0vw</guid>
       <pubDate>Sun, 16 Aug 2026 15:13:58 GMT</pubDate>
       <description><![CDATA[Yes, a Onewheel can ride on many different surfaces, including pavement, grass, gravel, dirt, sand and snow. The riding experience changes considerably depending on the terrain, though, with loose surfaces requiring more power and reducing traction and range. The tire, tire pressure, weather and type of terrain all affect how the board behaves and how ... Read more]]></description>
       <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+    </item>
+    <item>
+      <title><![CDATA[Pushback: high voltage warning while riding at 90% after update to 7.0]]></title>
+      <link>https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030#post_1</link>
+      <guid isPermaLink="false">1wipdcc-1czfdl1</guid>
+      <pubDate>Sat, 15 Aug 2026 11:16:25 GMT</pubDate>
+      <description><![CDATA[So you encountered a problem and need help… bug? crash? weird behavior? Please include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting controller/motor thor301 / hypercore firmware version 7.0 package version (and name) refloat 1.2 configuration details my can is busted how often has this happened? single incident? can you reproduce it? it worked fine before i updated fw. after that ]]></description>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[VESC Motor List]]></title>
@@ -160,11 +184,11 @@
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
-      <title><![CDATA[Refloat version 1.3]]></title>
-      <link>https://pev.dev/t/refloat-version-1-3/2995#post_6</link>
-      <guid isPermaLink="false">16joiuq-1czfdl1</guid>
-      <pubDate>Mon, 06 Jul 2026 20:12:55 GMT</pubDate>
-      <description><![CDATA[Thank you, I’m on a ubox 85V 150A, so ubox_single_80 firmware under vesc 7.0.]]></description>
+      <title><![CDATA[Dismount Shudder]]></title>
+      <link>https://pev.dev/t/dismount-shudder/2996#post_1</link>
+      <guid isPermaLink="false">1n3gcdb-1czfdl1</guid>
+      <pubDate>Tue, 16 Jun 2026 06:55:09 GMT</pubDate>
+      <description><![CDATA[I’ve notice recently (after some general maintenance) that my board has this sort of ‘shudder’ Its super mild when I switch between directions, but its definitely noticeable when I jump dismount It seems the motor is rapidly firing to try and keep itself upright for the 400ms of fault delay, holding its previous speed before I dismounted, but its indecisive of which direction it should be going. Higher full switch fault delay does yield longer shudders. Jumping off at a higher speed (like body varials) still works fine, as the board keeps its speed. Quickstops and Half-Sensor fault stops don’t]]></description>
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
@@ -256,12 +280,44 @@
       <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
+      <title><![CDATA[Too many nosedives!]]></title>
+      <link>https://pev.dev/t/too-many-nosedives/2964</link>
+      <guid isPermaLink="false">7q0anl-vbx98k</guid>
+      <pubDate>Tue, 31 Mar 2026 22:57:54 GMT</pubDate>
+      <description><![CDATA[So, I’ve been having some nosedive issues on my Fungineers X7 (Thor 300, only about 35 miles lifetime). It seems to only happen when I don’t have “Disable Moving Faults” on, which led me to think I have a crap foot sensor (Stompies v3… I think). Most of the time, I seem to experience these nosedives when I’m riding a mellow trail. I never go too aggressively, typically staying at 10 mph as this board has me a little spooked. I tend to get a WheelSlip warning around the same time as sensor disengagements, which looks like a chicken-or-egg problem. Today, while riding around to build my confiden]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
+    </item>
+    <item>
       <title><![CDATA[Floatwheel ADV vs Onewheel GT – Infinity War]]></title>
       <link>https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/#utm_source=rss&amp;#038;utm_medium=rss&amp;#038;utm_campaign=floatwheel-adv-vs-onewheel-gt</link>
       <guid isPermaLink="false">11fyvaj-1bh986t</guid>
       <pubDate>Sun, 22 Mar 2026 21:15:07 GMT</pubDate>
       <description><![CDATA[Floatwheel ADV vs Onewheel GT – Infinity War Grace à un prix des plus attractifs, basé sur la technologie open source VESC et très bien équipé, le Floatwheel ADV se présente clairement comme un sérieux outsider face au Onewheel GT. L’ADV propose en effet des améliorations significatives en termes de tension de batterie, de puissance, … Lire la suite de « Floatwheel ADV vs Onewheel GT – Infinity War » L’article Floatwheel ADV vs Onewheel GT – Infinity War est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
       <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Refloat 1.3 Feature Preview: Timing rework and Setpoint smoothing]]></title>
+      <link>https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959</link>
+      <guid isPermaLink="false">1jguv25-vbx98k</guid>
+      <pubDate>Sun, 22 Mar 2026 10:42:56 GMT</pubDate>
+      <description><![CDATA[The 1.3 release has been a long time in the making and there are still some details to flesh out. But those are mostly about reducing the config options and tweaking a few small details, so I’m providing this feature preview release for people to try out the new code and provide feedback. The plan is for this to become 1.3 as-is, just with the aforementioned cleanups. This release brings two major improvements, the Timing rework and Sepoint smoothing. There’s also the (firmware 6.06+ only) feature of normalizing the tunes via the motor torque constant (calculated from the Flux Linkage motor co]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Diagnosing nosedives / motor cut issues]]></title>
+      <link>https://pev.dev/t/diagnosing-nosedives-motor-cut-issues/2957</link>
+      <guid isPermaLink="false">fzvf68-vbx98k</guid>
+      <pubDate>Sat, 21 Mar 2026 13:26:05 GMT</pubDate>
+      <description><![CDATA[If you’ve ever had a nosedive caused by the board cutting the motor on you, you know there’s no worse feeling than getting back on the board as you can no longer trust it. That’s why it’s important to gather as much information on the incident before engaging the board again or power-cycling it . This can help you identify the root cause and spare you more unpleasant experiences. Note this post doesn’t address logging, which is a useful tool, but you may not always find the issue there. Some events/data are not logged and the logging typically records samples at around 10x per second, an event]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Testing experimental software]]></title>
+      <link>https://pev.dev/t/testing-experimental-software/2955</link>
+      <guid isPermaLink="false">1jjorkh-vbx98k</guid>
+      <pubDate>Fri, 20 Mar 2026 14:22:14 GMT</pubDate>
+      <description><![CDATA[If you want to help testing alpha or beta quality software (either firmware or package), how to verify it is working correctly on your board in a safe way? Follow these 10 simple steps. After installing the new software, ensure you correctly restored all your configs. If going between firmware versions: The App config between 6.X versions released to date can always be copied. Between 6.02 and 6.05 the motor should be recalibrated. Between 6.05 and 6.06 you can, to the extent of my knowledge, copy the config. Go to the package UI (a tab called “Refloat” from 1.2.2 onwards, “AppUI” on older ver]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR vs XR Classic]]></title>
@@ -278,6 +334,14 @@
       <pubDate>Fri, 27 Feb 2026 23:00:56 GMT</pubDate>
       <description><![CDATA[Floatwheel ADV vs Onewheel GT-S – ENDGAME Octobre 2023 : Lancement du Onewheel GT-S à 3850€ pour faire face aux performances du Floatwheel ADV présenté comme LE « GT Killer ».Vendu à 2150USD et bien équipé, le Floatwheel ADV est basé sur la technologie open source VESC et propose des performances assez proches et même parfois bien … Lire la suite de « Floatwheel ADV vs Onewheel GT-S – ENDGAME » L’article Floatwheel ADV vs Onewheel GT-S – ENDGAME est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
       <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[Making Refloat's control loop frequency-independent]]></title>
+      <link>https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925</link>
+      <guid isPermaLink="false">1yisnos-vbx98k</guid>
+      <pubDate>Sat, 24 Jan 2026 14:12:53 GMT</pubDate>
+      <description><![CDATA[Note: This post was written with the intention to be a general report on the work being done and also provide some technical details for developers and technically inclined audience. Feel free to skip over the technical sections. Over the past several months, I’ve been working on a significant overhaul of the timing and synchronization infrastructure in the Refloat package. This work addresses fundamental issues with how the package handles different loop frequencies and ultimately moves the core balancing control directly into the IMU callback, eliminating a source of timing jitter. Backgroun]]></description>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[Performing a motor harness swap/repair]]></title>
@@ -302,6 +366,14 @@
       <pubDate>Mon, 07 Jul 2025 21:06:20 GMT</pubDate>
       <description><![CDATA[FST signifie Fluid Stance Technology. Il s’agit d’un système modulaire pour les pads avant et arrière de votre Onewheel GT, GT-S, Pint et PintX. Ce kit FST est conçu pour offrir aux riders un meilleur contrôle de leur Onewheel. Seulement disponible aux USA à ce jour, le kit FST de base (sans blocks incurvés) revient … Lire la suite de « Onewheel FST » L’article Onewheel FST est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .]]></description>
       <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+    </item>
+    <item>
+      <title><![CDATA[The Beam Virgo Helmet Review]]></title>
+      <link>https://thesidewaysmovement.com/the-beam-virgo-helmet-review/</link>
+      <guid isPermaLink="false">1po9d1c-pvoxjp</guid>
+      <pubDate>Fri, 13 Jun 2025 21:18:12 GMT</pubDate>
+      <description><![CDATA[The Beam Virgo Helmet Review. Finding the perfect helmet can be a daunting task, especially when you’re shopping for multiple family members. I’ve been on the lookout for high-quality full-face helmets for myself and my two kids for quite some time, scouring the internet and local stores. After doing a fair amount of research, I […] The post The Beam Virgo Helmet Review appeared first on The Sideways Movement .]]></description>
+      <source url="https://thesidewaysmovement.com/feed/">The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Appairage sur un Onewheel]]></title>
