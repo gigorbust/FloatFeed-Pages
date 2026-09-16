@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T09:10:17.477Z",
+  "generatedAt": "2026-09-16T09:26:03.325Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "intent": {
     "productReference": "Modeled after Panda/usepanda.com: compact source deck, fast scanning, flat modern surfaces, source columns, and public feed links.",
@@ -28,8 +28,8 @@
     "sourceRepairs": {
       "artifact": "private:validated-source-repairs",
       "generatedAt": "2026-09-16T09:04:43.700Z",
-      "applied": 174,
-      "included": 174
+      "applied": 177,
+      "included": 177
     },
     "sourceHealth": {
       "artifact": "private:source-health",
@@ -41,16 +41,16 @@
     "inputSources": 720,
     "relevantInputSources": 670,
     "filteredOutInputSources": 50,
-    "sources": 451,
+    "sources": 448,
     "publishingSources": 119,
     "feedSources": 184,
     "fetchedSources": 154,
     "nonemptySources": 146,
     "emptySources": 8,
     "cachedFallbackSources": 8,
-    "unreachableSources": 177,
-    "fetchedArticles": 3966,
-    "filteredOutArticles": 2671,
+    "unreachableSources": 174,
+    "fetchedArticles": 3988,
+    "filteredOutArticles": 2693,
     "articles": 1295,
     "currentArticles": 225,
     "archiveArticles": 1070,
@@ -63,7 +63,7 @@
       "shortTitle": "Latest",
       "color": "#111827",
       "description": "Current Onewheel-community stories across every publishing topic.",
-      "sourceCount": 451,
+      "sourceCount": 448,
       "feedSourceCount": 184,
       "articleCount": 1295,
       "rssUrl": "/feeds/all.xml"
@@ -96,7 +96,7 @@
       "shortTitle": "Video",
       "color": "#ff3b6b",
       "description": "YouTube, media feeds, podcasts, and riding videos.",
-      "sourceCount": 114,
+      "sourceCount": 111,
       "feedSourceCount": 69,
       "articleCount": 559,
       "rssUrl": "/feeds/video.xml"
@@ -1870,8 +1870,8 @@
         "src_dffcac543be37ff9"
       ],
       "articleCount": 0,
-      "fetchStatus": "ok_empty",
-      "fetchError": ""
+      "fetchStatus": "blocked_or_unreachable",
+      "fetchError": "HTTP 429"
     },
     {
       "id": "reddit-r-floatwheel-17ldx5k",
@@ -2352,8 +2352,8 @@
         "src_de26c1faa9d1db13"
       ],
       "articleCount": 0,
-      "fetchStatus": "blocked_or_unreachable",
-      "fetchError": "HTTP 429"
+      "fetchStatus": "ok_empty",
+      "fetchError": ""
     },
     {
       "id": "reddit-wheel-community-1mx9d7p",
@@ -9001,8 +9001,8 @@
     },
     {
       "id": "blackthought-1bhx7l1",
-      "title": "BLACKTHOUGHT",
-      "displayName": "BLACKTHOUGHT",
+      "title": "AiLQQKSGOODONME",
+      "displayName": "AiLQQKSGOODONME",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCzvOl_BMWZ-GJmdemZTJOlw",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzvOl_BMWZ-GJmdemZTJOlw",
@@ -9049,32 +9049,6 @@
       "articleCount": 0,
       "fetchStatus": "blocked_or_unreachable",
       "fetchError": "live audit: not_found"
-    },
-    {
-      "id": "carve-creative-s9t491",
-      "title": "Carve Creative",
-      "displayName": "Carve Creative",
-      "domain": "youtube.com",
-      "siteUrl": "https://www.youtube.com/channel/UCmWVcgQPUsJQ_ocrGYSQtgA",
-      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
-      "deck": "video",
-      "kind": "video",
-      "sourcePlatform": "YouTube",
-      "sourceSystem": "Feedly OPML export",
-      "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | public.rss_sources | list-1264927333211308032 | ONEWHEEL FEED",
-      "sourceArtifact": "",
-      "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-16T09:04:43.700Z",
-      "rssAppFeed": false,
-      "hasFeed": true,
-      "liveAuditStatus": "valid_feed",
-      "catalogSourceIds": [
-        "src_f78b21a6b5fc07d9",
-        "src_228a564c31077e7c"
-      ],
-      "articleCount": 9,
-      "fetchStatus": "ok_nonempty",
-      "fetchError": ""
     },
     {
       "id": "cory-boehne-1k9qfw2",
@@ -9333,8 +9307,8 @@
     },
     {
       "id": "fatdaddy-eogq9i",
-      "title": "FatDaddy",
-      "displayName": "FatDaddy",
+      "title": "Fatdaddy",
+      "displayName": "Fatdaddy",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8KN5s0bGRv4Q8d3kLCwKgQ",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_W76bRKepDpBfSqeDHdDKg",
@@ -9358,8 +9332,8 @@
     },
     {
       "id": "fixmypev-1qoh8my",
-      "title": "FixMyPEV (YouTube)",
-      "displayName": "FixMyPEV (YouTube)",
+      "title": "FixMyPEV",
+      "displayName": "FixMyPEV",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UC28VvwvADFO-Ge3NO0xiEIQ",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ",
@@ -9588,8 +9562,8 @@
     },
     {
       "id": "floatwheel-youtube-feed-1uorzzz",
-      "title": "Floatwheel YouTube Feed",
-      "displayName": "Floatwheel YouTube Feed",
+      "title": "floatwheel",
+      "displayName": "floatwheel",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UC_7p3yqxNR24i-9Qtu1Haxg",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg",
@@ -10482,8 +10456,8 @@
     },
     {
       "id": "onewheel-youtube-feed-fm-6kqsk4",
-      "title": "Onewheel YouTube Feed (FM)",
-      "displayName": "Onewheel YouTube Feed (FM)",
+      "title": "Onewheel",
+      "displayName": "Onewheel",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCCZMFqngWIbTcX_zPWPIJkg",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg",
@@ -10657,32 +10631,6 @@
         "src_a58258db550555d3"
       ],
       "articleCount": 11,
-      "fetchStatus": "ok_nonempty",
-      "fetchError": ""
-    },
-    {
-      "id": "scot-mendenhall-fhbqec",
-      "title": "Scot Mendenhall",
-      "displayName": "Scot Mendenhall",
-      "domain": "youtube.com",
-      "siteUrl": "https://www.youtube.com/channel/UC5She3VOj8lYzFptlB8CqoA",
-      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
-      "deck": "video",
-      "kind": "video",
-      "sourcePlatform": "YouTube",
-      "sourceSystem": "Feedly OPML export",
-      "sourceContainer": "website_discovery | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Future Motion Onewheel AI Feed | Floatwheel AI Feed | public.rss_sources | list-1264927333211308032 | ONEWHEEL FEED",
-      "sourceArtifact": "",
-      "acquisitionMethod": "web; verified_catalog_replacement",
-      "liveAccessStatus": "validated repair 2026-09-16T09:04:43.700Z",
-      "rssAppFeed": false,
-      "hasFeed": true,
-      "liveAuditStatus": "valid_feed",
-      "catalogSourceIds": [
-        "src_fbc083b965764afc",
-        "src_d66d9753a54b08ed"
-      ],
-      "articleCount": 13,
       "fetchStatus": "ok_nonempty",
       "fetchError": ""
     },
@@ -11152,8 +11100,8 @@
     },
     {
       "id": "trailwheel-iv9kpf",
-      "title": "Trailwheel (YouTube)",
-      "displayName": "Trailwheel (YouTube)",
+      "title": "Trailwheel",
+      "displayName": "Trailwheel",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCo1_lHAV8wr_9ND8l1Ba65Q",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCo1_lHAV8wr_9ND8l1Ba65Q",
@@ -11381,29 +11329,31 @@
       "fetchError": ""
     },
     {
-      "id": "youtube-carvecreative-koh10s",
-      "title": "YouTube carvecreative",
-      "displayName": "YouTube carvecreative",
-      "domain": "www.youtube.com",
+      "id": "youtube-carvecreative-s9t491",
+      "title": "Carve Creative",
+      "displayName": "Carve Creative",
+      "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/feeds/videos.xml?user=carvecreative",
-      "feedUrl": "",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "deck": "video",
       "kind": "video",
       "sourcePlatform": "YouTube",
       "sourceSystem": "Lovable repository",
       "sourceContainer": "feed | blocked_or_unreachable | feed | historical_or_candidate | manual_rss_sources | manual_rss_sources",
       "sourceArtifact": "",
-      "acquisitionMethod": "web",
-      "liveAccessStatus": "live audit not_found HTTP 404",
+      "acquisitionMethod": "web; youtube_channel_atom",
+      "liveAccessStatus": "validated repair 2026-09-16T09:20:57.334Z",
       "rssAppFeed": false,
-      "hasFeed": false,
-      "liveAuditStatus": "not_found",
+      "hasFeed": true,
+      "liveAuditStatus": "valid_feed",
       "catalogSourceIds": [
+        "src_f78b21a6b5fc07d9",
+        "src_228a564c31077e7c",
         "src_d8794abfb934838e"
       ],
-      "articleCount": 0,
-      "fetchStatus": "blocked_or_unreachable",
-      "fetchError": "live audit: not_found"
+      "articleCount": 9,
+      "fetchStatus": "ok_nonempty",
+      "fetchError": ""
     },
     {
       "id": "youtube-channel-youtube-1lg7pqc",
@@ -11481,54 +11431,32 @@
       "fetchError": "live audit: reachable_nonfeed"
     },
     {
-      "id": "youtube-scotmendenhall-youtube-bagjwj",
-      "title": "YouTube scotmendenhall (YouTube) (YouTube)",
-      "displayName": "YouTube scotmendenhall (YouTube) (YouTube)",
-      "domain": "www.youtube.com",
-      "siteUrl": "https://www.youtube.com/feeds/videos.xml?user=scotmendenhall",
-      "feedUrl": "",
+      "id": "youtube-scotmendenhall-youtube-fhbqec",
+      "title": "Scot Mendenhall",
+      "displayName": "Scot Mendenhall",
+      "domain": "youtube.com",
+      "siteUrl": "https://www.youtube.com/feeds/videos.xml?user=ScotMendenhall",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "deck": "video",
       "kind": "video",
       "sourcePlatform": "YouTube",
       "sourceSystem": "Lovable repository",
       "sourceContainer": "feed | blocked_or_unreachable | feed | historical_or_candidate | manual_rss_sources | manual_rss_sources",
       "sourceArtifact": "",
-      "acquisitionMethod": "web",
-      "liveAccessStatus": "live audit not_found HTTP 404",
+      "acquisitionMethod": "web; youtube_channel_atom",
+      "liveAccessStatus": "validated repair 2026-09-16T09:20:57.334Z",
       "rssAppFeed": false,
-      "hasFeed": false,
-      "liveAuditStatus": "not_found",
+      "hasFeed": true,
+      "liveAuditStatus": "valid_feed",
       "catalogSourceIds": [
+        "src_fbc083b965764afc",
+        "src_d66d9753a54b08ed",
+        "src_bef52580bb31c7a8",
         "src_f6f994318c63b671"
       ],
-      "articleCount": 0,
-      "fetchStatus": "blocked_or_unreachable",
-      "fetchError": "live audit: not_found"
-    },
-    {
-      "id": "youtube-scotmendenhall-youtube-1tdp8eb",
-      "title": "YouTube ScotMendenhall (YouTube) (YouTube)",
-      "displayName": "YouTube ScotMendenhall (YouTube) (YouTube)",
-      "domain": "www.youtube.com",
-      "siteUrl": "https://www.youtube.com/feeds/videos.xml?user=ScotMendenhall",
-      "feedUrl": "",
-      "deck": "video",
-      "kind": "video",
-      "sourcePlatform": "YouTube",
-      "sourceSystem": "Lovable repository",
-      "sourceContainer": "feed | blocked_or_unreachable | feed | historical_or_candidate | manual_rss_sources | manual_rss_sources",
-      "sourceArtifact": "",
-      "acquisitionMethod": "web",
-      "liveAccessStatus": "live audit not_found HTTP 404",
-      "rssAppFeed": false,
-      "hasFeed": false,
-      "liveAuditStatus": "not_found",
-      "catalogSourceIds": [
-        "src_bef52580bb31c7a8"
-      ],
-      "articleCount": 0,
-      "fetchStatus": "blocked_or_unreachable",
-      "fetchError": "live audit: not_found"
+      "articleCount": 13,
+      "fetchStatus": "ok_nonempty",
+      "fetchError": ""
     },
     {
       "id": "youtube-ucybvoiwmlhcvgk06srxgf-w-1tgol02",
@@ -11643,7 +11571,7 @@
       "videoId": "lY_RdqrKU5o",
       "image": "https://i1.ytimg.com/vi/lY_RdqrKU5o/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11685,7 +11613,7 @@
       "videoId": "Rj8cGKr5M7A",
       "image": "https://i3.ytimg.com/vi/Rj8cGKr5M7A/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11812,7 +11740,7 @@
       "videoId": "7i1iysTZqWU",
       "image": "https://i4.ytimg.com/vi/7i1iysTZqWU/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11961,7 +11889,7 @@
       "videoId": "btJKlbrvYKE",
       "image": "https://i3.ytimg.com/vi/btJKlbrvYKE/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12003,7 +11931,7 @@
       "videoId": "zbM_h1wHqV0",
       "image": "https://i3.ytimg.com/vi/zbM_h1wHqV0/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12045,7 +11973,7 @@
       "videoId": "z4Z5MM9PPUM",
       "image": "https://i3.ytimg.com/vi/z4Z5MM9PPUM/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12171,7 +12099,7 @@
       "videoId": "pIsRT8oKwDc",
       "image": "https://i1.ytimg.com/vi/pIsRT8oKwDc/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12192,7 +12120,7 @@
       "videoId": "ylg0GrypTV0",
       "image": "https://i2.ytimg.com/vi/ylg0GrypTV0/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12426,7 +12354,7 @@
       "videoId": "13kmcWDPSzk",
       "image": "https://i2.ytimg.com/vi/13kmcWDPSzk/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12490,7 +12418,7 @@
       "videoId": "_mhp7wdufXU",
       "image": "https://i4.ytimg.com/vi/_mhp7wdufXU/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12532,7 +12460,7 @@
       "videoId": "_W4BxVu7-E0",
       "image": "https://i4.ytimg.com/vi/_W4BxVu7-E0/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12553,7 +12481,7 @@
       "videoId": "8Sqqma3qBWA",
       "image": "https://i1.ytimg.com/vi/8Sqqma3qBWA/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12582,7 +12510,7 @@
       "duplicateSourceIds": [
         "jimmy-chang-1mgfkfj"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1oh8eie-14wflbm",
@@ -12637,7 +12565,7 @@
       "videoId": "Zaub5I7G6jo",
       "image": "https://i3.ytimg.com/vi/Zaub5I7G6jo/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12658,7 +12586,7 @@
       "videoId": "HWzDr1UEAhE",
       "image": "https://i1.ytimg.com/vi/HWzDr1UEAhE/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12763,7 +12691,7 @@
       "videoId": "tIfEYL-lo1M",
       "image": "https://i1.ytimg.com/vi/tIfEYL-lo1M/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12973,7 +12901,7 @@
       "videoId": "z36x0rwp8eA",
       "image": "https://i3.ytimg.com/vi/z36x0rwp8eA/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13435,7 +13363,7 @@
       "videoId": "Gb9M2V4tJlQ",
       "image": "https://i4.ytimg.com/vi/Gb9M2V4tJlQ/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13561,7 +13489,7 @@
       "videoId": "k6p2JAEDAcg",
       "image": "https://i4.ytimg.com/vi/k6p2JAEDAcg/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13708,7 +13636,7 @@
       "videoId": "dthkFaFdgIE",
       "image": "https://i1.ytimg.com/vi/dthkFaFdgIE/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13792,7 +13720,7 @@
       "videoId": "3JQpeyKaOUc",
       "image": "https://i4.ytimg.com/vi/3JQpeyKaOUc/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14052,7 +13980,7 @@
       "duplicateSourceIds": [
         "jimmy-chang-1mgfkfj"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "hpr0jo-frtrep",
@@ -14339,7 +14267,7 @@
       "videoId": "zZhpW4KFz44",
       "image": "https://i3.ytimg.com/vi/zZhpW4KFz44/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14360,7 +14288,7 @@
       "videoId": "lc_WJP2QUH4",
       "image": "https://i1.ytimg.com/vi/lc_WJP2QUH4/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14486,7 +14414,7 @@
       "videoId": "FbLsvFO7q1g",
       "image": "https://i3.ytimg.com/vi/FbLsvFO7q1g/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14507,7 +14435,7 @@
       "videoId": "Gb2_V_ljatM",
       "image": "https://i4.ytimg.com/vi/Gb2_V_ljatM/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14759,7 +14687,7 @@
       "videoId": "J1MfdGBEqMw",
       "image": "https://i3.ytimg.com/vi/J1MfdGBEqMw/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14845,7 +14773,7 @@
       "videoId": "EuK9pX-KHj4",
       "image": "https://i2.ytimg.com/vi/EuK9pX-KHj4/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14908,7 +14836,7 @@
       "videoId": "aPI__iOtLZc",
       "image": "https://i2.ytimg.com/vi/aPI__iOtLZc/hqdefault.jpg",
       "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
-      "source": "Onewheel YouTube Feed (FM)",
+      "source": "Onewheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15312,7 +15240,7 @@
       "videoId": "lt93NrKDhdA",
       "image": "https://i1.ytimg.com/vi/lt93NrKDhdA/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -16512,7 +16440,7 @@
       "mergedItemCount": 1
     },
     {
-      "id": "1ko36j6-1jpsqih",
+      "id": "1ko36j6-1alt0ww",
       "title": "Can The ANTIC BIKE Handle Rocky Trails?",
       "description": "Today we take 4 different Onewheels and race them in a head to head race. This is not a scientific test. It's a bunch of Hoodrats having fun. We have a GTS, GTS XL and a Vesc ONEWHEEL. We know it's just about the board it's ABOUT the rider as well. If you smile while you watch then you got the point. Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv We are a young family living in Minneapolis Minnesota. We love #onewheel #pint #pintX # GT and use them to document life around here.",
       "contentHtml": "<p>Today we take 4 different Onewheels and race them in a head to head race. This is not a scientific test. It&#39;s a bunch of Hoodrats having fun. We have a GTS, GTS XL and a Vesc ONEWHEEL. We know it&#39;s just about the board it&#39;s ABOUT  the rider as well. If you smile while you watch then you got the point.<br><br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv<br><br>We are a young family living in Minneapolis Minnesota. We love #onewheel  #pint #pintX # GT and use them to document life around here.</p>",
@@ -16521,19 +16449,19 @@
       "author": "Scot Mendenhall",
       "videoId": "eCERJ6laXW4",
       "image": "https://i2.ytimg.com/vi/eCERJ6laXW4/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
     {
-      "id": "15n7uil-1jpsqih",
+      "id": "15n7uil-1alt0ww",
       "title": "King GTR Max Scooter Is Wild Plus Onewheel Racing League News",
       "description": "King GTR Max is wild looking and can it really do what the say it can. New News about Race For The Rails. And we talk about how easy it is to do a wheelie on the Antic Bike. We are excited to talk about it all today. One of the best Onewheel Races out there is call dirtsurferz. Don't miss it this year. Sign up for Dirtsuferz here: www.dirtsurferz.com Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. Are you new to Onewheel? Well then you found the right place to learn all about the community and the sport. Also to talk all about whatever pops into our minds Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​ On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.",
       "contentHtml": "<p>King GTR Max is wild looking and can it really do what the say it can. New News about Race For The Rails. And we talk about how easy it is to do a wheelie on the Antic Bike. We are excited to talk about it all today. <br><br>One of the best Onewheel Races out there is call dirtsurferz. Don&#39;t miss it this year.<br>Sign up for Dirtsuferz here: www.dirtsurferz.com<br><br>Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk<br><br>We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. <br><br>Are  you new to Onewheel? Well then you found the right place to learn all about the community and the sport.  Also to talk all about whatever pops into our minds<br> <br>Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​<br><br>On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.</p>",
@@ -16542,14 +16470,14 @@
       "author": "Scot Mendenhall",
       "videoId": "Lpsar8Cpw3s",
       "image": "https://i1.ytimg.com/vi/Lpsar8Cpw3s/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -16575,7 +16503,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "s5aa61-1jpsqih",
+      "id": "s5aa61-1alt0ww",
       "title": "Onewheel XL Drag Races Antic Bike - who wins? #fast #fun #speed",
       "description": "",
       "contentHtml": "",
@@ -16584,14 +16512,14 @@
       "author": "Scot Mendenhall",
       "videoId": "pb9nwmHtZv8",
       "image": "https://i1.ytimg.com/vi/pb9nwmHtZv8/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -16680,7 +16608,7 @@
       "mergedItemCount": 1
     },
     {
-      "id": "e0rixm-1jpsqih",
+      "id": "e0rixm-1alt0ww",
       "title": "Kid Kicks Onewheel Breaks Toe",
       "description": "",
       "contentHtml": "",
@@ -16689,19 +16617,19 @@
       "author": "Scot Mendenhall",
       "videoId": "UVUlcwpUlvU",
       "image": "https://i2.ytimg.com/vi/UVUlcwpUlvU/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
     {
-      "id": "owh8ji-1jpsqih",
+      "id": "owh8ji-1alt0ww",
       "title": "Who Is Faster The Vesc Onewheel or Future Motion Onewheel?",
       "description": "Today we take 4 different Onewheels and race them in a head to head race. This is not a scientific test. It's a bunch of Hoodrats having fun. We have a GTS, GTS XL and a Vesc ONEWHEEL. We know it's just about the board it's ABOUT the rider as well. If you smile while you watch then you got the point. Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv We are a young family living in Minneapolis Minnesota. We love #onewheel #pint #pintX # GT and use them to document life around here.",
       "contentHtml": "<p>Today we take 4 different Onewheels and race them in a head to head race. This is not a scientific test. It&#39;s a bunch of Hoodrats having fun. We have a GTS, GTS XL and a Vesc ONEWHEEL. We know it&#39;s just about the board it&#39;s ABOUT  the rider as well. If you smile while you watch then you got the point.<br><br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv<br><br>We are a young family living in Minneapolis Minnesota. We love #onewheel  #pint #pintX # GT and use them to document life around here.</p>",
@@ -16710,19 +16638,19 @@
       "author": "Scot Mendenhall",
       "videoId": "MyUm04vRxJw",
       "image": "https://i2.ytimg.com/vi/MyUm04vRxJw/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
     {
-      "id": "1my8i83-1jpsqih",
+      "id": "1my8i83-1alt0ww",
       "title": "Onewheel Antic Pit Bike On PumpTrack",
       "description": "",
       "contentHtml": "",
@@ -16731,19 +16659,19 @@
       "author": "Scot Mendenhall",
       "videoId": "fsIIznXvCPw",
       "image": "https://i3.ytimg.com/vi/fsIIznXvCPw/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
     {
-      "id": "1vv922d-1jpsqih",
+      "id": "1vv922d-1alt0ww",
       "title": "Antic Bike Does It Handle Trails? Plus Onewheel Race Results",
       "description": "After we hosted the best Onewheel race we talk all about the behind the senses stuff and ORL standings. Also Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. One of the best Onewheel Races out there is call dirtsurferz. Don't miss it this year. Sign up for Dirtsuferz here: www.dirtsurferz.com Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. Are you new to Onewheel? Well then you found the right place to learn all about the community and the sport. Also to talk all about whatever pops into our minds Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​ On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.",
       "contentHtml": "<p>After we hosted the best Onewheel race we talk all about the behind  the senses stuff and ORL standings. Also Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. <br><br>One of the best Onewheel Races out there is call dirtsurferz. Don&#39;t miss it this year.<br>Sign up for Dirtsuferz here: www.dirtsurferz.com<br><br>Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk<br><br>We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. <br><br>Are  you new to Onewheel? Well then you found the right place to learn all about the community and the sport.  Also to talk all about whatever pops into our minds<br> <br>Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​<br><br>On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.</p>",
@@ -16752,14 +16680,14 @@
       "author": "Scot Mendenhall",
       "videoId": "xrV2ur_Y6fI",
       "image": "https://i1.ytimg.com/vi/xrV2ur_Y6fI/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -16785,7 +16713,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1fdgnac-1jpsqih",
+      "id": "1fdgnac-1alt0ww",
       "title": "Can You Chainsaw You Antic Bike?",
       "description": "SMF got their hands on the new Antic Bike from Future Motion and it's wild. We figured you can just open the box normally, you have to do it in away that would suggest you are worthy of the name Antic. Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv We are a young family living in Minneapolis Minnesota. We love #onewheel #pint #pintX # GT and use them to document life around here.",
       "contentHtml": "<p>SMF got their hands on the new Antic Bike from Future Motion and it&#39;s wild. We figured you can just open the box normally, you have to do it in away that would suggest you are worthy of the name Antic. <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv<br><br>We are a young family living in Minneapolis Minnesota. We love #onewheel  #pint #pintX # GT and use them to document life around here.</p>",
@@ -16794,19 +16722,19 @@
       "author": "Scot Mendenhall",
       "videoId": "-_FXK3cjkXY",
       "image": "https://i2.ytimg.com/vi/-_FXK3cjkXY/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
     {
-      "id": "n0dxn8-1jpsqih",
+      "id": "n0dxn8-1alt0ww",
       "title": "Onewheel Made A Bike",
       "description": "",
       "contentHtml": "",
@@ -16815,14 +16743,14 @@
       "author": "Scot Mendenhall",
       "videoId": "jXlPLZncDXQ",
       "image": "https://i3.ytimg.com/vi/jXlPLZncDXQ/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -16974,7 +16902,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "ftyjcx-1jpsqih",
+      "id": "ftyjcx-1alt0ww",
       "title": "ONEWHEEL RACING AT DIRTSURFERZ WAS MIND BLOWING",
       "description": "After we hosted the best Onewheel race we talk all about the behind the senses stuff and ORL standings. Also Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. One of the best Onewheel Races out there is call dirtsurferz. Don't miss it this year. Sign up for Dirtsuferz here: www.dirtsurferz.com Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. Are you new to Onewheel? Well then you found the right place to learn all about the community and the sport. Also to talk all about whatever pops into our minds Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​ On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.",
       "contentHtml": "<p>After we hosted the best Onewheel race we talk all about the behind  the senses stuff and ORL standings. Also Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. <br><br>One of the best Onewheel Races out there is call dirtsurferz. Don&#39;t miss it this year.<br>Sign up for Dirtsuferz here: www.dirtsurferz.com<br><br>Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk<br><br>We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. <br><br>Are  you new to Onewheel? Well then you found the right place to learn all about the community and the sport.  Also to talk all about whatever pops into our minds<br> <br>Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​<br><br>On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.</p>",
@@ -16983,14 +16911,14 @@
       "author": "Scot Mendenhall",
       "videoId": "7K0JASN_LDo",
       "image": "https://i4.ytimg.com/vi/7K0JASN_LDo/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -17131,7 +17059,7 @@
       "videoId": "mxVvqLYLSbM",
       "image": "https://i2.ytimg.com/vi/mxVvqLYLSbM/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -17184,7 +17112,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "t4veb0-1jpsqih",
+      "id": "t4veb0-1alt0ww",
       "title": "IS THE ONEWHEEL WATERPROOF? Plus Vesing A Onewheel EASY OR HARD?",
       "description": "We dropped out Onewheel into the lake and learned a few things. Also we are building a Vesc and talk about it. Also Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. One of the best Onewheel Races out there is call dirtsurferz. Don't miss it this year. Sign up for Dirtsuferz here: www.dirtsurferz.com Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. Are you new to Onewheel? Well then you found the right place to learn all about the community and the sport. Also to talk all about whatever pops into our minds Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​ On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.",
       "contentHtml": "<p>We dropped out Onewheel into the lake and learned a few things. Also we are building a Vesc and talk about it. Also Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. <br><br>One of the best Onewheel Races out there is call dirtsurferz. Don&#39;t miss it this year.<br>Sign up for Dirtsuferz here: www.dirtsurferz.com<br><br>Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk<br><br>We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. <br><br>Are  you new to Onewheel? Well then you found the right place to learn all about the community and the sport.  Also to talk all about whatever pops into our minds<br> <br>Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​<br><br>On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.</p>",
@@ -17193,14 +17121,14 @@
       "author": "Scot Mendenhall",
       "videoId": "NSV3DjwR9Zs",
       "image": "https://i3.ytimg.com/vi/NSV3DjwR9Zs/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -17331,7 +17259,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1ar31qz-1jpsqih",
+      "id": "1ar31qz-1alt0ww",
       "title": "Antic Bike or Wheelie Fun Bike, Who Did It Better. Plus Onewheel Race Update",
       "description": "Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. One of the best Onewheel Races out there is call dirtsurferz. Don't miss it this year. Sign up for Dirtsuferz here: www.dirtsurferz.com Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. Are you new to Onewheel? Well then you found the right place to learn all about the community and the sport. Also to talk all about whatever pops into our minds Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​ On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.",
       "contentHtml": "<p>Hot news around about Onewheels, Antic Bikes, Wheelie Fun Bike and the community. We are excited to talk about it all today. <br><br>One of the best Onewheel Races out there is call dirtsurferz. Don&#39;t miss it this year.<br>Sign up for Dirtsuferz here: www.dirtsurferz.com<br><br>Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk<br><br>We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. <br><br>Are  you new to Onewheel? Well then you found the right place to learn all about the community and the sport.  Also to talk all about whatever pops into our minds<br> <br>Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​<br><br>On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.</p>",
@@ -17340,14 +17268,14 @@
       "author": "Scot Mendenhall",
       "videoId": "nmYGijAgqFo",
       "image": "https://i3.ytimg.com/vi/nmYGijAgqFo/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -17499,7 +17427,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "ypppkj-1jpsqih",
+      "id": "ypppkj-1alt0ww",
       "title": "Casey Neistat Rides Antic Bike, Indy Speed Control Interview Plus Onewheel Race Results",
       "description": "Hot news around the Onewheel community. We are excited to talk about it today. One of the best Onewheel Races out there is call dirtsurferz. Don't miss it this year. Sign up for Dirtsuferz here: www.dirtsurferz.com Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. Are you new to Onewheel? Well then you found the right place to learn all about the community and the sport. Also to talk all about whatever pops into our minds Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community Join our youtube family by SUBSCRIBING: https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​ On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.",
       "contentHtml": "<p>Hot news around the Onewheel community. We are excited to talk about it today. <br><br>One of the best Onewheel Races out there is call dirtsurferz. Don&#39;t miss it this year.<br>Sign up for Dirtsuferz here: www.dirtsurferz.com<br><br>Link to suggested classes: https://docs.google.com/spreadsheets/d/1TXTfn6FJvI0iS9Js77fdcVqcI8eHhCfD-mv1Cr5YPOk/edit?usp=drivesdk<br><br>We give tips to help you enjoy riding your Onewheel ride. We have been riding our Onewheels for 10 plus years. We share what has kept us riding as friends and family over the years. <br><br>Are  you new to Onewheel? Well then you found the right place to learn all about the community and the sport.  Also to talk all about whatever pops into our minds<br> <br>Every Wednesday we do our weekly Scot Mendenhall and Friends Podcast. We talk about the latest topics of the Onewheel community. Also we talk about the new products that are dropping from some the best bands in the Onewheel space. We even get a chance to interview some of the best riders out there. Also we try to keep you updated on events for the Onewheel Community <br><br>Join our youtube family by SUBSCRIBING:  https://goo.gl/C2Yvyv​​​​​​​​​​​​​​​​​<br><br>On this channel we drop weekly Onewheel videos. Those videos might be Onewheel races, how to Onewheel videos, new products in the community and so much more.</p>",
@@ -17508,14 +17436,14 @@
       "author": "Scot Mendenhall",
       "videoId": "K-umlplgQmc",
       "image": "https://i4.ytimg.com/vi/K-umlplgQmc/hqdefault.jpg",
-      "sourceId": "scot-mendenhall-fhbqec",
+      "sourceId": "youtube-scotmendenhall-youtube-fhbqec",
       "source": "Scot Mendenhall",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA",
       "duplicateSourceIds": [
-        "scot-mendenhall-fhbqec"
+        "youtube-scotmendenhall-youtube-fhbqec"
       ],
       "mergedItemCount": 2
     },
@@ -17572,7 +17500,7 @@
       "videoId": "CISojLQbenA",
       "image": "https://i4.ytimg.com/vi/CISojLQbenA/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -17593,7 +17521,7 @@
       "videoId": "1KiJj3cf1YY",
       "image": "https://i2.ytimg.com/vi/1KiJj3cf1YY/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -18286,7 +18214,7 @@
       "videoId": "NOOQ7uHcLI4",
       "image": "https://i3.ytimg.com/vi/NOOQ7uHcLI4/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -18559,7 +18487,7 @@
       "videoId": "qxLi75eWeuo",
       "image": "https://i2.ytimg.com/vi/qxLi75eWeuo/hqdefault.jpg",
       "sourceId": "fatdaddy-eogq9i",
-      "source": "FatDaddy",
+      "source": "Fatdaddy",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -18567,7 +18495,7 @@
       "duplicateSourceIds": [
         "fatdaddy-eogq9i"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "nhzc6b-73w35x",
@@ -19008,7 +18936,7 @@
       "duplicateSourceIds": [
         "jimmy-chang-1mgfkfj"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "mrwuen-9o596",
@@ -19253,7 +19181,7 @@
       "videoId": "r9ECGtDvkwo",
       "image": "https://i3.ytimg.com/vi/r9ECGtDvkwo/hqdefault.jpg",
       "sourceId": "fatdaddy-eogq9i",
-      "source": "FatDaddy",
+      "source": "Fatdaddy",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -19261,7 +19189,7 @@
       "duplicateSourceIds": [
         "fatdaddy-eogq9i"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "k6ncfq-9o596",
@@ -20516,7 +20444,7 @@
       "videoId": "HFP9BuQJyBk",
       "image": "https://i1.ytimg.com/vi/HFP9BuQJyBk/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -21272,7 +21200,7 @@
       "videoId": "y66VP_0PJ5I",
       "image": "https://i2.ytimg.com/vi/y66VP_0PJ5I/hqdefault.jpg",
       "sourceId": "fatdaddy-eogq9i",
-      "source": "FatDaddy",
+      "source": "Fatdaddy",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -21280,7 +21208,7 @@
       "duplicateSourceIds": [
         "fatdaddy-eogq9i"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1mxnsez-1wp04f0",
@@ -21658,7 +21586,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "uoduhq-1g0g18h",
@@ -21713,7 +21641,7 @@
       "videoId": "a2JIE1q4YHc",
       "image": "https://i2.ytimg.com/vi/a2JIE1q4YHc/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -21742,7 +21670,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "lkr2lh-1fhfqpa",
@@ -21763,7 +21691,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1p43ltu-mspp9h",
@@ -21826,7 +21754,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "jlvg5k-1nc2r0w",
@@ -21889,7 +21817,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "eakewh-n3s1af",
@@ -21931,7 +21859,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "yccf8-1fhfqpa",
@@ -21952,7 +21880,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1rsnf6n-1fhfqpa",
@@ -21973,7 +21901,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "4okl36-1fhfqpa",
@@ -21994,7 +21922,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1pwfrms-lyucdd",
@@ -22057,7 +21985,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1jx1ile-1fhfqpa",
@@ -22078,7 +22006,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "6ofw59-1f0n85l",
@@ -22091,7 +22019,7 @@
       "videoId": "j7CtHnYAZ8k",
       "image": "https://i3.ytimg.com/vi/j7CtHnYAZ8k/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -22184,7 +22112,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "15g3tvk-1fhfqpa",
@@ -22205,7 +22133,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1kds2kl-lyucdd",
@@ -22268,7 +22196,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1xlv4ub-1fhfqpa",
@@ -22289,7 +22217,7 @@
       "duplicateSourceIds": [
         "craft-and-ride-1oa7mw7"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "7irvoz-lyucdd",
@@ -22491,7 +22419,7 @@
       "videoId": "cuDNj8_Gt5o",
       "image": "https://i4.ytimg.com/vi/cuDNj8_Gt5o/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -22512,7 +22440,7 @@
       "videoId": "mv_zaRcIuAY",
       "image": "https://i2.ytimg.com/vi/mv_zaRcIuAY/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -23249,7 +23177,7 @@
       "videoId": "OP5CcO9itsk",
       "image": "https://i4.ytimg.com/vi/OP5CcO9itsk/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -23680,7 +23608,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "wszf7m-19nur5j",
+      "id": "wszf7m-c8ml1m",
       "title": "How To: Onewheel XR Classic Tire Change",
       "description": "Join Kyle in the studio as he walks you through how to change the tire on the Onewheel XR Classic. We also swapped out the motor for the upgraded GTS motor! #onewheel #xrclassic #howto",
       "contentHtml": "<p>Join Kyle in the studio as he walks you through how to change the tire on the Onewheel XR Classic.  We also swapped out the motor for the upgraded GTS motor!<br><br>#onewheel #xrclassic #howto</p>",
@@ -23689,14 +23617,14 @@
       "author": "Carve Creative",
       "videoId": "zv3n4TReqgA",
       "image": "https://i3.ytimg.com/vi/zv3n4TReqgA/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -23828,7 +23756,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "r83mq7-19nur5j",
+      "id": "r83mq7-c8ml1m",
       "title": "👨‍🎨ART🎨",
       "description": "Brand new VESC onewheel build. ￼ #onewheel #vesc #art",
       "contentHtml": "<p>Brand new VESC onewheel build. ￼<br>#onewheel #vesc #art</p>",
@@ -23837,19 +23765,19 @@
       "author": "Carve Creative",
       "videoId": "ffeIu2Z0jwc",
       "image": "https://i3.ytimg.com/vi/ffeIu2Z0jwc/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
     {
-      "id": "lvq0fe-19nur5j",
+      "id": "lvq0fe-c8ml1m",
       "title": "😱OUR GUY SEBASTIAN KEEPS LEVELING UP💪",
       "description": "The crew spent the day riding at Atwood Mountain bike trails in Rockford, Illinois. So much fun! #onewheel #thefloatlife #trails ￼",
       "contentHtml": "<p>The crew spent the day riding at Atwood Mountain bike trails in Rockford, Illinois. So much fun! <br>#onewheel #thefloatlife #trails ￼</p>",
@@ -23858,14 +23786,14 @@
       "author": "Carve Creative",
       "videoId": "XYDWBZFqG7I",
       "image": "https://i1.ytimg.com/vi/XYDWBZFqG7I/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -23954,7 +23882,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1r49w48-19nur5j",
+      "id": "1r49w48-c8ml1m",
       "title": "Onewheel XR Classic // Range Test // Raw & Uncut",
       "description": "Join Kyle for a battery burn through Waukesha.",
       "contentHtml": "<p>Join Kyle for a battery burn through Waukesha.</p>",
@@ -23963,14 +23891,14 @@
       "author": "Carve Creative",
       "videoId": "2zjNyQ_PpmA",
       "image": "https://i3.ytimg.com/vi/2zjNyQ_PpmA/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -24006,7 +23934,7 @@
       "videoId": "U_a231ZcUMA",
       "image": "https://i2.ytimg.com/vi/U_a231ZcUMA/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24017,7 +23945,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "47vsd5-19nur5j",
+      "id": "47vsd5-c8ml1m",
       "title": "Onewheel XR Classic First Impressions!!",
       "description": "Join Luke, Zak, and Kyle as they check out the new Onewheel XR Classic!!",
       "contentHtml": "<p>Join Luke, Zak, and Kyle as they check out the new Onewheel XR Classic!!</p>",
@@ -24026,14 +23954,14 @@
       "author": "Carve Creative",
       "videoId": "QzAcru3ytZ8",
       "image": "https://i2.ytimg.com/vi/QzAcru3ytZ8/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -24090,7 +24018,7 @@
       "videoId": "2QqhJ7NaWvw",
       "image": "https://i3.ytimg.com/vi/2QqhJ7NaWvw/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24174,7 +24102,7 @@
       "videoId": "dUXDBQQ_OsU",
       "image": "https://i1.ytimg.com/vi/dUXDBQQ_OsU/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24195,7 +24123,7 @@
       "videoId": "m5UVeeHUCq4",
       "image": "https://i2.ytimg.com/vi/m5UVeeHUCq4/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24237,7 +24165,7 @@
       "videoId": "MAmFgbxOimI",
       "image": "https://i2.ytimg.com/vi/MAmFgbxOimI/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24468,7 +24396,7 @@
       "videoId": "QpN855CzHfs",
       "image": "https://i2.ytimg.com/vi/QpN855CzHfs/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24510,7 +24438,7 @@
       "videoId": "jeVTHSqb008",
       "image": "https://i3.ytimg.com/vi/jeVTHSqb008/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24531,7 +24459,7 @@
       "videoId": "0UjIdeqjJAI",
       "image": "https://i1.ytimg.com/vi/0UjIdeqjJAI/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24594,7 +24522,7 @@
       "videoId": "HO-nHJpH9mg",
       "image": "https://i1.ytimg.com/vi/HO-nHJpH9mg/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24731,7 +24659,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "16nrbp6-19nur5j",
+      "id": "16nrbp6-c8ml1m",
       "title": "Insane Onewheel Jumping and riding from Luke Austin at the 2024 WinMan Enduro.",
       "description": "It’s been a while but we’re glad to be back.",
       "contentHtml": "<p>It’s been a while but we’re glad to be back.</p>",
@@ -24740,14 +24668,14 @@
       "author": "Carve Creative",
       "videoId": "X1OyxKY1UO8",
       "image": "https://i1.ytimg.com/vi/X1OyxKY1UO8/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -25056,7 +24984,7 @@
       "videoId": "PZXC1J87vEs",
       "image": "https://i1.ytimg.com/vi/PZXC1J87vEs/hqdefault.jpg",
       "sourceId": "fixmypev-1qoh8my",
-      "source": "FixMyPEV (YouTube)",
+      "source": "FixMyPEV",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -25582,7 +25510,7 @@
       "videoId": "f1nC6JayXS8",
       "image": "https://i3.ytimg.com/vi/f1nC6JayXS8/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -26257,7 +26185,7 @@
       "videoId": "WHoVBS_rwWg",
       "image": "https://i4.ytimg.com/vi/WHoVBS_rwWg/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -26887,7 +26815,7 @@
       "videoId": "OXY0DCgGJpU",
       "image": "https://i4.ytimg.com/vi/OXY0DCgGJpU/hqdefault.jpg",
       "sourceId": "fatdaddy-eogq9i",
-      "source": "FatDaddy",
+      "source": "Fatdaddy",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -26895,7 +26823,7 @@
       "duplicateSourceIds": [
         "fatdaddy-eogq9i"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "2p45e3-1t4x78b",
@@ -27538,7 +27466,7 @@
       "videoId": "DAjHdvP-gJw",
       "image": "https://i1.ytimg.com/vi/DAjHdvP-gJw/hqdefault.jpg",
       "sourceId": "floatwheel-youtube-feed-1uorzzz",
-      "source": "Floatwheel YouTube Feed",
+      "source": "floatwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -30460,7 +30388,7 @@
     },
     {
       "id": "1c40e9v-1k6th9l",
-      "title": "Every single Onewheel is being recalled after four deaths - theverge.com",
+      "title": "Every single Onewheel is being recalled after four deaths - The Verge",
       "description": "Every single Onewheel is being recalled after four deaths theverge.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3drSHJDc1l0ZWV5MkprdHpmdHUyck9Tbl96UW5kR1NsMzZ2RVdIbWJUaUN0ZW81Tlh2akxZNWQ5clFpWXN0elRsWE1fMTBFVDFHWDFnSlVjTm95QnUtUnp1Nl9OS3otTVBRR2F4WTZHTkdvNk4xNmZMLU5MeHBxTHM4Z2llM3hIbDVnekRSaWUzMV9G?oc=5\" target=\"_blank\">Every single Onewheel is being recalled after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3drSHJDc1l0ZWV5MkprdHpmdHUyck9Tbl96UW5kR1NsMzZ2RVdIbWJUaUN0ZW81Tlh2akxZNWQ5clFpWXN0elRsWE1fMTBFVDFHWDFnSlVjTm95QnUtUnp1Nl9OS3otTVBRR2F4WTZHTkdvNk4xNmZMLU5MeHBxTHM4Z2llM3hIbDVnekRSaWUzMV9G?oc=5",
@@ -30774,7 +30702,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "70cfoj-19nur5j",
+      "id": "70cfoj-c8ml1m",
       "title": "MIDWEST ONEWHEEL WINMAN TRAILS ENDURO - WHAT'S NEW?",
       "description": "What's new for the 2023 Midwest Onewheel Winman Enduro?! Well for starters, theres more trail! For more information and to register https://www.midwestonewheel.com/winmanenduro/ Midwest Onewheel WinMan Enduro Swag https://www.midwestonewheel.com/shop For more information about WinMan Trails and becoming a member - https://www.winmantrails.com/ https://www.winmantrails.com/membership/ #WinMan #Enduro #Onewheel",
       "contentHtml": "<p>What&#39;s new for the 2023 Midwest Onewheel Winman Enduro?! Well for starters, theres more trail!<br><br>For more information and to register<br>https://www.midwestonewheel.com/winmanenduro/<br><br>Midwest Onewheel WinMan Enduro Swag<br>https://www.midwestonewheel.com/shop<br><br>For more information about WinMan Trails and becoming a member - <br>https://www.winmantrails.com/<br>https://www.winmantrails.com/membership/<br><br>#WinMan #Enduro #Onewheel</p>",
@@ -30783,14 +30711,14 @@
       "author": "Carve Creative",
       "videoId": "Q4vviU6Zs5E",
       "image": "https://i2.ytimg.com/vi/Q4vviU6Zs5E/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -30847,7 +30775,7 @@
       "videoId": "rwnT72QuuSg",
       "image": "https://i3.ytimg.com/vi/rwnT72QuuSg/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -30921,7 +30849,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1aww8zc-19nur5j",
+      "id": "1aww8zc-c8ml1m",
       "title": "Just having some fun testing out the new FLOATWHEEL 😎 #shorts",
       "description": "#onewheel #nature #wisconsin #midwest",
       "contentHtml": "<p>#onewheel<br>#nature<br>#wisconsin<br>#midwest</p>",
@@ -30930,14 +30858,14 @@
       "author": "Carve Creative",
       "videoId": "nDLl7g3EWVw",
       "image": "https://i3.ytimg.com/vi/nDLl7g3EWVw/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -31110,7 +31038,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "sftgxq-19nur5j",
+      "id": "sftgxq-c8ml1m",
       "title": "FloatWheel 🤝 Nature #shorts",
       "description": "Thanks to our friend David Johnson for letting us test out your FloatWheel! #nature #vesc #eskate",
       "contentHtml": "<p>Thanks to our friend David Johnson for letting us test out your FloatWheel!  <br><br><br>#nature #vesc #eskate</p>",
@@ -31119,14 +31047,14 @@
       "author": "Carve Creative",
       "videoId": "uD5tQd0VuKw",
       "image": "https://i2.ytimg.com/vi/uD5tQd0VuKw/hqdefault.jpg",
-      "sourceId": "carve-creative-s9t491",
+      "sourceId": "youtube-carvecreative-s9t491",
       "source": "Carve Creative",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA",
       "duplicateSourceIds": [
-        "carve-creative-s9t491"
+        "youtube-carvecreative-s9t491"
       ],
       "mergedItemCount": 2
     },
@@ -31183,7 +31111,7 @@
       "videoId": "ipxCxVVu13k",
       "image": "https://i2.ytimg.com/vi/ipxCxVVu13k/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31729,7 +31657,7 @@
       "videoId": "7B9BfiPB2OA",
       "image": "https://i4.ytimg.com/vi/7B9BfiPB2OA/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31940,7 +31868,7 @@
       "videoId": "jRvK-6hLUCs",
       "image": "https://i3.ytimg.com/vi/jRvK-6hLUCs/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31961,7 +31889,7 @@
       "videoId": "jrd8dyATlqY",
       "image": "https://i3.ytimg.com/vi/jrd8dyATlqY/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31982,7 +31910,7 @@
       "videoId": "zBxDW9IGaRc",
       "image": "https://i3.ytimg.com/vi/zBxDW9IGaRc/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32087,7 +32015,7 @@
       "videoId": "dK_nTwjRjyA",
       "image": "https://i1.ytimg.com/vi/dK_nTwjRjyA/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32171,7 +32099,7 @@
       "videoId": "5LrZpsQDZOo",
       "image": "https://i2.ytimg.com/vi/5LrZpsQDZOo/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32192,7 +32120,7 @@
       "videoId": "HX_5Zzhg_fY",
       "image": "https://i1.ytimg.com/vi/HX_5Zzhg_fY/hqdefault.jpg",
       "sourceId": "trailwheel-iv9kpf",
-      "source": "Trailwheel (YouTube)",
+      "source": "Trailwheel",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -35192,7 +35120,7 @@
     },
     {
       "id": "vm13z0-1k6th9l",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - theverge.com",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
       "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
@@ -35213,7 +35141,7 @@
     },
     {
       "id": "3q9naa-1k6th9l",
-      "title": "Long-Range Single-Wheeled Scooters: The Onewheel GT Offers Up to 32-Miles of Range - Trend Hunter",
+      "title": "Long-Range Single-Wheeled Scooters: The Onewheel GT Offers Up to 32-Miles of Range - trendhunter.com",
       "description": "Long-Range Single-Wheeled Scooters: The Onewheel GT Offers Up to 32-Miles of Range trendhunter.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZGJVV3dfaWRGWDFxQlAzeW0xRjBEZ2s1RkdvUEMxdnM4ZzJ1QXI5cU13bFBxaVZUazNDd3hFN1NSa3BSWDlwY1YwdndXNFE4a05UZ2ZCRmJPQQ?oc=5\" target=\"_blank\">Long-Range Single-Wheeled Scooters: The Onewheel GT Offers Up to 32-Miles of Range</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">trendhunter.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZGJVV3dfaWRGWDFxQlAzeW0xRjBEZ2s1RkdvUEMxdnM4ZzJ1QXI5cU13bFBxaVZUazNDd3hFN1NSa3BSWDlwY1YwdndXNFE4a05UZ2ZCRmJPQQ?oc=5",
@@ -37252,7 +37180,7 @@
     },
     {
       "id": "1qrrmm6-1joxsrd",
-      "title": "Testing out the latest OneWheel+XR: What's with the hype? - Men's Journal",
+      "title": "Testing out the latest OneWheel+XR: What's with the hype? - mensjournal.com",
       "description": "Testing out the latest OneWheel+XR: What's with the hype? mensjournal.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGYwQTBEZUx3emU1czZXY19VVWxOWEF0R0pFVkE1N2xueXpEc3JVMjZRNWtFM3FBZmliT1ZJN0tpUEc1LVQ3OFV6V05SRG9ZU01qbE8xV0NGYzYwdTRaQUl1OXYtSTN4MFBhdDBYZzM4eVQtbUtBZmFHX3drX0dCeXhyNzRJVkRMTVhVV1hBMk5ia1hjNFloQ3B3?oc=5\" target=\"_blank\">Testing out the latest OneWheel+XR: What's with the hype?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mensjournal.com</font>",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGYwQTBEZUx3emU1czZXY19VVWxOWEF0R0pFVkE1N2xueXpEc3JVMjZRNWtFM3FBZmliT1ZJN0tpUEc1LVQ3OFV6V05SRG9ZU01qbE8xV0NGYzYwdTRaQUl1OXYtSTN4MFBhdDBYZzM4eVQtbUtBZmFHX3drX0dCeXhyNzRJVkRMTVhVV1hBMk5ia1hjNFloQ3B3?oc=5",
@@ -37483,7 +37411,7 @@
     },
     {
       "id": "1ysvq05-1joxsrd",
-      "title": "The Onewheel Pint Is The Fun Machine From The Future You Need To Experience - forbes.com",
+      "title": "The Onewheel Pint Is The Fun Machine From The Future You Need To Experience - Forbes",
       "description": "The Onewheel Pint Is The Fun Machine From The Future You Need To Experience forbes.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRFViYmdkVHVseVhrWFo1QWZqVUlrNVNzWk9taGxqQ1puZEpZQS1GYUM4NVQ1cWVhLTZwTjNFeE01ZDFvdGI3ZGd1LW9PZk1KMXFXSnphdnFlQ0trS2xFcWhjYWV5d2o2ZXB0bWpSdy1XMkEtXzlJb3B4cWQ5RWdIQ1V4Zk52NkpTVDRCSm1oejR0TDAwNF9jYnNCWkZESEE1bG5mRFhFbWgxSmlxZ2dieU4xY0RNTS05VWtjbk1WZGFqWkpJenpyeQ?oc=5\" target=\"_blank\">The Onewheel Pint Is The Fun Machine From The Future You Need To Experience</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">forbes.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRFViYmdkVHVseVhrWFo1QWZqVUlrNVNzWk9taGxqQ1puZEpZQS1GYUM4NVQ1cWVhLTZwTjNFeE01ZDFvdGI3ZGd1LW9PZk1KMXFXSnphdnFlQ0trS2xFcWhjYWV5d2o2ZXB0bWpSdy1XMkEtXzlJb3B4cWQ5RWdIQ1V4Zk52NkpTVDRCSm1oejR0TDAwNF9jYnNCWkZESEE1bG5mRFhFbWgxSmlxZ2dieU4xY0RNTS05VWtjbk1WZGFqWkpJenpyeQ?oc=5",
@@ -38896,7 +38824,7 @@
       "id": "all",
       "title": "Latest",
       "url": "/feeds/all.xml",
-      "sourceCount": 451,
+      "sourceCount": 448,
       "articleCount": 1295
     },
     {
@@ -38917,7 +38845,7 @@
       "id": "video",
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
-      "sourceCount": 114,
+      "sourceCount": 111,
       "articleCount": 559
     },
     {

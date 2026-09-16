@@ -5,7 +5,7 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 451,
+    "sourceCount": 448,
     "feedSourceCount": 184,
     "articleCount": 1295,
     "rssUrl": "/feeds/all.xml"
@@ -38,7 +38,7 @@
     "shortTitle": "Video",
     "color": "#ff3b6b",
     "description": "YouTube, media feeds, podcasts, and riding videos.",
-    "sourceCount": 114,
+    "sourceCount": 111,
     "feedSourceCount": 69,
     "articleCount": 559,
     "rssUrl": "/feeds/video.xml"
