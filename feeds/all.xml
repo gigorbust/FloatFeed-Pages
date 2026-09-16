@@ -3,9 +3,9 @@
   <channel>
     <title>FloatFeed - Latest</title>
     <description>Current Onewheel-community stories across every publishing topic.</description>
-    <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 16 Sep 2026 09:54:38 GMT</lastBuildDate>
+    <link>https://floatfeed.floatgear.one/</link>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://floatfeed.floatgear.one/feeds/all.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 11:10:03 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Onewheel sunsets are the best kind 🤩 #onewheel #sunset #beautiful]]></title>
@@ -18,6 +18,18 @@
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lY_RdqrKU5o" /></media:content>
       <dc:creator>Onewheel</dc:creator>
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Invite to discord?]]></title>
+      <link>https://www.reddit.com/r/FloatwheelTeam/comments/1whmvf2/invite_to_discord/</link>
+      <guid isPermaLink="false">taaoq9-frtrep</guid>
+      <pubDate>Wed, 16 Sep 2026 04:22:02 GMT</pubDate>
+      <description><![CDATA[<p>Could someone pass me an invite please? submitted by /u/InvestmentExotic2458 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Could someone pass me an invite please?</p> </div>   submitted by   <a href="https://www.reddit.com/user/InvestmentExotic2458" target="_blank" rel="noopener noreferrer"> /u/InvestmentExotic2458 </a> <br /> <span><a href="https://www.reddit.com/r/FloatwheelTeam/comments/1whmvf2/invite_to_discord/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/FloatwheelTeam/comments/1whmvf2/invite_to_discord/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/InvestmentExotic2458</dc:creator>
+      <source url="https://www.reddit.com/r/FloatwheelTeam.rss">Reddit r/FloatwheelTeam</source>
     </item>
     <item>
       <title><![CDATA[ISO: FST System-like footpads for my Onewheel+ XR]]></title>
@@ -128,12 +140,12 @@
       <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 - aboutlawsuits.com]]></title>
+      <title><![CDATA[Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 - AboutLawsuits.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5</link>
       <guid isPermaLink="false">hee639-1k6th9l</guid>
       <pubDate>Fri, 11 Sep 2026 17:35:06 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 aboutlawsuits.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5" target="_blank" rel="noopener noreferrer">Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026</a>  aboutlawsuits.com]]></content:encoded>
+      <description><![CDATA[<p>Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 AboutLawsuits.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5" target="_blank" rel="noopener noreferrer">Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026</a>  AboutLawsuits.com]]></content:encoded>
 
 
 
@@ -701,7 +713,7 @@
 
 
       <dc:creator>/u/FRESHEZY_1</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Is there another third-party Onewheel app I can download somehow?]]></title>
@@ -713,7 +725,7 @@
 
 
       <dc:creator>/u/YamzMt03</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[OneWheel Pint Battery Issue]]></title>
@@ -725,7 +737,7 @@
       <media:thumbnail url="https://preview.redd.it/yhqbpl9w1xmh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=ba678b57fa711fbf875aa7b2423b7cfa7434a14d" />
 
       <dc:creator>/u/Juno907</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Inmotion V9 vs OneWheel GT]]></title>
@@ -737,7 +749,7 @@
 
 
       <dc:creator>/u/piemanklp</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Just ordered my first Onewheel]]></title>
@@ -749,7 +761,7 @@
 
 
       <dc:creator>/u/FirmCartographer7262</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[A Onewheel Arizona Buc-ees Group Ride]]></title>
@@ -785,7 +797,7 @@
       <media:thumbnail url="https://external-preview.redd.it/b2NsOXM2OGRidG1oMakUN0YuHdNX_S5I_G0m7Nl16a2AjJHJh7XTuO0gm6R6.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=098a06806c3b86bfff10f42a4f8d84385c956e4c" />
 
       <dc:creator>/u/Fantastic_Cicada6565</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Had a friend's onewheel get stolen and now I'm paranoid and looking into trackers. What are options yall are using?]]></title>
@@ -797,7 +809,7 @@
 
 
       <dc:creator>/u/Sufficient_Arm_3407</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Could this be attached to a OneWheel GT?]]></title>
@@ -809,7 +821,7 @@
 
 
       <dc:creator>/u/Hour-Head9367</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Improved 3D Printed Pint Fender]]></title>
@@ -821,7 +833,7 @@
       <media:thumbnail url="https://preview.redd.it/xbciodazfpmh1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=b030eaa5986ff6315582e7d30f0b97bdd4257b07" />
 
       <dc:creator>/u/wings19</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Anyone know why my one wheel+XR is making this noise?]]></title>
@@ -833,7 +845,7 @@
       <media:thumbnail url="https://external-preview.redd.it/ajkxN2hhcDhlbW1oMSTXN3XmEOEhIm2n5TXGJgaOZrP_61uBh4optJtvbf8B.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9a5151639d4276ab68b72492536e052b2233641b" />
 
       <dc:creator>/u/WasteBased</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[FloatLifeFest- an ad got me, and now I'm wondering..]]></title>
@@ -845,7 +857,7 @@
 
 
       <dc:creator>/u/salukikev</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[PintV Battery Swap]]></title>
@@ -869,7 +881,7 @@
       <media:thumbnail url="https://external-preview.redd.it/nTlekl7y3fpDJo0dVcuu4HsyXiZBqYy0b6c9yWKNBoI.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=9eaf5a2a48b3e256b464ccef1caad1beb51104e6" />
 
       <dc:creator>/u/Portuwheel</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Atom: First range test!]]></title>
@@ -905,7 +917,7 @@
 
 
       <dc:creator>/u/MelodicFeed9994</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Upgrade to HS SF w/ 75v]]></title>
@@ -917,7 +929,7 @@
       <media:thumbnail url="https://external-preview.redd.it/bjI0bWZ0MTA2Zm1oMSvgyoCBWRNkOb4-2lu0VoZH5qRNYa6dIyFA5Eue1RKT.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=19e9a6cc357953f9acdf7bcbd3172d51082d59cc" />
 
       <dc:creator>/u/khamjam15</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[The Atom goes off-road!]]></title>
@@ -941,7 +953,7 @@
 
 
       <dc:creator>/u/Such_Position_29</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel left at Abandoned PA turnpike tunnels]]></title>
@@ -953,7 +965,7 @@
       <media:thumbnail url="https://preview.redd.it/a44z2ceohdmh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=63e1e1eab17e7dda4d86413778940df2a42ebd79" />
 
       <dc:creator>/u/Fair-Narwhal-743</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[One Wheel GT Problem]]></title>
@@ -965,7 +977,7 @@
       <media:thumbnail url="https://external-preview.redd.it/dndqcHRvYWlmZG1oMUhOnBQbf3sNSjVUAznfohmdaBj_brbmjLio3AkF-ihM.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=20c692e6fe400c0a26f8c014995a9dfc4ff9dc91" />
 
       <dc:creator>/u/TallGuy2402</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[209 area]]></title>
@@ -977,7 +989,7 @@
 
 
       <dc:creator>/u/ItsTinoGuey</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Creeky Onewheel gt plastic]]></title>
@@ -989,7 +1001,7 @@
 
 
       <dc:creator>/u/zoolanation</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Be aware of Landed Footwear]]></title>
@@ -1001,7 +1013,7 @@
       <media:thumbnail url="https://preview.redd.it/5idq840ojamh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=05b5645268186df5742dbe2693f5953331c5d5a1" />
 
       <dc:creator>/u/ZD_plguy17</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Fungineers frustration]]></title>
@@ -1013,7 +1025,7 @@
 
 
       <dc:creator>/u/Honest-Purchase5433</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Tech Rails - Ice Blocks]]></title>
@@ -1025,7 +1037,7 @@
       <media:thumbnail url="https://preview.redd.it/2a93hy3mc6mh1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=f7c191578b162b8f2d9aac63bdd981621b586bab" />
 
       <dc:creator>/u/Onewheel-Uni-Psycho</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Why You Should Bring a Onewheel Camping]]></title>
@@ -1061,7 +1073,7 @@
 
 
       <dc:creator>/u/dantodd</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Xlite V4 BMS Beeping Randomly.]]></title>
@@ -1073,7 +1085,7 @@
 
 
       <dc:creator>/u/JaKKsonDD</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[The new Atom looks super fun, but we can go smaller (shorter rails w full XR width) and bigger (BTG and SuperFlux/CannonCore/etc) with the Donky, a kit build based on 4820 Obligatory’s OG build. Pictured is a 30s1p via 18s/12s split(will Fusion Core 36s1p in the future) with SF and Ennoid MK8]]></title>
@@ -1085,7 +1097,7 @@
       <media:thumbnail url="https://external-preview.redd.it/ypXXKjAXMKKle245QrTyowHySbyQtra8d5zANb-Ma7E.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=341a5f67df309ae4adc8140c6e4f0397c90ecaef" />
 
       <dc:creator>/u/clawesome</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[I Couldn’t Stop Saying CHARTREUSE 💀]]></title>
@@ -1121,7 +1133,7 @@
       <media:thumbnail url="https://preview.redd.it/dahp2rxyazlh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=96037aa1cca0773bdd6fd81a6f4f1bb3a6afb652" />
 
       <dc:creator>/u/borzykot</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[X7 or Atom?]]></title>
@@ -1157,7 +1169,7 @@
       <media:thumbnail url="https://external-preview.redd.it/NHVibTJybmJyeGxoMTBtYse4tbfglkXO_DwCBS48MBeslr14P4uikmlM2Wt4.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1889945f8b0022a58bd0c690681ee44a62a2d8d7" />
 
       <dc:creator>/u/NolanRichard</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[onewheel + lidar sensor]]></title>
@@ -1169,7 +1181,7 @@
 
 
       <dc:creator>/u/Different_Garage_471</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[I can’t wait to vesc it]]></title>
@@ -1181,7 +1193,7 @@
       <media:thumbnail url="https://preview.redd.it/hiyw20ablvlh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=1fca4a8fd29f09a23a16efcdd1999df66ffb8659" />
 
       <dc:creator>/u/GoldLeafLiquidpod</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Paris is fun on a bike 🚲 but better on a @Onewheel #fun #future #paris #city]]></title>
@@ -1205,7 +1217,7 @@
 
 
       <dc:creator>/u/Chimichurrichallenge</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Atom First Impressions by several riders!]]></title>
@@ -1217,7 +1229,7 @@
       <media:thumbnail url="https://external-preview.redd.it/VDkF4CM-ol79AnznYPQkrSAFlcq85THqPkrHff5jH_E.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=e4cf5c4957146fd8f2f5aa20ff3a9f17e99a657b" />
 
       <dc:creator>/u/Portuwheel</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Atom First Impressions by several riders]]></title>
@@ -1265,7 +1277,7 @@
 
 
       <dc:creator>/u/tibadoex</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Vesc onewheel]]></title>
@@ -1277,7 +1289,7 @@
       <media:thumbnail url="https://preview.redd.it/zgkq4pi1hnlh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f648166beba43a8596dbf4a5bb7e3518d10c8a2c" />
 
       <dc:creator>/u/bubbles-7274</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[I had a rough time finding info for my mods, so I’m documenting what actually worked here for someone else.]]></title>
@@ -1289,7 +1301,7 @@
       <media:thumbnail url="https://preview.redd.it/vwauaxn7xmlh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7b3f558a3249d2cb1d374b6db80f700cad4f2661" />
 
       <dc:creator>/u/kingfridayace</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Reviving a dead Onewheel Pint + Samsung 50S battery upgrade]]></title>
@@ -1301,7 +1313,7 @@
       <media:thumbnail url="https://external-preview.redd.it/dmQ1eGhhZXR2bWxoMQh29Lpf8VqXRW5Lp0HoouLvIzR-LnBMtG9TKNDp5wQH.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=879cb347c980b7950efcc8104d376a66c950be52" />
 
       <dc:creator>/u/SpreadSharp3808</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Adv2]]></title>
@@ -1313,7 +1325,7 @@
 
 
       <dc:creator>/u/Acrobatic_Brush_9344</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XRClassic not being used much]]></title>
@@ -1325,7 +1337,7 @@
 
 
       <dc:creator>/u/IllCommunication-973</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[3T Ventum II LTD basebar on Fuji D6 (risers ?)]]></title>
@@ -1349,7 +1361,7 @@
       <media:thumbnail url="https://preview.redd.it/9hp6xmucbllh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=ae6ed4c8f0faa972ac240cbbb849a431a6c1602a" />
 
       <dc:creator>/u/Visible_Paper_8418</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Just got done putting new parts on my 6000 mile Onewheel it feels brand new now]]></title>
@@ -1361,7 +1373,7 @@
       <media:thumbnail url="https://preview.redd.it/nmscar04cglh1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=1e043023001ba910fe85f2606f234c0183bd0151" />
 
       <dc:creator>/u/Maxxmann420</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Defective board, won’t fix! Do not buy a one wheel!]]></title>
@@ -1373,7 +1385,7 @@
 
 
       <dc:creator>/u/Wa-buyer-2000</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[have you heard the good news?]]></title>
@@ -1409,7 +1421,7 @@
       <media:thumbnail url="https://preview.redd.it/9lg23fb9jdlh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=875228ebafe73c51b19ca0053d1340dc6b39b3ac" />
 
       <dc:creator>/u/Maleficent-Living-69</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Upgrade ideas?]]></title>
@@ -1421,7 +1433,7 @@
       <media:thumbnail url="https://preview.redd.it/7tx8wp03hdlh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e37eb020fcb05a4fc9240e31a1292b5148541290" />
 
       <dc:creator>/u/Timely-Writer-1136</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[One wheel plus xr]]></title>
@@ -1433,7 +1445,7 @@
 
 
       <dc:creator>/u/AppropriateMinute905</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[ALL TERRAIN! || Floatwheel Atom Trail Ride]]></title>
@@ -1457,7 +1469,7 @@
       <media:thumbnail url="https://external-preview.redd.it/emR4dGE4eTJyY2xoMVug-j_mN4c3Z2dxGPSu3L6DsYY3JSwOqzezPSF7_Sda.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=26abaef5d12cbe064e86c27e4e2cb93f1fa9931b" />
 
       <dc:creator>/u/Its_Sharky18</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Why does everyone like the flipsky vx4 over the pro??]]></title>
@@ -1481,7 +1493,7 @@
 
 
       <dc:creator>/u/Cute-Set6405</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Refloat version 1.3]]></title>
@@ -1505,7 +1517,7 @@
 
 
       <dc:creator>/u/Fun_Swordfish7038</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Video: Smash and Grab on My Car - Onewheel stolen right outside alley facing garage]]></title>
@@ -1517,7 +1529,7 @@
       <media:thumbnail url="https://external-preview.redd.it/dXNuZXlqZ3d4OGxoMaKoadGKcIo7UncX3WqR7HawXyCVOzXqIpEsseetvfRf.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a5e530adb161d2aa0ff137e2074bebc4ccfed496" />
 
       <dc:creator>/u/blastfaxkudos</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Testing the VESC waters]]></title>
@@ -1529,7 +1541,7 @@
       <media:thumbnail url="https://preview.redd.it/zi8ju9pjh8lh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=23f496dc1a6522a0155d44675c42ea50e258efc1" />
 
       <dc:creator>/u/eeenmachine</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Gleaming the Mammoth]]></title>
@@ -1541,7 +1553,7 @@
       <media:thumbnail url="https://preview.redd.it/rv4pmyciy6lh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4982c921ddc17a7dc4ea3677f2004efef2346d2b" />
 
       <dc:creator>/u/rypopo</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel atom Beta FAQ & Range Test]]></title>
@@ -1810,14 +1822,14 @@
     <item>
       <title><![CDATA[Onewheel Terrain Guide: Riding on Pavement, Grass, Trails, Sand and Snow]]></title>
       <link>https://fallman.tech/onewheel-terrain/</link>
-      <guid isPermaLink="false">1t4ylp6-m6g0vw</guid>
+      <guid isPermaLink="false">1t4ylp6-1p4alnb</guid>
       <pubDate>Sun, 16 Aug 2026 15:13:58 GMT</pubDate>
       <description><![CDATA[<p>Yes, a Onewheel can ride on many different surfaces, including pavement, grass, gravel, dirt, sand and snow. The riding experience changes considerably depending on the terrain, though, with loose surfaces requiring more power and reducing traction and range. The tire, tire pressure, weather and type of terrain all affect how the board behaves and how ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>Yes, a Onewheel can ride on many different surfaces, including pavement, grass, gravel, dirt, sand and snow. The riding experience changes considerably depending on the terrain, though, with loose surfaces requiring more power and reducing traction and range.</p>&#10;&#10;&#10;&#10;<p>The tire, tire pressure, weather and type of terrain all affect how the board behaves and how you can push the board. Here is what you need to know before taking your Onewheel off pavement and onto trails, grass, sand or snow. </p>&#10;&#10;&#10;&#10;&#10;&#10;<h2>Which terrain can you ride a Onewheel on?</h2>&#10;&#10;&#10;&#10;<p>A Onewheel can handle a wide range of surfaces, but not all terrain is equally easy to ride. Pavement is the easiest and most efficient surface, while loose sand, mud, deep snow and technical trails require more skill and can put more load on the motor.</p>&#10;&#10;&#10;&#10;<figure><table><thead><tr><th>Terrain</th><th>Difficulty</th><th>Traction</th><th>Range impact</th><th>Main concern</th></tr></thead><tbody><tr><td>Street/Pavement</td><td>Easy</td><td>High</td><td>Low</td><td>Traffic and speed</td></tr><tr><td>Grass</td><td>Easy to moderate</td><td>Medium</td><td>Moderate</td><td>Hidden bumps</td></tr><tr><td>Gravel</td><td>Moderate</td><td>Medium</td><td>Moderate</td><td>Loose stones and slipping</td></tr><tr><td>Trails and dirt</td><td>Moderate to hard</td><td>Depends on surface</td><td>Moderate to high</td><td>Roots, rocks and holes</td></tr><tr><td>Packed sand</td><td>Moderate</td><td>Medium</td><td>High</td><td>Sand and salt</td></tr><tr><td>Loose sand</td><td>Hard</td><td>Low</td><td>Very high</td><td>Tire digging into sand</td></tr><tr><td>Snow</td><td>Moderate to hard</td><td>Low</td><td>High</td><td>Slipping, cold and water</td></tr><tr><td>Mud</td><td>Hard</td><td>Low</td><td>High</td><td>Loss of traction and water</td></tr></tbody></table></figure>&#10;&#10;&#10;&#10;<p>The exact difficulty depends on the board, tire, tire pressure and riding conditions. A treaded tire will generally be more useful on loose or uneven terrain than a slick tire. Never push your board to the limit, <a href="https://fallman.tech/onewheel-pushback/" target="_blank" rel="noopener noreferrer">respect the board if you experiance pushback</a>.</p>&#10;&#10;&#10;&#10;<h2>Riding on Streets and Pavement</h2>&#10;&#10;&#10;&#10;<p>Pavements and street is the most common terrain for riding your Onehweel. The majority of my commute is on pavement if I don’t decide to take an off-road MTB track over the hills.</p>&#10;&#10;&#10;&#10;<p>The rubber in the go-kart wheel is sticking to the pavement making it possible for deep carving when hitting the streets.</p>&#10;&#10;&#10;&#10;<p>The main risk when street riding is to fall into the trap and start keeping up with electric bikes and other traffic. Remember to check your speed and stay within the board’s limits else you are risking a nosedive for overloading the motor.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="536" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg" alt="Person Riding a Onewheel on street" /><figcaption>Onewheel Riding on the street</figcaption></figure>&#10;</div>&#10;&#10;&#10;<h2>Riding on Grass</h2>&#10;&#10;&#10;&#10;<p>After the pavement stepping onto grass is the usual next step when learning to ride an Onewheel.</p>&#10;&#10;&#10;&#10;<p>The grass is softer to fall on however the risk of falling is greater. There are usually hidden bumps and there is additional power needed to ride on grass, hitting a bump and overloading the motor is the most common cause for a nosedive on grass.</p>&#10;&#10;&#10;&#10;<p>Grass has lower friction to the rubber making it perfect to learn 180’s. Remember to move your upper body first and then rotate the board with your hips.</p>&#10;&#10;&#10;&#10;<p>The best tip when riding on grass is to keep your knees bent, and weight low and above the wheel to be more prepared for hitting a hidden bump.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="576" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2024/01/TSG-Pass-Pro-riding-on-field-edited-1024x576.jpg" alt="TSG Pass Pro riding on field" /><figcaption>Onewheel riding on grass</figcaption></figure>&#10;</div>&#10;&#10;&#10;<h2>Riding on Trails and Dirt</h2>&#10;&#10;&#10;&#10;<p>Onewheel shines when hitting the trails and dirt tracks. You need to be alert when bouncing over roots and around stumps and holes. A good idea is to practice around your neighborhood before heading out on the trail when you do it’s well worth it! There are many mountain bike tracks for you to explore or trails to head down.</p>&#10;&#10;&#10;&#10;<p>I strongly recommend reading my guide <a href="https://fallman.tech/onewheel-off-road/" target="_blank" rel="noopener noreferrer">Onewheel off-road (Trail Riding Tips)</a>. It goes over everything you need to know about off-road riding.</p>&#10;&#10;&#10;&#10;<p>When riding trails lower tire pressures to increase traction to the ground and keep a good stance. Trail riding requires you to pay attention to your surroundings, and watch the trail ahead to anticipate obstacles in your way.</p>&#10;&#10;&#10;&#10;<h2>Riding on the Beach and Sand</h2>&#10;&#10;&#10;&#10;<p>Riding on the beach is one of the most iconic scenes from the Onehweel commercial and many riders love hitting the sand and carving the waves. The Onewheels are not waterproof so stay out of the water there is a risk that the saltwater will increase the corrosion and shorten the life of your board.</p>&#10;&#10;&#10;&#10;<p>Riding on dry loose sand is difficult as the wheel will dig down into the ground. It’s therefore recommended to ride on the wet packed patch near the water.</p>&#10;&#10;&#10;&#10;<p><strong><em>Don’t ride in the waves.</em></strong></p>&#10;&#10;&#10;&#10;<p>When riding your Onewheel on the beach make sure to cover the charge port protecting it from sand, it’s recommended to waterproof the board and make sure to wipe it down afterwards.</p>&#10;&#10;&#10;&#10;<h2>Riding on Snow</h2>&#10;&#10;&#10;&#10;<p>It’s possible to ride your Onewheel in snow but there are some things you need to remember. Snow will reduce the friction for your wheel so it’s a higher risk for slipping and falling. For better traction, you can change your tire for a treaded one or get yourself <a href="https://www.badgerwheel.com/shop-online/soccasin" target="_blank" rel="noopener noreferrer">Soccasin from Badgerwheel</a>.</p>&#10;&#10;&#10;&#10;<p>The Onewheel isn’t waterproof, therefore it’s recommended to apply a waterproof kit like the one from Badger Wheel to reduce the risk of damage. Riding in cold weather will also drastically decrease your range by somewhere around 20-40% depending on your board and temperature.</p>&#10;&#10;&#10;&#10;<p>If you want to know more about winter riding check out my guide <a href="https://fallman.tech/onewheel-winter-riding/" target="_blank" rel="noopener noreferrer">Onewheel winter riding (Tips)</a>.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="536" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/08/Onewheel-winter-riding-tip-1024x536.jpg" alt="Onewheel in the snow" /><figcaption>Onewheel riding on snow</figcaption></figure>&#10;</div>&#10;&#10;&#10;<h2>Riding a Onewheel on gravel</h2>&#10;&#10;&#10;&#10;<p>Gravel is possible to ride on a Onewheel, but the loose stones make it less predictable than pavement or packed dirt. The tire can move slightly over the stones, especially when turning. Keep your knees bent and avoid making sudden movements. It is also better to look further ahead so you have time to react to larger stones or changes in the surface.</p>&#10;&#10;&#10;&#10;<p>A treaded tire can provide more traction on loose gravel, but it will not prevent the board from moving around when the surface is particularly loose.</p>&#10;&#10;&#10;&#10;<p>Take extra care when transitioning from pavement onto gravel. The change in traction can be more noticeable than the gravel itself.</p>&#10;&#10;&#10;&#10;<h2>What about wet terrain?</h2>&#10;&#10;&#10;&#10;<p>Wet terrain needs some extra consideration because the problem is not only traction. Water can also damage the board.</p>&#10;&#10;&#10;&#10;<p>Onewheels are water-resistant, not waterproof. Riding through wet grass or a damp trail is different from riding through a deep puddle or water. Avoid submerging the board and be particularly careful around puddles, streams and the shoreline.</p>&#10;&#10;&#10;&#10;<p>If the board gets wet, wipe it down and let it dry completely before charging and riding it again.</p>&#10;&#10;&#10;&#10;<p>For more information, see my guide on <a href="https://fallman.tech/onewheel-waterproof/" target="_blank" rel="noopener noreferrer">whether a Onewheel is waterproof and how to improve its water resistance</a>.</p>&#10;&#10;&#10;&#10;<h2>Choosing the right Onewheel tire for the terrain</h2>&#10;&#10;&#10;&#10;<p>The tire has a large effect on how a Onewheel behaves off-road. A slick tire works well on pavement and other hard surfaces, while a treaded tire provides additional grip when the ground becomes loose and is therefore perfect for trails and gravel.</p>&#10;&#10;&#10;&#10;<p>For mainly street riding, a slick tire is a good choice. If you regularly ride gravel, trails, grass or other loose surfaces, a treaded tire is worth considering. The difference is most noticeable when the ground is loose or wet. The tread can help the tire maintain traction instead of sliding across the surface.</p>&#10;&#10;&#10;&#10;<p>There is also a compromise. A treaded tire is generally less focused on smooth pavement riding, while a slick tire can feel more natural when carving on hard surfaces.</p>&#10;&#10;&#10;&#10;<p>If you are choosing between the two, consider where you spend most of your riding time rather than simply choosing the most aggressive tire.</p>&#10;&#10;&#10;&#10;<p>For more information, see my guide to the <a href="https://fallman.tech/onewheel-gt-threaded-vs-slick/" target="_blank" rel="noopener noreferrer">Onewheel GT treaded vs slick tire</a>.</p>&#10;&#10;&#10;&#10;<h3><strong>Looking for more tips for riding on different Terrains?</strong></h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong><a href="https://fallman.tech/onewheel-off-road/" target="_blank" rel="noopener noreferrer">Onewheel off-road (Trail riding Tips)</a></strong></li>&#10;&#10;&#10;&#10;<li><strong><a href="https://fallman.tech/onewheel-winter-riding/" target="_blank" rel="noopener noreferrer">Onewheel winter riding (Tips)</a>.</strong></li>&#10;&#10;&#10;&#10;<li><strong><a href="https://fallman.tech/best-shoes-for-onewheel/" target="_blank" rel="noopener noreferrer">Best shoes for Onewheel</a></strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p><strong>Remember to always ride safe</strong>, here is my list of the gear I use daily <a href="https://fallman.tech/safety-gear-for-commuting-with-a-last-mile-device/" target="_blank" rel="noopener noreferrer">Onewheel Safety Gear</a></p>&#10;&#10;&#10;&#10;<p></p>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[Pushback: high voltage warning while riding at 90% after update to 7.0]]></title>
@@ -2026,14 +2038,14 @@
     <item>
       <title><![CDATA[Race for the Rail 2026: Joseph Katz and Zayne Carter Take the Titles at Hollister Hills]]></title>
       <link>https://fallman.tech/race-for-the-rail-2026-winners-joseph-katz-zayne-carter/</link>
-      <guid isPermaLink="false">9pehzk-m6g0vw</guid>
+      <guid isPermaLink="false">9pehzk-1p4alnb</guid>
       <pubDate>Sun, 09 Aug 2026 07:10:12 GMT</pubDate>
       <description><![CDATA[<p>Race for the Rail 2026 took place on 8 August at Hollister Hills SVRA, delivered the kind of racing that defines the Onewheel community: tight battles, unpredictable moments, crashes, and two champions who earned their wins. Under the sun, heat and dust of Hollister Hills, Joseph Katz and Zayne Carter claimed the Pro Men’s and ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>Race for the Rail 2026 took place on 8 August at Hollister Hills SVRA, delivered the kind of racing that defines the Onewheel community: tight battles, unpredictable moments, crashes, and two champions who earned their wins. Under the sun, heat and dust of Hollister Hills, Joseph Katz and Zayne Carter claimed the Pro Men’s and Pro Women’s titles.</p>&#10;&#10;&#10;&#10;<p>The course ran fast, the features demanded accuracy, and riders had to stay sharp from gate drop to finish line. At one point, a commentator summed it up perfectly:</p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p>“You don’t want to miss this action.”</p>&#10;</blockquote>&#10;&#10;&#10;&#10;<p>They were right.</p>&#10;&#10;&#10;&#10;<h2><strong>A Format Built for Pure Racing</strong></h2>&#10;&#10;&#10;&#10;<p>The 2026 structure continued Future Motion’s push toward a more balanced and competitive field. Qualifying was split across regional brackets and on‑site entries, giving riders multiple paths to earn their place. Timed practice set gate choice, and motos ran with large groups, making starts explosive and positioning critical.</p>&#10;&#10;&#10;&#10;<p>Hollister Hills ran faster this year, with fewer lip jumps and more flow. Technical features like the lily pad and Pipe Dreams demanded clean technique. Even small mistakes could flip the leaderboard, and riders had to adapt constantly as traction changed throughout the day.</p>&#10;&#10;&#10;&#10;<p>One of the race commentators captured the environment well:</p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p>“It is hot. It is dusty… important to keep the course lightly moisturized so riders have traction.”</p>&#10;</blockquote>&#10;&#10;&#10;&#10;<p>RFTR 2026 wasn’t just fast, it was demanding, and the weather was perfect.</p>&#10;&#10;&#10;&#10;<h2><strong>Your RFTR 2026 Winners</strong></h2>&#10;&#10;&#10;&#10;<p>This year introduced more categories than ever, giving riders across all skill levels a chance to compete:</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Pro Men:</strong> Joseph Katz</li>&#10;&#10;&#10;&#10;<li><strong>Pro Women:</strong> Zayne Carter</li>&#10;&#10;&#10;&#10;<li><strong>A Class:</strong> Cian Fahey</li>&#10;&#10;&#10;&#10;<li><strong>B Class:</strong> Tim Vandehey</li>&#10;&#10;&#10;&#10;<li><strong>C Class:</strong> Chasen Gilbert</li>&#10;&#10;&#10;&#10;<li><strong>Women’s B Class:</strong> Icon Mendenhall</li>&#10;&#10;&#10;&#10;<li><strong>Grom Champ:</strong> Greatness Mendenhall</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>The Grom division, the young riders, delivered one of the most exciting finishes of the weekend, with the Menhall siblings battling all the way to a photo finish. Their determination and composure showed exactly why the younger riders are becoming such a core part of the sport’s future.</p>&#10;&#10;&#10;&#10;<p>And yes, Zayne Carter won again. After taking the 2025 title, she returned to Hollister Hills and repeated the performance with confident, controlled riding. She is now the second woman to win back-to-back RFTRs and only needs one more win to <a href="https://fallman.tech/race-for-the-rail-winners-through-the-years/" target="_blank" rel="noopener noreferrer">tie Racheal Cecil for the most wins in history.</a></p>&#10;&#10;&#10;&#10;<p>One commentator noted during practice:</p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p>“She acted like it wasn’t even there,”</p>&#10;</blockquote>&#10;&#10;&#10;&#10;<p>referring to how effortlessly she handled one of the course’s most technical features.</p>&#10;&#10;&#10;&#10;<p>She continues to set the pace in the women’s division.</p>&#10;&#10;&#10;&#10;<figure><div>&#10;<a href="https://www.youtube.com/embed/zaBmiPHa3nQ?feature=oembed"></a>&#10;</div></figure>&#10;&#10;&#10;&#10;<h2><strong>Hollister Hills: A Course That Tests Everything</strong></h2>&#10;&#10;&#10;&#10;<p>RFTR’s second year at Hollister Hills SVRA proved again why this venue fits the event so well. Spectator Hill offered full‑course visibility, the GP layout rewarded flow and bravery, and the technical sections kept riders honest. Camping brought the community together, turning the weekend into a festival as much as a race.</p>&#10;&#10;&#10;&#10;<p>The environment itself added challenge. Heat, dust, and changing traction meant riders had to adapt constantly. Even small adjustments in line choice or speed made a difference, especially in the more technical sections.</p>&#10;&#10;&#10;&#10;<p>One rider joked mid‑broadcast:</p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p>“Them boys go with them hoverboards,”</p>&#10;</blockquote>&#10;&#10;&#10;&#10;<p>capturing the mix of curiosity and disbelief from passersby watching the racing unfold.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="499" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png" alt="" /></figure>&#10;</div>&#10;&#10;&#10;<h2><strong>Why RFTR 2026 Matters</strong></h2>&#10;&#10;&#10;&#10;<p>Race for the Rail has grown into the cultural anchor of Onewheel racing. It’s where new talent emerges, where rivalries form, and where the community gets to see what the sport looks like at full speed. The 2026 event reinforced <a href="https://fallman.tech/race-for-the-rail-history/" target="_blank" rel="noopener noreferrer">how far the racing has come</a>, structured, competitive, and driven by riders who continue to push their limits.</p>&#10;&#10;&#10;&#10;<p>RFTR isn’t just about winning. It’s about progression, community, and the shared experience of watching riders take on a course that demands respect. This is the spirit of Onewheel, the community!</p>&#10;&#10;&#10;&#10;<h2><strong>Final Thoughts</strong></h2>&#10;&#10;&#10;&#10;<p>As a system engineer and long‑time rider, RFTR always reminds me why this sport matters. The combination of technical riding, thoughtful course design, and community energy makes this event special every year. Joseph Katz and Zayne Carter didn’t just take home titles, they delivered performances that reflect where Onewheel racing is today and what brings the community together.</p>&#10;&#10;&#10;&#10;<p>RFTR 2026 was fast, loud, chaotic, and genuinely fun to watch.</p>&#10;&#10;&#10;&#10;<p>See you next year.</p>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[Flipsky 75200 Pro FOC Detection Stuck at 0.000 Flux Linkage]]></title>
@@ -2074,14 +2086,14 @@
     <item>
       <title><![CDATA[Race for the Rail: The Boards That Defined the Competition]]></title>
       <link>https://fallman.tech/race-for-the-rail-board-history/</link>
-      <guid isPermaLink="false">1uewj9z-m6g0vw</guid>
+      <guid isPermaLink="false">1uewj9z-1p4alnb</guid>
       <pubDate>Thu, 06 Aug 2026 19:12:54 GMT</pubDate>
       <description><![CDATA[<p>Every year, the Race for the Rail showcases the fastest, most skilled riders, and the boards that make it possible. From the Onewheel Original to the high‑torque Rally XL, each generation has shaped how the Race for the Rail has been, pushing both riders and the boards to the limits on dirt, gravel, and mountain ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>Every year, the <strong><a href="https://fallman.tech/race-for-the-rail-history/" target="_blank" rel="noopener noreferrer">Race for the Rail</a></strong> showcases the fastest, most skilled riders, and the boards that make it possible. From the Onewheel Original to the high‑torque Rally XL, each generation has shaped how the Race for the Rail has been, pushing both riders and the boards to the limits on dirt, gravel, and mountain trails.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="674" height="1024" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg" alt="" /></figure>&#10;</div>&#10;&#10;&#10;<h2><strong>2015 — Onewheel Original</strong></h2>&#10;&#10;&#10;&#10;<p>The first board was never built for racing, but it started the movement and the community of racing. In short it laid the foundation for everything that came after.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Top Speed:</strong> 19 mph</li>&#10;&#10;&#10;&#10;<li><strong>Range:</strong> 5–7 mi</li>&#10;</ul>&#10;&#10;&#10;&#10;<h2><strong>2016–2017 — Onewheel Plus</strong></h2>&#10;&#10;&#10;&#10;<p>The Plus refined control and responsiveness. Riders began experimenting with speed runs and trail challenges, discovering that smoother power delivery meant tighter cornering and better acceleration. It was the first step toward true race‑ready performance.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Top Speed:</strong> 19 mph</li>&#10;&#10;&#10;&#10;<li><strong>Range:</strong> 5–7 mi</li>&#10;</ul>&#10;&#10;&#10;&#10;<h2><strong>2018–2021 — Onewheel XR</strong></h2>&#10;&#10;&#10;&#10;<p>The XR changed everything. With nearly triple the range and improved torque, it became the board of choice for early Race for the Rail events. Its reliability and mod potential made it legendary and is the OG board for many riders.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Top Speed:</strong> 19 mph</li>&#10;&#10;&#10;&#10;<li><strong>Range:</strong> 12–18 mi</li>&#10;</ul>&#10;&#10;&#10;&#10;<h2><strong>2022–2023 — Onewheel GT</strong></h2>&#10;&#10;&#10;&#10;<p>The GT brought a new level of aggression. With 20 mph top speed and up to 32 mi range, it introduced a stiffer tire and sharper handling. This was the first board designed with racing and trail in mind, faster acceleration, better braking, and more control at high speed.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Top Speed:</strong> 20 mph</li>&#10;&#10;&#10;&#10;<li><strong>Range:</strong> 20–32 mi</li>&#10;</ul>&#10;&#10;&#10;&#10;<h2><strong>2024–2025 — Onewheel GT S‑Series</strong></h2>&#10;&#10;&#10;&#10;<p>The S‑Series was built for extreme racing. Future Motion Inc. tuned the motor and electronics for instant torque response, giving racers the edge in technical terrain. It became the standard for competitive riders, powerful, precise, and built to win.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Top Speed:</strong> 25 mph</li>&#10;&#10;&#10;&#10;<li><strong>Range:</strong> 16–25 mi</li>&#10;</ul>&#10;&#10;&#10;&#10;<h2><strong>2026 — Onewheel Rally XL</strong></h2>&#10;&#10;&#10;&#10;<p>The Rally XL is the next evolution — a board designed from the ground up for racing. With a 12″ XL tire, reinforced frame, and extended range, it’s made for riders who attack trails at full speed. 25 mph top speed, 28 mi range, and unmatched stability make it the ultimate Race for the Rail contender.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Top Speed:</strong> 25 mph</li>&#10;&#10;&#10;&#10;<li><strong>Range:</strong> 18–28 mi</li>&#10;</ul>&#10;&#10;&#10;&#10;<h2>The Race Legacy</h2>&#10;&#10;&#10;&#10;<p>Each board tells a story of innovation driven by Future Motion Inc., improving the board with every new iteration. From the early XR days to the Rally XL era, Race for the Rail has been the proving ground for every major Onewheel upgrade. It’s not just about who crosses the finish line first, it’s about how far the technology can go.</p>&#10;&#10;&#10;&#10;<p><a href="https://onewheel.com/pages/compare" target="_blank" rel="noopener noreferrer">[source]</a></p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p><em>Over the last 10+ years of Onewheel racing, one thing is for certain, the tech and riders have progressed like crazy! A race that was once a rogue event in Golden Gate Park, and also thrown together overnight as a sideshow at the GoPro mountain games is now a full on sport. It’s amazing to see how far it’s all come, and how much passion our riders have put into it. – Future Motion Inc.</em></p>&#10;</blockquote>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[You'll Never Catch Me! || Onewheel Follow Me Series]]></title>
@@ -2110,14 +2122,14 @@
     <item>
       <title><![CDATA[Onewheel Slang: 20+ Terms Every Rider Should Know (2026 Guide)]]></title>
       <link>https://fallman.tech/onewheel-slang/</link>
-      <guid isPermaLink="false">wh2goa-m6g0vw</guid>
+      <guid isPermaLink="false">wh2goa-1p4alnb</guid>
       <pubDate>Wed, 05 Aug 2026 13:42:39 GMT</pubDate>
       <description><![CDATA[<p>If you’ve spent time on Reddit, Facebook groups, or joined a local Onewheel group ride, you’ve probably heard words like nosedive, ghosting, Captain Morgan, bonk, or badgering. For new riders, the community has its own language that can be confusing. This guide explains the most common Onewheel slang, technical terms, and community expressions, helping you ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>If you’ve spent time on Reddit, Facebook groups, or joined a local Onewheel group ride, you’ve probably heard words like nosedive, ghosting, Captain Morgan, bonk, or badgering. For new riders, the community has its own language that can be confusing. This guide explains the most common Onewheel slang, technical terms, and community expressions, helping you understand conversations and ride with confidence.</p>&#10;&#10;&#10;&#10;<p>After thousands of miles riding Onewheels, participating in group rides and active in forums, I’ve found that many new riders struggle with the community’s terminology. Some expressions originated in snowboarding, while others were created specifically by the Onewheel community.</p>&#10;&#10;&#10;&#10;<h2>Onewheel slang, Vocabulary List and Expressions</h2>&#10;&#10;&#10;&#10;<h3>A</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Amped Up</strong> – When you’re fully charged and can’t go down any hills because of overcharging.</li>&#10;&#10;&#10;&#10;<li><strong>Ankle Bites</strong> – When you ride without a fender, and rub your ankle on the wheel</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>B</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Badger Your Board</strong> – To make the board waterproof – <strong><a href="https://fallman.tech/onewheel-waterproof/" target="_blank" rel="noopener noreferrer">read more here</a></strong></li>&#10;&#10;&#10;&#10;<li><strong>Brick </strong>– When you break your board while riding it.</li>&#10;&#10;&#10;&#10;<li><strong>Bonk </strong>– A bonk is when the tire intentionally hits an obstacle such as a curb, rock, or log before the rider uses the rebound to hop over it. The technique is commonly used in technical trail riding.</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>C</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Captain Morgan Leg</strong> – When you’re riding with regen push back and your front leg is up like the logo of Captain Morgan</li>&#10;&#10;&#10;&#10;<li><strong>Carve – </strong>Alternate turning slightly to the left and right. In snowboarding, you ‘carve’ the snow because you are usually leaning on one edge of your board.</li>&#10;&#10;&#10;&#10;<li><strong>CBXR </strong>– ChiBattery system upgrade for your XR – <a href="https://fallman.tech/onewheel-xr-hardware-versions/" target="_blank" rel="noopener noreferrer"><strong>Read more about the battery upgrades and HW versions that work for your board</strong>.</a></li>&#10;&#10;&#10;&#10;<li><strong>Curb Nudge / Curbe Hop</strong> – Jumping up a curb.</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>F</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Fakie </strong>– Riding backward on the board</li>&#10;&#10;&#10;&#10;<li><strong>Fangs </strong>– Front wheels installed to the board – <strong><a href="https://fallman.tech/onewheel-pint-fangs/" target="_blank" rel="noopener noreferrer">Read the review of the Fangs 2.0</a></strong> </li>&#10;&#10;&#10;&#10;<li><strong>FlightFins</strong> – Foot hooks mounted to the board that help keep your feet attached during jumps, bonks, drops, and technical trail riding. FlightFins are one of the most popular aftermarket Onewheel accessories and are commonly used by riders looking for more board control off-road – <a href="https://fallman.tech/onewheel-flight-fins-v1-v2-minifins/" target="_blank" rel="noopener noreferrer"><strong>Read more about FlightFins here.</strong></a></li>&#10;&#10;&#10;&#10;<li><strong>Float/Floating</strong> – Riding a Onewheel –<strong> </strong>Coming from snowboarding and the floaty feeling of riding powder snow. </li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>G</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Ghosted </strong>– when the footpad sensor malfunctions and the board continues to propel itself without a rider on it.</li>&#10;&#10;&#10;&#10;<li><strong>Growler </strong>– Smaller form factor XR similar to a Pint – <strong><a href="https://fallman.tech/onewheel-growler/" target="_blank" rel="noopener noreferrer">Read more about the Growler here</a></strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>J</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Jump Mount</strong> – Trick when you jump onto the board and ride away.</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>M</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>McNugget </strong>– Smaller form factor XR similar to a Pint – Like the <strong><a href="https://fallman.tech/onewheel-growler/" target="_blank" rel="noopener noreferrer">Growler</a></strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>N</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Nose Dive / Nosedive</strong> – <a href="https://fallman.tech/onewheel-nosedive/" target="_blank" rel="noopener noreferrer"><strong>When your board’s front drops down hitting the ground</strong></a> stopping the board and sending you flying.</li>&#10;&#10;&#10;&#10;<li><strong>Nose Slide/Grind</strong> – Forcing the nose down into the grind and sliding on it.</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>Q</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Quart </strong>– ChiBattery system upgrade for your Pint – <strong><a href="https://fallman.tech/onewheel-pint-range-extender/" target="_blank" rel="noopener noreferrer">Read more about the battery upgrades for your Pint.</a></strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>R</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Running With The Devil</strong> – When you outrun a nosedive.</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>S</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Sex Change</strong> – Changing your stance. For example, go from riding <a href="https://fallman.tech/onewheel-goofy-or-regular/" target="_blank" rel="noopener noreferrer"><strong>Regular</strong> </a>to riding <strong><a href="https://fallman.tech/onewheel-goofy-or-regular/" target="_blank" rel="noopener noreferrer">Goofy</a></strong>.</li>&#10;&#10;&#10;&#10;<li><strong>Snail Bail</strong> – When you’re moving so slow the sensor shuts off on you and you fall off your board.</li>&#10;&#10;&#10;&#10;<li><strong>Stoked </strong>– The positive feeling a Onewheel gives you.</li>&#10;&#10;&#10;&#10;<li><strong>Spank  </strong>– When you land from a jump or drop and your tail drags.</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>T</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>The Mount Of Shame </strong>–  When you step on the board to go and you just fall forward. The sensor did not activate or the board was turned off</li>&#10;&#10;&#10;&#10;<li><strong>Tail Grind/Slide</strong> – Push the tail into the ground and slide along</li>&#10;</ul>&#10;&#10;&#10;&#10;<h3>W</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Walk of Shame</strong> – When your battery runs out and you have to walk home.</li>&#10;&#10;&#10;&#10;<li><strong>Wish-Bone</strong> – When you land and your back foot comes off the board but your front foot stays on the sensor and it keeps going stretching your legs apart</li>&#10;</ul>&#10;&#10;&#10;&#10;<div><figure><img src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg" alt="Person riding a Onewheel Pint, Adidas shoes" width="590" height="309" title="Onewheel Wobble" /></figure></div>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel dirt jumps]]></title>
@@ -2182,14 +2194,14 @@
     <item>
       <title><![CDATA[Onewheel Pricing Explained: What You Actually Pay and What You Get]]></title>
       <link>https://fallman.tech/how-much-does-a-onewheel-cost/</link>
-      <guid isPermaLink="false">trucoh-m6g0vw</guid>
+      <guid isPermaLink="false">trucoh-1p4alnb</guid>
       <pubDate>Thu, 30 Jul 2026 07:52:10 GMT</pubDate>
       <description><![CDATA[<p>The price of an Onewheel is high, even for the cheapest Pint, still, it’s the entry ticket to a completely different way of moving through the world. Whether you’re eyeing your first board or upgrading to something with more torque and range, the cost depends on far more than the sticker price. Models, accessories, maintenance, ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>The price of an Onewheel is high, even for the cheapest Pint, still, it’s the entry ticket to a completely different way of moving through the world. Whether you’re eyeing your first board or upgrading to something with more torque and range, the cost depends on far more than the sticker price. Models, accessories, maintenance, and even how you ride all shape the real investment. Here’s what you should know before you buy, and what you can actually expect to pay.</p>&#10;&#10;&#10;&#10;<p><strong>Straight Answer: Is a Onewheel Worth the Cost?</strong><br />The Onewheel is absolutely worth its price if you use it the way it’s meant to be used, as a last‑mile device that replaces the bus or bike, not a car. I commute with mine daily, often mixed with an electric scooter, and the value becomes obvious fast. The GT S-Series is a serious investment at $2,900, but new riders should start with a Pint X or a used board to get into the sport without overspending. The pricing reflects U.S. manufacturing, R&amp;D, patents, and the extensive prototype work behind every board. And when you compare it to what people routinely spend on cars, smartphones, or vacations, paying around $1,400 for a unique floating experience feels more than reasonable.</p>&#10;&#10;&#10;&#10;<p>The Onewheel Pint retails for $750<strong> </strong>and the most expensive Onewheel is the Rally XL, with a starting price of $3,500. If you are buying the biggest package, <a href="https://onewheel.com/products/onewheel-gt-s-series#rally-xl" target="_blank" rel="noopener noreferrer">Epitome</a>, then it will set you back $3,950, including a fender, bumpers, rail guard, a hypercharger and the FST System.</p>&#10;&#10;&#10;&#10;&#10;&#10;<h2>Onewheel Pricing and Accessories</h2>&#10;&#10;&#10;&#10;<p>This table summarises the base prices of the Onewheel Pint and Onewheel GT, along with the price for the GT Freeride Bundle, which includes additional accessories. Keep in mind that prices may vary based on taxes and the choice of optional add-ons.</p>&#10;&#10;&#10;&#10;<figure><table><thead><tr><th>Model</th><th><strong>MSRP</strong></th><th>Addons</th></tr></thead><tbody><tr><td><a href="https://onewheel.com/pages/pint" target="_blank" rel="noopener noreferrer">Onewheel Pint</a></td><td>$750 <s>$1,050</s></td><td>Varies (with tax and add-ons)</td></tr><tr><td><a href="https://onewheel.com/pages/onewheel-pint-x" target="_blank" rel="noopener noreferrer">Onewheel Pint X</a></td><td>$1,100 <s>$1,500</s></td><td>Varies (with tax and add-ons)</td></tr><tr><td><a href="https://onewheel.com/pages/onewheel-pint-s" target="_blank" rel="noopener noreferrer">Onewheel Pint S</a></td><td>$1,400</td><td>Varies (with tax and add-ons)</td></tr><tr><td><a href="https://onewheel.com/pages/onewheel-xr-classic" target="_blank" rel="noopener noreferrer">Onewheel XR Classic</a></td><td>$1,900</td><td>Varies (with tax and add-ons)</td></tr><tr><td><a href="https://onewheel.com/pages/onewheel-gt" target="_blank" rel="noopener noreferrer">Onewheel GT</a></td><td>$2,000 <s>$2,300</s></td><td>Varies (with tax and add-ons)</td></tr><tr><td><a href="https://onewheel.com/pages/onewheel-gt-s-series" target="_blank" rel="noopener noreferrer">Onewheel GT S-Series</a></td><td>$2,900</td><td>Varies (with tax and add-ons)</td></tr><tr><td><a href="https://onewheel.com/products/onewheel-gt-s-series#rally-xl" target="_blank" rel="noopener noreferrer">Onewheel GT S-Series Rally XL</a></td><td>$3,500</td><td>Varies (with tax and add-ons)</td></tr></tbody></table><figcaption><em>*Prices may vary based on tax and optional accessories like fender, stand, and charge plug, the bundles range from +$50 to +$375.</em> Prices can change</figcaption></figure>&#10;&#10;&#10;&#10;<p>If you are interested in more information about the latest board check out the <a href="https://fallman.tech/onewheel-gt/" target="_blank" rel="noopener noreferrer">Onewheel GT information page</a>.</p>&#10;&#10;&#10;&#10;<figure><img width="1024" height="310" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg" alt="Onewheel Pint on pavement" /><figcaption><em>Onewheel Pint</em></figcaption></figure>&#10;&#10;&#10;&#10;<h3>Onewheel MSRP’s:</h3>&#10;&#10;&#10;&#10;<ul>&#10;<li>Pint – $750 <s>$1,050</s></li>&#10;&#10;&#10;&#10;<li>Pint X – $1,100 <s>$1,300</s></li>&#10;&#10;&#10;&#10;<li>Pint S –  $1,400</li>&#10;&#10;&#10;&#10;<li>Onewheel XR Classic –  $1,900</li>&#10;&#10;&#10;&#10;<li>Onewheel GT – $2,000 <s>$2,300</s></li>&#10;&#10;&#10;&#10;<li>Onewheel GT S-Series – $2,900 </li>&#10;&#10;&#10;&#10;<li>Onewheel GT S-Series Rally XL – $3,500</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>Future Motion Inc., the company and manufacturer behind the Onewheel, has taken a very unique product to the market. There are alternatives to the Onewheel, but no other company is close regarding quality, performance, and rideability at this point.</p>&#10;&#10;&#10;&#10;<p>The products closely related to the Onewheel, electric unicycles, and EUC, have seen a huge development in the past years. <a href="https://fallman.tech/how-much-do-electric-unicycles-cost/" target="_blank" rel="noopener noreferrer">These machines are still coming in at a high cost.</a></p>&#10;&#10;&#10;&#10;<h2>Onewheel GT and GT S-Series</h2>&#10;&#10;&#10;&#10;<p>It can be a hard thing to decide if the money is worth it to get the GT S-series over the regular GT. The GT S is a step into the performance Onewheel sector, specifically designed for racing enthusiasts. And a direct competitor to the <a href="https://fallman.tech/floatwheel-adv-vs-onewheel-gt/" target="_blank" rel="noopener noreferrer">Floatwheel Adv</a>. While it claims the title of the fastest Onewheel in its lineup, it does come with a slight trade-off in terms of range when compared to the Onewheel GT.</p>&#10;&#10;&#10;&#10;<p>Priced at an additional $900 compared to the standard GT Onewheel, the GT S-Series positions itself as a premium option for those seeking top-notch performance. The extra investment delivers a set of enticing features, including a treaded tire, an impressive top speed of 25 mph, Lowboy footpads, and a noticeable 2-pound reduction in weight. This is a result of the increase in the new powertrain from 75V in the GT to 113V.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="536" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/10/Onewheel-GT-S-Series-in-woods-1024x536.jpg" alt="Onewheel GT S-Series" /><figcaption>Onewheel GT S-Series</figcaption></figure>&#10;</div>&#10;&#10;&#10;<p>What sets the S-Series apart is its unparalleled power, eliminating any hesitation when navigating uphill or tackling challenging terrains. Despite a roughly 20% decrease in range, prospective buyers are typically prioritizing power over extended travel distance. The GT S-Series caters to a specific audience who values raw power and performance over the considerations of range.</p>&#10;&#10;&#10;&#10;<h2>Pint and Pint X Pricing – Opt for the Pint X for Enhanced Performance</h2>&#10;&#10;&#10;&#10;<p>When considering the Onewheel Pint priced at $1,050, newcomers to the scene might want to redirect their attention to the Pint X. The rationale behind this suggestion lies in the upgraded Pint X, featuring a larger battery, identical to the one used in XR models. The advantage of this larger battery extends beyond a more robust trail riding experience; it also alleviates any concerns about range anxiety. After all, no one wants to find themselves stranded on a trail with a drained battery!</p>&#10;&#10;&#10;&#10;<p>If you have the Pint, then you can always add an <a href="https://fallman.tech/onewheel-pint-range-extender/" target="_blank" rel="noopener noreferrer">additional battery</a>, with the downside of not as sleek a board and a higher risk of damage.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1200" height="675" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2024/01/TSG-Pass-Pro-riding-on-field-edited.jpg" alt="TSG Pass Pro riding on field" /><figcaption><em>Onewheel with a GT40 Range Extend battery pack installed</em></figcaption></figure>&#10;</div>&#10;&#10;&#10;<p>While the Pint stands as a commendable single-wheel hoverboard, if affordability is your main consideration, I’d recommend exploring the option of purchasing a pre-owned, higher-end board. Sometimes Future Motion has had the Pint on sale for as low as $750, for that price, it’s a great buy, else the market often offers used XR Onewheels and even Pint X. Just remember to read our <a href="https://fallman.tech/used-onewheel/" target="_blank" rel="noopener noreferrer">buy a used Onewheel guide</a> so you don’t get scammed.</p>&#10;&#10;&#10;&#10;<h2>Manufacturing Costs</h2>&#10;&#10;&#10;&#10;<p>Another pricing aspect is the cost of simply manufacturing and producing these boards. The manufacturing and assembly are done in a factory in San Jose. Where the different components are pieced together and tested out before being shipped out to customers around the world.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="572" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/06/Onewheel-manufacturing-1024x572.jpg" alt="Onewheel manufacturing" /><figcaption><em>Onewheel wheels in manufacturing</em></figcaption></figure>&#10;</div>&#10;&#10;&#10;<p>It’s not only the components and manufacturing cost, but also all the research, patent, legal fees, and the years of designing, developing, and manufacturing Onewheel prototypes, all adding to the overhead cost.</p>&#10;&#10;&#10;&#10;<p>To put the cost into perspective, people easily drop huge sums on their cars, smartphones, and snowboard vacations. In that perspective, $1,050  comes in at a fairly good price for the experience you get to float around towards the sunset.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="536" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg" alt="Person Riding a Onewheel on street" /></figure>&#10;</div>&#10;&#10;&#10;<h2>Real User Experiences</h2>&#10;&#10;&#10;&#10;<p>To provide a more holistic view of Onewheel’s value, let’s explore the experiences of real users like myself who have embraced this electric mobility device:</p>&#10;&#10;&#10;&#10;<ol>&#10;<li><em>Commuting:</em> Many Onewheel riders use their boards for daily commuting within the city. The convenience of a last-mile transportation solution cannot be overstated. Riders can easily navigate through traffic, reach their destinations faster, and reduce their carbon footprint.<br /><br />Just remember, that it’s <a href="https://fallman.tech/onewheel-waterproof/" target="_blank" rel="noopener noreferrer">not fully waterproof</a>, only water resistant.<br /></li>&#10;&#10;&#10;&#10;<li><em>Having fun:</em> Beyond commuting, Onewheel offers a great fun experience like no other device. Riders often describe the sheer joy and thrill of gliding effortlessly on an Onewheel, whether it’s along scenic paths, trails, or through urban landscapes. <br /></li>&#10;</ol>&#10;&#10;&#10;&#10;<p><em>This is what they refer to as <strong>“floating”.</strong></em></p>&#10;&#10;&#10;&#10;<h2>Adding Accessories</h2>&#10;&#10;&#10;&#10;<p>It’s not uncommon for riders to spend more than $1,000 on accessories for their boards, so the price can go up. This is to protect the board, make it safer, and make modifications to increase the range. Some things are more considered essentials, like protection plates, and we recommend everyone get some <a href="https://fallman.tech/onewheel-pint-front-wheels/" target="_blank" rel="noopener noreferrer">front wheels</a> to increase the likelihood that you handle a <a href="https://fallman.tech/onewheel-nosedive/" target="_blank" rel="noopener noreferrer">nosedive</a>.</p>&#10;&#10;&#10;&#10;<p>So when you think about it, purchasing an Onewheel, a product that most riders will probably use for at least a few years, doesn’t seem so bad.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="524" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/02/onewheel-accessories-1024x524.jpg" alt="onewheel accessories" /></figure>&#10;</div>&#10;&#10;&#10;<h2>Conclusion</h2>&#10;&#10;&#10;&#10;<p>I think that the Onewheel is worth the price tag. I use my board for commuting mixed with my electric scooter. It’s a last-mile device and will never fully replace a car. So I won’t make that comparison. I would say that it definitely can replace the bus or bike in the city.</p>&#10;&#10;&#10;&#10;<p>Getting the GT S-series is a heavy investment with $2,900, a more reasonable approach for a new rider is to get a Pint X or used board on the market to try the sport. The Pint X is worth it over the Pint at their normal MSRP and is our go-to recommendation for newcomers.</p>&#10;&#10;&#10;&#10;<p>In conclusion, the pricing of Onewheel boards involves various factors, with manufacturing costs playing a significant role. The process takes place in a San Jose factory, where components are assembled, tested, and then shipped globally. Beyond direct manufacturing expenses, the overall cost encompasses research, patent legal fees, and the extensive efforts involved in designing and developing Onewheel prototypes, contributing to the overhead cost. </p>&#10;&#10;&#10;&#10;<p>Despite the substantial investment, when viewed in the context of expenses people willingly incur for items like cars, smartphones, or vacations, the $1,400 price tag for the unique floating experience offered by Onewheel seems reasonable, providing a valuable perspective on the overall cost of the product.</p>&#10;&#10;&#10;&#10;<p>Want to know more, read my 1-year <a href="https://fallman.tech/onewheel-pint-review/" target="_blank" rel="noopener noreferrer">review of the Onewheel Pint.</a></p>&#10;&#10;&#10;&#10;<p></p>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[Best Onewheel Grind Tricks #skate]]></title>
@@ -2218,14 +2230,14 @@
     <item>
       <title><![CDATA[The Float Life Acquires 1Protect Gloves]]></title>
       <link>https://fallman.tech/the-float-life-acquires-1protect-gloves/</link>
-      <guid isPermaLink="false">8jq866-m6g0vw</guid>
+      <guid isPermaLink="false">8jq866-1p4alnb</guid>
       <pubDate>Wed, 29 Jul 2026 12:50:49 GMT</pubDate>
       <description><![CDATA[<p>The Float Life has officially acquired 1Protect Gloves, bringing two rider‑built brands together under one roof. With TFL’s long track record, over 100,000 orders shipped and 10,000+ five‑star reviews, and 1Protect’s reputation for purpose‑built Onewheel protection, this move marks a major moment for the community. Below is the full breakdown of what the acquisition means, ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>The Float Life has officially acquired 1Protect Gloves, bringing two rider‑built brands together under one roof. With TFL’s long track record, over 100,000 orders shipped and 10,000+ five‑star reviews, and 1Protect’s reputation for purpose‑built Onewheel protection, this move marks a major moment for the community.</p>&#10;&#10;&#10;&#10;<p>Below is the full breakdown of what the acquisition means, what products continue, and why riders are reacting positively to the news.</p>&#10;&#10;&#10;&#10;<h2><strong>What 1Protect Is Known For</strong></h2>&#10;&#10;&#10;&#10;<div><div>&#10;<div>&#10;<ul>&#10;<li><strong>Lightweight hand protection</strong></li>&#10;&#10;&#10;&#10;<li><strong>Touch‑screen friendly gloves</strong></li>&#10;&#10;&#10;&#10;<li><strong>Double‑layered thumb fabric</strong></li>&#10;&#10;&#10;&#10;<li><strong>Comfortable mesh uppers</strong></li>&#10;&#10;&#10;&#10;<li><strong>Removable hard TPU palm pucks</strong></li>&#10;&#10;&#10;&#10;<li><strong>Removable soft palm pucks</strong></li>&#10;&#10;&#10;&#10;<li><strong>Designed specifically for Onewheel riders</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p>These aren’t repurposed motorcycle gloves, they’re specifically built for electric skateboards and Onewheel crashes.</p>&#10;</div>&#10;&#10;&#10;&#10;<div>&#10;<figure><img width="569" height="617" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png" alt="" /></figure>&#10;</div>&#10;</div></div>&#10;&#10;&#10;&#10;<h2><strong>The Product Line Continues</strong></h2>&#10;&#10;&#10;&#10;<p>TFL confirmed they’re keeping the full lineup:</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Full‑Finger Palm Savers</strong></li>&#10;&#10;&#10;&#10;<li><strong>Palm Savers With Wrist Support</strong></li>&#10;&#10;&#10;&#10;<li><strong>Fingerless Palm Savers</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p>So riders won’t lose access to the gear they already trust.</p>&#10;&#10;&#10;&#10;<h2><strong>Why This Move Matters</strong></h2>&#10;&#10;&#10;&#10;<p>This acquisition ensures:</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Long‑term availability</strong></li>&#10;&#10;&#10;&#10;<li><strong>Better integration with TFL’s ecosystem</strong></li>&#10;&#10;&#10;&#10;<li><strong>Room for new designs and upgrades</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p>For a niche sport, being in business can be hard, and many smaller companies have come and gone over the years, losing a key gear supplier can be brutal. TFL stepping in keeps innovation alive and keeps riders protected. </p>&#10;&#10;&#10;&#10;<h2><strong>My Take</strong></h2>&#10;&#10;&#10;&#10;<p>From the community’s perspective, this acquisition feels like the kind of consolidation riders actually appreciate, a rider‑owned brand picking up another rider‑focused company to keep innovation moving and keep trusted gear available. It’s a move that aligns with what Onewheel riders value: products built by people who understand the sport, the crashes, and the culture.</p>&#10;&#10;&#10;&#10;<h2><strong>Press release</strong></h2>&#10;&#10;&#10;<div>&#10;<figure><img width="597" height="710" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-5.png" alt="" /></figure>&#10;</div>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[Fungineers' Jay on #onewheel and #vesc community at @oakcityshredfest]]></title>
@@ -2242,14 +2254,14 @@
     <item>
       <title><![CDATA[Race for the Rail: Winners Through the Years]]></title>
       <link>https://fallman.tech/race-for-the-rail-winners-through-the-years/</link>
-      <guid isPermaLink="false">bpf2uj-m6g0vw</guid>
+      <guid isPermaLink="false">bpf2uj-1p4alnb</guid>
       <pubDate>Tue, 28 Jul 2026 20:08:04 GMT</pubDate>
       <description><![CDATA[<p>Race for the Rail (RFTR) has been around long enough now that it’s built its own history, from the early community area with no women’s division to the modern era with proper brackets and prize money. Here’s a clear look at how the event has evolved, and who actually stood on top each year. Race ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>Race for the Rail (RFTR) has been around long enough now that it’s built its own history, from the early community area with no women’s division to the modern era with proper brackets and prize money. Here’s a clear look at how the event has evolved, and who actually stood on top each year.</p>&#10;&#10;&#10;&#10;<h2><strong>Race for the Rail Winners (2016–2025)</strong></h2>&#10;&#10;&#10;&#10;<figure><table><thead><tr><th>Year</th><th>Men’s Winner</th><th>Women’s Winner</th><th>Location</th><th>First Prize</th><th>Notes</th></tr></thead><tbody><tr><th><strong>2016</strong></th><td><strong>Adam Morse</strong></td><td>—</td><td>—</td><td>—</td><td>No women’s division</td></tr><tr><th><strong>2017</strong></th><td><strong>Kyle Hanson</strong></td><td>—</td><td>—</td><td>—</td><td>No women’s division</td></tr><tr><th><strong>2018</strong></th><td><strong>Jeff McCosker</strong></td><td>—</td><td>—</td><td>—</td><td>No women’s division</td></tr><tr><th><strong>2019</strong></th><td><strong>Bodhi Harrison</strong></td><td>—</td><td>—</td><td>—</td><td>No women’s division</td></tr><tr><th><strong>2020</strong></th><td><strong>Tyler James</strong></td><td><strong>Zoe LaBelle</strong></td><td>—</td><td>—</td><td>Verified</td></tr><tr><th><strong>2021</strong></th><td><strong>Dom Williams</strong></td><td><strong>Raequel Hoffman</strong></td><td>—</td><td>—</td><td></td></tr><tr><th><strong>2022</strong></th><td><strong>Kyle Hanson</strong></td><td><strong>Racheal Cecil</strong></td><td>Sky Tavern, NV</td><td>$10,000</td><td></td></tr><tr><th><strong>2023</strong></th><td><strong>Tyler James</strong></td><td><strong>Racheal Cecil</strong></td><td>Sky Tavern, NV</td><td>$10,000</td><td></td></tr><tr><th><strong>2024</strong></th><td><strong>Austen Silva</strong></td><td><strong>Racheal Cecil</strong></td><td>Sky Tavern, NV</td><td>$10,000</td><td></td></tr><tr><th><strong>2025</strong></th><td><strong>Jahfari Silsley</strong></td><td><strong>Zayne Carter</strong></td><td>Hollister Hills SVRA</td><td>$10,000</td><td></td></tr><tr><td><strong>2026</strong></td><td><strong>Joseph Katz</strong></td><td><strong> Zayne Carter</strong></td><td>Hollister Hills SVRA</td><td>$10,000</td><td></td></tr></tbody></table></figure>&#10;&#10;&#10;&#10;<h2><strong>2016–2019: The Early Years</strong></h2>&#10;&#10;&#10;&#10;<p>The first few years were simple: one bracket, one winner, and Future Motion Inc. was still figuring out what Onewheel racing even looked like. No women’s division yet, just riders showing up and sending it down the hill.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>2016 – Adam Morse</strong></li>&#10;&#10;&#10;&#10;<li><strong>2017 – Kyle Hanson</strong></li>&#10;&#10;&#10;&#10;<li><strong>2018 – Jeff McCosker</strong></li>&#10;&#10;&#10;&#10;<li><strong>2019 – Bodhi Harrison</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p>These early winners helped shape the competitive side of the sport long before RFTR became the event it is today.</p>&#10;&#10;&#10;&#10;<h2><strong>2020–2021: The Transition Era</strong></h2>&#10;&#10;&#10;&#10;<p>By 2020, the event started to look more like a real championship. The women’s division appeared, the racing format tightened up, and the community began treating RFTR as the definitive test of skill.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>2020 – Tyler James (Men), Zoe LaBelle (Women)</strong></li>&#10;&#10;&#10;&#10;<li><strong>2021 – Dom Williams (Men), Raequel Hoffman (Women)</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<h2><strong>2022–2024: The Sky Tavern Era</strong></h2>&#10;&#10;&#10;&#10;<div><div>&#10;<div>&#10;<p>Sky Tavern became the home of RFTR for three straight years, and the event settled into a consistent format, proper brackets, proper prize money, and a level of competition that pushed the sport forward.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>2022 – Kyle Hanson (Men), Racheal Cecil (Women)</strong> First Prize: $10,000</li>&#10;&#10;&#10;&#10;<li><strong>2023 – Tyler James (Men), Racheal Cecil (Women)</strong> First Prize: $10,000</li>&#10;&#10;&#10;&#10;<li><strong>2024 – Austen Silva (Men), Racheal Cecil (Women)</strong> First Prize: $10,000</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>Across these three years, <strong>Racheal Cecil</strong> became the defining force in women’s Onewheel racing, stacking win after win and setting a new standard for consistency.</p>&#10;</div>&#10;&#10;&#10;&#10;<figure><img width="1024" height="683" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png" alt="" /><figcaption>Racheal Cecil the 2023 Women’s Race for the Rail Champion <a href="https://www.prnewswire.com/news-releases/racheal-cecil-and-tyler-james-win-the-2023-onewheel-world-championships-at-race-for-the-rail-301922727.html?utm_source=copilot.com" target="_blank" rel="noopener noreferrer">[source]</a><br /><br /><br /></figcaption></figure>&#10;</div></div>&#10;&#10;&#10;&#10;<h2><strong>2025: The Hollister Hills SVRA</strong></h2>&#10;&#10;&#10;&#10;<p>RFTR moved to Hollister Hills SVRA, marking the first major venue change in years, and a new pair of champions.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>2025 – Jahfari Silsley (Men), Zayne Carter (Women)</strong> Prize: <strong>$10,000</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p>This shift set the stage for the 2026 event, which continues the Hollister Hills chapter and brings the sport into a new era.</p>&#10;&#10;&#10;&#10;<h2><strong>2026: Hollister Hills SVRA</strong> <strong>Continues the Chapter</strong></h2>&#10;&#10;&#10;&#10;<p>The course ran a bit faster this year, and several technical sections kept riders focused throughout the day. <a href="https://fallman.tech/race-for-the-rail-2026-winners-joseph-katz-zayne-carter/" target="_blank" rel="noopener noreferrer">Joseph Katz rode consistently to take the Men’s title, while <strong>Zayne Carter </strong>followed up her 2025 win</a> with another strong performance to secure the Women’s championship.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>2026 – Joseph Katz (Men), Zayne Carter (Women)</strong> First Prize: $10,000</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>The expanded amateur classes added more depth to the field, and the Grom division delivered one of the closest finishes of the event. RFTR 2026 kept the Hollister Hills momentum going with steady competition and confident riding across all brackets.</p>&#10;&#10;&#10;&#10;<p><strong>About Future Motion &amp; Race for the Rail</strong><br />Founded in 2013 in Santa Cruz, California, <a href="https://onewheel.com/" target="_blank" rel="noopener noreferrer">Future Motion Inc</a>. is the creator of the Onewheel, a self‑balancing electric board. The company’s annual Race for the Rail event, established in 2015, serves as the official Onewheel World Championship and part of the <a href="https://www.onewheelracing.com/" target="_blank" rel="noopener noreferrer">Onewheel Racing League</a>.</p>&#10;&#10;&#10;&#10;<p><em>Fallman Tech is an independent publication and is not affiliated with Future Motion Inc. or Onewheel. All opinions expressed are those of the author and do not represent or imply endorsement by Future Motion Inc.</em></p>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel is like skateboarding]]></title>
@@ -2266,14 +2278,14 @@
     <item>
       <title><![CDATA[Race for the Rail 2026: The Onewheel Community’s Super Bowl Is About to Begin]]></title>
       <link>https://fallman.tech/race-for-the-rail-2026-the-onewheel-communitys-super-bowl-is-about-to-begin/</link>
-      <guid isPermaLink="false">13lcd4v-m6g0vw</guid>
+      <guid isPermaLink="false">13lcd4v-1p4alnb</guid>
       <pubDate>Mon, 27 Jul 2026 20:24:30 GMT</pubDate>
       <description><![CDATA[<p>For the past decade, August has meant one thing for the Onewheel community: everyone comes together, this year at Hollister Hills SVRA, to answer the only question that really matters. Not who posted the flashiest Instagram clip, not who crushed a local group ride. The real question is simple: who’s actually the fastest Onewheel rider ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>For the past decade, August has meant one thing for the Onewheel community: everyone comes together, this year at Hollister Hills SVRA, to answer the only question that really matters. Not who posted the flashiest Instagram clip, not who crushed a local group ride. The real question is simple: <strong>who’s actually the fastest Onewheel rider out there?</strong></p>&#10;&#10;&#10;&#10;<p>Race for the Rail 2026 is shaping up to be the biggest and most dialed‑in version yet. It’s the season final of the Onewheel Racing League.</p>&#10;&#10;&#10;&#10;<p>If you’ve followed Onewheel racing from the early group trail events to today’s fully structured championship, the Rail 2026 shows how far things have come. What started as a small, niche competition has turned into a proper motorsport with clear rules, real stakes, and a fanbase that keeps expanding.</p>&#10;&#10;&#10;&#10;<h2><strong>A $10,000 Prize and a Format Built for Real Competition</strong></h2>&#10;&#10;&#10;&#10;<p>Like the last couple of years, $10,000 to the fastest rider. But the real story is how Future Motion has reshaped the competition so that victory means something.</p>&#10;&#10;&#10;&#10;<p>And for the first time, every amateur class earns a payout. That’s a huge shift; it signals Future Motion’s intent to grow the sport even more, not just spotlight the pros and team riders.</p>&#10;&#10;&#10;&#10;<p>The 2026 format splits qualifying into <strong>four distinct paths</strong>:</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>25% from regional qualifiers</strong></li>&#10;&#10;&#10;&#10;<li><strong>25% from another regional bracket</strong></li>&#10;&#10;&#10;&#10;<li><strong>25% from the third regional bracket</strong></li>&#10;&#10;&#10;&#10;<li><strong>25% from on‑site qualifiers at Hollister Hills</strong></li>&#10;</ul>&#10;&#10;&#10;&#10;<p>This structure ensures that the field isn’t just stacked with the team riders, familiar names, you can earn your way there.</p>&#10;&#10;&#10;&#10;<p>Timed practice on Friday determines gate choice, and the motos can pack up to 36 racers per group, making the starts chaotic, tactical, and absolutely electric to watch.</p>&#10;&#10;&#10;&#10;<p>Boards must be OEM, with only tire choice and protective parts allowed. No Frankenboards, VESCs or heavy modifications. Just pure riding skill levelling the racing, just like NASCAR.</p>&#10;&#10;&#10;&#10;<h2><strong>Hollister Hills: The Perfect Arena for Onewheel Racing</strong></h2>&#10;&#10;&#10;&#10;<p>Now in its second year at the Hollister Hills SVRA GP Track, Race for the Rail has settled into a venue that suits the event well and reflects the character of the sport.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Full‑course visibility</strong> from Spectator Hill</li>&#10;&#10;&#10;&#10;<li><strong>A motocross‑inspired layout</strong> that rewards flow, bravery, and precision</li>&#10;&#10;&#10;&#10;<li><strong>Immersive camping</strong> that keeps riders and fans together all weekend</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>It has really become a festival, a gathering for everyone who loves to ride their Onewheel. </p>&#10;&#10;&#10;&#10;<p>A celebration of the culture that has grown around this single‑wheel machine.</p>&#10;&#10;&#10;&#10;<div><div>&#10;<div>&#10;<h2><strong>More Than Just the Main Event</strong></h2>&#10;&#10;&#10;&#10;<p>RFTR isn’t only about the championship race. The weekend is packed with competitions that highlight the diversity of Onewheel riding:</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Mass Start Scramble</strong> — chaos, speed, elbows out</li>&#10;&#10;&#10;&#10;<li><strong>Freestyle Competition</strong> — style, creativity, and technical mastery</li>&#10;&#10;&#10;&#10;<li><strong>On‑site camping</strong> — dry camping only, but the vibes are anything but dry</li>&#10;</ul>&#10;</div>&#10;&#10;&#10;&#10;<div>&#10;<figure><img width="1011" height="856" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png" alt="" /></figure>&#10;</div>&#10;</div></div>&#10;&#10;&#10;&#10;<h2><strong>Why RFTR 2026 Matters</strong></h2>&#10;&#10;&#10;&#10;<p>The Onewheel community has always been tight‑knit, passionate, and a little rebellious. But Race for the Rail has become something more: a proving ground, a cultural anchor, and a showcase of what this sport can become.</p>&#10;&#10;&#10;&#10;<p>Last year’s event was described as <em>“electrifying”</em>, and that’s not hyperbole. The speed, the crashes, the rivalries, the breakthroughs… RFTR is where legends are made.</p>&#10;&#10;&#10;&#10;<p>2026 feels like the year the sport steps into its next phase.</p>&#10;&#10;&#10;&#10;<h2><strong>If You’re Thinking About Going… Go</strong></h2>&#10;&#10;&#10;&#10;<p>Tickets are live:</p>&#10;&#10;&#10;&#10;<ul>&#10;<li><strong>Access Pass:</strong> $50</li>&#10;&#10;&#10;&#10;<li><strong>Main Event Entry:</strong> $100</li>&#10;&#10;&#10;&#10;<li><strong>Mass Start Scramble:</strong> $40</li>&#10;&#10;&#10;&#10;<li><strong>Freestyle:</strong> $50</li>&#10;&#10;&#10;&#10;<li><strong>Camping:</strong> $100 per vehicle</li>&#10;&#10;&#10;&#10;<li><strong>RV Camping:</strong> $150</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>Whether you’re racing, spectating, camping, or just soaking in the atmosphere, RFTR is one of those rare events where you leave with more friends than you arrived with. <a href="https://onewheel.com/pages/onewheel-race-for-the-rail" target="_blank" rel="noopener noreferrer">Head over to Future Motion Inc. to get your tickets.</a></p>&#10;&#10;&#10;&#10;<h2><strong>Final Thoughts</strong></h2>&#10;&#10;&#10;&#10;<p>As the owner of Fallman Tech, I’ve covered Onewheel culture for years: the tech, the community, the controversies, the innovations. But Race for the Rail is the one event that consistently reminds me why this sport matters.</p>&#10;&#10;&#10;&#10;<ul>&#10;<li>It’s not just about winning.</li>&#10;&#10;&#10;&#10;<li>It’s about community.</li>&#10;&#10;&#10;&#10;<li>It’s about pushing the board and yourself to the limit.</li>&#10;</ul>&#10;&#10;&#10;&#10;<p>And in August 2026, we get to watch the best riders in the world do exactly that.</p>&#10;&#10;&#10;&#10;<p><strong>About Future Motion &amp; Race for the Rail</strong><br />Founded in 2013 in Santa Cruz, California, <a href="https://onewheel.com/" target="_blank" rel="noopener noreferrer">Future Motion Inc</a>. is the creator of the Onewheel, a self‑balancing electric board. The company’s annual Race for the Rail event, established in 2015, serves as the official Onewheel World Championship and part of the <a href="https://www.onewheelracing.com/" target="_blank" rel="noopener noreferrer">Onewheel Racing League</a>.</p>&#10;&#10;&#10;&#10;<p><em>Fallman Tech is an independent publication and is not affiliated with Future Motion Inc. or Onewheel. All opinions expressed are those of the author and do not represent or imply endorsement by Future Motion Inc.</em></p>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[OneWheel vs Funwheel]]></title>
@@ -2302,14 +2314,14 @@
     <item>
       <title><![CDATA[The Best Onewheel Safety Gear (Elbow/Knee Pads, Helmet, Wristguard)]]></title>
       <link>https://fallman.tech/safety-gear-for-commuting-with-a-last-mile-device/</link>
-      <guid isPermaLink="false">6paosw-m6g0vw</guid>
+      <guid isPermaLink="false">6paosw-1p4alnb</guid>
       <pubDate>Sun, 26 Jul 2026 12:30:00 GMT</pubDate>
       <description><![CDATA[<p>Commuting on a last‑mile device is supposed to make life easier — faster mornings, fewer buses, and a bit of fun baked into the daily grind. But the moment you mix traffic, weather, and unpredictable pavement, the stakes change. Safety gear isn’t optional anymore; it’s the difference between a close call and a bad day. ... Read more</p>]]></description>
       <content:encoded><![CDATA[<p>Commuting on a last‑mile device is supposed to make life easier — faster mornings, fewer buses, and a bit of fun baked into the daily grind. But the moment you mix traffic, weather, and unpredictable pavement, the stakes change. Safety gear isn’t optional anymore; it’s the difference between a close call and a bad day. After thousands of kilometers on Onewheels, scooters, and e‑rides, I’ve learned one thing: the right protection doesn’t slow you down — it keeps you moving.</p>&#10;&#10;&#10;&#10;<p>The key thing to keep safe is the head with a helmet, if you are commuting with a laptop a hardshell backpack with back support is also a given. Depending on the transportation method wristguards and protection for knees and elbows.</p>&#10;&#10;&#10;&#10;<p>I listen to audiobooks on <a href="https://www.amazon.com/audible/mlp/membership/plus?ref_=assoc_tag_ph_1524216631897&amp;_encoding=UTF8&amp;camp=1789&amp;creative=9325&amp;linkCode=pf4&amp;tag=fallmantech-20&amp;linkId=0e2401be907aff26b6abea4fe200d36b" target="_blank" rel="noopener noreferrer">Audible</a> during my trip and I, therefore, consider headphones also to be a part of the safety gear. If you want to get a month for free use <a href="https://www.amazon.com/audible/mlp/membership/plus?ref_=assoc_tag_ph_1524216631897&amp;_encoding=UTF8&amp;camp=1789&amp;creative=9325&amp;linkCode=pf4&amp;tag=fallmantech-20&amp;linkId=0e2401be907aff26b6abea4fe200d36b" target="_blank" rel="noopener noreferrer">this link</a>. </p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="768" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg" alt="TSG Pass Pro riding on field" /><figcaption>TSG Pass Pro riding on the field</figcaption></figure>&#10;</div>&#10;&#10;&#10;<p>If<em> you want a $20 off Coupon Code on any Lazyrolling order over $179 (*not black on black), like the hoodie in the picture use my code <strong>FALLMAN <a href="https://lazyrolling.com/?ref=zqy8b5dzpo" target="_blank" rel="noopener noreferrer">order here.</a> </strong></em></p>&#10;&#10;&#10;&#10;&#10;&#10;<h2>Safety gear for commuting with an Onewheel</h2>&#10;&#10;&#10;&#10;<p>Onewheel is a bit more dangerous device to ride as a daily commute. The usual recommendation in addition to a helmet and a good backpack is to pad up and get wristguards.</p>&#10;&#10;&#10;&#10;<figure><table><tbody><tr><td><strong>Safety gear</strong></td><td><strong>Equipment</strong></td></tr><tr><td>Helmet</td><td><a href="https://amzn.to/4fIP8CK" target="_blank" rel="noopener noreferrer">TSG Pass Pro</a> or <a href="https://amzn.to/4vQvDOA" target="_blank" rel="noopener noreferrer">Triple Eight Gotham Dual Certified MIPS</a></td></tr><tr><td>Backpack</td><td><a href="https://amzn.to/4x2iJ0G" target="_blank" rel="noopener noreferrer">Point 65 Boblbee</a></td></tr><tr><td>Headphones</td><td><a href="https://amzn.to/4whrZy6" target="_blank" rel="noopener noreferrer">SHOKZ OpenRun Pro</a></td></tr><tr><td>Wristguards</td><td><a href="https://amzn.to/4hvZt7g" target="_blank" rel="noopener noreferrer">Triple Eight Wristsaver Wrist Guards</a></td></tr><tr><td>Knee pads</td><td><a href="https://amzn.to/4fBLDhm" target="_blank" rel="noopener noreferrer">Triple Eight ExoSkin Knee Pad</a></td></tr><tr><td>Elbow pads</td><td><a href="https://amzn.to/4vUsixQ" target="_blank" rel="noopener noreferrer">Triple Eight ExoSkin Elbow Pad</a></td></tr><tr><td>Protective clothing</td><td><a href="https://lazyrolling.com/collections/all/products/armored-hoodie-by-lazyrolling?ref=zqy8b5dzpo" target="_blank" rel="noopener noreferrer">Lazyrolling Armored Hoodie</a></td></tr></tbody></table></figure>&#10;&#10;&#10;<div>&#10;<figure><img width="800" height="600" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/05/Onewheel-gear-backpack.jpg" alt="" /></figure>&#10;</div>&#10;&#10;&#10;<h3>Helmet</h3>&#10;&#10;&#10;&#10;<p>A good helmet is needed to protect the head, the most important part of our body. I have now upgraded my kit. I’m now riding with the <a href="https://amzn.to/3Ty9oKP" target="_blank" rel="noopener noreferrer">TSG Pass Pro</a>, here is why I upgraded from my old bicycle MIPS helmet to this full-face.</p>&#10;&#10;&#10;&#10;<div></div>&#10;&#10;&#10;&#10;<p>A full-face helmet like the TSG Pass or TSG Pass Pro will protect your jaws, face, and teeth in case of a hard fall to the ground. This is why I have now switched from the standard MIPS helmet to the Pass Pro. </p>&#10;&#10;&#10;&#10;<p>It’s an expensive helmet at around $220-$350, this needs to be into consideration as to what the cost of a dental/hospital visit and the loss in income a big crash could result in.</p>&#10;&#10;&#10;&#10;<p>The old recommendation for anyone wanting to have a cheaper alternative is to get a helmet with MIPS technology. MIPS is an acronym for <strong>M</strong>ulti-Directional <strong>I</strong>mpact <strong>P</strong>rotection <strong>S</strong>ystem.</p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p>MIPS technology mimics the brain’s protective structure by reducing rotational forces caused by angled impacts to the head. The helmet’s shell and liner are separated by a low friction layer which allows the helmet to slide, noticeably reducing trauma to the brain in the case of oblique impacts. These angled impacts are considerably more common in action sports compared to the blunt force impacts for which traditional helmets are typically tested.</p>&#10;</blockquote>&#10;&#10;&#10;&#10;<p>I use the Tec Helmets Nice MIPS and another good option is the <a href="https://amzn.to/4vQvDOA" target="_blank" rel="noopener noreferrer">Triple Eight Gotham Dual Certified MIPS</a>.</p>&#10;&#10;&#10;&#10;<div><a href="https://www.amazon.com/Triple-Gotham-Helmet-Skating-Rollerblading/dp/B00UKGGRXI?keywords=mips+helmet&amp;qid=1636880517&amp;sr=8-12&amp;linkCode=li2&amp;tag=fallmantech-20&amp;linkId=071d5b2b141923471a572f76cd36ac62&amp;language=en_US&amp;ref_=as_li_ss_il" target="_blank" rel="noopener noreferrer"><img src="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00UKGGRXI&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=fallmantech-20&amp;language=en_US" /></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=fallmantech-20&amp;language=en_US&amp;l=li2&amp;o=1&amp;a=B00UKGGRXI" alt="" width="1" height="1" /></div>&#10;&#10;&#10;&#10;<h3>Backpack</h3>&#10;&#10;&#10;&#10;<p>When navigating the daily commute to work, the importance of a reliable backpack cannot be overstated. I opt for the older version of the <a href="https://amzn.to/4x2iJ0G" target="_blank" rel="noopener noreferrer">Boblbee from Point 65</a>, a choice motivated by its dual functionality. Beyond just providing ample storage, this backpack boasts integrated back protection, an invaluable feature that adds an extra layer of safety during rides.</p>&#10;&#10;&#10;&#10;<p>This backpack isn’t just about convenience; it’s a safeguard for your electronics, particularly your laptop. The hard case design of the Boblbee, originally intended for motorcycling, renders it more than capable of withstanding the potential impacts encountered during Onewheel or electric scooter rides. This robust construction ensures that your valuable electronics remain secure, even in the event of an unexpected mishap.</p>&#10;&#10;&#10;&#10;<p>Investing in a backpack that prioritizes both your safety and the protection of your devices eliminates the worry that often accompanies commuting accidents. While the Boblbee may be perceived as “overspecified” for the relatively lighter demands of a Onewheel, its unparalleled durability and protective features make it a standout choice for those who prioritize the safety of their belongings alongside their own. Choose a backpack that not only carries your load but also carries the responsibility of keeping you and your electronics safe on every journey.</p>&#10;&#10;&#10;&#10;<h3>Headphones</h3>&#10;&#10;&#10;&#10;<p>To be safe and aware of the environment during commuting I use the Openmove bone-conducting headphones from AfterShokz. For more information about being safe and the different options read <strong><a href="https://fallman.tech/best-safe-headphones-for-electric-scooter-or-onewheel/" target="_blank" rel="noopener noreferrer">Best safe headphones for electric scooter or Onewheel</a></strong>.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="900" height="419" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/05/Aftershokz-onewheel-pint.jpg" alt="" /></figure>&#10;</div>&#10;&#10;&#10;<h3>Wristguards</h3>&#10;&#10;&#10;&#10;<p>I got the <a href="https://amzn.to/4hvZt7g" target="_blank" rel="noopener noreferrer">Triple Eight wristguards</a> because I got the Exoskin at the same time. wristguards are considered a most. The natural reaction to falling is to put your hands first to dampen the fall. This motion at high speed makes it likely to overbend, hyperextension, of the wrist resulting in injury. The wrist takes a lot of time to heal and will for most people hinder their work.</p>&#10;&#10;&#10;&#10;<p>That’s why it’s recommended by most riders to use wristguards. Today there is classic wristguard protection like the Triple 8 and also gloves with added wrist support to hinder hyperextension. The Flatland3D Fingerless Pro gloves are the most highly rated by riders for their protection and also for their great wrist flexibility and motion. The wrist plate lets you flex your wrist during normal use but prevents hyperextension during falls.</p>&#10;&#10;&#10;&#10;<h3>Knee- and Elbow pads</h3>&#10;&#10;&#10;&#10;<p>Soft knee- and elbow pads are recommended by most users and are the go-to protection in the skateboard scene. The key is to be protected and still have good movement and be comfortable.</p>&#10;&#10;&#10;&#10;<p>The <a href="https://amzn.to/3den8HY" target="_blank" rel="noopener noreferrer">Triple Eight ExoSkin Knee Pad</a> and <a href="https://amzn.to/3e8O9fk" target="_blank" rel="noopener noreferrer">Triple Eight ExoSkin Elbow Pad</a> are my preferred padding, they are nice and comfortable to wear under your clothes. I would say that they are true to the size chart. I’m rocking L on the Elbow pad and M on the knee Pads. I’m 186cm 72kg as a reference.</p>&#10;&#10;&#10;&#10;<p>Looking for more options, check out the top 3 list down below:<br /><a href="https://fallman.tech/best-onewheel-knee-pads/" target="_blank" rel="noopener noreferrer">Top 3 list of Knee Pads</a><br /><a href="https://fallman.tech/best-onewheel-elbow-pads/" target="_blank" rel="noopener noreferrer">Top 3 list of Elbow Pads</a></p>&#10;&#10;&#10;<div>&#10;<figure><img width="1024" height="373" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/04/kneepad-elbowpad-wristguard-1024x373.jpg" alt="" /></figure>&#10;</div>&#10;&#10;&#10;<p>I use the elbow pads if I’m not carrying my <a href="https://lazyrolling.com/?ref=zqy8b5dzpo" target="_blank" rel="noopener noreferrer">Lazyrooling Armored hoodie.</a></p>&#10;&#10;&#10;&#10;<h3>Protective clothing</h3>&#10;&#10;&#10;&#10;<p>The <a href="https://lazyrolling.com/collections/all/products/armored-hoodie-by-lazyrolling?ref=zqy8b5dzpo" target="_blank" rel="noopener noreferrer">Armored hoodie from Lazyrooling</a> is a good piece of protective gear that has paddings for both the elbows and back. Making it a lot easier to be protective when you want to get out. Instead of using elbow pads which can be annoying to take on I just grab the hoodie.</p>&#10;&#10;&#10;&#10;<p>The Lazyrolling Armored Hoodie offers you the different protection layers of the elbow-, shoulder pads, and back protection combined with a kevlar lining. Instead of having to worry about all these multiple pieces of protection before your ride, the hoodie has it together all in one piece of comfortable clothing. Depending on the type of pads you decide to use it can even be certified as motorcycle protection with classification <a href="https://lazyrolling.com/pages/eu-declaration-of-conformity" target="_blank" rel="noopener noreferrer">EN 17092-4:2020 Class A</a> with the level 2 pads.</p>&#10;&#10;&#10;&#10;<p>It has a relaxed fit and the inside is lined with Kevlar helping you to be well-protected in the case of an accident. This is something I haven’t tried myself, but many people have and can confirm it.</p>&#10;&#10;&#10;&#10;<p>I’m 186cm 72kg, using a Large. It has a relaxed fit and the sleeves are perfect.</p>&#10;&#10;&#10;&#10;<blockquote>&#10;<p>It should not come as a surprise that I really like my hoodie from Lazyrolling after a year and I use it on a daily basis when the weather is nice and not too hot.</p>&#10;<cite>Oskar Fällman</cite></blockquote>&#10;&#10;&#10;&#10;<p>Check out my <a href="https://fallman.tech/lazyrolling-armored-hoodie-review/" target="_blank" rel="noopener noreferrer">1-year review here</a>.</p>&#10;&#10;&#10;<div>&#10;<figure><img width="949" height="1024" src="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/04/lazyrolling_hoodie_2-949x1024.jpg" alt="Lazyrolling hoodie on wood planks" /><figcaption><a href="https://lazyrolling.com/collections/all/products/armored-hoodie-by-lazyrolling?ref=zqy8b5dzpo" target="_blank" rel="noopener noreferrer">Lazyrolling Armored Hoodie </a></figcaption></figure>&#10;</div>&#10;&#10;&#10;<p><strong>For a $20 off Coupon Code on orders over $ 179 use FALLMAN</strong> <a href="https://lazyrolling.com/?ref=zqy8b5dzpo" target="_blank" rel="noopener noreferrer">order here.</a></p>&#10;&#10;&#10;&#10;<h2><strong><br /></strong>Conclusion:</h2>&#10;&#10;&#10;&#10;<p>When riding and commuting with Onewheel, prioritizing safety gear is important. From helmets safeguarding the head to wristguards preventing potential wrist injuries, each piece plays a crucial role. Upgrading to advanced options like the <a href="https://fallman.tech/tsg-pass-pro-helmet-review/" target="_blank" rel="noopener noreferrer">TSG Pass Pro helmet</a> ensures comprehensive protection, guarding not just the head but also the face and jaws. <em>This is more of advanced riders or people who want the best protection out there.</em></p>&#10;&#10;&#10;&#10;<p>A reliable backpack, such as the Point 65 Boblbee, goes beyond mere convenience, providing integrated back protection and secure space for laptops and other valuables. Safety extends to auditory awareness with bone-conducting headphones like <a href="https://fallman.tech/aftershokz-rebrands-to-shokz/" target="_blank" rel="noopener noreferrer">Shokz </a>Openmove, enhancing vigilance during commutes.</p>&#10;&#10;&#10;&#10;<p>Wristguards, an absolute necessity, mitigate the risk of wrist injuries caused by instinctive falls. Triple Eight wristguards, coupled with Flatland3D Fingerless Pro gloves, strike a balance between protection and flexibility. Soft knee- and elbow pads, like the Triple Eight ExoSkin series, offer comfort without compromising on essential shielding.</p>&#10;&#10;&#10;&#10;<p>For those seeking all-in-one protection, <a href="https://fallman.tech/lazyrolling-armored-hoodie-review/" target="_blank" rel="noopener noreferrer">Lazyrolling Armored Hoodie</a> emerges as a versatile choice, combining elbow and back padding for comprehensive coverage. As safety is a personal journey, explore the <a href="https://fallman.tech/best-onewheel-knee-pads/" target="_blank" rel="noopener noreferrer">top 3 lists for knee</a> and <a href="https://fallman.tech/best-onewheel-elbow-pads/" target="_blank" rel="noopener noreferrer">elbow pads</a> to find the perfect fit for your commute.</p>&#10;&#10;&#10;&#10;<p>In the pursuit of safe and stylish commuting, invest wisely in protective gear. Remember, safety is not an expense; it’s an investment in your well-being.</p>&#10;&#10;&#10;&#10;<p>If you use a scooter here is my <a href="https://fallman.tech/electric-scooter-safety-gear/" target="_blank" rel="noopener noreferrer">electric scooter safety gear list</a> when I’m riding on my Xiaomi 365.</p>&#10;&#10;&#10;&#10;<p><em>Affiliate disclosure: Some of the links provided are affiliate links. Clicking through and making a purchase supports the author at no extra cost to you.</em></p>]]></content:encoded>
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">Fallman.tech &quot;Onewheel&quot; Search Feed</source>
+      <source url="https://fallman.tech/?feed=rss2&amp;s=onewheel">Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)</source>
     </item>
     <item>
       <title><![CDATA[XR revival build from Belgium: Thor301 vs LFOCer V4 vs XRV, and best 20s2p sourcing in the EU?]]></title>
@@ -2432,7 +2444,7 @@
       <source url="https://www.reddit.com/r/onewheelpint.rss?limit=100">Reddit r/onewheelpint</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel Accidents Lawsuit (Sep 2026 Update) - Schmidt & Clark, LLP]]></title>
+      <title><![CDATA[Onewheel Accidents Lawsuit (Sep 2026 Update) - schmidtandclark.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NQTZ6SENySVJLQ1RPR0R3eUdJMWlBY2RRUUdNcEZYT3pUM25rUUR5anFCdlhEV1ZfUm5LZUduRVBBcDlNYTladFE4Zml5OGx6RmxsMjc2dEx1Vndr?oc=5</link>
       <guid isPermaLink="false">a6j44r-1k6th9l</guid>
       <pubDate>Wed, 15 Jul 2026 07:00:00 GMT</pubDate>
@@ -3029,7 +3041,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/OSBS-TFL-Sidekicks-Red-Black-Camo-Growler-Onewheel-Rail-Guards.webp?v=1691093800" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* Growler Sidekicks HD]]></title>
@@ -3041,7 +3053,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Onewheel-Growler-Sidekicks-HD-Rail-Guards.png?v=1708620929" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL RACING AT DIRTSURFERZ WAS MIND BLOWING]]></title>
@@ -3365,7 +3377,7 @@
 
 
       <dc:creator>Tosh Roberts Brockway</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Just got a onewheel pint for $150!]]></title>
@@ -4025,7 +4037,7 @@
 
 
       <dc:creator>Nico Aleman</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Vs AT Eskate]]></title>
@@ -4400,7 +4412,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel team's Antic e-bike can pop eternal wheelies - Engadget]]></title>
+      <title><![CDATA[Onewheel team's Antic e-bike can pop eternal wheelies - engadget.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5</link>
       <guid isPermaLink="false">uc98qe-1k6th9l</guid>
       <pubDate>Wed, 19 Nov 2025 08:00:00 GMT</pubDate>
@@ -4472,7 +4484,7 @@
       <source url="https://www.reddit.com/r/onewheelpint.rss?limit=100">Reddit r/onewheelpint</source>
     </item>
     <item>
-      <title><![CDATA[The 2024 Onewheel World Championship - Race For The Rail (11/8/25) - Live Stream - espn.com]]></title>
+      <title><![CDATA[The 2024 Onewheel World Championship - Race For The Rail (11/8/25) - Live Stream - ESPN]]></title>
       <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wQS0zY0tiLWhXZUlNN1F4QUpDTW5MOGNqS3pqdUJSZTVVOVE2SXNxUzE4eGFVdFdadWwyM2t5QTd0dXBIQ1dmRDhoN1RsZ01qNEk5RC1VVVlqUQ?oc=5</link>
       <guid isPermaLink="false">1gnhu04-1joxsrd</guid>
       <pubDate>Sat, 08 Nov 2025 08:00:00 GMT</pubDate>
@@ -4601,7 +4613,7 @@
 
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Ripping A Onewheel Around The Jackson Hole Bike Park - Unofficial Networks]]></title>
@@ -5225,7 +5237,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/BeadBuddySuperiorTireLubricant-MultipleTires.jpg?v=1742940362" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Blue Armor-Dilloz Extreme - Scooter Tire Sealant]]></title>
@@ -5237,7 +5249,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/BlueArmorDillozTireSealant-8oz-StandardBrassTool.jpg?v=1742940364" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Green Armor-Dilloz Protection - EUC & E-Bike Tire Sealant]]></title>
@@ -5249,7 +5261,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/GreenArmorDillozTireSealant-8oz-StandardBrassTool.jpg?v=1742940363" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Red Armor-Dilloz Maximum Effect - Onewheel Tire Sealant]]></title>
@@ -5261,7 +5273,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/RedArmorDillozTireSealant-8oz-StandardBrassTool.jpg?v=1742940364" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT Cruise Key West To Work]]></title>
@@ -6245,7 +6257,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/GTKushWideRetro64Teal1_cbad1290-0f92-4aae-8d8d-8783025e5006.jpg?v=1724942991" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Customizing a customer's onewheel GT! www.floatworlds.com]]></title>
@@ -6269,7 +6281,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/618SNsFBOAL._AC_SL1100___03075_df5b0d9f-a295-4cf6-939f-3d936a4d9bb2.jpg?v=1684506007" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Chillest World Shredquarters- a trail preview]]></title>
@@ -6293,7 +6305,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Bearing-Protection-Onewheel-Pint-PintX-Black.png?v=1697399643" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* MTE Seal Kit - Onewheel GT-S, Onewheel GT, and Onewheel+ XR Compatible]]></title>
@@ -6317,7 +6329,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Onewheel-Pint-PintX-TFL-Grip-Tape.png?v=1692303539" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* TFL Street Pro 2 Tire - Onewheel GT-S and Onewheel GT Compatible]]></title>
@@ -6341,7 +6353,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/gripplesteal.png?v=1704650164" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* TFL Grip Tape - Onewheel GT-S and Onewheel GT Compatible]]></title>
@@ -6353,7 +6365,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Onewheel-Pint-PintX-TFL-Grip-Tape-2.jpg?v=1692304545" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* Float Plate Adhesive Pack - Onewheel Pint X Compatible]]></title>
@@ -6365,7 +6377,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Float-Plates-Adhesive-Pack-Onewheel-PintX.webp?v=1701963983" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Retro 64 Kush Lo Footpad Onewheel GT-S and Onewheel GT Compatible]]></title>
@@ -6377,7 +6389,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/GTKushLoRetro64Teal1.jpg?v=1724943025" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Tool Kit - Onewheel GT-S , Onewheel GT, Onewheel Pint X, and Onewheel Pint Compatible]]></title>
@@ -6389,7 +6401,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/PintToolKit1.jpg?v=1725039675" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[TFL Trail Pro II Tire - 6" Hub Compatible]]></title>
@@ -6401,7 +6413,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/TP21_6b78a768-206c-483d-9421-eb367ca36c98.jpg?v=1725039679" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* ShredLights Curved Sticky Mounts]]></title>
@@ -6413,7 +6425,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/ShredLights-Curved-Sticky-Mounts.jpg?v=1701963506" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* ShredLights Magnetic Sticky Mount]]></title>
@@ -6437,7 +6449,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/products/FFCaps_1024x1024_2x_47188cc6-639b-4def-a45e-b465cff64b74.webp?v=1664894191" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[New Board, Who Dis? Onewheel Launches Expanded Trade-In Program for Board Upgrades - PR Newswire]]></title>
@@ -6521,7 +6533,7 @@
 
 
       <dc:creator>Nico Aleman</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Winter Riding Tips & Storage]]></title>
@@ -6689,7 +6701,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/V3-float-plates-group.jpg?v=1725039671" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Float Plates (Rear) - Onewheel GT-S and Onewheel GT Compatible]]></title>
@@ -6701,7 +6713,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/GTRearPlateWhite.jpg?v=1725039683" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel trick practicing@ROBERTSWORLD86 #everyone #shorts #onewheel #skatepark #cool #onewheeltricks]]></title>
@@ -6737,7 +6749,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Future-Motion-Footpads-Onewheel-GT-2.webp?v=1701973631" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* FST System Base Kit - Onewheel GT-S, GT, XRC Compatible]]></title>
@@ -6749,7 +6761,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/fst.png?v=1733251262" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Holiday Gift Guide 2024]]></title>
@@ -6821,7 +6833,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Pint_GTFootpadConnector.jpg?v=1733431146" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[Triple 8 Helmets: Safety, Style, and Versatility for Every Rider]]></title>
@@ -6848,7 +6860,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UClOz_aLlfHQvAT2-Nl49G4w">VOW</source>
     </item>
     <item>
-      <title><![CDATA[OneWheel Pint S Review: The Good, the Bad, and the Crashy - GearJunkie]]></title>
+      <title><![CDATA[OneWheel Pint S Review: The Good, the Bad, and the Crashy - gearjunkie.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DZ1RrUnhMcFI4UkZ3MVNGMy1wa2ltNGVLTEp6WEhzdU52S1hpTEltaVRJLUI0b1EzT1lpOVFUQjdQNHByTlA5UFZhT1duWk4wRGU1M0xoX3B4SWw2MEE?oc=5</link>
       <guid isPermaLink="false">1jwhj4q-1joxsrd</guid>
       <pubDate>Wed, 04 Dec 2024 08:00:00 GMT</pubDate>
@@ -6869,7 +6881,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Deletes_Main.jpg?v=1725039674" />
 
 
-      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop | Onewheel Product Feed</source>
+      <source url="https://onestopboardshop.com/collections/onewheel.atom">One Stop Board Shop (Onewheel)</source>
     </item>
     <item>
       <title><![CDATA[How To: Onewheel XR Classic Tire Change]]></title>
@@ -8144,7 +8156,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[One Decade of Onewheel - Good Times | Santa Cruz California's Leading Free Weekly]]></title>
+      <title><![CDATA[One Decade of Onewheel - goodtimes.sc]]></title>
       <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5</link>
       <guid isPermaLink="false">k1ehof-1k6th9l</guid>
       <pubDate>Wed, 19 Jun 2024 07:00:00 GMT</pubDate>
@@ -8453,7 +8465,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/files/gtkushlo3-1024x1024-65b1484c4d887_9a9f3737-aa1e-4425-a245-3a1e3eb98f96.jpg?v=1707278428" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL GT-S RACING IN VEGAS! FINALS 💨💨💨 #onewheelgt]]></title>
@@ -8549,7 +8561,7 @@
 
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[@Onewheel racing ! #onewheelgt]]></title>
@@ -8681,7 +8693,7 @@
 
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL GT-S / JEFFADAIRSHREDS GETS A VESC !]]></title>
@@ -9029,7 +9041,7 @@
       <media:thumbnail url="https://thefloatlife.com/blogs/news/maintaining-your-onewheel-this-winter" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Pourquoi choisir VESC ?]]></title>
@@ -9461,7 +9473,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-12-11-215602-1702349854291_1000x.png?v=1702349855" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[How to do 180's with FlightFins]]></title>
@@ -9905,7 +9917,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/847pdh-1699142151128.jpg?v=1699142151" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT Ride Modes – Digital Shaping 3.0]]></title>
@@ -10061,7 +10073,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-10-24-at-9.18.45-am-1698164334514.png?v=1698164335" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Florida Man Sues Over Serious Fall From Recalled Onewheel Skateboard - Consumer Notice]]></title>
@@ -10208,7 +10220,7 @@
       <source url="https://medium.com/feed/tag/onewheel">Medium Onewheel</source>
     </item>
     <item>
-      <title><![CDATA[Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - Lookout Santa Cruz]]></title>
+      <title><![CDATA[Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - lookout.co]]></title>
       <link>https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5</link>
       <guid isPermaLink="false">1ngnsde-1k6th9l</guid>
       <pubDate>Wed, 04 Oct 2023 07:00:00 GMT</pubDate>
@@ -10352,12 +10364,12 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWpzQAt0C4ieJbiGGYZqkQ">Maxx Send</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel self-balancing skateboards recalled, linked to 4 deaths - NewsNation]]></title>
+      <title><![CDATA[Onewheel self-balancing skateboards recalled, linked to 4 deaths - newsnationnow.com]]></title>
       <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxNVVRsaGszYkNOaGxyTTJQaHNhOTB6YjQta1g0UmxNTHg1MUxPVU5WV3NtcnlYcklSMVNVYVBHcExaVFR0U3BtLTZmN1JMRUFEYWgxZklTRDM2ZnNYUDNyWkRRNXI0eXJ5R3RFQUUtbl91U1FWV0Vod1Fjem9LaTBzNlplN19oNGFjTnNzcG54aEc5TTY2dnVRbDc1cllHTlHSAaQBQVVfeXFMT3NRUmp5WTF0NU9rWk11S1M2N1R5Q25YZFNSWmZReXYxZVo2a3ZXeWJhSVVJaFRmdjYzTW9NNkFzNUhPMkcyNTdyZkw3enU4MjQwMEMxMi1BVHA2ZF9tdUpEWkxmVnNJQ0dlUDRZNjY4dXJDVXB6bGZCbXF1TGUtRGt1VEV6T2FuS1JSSGZsOUFsd2N6eENpdHhneEdrYjg4Rm1kNTQ?oc=5</link>
       <guid isPermaLink="false">zt9hqj-1k6th9l</guid>
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel self-balancing skateboards recalled, linked to 4 deaths NewsNation</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNVVRsaGszYkNOaGxyTTJQaHNhOTB6YjQta1g0UmxNTHg1MUxPVU5WV3NtcnlYcklSMVNVYVBHcExaVFR0U3BtLTZmN1JMRUFEYWgxZklTRDM2ZnNYUDNyWkRRNXI0eXJ5R3RFQUUtbl91U1FWV0Vod1Fjem9LaTBzNlplN19oNGFjTnNzcG54aEc5TTY2dnVRbDc1cllHTlHSAaQBQVVfeXFMT3NRUmp5WTF0NU9rWk11S1M2N1R5Q25YZFNSWmZReXYxZVo2a3ZXeWJhSVVJaFRmdjYzTW9NNkFzNUhPMkcyNTdyZkw3enU4MjQwMEMxMi1BVHA2ZF9tdUpEWkxmVnNJQ0dlUDRZNjY4dXJDVXB6bGZCbXF1TGUtRGt1VEV6T2FuS1JSSGZsOUFsd2N6eENpdHhneEdrYjg4Rm1kNTQ?oc=5" target="_blank" rel="noopener noreferrer">Onewheel self-balancing skateboards recalled, linked to 4 deaths</a>  NewsNation]]></content:encoded>
+      <description><![CDATA[<p>Onewheel self-balancing skateboards recalled, linked to 4 deaths newsnationnow.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNVVRsaGszYkNOaGxyTTJQaHNhOTB6YjQta1g0UmxNTHg1MUxPVU5WV3NtcnlYcklSMVNVYVBHcExaVFR0U3BtLTZmN1JMRUFEYWgxZklTRDM2ZnNYUDNyWkRRNXI0eXJ5R3RFQUUtbl91U1FWV0Vod1Fjem9LaTBzNlplN19oNGFjTnNzcG54aEc5TTY2dnVRbDc1cllHTlHSAaQBQVVfeXFMT3NRUmp5WTF0NU9rWk11S1M2N1R5Q25YZFNSWmZReXYxZVo2a3ZXeWJhSVVJaFRmdjYzTW9NNkFzNUhPMkcyNTdyZkw3enU4MjQwMEMxMi1BVHA2ZF9tdUpEWkxmVnNJQ0dlUDRZNjY4dXJDVXB6bGZCbXF1TGUtRGt1VEV6T2FuS1JSSGZsOUFsd2N6eENpdHhneEdrYjg4Rm1kNTQ?oc=5" target="_blank" rel="noopener noreferrer">Onewheel self-balancing skateboards recalled, linked to 4 deaths</a>  newsnationnow.com]]></content:encoded>
 
 
 
@@ -10388,7 +10400,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Own a Onewheel? What To Know About the Recall After 4 Deaths - The San Francisco Standard]]></title>
+      <title><![CDATA[Own a Onewheel? What To Know About the Recall After 4 Deaths - sfstandard.com]]></title>
       <link>https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5</link>
       <guid isPermaLink="false">1u779ba-1k6th9l</guid>
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
@@ -10448,24 +10460,24 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;&quot;onewheel&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported - NBC Los Angeles]]></title>
-      <link>https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5</link>
-      <guid isPermaLink="false">mit9n4-1joxsrd</guid>
-      <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported NBC Los Angeles</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported</a>  NBC Los Angeles]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;&quot;onewheel&quot;&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[OneWheel Recall Issued After Dozens of Rider Injuries Due to "Pushback" Feature - AboutLawsuits.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EamdqVnhWaTlWYk1NMk5LanBZSlpQYngyX2gyYlF2RFNHNDdjd1RKN0Exdkl2cHNmWXJ0NjRmSUhIWUI1aW5HNGNwSFlXdmJEaGdtUVdfOHQwU3V1ZU44Q2x5NnBxQQ?oc=5</link>
       <guid isPermaLink="false">11ljmau-1joxsrd</guid>
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>OneWheel Recall Issued After Dozens of Rider Injuries Due to &quot;Pushback&quot; Feature AboutLawsuits.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EamdqVnhWaTlWYk1NMk5LanBZSlpQYngyX2gyYlF2RFNHNDdjd1RKN0Exdkl2cHNmWXJ0NjRmSUhIWUI1aW5HNGNwSFlXdmJEaGdtUVdfOHQwU3V1ZU44Q2x5NnBxQQ?oc=5" target="_blank" rel="noopener noreferrer">OneWheel Recall Issued After Dozens of Rider Injuries Due to "Pushback" Feature</a>  AboutLawsuits.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;&quot;onewheel&quot;&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported - NBC Los Angeles]]></title>
+      <link>https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5</link>
+      <guid isPermaLink="false">mit9n4-1joxsrd</guid>
+      <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported NBC Los Angeles</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported</a>  NBC Los Angeles]]></content:encoded>
 
 
 
@@ -10520,7 +10532,7 @@
       <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel electric skateboards recalled after four deaths and dozens of serious injuries - PIRG]]></title>
+      <title><![CDATA[Onewheel electric skateboards recalled after four deaths and dozens of serious injuries - pirg.org]]></title>
       <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxOeTFBWG8wc1paQWlocExEbFRibkdhdTZzMFZfX0NzZ1JWLUw0bkZGVTZDanhqSXBqOFFpUHZhdW1tVzdpcHp3eEotaDg0WmJ4TXFLcm0zQTZzdmRidWJfZ0UxVktzZ0VNSzA0dFdZbC12NjRwa1hRTEw5VUxScGl6OUJxZHhsR2NMOGdUVU9jOEpwa2JQVjN4QmJHODY1eGlmTEE0QkFBcjBWSS1oS01NbGlIQTNWblNfZjdFSDFn?oc=5</link>
       <guid isPermaLink="false">qjucaz-1k6th9l</guid>
       <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
@@ -10736,7 +10748,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Every single Onewheel is being recalled after four deaths - theverge.com]]></title>
+      <title><![CDATA[Every single Onewheel is being recalled after four deaths - The Verge]]></title>
       <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3drSHJDc1l0ZWV5MkprdHpmdHUyck9Tbl96UW5kR1NsMzZ2RVdIbWJUaUN0ZW81Tlh2akxZNWQ5clFpWXN0elRsWE1fMTBFVDFHWDFnSlVjTm95QnUtUnp1Nl9OS3otTVBRR2F4WTZHTkdvNk4xNmZMLU5MeHBxTHM4Z2llM3hIbDVnekRSaWUzMV9G?oc=5</link>
       <guid isPermaLink="false">1c40e9v-1k6th9l</guid>
       <pubDate>Fri, 29 Sep 2023 07:00:00 GMT</pubDate>
@@ -11072,7 +11084,7 @@
       <source url="https://owforum.co.uk/category/8.rss">Suggestions &amp; Feedback</source>
     </item>
     <item>
-      <title><![CDATA[Ocho action: Epic fail at the finish in Onewheel race - espn.com]]></title>
+      <title><![CDATA[Ocho action: Epic fail at the finish in Onewheel race - ESPN]]></title>
       <link>https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EcE9rQTVLaTkwQ2pMd2k2MkJvREJENFp5RXJvTC1kVkltMHFVakRLZ3MwRng3eXlmN2plYjBJY3pRZlNQejNyc0lJWHNRdTktV0dzQ0RJSXU?oc=5</link>
       <guid isPermaLink="false">1h13qye-1joxsrd</guid>
       <pubDate>Fri, 04 Aug 2023 07:00:00 GMT</pubDate>
@@ -11177,7 +11189,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/mqdefault-1689714751113.webp?v=1689714751" />
 
       <dc:creator>Racheal Cecil</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[INTRODUCING THE ULTIMATE ONEWHEEL BACKPACK!]]></title>
@@ -11189,7 +11201,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-07-18-at-3.57.18-pm-1689721050051_1000x.png?v=1689721051" />
 
       <dc:creator>Jeff McCosker</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[WHICH ONEWHEEL GT RAILS ARE RIGHT FOR ME?]]></title>
@@ -11201,7 +11213,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-07-18-at-2.55.27-pm-1689717340262_1000x.png?v=1689717341" />
 
       <dc:creator>Jeff McCosker</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[How to convert an XR to a VESC with Ubox 80V]]></title>
@@ -11225,7 +11237,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/7.11.23-5-ways-footpad-copy-1689202826929.jpg?v=1689202828" />
 
       <dc:creator>Jeff McCosker</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[7 Tips to Keep the Onewheel From Getting Banned]]></title>
@@ -11237,7 +11249,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/viewimage_hero-1689197135210_1000x.jpg?v=1689197136" />
 
       <dc:creator>Jimmy Chang</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life | Onewheel Parts &amp; Accessories (News)</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
     </item>
     <item>
       <title><![CDATA[Introduction to FlightFins]]></title>
@@ -11933,7 +11945,7 @@
 
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Top Places to Float in Orlando]]></title>
@@ -12953,7 +12965,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[One year of onewheeling and 2.5 thousand miles later it has been a blast. Thank you all who I've been on rides with and the amazing onewheel & eskate communities! This is a small video of the journey so far and some milestones along the way.]]></title>
@@ -12989,7 +13001,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[1# EASTRIDE Workshop]]></title>
@@ -13025,7 +13037,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[The Perfect Paved Downhill Onewheel Run in Bentonville, AR?]]></title>
@@ -13049,7 +13061,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Trail Etiquette and General Good Riding Practices]]></title>
@@ -13073,7 +13085,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/IMG_4474_1024x1024.jpg?v=1643608046" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Stokebird 2022]]></title>
@@ -13157,7 +13169,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[Adding a Onewheel GPS Tracker that Works! Invoxia Review]]></title>
@@ -13169,7 +13181,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Philly X 856 Onewheel Park NJ]]></title>
@@ -13217,7 +13229,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[@r_wortham visits Philly for a Onewheel ride.]]></title>
@@ -13412,12 +13424,12 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel GT is Future Motion's first three-horsepower electric board - Engadget]]></title>
+      <title><![CDATA[Onewheel GT is Future Motion's first three-horsepower electric board - engadget.com]]></title>
       <link>https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5</link>
       <guid isPermaLink="false">1auyj4f-1k6th9l</guid>
       <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel GT is Future Motion&apos;s first three-horsepower electric board Engadget</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5" target="_blank" rel="noopener noreferrer">Onewheel GT is Future Motion's first three-horsepower electric board</a>  Engadget]]></content:encoded>
+      <description><![CDATA[<p>Onewheel GT is Future Motion&apos;s first three-horsepower electric board engadget.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5" target="_blank" rel="noopener noreferrer">Onewheel GT is Future Motion's first three-horsepower electric board</a>  engadget.com]]></content:encoded>
 
 
 
@@ -13436,7 +13448,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[The new Onewheel GT can travel 32 miles on a single charge - theverge.com]]></title>
+      <title><![CDATA[The new Onewheel GT can travel 32 miles on a single charge - The Verge]]></title>
       <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5</link>
       <guid isPermaLink="false">vm13z0-1k6th9l</guid>
       <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
@@ -13448,7 +13460,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;&quot;future motion&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Long-Range Single-Wheeled Scooters: The Onewheel GT Offers Up to 32-Miles of Range - trendhunter.com]]></title>
+      <title><![CDATA[Long-Range Single-Wheeled Scooters: The Onewheel GT Offers Up to 32-Miles of Range - Trend Hunter]]></title>
       <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWZGJVV3dfaWRGWDFxQlAzeW0xRjBEZ2s1RkdvUEMxdnM4ZzJ1QXI5cU13bFBxaVZUazNDd3hFN1NSa3BSWDlwY1YwdndXNFE4a05UZ2ZCRmJPQQ?oc=5</link>
       <guid isPermaLink="false">3q9naa-1k6th9l</guid>
       <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
@@ -13553,7 +13565,7 @@
 
 
       <dc:creator>oneradwheel</dc:creator>
-      <source url="https://oneradwheel.com/category/onewheel/feed">FreshlyCharged / Jimmy Chang (oneRADwheel) Onewheel Feed</source>
+      <source url="https://oneradwheel.com/category/onewheel/feed">OneRadWheel OneWheel Blog</source>
     </item>
     <item>
       <title><![CDATA[Onewheel World Championship: Off-Road Race to Crown the Best - GearJunkie]]></title>
@@ -13673,7 +13685,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/DSC00940e_1024x1024.jpg?v=1624129497" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Meals on Onewheels]]></title>
@@ -13685,7 +13697,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/MealsOnWheels-03_1024x1024.jpg?v=1622061457" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[50-Million Miles: Onewheel Achieves Micromobility Milestone - PR Newswire]]></title>
@@ -13757,7 +13769,7 @@
 
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[DC rapper embarks across country after breaking OneWheel riding record - WTOP News]]></title>
@@ -13817,7 +13829,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/20210403_Parkin_OneWheel_Femme_select-03647_1024x1024.jpg?v=1619674689" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR : test et avis sur la tenue de route sur tout type de chemin]]></title>
@@ -13901,7 +13913,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/Onewheel_rftr.fr073e_1024x1024.jpg?v=1615341876" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Announces First "Flow State" Brand Ambassadors - PR Newswire]]></title>
@@ -13937,7 +13949,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/D7A3956_1_1024x1024.jpg?v=1613483822" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Jacob Kear]]></title>
@@ -13949,7 +13961,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0696/2011/files/MG_7640_1024x1024.jpg?v=1613482852" />
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Battery Upgrades – ChiBatterySystems]]></title>
@@ -13973,7 +13985,7 @@
 
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Homegrown]]></title>
@@ -13985,7 +13997,7 @@
 
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Modern Alchemy]]></title>
@@ -13997,7 +14009,7 @@
 
 
       <dc:creator>Human Code</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[Chavis Flagg]]></title>
@@ -14165,7 +14177,7 @@
 
 
       <dc:creator>Jack Mudd</dc:creator>
-      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories</source>
+      <source url="https://onewheel.com/blogs/stories.atom">Onewheel Official Stories (Stories)</source>
     </item>
     <item>
       <title><![CDATA[onewheel TRICKS Highlights 2020]]></title>
@@ -14528,6 +14540,42 @@
       <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
+      <title><![CDATA[Female Onewheel Riders!!]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hwtr8n/female_onewheel_riders/</link>
+      <guid isPermaLink="false">1gwtzhv-117dqwv</guid>
+      <pubDate>Fri, 24 Jul 2020 02:46:03 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/SexyKimby [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/SexyKimby" target="_blank" rel="noopener noreferrer"> /u/SexyKimby </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/hwtr1q/female_onewheel_riders/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hwtr8n/female_onewheel_riders/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/SexyKimby</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Had a blast on this float, rocking the “New” FlightFins logo I made for my top. Float Safely Brothers and Sisters😎]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hrh3fq/had_a_blast_on_this_float_rocking_the_new/</link>
+      <guid isPermaLink="false">8ggjt3-117dqwv</guid>
+      <pubDate>Wed, 15 Jul 2020 04:31:37 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/SexyKimby [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/Onewheel_FL/comments/hrh3fq/had_a_blast_on_this_float_rocking_the_new/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/x7vr972i8ya51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=25d5007bced54cd2ed0a7a4018d836568c63fa8d" alt="Had a blast on this float, rocking the “New” FlightFins logo I made for my top. Float Safely Brothers and Sisters😎" title="Had a blast on this float, rocking the “New” FlightFins logo I made for my top. Float Safely Brothers and Sisters😎" /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/SexyKimby" target="_blank" rel="noopener noreferrer"> /u/SexyKimby </a> <br /> <span><a href="https://i.redd.it/x7vr972i8ya51.jpg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hrh3fq/had_a_blast_on_this_float_rocking_the_new/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/x7vr972i8ya51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=25d5007bced54cd2ed0a7a4018d836568c63fa8d" />
+
+      <dc:creator>/u/SexyKimby</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Made that “New” logo for the Flight Fins emblem, put it on my top, I think they look sick... Float On!! (Side Note: It doubles as a wallpaper👍🏻)]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hr899x/made_that_new_logo_for_the_flight_fins_emblem_put/</link>
+      <guid isPermaLink="false">1qmlhlv-117dqwv</guid>
+      <pubDate>Tue, 14 Jul 2020 19:35:52 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/SexyKimby [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/Onewheel_FL/comments/hr899x/made_that_new_logo_for_the_flight_fins_emblem_put/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/8g4rpx0xkva51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=15154caf2b1bc1c7b36e5738905686bfed0c31bc" alt="Made that “New” logo for the Flight Fins emblem, put it on my top, I think they look sick... Float On!! (Side Note: It doubles as a wallpaper👍🏻)" title="Made that “New” logo for the Flight Fins emblem, put it on my top, I think they look sick... Float On!! (Side Note: It doubles as a wallpaper👍🏻)" /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/SexyKimby" target="_blank" rel="noopener noreferrer"> /u/SexyKimby </a> <br /> <span><a href="https://i.redd.it/8g4rpx0xkva51.jpg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hr899x/made_that_new_logo_for_the_flight_fins_emblem_put/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/8g4rpx0xkva51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=15154caf2b1bc1c7b36e5738905686bfed0c31bc" />
+
+      <dc:creator>/u/SexyKimby</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
       <title><![CDATA[This viral skateboarding guitarist has been shredding around Atlanta on a Onewheel - Guitar World]]></title>
       <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxNVzMzZzhQaGxsZHhTZC1ORXlqUy1kMUdkdlB6UnZ0LW5pUXRPQXpQLUZkR3ZZal9OcVpGa2tjai1EQm8zLURacVJUT2U2dzhUQWZzcEsyUFZRWHdGS0FMYUhpdXNFYzJTNjR4Z3FmS19uQVpGMkhnZTJDZEJYc0J6Zmtub1ZqdnZMYzgtV1l1czZOaDFGVWdvemVZWVFKcldWZGU5YlNJNzIyR2NzT05jWFN4cjJFUQ?oc=5</link>
       <guid isPermaLink="false">19vz9mv-1joxsrd</guid>
@@ -14540,6 +14588,18 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;&quot;onewheel&quot;&quot; - Google News</source>
     </item>
     <item>
+      <title><![CDATA[Rant About Broward County Parks]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hj0jel/rant_about_broward_county_parks/</link>
+      <guid isPermaLink="false">10pgk0n-117dqwv</guid>
+      <pubDate>Wed, 01 Jul 2020 01:15:17 GMT</pubDate>
+      <description><![CDATA[<p>Soo I discovered today that electric vehicles like the One wheel are not allowed in the County Parks... I mean I get the reason for it.... But... I think the the rule is too broad. I get the need for preventing companies from flooding the parks with their devices. But if you can prove you own it it should be allowed. I mean Mountain Bikes and street bikes are allowed.... Who do I need to vote for or call for this? submitted by /u/simplystriking [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Soo I discovered today that electric vehicles like the One wheel are not allowed in the County Parks... I mean I get the reason for it.... But... I think the the rule is too broad. I get the need for preventing companies from flooding the parks with their devices. But if you can prove you own it it should be allowed. I mean Mountain Bikes and street bikes are allowed.... Who do I need to vote for or call for this?</p> </div>   submitted by   <a href="https://www.reddit.com/user/simplystriking" target="_blank" rel="noopener noreferrer"> /u/simplystriking </a> <br /> <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hj0jel/rant_about_broward_county_parks/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hj0jel/rant_about_broward_county_parks/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/simplystriking</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
       <title><![CDATA[May 30th Key Biscayne SoFlo Onewheel Group Ride]]></title>
       <link>https://www.youtube.com/watch?v=9s058iS2_NI</link>
       <guid isPermaLink="false">1o58pgu-1kl1jn7</guid>
@@ -14550,6 +14610,42 @@
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=9s058iS2_NI" /></media:content>
       <dc:creator>Jeff Gross</dc:creator>
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPhPzZExpaCVSbVxQ1MxAKw">Jeff Gross</source>
+    </item>
+    <item>
+      <title><![CDATA[Need Help, my fam isn’t letting me back on my Onewheel until I get some better gear.]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/gubkk2/need_help_my_fam_isnt_letting_me_back_on_my/</link>
+      <guid isPermaLink="false">4z8akx-117dqwv</guid>
+      <pubDate>Mon, 01 Jun 2020 01:42:53 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/TheOnlyRandomizer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/TheOnlyRandomizer" target="_blank" rel="noopener noreferrer"> /u/TheOnlyRandomizer </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/gubibe/need_help_my_fam_isnt_letting_me_back_on_my/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/gubkk2/need_help_my_fam_isnt_letting_me_back_on_my/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/TheOnlyRandomizer</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel + Wireless Charging]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/gmg3oq/onewheel_wireless_charging/</link>
+      <guid isPermaLink="false">ojl4ug-117dqwv</guid>
+      <pubDate>Tue, 19 May 2020 02:43:59 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/TheOnlyRandomizer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/TheOnlyRandomizer" target="_blank" rel="noopener noreferrer"> /u/TheOnlyRandomizer </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/gmg3g5/onewheel_wireless_charging/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/gmg3oq/onewheel_wireless_charging/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/TheOnlyRandomizer</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[I was checking out a building in Winthrop, and I just LOVE how smooth a Onewheel can make any shot...]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/gkuvii/i_was_checking_out_a_building_in_winthrop_and_i/</link>
+      <guid isPermaLink="false">m3zyc7-117dqwv</guid>
+      <pubDate>Sat, 16 May 2020 13:43:43 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/TheOnlyRandomizer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/Onewheel_FL/comments/gkuvii/i_was_checking_out_a_building_in_winthrop_and_i/" target="_blank" rel="noopener noreferrer"> <img src="https://external-preview.redd.it/wVgPdzgUtFV667gbcR1CUyh7aogNt1yvyQUk6WAIoq0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e732e549646a10be0277a4157345d37dd59f7df0" alt="I was checking out a building in Winthrop, and I just LOVE how smooth a Onewheel can make any shot..." title="I was checking out a building in Winthrop, and I just LOVE how smooth a Onewheel can make any shot..." /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/TheOnlyRandomizer" target="_blank" rel="noopener noreferrer"> /u/TheOnlyRandomizer </a> <br /> <span><a href="https://v.redd.it/0cgp8io2s4z41" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/gkuvii/i_was_checking_out_a_building_in_winthrop_and_i/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://external-preview.redd.it/wVgPdzgUtFV667gbcR1CUyh7aogNt1yvyQUk6WAIoq0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e732e549646a10be0277a4157345d37dd59f7df0" />
+
+      <dc:creator>/u/TheOnlyRandomizer</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
     </item>
     <item>
       <title><![CDATA[E-Scooter tire - Armor-Dilloz installation and puncture testing in a tube type tire]]></title>
@@ -14612,7 +14708,7 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;&quot;onewheel&quot;&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Testing out the latest OneWheel+XR: What's with the hype? - mensjournal.com]]></title>
+      <title><![CDATA[Testing out the latest OneWheel+XR: What's with the hype? - Men's Journal]]></title>
       <link>https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGYwQTBEZUx3emU1czZXY19VVWxOWEF0R0pFVkE1N2xueXpEc3JVMjZRNWtFM3FBZmliT1ZJN0tpUEc1LVQ3OFV6V05SRG9ZU01qbE8xV0NGYzYwdTRaQUl1OXYtSTN4MFBhdDBYZzM4eVQtbUtBZmFHX3drX0dCeXhyNzRJVkRMTVhVV1hBMk5ia1hjNFloQ3B3?oc=5</link>
       <guid isPermaLink="false">1qrrmm6-1joxsrd</guid>
       <pubDate>Mon, 09 Dec 2019 08:00:00 GMT</pubDate>

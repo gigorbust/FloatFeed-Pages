@@ -3,10 +3,22 @@
   <channel>
     <title>FloatFeed - Community pulse</title>
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
-    <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
-    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 16 Sep 2026 09:54:38 GMT</lastBuildDate>
+    <link>https://floatfeed.floatgear.one/</link>
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://floatfeed.floatgear.one/feeds/community.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Sep 2026 11:10:03 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Invite to discord?]]></title>
+      <link>https://www.reddit.com/r/FloatwheelTeam/comments/1whmvf2/invite_to_discord/</link>
+      <guid isPermaLink="false">taaoq9-frtrep</guid>
+      <pubDate>Wed, 16 Sep 2026 04:22:02 GMT</pubDate>
+      <description><![CDATA[<p>Could someone pass me an invite please? submitted by /u/InvestmentExotic2458 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Could someone pass me an invite please?</p> </div>   submitted by   <a href="https://www.reddit.com/user/InvestmentExotic2458" target="_blank" rel="noopener noreferrer"> /u/InvestmentExotic2458 </a> <br /> <span><a href="https://www.reddit.com/r/FloatwheelTeam/comments/1whmvf2/invite_to_discord/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/FloatwheelTeam/comments/1whmvf2/invite_to_discord/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/InvestmentExotic2458</dc:creator>
+      <source url="https://www.reddit.com/r/FloatwheelTeam.rss">Reddit r/FloatwheelTeam</source>
+    </item>
     <item>
       <title><![CDATA[ISO: FST System-like footpads for my Onewheel+ XR]]></title>
       <link>https://www.reddit.com/r/wheel/comments/1wh1f7q/iso_fst_systemlike_footpads_for_my_onewheel_xr/</link>
@@ -305,7 +317,7 @@
 
 
       <dc:creator>/u/FRESHEZY_1</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Is there another third-party Onewheel app I can download somehow?]]></title>
@@ -317,7 +329,7 @@
 
 
       <dc:creator>/u/YamzMt03</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[OneWheel Pint Battery Issue]]></title>
@@ -329,7 +341,7 @@
       <media:thumbnail url="https://preview.redd.it/yhqbpl9w1xmh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=ba678b57fa711fbf875aa7b2423b7cfa7434a14d" />
 
       <dc:creator>/u/Juno907</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Inmotion V9 vs OneWheel GT]]></title>
@@ -341,7 +353,7 @@
 
 
       <dc:creator>/u/piemanklp</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Just ordered my first Onewheel]]></title>
@@ -353,7 +365,7 @@
 
 
       <dc:creator>/u/FirmCartographer7262</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[GT vibration/stuttering issue]]></title>
@@ -365,7 +377,7 @@
       <media:thumbnail url="https://external-preview.redd.it/b2NsOXM2OGRidG1oMakUN0YuHdNX_S5I_G0m7Nl16a2AjJHJh7XTuO0gm6R6.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=098a06806c3b86bfff10f42a4f8d84385c956e4c" />
 
       <dc:creator>/u/Fantastic_Cicada6565</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Had a friend's onewheel get stolen and now I'm paranoid and looking into trackers. What are options yall are using?]]></title>
@@ -377,7 +389,7 @@
 
 
       <dc:creator>/u/Sufficient_Arm_3407</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Could this be attached to a OneWheel GT?]]></title>
@@ -389,7 +401,7 @@
 
 
       <dc:creator>/u/Hour-Head9367</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Improved 3D Printed Pint Fender]]></title>
@@ -401,7 +413,7 @@
       <media:thumbnail url="https://preview.redd.it/xbciodazfpmh1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=b030eaa5986ff6315582e7d30f0b97bdd4257b07" />
 
       <dc:creator>/u/wings19</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Anyone know why my one wheel+XR is making this noise?]]></title>
@@ -413,7 +425,7 @@
       <media:thumbnail url="https://external-preview.redd.it/ajkxN2hhcDhlbW1oMSTXN3XmEOEhIm2n5TXGJgaOZrP_61uBh4optJtvbf8B.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9a5151639d4276ab68b72492536e052b2233641b" />
 
       <dc:creator>/u/WasteBased</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[FloatLifeFest- an ad got me, and now I'm wondering..]]></title>
@@ -425,7 +437,7 @@
 
 
       <dc:creator>/u/salukikev</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[PintV Battery Swap]]></title>
@@ -449,7 +461,7 @@
       <media:thumbnail url="https://external-preview.redd.it/nTlekl7y3fpDJo0dVcuu4HsyXiZBqYy0b6c9yWKNBoI.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=9eaf5a2a48b3e256b464ccef1caad1beb51104e6" />
 
       <dc:creator>/u/Portuwheel</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Atom: First range test!]]></title>
@@ -485,7 +497,7 @@
 
 
       <dc:creator>/u/MelodicFeed9994</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Upgrade to HS SF w/ 75v]]></title>
@@ -497,7 +509,7 @@
       <media:thumbnail url="https://external-preview.redd.it/bjI0bWZ0MTA2Zm1oMSvgyoCBWRNkOb4-2lu0VoZH5qRNYa6dIyFA5Eue1RKT.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=19e9a6cc357953f9acdf7bcbd3172d51082d59cc" />
 
       <dc:creator>/u/khamjam15</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[The Atom goes off-road!]]></title>
@@ -521,7 +533,7 @@
 
 
       <dc:creator>/u/Such_Position_29</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel left at Abandoned PA turnpike tunnels]]></title>
@@ -533,7 +545,7 @@
       <media:thumbnail url="https://preview.redd.it/a44z2ceohdmh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=63e1e1eab17e7dda4d86413778940df2a42ebd79" />
 
       <dc:creator>/u/Fair-Narwhal-743</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[One Wheel GT Problem]]></title>
@@ -545,7 +557,7 @@
       <media:thumbnail url="https://external-preview.redd.it/dndqcHRvYWlmZG1oMUhOnBQbf3sNSjVUAznfohmdaBj_brbmjLio3AkF-ihM.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=20c692e6fe400c0a26f8c014995a9dfc4ff9dc91" />
 
       <dc:creator>/u/TallGuy2402</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[209 area]]></title>
@@ -557,7 +569,7 @@
 
 
       <dc:creator>/u/ItsTinoGuey</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Creeky Onewheel gt plastic]]></title>
@@ -569,7 +581,7 @@
 
 
       <dc:creator>/u/zoolanation</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Be aware of Landed Footwear]]></title>
@@ -581,7 +593,7 @@
       <media:thumbnail url="https://preview.redd.it/5idq840ojamh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=05b5645268186df5742dbe2693f5953331c5d5a1" />
 
       <dc:creator>/u/ZD_plguy17</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Fungineers frustration]]></title>
@@ -593,7 +605,7 @@
 
 
       <dc:creator>/u/Honest-Purchase5433</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Tech Rails - Ice Blocks]]></title>
@@ -605,7 +617,7 @@
       <media:thumbnail url="https://preview.redd.it/2a93hy3mc6mh1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=f7c191578b162b8f2d9aac63bdd981621b586bab" />
 
       <dc:creator>/u/Onewheel-Uni-Psycho</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Atom 1st impression and range test]]></title>
@@ -629,7 +641,7 @@
 
 
       <dc:creator>/u/dantodd</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Xlite V4 BMS Beeping Randomly.]]></title>
@@ -641,7 +653,7 @@
 
 
       <dc:creator>/u/JaKKsonDD</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[The new Atom looks super fun, but we can go smaller (shorter rails w full XR width) and bigger (BTG and SuperFlux/CannonCore/etc) with the Donky, a kit build based on 4820 Obligatory’s OG build. Pictured is a 30s1p via 18s/12s split(will Fusion Core 36s1p in the future) with SF and Ennoid MK8]]></title>
@@ -653,7 +665,7 @@
       <media:thumbnail url="https://external-preview.redd.it/ypXXKjAXMKKle245QrTyowHySbyQtra8d5zANb-Ma7E.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=341a5f67df309ae4adc8140c6e4f0397c90ecaef" />
 
       <dc:creator>/u/clawesome</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[OW Pint/X/S & Floatwheel Atom fender 3D model for TFL Extended Straight & Extended WTF rails]]></title>
@@ -665,7 +677,7 @@
       <media:thumbnail url="https://preview.redd.it/dahp2rxyazlh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=96037aa1cca0773bdd6fd81a6f4f1bb3a6afb652" />
 
       <dc:creator>/u/borzykot</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[X7 or Atom?]]></title>
@@ -689,7 +701,7 @@
       <media:thumbnail url="https://external-preview.redd.it/NHVibTJybmJyeGxoMTBtYse4tbfglkXO_DwCBS48MBeslr14P4uikmlM2Wt4.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1889945f8b0022a58bd0c690681ee44a62a2d8d7" />
 
       <dc:creator>/u/NolanRichard</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[onewheel + lidar sensor]]></title>
@@ -701,7 +713,7 @@
 
 
       <dc:creator>/u/Different_Garage_471</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[I can’t wait to vesc it]]></title>
@@ -713,7 +725,7 @@
       <media:thumbnail url="https://preview.redd.it/hiyw20ablvlh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=1fca4a8fd29f09a23a16efcdd1999df66ffb8659" />
 
       <dc:creator>/u/GoldLeafLiquidpod</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Is there a store in the Bay Area where I can try out a one wheel?]]></title>
@@ -725,7 +737,7 @@
 
 
       <dc:creator>/u/Chimichurrichallenge</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Atom First Impressions by several riders!]]></title>
@@ -737,7 +749,7 @@
       <media:thumbnail url="https://external-preview.redd.it/VDkF4CM-ol79AnznYPQkrSAFlcq85THqPkrHff5jH_E.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=e4cf5c4957146fd8f2f5aa20ff3a9f17e99a657b" />
 
       <dc:creator>/u/Portuwheel</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Atom First Impressions by several riders]]></title>
@@ -761,7 +773,7 @@
 
 
       <dc:creator>/u/tibadoex</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Vesc onewheel]]></title>
@@ -773,7 +785,7 @@
       <media:thumbnail url="https://preview.redd.it/zgkq4pi1hnlh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=f648166beba43a8596dbf4a5bb7e3518d10c8a2c" />
 
       <dc:creator>/u/bubbles-7274</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[I had a rough time finding info for my mods, so I’m documenting what actually worked here for someone else.]]></title>
@@ -785,7 +797,7 @@
       <media:thumbnail url="https://preview.redd.it/vwauaxn7xmlh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=7b3f558a3249d2cb1d374b6db80f700cad4f2661" />
 
       <dc:creator>/u/kingfridayace</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Reviving a dead Onewheel Pint + Samsung 50S battery upgrade]]></title>
@@ -797,7 +809,7 @@
       <media:thumbnail url="https://external-preview.redd.it/dmQ1eGhhZXR2bWxoMQh29Lpf8VqXRW5Lp0HoouLvIzR-LnBMtG9TKNDp5wQH.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=879cb347c980b7950efcc8104d376a66c950be52" />
 
       <dc:creator>/u/SpreadSharp3808</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Adv2]]></title>
@@ -809,7 +821,7 @@
 
 
       <dc:creator>/u/Acrobatic_Brush_9344</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XRClassic not being used much]]></title>
@@ -821,7 +833,7 @@
 
 
       <dc:creator>/u/IllCommunication-973</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[3T Ventum II LTD basebar on Fuji D6 (risers ?)]]></title>
@@ -845,7 +857,7 @@
       <media:thumbnail url="https://preview.redd.it/9hp6xmucbllh1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=ae6ed4c8f0faa972ac240cbbb849a431a6c1602a" />
 
       <dc:creator>/u/Visible_Paper_8418</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Just got done putting new parts on my 6000 mile Onewheel it feels brand new now]]></title>
@@ -857,7 +869,7 @@
       <media:thumbnail url="https://preview.redd.it/nmscar04cglh1.jpg?width=140&amp;height=105&amp;auto=webp&amp;s=1e043023001ba910fe85f2606f234c0183bd0151" />
 
       <dc:creator>/u/Maxxmann420</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Defective board, won’t fix! Do not buy a one wheel!]]></title>
@@ -869,7 +881,7 @@
 
 
       <dc:creator>/u/Wa-buyer-2000</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Please Help! I followed the instructions on disassembly and replacing the BMS and Controller that was sent as a replacement when I first ordered my ADV2 and now my BMS won’t register.]]></title>
@@ -893,7 +905,7 @@
       <media:thumbnail url="https://preview.redd.it/9lg23fb9jdlh1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=875228ebafe73c51b19ca0053d1340dc6b39b3ac" />
 
       <dc:creator>/u/Maleficent-Living-69</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Upgrade ideas?]]></title>
@@ -905,7 +917,7 @@
       <media:thumbnail url="https://preview.redd.it/7tx8wp03hdlh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=e37eb020fcb05a4fc9240e31a1292b5148541290" />
 
       <dc:creator>/u/Timely-Writer-1136</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[One wheel plus xr]]></title>
@@ -917,7 +929,7 @@
 
 
       <dc:creator>/u/AppropriateMinute905</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel pint X + fishbones, issues]]></title>
@@ -929,7 +941,7 @@
       <media:thumbnail url="https://external-preview.redd.it/emR4dGE4eTJyY2xoMVug-j_mN4c3Z2dxGPSu3L6DsYY3JSwOqzezPSF7_Sda.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=26abaef5d12cbe064e86c27e4e2cb93f1fa9931b" />
 
       <dc:creator>/u/Its_Sharky18</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Why does everyone like the flipsky vx4 over the pro??]]></title>
@@ -953,7 +965,7 @@
 
 
       <dc:creator>/u/Cute-Set6405</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[How to tighten onewheel?]]></title>
@@ -965,7 +977,7 @@
 
 
       <dc:creator>/u/Fun_Swordfish7038</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Video: Smash and Grab on My Car - Onewheel stolen right outside alley facing garage]]></title>
@@ -977,7 +989,7 @@
       <media:thumbnail url="https://external-preview.redd.it/dXNuZXlqZ3d4OGxoMaKoadGKcIo7UncX3WqR7HawXyCVOzXqIpEsseetvfRf.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=a5e530adb161d2aa0ff137e2074bebc4ccfed496" />
 
       <dc:creator>/u/blastfaxkudos</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Testing the VESC waters]]></title>
@@ -989,7 +1001,7 @@
       <media:thumbnail url="https://preview.redd.it/zi8ju9pjh8lh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=23f496dc1a6522a0155d44675c42ea50e258efc1" />
 
       <dc:creator>/u/eeenmachine</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Gleaming the Mammoth]]></title>
@@ -1001,7 +1013,7 @@
       <media:thumbnail url="https://preview.redd.it/rv4pmyciy6lh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=4982c921ddc17a7dc4ea3677f2004efef2346d2b" />
 
       <dc:creator>/u/rypopo</dc:creator>
-      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel (Latest)</source>
+      <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel adv2 cross-country]]></title>
@@ -2550,6 +2562,90 @@
 
       <dc:creator>/u/IntelliDev</dc:creator>
       <source url="https://www.reddit.com/r/onewheel/best/.rss">Reddit r/onewheel (best)</source>
+    </item>
+    <item>
+      <title><![CDATA[Female Onewheel Riders!!]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hwtr8n/female_onewheel_riders/</link>
+      <guid isPermaLink="false">1gwtzhv-117dqwv</guid>
+      <pubDate>Fri, 24 Jul 2020 02:46:03 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/SexyKimby [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/SexyKimby" target="_blank" rel="noopener noreferrer"> /u/SexyKimby </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/hwtr1q/female_onewheel_riders/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hwtr8n/female_onewheel_riders/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/SexyKimby</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Had a blast on this float, rocking the “New” FlightFins logo I made for my top. Float Safely Brothers and Sisters😎]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hrh3fq/had_a_blast_on_this_float_rocking_the_new/</link>
+      <guid isPermaLink="false">8ggjt3-117dqwv</guid>
+      <pubDate>Wed, 15 Jul 2020 04:31:37 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/SexyKimby [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/Onewheel_FL/comments/hrh3fq/had_a_blast_on_this_float_rocking_the_new/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/x7vr972i8ya51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=25d5007bced54cd2ed0a7a4018d836568c63fa8d" alt="Had a blast on this float, rocking the “New” FlightFins logo I made for my top. Float Safely Brothers and Sisters😎" title="Had a blast on this float, rocking the “New” FlightFins logo I made for my top. Float Safely Brothers and Sisters😎" /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/SexyKimby" target="_blank" rel="noopener noreferrer"> /u/SexyKimby </a> <br /> <span><a href="https://i.redd.it/x7vr972i8ya51.jpg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hrh3fq/had_a_blast_on_this_float_rocking_the_new/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/x7vr972i8ya51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=25d5007bced54cd2ed0a7a4018d836568c63fa8d" />
+
+      <dc:creator>/u/SexyKimby</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Made that “New” logo for the Flight Fins emblem, put it on my top, I think they look sick... Float On!! (Side Note: It doubles as a wallpaper👍🏻)]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hr899x/made_that_new_logo_for_the_flight_fins_emblem_put/</link>
+      <guid isPermaLink="false">1qmlhlv-117dqwv</guid>
+      <pubDate>Tue, 14 Jul 2020 19:35:52 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/SexyKimby [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/Onewheel_FL/comments/hr899x/made_that_new_logo_for_the_flight_fins_emblem_put/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/8g4rpx0xkva51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=15154caf2b1bc1c7b36e5738905686bfed0c31bc" alt="Made that “New” logo for the Flight Fins emblem, put it on my top, I think they look sick... Float On!! (Side Note: It doubles as a wallpaper👍🏻)" title="Made that “New” logo for the Flight Fins emblem, put it on my top, I think they look sick... Float On!! (Side Note: It doubles as a wallpaper👍🏻)" /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/SexyKimby" target="_blank" rel="noopener noreferrer"> /u/SexyKimby </a> <br /> <span><a href="https://i.redd.it/8g4rpx0xkva51.jpg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hr899x/made_that_new_logo_for_the_flight_fins_emblem_put/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/8g4rpx0xkva51.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=15154caf2b1bc1c7b36e5738905686bfed0c31bc" />
+
+      <dc:creator>/u/SexyKimby</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Rant About Broward County Parks]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/hj0jel/rant_about_broward_county_parks/</link>
+      <guid isPermaLink="false">10pgk0n-117dqwv</guid>
+      <pubDate>Wed, 01 Jul 2020 01:15:17 GMT</pubDate>
+      <description><![CDATA[<p>Soo I discovered today that electric vehicles like the One wheel are not allowed in the County Parks... I mean I get the reason for it.... But... I think the the rule is too broad. I get the need for preventing companies from flooding the parks with their devices. But if you can prove you own it it should be allowed. I mean Mountain Bikes and street bikes are allowed.... Who do I need to vote for or call for this? submitted by /u/simplystriking [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Soo I discovered today that electric vehicles like the One wheel are not allowed in the County Parks... I mean I get the reason for it.... But... I think the the rule is too broad. I get the need for preventing companies from flooding the parks with their devices. But if you can prove you own it it should be allowed. I mean Mountain Bikes and street bikes are allowed.... Who do I need to vote for or call for this?</p> </div>   submitted by   <a href="https://www.reddit.com/user/simplystriking" target="_blank" rel="noopener noreferrer"> /u/simplystriking </a> <br /> <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hj0jel/rant_about_broward_county_parks/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/hj0jel/rant_about_broward_county_parks/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/simplystriking</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Need Help, my fam isn’t letting me back on my Onewheel until I get some better gear.]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/gubkk2/need_help_my_fam_isnt_letting_me_back_on_my/</link>
+      <guid isPermaLink="false">4z8akx-117dqwv</guid>
+      <pubDate>Mon, 01 Jun 2020 01:42:53 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/TheOnlyRandomizer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/TheOnlyRandomizer" target="_blank" rel="noopener noreferrer"> /u/TheOnlyRandomizer </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/gubibe/need_help_my_fam_isnt_letting_me_back_on_my/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/gubkk2/need_help_my_fam_isnt_letting_me_back_on_my/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/TheOnlyRandomizer</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel + Wireless Charging]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/gmg3oq/onewheel_wireless_charging/</link>
+      <guid isPermaLink="false">ojl4ug-117dqwv</guid>
+      <pubDate>Tue, 19 May 2020 02:43:59 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/TheOnlyRandomizer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/TheOnlyRandomizer" target="_blank" rel="noopener noreferrer"> /u/TheOnlyRandomizer </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/gmg3g5/onewheel_wireless_charging/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/gmg3oq/onewheel_wireless_charging/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/TheOnlyRandomizer</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[I was checking out a building in Winthrop, and I just LOVE how smooth a Onewheel can make any shot...]]></title>
+      <link>https://www.reddit.com/r/Onewheel_FL/comments/gkuvii/i_was_checking_out_a_building_in_winthrop_and_i/</link>
+      <guid isPermaLink="false">m3zyc7-117dqwv</guid>
+      <pubDate>Sat, 16 May 2020 13:43:43 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/TheOnlyRandomizer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/Onewheel_FL/comments/gkuvii/i_was_checking_out_a_building_in_winthrop_and_i/" target="_blank" rel="noopener noreferrer"> <img src="https://external-preview.redd.it/wVgPdzgUtFV667gbcR1CUyh7aogNt1yvyQUk6WAIoq0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e732e549646a10be0277a4157345d37dd59f7df0" alt="I was checking out a building in Winthrop, and I just LOVE how smooth a Onewheel can make any shot..." title="I was checking out a building in Winthrop, and I just LOVE how smooth a Onewheel can make any shot..." /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/TheOnlyRandomizer" target="_blank" rel="noopener noreferrer"> /u/TheOnlyRandomizer </a> <br /> <span><a href="https://v.redd.it/0cgp8io2s4z41" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/Onewheel_FL/comments/gkuvii/i_was_checking_out_a_building_in_winthrop_and_i/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://external-preview.redd.it/wVgPdzgUtFV667gbcR1CUyh7aogNt1yvyQUk6WAIoq0.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=e732e549646a10be0277a4157345d37dd59f7df0" />
+
+      <dc:creator>/u/TheOnlyRandomizer</dc:creator>
+      <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
     </item>
     <item>
       <title><![CDATA[New Unused Pint: Sand for Sale]]></title>
