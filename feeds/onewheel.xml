@@ -5,8 +5,20 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 16 Sep 2026 08:35:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 08:57:05 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[SunF 15x7-6 Tubeless 6 Ply - A011 — Single Tire]]></title>
+      <link>https://gnarpark.com/products/sunf-15x7-6-tubeless-6-ply-a011-single-tire</link>
+      <guid isPermaLink="false">14p7yif-pbhrky</guid>
+      <pubDate>Mon, 14 Sep 2026 14:26:41 GMT</pubDate>
+      <description><![CDATA[<p>Vendor: Gnar Park Type: Price: 49.99 Need just one tire? No need to buy a full pair. The SUNF A011 15x7-6 is a rugged 6-ply tubeless off-road tire, now available individually through Gnar Park. This is a great option for replacing a worn or damaged tire without ending up with an extra tire you don&apos;t need. Tire Specs: Brand: SUNF Model: A011 Size: 15x7-6 Construction: 6-Ply Type: Tubeless Quantity: 1 Tire Perfect for custom builds, replacements, and Onewheel projects using the 15x7-6 size. Why buy one? Most listings require you to purchase a pair. Gnar Park sells these individually so you can get exactly what you need and save money. ⚠️ SINGLE TIRE ONLY — This listing includes ONE tire. Gnar Park is not affiliated with or endorsed by SUNF. This listing is for one genuine SUNF A011 tire purchased from a retail source and resold individually.</p>]]></description>
+      <content:encoded><![CDATA[<table>&#10;  <tr>&#10;    <td><img width="200" src="https://cdn.shopify.com/s/files/1/0847/0419/8964/files/IMG_4897.jpg?v=1789395949" /></td>&#10;    <td>&#10;      <p>&#10;&#10;        <strong>Vendor: </strong>Gnar Park<br />&#10;        <strong>Type: </strong><br />&#10;        <strong>Price: </strong>&#10;            49.99&#10;      </p>&#10;    </td>&#10;  </tr>&#10;  <tr>&#10;    <td colspan="2"><p><span>Need just one tire? No need to buy a full pair.</span></p>&#10;<p><span>The </span><strong><span>SUNF A011 15x7-6</span></strong><span> is a rugged 6-ply tubeless off-road tire, now available individually through Gnar Park. This is a great option for replacing a worn or damaged tire without ending up with an extra tire you don't need.</span></p>&#10;<p><strong><span>Tire Specs:</span></strong></p>&#10;<ul>&#10;<li>&#10;<strong><span>Brand:</span></strong><span> SUNF</span>&#10;</li>&#10;<li>&#10;<strong><span>Model:</span></strong><span> A011</span>&#10;</li>&#10;<li>&#10;<strong><span>Size:</span></strong><span> 15x7-6</span>&#10;</li>&#10;<li>&#10;<strong><span>Construction:</span></strong><span> 6-Ply</span>&#10;</li>&#10;<li>&#10;<strong><span>Type:</span></strong><span> Tubeless</span>&#10;</li>&#10;<li>&#10;<strong><span>Quantity:</span></strong><span> 1 Tire</span>&#10;</li>&#10;</ul>&#10;<p><span>Perfect for custom builds, replacements, and Onewheel projects using the 15x7-6 size.</span></p>&#10;<p><strong><span>Why buy one?</span></strong><br /><span>Most listings require you to purchase a pair. Gnar Park sells these individually so you can get exactly what you need and save money.</span></p>&#10;<p><strong><span>⚠️ SINGLE TIRE ONLY — This listing includes ONE tire.</span></strong></p>&#10;<p><strong><span>Gnar Park is not affiliated with or endorsed by SUNF. This listing is for one genuine SUNF A011 tire purchased from a retail source and resold individually.</span></strong></p></td>&#10;  </tr>&#10;</table>]]></content:encoded>
+      <media:thumbnail url="https://cdn.shopify.com/s/files/1/0847/0419/8964/files/IMG_4897.jpg?v=1789395949" />
+
+
+      <source url="https://gnarpark.com/collections/all.atom">Gnar Park (gnarpark.com)</source>
+    </item>
     <item>
       <title><![CDATA[Rattling/Vibrating of Onewheel XRV Power Kit]]></title>
       <link>https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_2</link>
@@ -557,7 +569,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/06/The-Beam-Virgo-Helmet-Review-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/feed/">The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/feed">The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Appairage sur un Onewheel]]></title>
@@ -593,7 +605,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/01/Onewheel-XR-Classic-vs-XR.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/feed/">The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/feed">The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Review Top Ride the Waves: The Best Figueira da Foz Onewheel Lessons & Tours]]></title>
