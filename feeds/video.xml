@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 15 Sep 2026 22:34:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 08:35:56 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Onewheel sunsets are the best kind 🤩 #onewheel #sunset #beautiful]]></title>
+      <link>https://www.youtube.com/shorts/lY_RdqrKU5o</link>
+      <guid isPermaLink="false">f59w4f-1mfabo8</guid>
+      <pubDate>Wed, 16 Sep 2026 05:39:03 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i1.ytimg.com/vi/lY_RdqrKU5o/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i1.ytimg.com/vi/lY_RdqrKU5o/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i1.ytimg.com/vi/lY_RdqrKU5o/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lY_RdqrKU5o" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM)</source>
+    </item>
     <item>
       <title><![CDATA[Desert drops on the GTS 😤🌵#Onewheel #OnewheelGTS]]></title>
       <link>https://www.youtube.com/shorts/Rj8cGKr5M7A</link>
