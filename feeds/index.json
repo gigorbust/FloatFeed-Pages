@@ -5,9 +5,9 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 457,
+    "sourceCount": 456,
     "feedSourceCount": 236,
-    "articleCount": 1303,
+    "articleCount": 1305,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -29,7 +29,7 @@
     "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
     "sourceCount": 49,
     "feedSourceCount": 28,
-    "articleCount": 278,
+    "articleCount": 280,
     "rssUrl": "/feeds/news.xml"
   },
   {
@@ -71,7 +71,7 @@
     "shortTitle": "Community",
     "color": "#94b447",
     "description": "Forums, Reddit, social sources, and community discussion streams.",
-    "sourceCount": 107,
+    "sourceCount": 106,
     "feedSourceCount": 43,
     "articleCount": 223,
     "rssUrl": "/feeds/community.xml"
