@@ -5,9 +5,9 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 457,
-    "feedSourceCount": 236,
-    "articleCount": 1309,
+    "sourceCount": 118,
+    "feedSourceCount": 118,
+    "articleCount": 1313,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -16,8 +16,8 @@
     "shortTitle": "Onewheel",
     "color": "#08c66a",
     "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
-    "sourceCount": 90,
-    "feedSourceCount": 50,
+    "sourceCount": 14,
+    "feedSourceCount": 14,
     "articleCount": 111,
     "rssUrl": "/feeds/onewheel.xml"
   },
@@ -26,10 +26,10 @@
     "title": "Onewheel news + blogs",
     "shortTitle": "News",
     "color": "#2f7df6",
-    "description": "Onewheel news, RSS.app feeds, Google News searches, and publisher blogs.",
-    "sourceCount": 49,
-    "feedSourceCount": 28,
-    "articleCount": 282,
+    "description": "Onewheel news, community discoveries, and publisher stories.",
+    "sourceCount": 13,
+    "feedSourceCount": 13,
+    "articleCount": 280,
     "rssUrl": "/feeds/news.xml"
   },
   {
@@ -38,9 +38,9 @@
     "shortTitle": "Video",
     "color": "#ff3b6b",
     "description": "YouTube, media feeds, podcasts, and riding videos.",
-    "sourceCount": 111,
-    "feedSourceCount": 87,
-    "articleCount": 561,
+    "sourceCount": 65,
+    "feedSourceCount": 65,
+    "articleCount": 562,
     "rssUrl": "/feeds/video.xml"
   },
   {
@@ -49,8 +49,8 @@
     "shortTitle": "Gear",
     "color": "#ff7a18",
     "description": "Products, shops, brands, accessories, and commerce sources.",
-    "sourceCount": 90,
-    "feedSourceCount": 23,
+    "sourceCount": 10,
+    "feedSourceCount": 10,
     "articleCount": 102,
     "rssUrl": "/feeds/gear.xml"
   },
@@ -60,8 +60,8 @@
     "shortTitle": "Tech",
     "color": "#7a5cff",
     "description": "VESC, repair, right-to-repair, build logs, and technical sources.",
-    "sourceCount": 10,
-    "feedSourceCount": 5,
+    "sourceCount": 3,
+    "feedSourceCount": 3,
     "articleCount": 30,
     "rssUrl": "/feeds/tech.xml"
   },
@@ -71,9 +71,9 @@
     "shortTitle": "Community",
     "color": "#94b447",
     "description": "Forums, Reddit, social sources, and community discussion streams.",
-    "sourceCount": 107,
-    "feedSourceCount": 43,
-    "articleCount": 223,
+    "sourceCount": 13,
+    "feedSourceCount": 13,
+    "articleCount": 228,
     "rssUrl": "/feeds/community.xml"
   }
 ]
