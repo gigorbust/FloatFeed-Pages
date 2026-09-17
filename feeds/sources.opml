@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Thu, 17 Sep 2026 17:38:24 GMT</dateCreated>
+    <dateCreated>Thu, 17 Sep 2026 18:47:12 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -50,14 +50,14 @@
       <outline text="Onewheel Forum Recent" title="Onewheel Forum Recent" type="rss" xmlUrl="https://owforum.co.uk/recent.rss" htmlUrl="http://owforum.co.uk/recent" />
     </outline>
     <outline text="feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032" title="feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032">
-      <outline text="onewheel Reddit Alert (Relevance search)" title="onewheel Reddit Alert (Relevance search)" type="rss" xmlUrl="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link" htmlUrl="https://www.reddit.com/search/?q=onewheel&amp;type=link&amp;sort=relevance" />
+      <outline text="onewheel Reddit Alert (Relevance search)" title="onewheel Reddit Alert (Relevance search)" type="rss" xmlUrl="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link" htmlUrl="https://www.reddit.com/search?q=onewheel&amp;sort=relevance&amp;type=link" />
     </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED | list-1264927333211308032">
       <outline text="Popular Topics (owforum.co.uk)" title="Popular Topics (owforum.co.uk)" type="rss" xmlUrl="https://owforum.co.uk/popular/alltime.rss" htmlUrl="http://owforum.co.uk/popular/alltime" />
       <outline text="Reddit r/ChicagoOnewheel (top)" title="Reddit r/ChicagoOnewheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/ChicagoOnewheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/ChicagoOnewheel/top?t=day" />
       <outline text="Reddit r/FloatwheelTeam (top)" title="Reddit r/FloatwheelTeam (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/top?t=day" />
       <outline text="Reddit r/Onewheel_CO (top)" title="Reddit r/Onewheel_CO (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_CO/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_CO/top?t=day" />
-      <outline text="Reddit r/Onewheel_DE (top)" title="Reddit r/Onewheel_DE (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_DE/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_DE/top?t=day" />
+      <outline text="Reddit r/Onewheel_DE (top)" title="Reddit r/Onewheel_DE (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_DE/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_DE/top/?t=day" />
       <outline text="Reddit r/Onewheel_FL (new)" title="Reddit r/Onewheel_FL (new)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_FL/new/.rss" htmlUrl="https://www.reddit.com/r/Onewheel_FL/new" />
       <outline text="Reddit r/OnewheelGT (top)" title="Reddit r/OnewheelGT (top)" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/OnewheelGT/top?t=day" />
       <outline text="Reddit r/wheel (top)" title="Reddit r/wheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/wheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/wheel/top?t=day" />
