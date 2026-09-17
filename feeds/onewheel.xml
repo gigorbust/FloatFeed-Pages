@@ -5,8 +5,20 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 16 Sep 2026 21:21:32 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 15:49:06 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Nosedives on XRV Kit]]></title>
+      <link>https://pev.dev/t/nosedives-on-xrv-kit/3035#post_4</link>
+      <guid isPermaLink="false">mr7r52-1czfdl1</guid>
+      <pubDate>Thu, 17 Sep 2026 07:17:57 GMT</pubDate>
+      <description><![CDATA[<p>I checked your logs, and what I find odd is that both times, there’s a gap of two seconds in the logs right after your nosedives. Usually, it logs data roughly 8 times per second. So you’re missing about 16 log entries both times, and those are the ones right after your nosedives where it would have been most interesting to see what parameter might have caused the board to disengage. Right now it is impossible to say if maybe your sensor didn’t detect pressure, or if your motor currents did overshoot, or something else, because the next thing that got logged is the state of the board 2 seconds</p>]]></description>
+      <content:encoded><![CDATA[<p>I checked your logs, and what I find odd is that both times, there’s a gap of two seconds in the logs right after your nosedives. Usually, it logs data roughly 8 times per second. So you’re missing about 16 log entries both times, and those are the ones right after your nosedives where it would have been most interesting to see what parameter might have caused the board to disengage. Right now it is impossible to say if maybe your sensor didn’t detect pressure, or if your motor currents did overshoot, or something else, because the next thing that got logged is the state of the board 2 seconds after your Nosedive: Sensors showing 0 V on ADC1 and ADC2, battery and motor current at 0 A, board pitch and roll angle is changing wildly (did the board tumble for a while downhill?). But we don’t see what immediately happened at 8:10:47 PM.</p>&#10;<p>Maybe this was a short loss of power to the VESC? That’s currently my best guess. So check if everything is plugged in correctly.</p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/6/647553c816a2dcdbe42ea42e11ee2a999c0a0490.png" title="Bildschirmfoto 2026-09-17 um 09.15.08" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/6/647553c816a2dcdbe42ea42e11ee2a999c0a0490_2_690x141.png" alt="Bildschirmfoto 2026-09-17 um 09.15.08" width="690" height="141" /></a></div><p></p>&#10;<p>“Stop state: Switch half” means the board got disengaged by deactivating one half of the sensor, aka heel lift, which is only possible at slow speeds. I wouldn’t put too much weight onto that log line. Could be that you pressed both sides of the sensor with your hand, the motor briefly engaged and then you let go of one side before the other or something similar.</p>&#10;<p>I guess this right here is the time where you power cycled your board, as there is a gap of 12 seconds in the logs. And the last log entry at 8:12:04 shows both sensors being engaged, a small amount of current going to the motor, and speed at 0.7.</p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/8/85e1184625d37ef3e68857c5059a6566b297a979.png" title="Bildschirmfoto 2026-09-17 um 09.27.22" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/8/85e1184625d37ef3e68857c5059a6566b297a979_2_690x229.png" alt="Bildschirmfoto 2026-09-17 um 09.27.22" width="690" height="229" /></a></div><p></p>]]></content:encoded>
+      <media:thumbnail url="https://pev.dev/uploads/db9240/optimized/2X/6/647553c816a2dcdbe42ea42e11ee2a999c0a0490_2_690x141.png" />
+
+      <dc:creator>@Mheeleshtyle</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
     <item>
       <title><![CDATA[SunF 15x7-6 Tubeless 6 Ply - A011 — Single Tire]]></title>
       <link>https://gnarpark.com/products/sunf-15x7-6-tubeless-6-ply-a011-single-tire</link>
@@ -29,18 +41,6 @@
 
 
       <dc:creator>@Beegold</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
-    </item>
-    <item>
-      <title><![CDATA[Nosedives on XRV Kit]]></title>
-      <link>https://pev.dev/t/nosedives-on-xrv-kit/3035#post_1</link>
-      <guid isPermaLink="false">o55rlx-1czfdl1</guid>
-      <pubDate>Mon, 07 Sep 2026 03:28:06 GMT</pubDate>
-      <description><![CDATA[<p>Hello floaters, can you please help me diagnose two nosedives I had on a recent ride? Both occurred while pushing the board pretty hard on sustained up-slopes on paved roads in the mountains. With how hard I felt I was pushing the board (and resulting nose dives) I was shocked to see that the duty cycle was only about 55% at the time of both nosedives. My only other theory was that the motor or controller was overtemp, however at the time of both nosedives, motor was about 52-57C and controller 43-45C according to the logs. Not sure how reliable this is. Could you wise individuals impart some </p>]]></description>
-      <content:encoded><![CDATA[<p>Hello floaters, can you please help me diagnose two nosedives I had on a recent ride? Both occurred while pushing the board pretty hard on sustained up-slopes on paved roads in the mountains. With how hard I felt I was pushing the board (and resulting nose dives) I was shocked to see that the duty cycle was only about 55% at the time of both nosedives. My only other theory was that the motor or controller was overtemp, however at the time of both nosedives, motor was about 52-57C and controller 43-45C according to the logs. Not sure how reliable this is.</p>&#10;<p>Could you wise individuals impart some wisdom? Namely, what do you think may have caused this, and how can I prevent it in the future if duty cycle nor temperature alerts could have saved me?</p>&#10;<p><strong><a href="https://formatted-log-file.tiiny.site/" rel="noopener noreferrer" target="_blank">Log from Floaty uploaded here</a>, filtered on the time of the two nosedives.</strong> One more symptom that may not appear in the logs is that after the second nosedive (8:10pm), the board appeared to be off, and I had to press the power button to start it again. But if I filter on “Log level: All” in the Floaty app, I can see an log line with a question mark that says “Stop state: switch half” between the nose dive and when I pressed the power button again.</p>&#10;<p><strong>The load out:</strong><br />&#10;OneWheel XRV Kit<br />&#10;Refloat 1.1.2<br />&#10;Can provide refloat config or anything else if needed, but don’t think this was a configuration issue.</p>&#10;            <p><small>3 posts - 3 participants</small></p>&#10;            <p><a href="https://pev.dev/t/nosedives-on-xrv-kit/3035" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
-
-
-      <dc:creator>@yabai</dc:creator>
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
