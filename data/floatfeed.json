@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-17T18:47:11.628Z",
+  "generatedAt": "2026-09-21T01:08:31.559Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 240,
-    "archiveArticles": 1073
+    "archiveArticles": 1075
   },
   "decks": [
     {
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 118,
       "feedSourceCount": 118,
-      "articleCount": 1313,
+      "articleCount": 1315,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -36,7 +36,7 @@
       "description": "Onewheel news, community discoveries, and publisher stories.",
       "sourceCount": 13,
       "feedSourceCount": 13,
-      "articleCount": 280,
+      "articleCount": 281,
       "rssUrl": "/feeds/news.xml"
     },
     {
@@ -80,7 +80,7 @@
       "description": "Forums, Reddit, social sources, and community discussion streams.",
       "sourceCount": 13,
       "feedSourceCount": 13,
-      "articleCount": 228,
+      "articleCount": 229,
       "rssUrl": "/feeds/community.xml"
     }
   ],
@@ -96,7 +96,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 9,
+      "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -112,7 +112,7 @@
       "title": "onewheel Reddit Alert (Relevance search)",
       "displayName": "onewheel Reddit Alert (Relevance search)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/search?q=onewheel&sort=relevance&type=link",
+      "siteUrl": "https://www.reddit.com/search/?q=onewheel&type=link&sort=relevance",
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "deck": "community",
       "kind": "social",
@@ -121,13 +121,13 @@
       "articleCount": 31,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "popular-topics-li2s6i",
@@ -156,7 +156,7 @@
       "title": "Reddit r/BaltimoreOnewheel (top)",
       "displayName": "Reddit r/BaltimoreOnewheel (top)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/BaltimoreOnewheel/top?t=day",
+      "siteUrl": "https://www.reddit.com/r/BaltimoreOnewheel/top/?t=day",
       "feedUrl": "https://www.reddit.com/r/BaltimoreOnewheel/top/.rss?t=day",
       "deck": "community",
       "kind": "social",
@@ -165,13 +165,13 @@
       "articleCount": 5,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
-        "content": "nonempty",
+        "endpoint": "empty_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
+        "content": "empty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_empty"
     },
     {
       "id": "top-posts-on-r-electricskateboarding-containing-onewheel-yux392",
@@ -602,7 +602,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 74,
+      "articleCount": 76,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -624,7 +624,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 180,
+      "articleCount": 184,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -1067,13 +1067,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
@@ -1089,13 +1089,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1155,13 +1155,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -2684,6 +2684,27 @@
   ],
   "articles": [
     {
+      "id": "vf5lsp-s1ax57",
+      "title": "OneWheel Pint BMS Module wanted!",
+      "description": "Hellow together, i am searching for a BMS Modu for a OneWhell Pint. I thik i have destroyed this Module after a Battery Cells Replacement and touch the TX connector with the wrong pin. OneWheel doesnt start yet. Only one time whit led and two yellow let blinking. Thx Mirhannes from Austia.",
+      "contentHtml": "<p dir=\"auto\">Hellow together, i am searching  for a BMS Modu for a OneWhell Pint. I thik i have destroyed this Module after a Battery Cells Replacement and touch the TX connector with the wrong pin.  OneWheel doesnt start yet. Only one time whit led and two yellow let blinking.  Thx Mirhannes from Austia.</p>",
+      "url": "http://owforum.co.uk/topic/570/onewheel-pint-bms-module-wanted",
+      "publishedAt": "2026-09-20T16:24:07.000Z",
+      "author": "Mirhannes",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-forum-recent-7x71yd",
+      "source": "Onewheel Forum Recent",
+      "sourceDomain": "owforum.co.uk",
+      "sourceKind": "feed",
+      "deck": "community",
+      "feedUrl": "https://owforum.co.uk/recent.rss",
+      "duplicateSourceIds": [
+        "onewheel-forum-recent-7x71yd"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "jutuby-14o2nhz",
       "title": "It Takes 2 to Tango || Tandem Race NWEF 26",
       "description": "Enjoy this fun race where 2 riders will push the limits to see who can go the fastest without falling off their Onewheel. Have you raced tandem on your Onewheel? You think you could win against Ryan and Elijah? Follow us on Social! Instagram: @TheFloatLife Reddit: U/TheFloatLife #TheFloatLife #Onewheel #TFL #OnewheelLifestyle #OnewheelXR #OnewheelPint #OnewheelRider #OnewheelPlusXR #OnewheelAccessories #OnewheelTricks",
@@ -2701,6 +2722,28 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA",
       "duplicateSourceIds": [
         "the-float-life-1905vur"
+      ],
+      "mergedItemCount": 2
+    },
+    {
+      "id": "lkioo-1k6th9l",
+      "title": "Future Motion Turns a Onewheel XR Classic Into a Self-Balancing Track Cart - gnyouth.net",
+      "description": "Future Motion Turns a Onewheel XR Classic Into a Self-Balancing Track Cart gnyouth.net",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnNURC1ubWs4NGlwQnh2VGx2TXlzdzBHQUpNQ0w2TmVXdy1BNV83VFdRWjd0LXdrUGd1Rml0NUlkZjg4TExrOUkwc1VvYUN4dUxLN2pZWmZ0RGoxZmlKQVRWY0RYcm5lb1hmV0FTamRPYk10ZURrbkxmQlFpYjlwdkx3b1lydjZXWnJfSF9fWWNjeHppWFdPb1lzbw?oc=5\" target=\"_blank\">Future Motion Turns a Onewheel XR Classic Into a Self-Balancing Track Cart</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gnyouth.net</font>",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnNURC1ubWs4NGlwQnh2VGx2TXlzdzBHQUpNQ0w2TmVXdy1BNV83VFdRWjd0LXdrUGd1Rml0NUlkZjg4TExrOUkwc1VvYUN4dUxLN2pZWmZ0RGoxZmlKQVRWY0RYcm5lb1hmV0FTamRPYk10ZURrbkxmQlFpYjlwdkx3b1lydjZXWnJfSF9fWWNjeHppWFdPb1lzbw?oc=5",
+      "publishedAt": "2026-09-17T13:02:50.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 2
     },
@@ -2725,7 +2768,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.499Z"
     },
     {
@@ -2793,7 +2836,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.381Z"
     },
     {
@@ -2817,7 +2860,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.382Z"
     },
     {
@@ -2862,7 +2905,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.384Z"
     },
     {
@@ -2928,7 +2971,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.524Z"
     },
     {
@@ -2952,7 +2995,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.544Z"
     },
     {
@@ -2976,7 +3019,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.531Z"
     },
     {
@@ -3000,7 +3043,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.552Z"
     },
     {
@@ -3045,7 +3088,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.681Z"
     },
     {
@@ -3069,7 +3112,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.668Z"
     },
     {
@@ -3093,7 +3136,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.598Z"
     },
     {
@@ -3117,7 +3160,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.698Z"
     },
     {
@@ -3183,7 +3226,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.898Z"
     },
     {
@@ -3229,7 +3272,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.813Z"
     },
     {
@@ -3298,9 +3341,9 @@
     },
     {
       "id": "hee639-1k6th9l",
-      "title": "Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 - aboutlawsuits.com",
-      "description": "Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 aboutlawsuits.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5\" target=\"_blank\">Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutlawsuits.com</font>",
+      "title": "Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 - AboutLawsuits.com",
+      "description": "Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 AboutLawsuits.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5\" target=\"_blank\">Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AboutLawsuits.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5",
       "publishedAt": "2026-09-11T17:35:06.000Z",
       "author": "",
@@ -3360,7 +3403,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.734Z"
     },
     {
@@ -3489,7 +3532,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.849Z"
     },
     {
@@ -3534,7 +3577,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.786Z"
     },
     {
@@ -3579,7 +3622,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.936Z"
     },
     {
@@ -3624,7 +3667,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.969Z"
     },
     {
@@ -3690,7 +3733,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.152Z"
     },
     {
@@ -3714,7 +3757,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:07.953Z"
     },
     {
@@ -3781,7 +3824,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.397Z"
     },
     {
@@ -3848,7 +3891,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.399Z"
     },
     {
@@ -3936,7 +3979,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.028Z"
     },
     {
@@ -3981,7 +4024,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.170Z"
     },
     {
@@ -4068,7 +4111,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.260Z"
     },
     {
@@ -4092,7 +4135,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.223Z"
     },
     {
@@ -4158,7 +4201,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.275Z"
     },
     {
@@ -4182,7 +4225,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.405Z"
     },
     {
@@ -4206,7 +4249,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.333Z"
     },
     {
@@ -4230,7 +4273,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.392Z"
     },
     {
@@ -4275,7 +4318,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.449Z"
     },
     {
@@ -4341,7 +4384,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.445Z"
     },
     {
@@ -4365,7 +4408,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.559Z"
     },
     {
@@ -4389,7 +4432,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.456Z"
     },
     {
@@ -4413,7 +4456,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.506Z"
     },
     {
@@ -4437,7 +4480,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.499Z"
     },
     {
@@ -4503,7 +4546,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.511Z"
     },
     {
@@ -4527,7 +4570,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.550Z"
     },
     {
@@ -4551,7 +4594,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.566Z"
     },
     {
@@ -4575,7 +4618,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.577Z"
     },
     {
@@ -4599,7 +4642,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.609Z"
     },
     {
@@ -4623,7 +4666,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.619Z"
     },
     {
@@ -4647,7 +4690,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.620Z"
     },
     {
@@ -4671,7 +4714,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.724Z"
     },
     {
@@ -4695,7 +4738,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.667Z"
     },
     {
@@ -4719,7 +4762,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.774Z"
     },
     {
@@ -4743,7 +4786,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.671Z"
     },
     {
@@ -4767,7 +4810,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.775Z"
     },
     {
@@ -4791,7 +4834,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.725Z"
     },
     {
@@ -4815,7 +4858,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.790Z"
     },
     {
@@ -4839,7 +4882,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.787Z"
     },
     {
@@ -4863,7 +4906,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.914Z"
     },
     {
@@ -4887,7 +4930,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.927Z"
     },
     {
@@ -4911,7 +4954,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.840Z"
     },
     {
@@ -4935,7 +4978,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.854Z"
     },
     {
@@ -4959,7 +5002,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.893Z"
     },
     {
@@ -4983,7 +5026,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.909Z"
     },
     {
@@ -5028,7 +5071,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.948Z"
     },
     {
@@ -5052,7 +5095,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.974Z"
     },
     {
@@ -5076,7 +5119,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.971Z"
     },
     {
@@ -5100,7 +5143,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.992Z"
     },
     {
@@ -5166,7 +5209,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.003Z"
     },
     {
@@ -5190,7 +5233,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.024Z"
     },
     {
@@ -5235,7 +5278,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.132Z"
     },
     {
@@ -5259,7 +5302,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.054Z"
     },
     {
@@ -5283,7 +5326,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.158Z"
     },
     {
@@ -5328,7 +5371,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.183Z"
     },
     {
@@ -5353,7 +5396,7 @@
       ],
       "mergedItemCount": 4,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.194Z"
     },
     {
@@ -5419,7 +5462,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.235Z"
     },
     {
@@ -5443,7 +5486,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.258Z"
     },
     {
@@ -5467,7 +5510,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.289Z"
     },
     {
@@ -5491,7 +5534,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.375Z"
     },
     {
@@ -5515,7 +5558,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.296Z"
     },
     {
@@ -5539,7 +5582,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.405Z"
     },
     {
@@ -5563,7 +5606,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.356Z"
     },
     {
@@ -5587,7 +5630,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.354Z"
     },
     {
@@ -5611,7 +5654,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.509Z"
     },
     {
@@ -5635,7 +5678,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.420Z"
     },
     {
@@ -5680,7 +5723,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.437Z"
     },
     {
@@ -5704,7 +5747,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.562Z"
     },
     {
@@ -5728,7 +5771,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.480Z"
     },
     {
@@ -5752,7 +5795,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.490Z"
     },
     {
@@ -5797,7 +5840,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.601Z"
     },
     {
@@ -5821,7 +5864,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.637Z"
     },
     {
@@ -5845,7 +5888,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.561Z"
     },
     {
@@ -5891,7 +5934,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.666Z"
     },
     {
@@ -5915,7 +5958,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.666Z"
     },
     {
@@ -5939,7 +5982,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.682Z"
     },
     {
@@ -5963,7 +6006,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.689Z"
     },
     {
@@ -6071,7 +6114,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.718Z"
     },
     {
@@ -6116,7 +6159,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.719Z"
     },
     {
@@ -6182,7 +6225,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.821Z"
     },
     {
@@ -6227,7 +6270,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.758Z"
     },
     {
@@ -6251,7 +6294,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.772Z"
     },
     {
@@ -6275,7 +6318,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.860Z"
     },
     {
@@ -6320,7 +6363,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 240,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.813Z"
     },
     {
@@ -6344,7 +6387,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.835Z"
     },
     {
@@ -6368,7 +6411,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.880Z"
     },
     {
@@ -6392,7 +6435,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.887Z"
     },
     {
@@ -6458,7 +6501,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.897Z"
     },
     {
@@ -6547,7 +6590,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.923Z"
     },
     {
@@ -6571,7 +6614,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.947Z"
     },
     {
@@ -6638,11 +6681,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "8pyqs9-1joxsrd",
-      "title": "Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps - PetHelpful",
-      "description": "Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps pethelpful.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjl1MnlXYVY1bFJKNVVnR1ZjdmJXMFdNeEZNMFFncllqUXY2ck9KdVVXdFJ0UUk1VmFFZklBTmhHU0JxMklFeVA2N2dSdHNrU1hhWDNlbGdHU3NZQno1VE1Tc09LcVdZNGw3UUo4WHMxYW92X3o4WnBtTzJsdFZYdnVNR1lFZ3dUWVZWR0pyelhDOUU5Q0hGdktOOG9TOGFGNUE?oc=5\" target=\"_blank\">Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pethelpful.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjl1MnlXYVY1bFJKNVVnR1ZjdmJXMFdNeEZNMFFncllqUXY2ck9KdVVXdFJ0UUk1VmFFZklBTmhHU0JxMklFeVA2N2dSdHNrU1hhWDNlbGdHU3NZQno1VE1Tc09LcVdZNGw3UUo4WHMxYW92X3o4WnBtTzJsdFZYdnVNR1lFZ3dUWVZWR0pyelhDOUU5Q0hGdktOOG9TOGFGNUE?oc=5",
+      "id": "koo0so-1joxsrd",
+      "title": "Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps - AOL.com",
+      "description": "Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps AOL.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDFuanNMSGV3TEV5enVjSkw3eWZwbkdISElaV0pxZV9WV0c0eExoZFd6UTVSYklnckFteVE3TEo4bGdEZ0xGSlVhRG5WbnM5cVM3N05ZQmdSQ1VoeElUTnZ0eEJWWGhHOGh5elhBaXdkbzhLbEdEWWtPSDJUVVhKelFPaFM?oc=5\" target=\"_blank\">Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDFuanNMSGV3TEV5enVjSkw3eWZwbkdISElaV0pxZV9WV0c0eExoZFd6UTVSYklnckFteVE3TEo4bGdEZ0xGSlVhRG5WbnM5cVM3N05ZQmdSQ1VoeElUTnZ0eEJWWGhHOGh5elhBaXdkbzhLbEdEWWtPSDJUVVhKelFPaFM?oc=5",
       "publishedAt": "2026-08-12T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -6656,14 +6699,14 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
-      "id": "koo0so-1joxsrd",
-      "title": "Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps - AOL.com",
-      "description": "Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps AOL.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDFuanNMSGV3TEV5enVjSkw3eWZwbkdISElaV0pxZV9WV0c0eExoZFd6UTVSYklnckFteVE3TEo4bGdEZ0xGSlVhRG5WbnM5cVM3N05ZQmdSQ1VoeElUTnZ0eEJWWGhHOGh5elhBaXdkbzhLbEdEWWtPSDJUVVhKelFPaFM?oc=5\" target=\"_blank\">Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AOL.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZDFuanNMSGV3TEV5enVjSkw3eWZwbkdISElaV0pxZV9WV0c0eExoZFd6UTVSYklnckFteVE3TEo4bGdEZ0xGSlVhRG5WbnM5cVM3N05ZQmdSQ1VoeElUTnZ0eEJWWGhHOGh5elhBaXdkbzhLbEdEWWtPSDJUVVhKelFPaFM?oc=5",
+      "id": "8pyqs9-1joxsrd",
+      "title": "Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps - PetHelpful",
+      "description": "Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps pethelpful.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjl1MnlXYVY1bFJKNVVnR1ZjdmJXMFdNeEZNMFFncllqUXY2ck9KdVVXdFJ0UUk1VmFFZklBTmhHU0JxMklFeVA2N2dSdHNrU1hhWDNlbGdHU3NZQno1VE1Tc09LcVdZNGw3UUo4WHMxYW92X3o4WnBtTzJsdFZYdnVNR1lFZ3dUWVZWR0pyelhDOUU5Q0hGdktOOG9TOGFGNUE?oc=5\" target=\"_blank\">Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">pethelpful.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjl1MnlXYVY1bFJKNVVnR1ZjdmJXMFdNeEZNMFFncllqUXY2ck9KdVVXdFJ0UUk1VmFFZklBTmhHU0JxMklFeVA2N2dSdHNrU1hhWDNlbGdHU3NZQno1VE1Tc09LcVdZNGw3UUo4WHMxYW92X3o4WnBtTzJsdFZYdnVNR1lFZ3dUWVZWR0pyelhDOUU5Q0hGdktOOG9TOGFGNUE?oc=5",
       "publishedAt": "2026-08-12T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -6700,7 +6743,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.945Z"
     },
     {
@@ -6724,7 +6767,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.964Z"
     },
     {
@@ -6748,7 +6791,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.986Z"
     },
     {
@@ -6772,7 +6815,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.092Z"
     },
     {
@@ -6796,7 +6839,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.016Z"
     },
     {
@@ -7078,7 +7121,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.021Z"
     },
     {
@@ -7124,7 +7167,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.047Z"
     },
     {
@@ -7212,7 +7255,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.081Z"
     },
     {
@@ -7344,7 +7387,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.082Z"
     },
     {
@@ -7368,7 +7411,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.113Z"
     },
     {
@@ -7584,7 +7627,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.143Z"
     },
     {
@@ -7608,7 +7651,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.138Z"
     },
     {
@@ -7717,7 +7760,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.154Z"
     },
     {
@@ -7827,7 +7870,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.170Z"
     },
     {
@@ -7851,7 +7894,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.203Z"
     },
     {
@@ -7896,7 +7939,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.216Z"
     },
     {
@@ -7941,7 +7984,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.215Z"
     },
     {
@@ -8344,7 +8387,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.222Z"
     },
     {
@@ -8368,7 +8411,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.266Z"
     },
     {
@@ -8394,7 +8437,7 @@
     },
     {
       "id": "1fscj0d-1joxsrd",
-      "title": "Protective Black Bear Mother Charges Onewheel Rider At North America's Largest Ski Resort - unofficialnetworks.com",
+      "title": "Protective Black Bear Mother Charges Onewheel Rider At North America's Largest Ski Resort - Unofficial Networks",
       "description": "Protective Black Bear Mother Charges Onewheel Rider At North America's Largest Ski Resort unofficialnetworks.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNSncwT3I3YzNFaENZRkE1LW1ib2FJdU0xcnVnYW15dktSUWRsQ3VZeFo5TnNvNkZYU2hnTmlsUmdSbnhjQ1Z0MGxGZVlqMHFkVlA3M1FEa2lvdkRSWktqRUlYYXZLdjdBNzJySzk2clhPbWhDM21tbzEyS2JMNngwOUxR?oc=5\" target=\"_blank\">Protective Black Bear Mother Charges Onewheel Rider At North America's Largest Ski Resort</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">unofficialnetworks.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSncwT3I3YzNFaENZRkE1LW1ib2FJdU0xcnVnYW15dktSUWRsQ3VZeFo5TnNvNkZYU2hnTmlsUmdSbnhjQ1Z0MGxGZVlqMHFkVlA3M1FEa2lvdkRSWktqRUlYYXZLdjdBNzJySzk2clhPbWhDM21tbzEyS2JMNngwOUxR?oc=5",
@@ -8411,7 +8454,7 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "e0rixm-1alt0ww",
@@ -8749,7 +8792,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.276Z"
     },
     {
@@ -8836,7 +8879,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.279Z"
     },
     {
@@ -8965,7 +9008,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.279Z"
     },
     {
@@ -8989,7 +9032,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.329Z"
     },
     {
@@ -9160,7 +9203,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.340Z"
     },
     {
@@ -9310,7 +9353,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.340Z"
     },
     {
@@ -9397,7 +9440,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.344Z"
     },
     {
@@ -9442,7 +9485,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.386Z"
     },
     {
@@ -9529,7 +9572,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.404Z"
     },
     {
@@ -9553,7 +9596,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.399Z"
     },
     {
@@ -9829,7 +9872,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.410Z"
     },
     {
@@ -9916,7 +9959,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.444Z"
     },
     {
@@ -9961,7 +10004,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.457Z"
     },
     {
@@ -9985,7 +10028,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.468Z"
     },
     {
@@ -10030,7 +10073,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.553Z"
     },
     {
@@ -10117,7 +10160,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.503Z"
     },
     {
@@ -10162,7 +10205,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.506Z"
     },
     {
@@ -10207,7 +10250,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.528Z"
     },
     {
@@ -10252,7 +10295,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.567Z"
     },
     {
@@ -10276,7 +10319,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.581Z"
     },
     {
@@ -10300,7 +10343,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.595Z"
     },
     {
@@ -10324,7 +10367,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.606Z"
     },
     {
@@ -10390,7 +10433,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.624Z"
     },
     {
@@ -10414,7 +10457,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 240,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.638Z"
     },
     {
@@ -10438,7 +10481,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.663Z"
     },
     {
@@ -10526,7 +10569,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.661Z"
     },
     {
@@ -10571,7 +10614,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.679Z"
     },
     {
@@ -10637,7 +10680,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.702Z"
     },
     {
@@ -10661,7 +10704,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.711Z"
     },
     {
@@ -10706,7 +10749,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.723Z"
     },
     {
@@ -10730,7 +10773,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.823Z"
     },
     {
@@ -10754,7 +10797,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.768Z"
     },
     {
@@ -10778,7 +10821,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.771Z"
     },
     {
@@ -10802,7 +10845,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.785Z"
     },
     {
@@ -10870,7 +10913,7 @@
     },
     {
       "id": "pfxxf4-1k6th9l",
-      "title": "Future Motion’s Antic E-Bike Pairs Go-Kart Tires with “Wheelie Lock” Tech (Video) - Thomasnet",
+      "title": "Future Motion’s Antic E-Bike Pairs Go-Kart Tires with “Wheelie Lock” Tech (Video) - thomasnet.com",
       "description": "Future Motion’s Antic E-Bike Pairs Go-Kart Tires with “Wheelie Lock” Tech (Video) thomasnet.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFAzNXRkUC1DMDZTREFwbmxKUUlnNDd6dVBrZzlFVUNDSV8zMmZNeHFfQ1lSLWtZS1BkbUEzYl9CWXZILTRlTV9FNzdEOTBMSndQY01GVmJ3WXdaNWxHUFE4WVQ2QWlhQzhacjgyajdJTQ?oc=5\" target=\"_blank\">Future Motion’s Antic E-Bike Pairs Go-Kart Tires with “Wheelie Lock” Tech (Video)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thomasnet.com</font>",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAzNXRkUC1DMDZTREFwbmxKUUlnNDd6dVBrZzlFVUNDSV8zMmZNeHFfQ1lSLWtZS1BkbUEzYl9CWXZILTRlTV9FNzdEOTBMSndQY01GVmJ3WXdaNWxHUFE4WVQ2QWlhQzhacjgyajdJTQ?oc=5",
@@ -10887,7 +10930,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1w00b59-7re0dr",
@@ -10973,7 +11016,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.822Z"
     },
     {
@@ -10997,7 +11040,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.829Z"
     },
     {
@@ -11318,7 +11361,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.843Z"
     },
     {
@@ -11363,7 +11406,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.882Z"
     },
     {
@@ -11408,7 +11451,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.879Z"
     },
     {
@@ -11432,7 +11475,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.885Z"
     },
     {
@@ -11500,7 +11543,7 @@
     },
     {
       "id": "l1qfzf-1joxsrd",
-      "title": "Travel Vlogger Attempts 400 Km Manali-Ladakh Trip On Onewheel, Sparks Online Buzz - NDTV",
+      "title": "Travel Vlogger Attempts 400 Km Manali-Ladakh Trip On Onewheel, Sparks Online Buzz - ndtv.com",
       "description": "Travel Vlogger Attempts 400 Km Manali-Ladakh Trip On Onewheel, Sparks Online Buzz ndtv.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMjluclhnYWhxNnlDcEFoMUhPNzJIdGNpMkNNWTBkNXNoZGlPR1pkWEhqcHpwelg0cWVKM0hHUnp0M1pfZFBNVExBRi1yT2pXUWNLa2lVeERUNzJxQ1lqemRnSHhJeHlDeS1OUXFvZ2NNUk4tdHdzT19Kd1lpQWdXaUdRLVN6aUo3OEh2MVVQTjZHcmIyYkRJUXQ4Ym5XS2UzM1l1MXAtWFhXZmdiQWNVcFowYWMxQUln0gHAAUFVX3lxTE9YU3lPdE56aXdmWGRlVXdJa0Zjclgya28zaE5fWlNlX3piT3RRZ2RoUlZ2UWJNeWhzUE5jSUVmcHJVMFhLRlhoYzFwRk8tR29nMlpsY0NhWS1kd3FKT0hMMjVrVnd2OEhhdnE4RVhOeGRENUF3SEhZTVdOX2FjVTBJQmV4X1licDAxdmtUbUQxQloxSlR0UVJWQXZpR0VqeXFlSXlHWC1aQmtBbUhqZk5ISHh2MHFyT3dCQ1QxUnhfcA?oc=5\" target=\"_blank\">Travel Vlogger Attempts 400 Km Manali-Ladakh Trip On Onewheel, Sparks Online Buzz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ndtv.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMjluclhnYWhxNnlDcEFoMUhPNzJIdGNpMkNNWTBkNXNoZGlPR1pkWEhqcHpwelg0cWVKM0hHUnp0M1pfZFBNVExBRi1yT2pXUWNLa2lVeERUNzJxQ1lqemRnSHhJeHlDeS1OUXFvZ2NNUk4tdHdzT19Kd1lpQWdXaUdRLVN6aUo3OEh2MVVQTjZHcmIyYkRJUXQ4Ym5XS2UzM1l1MXAtWFhXZmdiQWNVcFowYWMxQUln0gHAAUFVX3lxTE9YU3lPdE56aXdmWGRlVXdJa0Zjclgya28zaE5fWlNlX3piT3RRZ2RoUlZ2UWJNeWhzUE5jSUVmcHJVMFhLRlhoYzFwRk8tR29nMlpsY0NhWS1kd3FKT0hMMjVrVnd2OEhhdnE4RVhOeGRENUF3SEhZTVdOX2FjVTBJQmV4X1licDAxdmtUbUQxQloxSlR0UVJWQXZpR0VqeXFlSXlHWC1aQmtBbUhqZk5ISHh2MHFyT3dCQ1QxUnhfcA?oc=5",
@@ -11624,7 +11667,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.896Z"
     },
     {
@@ -11648,7 +11691,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.935Z"
     },
     {
@@ -11672,7 +11715,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.935Z"
     },
     {
@@ -11759,7 +11802,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.938Z"
     },
     {
@@ -11888,12 +11931,12 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.953Z"
     },
     {
       "id": "1fd221x-1joxsrd",
-      "title": "Hawaii teen becomes fastest racer on Onewheel - hawaiinewsnow.com",
+      "title": "Hawaii teen becomes fastest racer on Onewheel - Hawaii News Now",
       "description": "Hawaii teen becomes fastest racer on Onewheel hawaiinewsnow.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5\" target=\"_blank\">Hawaii teen becomes fastest racer on Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hawaiinewsnow.com</font>",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5",
@@ -11910,7 +11953,7 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 3
     },
     {
       "id": "eabin5-1dvf1mj",
@@ -11954,7 +11997,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.988Z"
     },
     {
@@ -12083,7 +12126,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.002Z"
     },
     {
@@ -12254,7 +12297,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.001Z"
     },
     {
@@ -12278,7 +12321,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.011Z"
     },
     {
@@ -12366,7 +12409,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.053Z"
     },
     {
@@ -12558,7 +12601,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.055Z"
     },
     {
@@ -12813,7 +12856,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.055Z"
     },
     {
@@ -13068,7 +13111,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.062Z"
     },
     {
@@ -13491,7 +13534,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.110Z"
     },
     {
@@ -14925,7 +14968,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.123Z"
     },
     {
@@ -15392,7 +15435,7 @@
     },
     {
       "id": "1bt0l7p-1joxsrd",
-      "title": "ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’ - levinlaw.com",
+      "title": "ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’ - Levin Papantonio",
       "description": "ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’ Levin Papantonio",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBuMFdDMWVUNUFrd2F0WEZfLVlMbVpuU2xJRHpvQWNHTVV3S25Rbm5ZX0dYZGNaR0tBWW0tWndnZ3BaZGpGYWNNNnJxQ2UwU2FNRGtxajZGNWhNX1UyMzVnZFB0UTEyc3BiM29aa1VfR0JEZUt4SEN4RFZ1WQ?oc=5\" target=\"_blank\">ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Levin Papantonio</font>",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuMFdDMWVUNUFrd2F0WEZfLVlMbVpuU2xJRHpvQWNHTVV3S25Rbm5ZX0dYZGNaR0tBWW0tWndnZ3BaZGpGYWNNNnJxQ2UwU2FNRGtxajZGNWhNX1UyMzVnZFB0UTEyc3BiM29aa1VfR0JEZUt4SEN4RFZ1WQ?oc=5",
@@ -15453,7 +15496,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.119Z"
     },
     {
@@ -15856,7 +15899,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.117Z"
     },
     {
@@ -15899,7 +15942,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "n9yskc-1f0n85l",
@@ -16531,7 +16574,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.162Z"
     },
     {
@@ -17076,9 +17119,10 @@
       "deck": "news",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 3
     },
     {
       "id": "1nddf8n-lhg7z7",
@@ -17102,7 +17146,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1tx86ja-1k6th9l",
+      "id": "1tx86ja-1joxsrd",
       "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - PR Newswire",
       "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire PR Newswire",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
@@ -17111,15 +17155,15 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -17165,7 +17209,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.171Z"
     },
     {
@@ -17422,9 +17466,9 @@
     },
     {
       "id": "1e0kum9-1joxsrd",
-      "title": "Court Schedules OneWheel Lawsuits For Bellwether Trials in April and June 2026 - aboutlawsuits.com",
-      "description": "Court Schedules OneWheel Lawsuits For Bellwether Trials in April and June 2026 aboutlawsuits.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNa1ZaUmJsTUtOUXc3NVRqRHFFcjB3OVNpLWRNeWlncUdVUzNmb21KZEIzSWNJWURRYWwwbXA5a0ZnSnJXb2szQ2pqNVZrcTJTUDJYd2hrYnRoLVVRNnpLeWJxdjFaVlJTalN4TWVOdEQ4OGw0VzliRlNDc244QXdUSDh3MkZGZDBhdDU0NlkxRmg3Z1dURUczZ21CajdFU1hZMUtfaDFQLW9ZbnM2NXc3NmYyTHhnX2tXV0Zlc2Z2QVBkVmMt?oc=5\" target=\"_blank\">Court Schedules OneWheel Lawsuits For Bellwether Trials in April and June 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutlawsuits.com</font>",
+      "title": "Court Schedules OneWheel Lawsuits For Bellwether Trials in April and June 2026 - AboutLawsuits.com",
+      "description": "Court Schedules OneWheel Lawsuits For Bellwether Trials in April and June 2026 AboutLawsuits.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNa1ZaUmJsTUtOUXc3NVRqRHFFcjB3OVNpLWRNeWlncUdVUzNmb21KZEIzSWNJWURRYWwwbXA5a0ZnSnJXb2szQ2pqNVZrcTJTUDJYd2hrYnRoLVVRNnpLeWJxdjFaVlJTalN4TWVOdEQ4OGw0VzliRlNDc244QXdUSDh3MkZGZDBhdDU0NlkxRmg3Z1dURUczZ21CajdFU1hZMUtfaDFQLW9ZbnM2NXc3NmYyTHhnX2tXV0Zlc2Z2QVBkVmMt?oc=5\" target=\"_blank\">Court Schedules OneWheel Lawsuits For Bellwether Trials in April and June 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AboutLawsuits.com</font>",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa1ZaUmJsTUtOUXc3NVRqRHFFcjB3OVNpLWRNeWlncUdVUzNmb21KZEIzSWNJWURRYWwwbXA5a0ZnSnJXb2szQ2pqNVZrcTJTUDJYd2hrYnRoLVVRNnpLeWJxdjFaVlJTalN4TWVOdEQ4OGw0VzliRlNDc244QXdUSDh3MkZGZDBhdDU0NlkxRmg3Z1dURUczZ21CajdFU1hZMUtfaDFQLW9ZbnM2NXc3NmYyTHhnX2tXV0Zlc2Z2QVBkVmMt?oc=5",
       "publishedAt": "2024-08-15T07:00:00.000Z",
       "author": "",
@@ -17439,7 +17483,7 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "11agc5e-1joxsrd",
@@ -17527,7 +17571,7 @@
     },
     {
       "id": "larj94-1k6th9l",
-      "title": "Onewheel electric skateboard recall: What you need to know - themanual.com",
+      "title": "Onewheel electric skateboard recall: What you need to know - The Manual",
       "description": "Onewheel electric skateboard recall: What you need to know themanual.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5\" target=\"_blank\">Onewheel electric skateboard recall: What you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">themanual.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5",
@@ -17609,7 +17653,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.176Z"
     },
     {
@@ -17718,7 +17762,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.180Z"
     },
     {
@@ -17744,7 +17788,7 @@
     },
     {
       "id": "4qx6t7-1joxsrd",
-      "title": "GT- S-Series: Onewheel Drops Their Smartest, Fastest, and Most Powerful Off-Road Board - autoevolution.com",
+      "title": "GT- S-Series: Onewheel Drops Their Smartest, Fastest, and Most Powerful Off-Road Board - autoevolution",
       "description": "GT- S-Series: Onewheel Drops Their Smartest, Fastest, and Most Powerful Off-Road Board autoevolution.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMzdwU1dsR2lUVV9aaHd6ck9uemlYc1FVRExzQm5FMHJQMkVianpYTThJbEZHVUc4Q2hSNm0xRzNxTDBTVkZwS3RsU3ZGWXM3MGpEUDFyODRjbW5DendyN0lpZjNVcC0taXktMURSQzZ3SUlpMW1GeWJmTkN1NFJTZGJOczcyMzJDNTNTbFIxZ1V0ZHlGem5jSUhtMDJFZUFiQm9jQVVEc0NUcXQ5VmRuQXdqTWxrR0M4QUFnRm5iVEtjUXM4VTBQbg?oc=5\" target=\"_blank\">GT- S-Series: Onewheel Drops Their Smartest, Fastest, and Most Powerful Off-Road Board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">autoevolution.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMzdwU1dsR2lUVV9aaHd6ck9uemlYc1FVRExzQm5FMHJQMkVianpYTThJbEZHVUc4Q2hSNm0xRzNxTDBTVkZwS3RsU3ZGWXM3MGpEUDFyODRjbW5DendyN0lpZjNVcC0taXktMURSQzZ3SUlpMW1GeWJmTkN1NFJTZGJOczcyMzJDNTNTbFIxZ1V0ZHlGem5jSUhtMDJFZUFiQm9jQVVEc0NUcXQ5VmRuQXdqTWxrR0M4QUFnRm5iVEtjUXM4VTBQbg?oc=5",
@@ -17849,6 +17893,27 @@
       "mergedItemCount": 3
     },
     {
+      "id": "k1ehof-1k6th9l",
+      "title": "One Decade of Onewheel - Good Times | Santa Cruz California's Leading Free Weekly",
+      "description": "One Decade of Onewheel Good Times | Santa Cruz California's Leading Free Weekly",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5\" target=\"_blank\">One Decade of Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good Times | Santa Cruz California's Leading Free Weekly</font>",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5",
+      "publishedAt": "2024-06-19T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "vewkle-1k6th9l",
       "title": "Riding the Edge: Future Motion Marks 10 Years on Onewheel - Metro Silicon Valley",
       "description": "Riding the Edge: Future Motion Marks 10 Years on Onewheel Metro Silicon Valley",
@@ -17887,27 +17952,6 @@
       "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 1
-    },
-    {
-      "id": "k1ehof-1k6th9l",
-      "title": "One Decade of Onewheel - Good Times | Santa Cruz California's Leading Free Weekly",
-      "description": "One Decade of Onewheel Good Times | Santa Cruz California's Leading Free Weekly",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5\" target=\"_blank\">One Decade of Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good Times | Santa Cruz California's Leading Free Weekly</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5",
-      "publishedAt": "2024-06-19T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 1
     },
@@ -17974,7 +18018,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.215Z"
     },
     {
@@ -19027,7 +19071,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.226Z"
     },
     {
@@ -19200,9 +19244,9 @@
     },
     {
       "id": "da7ru7-1joxsrd",
-      "title": "Onewheel Attorneys Appointed as Interim Lead Counsel in Lawsuits Over Electric Skateboard Safety Defects - aboutlawsuits.com",
-      "description": "Onewheel Attorneys Appointed as Interim Lead Counsel in Lawsuits Over Electric Skateboard Safety Defects aboutlawsuits.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9UQXdlTFFNdTNYVU1VMGYtWkQxSkE5cjViSUlsQndEY1ZqRGU3MXpaSEtDQVR4R2lMSnE0bDItakJfRU5lX3dKQzdKck5NQVJ0WTdsbjFCUk9CaUo0dmxkd3BxNVlpSlpocDN0RVFJVDdXUm1qZGF2MWh3?oc=5\" target=\"_blank\">Onewheel Attorneys Appointed as Interim Lead Counsel in Lawsuits Over Electric Skateboard Safety Defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutlawsuits.com</font>",
+      "title": "Onewheel Attorneys Appointed as Interim Lead Counsel in Lawsuits Over Electric Skateboard Safety Defects - AboutLawsuits.com",
+      "description": "Onewheel Attorneys Appointed as Interim Lead Counsel in Lawsuits Over Electric Skateboard Safety Defects AboutLawsuits.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9UQXdlTFFNdTNYVU1VMGYtWkQxSkE5cjViSUlsQndEY1ZqRGU3MXpaSEtDQVR4R2lMSnE0bDItakJfRU5lX3dKQzdKck5NQVJ0WTdsbjFCUk9CaUo0dmxkd3BxNVlpSlpocDN0RVFJVDdXUm1qZGF2MWh3?oc=5\" target=\"_blank\">Onewheel Attorneys Appointed as Interim Lead Counsel in Lawsuits Over Electric Skateboard Safety Defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AboutLawsuits.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UQXdlTFFNdTNYVU1VMGYtWkQxSkE5cjViSUlsQndEY1ZqRGU3MXpaSEtDQVR4R2lMSnE0bDItakJfRU5lX3dKQzdKck5NQVJ0WTdsbjFCUk9CaUo0dmxkd3BxNVlpSlpocDN0RVFJVDdXUm1qZGF2MWh3?oc=5",
       "publishedAt": "2024-02-02T08:00:00.000Z",
       "author": "",
@@ -20566,8 +20610,8 @@
     {
       "id": "f7bxkc-y8j1i9",
       "title": "Armor Dilloz - Onewheel Tire Destruction",
-      "description": "@Onewheeel joins us for a round of hilarious and fun destructive testing, absolutely ripping abuse out on a Onewheel tire... Sadly, Cory COMPLETELY missed the key shots - but, we had so much fun doing this, we decided to share this total failure of a video anyway. Hope you enjoy and laugh with us - round 2 coming very soon (and hopefully this time Cory will do as good of a job as our sealant does!!) Shop the Armor-Dilloz products: https://armor-dilloz.com/ Rider: Chris Richardson - @Onewheeel (This video features stunts performed by professional riders - Do not try this at home. The tire in this video is a 1500+ mile Whisper, which is WAY beyond it's service life - do not run your tires to this point, you should replace them before the cording is visible. Finally, the proper technique for removal of screws or other rough objects would be to unscrew them, or otherwise gently remove them, in this video, the removal technique chosen was the worst possible method, in order to demonstrate the effectiveness of the product. Remove puncturing objects carefully, and in a way that minimizes the damage to the inner cording of the tire.) #onewheel #asmr #destruction",
-      "contentHtml": "<p>@Onewheeel joins us for a round of hilarious and fun destructive testing, absolutely ripping abuse out on a Onewheel tire... Sadly, Cory COMPLETELY missed the key shots - but, we had so much fun doing this, we decided to share this total failure of a video anyway.<br><br>Hope you enjoy and laugh with us - round 2 coming very soon (and hopefully this time Cory will do as good of a job as our sealant does!!)<br><br>Shop the Armor-Dilloz products:<br>https://armor-dilloz.com/<br><br>Rider: Chris Richardson - @Onewheeel <br><br>(This video features stunts performed by professional riders - Do not try this at home.  The tire in this video is a 1500+ mile Whisper, which is WAY beyond it&#39;s service life - do not run your tires to this point, you should replace them before the cording is visible.   Finally, the proper technique for removal of screws or other rough objects would be to unscrew them, or otherwise gently remove them, in this video, the removal technique chosen was the worst possible method, in order to demonstrate the effectiveness of the product.  Remove puncturing objects carefully, and in a way that minimizes the damage to the inner cording of the tire.)<br><br><br>#onewheel #asmr #destruction</p>",
+      "description": "@Onewheeel joins us for a round of hilarious and fun destructive testing, absolutely ripping abuse out on a Onewheel tire... Sadly, Cory COMPLETELY missed the key shots - but, we had so much fun doing this, we decided to share this total failure of a video anyway. Hope you enjoy and laugh with us - round 2 coming very soon (and hopefully this time Cory will do as good of a job as our sealant does!!) Shop the Armor-Dilloz products: https://armor-dilloz.com/ Rider: Chris Richardson - @Onewheeel (This video features stunts performed by professional riders - Do not try this at home. The tire in this video is a 1500+ mile Whisper, which is WAY beyond it's service life - do not run your tires to this point, you should replace them before the cording is visible. Finally, the proper technique for removal of screws or other rough objects would be to unscrew them, or otherwise gently remove them, in this video, the removal technique chosen was the worst possible method, in order to demonstrate the effectiveness of the product. Remove puncturing objects carefully, and in a way that minimizes the damage to the inner cording of the tire.) #onewheel #asmr #destruction Shop Armor-Dilloz tire sealant: https://armor-dilloz.com/collections/tire-sealant?utm_source=youtube&utm_medium=organic_video&utm_campaign=evergreen&utm_content=pCEcRcQKXjw",
+      "contentHtml": "<p>@Onewheeel  joins us for a round of hilarious and fun destructive testing, absolutely ripping abuse out on a Onewheel tire... Sadly, Cory COMPLETELY missed the key shots - but, we had so much fun doing this, we decided to share this total failure of a video anyway.<br><br>Hope you enjoy and laugh with us - round 2 coming very soon (and hopefully this time Cory will do as good of a job as our sealant does!!)<br><br>Shop the Armor-Dilloz products:<br>https://armor-dilloz.com/<br><br>Rider: Chris Richardson -  @Onewheeel  <br><br>(This video features stunts performed by professional riders - Do not try this at home.  The tire in this video is a 1500+ mile Whisper, which is WAY beyond it&#39;s service life - do not run your tires to this point, you should replace them before the cording is visible.   Finally, the proper technique for removal of screws or other rough objects would be to unscrew them, or otherwise gently remove them, in this video, the removal technique chosen was the worst possible method, in order to demonstrate the effectiveness of the product.  Remove puncturing objects carefully, and in a way that minimizes the damage to the inner cording of the tire.)<br><br><br>#onewheel #asmr #destruction<br><br>Shop Armor-Dilloz tire sealant:<br>https://armor-dilloz.com/collections/tire-sealant?utm_source=youtube&amp;utm_medium=organic_video&amp;utm_campaign=evergreen&amp;utm_content=pCEcRcQKXjw</p>",
       "url": "https://www.youtube.com/watch?v=pCEcRcQKXjw",
       "publishedAt": "2023-12-01T12:19:42.000Z",
       "author": "Armor Dilloz",
@@ -21130,7 +21174,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.231Z"
     },
     {
@@ -21215,7 +21259,7 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "yuant4-1ed9y4n",
@@ -21580,7 +21624,7 @@
     },
     {
       "id": "1wowj0n-1k6th9l",
-      "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
+      "title": "Onewheel electric skateboards recalled worldwide after deaths - news.sky.com",
       "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled worldwide after deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sky.com</font>",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5",
@@ -21623,9 +21667,9 @@
     },
     {
       "id": "1wxku03-1joxsrd",
-      "title": "Onewheel \"Nosedive\" Lawsuit Filed Days Before Manufacturer Recalled Electric Skateboards - aboutlawsuits.com",
-      "description": "Onewheel \"Nosedive\" Lawsuit Filed Days Before Manufacturer Recalled Electric Skateboards aboutlawsuits.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ueXBNcVY0LURlRGZ4di13RUxiaElKMzktajI4bm5veEptWkNlNk1TS2E4NUE0MnRzVE91NVpMb2g2a2owekxsMUpwcGVwVnR5bU9WYXhLU1h2RHllanJOX29EUDNvbjg?oc=5\" target=\"_blank\">Onewheel \"Nosedive\" Lawsuit Filed Days Before Manufacturer Recalled Electric Skateboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutlawsuits.com</font>",
+      "title": "Onewheel \"Nosedive\" Lawsuit Filed Days Before Manufacturer Recalled Electric Skateboards - AboutLawsuits.com",
+      "description": "Onewheel \"Nosedive\" Lawsuit Filed Days Before Manufacturer Recalled Electric Skateboards AboutLawsuits.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ueXBNcVY0LURlRGZ4di13RUxiaElKMzktajI4bm5veEptWkNlNk1TS2E4NUE0MnRzVE91NVpMb2g2a2owekxsMUpwcGVwVnR5bU9WYXhLU1h2RHllanJOX29EUDNvbjg?oc=5\" target=\"_blank\">Onewheel \"Nosedive\" Lawsuit Filed Days Before Manufacturer Recalled Electric Skateboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AboutLawsuits.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ueXBNcVY0LURlRGZ4di13RUxiaElKMzktajI4bm5veEptWkNlNk1TS2E4NUE0MnRzVE91NVpMb2g2a2owekxsMUpwcGVwVnR5bU9WYXhLU1h2RHllanJOX29EUDNvbjg?oc=5",
       "publishedAt": "2023-10-03T07:00:00.000Z",
       "author": "",
@@ -21771,7 +21815,7 @@
     },
     {
       "id": "1sgb6iw-1k6th9l",
-      "title": "Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported - USA Today",
+      "title": "Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported - usatoday.com",
       "description": "Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported usatoday.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTBIZ1NUb2liUkp3M2ptM2Z2WURQZjIwZmdBeGRmTmRiWE1GNFdUMTdWZ2U1VlZZX2M0UU5iOWVIVlFoaXpZUkV4eFh0bmxXNnR1WE9lRDBWSDJHazJidkYybzBaM2o1ai00LTV5OVl2b1E4WVY2WXJ3NjlyR2dRZjBtV1JObDV3azBqZWktdExVQW1xR05YeFBsdHRPXzA3bml2Z25wZURnOGxDamZUSU53?oc=5\" target=\"_blank\">Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">usatoday.com</font>",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTBIZ1NUb2liUkp3M2ptM2Z2WURQZjIwZmdBeGRmTmRiWE1GNFdUMTdWZ2U1VlZZX2M0UU5iOWVIVlFoaXpZUkV4eFh0bmxXNnR1WE9lRDBWSDJHazJidkYybzBaM2o1ai00LTV5OVl2b1E4WVY2WXJ3NjlyR2dRZjBtV1JObDV3azBqZWktdExVQW1xR05YeFBsdHRPXzA3bml2Z25wZURnOGxDamZUSU53?oc=5",
@@ -21813,6 +21857,28 @@
       "mergedItemCount": 2
     },
     {
+      "id": "1pzkrxv-1k6th9l",
+      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
+      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "1qjtm5r-1k6th9l",
       "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
       "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
@@ -21832,6 +21898,28 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "1u779ba-1k6th9l",
+      "title": "Own a Onewheel? What To Know About the Recall After 4 Deaths - The San Francisco Standard",
+      "description": "Own a Onewheel? What To Know About the Recall After 4 Deaths The San Francisco Standard",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5\" target=\"_blank\">Own a Onewheel? What To Know About the Recall After 4 Deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The San Francisco Standard</font>",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "q76wz5-1k6th9l",
@@ -21898,9 +21986,9 @@
     },
     {
       "id": "11ljmau-1joxsrd",
-      "title": "OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature - aboutlawsuits.com",
-      "description": "OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature aboutlawsuits.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EamdqVnhWaTlWYk1NMk5LanBZSlpQYngyX2gyYlF2RFNHNDdjd1RKN0Exdkl2cHNmWXJ0NjRmSUhIWUI1aW5HNGNwSFlXdmJEaGdtUVdfOHQwU3V1ZU44Q2x5NnBxQQ?oc=5\" target=\"_blank\">OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutlawsuits.com</font>",
+      "title": "OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature - AboutLawsuits.com",
+      "description": "OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature AboutLawsuits.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EamdqVnhWaTlWYk1NMk5LanBZSlpQYngyX2gyYlF2RFNHNDdjd1RKN0Exdkl2cHNmWXJ0NjRmSUhIWUI1aW5HNGNwSFlXdmJEaGdtUVdfOHQwU3V1ZU44Q2x5NnBxQQ?oc=5\" target=\"_blank\">OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AboutLawsuits.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EamdqVnhWaTlWYk1NMk5LanBZSlpQYngyX2gyYlF2RFNHNDdjd1RKN0Exdkl2cHNmWXJ0NjRmSUhIWUI1aW5HNGNwSFlXdmJEaGdtUVdfOHQwU3V1ZU44Q2x5NnBxQQ?oc=5",
       "publishedAt": "2023-10-02T07:00:00.000Z",
       "author": "",
@@ -21916,27 +22004,6 @@
         "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 2
-    },
-    {
-      "id": "1u779ba-1joxsrd",
-      "title": "Own a Onewheel? What To Know About the Recall After 4 Deaths - The San Francisco Standard",
-      "description": "Own a Onewheel? What To Know About the Recall After 4 Deaths The San Francisco Standard",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5\" target=\"_blank\">Own a Onewheel? What To Know About the Recall After 4 Deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The San Francisco Standard</font>",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 1
     },
     {
       "id": "mit9n4-1joxsrd",
@@ -21956,27 +22023,6 @@
       "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 1
-    },
-    {
-      "id": "1pzkrxv-1k6th9l",
-      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
-      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 1
     },
@@ -22022,7 +22068,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.242Z"
     },
     {
@@ -22070,7 +22116,7 @@
     },
     {
       "id": "l9uvac-1k6th9l",
-      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - businessinsider.com",
+      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
       "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
@@ -22114,7 +22160,7 @@
     },
     {
       "id": "yyn3fm-1k6th9l",
-      "title": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update - nydailynews.com",
+      "title": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update - New York Daily News",
       "description": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update New York Daily News",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXpsYUNDeTU5WVAzZTJoY0RfOE9SUWpBSERxMDFtQmZoTXRpSkdhdXFfR3IzZ1JlVXZldEtWZVVWUkh0UVAzTHRBaDhkaFJrQjZ6ZTRUM0VXN2lsLVpVajB1blZrTzdncXlyelU4LTlwaVc2Z2J3VDh1Vmd4MUZGemRzWWlqYk5rRFhhVWlBUmY?oc=5\" target=\"_blank\">Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Daily News</font>",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXpsYUNDeTU5WVAzZTJoY0RfOE9SUWpBSERxMDFtQmZoTXRpSkdhdXFfR3IzZ1JlVXZldEtWZVVWUkh0UVAzTHRBaDhkaFJrQjZ6ZTRUM0VXN2lsLVpVajB1blZrTzdncXlyelU4LTlwaVc2Z2J3VDh1Vmd4MUZGemRzWWlqYk5rRFhhVWlBUmY?oc=5",
@@ -22130,6 +22176,27 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
+      "id": "gi4tg2-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
+      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 2
     },
@@ -22174,27 +22241,6 @@
         "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 2
-    },
-    {
-      "id": "gi4tg2-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
-      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 1
     },
     {
       "id": "1he8fki-1joxsrd",
@@ -22259,7 +22305,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.271Z"
     },
     {
@@ -22646,9 +22692,9 @@
     },
     {
       "id": "1awjaqp-1k6th9l",
-      "title": "OneWheel Lawsuits Against Future Motion Claim That Skateboards Nosedived, Stopped Suddenly - aboutlawsuits.com",
-      "description": "OneWheel Lawsuits Against Future Motion Claim That Skateboards Nosedived, Stopped Suddenly aboutlawsuits.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQczl4SlNhLURZbUhOZjV3LWFQTDVyUmttYnZLUTY3ekhLQ2hBM2lncVJ5eXZNX0ZGd1VPR0doNnFyOXJpU3U3OERZc3VjbEcxMDF4RWdlRUEycWZzMTh6aE82N2FNNGNjakpoVGZRZjdleTNVcDd3a3RNNkZpcjQ1ZlFsU2dEUQ?oc=5\" target=\"_blank\">OneWheel Lawsuits Against Future Motion Claim That Skateboards Nosedived, Stopped Suddenly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">aboutlawsuits.com</font>",
+      "title": "OneWheel Lawsuits Against Future Motion Claim That Skateboards Nosedived, Stopped Suddenly - AboutLawsuits.com",
+      "description": "OneWheel Lawsuits Against Future Motion Claim That Skateboards Nosedived, Stopped Suddenly AboutLawsuits.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQczl4SlNhLURZbUhOZjV3LWFQTDVyUmttYnZLUTY3ekhLQ2hBM2lncVJ5eXZNX0ZGd1VPR0doNnFyOXJpU3U3OERZc3VjbEcxMDF4RWdlRUEycWZzMTh6aE82N2FNNGNjakpoVGZRZjdleTNVcDd3a3RNNkZpcjQ1ZlFsU2dEUQ?oc=5\" target=\"_blank\">OneWheel Lawsuits Against Future Motion Claim That Skateboards Nosedived, Stopped Suddenly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AboutLawsuits.com</font>",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQczl4SlNhLURZbUhOZjV3LWFQTDVyUmttYnZLUTY3ekhLQ2hBM2lncVJ5eXZNX0ZGd1VPR0doNnFyOXJpU3U3OERZc3VjbEcxMDF4RWdlRUEycWZzMTh6aE82N2FNNGNjakpoVGZRZjdleTNVcDd3a3RNNkZpcjQ1ZlFsU2dEUQ?oc=5",
       "publishedAt": "2023-09-14T07:00:00.000Z",
       "author": "",
@@ -24409,7 +24455,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.296Z"
     },
     {
@@ -24834,7 +24880,7 @@
     },
     {
       "id": "eqp1ks-1k6th9l",
-      "title": "Recall: Future Motion Onewheel Electric Skateboards - SGB Media Online",
+      "title": "Recall: Future Motion Onewheel Electric Skateboards - sgbonline.com",
       "description": "Recall: Future Motion Onewheel Electric Skateboards SGB Media Online",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE12VS1takxHLWdkMl9YTmVmcGlhNUZmak43bDcwRFVKckI2RTZwMzFHSEI3LVFuNm9TSVhSMW93YnlVQXZkTzlPbE5OVlZwcnhYTGNMN3BRZ3h1Y1ZFa2pXNGVmUTFqQ1pWeVgtWml2ZzV6YlhWNG5SS1BxYTZ4QQ?oc=5\" target=\"_blank\">Recall: Future Motion Onewheel Electric Skateboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SGB Media Online</font>",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12VS1takxHLWdkMl9YTmVmcGlhNUZmak43bDcwRFVKckI2RTZwMzFHSEI3LVFuNm9TSVhSMW93YnlVQXZkTzlPbE5OVlZwcnhYTGNMN3BRZ3h1Y1ZFa2pXNGVmUTFqQ1pWeVgtWml2ZzV6YlhWNG5SS1BxYTZ4QQ?oc=5",
@@ -24913,9 +24959,10 @@
       "deck": "news",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 3
     },
     {
       "id": "1froi56-1k6th9l",
@@ -25024,7 +25071,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.290Z"
     },
     {
@@ -25724,7 +25771,7 @@
     },
     {
       "id": "1fsa6f4-1k6th9l",
-      "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - gearjunkie.com",
+      "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - GearJunkie",
       "description": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5\" target=\"_blank\">Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5",
@@ -25741,7 +25788,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1wkah5o-1k6th9l",
@@ -26018,7 +26065,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.316Z"
     },
     {
@@ -26315,7 +26362,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.546Z"
     },
     {
@@ -26361,7 +26408,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.345Z"
     },
     {
@@ -26449,7 +26496,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.352Z"
     },
     {
@@ -27019,7 +27066,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.371Z"
     },
     {
@@ -27317,7 +27364,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.410Z"
     },
     {
@@ -28980,7 +29027,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.410Z"
     },
     {
@@ -29067,7 +29114,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.427Z"
     },
     {
@@ -29091,7 +29138,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.469Z"
     },
     {
@@ -29115,7 +29162,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.467Z"
     },
     {
@@ -29160,7 +29207,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.481Z"
     },
     {
@@ -29205,7 +29252,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.527Z"
     },
     {
@@ -29229,7 +29276,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.540Z"
     },
     {
@@ -29253,7 +29300,7 @@
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.539Z"
     },
     {
@@ -29868,6 +29915,27 @@
       "mergedItemCount": 1
     },
     {
+      "id": "1z0yhj7-1joxsrd",
+      "title": "onewheel + XR surpasses the range of its' original electric skateboard - Designboom",
+      "description": "onewheel + XR surpasses the range of its' original electric skateboard designboom.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcEplVHdMdG1LT0VFeXR5S1oyTnpQTUo2alptSmlQSnoycHBhUlNnOGcyOEpLT3RDcXRqNnhpVnZXZmVYQzY2OGxnSDZmM3JERHFRc0syREVMRWVObXA0cWlrSDFxX0xLTTN6OXFieURxeHpJQ2xJOFZvZnNBMWRnTkpEaTRzTW5t?oc=5\" target=\"_blank\">onewheel + XR surpasses the range of its' original electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">designboom.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcEplVHdMdG1LT0VFeXR5S1oyTnpQTUo2alptSmlQSnoycHBhUlNnOGcyOEpLT3RDcXRqNnhpVnZXZmVYQzY2OGxnSDZmM3JERHFRc0syREVMRWVObXA0cWlrSDFxX0xLTTN6OXFieURxeHpJQ2xJOFZvZnNBMWRnTkpEaTRzTW5t?oc=5",
+      "publishedAt": "2018-01-08T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "1cnckum-1k6th9l",
       "title": "Onewheel® Maker Future Motion Releases 12-18 Mile Extended Range Onewheel+ XR, a Game Changer for Transportation - PR Newswire",
       "description": "Onewheel® Maker Future Motion Releases 12-18 Mile Extended Range Onewheel+ XR, a Game Changer for Transportation PR Newswire",
@@ -29888,27 +29956,6 @@
         "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "1z0yhj7-1joxsrd",
-      "title": "onewheel + XR surpasses the range of its' original electric skateboard - Designboom",
-      "description": "onewheel + XR surpasses the range of its' original electric skateboard designboom.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcEplVHdMdG1LT0VFeXR5S1oyTnpQTUo2alptSmlQSnoycHBhUlNnOGcyOEpLT3RDcXRqNnhpVnZXZmVYQzY2OGxnSDZmM3JERHFRc0syREVMRWVObXA0cWlrSDFxX0xLTTN6OXFieURxeHpJQ2xJOFZvZnNBMWRnTkpEaTRzTW5t?oc=5\" target=\"_blank\">onewheel + XR surpasses the range of its' original electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">designboom.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcEplVHdMdG1LT0VFeXR5S1oyTnpQTUo2alptSmlQSnoycHBhUlNnOGcyOEpLT3RDcXRqNnhpVnZXZmVYQzY2OGxnSDZmM3JERHFRc0syREVMRWVObXA0cWlrSDFxX0xLTTN6OXFieURxeHpJQ2xJOFZvZnNBMWRnTkpEaTRzTW5t?oc=5",
-      "publishedAt": "2018-01-08T08:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "158whwq-1sz3l1i",
@@ -29950,7 +29997,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "9wkz5p-1joxsrd",
@@ -30857,7 +30904,7 @@
     },
     {
       "id": "dmof1k-1joxsrd",
-      "title": "Onewheel Electric Skateboard Review - businessinsider.com",
+      "title": "Onewheel Electric Skateboard Review - Business Insider",
       "description": "Onewheel Electric Skateboard Review businessinsider.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9kaTFVLUttdmdHd19oWUozTnJ3NzZVczhzaDd1Y0xfcnc2cDVCaDY1aUtvSERzSWdwQjZ3UXZISGJTMGlYWUw2X21kSl9zQTQwNTlOdFZjX2o5NzM4dWh5TXJHMlN4UVM0RExQaFVOcDdEZ3NCOG91a2JXZVZZZ1k?oc=5\" target=\"_blank\">Onewheel Electric Skateboard Review</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kaTFVLUttdmdHd19oWUozTnJ3NzZVczhzaDd1Y0xfcnc2cDVCaDY1aUtvSERzSWdwQjZ3UXZISGJTMGlYWUw2X21kSl9zQTQwNTlOdFZjX2o5NzM4dWh5TXJHMlN4UVM0RExQaFVOcDdEZ3NCOG91a2JXZVZZZ1k?oc=5",
@@ -30946,7 +30993,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 118,
-      "articleCount": 1313
+      "articleCount": 1315
     },
     {
       "id": "onewheel",
@@ -30960,7 +31007,7 @@
       "title": "Onewheel news + blogs",
       "url": "/feeds/news.xml",
       "sourceCount": 13,
-      "articleCount": 280
+      "articleCount": 281
     },
     {
       "id": "video",
@@ -30988,7 +31035,7 @@
       "title": "Community pulse",
       "url": "/feeds/community.xml",
       "sourceCount": 13,
-      "articleCount": 228
+      "articleCount": 229
     }
   ]
 }
