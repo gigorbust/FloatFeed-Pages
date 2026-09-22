@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-22T11:43:17.905Z",
+  "generatedAt": "2026-09-22T17:01:41.227Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 242,
-    "archiveArticles": 1078
+    "archiveArticles": 1079
   },
   "decks": [
     {
@@ -12,9 +12,9 @@
       "shortTitle": "Latest",
       "color": "#111827",
       "description": "Current Onewheel-community stories across every publishing topic.",
-      "sourceCount": 118,
-      "feedSourceCount": 117,
-      "articleCount": 1320,
+      "sourceCount": 117,
+      "feedSourceCount": 116,
+      "articleCount": 1321,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 564,
+      "articleCount": 565,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -56,8 +56,8 @@
       "shortTitle": "Gear",
       "color": "#ff7a18",
       "description": "Products, shops, brands, accessories, and commerce sources.",
-      "sourceCount": 9,
-      "feedSourceCount": 9,
+      "sourceCount": 8,
+      "feedSourceCount": 8,
       "articleCount": 102,
       "rssUrl": "/feeds/gear.xml"
     },
@@ -112,7 +112,7 @@
       "title": "onewheel Reddit Alert (Relevance search)",
       "displayName": "onewheel Reddit Alert (Relevance search)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/search/?q=onewheel&type=link&sort=relevance",
+      "siteUrl": "https://www.reddit.com/search?q=onewheel&sort=relevance&type=link",
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "deck": "community",
       "kind": "social",
@@ -121,13 +121,13 @@
       "articleCount": 31,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "auth_or_robots_block",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "popular-topics-li2s6i",
@@ -275,7 +275,7 @@
       "articleCount": 7,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "auth_or_robots_block",
+        "endpoint": "rate_limited",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -385,13 +385,13 @@
       "articleCount": 2,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "floatershack-com-3pgpk9",
@@ -426,29 +426,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 49,
-      "sourceStatus": {
-        "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
-        "content": "nonempty",
-        "directoryOnly": false
-      },
-      "fetchStatus": "cached_fallback"
-    },
-    {
-      "id": "one-stop-board-shop-li8l0j",
-      "title": "One Stop Board Shop (Osbs Yard Sale)",
-      "displayName": "One Stop Board Shop (Osbs Yard Sale)",
-      "domain": "onestopboardshop.com",
-      "siteUrl": "https://onestopboardshop.com/collections/all",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
-      "deck": "gear",
-      "kind": "feed",
-      "sourcePlatform": "Publisher",
-      "hasFeed": true,
-      "articleCount": 16,
+      "articleCount": 65,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -495,13 +473,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "sharky-shred-shop-products-7ja3ks",
@@ -517,18 +495,18 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "title": "The Float Life - News (News)",
-      "displayName": "The Float Life - News (News)",
+      "title": "The Float Life - News",
+      "displayName": "The Float Life - News",
       "domain": "thefloatlife.com",
       "siteUrl": "https://thefloatlife.com/blogs/news",
       "feedUrl": "https://thefloatlife.com/blogs/news.atom",
@@ -979,13 +957,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "gnar-park-1qf3twg",
@@ -1001,13 +979,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "medium-onewheel-tygkxu",
@@ -1055,8 +1033,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1067,18 +1045,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "title": "Onewheel Tips Archives - The Sideways Movement",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1089,13 +1067,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1155,13 +1133,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -1169,7 +1147,7 @@
       "displayName": "uneroo.fr",
       "domain": "uneroo.fr",
       "siteUrl": "https://uneroo.fr/",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1177,13 +1155,13 @@
       "articleCount": 20,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "auth_or_robots_block",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "articles-the-board-garage-1nw0n7w",
@@ -1724,7 +1702,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 14,
+      "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2684,6 +2662,27 @@
   ],
   "articles": [
     {
+      "id": "1q5d2gk-i2nlxd",
+      "title": "Travis Tatum on Floatwheel ATOM!",
+      "description": "Follow this legend on IG @travistatum3",
+      "contentHtml": "<p>Follow this legend on IG @travistatum3</p>",
+      "url": "https://www.youtube.com/shorts/wRl8ugxvHPM",
+      "publishedAt": "2026-09-22T15:08:54.000Z",
+      "author": "floatwheel",
+      "videoId": "wRl8ugxvHPM",
+      "image": "https://i4.ytimg.com/vi/wRl8ugxvHPM/hqdefault.jpg",
+      "sourceId": "floatwheel-youtube-feed-1uorzzz",
+      "source": "floatwheel",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg",
+      "duplicateSourceIds": [
+        "floatwheel-youtube-feed-1uorzzz"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "1s9kxiw-1mfabo8",
       "title": "And that’s pretty darn close 🤩 #onewheel #happiness #joy",
       "description": "",
@@ -2702,7 +2701,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "r1buge-i2nlxd",
@@ -2723,7 +2722,7 @@
       "duplicateSourceIds": [
         "floatwheel-youtube-feed-1uorzzz"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "vhzd9s-1gekltp",
@@ -8538,9 +8537,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -8890,9 +8890,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -8938,7 +8939,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -8962,7 +8964,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -9469,7 +9472,7 @@
     },
     {
       "id": "10rlc7q-1joxsrd",
-      "title": "The Onewheel Shoe!?! - eventsantacruz.com",
+      "title": "The Onewheel Shoe!?! - Event Santa Cruz",
       "description": "The Onewheel Shoe!?! eventsantacruz.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PQ0tScHIzZGRBRmJjX2Uzakx3SUgzdWtnQU05UVgyX3RnSjNZLUNhZk8tRjhJNWZqSUlSbDNPOWdyYnR0QU1iN1ZDdUZXQU5RN01Dc2FOd21waUhkbHc?oc=5\" target=\"_blank\">The Onewheel Shoe!?!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eventsantacruz.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PQ0tScHIzZGRBRmJjX2Uzakx3SUgzdWtnQU05UVgyX3RnSjNZLUNhZk8tRjhJNWZqSUlSbDNPOWdyYnR0QU1iN1ZDdUZXQU5RN01Dc2FOd21waUhkbHc?oc=5",
@@ -9543,7 +9546,7 @@
       "videoId": "",
       "image": "",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -9635,9 +9638,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -9923,9 +9927,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -10318,9 +10323,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -10406,9 +10412,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -10736,7 +10743,7 @@
     },
     {
       "id": "1lf6xwe-1k6th9l",
-      "title": "OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies - gearjunkie.com",
+      "title": "OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies - GearJunkie",
       "description": "OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ra0F3Nmc4U09iMHdzTHROS25Gd1RQTDkyRmlERzFpbHA0TmhTaTVhNFpyaGV3UnZqdW5hRDlHdFFlY2FjNVNhc1JCR1J3bnBTdkpSaWtuSGY0dzVJT1pr?oc=5\" target=\"_blank\">OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ra0F3Nmc4U09iMHdzTHROS25Gd1RQTDkyRmlERzFpbHA0TmhTaTVhNFpyaGV3UnZqdW5hRDlHdFFlY2FjNVNhc1JCR1J3bnBTdkpSaWtuSGY0dzVJT1pr?oc=5",
@@ -10768,7 +10775,7 @@
       "videoId": "",
       "image": "",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -12131,7 +12138,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -12330,7 +12338,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -12474,16 +12483,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/4_21032d35-9bdc-48fa-8715-a4e6650b1584.png?v=1730231162",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "1mwte8g-1p4alnb",
@@ -12527,7 +12540,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -12689,7 +12703,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -12797,7 +12812,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -12882,9 +12898,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -12993,7 +13010,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -13017,7 +13035,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -13041,7 +13060,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -13065,7 +13085,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -13174,7 +13195,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -13294,16 +13315,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/1_1e88498b-2d0e-4d5c-bebc-d297a79b06aa.png?v=1747326491",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "a8rg3d-1nc2r0w",
@@ -13507,16 +13532,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/1_4d72d08d-7e83-4971-ae4d-4d709d5bf42f.png?v=1747321311",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "wm5kgl-1wp04f0",
@@ -13528,16 +13557,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/1_87dc1674-0096-477f-9671-6c78c8c541a9.png?v=1747243222",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "v6tn0h-1wp04f0",
@@ -13549,16 +13582,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/1_a92bf67e-74c5-4048-94ea-9e3e9338ee08.png?v=1747246534",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "252pgv-1wp04f0",
@@ -13570,16 +13607,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/HoosierTreadMotor.png?v=1747241789",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "1devq41-80t4ep",
@@ -14652,9 +14693,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -14754,7 +14796,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -14762,7 +14804,9 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq"
+        "the-sideways-movement-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
     },
@@ -14807,7 +14851,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -14852,7 +14897,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -14897,7 +14943,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -14921,7 +14968,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -14945,7 +14993,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -14969,7 +15018,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -14993,7 +15043,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15017,7 +15068,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15041,7 +15093,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15065,7 +15118,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15089,7 +15143,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15113,7 +15168,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15137,7 +15193,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15161,7 +15218,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15185,7 +15243,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15331,7 +15390,7 @@
       "videoId": "",
       "image": "",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -15383,7 +15442,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15407,7 +15467,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15431,7 +15492,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15445,16 +15507,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/1_9eb0bc8e-4bc3-4589-b952-8327ef982d08.png?v=1736871488",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "plpcwq-myob2c",
@@ -15476,7 +15542,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15498,7 +15565,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -15607,7 +15674,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15652,7 +15720,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15676,7 +15745,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15721,7 +15791,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15745,7 +15816,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15769,7 +15841,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15793,7 +15866,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15839,7 +15913,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15908,7 +15983,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15932,7 +16008,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -15959,7 +16036,7 @@
     },
     {
       "id": "1jwhj4q-1joxsrd",
-      "title": "OneWheel Pint S Review: The Good, the Bad, and the Crashy - gearjunkie.com",
+      "title": "OneWheel Pint S Review: The Good, the Bad, and the Crashy - GearJunkie",
       "description": "OneWheel Pint S Review: The Good, the Bad, and the Crashy gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DZ1RrUnhMcFI4UkZ3MVNGMy1wa2ltNGVLTEp6WEhzdU52S1hpTEltaVRJLUI0b1EzT1lpOVFUQjdQNHByTlA5UFZhT1duWk4wRGU1M0xoX3B4SWw2MEE?oc=5\" target=\"_blank\">OneWheel Pint S Review: The Good, the Bad, and the Crashy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DZ1RrUnhMcFI4UkZ3MVNGMy1wa2ltNGVLTEp6WEhzdU52S1hpTEltaVRJLUI0b1EzT1lpOVFUQjdQNHByTlA5UFZhT1duWk4wRGU1M0xoX3B4SWw2MEE?oc=5",
@@ -15999,7 +16076,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -16308,7 +16386,7 @@
     },
     {
       "id": "k2uu6j-1k6th9l",
-      "title": "Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupidDOPE",
+      "title": "Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupiddope.com",
       "description": "Future Motion Revives the Onewheel XR Classic with Modern Upgrades stupiddope.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VBWTBDN0prOFJuNU9GbFQ3R093WGtDcFF3cGJvVFdmbzBPQXRZXzFHa1NSUld6c3MtRGt6VEtZU2g4d1NESW1QUDF5eXlyQzExdFBGYXduQkxHTTdEUTJ0MUVUZFBrRU1MNlVHd1lUU3JOT0FRcDNQSTlOckxJS09MRUpCc3ZZUEkzd0lfcTdFTE1maW9KeWw4amxVbGc?oc=5\" target=\"_blank\">Future Motion Revives the Onewheel XR Classic with Modern Upgrades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">stupiddope.com</font>",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VBWTBDN0prOFJuNU9GbFQ3R093WGtDcFF3cGJvVFdmbzBPQXRZXzFHa1NSUld6c3MtRGt6VEtZU2g4d1NESW1QUDF5eXlyQzExdFBGYXduQkxHTTdEUTJ0MUVUZFBrRU1MNlVHd1lUU3JOT0FRcDNQSTlOckxJS09MRUpCc3ZZUEkzd0lfcTdFTE1maW9KeWw4amxVbGc?oc=5",
@@ -16601,7 +16679,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -16710,7 +16789,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -16755,7 +16835,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -16842,7 +16923,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -16986,16 +17068,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/6_979936d8-5e27-47f7-ac3c-04568d4a7a41.png?v=1727721269",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "6zb69v-myob2c",
@@ -17017,7 +17103,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -17032,7 +17119,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -17117,16 +17204,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/gtfenderyellow.png?v=1727203020",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "qclmt4-1wp04f0",
@@ -17138,16 +17229,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/gtfenderyellow.png?v=1727203020",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "1xxdb75-myob2c",
@@ -17169,7 +17264,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -17193,7 +17289,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -17514,7 +17611,7 @@
     },
     {
       "id": "9yg664-1k6th9l",
-      "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - eventsantacruz.com",
+      "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - Event Santa Cruz",
       "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire eventsantacruz.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWhHQ1doWXJvcVQtLWVOeUkwVVB6c1htYmdmWmJIZzRyUmZVeVFJa2tja3hKNGFubWFvZmpnTWxHaS1tTW40eWRid01mLXFhMjhET001bzU1ZnBnLWhGV2FubS13ZGpqTFBHbk5NTkZCOGp5RkNJT1RaVXRwdEFSRXh1aUxUaVpoSzItMjhBTnJWUGpDTkFGY3JmQkxGZnpEOTBuOG85X1cxMXIwT1k4amRYYmJ5di1Zc1pNZE5FeElsSG5xcktwQmZjQV9PdWtVX3pGY0lRc3VxVUtCb2pqVjdfZw?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eventsantacruz.com</font>",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWhHQ1doWXJvcVQtLWVOeUkwVVB6c1htYmdmWmJIZzRyUmZVeVFJa2tja3hKNGFubWFvZmpnTWxHaS1tTW40eWRid01mLXFhMjhET001bzU1ZnBnLWhGV2FubS13ZGpqTFBHbk5NTkZCOGp5RkNJT1RaVXRwdEFSRXh1aUxUaVpoSzItMjhBTnJWUGpDTkFGY3JmQkxGZnpEOTBuOG85X1cxMXIwT1k4amRYYmJ5di1Zc1pNZE5FeElsSG5xcktwQmZjQV9PdWtVX3pGY0lRc3VxVUtCb2pqVjdfZw?oc=5",
@@ -17687,7 +17784,8 @@
         "one-stop-board-shop-blog-bw9l5y",
         "blog-bw9l5y",
         "one-stop-board-shop-bw9l5y",
-        "one-stop-board-shop-1j2yvf6"
+        "one-stop-board-shop-1j2yvf6",
+        "one-stop-board-shop-li8l0j"
       ],
       "mergedItemCount": 5
     },
@@ -17863,9 +17961,9 @@
     },
     {
       "id": "1fjkqbm-1joxsrd",
-      "title": "Sky Tavern to host Onewheel race - Tahoe Daily Tribune",
-      "description": "Sky Tavern to host Onewheel race Tahoe Daily Tribune",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5\" target=\"_blank\">Sky Tavern to host Onewheel race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tahoe Daily Tribune</font>",
+      "title": "Sky Tavern to host Onewheel race - tahoedailytribune.com",
+      "description": "Sky Tavern to host Onewheel race tahoedailytribune.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5\" target=\"_blank\">Sky Tavern to host Onewheel race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tahoedailytribune.com</font>",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5",
       "publishedAt": "2024-08-16T07:00:00.000Z",
       "author": "",
@@ -17929,7 +18027,7 @@
     },
     {
       "id": "11agc5e-1joxsrd",
-      "title": "Onewheel Makes A Splash With World’s First Rideable Sandcastle Course - eventsantacruz.com",
+      "title": "Onewheel Makes A Splash With World’s First Rideable Sandcastle Course - Event Santa Cruz",
       "description": "Onewheel Makes A Splash With World’s First Rideable Sandcastle Course eventsantacruz.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTi1iZHNTMFZnU0p3TXdxUTJzX1A4R1hjSEU0dU93RHphempsTm5JQTJHZUdoRE5zN0hJOExteFBXTF9UTF9YTV9leXJsd3c2Qk5IdzJwXzhFMmdqQkx6bkpiSkdmUHVUUEFCMWZ4UnBYWTc0YlpnSnl5UGw0OEpjT0FublNITFJ2cGlTU0dCemJZWi1aZTFvcHhMUi0xQ3pla0E?oc=5\" target=\"_blank\">Onewheel Makes A Splash With World’s First Rideable Sandcastle Course</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eventsantacruz.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTi1iZHNTMFZnU0p3TXdxUTJzX1A4R1hjSEU0dU93RHphempsTm5JQTJHZUdoRE5zN0hJOExteFBXTF9UTF9YTV9leXJsd3c2Qk5IdzJwXzhFMmdqQkx6bkpiSkdmUHVUUEFCMWZ4UnBYWTc0YlpnSnl5UGw0OEpjT0FublNITFJ2cGlTU0dCemJZWi1aZTFvcHhMUi0xQ3pla0E?oc=5",
@@ -18214,7 +18312,7 @@
     },
     {
       "id": "1x6eolf-1joxsrd",
-      "title": "This Guy Made a Surf Winch Out of a OneWheel - The Inertia",
+      "title": "This Guy Made a Surf Winch Out of a OneWheel - theinertia.com",
       "description": "This Guy Made a Surf Winch Out of a OneWheel theinertia.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVl3cndrVVVjV09uUU1oNldsV2dyY0ZwOHpYaFl0WmVTZU1FUUZ3MW5sUUdZbmJHbHltU1NZN0NMTGJCcS1NeWttSzdURHFtZU5aMVlNR05uejh6bmhZNTNERnI4bGQ3djd4VFRNLWZxSlV4WXRTbkZyU2hzcTI0V3g0Y3FUY1V2ZFYwX2hZWQ?oc=5\" target=\"_blank\">This Guy Made a Surf Winch Out of a OneWheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theinertia.com</font>",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRVl3cndrVVVjV09uUU1oNldsV2dyY0ZwOHpYaFl0WmVTZU1FUUZ3MW5sUUdZbmJHbHltU1NZN0NMTGJCcS1NeWttSzdURHFtZU5aMVlNR05uejh6bmhZNTNERnI4bGQ3djd4VFRNLWZxSlV4WXRTbkZyU2hzcTI0V3g0Y3FUY1V2ZFYwX2hZWQ?oc=5",
@@ -18821,16 +18919,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/3dway.png?v=1712855765",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "15t4pw5-1t4x78b",
@@ -18885,7 +18987,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/files/gtkushlo3-1024x1024-65b1484c4d887_9a9f3737-aa1e-4425-a245-3a1e3eb98f96.jpg?v=1707278428",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -19035,16 +19137,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/1_ffbfd09e-5b5a-445c-b27a-b99b20a28a16.png?v=1710795578",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "s02yvq-1ed9y4n",
@@ -19057,7 +19163,7 @@
       "videoId": "",
       "image": "",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -19141,16 +19247,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/Waterproofingmaterials.png?v=1709831424",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "zwbrtk-1t4x78b",
@@ -19290,7 +19400,7 @@
       "videoId": "",
       "image": "",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -19905,7 +20015,7 @@
       "videoId": "",
       "image": "https://thefloatlife.com/blogs/news/maintaining-your-onewheel-this-winter",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -19931,9 +20041,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -20011,16 +20122,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/fastcharger.webp?v=1705589379",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "11nhd23-1gvr04s",
@@ -20668,7 +20783,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-12-11-215602-1702349854291_1000x.png?v=1702349855",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -21117,9 +21232,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -21246,9 +21362,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -21297,7 +21414,7 @@
     },
     {
       "id": "1g7j20t-1joxsrd",
-      "title": "Onewheel GT S-Series Adds Some Giddyup to Your Land Shredding - gearjunkie.com",
+      "title": "Onewheel GT S-Series Adds Some Giddyup to Your Land Shredding - GearJunkie",
       "description": "Onewheel GT S-Series Adds Some Giddyup to Your Land Shredding gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9INHNmSG93SU9BTEUyQ1pvZWFBb3BiS0dTbXV4b0VrUnZNREJuMWxFX3ZsbG9IcFB5WThwVnN3dEJiWjRsaTBzTE9RN0dnbUlPaUZIa1hYQmFLWGdPejAycnNiQkVSczdXLTRHZUs4akV3Mklo?oc=5\" target=\"_blank\">Onewheel GT S-Series Adds Some Giddyup to Your Land Shredding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9INHNmSG93SU9BTEUyQ1pvZWFBb3BiS0dTbXV4b0VrUnZNREJuMWxFX3ZsbG9IcFB5WThwVnN3dEJiWjRsaTBzTE9RN0dnbUlPaUZIa1hYQmFLWGdPejAycnNiQkVSczdXLTRHZUs4akV3Mklo?oc=5",
@@ -21417,9 +21534,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -21477,7 +21595,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/847pdh-1699142151128.jpg?v=1699142151",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -21684,7 +21802,7 @@
     },
     {
       "id": "1r9x66t-1joxsrd",
-      "title": "Onewheel follows up its massive recall with a new $3,200 board for “pros” - theverge.com",
+      "title": "Onewheel follows up its massive recall with a new $3,200 board for “pros” - The Verge",
       "description": "Onewheel follows up its massive recall with a new $3,200 board for “pros” theverge.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQNjVnZ2JjNlUwWEhoNXJBOUtKeXdoOHN2aDNMcV9QSVFseHJsQ29wZWRQUXVWZHFjcF9wSl9tUnNIUk00TXNUS09MOEwxTE5GM2JaSXRGcWdfQm9SVVdKQlFVNGJ0UmJweWpFMzBhbXlSZDFPUkVTT052WHVkUDgwM0hTX0pKSVBQQWhqMjJCV0tncEgwOW5iZXlR?oc=5\" target=\"_blank\">Onewheel follows up its massive recall with a new $3,200 board for “pros”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNjVnZ2JjNlUwWEhoNXJBOUtKeXdoOHN2aDNMcV9QSVFseHJsQ29wZWRQUXVWZHFjcF9wSl9tUnNIUk00TXNUS09MOEwxTE5GM2JaSXRGcWdfQm9SVVdKQlFVNGJ0UmJweWpFMzBhbXlSZDFPUkVTT052WHVkUDgwM0hTX0pKSVBQQWhqMjJCV0tncEgwOW5iZXlR?oc=5",
@@ -21759,7 +21877,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-10-24-at-9.18.45-am-1698164334514.png?v=1698164335",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -21772,7 +21890,7 @@
     },
     {
       "id": "1qnx9s5-1joxsrd",
-      "title": "Florida Man Sues Over Serious Fall From Recalled Onewheel Skateboard - Consumer Notice",
+      "title": "Florida Man Sues Over Serious Fall From Recalled Onewheel Skateboard - consumernotice.org",
       "description": "Florida Man Sues Over Serious Fall From Recalled Onewheel Skateboard consumernotice.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9RWkRIM0VkbFhPVHNlLWFXczRGMG5CdllXQzg4czVyWXRpMlZSeEdGTk5vSzNZVmt6X0llN2t2ckZtMTJYZFNUSWJKWDFUaXhHdXhYMzRUX3BqVUpKS29GOXNDdEppYmpGNG1McDZxQkhBSGpnV0FpdkJKV3E?oc=5\" target=\"_blank\">Florida Man Sues Over Serious Fall From Recalled Onewheel Skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">consumernotice.org</font>",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RWkRIM0VkbFhPVHNlLWFXczRGMG5CdllXQzg4czVyWXRpMlZSeEdGTk5vSzNZVmt6X0llN2t2ckZtMTJYZFNUSWJKWDFUaXhHdXhYMzRUX3BqVUpKS29GOXNDdEppYmpGNG1McDZxQkhBSGpnV0FpdkJKV3E?oc=5",
@@ -21794,7 +21912,7 @@
     },
     {
       "id": "1ubxkha-1k6th9l",
-      "title": "Onewheel Skateboards Recalled 10 Months After CPSC Warnings - Consumer Notice",
+      "title": "Onewheel Skateboards Recalled 10 Months After CPSC Warnings - consumernotice.org",
       "description": "Onewheel Skateboards Recalled 10 Months After CPSC Warnings consumernotice.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNMndWTGV1Uk1ua2l4S3hUck5FWnpEUVJpdUdtMzNQMV9KTG9KQ29EMU9pX1VGVk91Mm8xZHVKZnNvaEZsTW11b21MZlYzRXZlQzA0Y2NPMFluSTlORjFPbkhoUG53SHpJTlNmWFh2VC1GNTBCWnluQW5Cd29CQm1fd184S2I2QW1RS1pTZlA2SQ?oc=5\" target=\"_blank\">Onewheel Skateboards Recalled 10 Months After CPSC Warnings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">consumernotice.org</font>",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMndWTGV1Uk1ua2l4S3hUck5FWnpEUVJpdUdtMzNQMV9KTG9KQ29EMU9pX1VGVk91Mm8xZHVKZnNvaEZsTW11b21MZlYzRXZlQzA0Y2NPMFluSTlORjFPbkhoUG53SHpJTlNmWFh2VC1GNTBCWnluQW5Cd29CQm1fd184S2I2QW1RS1pTZlA2SQ?oc=5",
@@ -21868,16 +21986,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/chargerbag.png?v=1696349280",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "slx6gh-1wp04f0",
@@ -21889,16 +22011,20 @@
       "author": "",
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0641/2756/6083/files/xrfender.png?v=1705869334",
-      "sourceId": "one-stop-board-shop-li8l0j",
-      "source": "One Stop Board Shop (Osbs Yard Sale)",
+      "sourceId": "one-stop-board-shop-blog-bw9l5y",
+      "source": "One Stop Board Shop - Blog",
       "sourceDomain": "onestopboardshop.com",
       "sourceKind": "feed",
       "deck": "gear",
-      "feedUrl": "https://onestopboardshop.com/collections/osbs-yard-sale.atom",
+      "feedUrl": "https://onestopboardshop.com/blogs/news.atom",
       "duplicateSourceIds": [
+        "one-stop-board-shop-blog-bw9l5y",
+        "blog-bw9l5y",
+        "one-stop-board-shop-bw9l5y",
+        "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-li8l0j"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 5
     },
     {
       "id": "m7qx2v-1k6th9l",
@@ -22056,7 +22182,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "i89pfl-1k6th9l",
+      "id": "i89pfl-1joxsrd",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5\" target=\"_blank\">What Happed With the Onewheel Recall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">riderguide.com</font>",
@@ -22065,16 +22191,16 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -22299,7 +22425,7 @@
     },
     {
       "id": "1sgb6iw-1k6th9l",
-      "title": "Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported - usatoday.com",
+      "title": "Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported - USA Today",
       "description": "Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported usatoday.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTBIZ1NUb2liUkp3M2ptM2Z2WURQZjIwZmdBeGRmTmRiWE1GNFdUMTdWZ2U1VlZZX2M0UU5iOWVIVlFoaXpZUkV4eFh0bmxXNnR1WE9lRDBWSDJHazJidkYybzBaM2o1ai00LTV5OVl2b1E4WVY2WXJ3NjlyR2dRZjBtV1JObDV3azBqZWktdExVQW1xR05YeFBsdHRPXzA3bml2Z25wZURnOGxDamZUSU53?oc=5\" target=\"_blank\">Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">usatoday.com</font>",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTBIZ1NUb2liUkp3M2ptM2Z2WURQZjIwZmdBeGRmTmRiWE1GNFdUMTdWZ2U1VlZZX2M0UU5iOWVIVlFoaXpZUkV4eFh0bmxXNnR1WE9lRDBWSDJHazJidkYybzBaM2o1ai00LTV5OVl2b1E4WVY2WXJ3NjlyR2dRZjBtV1JObDV3azBqZWktdExVQW1xR05YeFBsdHRPXzA3bml2Z25wZURnOGxDamZUSU53?oc=5",
@@ -22343,7 +22469,7 @@
     },
     {
       "id": "1pzkrxv-1k6th9l",
-      "title": "Every Onewheel Recalled: 4 Deaths Reported - gearjunkie.com",
+      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
       "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
@@ -22363,27 +22489,6 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "1qjtm5r-1k6th9l",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - nypost.com",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "1u779ba-1k6th9l",
@@ -22409,8 +22514,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1qjtm5r-1k6th9l",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "q76wz5-1k6th9l",
-      "title": "All Onewheel electric skateboards are under recall after 4 deaths and serious injury reports - Boston Herald",
+      "title": "All Onewheel electric skateboards are under recall after 4 deaths and serious injury reports - bostonherald.com",
       "description": "All Onewheel electric skateboards are under recall after 4 deaths and serious injury reports bostonherald.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNSk5QZDh2S3dJaWd5STJVNmpSaElURjJxQzN5TTdUTzR3UDRWZHpjcXdvTHI5akk3NkNDa0cydTZyb012enpsOE5nQlF6Y2NNMHRzMXE2N09tekxfM1I3U0NuMzhucEtLVDFoUDRWRFNIOVZUZG5ZYXEwN0Rmc2FkcEJla205SThIZS02UC1jdEE5YmZZWm5qQkVRSEFSSXRZc0xYSFlWQjlXZmNhTmk5OERNOGlUaHdTT21aNzM2ZDZBQUxOS1VTMnY1d1Vydw?oc=5\" target=\"_blank\">All Onewheel electric skateboards are under recall after 4 deaths and serious injury reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bostonherald.com</font>",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSk5QZDh2S3dJaWd5STJVNmpSaElURjJxQzN5TTdUTzR3UDRWZHpjcXdvTHI5akk3NkNDa0cydTZyb012enpsOE5nQlF6Y2NNMHRzMXE2N09tekxfM1I3U0NuMzhucEtLVDFoUDRWRFNIOVZUZG5ZYXEwN0Rmc2FkcEJla205SThIZS02UC1jdEE5YmZZWm5qQkVRSEFSSXRZc0xYSFlWQjlXZmNhTmk5OERNOGlUaHdTT21aNzM2ZDZBQUxOS1VTMnY1d1Vydw?oc=5",
@@ -22598,9 +22724,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -23009,7 +23136,7 @@
     },
     {
       "id": "1c40e9v-1k6th9l",
-      "title": "Every single Onewheel is being recalled after four deaths - theverge.com",
+      "title": "Every single Onewheel is being recalled after four deaths - The Verge",
       "description": "Every single Onewheel is being recalled after four deaths theverge.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3drSHJDc1l0ZWV5MkprdHpmdHUyck9Tbl96UW5kR1NsMzZ2RVdIbWJUaUN0ZW81Tlh2akxZNWQ5clFpWXN0elRsWE1fMTBFVDFHWDFnSlVjTm95QnUtUnp1Nl9OS3otTVBRR2F4WTZHTkdvNk4xNmZMLU5MeHBxTHM4Z2llM3hIbDVnekRSaWUzMV9G?oc=5\" target=\"_blank\">Every single Onewheel is being recalled after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3drSHJDc1l0ZWV5MkprdHpmdHUyck9Tbl96UW5kR1NsMzZ2RVdIbWJUaUN0ZW81Tlh2akxZNWQ5clFpWXN0elRsWE1fMTBFVDFHWDFnSlVjTm95QnUtUnp1Nl9OS3otTVBRR2F4WTZHTkdvNk4xNmZMLU5MeHBxTHM4Z2llM3hIbDVnekRSaWUzMV9G?oc=5",
@@ -23785,7 +23912,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/mqdefault-1689714751113.webp?v=1689714751",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -23807,7 +23934,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-07-18-at-3.57.18-pm-1689721050051_1000x.png?v=1689721051",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -23829,7 +23956,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-07-18-at-2.55.27-pm-1689717340262_1000x.png?v=1689717341",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -23872,7 +23999,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/7.11.23-5-ways-footpad-copy-1689202826929.jpg?v=1689202828",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -23894,7 +24021,7 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/viewimage_hero-1689197135210_1000x.jpg?v=1689197136",
       "sourceId": "the-float-life-onewheel-parts-and-accessories-9r5a3r",
-      "source": "The Float Life - News (News)",
+      "source": "The Float Life - News",
       "sourceDomain": "thefloatlife.com",
       "sourceKind": "feed",
       "deck": "gear",
@@ -24355,7 +24482,7 @@
     },
     {
       "id": "62iodo-1k6th9l",
-      "title": "Onewheel Lawsuit - Consumer Notice",
+      "title": "Onewheel Lawsuit - consumernotice.org",
       "description": "Onewheel Lawsuit consumernotice.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vLTcwMXp3RUZwSk5yVDJtQVRQa3NVdG5xejNpMTRlQkZySF85dE9LYndocmZKSGdwYkM5d2loWEl1Rm1tek1ZTlRwR2U2X0ZiNEV3bTlXMXVoZDBsVk41bGlOaEk?oc=5\" target=\"_blank\">Onewheel Lawsuit</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">consumernotice.org</font>",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vLTcwMXp3RUZwSk5yVDJtQVRQa3NVdG5xejNpMTRlQkZySF85dE9LYndocmZKSGdwYkM5d2loWEl1Rm1tek1ZTlRwR2U2X0ZiNEV3bTlXMXVoZDBsVk41bGlOaEk?oc=5",
@@ -24433,9 +24560,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -24895,7 +25023,7 @@
     },
     {
       "id": "mwrurs-1joxsrd",
-      "title": "Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth? - cleantechnica.com",
+      "title": "Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth? - CleanTechnica",
       "description": "Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth? cleantechnica.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0gyWWZyNXBOYlVjWUZINk1TSVhfLUNyS2hOazY2ZGNPSmlkSElIb2ZYUGtYbnp1RngySzU1eU50cW5UUkpCX2xWbGhwaHdXbHlYTzFrZVRjd2dreVdRcVY4YXVRd0R1R2ZlaW04X1BIZnJrajVqd0Z1V01xdUVmckx5aFN3cW1Sd2R1QVBsclRja1dRZ1hlSFNfZVctdDdMNWlZ?oc=5\" target=\"_blank\">Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cleantechnica.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0gyWWZyNXBOYlVjWUZINk1TSVhfLUNyS2hOazY2ZGNPSmlkSElIb2ZYUGtYbnp1RngySzU1eU50cW5UUkpCX2xWbGhwaHdXbHlYTzFrZVRjd2dreVdRcVY4YXVRd0R1R2ZlaW04X1BIZnJrajVqd0Z1V01xdUVmckx5aFN3cW1Sd2R1QVBsclRja1dRZ1hlSFNfZVctdDdMNWlZ?oc=5",
@@ -25310,7 +25438,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -25336,9 +25464,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -25431,7 +25560,7 @@
     },
     {
       "id": "1wrlarj-1k6th9l",
-      "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - mercurynews.com",
+      "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - The Mercury News",
       "description": "Federal regulator issues warning for Santa Cruz-based Onewheel The Mercury News",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNelJQd1Fha2taTE0xVXFnN2hXUUZ3VHhTQTRzQnA3a1hzemx6TjRIZEN6Q3U4Vk4zejdtUm5PTmo3X0NWem1PRW5FV05fX1pmWUl3VURHbWlYcHFZTnVGSlZzT0VDTlFxMGxTZ0o0TzdfUUp6SVVGLVRZb254cTZsbjhzZVZZRWtvYVdnblFGLTVSVUtMLXRYT0ZocWpqNVFyR0pubtIBqgFBVV95cUxOU3Jza1BlWEUxd3dWNVhJbC1xeC12SXlVZGU4SFkzaFh1SDN5QnpPX1EzVDlKQmFKaThCQno2ZjFYSzBYdDZ6V1hpcTJFY1Rxd193Z0NUekhhamFYRkd2cHhicUM3S2k3cWRXR0REU1R4YjFlWk80MkEyWDc5VE1Nc0VFM0J6a0xBZnFsMjMyTXRHYXAxVFAzV1VPVkZvSWpIZm4xekR4ekVkQQ?oc=5\" target=\"_blank\">Federal regulator issues warning for Santa Cruz-based Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mercury News</font>",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNelJQd1Fha2taTE0xVXFnN2hXUUZ3VHhTQTRzQnA3a1hzemx6TjRIZEN6Q3U4Vk4zejdtUm5PTmo3X0NWem1PRW5FV05fX1pmWUl3VURHbWlYcHFZTnVGSlZzT0VDTlFxMGxTZ0o0TzdfUUp6SVVGLVRZb254cTZsbjhzZVZZRWtvYVdnblFGLTVSVUtMLXRYT0ZocWpqNVFyR0pubtIBqgFBVV95cUxOU3Jza1BlWEUxd3dWNVhJbC1xeC12SXlVZGU4SFkzaFh1SDN5QnpPX1EzVDlKQmFKaThCQno2ZjFYSzBYdDZ6V1hpcTJFY1Rxd193Z0NUekhhamFYRkd2cHhicUM3S2k3cWRXR0REU1R4YjFlWk80MkEyWDc5VE1Nc0VFM0J6a0xBZnFsMjMyTXRHYXAxVFAzV1VPVkZvSWpIZm4xekR4ekVkQQ?oc=5",
@@ -25475,7 +25604,7 @@
     },
     {
       "id": "qztwll-1joxsrd",
-      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL.com",
+      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL",
       "description": "How hard is it to ride a Onewheel? And are they safe for kids? KSL News",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5\" target=\"_blank\">How hard is it to ride a Onewheel? And are they safe for kids?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KSL News</font>",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5",
@@ -25564,7 +25693,7 @@
     },
     {
       "id": "1se9bez-1k6th9l",
-      "title": "CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall - slashgear.com",
+      "title": "CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall - SlashGear",
       "description": "CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall slashgear.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjFjNWdrdFNSX0FVY05qLVNnQ2x2cS1reklZd19UWUlZSS1PY1JwV3VfMGVDTlNtR2JHMVY2TmFoTmlYc3NsZ3JYUHJVVzhJMkVSWDVKajlDR0RDaFVxaU9xb1hyWDZCTHdRdEVSYnM2NkxpbU93SmhoT0NYY1NsV05lYzgwTExGMjF2dE9IQ2tfTGp2TGNCMXhJT2hCM2NScFNOODR2ejY5WXpUT1dhelJGWDNRRWpNMzRZTldGb2tMVHhPb2JiZVU5S1g?oc=5\" target=\"_blank\">CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">slashgear.com</font>",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjFjNWdrdFNSX0FVY05qLVNnQ2x2cS1reklZd19UWUlZSS1PY1JwV3VfMGVDTlNtR2JHMVY2TmFoTmlYc3NsZ3JYUHJVVzhJMkVSWDVKajlDR0RDaFVxaU9xb1hyWDZCTHdRdEVSYnM2NkxpbU93SmhoT0NYY1NsV05lYzgwTExGMjF2dE9IQ2tfTGp2TGNCMXhJT2hCM2NScFNOODR2ejY5WXpUT1dhelJGWDNRRWpNMzRZTldGb2tMVHhPb2JiZVU5S1g?oc=5",
@@ -25856,9 +25985,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -25965,9 +26095,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -26008,9 +26139,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -26030,9 +26162,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -26094,9 +26227,10 @@
       "sourceDomain": "uneroo.fr",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://uneroo.fr/feed",
+      "feedUrl": "https://uneroo.fr/feed/",
       "duplicateSourceIds": [
         "uneroo-fr-181vp5c",
+        "uneroo-181vp5c",
         "uneroo-fr-ppyye7"
       ],
       "mergedItemCount": 3
@@ -26168,9 +26302,9 @@
     },
     {
       "id": "1l16yld-1k6th9l",
-      "title": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off - ClassAction.org",
-      "description": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off ClassAction.org",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5\" target=\"_blank\">Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ClassAction.org</font>",
+      "title": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off - classaction.org",
+      "description": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off classaction.org",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5\" target=\"_blank\">Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">classaction.org</font>",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5",
       "publishedAt": "2022-09-08T07:00:00.000Z",
       "author": "",
@@ -26385,7 +26519,7 @@
     },
     {
       "id": "1fsa6f4-1k6th9l",
-      "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - gearjunkie.com",
+      "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - GearJunkie",
       "description": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5\" target=\"_blank\">Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5",
@@ -27208,7 +27342,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -27866,7 +28000,7 @@
     },
     {
       "id": "vm13z0-1k6th9l",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - theverge.com",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
       "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
@@ -27981,7 +28115,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -28520,7 +28654,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -28820,7 +28954,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29115,7 +29249,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29275,7 +29409,7 @@
     },
     {
       "id": "ovaph0-1joxsrd",
-      "title": "Watching the Onewheel trend continue in Birmingham - Bham Now",
+      "title": "Watching the Onewheel trend continue in Birmingham - bhamnow.com",
       "description": "Watching the Onewheel trend continue in Birmingham bhamnow.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxONDVTaFdTbjhPem5hQTJnb2ZoSTVZTGpCR0RVRVNOSzlpYlN5Yi12ZS16TnU5cnFHM1R0ZkJCZi10T0tCVmRBMXppTkJYWHJVYm5ocEhWRlRCa1BLTkJ2RV9oYkZKMWxQejZJdjVIVV82ZzBFUGtDd2taZWNmR19hM0ln?oc=5\" target=\"_blank\">Watching the Onewheel trend continue in Birmingham</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bhamnow.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONDVTaFdTbjhPem5hQTJnb2ZoSTVZTGpCR0RVRVNOSzlpYlN5Yi12ZS16TnU5cnFHM1R0ZkJCZi10T0tCVmRBMXppTkJYWHJVYm5ocEhWRlRCa1BLTkJ2RV9oYkZKMWxQejZJdjVIVV82ZzBFUGtDd2taZWNmR19hM0ln?oc=5",
@@ -29455,7 +29589,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29540,7 +29674,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29667,7 +29801,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29757,7 +29891,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30012,7 +30146,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30020,7 +30154,8 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg"
+        "onewheel-tips-archives-the-sideways-movement-stokpg",
+        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
       ],
       "mergedItemCount": 3
     },
@@ -30035,7 +30170,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30122,7 +30257,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30208,7 +30343,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30317,7 +30452,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30339,7 +30474,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30383,7 +30518,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31655,7 +31790,7 @@
     },
     {
       "id": "1vrmdj0-1k6th9l",
-      "title": "Future Motion signs supply agreement with Electric Torque Machines to provide motors for Onewheel - prlog.org",
+      "title": "Future Motion signs supply agreement with Electric Torque Machines to provide motors for Onewheel - PRLog",
       "description": "Future Motion signs supply agreement with Electric Torque Machines to provide motors for Onewheel prlog.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWNVY2FYTGl5ZXV2T1MzNzd3TzJjYW5ZdjJqbmFEdHBUNW9WMVluRkJ3NTBmcTcybmIxUzljck5RS0gtdC1FaXR6cVdmNlBGcExkV3BMYmpvQm9jQzR1RjFCN1NpQ3hzb1JuZm5hQl8xdkNjbm5MLTVDcTd6aHNsODkydVVIcnM4VHZkQkRJcUtsSTlwcDQ2SjJmaVppVjl3c3hyLUl0SDd2cVc4MVBaS0FVNWtfbE9LZVNKVTdqSEpWMnZNUk4yVG11b05jZw?oc=5\" target=\"_blank\">Future Motion signs supply agreement with Electric Torque Machines to provide motors for Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prlog.org</font>",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQWNVY2FYTGl5ZXV2T1MzNzd3TzJjYW5ZdjJqbmFEdHBUNW9WMVluRkJ3NTBmcTcybmIxUzljck5RS0gtdC1FaXR6cVdmNlBGcExkV3BMYmpvQm9jQzR1RjFCN1NpQ3hzb1JuZm5hQl8xdkNjbm5MLTVDcTd6aHNsODkydVVIcnM4VHZkQkRJcUtsSTlwcDQ2SjJmaVppVjl3c3hyLUl0SDd2cVc4MVBaS0FVNWtfbE9LZVNKVTdqSEpWMnZNUk4yVG11b05jZw?oc=5",
@@ -31702,8 +31837,8 @@
       "id": "all",
       "title": "Latest",
       "url": "/feeds/all.xml",
-      "sourceCount": 118,
-      "articleCount": 1320
+      "sourceCount": 117,
+      "articleCount": 1321
     },
     {
       "id": "onewheel",
@@ -31724,13 +31859,13 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 564
+      "articleCount": 565
     },
     {
       "id": "gear",
       "title": "Gear + vendors",
       "url": "/feeds/gear.xml",
-      "sourceCount": 9,
+      "sourceCount": 8,
       "articleCount": 102
     },
     {

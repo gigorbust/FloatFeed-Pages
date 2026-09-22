@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 22 Sep 2026 11:43:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:01:41 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Travis Tatum on Floatwheel ATOM!]]></title>
+      <link>https://www.youtube.com/shorts/wRl8ugxvHPM</link>
+      <guid isPermaLink="false">1q5d2gk-i2nlxd</guid>
+      <pubDate>Tue, 22 Sep 2026 15:08:54 GMT</pubDate>
+      <description><![CDATA[<p>Follow this legend on IG @travistatum3</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i4.ytimg.com/vi/wRl8ugxvHPM/hqdefault.jpg" alt="" /></p><p>Follow this legend on IG @travistatum3</p>]]></content:encoded>
+      <media:thumbnail url="https://i4.ytimg.com/vi/wRl8ugxvHPM/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=wRl8ugxvHPM" /></media:content>
+      <dc:creator>floatwheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg">floatwheel</source>
+    </item>
     <item>
       <title><![CDATA[And that’s pretty darn close 🤩 #onewheel #happiness #joy]]></title>
       <link>https://www.youtube.com/shorts/LMWRJ32_zeU</link>

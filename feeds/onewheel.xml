@@ -5,7 +5,7 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 22 Sep 2026 11:43:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 17:01:41 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Benchmarking Autonomous Driving Planners Across Leaderboards: A Unified CARLA-Based Evaluation]]></title>
@@ -341,7 +341,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/06/Gosmilo-X7-2.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Refloat version 1.2]]></title>
@@ -389,7 +389,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/05/Dirty-Onewheel-XR-000-300x228.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint Motor and Footpad Connector Digikey]]></title>
@@ -437,7 +437,7 @@
 
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Too many nosedives!]]></title>
@@ -461,7 +461,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/ADV-vs-GT-specs-power-and-torque.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Refloat 1.3 Feature Preview: Timing rework and Setpoint smoothing]]></title>
@@ -509,7 +509,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/06/XRC-vs-XR-300x150.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV vs Onewheel GT-S – ENDGAME]]></title>
@@ -521,7 +521,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/ADV-vs-GTS-specs-power-and-torque.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Making Refloat's control loop frequency-independent]]></title>
@@ -569,7 +569,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2024/07/FST-Footpad-System-3-300x274.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[The Beam Virgo Helmet Review]]></title>
@@ -593,7 +593,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/12/Onewheel-XR-Controller-scaled-e1720433620997-300x225.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheels In Snow]]></title>
@@ -605,7 +605,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic vs XR]]></title>
@@ -653,7 +653,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[VESC battery packs]]></title>
@@ -689,7 +689,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/VESC-Project-003.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel S-Series: The World’s First High Performance Onewheel for Racers and Average Riders (Me)]]></title>
@@ -725,7 +725,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/floatboxxlogozwartmetkaderpng.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Hoverwheel V1]]></title>
@@ -749,7 +749,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/tableau-indice-de-reparabilite.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT S-Series]]></title>
@@ -761,7 +761,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/Screen-Shot-2023.11.17-06.59.48.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Should you buy a Onewheel GT or a Onewheel Pint X?]]></title>
@@ -797,7 +797,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/10/Screen-Shot-2023.10.13-11.13.19.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Ultimate Guide: Onewheel Accessories in 2023]]></title>
@@ -833,7 +833,7 @@
       <media:thumbnail url="https://france3-regions.francetvinfo.fr/image/ZPsIvJUTZpLSWGEMBD7V__t-5YM/600x400/regions/2023/04/02/6429aa8e30346_jerem-ada.jpg" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[What’s a Onewheel? – Onewheel vs Hoverboards]]></title>
@@ -941,7 +941,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -953,7 +953,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[The Onewheel Podcast with Guest Jimmy Chang]]></title>
@@ -977,7 +977,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/11/XR-VESC-conversion.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Test Autonomie GT vs XR + CBXR]]></title>
@@ -989,7 +989,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/GT-vs-XR.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[La politique de Future Motion]]></title>
@@ -1001,7 +1001,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/Screen-Shot-2023.09.08-16.35.16.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Comparatif Onewheel XR vs GT]]></title>
@@ -1013,7 +1013,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/GT-vs-XR-1024x512.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Avis pneus sculptés pour Onewheel XR]]></title>
@@ -1025,7 +1025,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/Hoosier-vs-Burris.jpg" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[How to Rent a Onewheel in Orlando]]></title>
@@ -1121,7 +1121,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Balance Board]]></title>
@@ -1133,7 +1133,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[eastride – Onewheel Power Button & Sidekicks]]></title>
@@ -1169,7 +1169,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Racing League]]></title>
@@ -1205,7 +1205,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Waterproofing Onewheel Shoes]]></title>
@@ -1217,7 +1217,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Installing FlightFins FlightFrame]]></title>
@@ -1229,7 +1229,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
@@ -1241,7 +1241,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
@@ -1253,7 +1253,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Rail Badge – Logo – Emblem]]></title>
@@ -1265,7 +1265,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Lights Not Working – Flickering]]></title>
@@ -1277,7 +1277,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -1289,7 +1289,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Blog Sites – Best Of 2020]]></title>
@@ -1301,7 +1301,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint First Look]]></title>
@@ -1313,7 +1313,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Early Onewheel Pint Reviews]]></title>
@@ -1325,7 +1325,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -1337,7 +1337,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Why You Need a Onewheel Pint]]></title>
@@ -1349,7 +1349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
   </channel>
 </rss>
