@@ -5,8 +5,32 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 21 Sep 2026 12:50:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 11:43:17 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[And that’s pretty darn close 🤩 #onewheel #happiness #joy]]></title>
+      <link>https://www.youtube.com/shorts/LMWRJ32_zeU</link>
+      <guid isPermaLink="false">1s9kxiw-1mfabo8</guid>
+      <pubDate>Mon, 21 Sep 2026 18:42:00 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=LMWRJ32_zeU" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Production updates of Floatwheel ATOM]]></title>
+      <link>https://www.youtube.com/watch?v=lTr2Y319iB8</link>
+      <guid isPermaLink="false">r1buge-i2nlxd</guid>
+      <pubDate>Mon, 21 Sep 2026 14:37:40 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i1.ytimg.com/vi/lTr2Y319iB8/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i1.ytimg.com/vi/lTr2Y319iB8/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i1.ytimg.com/vi/lTr2Y319iB8/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lTr2Y319iB8" /></media:content>
+      <dc:creator>floatwheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg">floatwheel</source>
+    </item>
     <item>
       <title><![CDATA[It Takes 2 to Tango || Tandem Race NWEF 26]]></title>
       <link>https://www.youtube.com/watch?v=gVmZagQljas</link>

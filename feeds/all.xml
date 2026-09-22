@@ -5,8 +5,32 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 21 Sep 2026 12:50:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 11:43:17 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[And that’s pretty darn close 🤩 #onewheel #happiness #joy]]></title>
+      <link>https://www.youtube.com/shorts/LMWRJ32_zeU</link>
+      <guid isPermaLink="false">1s9kxiw-1mfabo8</guid>
+      <pubDate>Mon, 21 Sep 2026 18:42:00 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=LMWRJ32_zeU" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Production updates of Floatwheel ATOM]]></title>
+      <link>https://www.youtube.com/watch?v=lTr2Y319iB8</link>
+      <guid isPermaLink="false">r1buge-i2nlxd</guid>
+      <pubDate>Mon, 21 Sep 2026 14:37:40 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i1.ytimg.com/vi/lTr2Y319iB8/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i1.ytimg.com/vi/lTr2Y319iB8/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i1.ytimg.com/vi/lTr2Y319iB8/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lTr2Y319iB8" /></media:content>
+      <dc:creator>floatwheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg">floatwheel</source>
+    </item>
     <item>
       <title><![CDATA[Benchmarking Autonomous Driving Planners Across Leaderboards: A Unified CARLA-Based Evaluation]]></title>
       <link>https://arxiv.org/abs/2509.22754</link>
@@ -3029,7 +3053,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/06/Gosmilo-X7-2.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XL Drag Races Antic Bike - who wins? #fast #fun #speed]]></title>
@@ -3221,7 +3245,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/05/Dirty-Onewheel-XR-000-300x228.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint Motor and Footpad Connector Digikey]]></title>
@@ -3536,7 +3560,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC8E5vX67VGsAdv0dmWgbpzw">Alex Lepoutre</source>
     </item>
     <item>
-      <title><![CDATA[The Onewheel Shoe!?! - Event Santa Cruz]]></title>
+      <title><![CDATA[The Onewheel Shoe!?! - eventsantacruz.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PQ0tScHIzZGRBRmJjX2Uzakx3SUgzdWtnQU05UVgyX3RnSjNZLUNhZk8tRjhJNWZqSUlSbDNPOWdyYnR0QU1iN1ZDdUZXQU5RN01Dc2FOd21waUhkbHc?oc=5</link>
       <guid isPermaLink="false">10rlc7q-1joxsrd</guid>
       <pubDate>Fri, 24 Apr 2026 07:00:00 GMT</pubDate>
@@ -3581,7 +3605,7 @@
 
 
       <dc:creator>Tosh Roberts Brockway</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Just got a onewheel pint for $150!]]></title>
@@ -3629,7 +3653,7 @@
 
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Why do people buy new Onewheels?]]></title>
@@ -3785,7 +3809,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/ADV-vs-GT-specs-power-and-torque.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[ICT group rides are back in 2026]]></title>
@@ -4001,7 +4025,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/06/XRC-vs-XR-300x150.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[How To Calibrate Your Onewheel Using Factory Mode | FixMyPEV iOS Guide]]></title>
@@ -4049,7 +4073,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/ADV-vs-GTS-specs-power-and-torque.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[I don't see why people like the one wheel.]]></title>
@@ -4220,7 +4244,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCtvHyYTLXA0tayyZzdjJyIQ">ThatsGinterEV</source>
     </item>
     <item>
-      <title><![CDATA[OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies - GearJunkie]]></title>
+      <title><![CDATA[OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies - gearjunkie.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ra0F3Nmc4U09iMHdzTHROS25Gd1RQTDkyRmlERzFpbHA0TmhTaTVhNFpyaGV3UnZqdW5hRDlHdFFlY2FjNVNhc1JCR1J3bnBTdkpSaWtuSGY0dzVJT1pr?oc=5</link>
       <guid isPermaLink="false">1lf6xwe-1k6th9l</guid>
       <pubDate>Tue, 27 Jan 2026 08:00:00 GMT</pubDate>
@@ -4241,7 +4265,7 @@
 
 
       <dc:creator>Nico Aleman</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Vs AT Eskate]]></title>
@@ -5001,8 +5025,8 @@
     </item>
     <item>
       <title><![CDATA[Hawaii teen becomes fastest racer on Onewheel - Hawaii News Now]]></title>
-      <link>https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5</link>
-      <guid isPermaLink="false">1fd221x-1joxsrd</guid>
+      <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWQ1NnRxU2w1Wm9UMGlhVlNGMk9sdldvNkRHWHNCUG9Yb3BhVW1rS0NNSzZqNWZjTERmUjRRd196TG1DT0xlOG1uN1hhVk1LLVN0UGliQjcyaXBDeW5rWlY3VksyTGg1UDdZRERDQm1wNk5KV2k1ZDNHTF9lX3kwWWpXWDRPNzFiRThmREVmQ0FhSkVi?oc=5</link>
+      <guid isPermaLink="false">11gyuv-1joxsrd</guid>
       <pubDate>Wed, 03 Sep 2025 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>Hawaii teen becomes fastest racer on Onewheel hawaiinewsnow.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5" target="_blank" rel="noopener noreferrer">Hawaii teen becomes fastest racer on Onewheel</a>  hawaiinewsnow.com]]></content:encoded>
@@ -5381,7 +5405,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2024/07/FST-Footpad-System-3-300x274.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[How I Secure My Onewheel When Going Out]]></title>
@@ -6377,7 +6401,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/12/Onewheel-XR-Controller-scaled-e1720433620997-300x225.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Luke Austin & Michael Ehrets follow POV #VKDirtJumps #VKTrails #onewheel #drops #jumps #mtb #trails]]></title>
@@ -6437,7 +6461,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Is Snowboarding Better Than Onewheel???]]></title>
@@ -6737,7 +6761,7 @@
 
 
       <dc:creator>Nico Aleman</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Winter Riding Tips & Storage]]></title>
@@ -7064,7 +7088,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UClOz_aLlfHQvAT2-Nl49G4w">VOW</source>
     </item>
     <item>
-      <title><![CDATA[OneWheel Pint S Review: The Good, the Bad, and the Crashy - GearJunkie]]></title>
+      <title><![CDATA[OneWheel Pint S Review: The Good, the Bad, and the Crashy - gearjunkie.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE5DZ1RrUnhMcFI4UkZ3MVNGMy1wa2ltNGVLTEp6WEhzdU52S1hpTEltaVRJLUI0b1EzT1lpOVFUQjdQNHByTlA5UFZhT1duWk4wRGU1M0xoX3B4SWw2MEE?oc=5</link>
       <guid isPermaLink="false">1jwhj4q-1joxsrd</guid>
       <pubDate>Wed, 04 Dec 2024 08:00:00 GMT</pubDate>
@@ -7256,7 +7280,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
-      <title><![CDATA[Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupiddope.com]]></title>
+      <title><![CDATA[Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupidDOPE]]></title>
       <link>https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VBWTBDN0prOFJuNU9GbFQ3R093WGtDcFF3cGJvVFdmbzBPQXRZXzFHa1NSUld6c3MtRGt6VEtZU2g4d1NESW1QUDF5eXlyQzExdFBGYXduQkxHTTdEUTJ0MUVUZFBrRU1MNlVHd1lUU3JOT0FRcDNQSTlOckxJS09MRUpCc3ZZUEkzd0lfcTdFTE1maW9KeWw4amxVbGc?oc=5</link>
       <guid isPermaLink="false">k2uu6j-1k6th9l</guid>
       <pubDate>Mon, 18 Nov 2024 08:00:00 GMT</pubDate>
@@ -7661,7 +7685,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Andrew Stroh rides the new Onewheel GTS and his thoughts on it. Winman’s 2024]]></title>
@@ -7928,7 +7952,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCiF4khxzf29FcosBITqBNAg">1WheelParts</source>
     </item>
     <item>
-      <title><![CDATA[Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - Event Santa Cruz]]></title>
+      <title><![CDATA[Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - eventsantacruz.com]]></title>
       <link>https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWhHQ1doWXJvcVQtLWVOeUkwVVB6c1htYmdmWmJIZzRyUmZVeVFJa2tja3hKNGFubWFvZmpnTWxHaS1tTW40eWRid01mLXFhMjhET001bzU1ZnBnLWhGV2FubS13ZGpqTFBHbk5NTkZCOGp5RkNJT1RaVXRwdEFSRXh1aUxUaVpoSzItMjhBTnJWUGpDTkFGY3JmQkxGZnpEOTBuOG85X1cxMXIwT1k4amRYYmJ5di1Zc1pNZE5FeElsSG5xcktwQmZjQV9PdWtVX3pGY0lRc3VxVUtCb2pqVjdfZw?oc=5</link>
       <guid isPermaLink="false">9yg664-1k6th9l</guid>
       <pubDate>Fri, 06 Sep 2024 07:00:00 GMT</pubDate>
@@ -8120,6 +8144,18 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCsgNm6zw0HSqZcYUzFHbBDw">Onewheel Algarve</source>
     </item>
     <item>
+      <title><![CDATA[Sky Tavern to host Onewheel race - Tahoe Daily Tribune]]></title>
+      <link>https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5</link>
+      <guid isPermaLink="false">1fjkqbm-1joxsrd</guid>
+      <pubDate>Fri, 16 Aug 2024 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Sky Tavern to host Onewheel race Tahoe Daily Tribune</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5" target="_blank" rel="noopener noreferrer">Sky Tavern to host Onewheel race</a>  Tahoe Daily Tribune]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
       <title><![CDATA[The Biggest ‘Onewheel’ Race Of The Year Is Going Down This Weekend - Unofficial Networks]]></title>
       <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWTNwSEpYYktmTENTV1l5dFlQY01WTktLUTN6QnF3RHRLUm9UZDZqVmxQM1UwV3cwaG0taVhuUFgtM0gxMjB2aU1GNUdKNTl2Nk0wOWQyTGphaDdQVlpOdG1pNFNReF9vLVl2SG9OYi1PbWJUdnBqNS1fbVk0V0Flak14aVBFXzBVa2xkNDVlNEVTNEV3OTBCYlNXYjFZMElrbFU2bS0zTGFzVlU?oc=5</link>
       <guid isPermaLink="false">gmiba6-1joxsrd</guid>
@@ -8144,7 +8180,7 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel Makes A Splash With World’s First Rideable Sandcastle Course - Event Santa Cruz]]></title>
+      <title><![CDATA[Onewheel Makes A Splash With World’s First Rideable Sandcastle Course - eventsantacruz.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiogFBVV95cUxQTi1iZHNTMFZnU0p3TXdxUTJzX1A4R1hjSEU0dU93RHphempsTm5JQTJHZUdoRE5zN0hJOExteFBXTF9UTF9YTV9leXJsd3c2Qk5IdzJwXzhFMmdqQkx6bkpiSkdmUHVUUEFCMWZ4UnBYWTc0YlpnSnl5UGw0OEpjT0FublNITFJ2cGlTU0dCemJZWi1aZTFvcHhMUi0xQ3pla0E?oc=5</link>
       <guid isPermaLink="false">11agc5e-1joxsrd</guid>
       <pubDate>Sun, 11 Aug 2024 07:00:00 GMT</pubDate>
@@ -8681,7 +8717,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/files/gtkushlo3-1024x1024-65b1484c4d887_9a9f3737-aa1e-4425-a245-3a1e3eb98f96.jpg?v=1707278428" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL GT-S RACING IN VEGAS! FINALS 💨💨💨 #onewheelgt]]></title>
@@ -8777,7 +8813,7 @@
 
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[@Onewheel racing ! #onewheelgt]]></title>
@@ -8909,7 +8945,7 @@
 
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL GT-S / JEFFADAIRSHREDS GETS A VESC !]]></title>
@@ -9257,7 +9293,7 @@
       <media:thumbnail url="https://thefloatlife.com/blogs/news/maintaining-your-onewheel-this-winter" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Pourquoi choisir VESC ?]]></title>
@@ -9269,7 +9305,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/VESC-Project-003.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[18s2p VESC DIY One Wheel Build w/ Hypercore | the Kev Special | A Project Log]]></title>
@@ -9689,7 +9725,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-12-11-215602-1702349854291_1000x.png?v=1702349855" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[How to do 180's with FlightFins]]></title>
@@ -9941,7 +9977,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/floatboxxlogozwartmetkaderpng.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Wheelslip Detected – Warnings on The Onewheel App – [Fix]]]></title>
@@ -10013,7 +10049,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/tableau-indice-de-reparabilite.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Pros/Cons on trail! I broke it at the end😬 (freak accident)]]></title>
@@ -10040,7 +10076,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCx9-FTtpY5fboQ-TJKBiP7w">The Float Life Europe</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel GT S-Series Adds Some Giddyup to Your Land Shredding - GearJunkie]]></title>
+      <title><![CDATA[Onewheel GT S-Series Adds Some Giddyup to Your Land Shredding - gearjunkie.com]]></title>
       <link>https://news.google.com/rss/articles/CBMidEFVX3lxTE9INHNmSG93SU9BTEUyQ1pvZWFBb3BiS0dTbXV4b0VrUnZNREJuMWxFX3ZsbG9IcFB5WThwVnN3dEJiWjRsaTBzTE9RN0dnbUlPaUZIa1hYQmFLWGdPejAycnNiQkVSczdXLTRHZUs4akV3Mklo?oc=5</link>
       <guid isPermaLink="false">1g7j20t-1joxsrd</guid>
       <pubDate>Wed, 15 Nov 2023 08:00:00 GMT</pubDate>
@@ -10109,7 +10145,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/Screen-Shot-2023.11.17-06.59.48.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Epic GT-S Torque Test! Vs Floatwheel, SuperFlux, GT & Pint-X]]></title>
@@ -10145,7 +10181,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/847pdh-1699142151128.jpg?v=1699142151" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT Ride Modes – Digital Shaping 3.0]]></title>
@@ -10256,7 +10292,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCx9-FTtpY5fboQ-TJKBiP7w">The Float Life Europe</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel follows up its massive recall with a new $3,200 board for “pros” - The Verge]]></title>
+      <title><![CDATA[Onewheel follows up its massive recall with a new $3,200 board for “pros” - theverge.com]]></title>
       <link>https://news.google.com/rss/articles/CBMimgFBVV95cUxQNjVnZ2JjNlUwWEhoNXJBOUtKeXdoOHN2aDNMcV9QSVFseHJsQ29wZWRQUXVWZHFjcF9wSl9tUnNIUk00TXNUS09MOEwxTE5GM2JaSXRGcWdfQm9SVVdKQlFVNGJ0UmJweWpFMzBhbXlSZDFPUkVTT052WHVkUDgwM0hTX0pKSVBQQWhqMjJCV0tncEgwOW5iZXlR?oc=5</link>
       <guid isPermaLink="false">1r9x66t-1joxsrd</guid>
       <pubDate>Fri, 27 Oct 2023 07:00:00 GMT</pubDate>
@@ -10301,7 +10337,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-10-24-at-9.18.45-am-1698164334514.png?v=1698164335" />
 
       <dc:creator>Collin Chandler</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Florida Man Sues Over Serious Fall From Recalled Onewheel Skateboard - Consumer Notice]]></title>
@@ -10496,24 +10532,24 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel electric skateboards recalled worldwide after deaths - Sky News]]></title>
-      <link>https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5</link>
-      <guid isPermaLink="false">1wowj0n-1k6th9l</guid>
-      <pubDate>Tue, 03 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel electric skateboards recalled worldwide after deaths news.sky.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5" target="_blank" rel="noopener noreferrer">Onewheel electric skateboards recalled worldwide after deaths</a>  news.sky.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[All Onewheel e-skateboards recalled worldwide after four deaths - BBC]]></title>
       <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5</link>
       <guid isPermaLink="false">r6x2tg-1k6th9l</guid>
       <pubDate>Tue, 03 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel e-skateboards recalled worldwide after four deaths</a>  bbc.co.uk]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel electric skateboards recalled worldwide after deaths - Sky News]]></title>
+      <link>https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5</link>
+      <guid isPermaLink="false">1wowj0n-1k6th9l</guid>
+      <pubDate>Tue, 03 Oct 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel electric skateboards recalled worldwide after deaths news.sky.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5" target="_blank" rel="noopener noreferrer">Onewheel electric skateboards recalled worldwide after deaths</a>  news.sky.com]]></content:encoded>
 
 
 
@@ -10592,7 +10628,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWpzQAt0C4ieJbiGGYZqkQ">Maxx Send</source>
     </item>
     <item>
-      <title><![CDATA[Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported - USA Today]]></title>
+      <title><![CDATA[Future Motion recalls 300,000 Onewheel Electric Skateboards after four deaths reported - usatoday.com]]></title>
       <link>https://news.google.com/rss/articles/CBMisgFBVV95cUxPVTBIZ1NUb2liUkp3M2ptM2Z2WURQZjIwZmdBeGRmTmRiWE1GNFdUMTdWZ2U1VlZZX2M0UU5iOWVIVlFoaXpZUkV4eFh0bmxXNnR1WE9lRDBWSDJHazJidkYybzBaM2o1ai00LTV5OVl2b1E4WVY2WXJ3NjlyR2dRZjBtV1JObDV3azBqZWktdExVQW1xR05YeFBsdHRPXzA3bml2Z25wZURnOGxDamZUSU53?oc=5</link>
       <guid isPermaLink="false">1sgb6iw-1k6th9l</guid>
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
@@ -10616,7 +10652,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Every Onewheel Recalled: 4 Deaths Reported - GearJunkie]]></title>
+      <title><![CDATA[Every Onewheel Recalled: 4 Deaths Reported - gearjunkie.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5</link>
       <guid isPermaLink="false">1pzkrxv-1k6th9l</guid>
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
@@ -10757,7 +10793,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/10/Screen-Shot-2023.10.13-11.13.19.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[All Onewheel electric skateboards recalled after four deaths and multiple injuries reported - CNN]]></title>
@@ -10808,7 +10844,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel electric skateboards recalled after 4 reported deaths since 2019 - nbcnews.com]]></title>
+      <title><![CDATA[Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News]]></title>
       <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5</link>
       <guid isPermaLink="false">gi4tg2-1joxsrd</guid>
       <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
@@ -10820,7 +10856,7 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - foxbusiness.com]]></title>
+      <title><![CDATA[More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business]]></title>
       <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5</link>
       <guid isPermaLink="false">1v6lmtn-1joxsrd</guid>
       <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
@@ -10976,7 +11012,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Every single Onewheel is being recalled after four deaths - The Verge]]></title>
+      <title><![CDATA[Every single Onewheel is being recalled after four deaths - theverge.com]]></title>
       <link>https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ3drSHJDc1l0ZWV5MkprdHpmdHUyck9Tbl96UW5kR1NsMzZ2RVdIbWJUaUN0ZW81Tlh2akxZNWQ5clFpWXN0elRsWE1fMTBFVDFHWDFnSlVjTm95QnUtUnp1Nl9OS3otTVBRR2F4WTZHTkdvNk4xNmZMLU5MeHBxTHM4Z2llM3hIbDVnekRSaWUzMV9G?oc=5</link>
       <guid isPermaLink="false">1c40e9v-1k6th9l</guid>
       <pubDate>Fri, 29 Sep 2023 07:00:00 GMT</pubDate>
@@ -11417,7 +11453,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/mqdefault-1689714751113.webp?v=1689714751" />
 
       <dc:creator>Racheal Cecil</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[INTRODUCING THE ULTIMATE ONEWHEEL BACKPACK!]]></title>
@@ -11429,7 +11465,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-07-18-at-3.57.18-pm-1689721050051_1000x.png?v=1689721051" />
 
       <dc:creator>Jeff McCosker</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[WHICH ONEWHEEL GT RAILS ARE RIGHT FOR ME?]]></title>
@@ -11441,7 +11477,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/screenshot-2023-07-18-at-2.55.27-pm-1689717340262_1000x.png?v=1689717341" />
 
       <dc:creator>Jeff McCosker</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[How to convert an XR to a VESC with Ubox 80V]]></title>
@@ -11465,7 +11501,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/7.11.23-5-ways-footpad-copy-1689202826929.jpg?v=1689202828" />
 
       <dc:creator>Jeff McCosker</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[7 Tips to Keep the Onewheel From Getting Banned]]></title>
@@ -11477,7 +11513,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0419/9320/7976/t/8/assets/viewimage_hero-1689197135210_1000x.jpg?v=1689197136" />
 
       <dc:creator>Jimmy Chang</dc:creator>
-      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News</source>
+      <source url="https://thefloatlife.com/blogs/news.atom">The Float Life - News (News)</source>
     </item>
     <item>
       <title><![CDATA[Introduction to FlightFins]]></title>
@@ -11777,7 +11813,7 @@
       <media:thumbnail url="https://france3-regions.francetvinfo.fr/image/ZPsIvJUTZpLSWGEMBD7V__t-5YM/600x400/regions/2023/04/02/6429aa8e30346_jerem-ada.jpg" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Am Meall Trail]]></title>
@@ -12032,7 +12068,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth? - CleanTechnica]]></title>
+      <title><![CDATA[Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth? - cleantechnica.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0gyWWZyNXBOYlVjWUZINk1TSVhfLUNyS2hOazY2ZGNPSmlkSElIb2ZYUGtYbnp1RngySzU1eU50cW5UUkpCX2xWbGhwaHdXbHlYTzFrZVRjd2dreVdRcVY4YXVRd0R1R2ZlaW04X1BIZnJrajVqd0Z1V01xdUVmckx5aFN3cW1Sd2R1QVBsclRja1dRZ1hlSFNfZVctdDdMNWlZ?oc=5</link>
       <guid isPermaLink="false">mwrurs-1joxsrd</guid>
       <pubDate>Sat, 04 Mar 2023 08:00:00 GMT</pubDate>
@@ -12269,7 +12305,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -12281,7 +12317,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Engineer Builds a Custom ‘Formula Onewheel’ Board Using a Pirelli Formula 1 Racing Tire - Laughing Squid]]></title>
@@ -12332,7 +12368,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCsw3YG-fXvvI6D6jgcJkhaw">1woman1wheel</source>
     </item>
     <item>
-      <title><![CDATA[Federal regulator issues warning for Santa Cruz-based Onewheel - The Mercury News]]></title>
+      <title><![CDATA[Federal regulator issues warning for Santa Cruz-based Onewheel - mercurynews.com]]></title>
       <link>https://news.google.com/rss/articles/CBMipAFBVV95cUxNelJQd1Fha2taTE0xVXFnN2hXUUZ3VHhTQTRzQnA3a1hzemx6TjRIZEN6Q3U4Vk4zejdtUm5PTmo3X0NWem1PRW5FV05fX1pmWUl3VURHbWlYcHFZTnVGSlZzT0VDTlFxMGxTZ0o0TzdfUUp6SVVGLVRZb254cTZsbjhzZVZZRWtvYVdnblFGLTVSVUtMLXRYT0ZocWpqNVFyR0pubtIBqgFBVV95cUxOU3Jza1BlWEUxd3dWNVhJbC1xeC12SXlVZGU4SFkzaFh1SDN5QnpPX1EzVDlKQmFKaThCQno2ZjFYSzBYdDZ6V1hpcTJFY1Rxd193Z0NUekhhamFYRkd2cHhicUM3S2k3cWRXR0REU1R4YjFlWk80MkEyWDc5VE1Nc0VFM0J6a0xBZnFsMjMyTXRHYXAxVFAzV1VPVkZvSWpIZm4xekR4ekVkQQ?oc=5</link>
       <guid isPermaLink="false">1wrlarj-1k6th9l</guid>
       <pubDate>Mon, 21 Nov 2022 08:00:00 GMT</pubDate>
@@ -12344,7 +12380,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Recall: Future Motion Onewheel Electric Skateboards - SGB Media]]></title>
+      <title><![CDATA[Recall: Future Motion Onewheel Electric Skateboards - SGB Media Online]]></title>
       <link>https://news.google.com/rss/articles/CBMifkFVX3lxTE12VS1takxHLWdkMl9YTmVmcGlhNUZmak43bDcwRFVKckI2RTZwMzFHSEI3LVFuNm9TSVhSMW93YnlVQXZkTzlPbE5OVlZwcnhYTGNMN3BRZ3h1Y1ZFa2pXNGVmUTFqQ1pWeVgtWml2ZzV6YlhWNG5SS1BxYTZ4QQ?oc=5</link>
       <guid isPermaLink="false">eqp1ks-1k6th9l</guid>
       <pubDate>Sat, 19 Nov 2022 08:00:00 GMT</pubDate>
@@ -12356,7 +12392,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[How hard is it to ride a Onewheel? And are they safe for kids? - KSL News]]></title>
+      <title><![CDATA[How hard is it to ride a Onewheel? And are they safe for kids? - KSL.com]]></title>
       <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5</link>
       <guid isPermaLink="false">qztwll-1joxsrd</guid>
       <pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
@@ -12404,7 +12440,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall - SlashGear]]></title>
+      <title><![CDATA[CPSC Issues Strong Warning Over Onewheel Electric Skateboards After Future Motion Refuses Recall - slashgear.com]]></title>
       <link>https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjFjNWdrdFNSX0FVY05qLVNnQ2x2cS1reklZd19UWUlZSS1PY1JwV3VfMGVDTlNtR2JHMVY2TmFoTmlYc3NsZ3JYUHJVVzhJMkVSWDVKajlDR0RDaFVxaU9xb1hyWDZCTHdRdEVSYnM2NkxpbU93SmhoT0NYY1NsV05lYzgwTExGMjF2dE9IQ2tfTGp2TGNCMXhJT2hCM2NScFNOODR2ejY5WXpUT1dhelJGWDNRRWpNMzRZTldGb2tMVHhPb2JiZVU5S1g?oc=5</link>
       <guid isPermaLink="false">1se9bez-1k6th9l</guid>
       <pubDate>Wed, 16 Nov 2022 08:00:00 GMT</pubDate>
@@ -12462,6 +12498,18 @@
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=vRM3ajdywW0" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
+    </item>
+    <item>
+      <title><![CDATA[Future Motion recalls footpads for Onewheel GT Electric Skateboards due to bystander injury hazard - Waterfront Media Halifax]]></title>
+      <link>https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTNkpsQldFTDlsT09kbFI5REUtMzYtQnFiUVRBSmlFT3dGVldUd1VIcS1ic1FOV0NzMWJHcUoxQVVseDh3Rkw4cHRYLXJPTVQxODVkN2tTellGdVNv?oc=5</link>
+      <guid isPermaLink="false">12206ge-1k6th9l</guid>
+      <pubDate>Thu, 03 Nov 2022 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Future Motion recalls footpads for Onewheel GT Electric Skateboards due to bystander injury hazard Waterfront Media Halifax</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBTNkpsQldFTDlsT09kbFI5REUtMzYtQnFiUVRBSmlFT3dGVldUd1VIcS1ic1FOV0NzMWJHcUoxQVVseDh3Rkw4cHRYLXJPTVQxODVkN2tTellGdVNv?oc=5" target="_blank" rel="noopener noreferrer">Future Motion recalls footpads for Onewheel GT Electric Skateboards due to bystander injury hazard</a>  Waterfront Media Halifax]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[ChiBattery TORque Pack; Rewiring & Observations]]></title>
@@ -12557,7 +12605,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/11/XR-VESC-conversion.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Micro-Mobility legality in 2022: A NEW update from e-RIDES]]></title>
@@ -12617,7 +12665,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/GT-vs-XR.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Trail Ride | Rabbit Hole Loop - Bella Vista, AR]]></title>
@@ -12641,7 +12689,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/Screen-Shot-2023.09.08-16.35.16.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Comparatif Onewheel XR vs GT]]></title>
@@ -12653,7 +12701,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/GT-vs-XR-1024x512.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Tickets On Sale for Float the Highlands 2023]]></title>
@@ -12689,7 +12737,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/Hoosier-vs-Burris.jpg" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Trails]]></title>
@@ -12848,7 +12896,7 @@
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCTxNT_QMjDsezt2J--R70vg">One with Wheel | George G.</source>
     </item>
     <item>
-      <title><![CDATA[Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - GearJunkie]]></title>
+      <title><![CDATA[Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - gearjunkie.com]]></title>
       <link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5</link>
       <guid isPermaLink="false">1fsa6f4-1k6th9l</guid>
       <pubDate>Fri, 12 Aug 2022 07:00:00 GMT</pubDate>
@@ -13301,7 +13349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[One Man's Treasure]]></title>
@@ -13664,7 +13712,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[The new Onewheel GT can travel 32 miles on a single charge - The Verge]]></title>
+      <title><![CDATA[The new Onewheel GT can travel 32 miles on a single charge - theverge.com]]></title>
       <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5</link>
       <guid isPermaLink="false">vm13z0-1k6th9l</guid>
       <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
@@ -13733,7 +13781,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[WCGW if I ride my onewheel on some offroad trails while playing a saxophone?]]></title>
@@ -14033,7 +14081,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Wheelistic - Lesie Touat -France]]></title>
@@ -14201,7 +14249,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[The Arborist]]></title>
@@ -14369,7 +14417,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Jack Mitrani]]></title>
@@ -14561,7 +14609,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[#2 SHRED SESSION AT : Lac du Salagou Onewheel trail France]]></title>
@@ -14609,7 +14657,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Ride Downtown Sacramento]]></title>
@@ -14681,7 +14729,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Subreddit Information & Discord Server]]></title>
@@ -14729,7 +14777,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Female Onewheel Riders!!]]></title>
@@ -14861,7 +14909,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -14873,7 +14921,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[$250 3d printed DIY Onewheel!]]></title>
@@ -14900,7 +14948,7 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Testing out the latest OneWheel+XR: What's with the hype? - mensjournal.com]]></title>
+      <title><![CDATA[Testing out the latest OneWheel+XR: What's with the hype? - Men's Journal]]></title>
       <link>https://news.google.com/rss/articles/CBMimgFBVV95cUxNMGYwQTBEZUx3emU1czZXY19VVWxOWEF0R0pFVkE1N2xueXpEc3JVMjZRNWtFM3FBZmliT1ZJN0tpUEc1LVQ3OFV6V05SRG9ZU01qbE8xV0NGYzYwdTRaQUl1OXYtSTN4MFBhdDBYZzM4eVQtbUtBZmFHX3drX0dCeXhyNzRJVkRMTVhVV1hBMk5ia1hjNFloQ3B3?oc=5</link>
       <guid isPermaLink="false">1qrrmm6-1joxsrd</guid>
       <pubDate>Mon, 09 Dec 2019 08:00:00 GMT</pubDate>
@@ -14921,7 +14969,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -14969,7 +15017,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel riders take sport to new level at Northstar - Sierra Sun]]></title>
@@ -15029,7 +15077,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -15041,7 +15089,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[First Product Test]]></title>
@@ -15065,7 +15113,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR Review - TechGearLab]]></title>
