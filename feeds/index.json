@@ -5,9 +5,9 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 120,
-    "feedSourceCount": 119,
-    "articleCount": 1326,
+    "sourceCount": 119,
+    "feedSourceCount": 118,
+    "articleCount": 1327,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -40,7 +40,7 @@
     "description": "YouTube, media feeds, podcasts, and riding videos.",
     "sourceCount": 65,
     "feedSourceCount": 65,
-    "articleCount": 567,
+    "articleCount": 568,
     "rssUrl": "/feeds/video.xml"
   },
   {
@@ -49,8 +49,8 @@
     "shortTitle": "Gear",
     "color": "#ff7a18",
     "description": "Products, shops, brands, accessories, and commerce sources.",
-    "sourceCount": 10,
-    "feedSourceCount": 10,
+    "sourceCount": 9,
+    "feedSourceCount": 9,
     "articleCount": 102,
     "rssUrl": "/feeds/gear.xml"
   },
