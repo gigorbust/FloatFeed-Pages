@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-24T11:50:09.614Z",
+  "generatedAt": "2026-09-24T21:34:41.494Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 251,
+    "currentArticles": 252,
     "archiveArticles": 1080
   },
   "decks": [
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 119,
       "feedSourceCount": 118,
-      "articleCount": 1331,
+      "articleCount": 1332,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 570,
+      "articleCount": 571,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -112,7 +112,7 @@
       "title": "onewheel Reddit Alert (Relevance search)",
       "displayName": "onewheel Reddit Alert (Relevance search)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/search/?q=onewheel&type=link&sort=relevance",
+      "siteUrl": "https://www.reddit.com/search?q=onewheel&sort=relevance&type=link",
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "deck": "community",
       "kind": "social",
@@ -121,13 +121,13 @@
       "articleCount": 32,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "auth_or_robots_block",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "popular-topics-li2s6i",
@@ -505,8 +505,8 @@
     },
     {
       "id": "renteboards-houston-onewheel-products-jwgyjh",
-      "title": "RenteBoards Houston Onewheel Products",
-      "displayName": "RenteBoards Houston Onewheel Products",
+      "title": "RenteBoards Houston Onewheel Products (News)",
+      "displayName": "RenteBoards Houston Onewheel Products (News)",
       "domain": "houston.renteboards.com",
       "siteUrl": "https://houston.renteboards.com/blogs/news",
       "feedUrl": "https://houston.renteboards.com/blogs/news.atom",
@@ -2208,7 +2208,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 28,
+      "articleCount": 29,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2706,6 +2706,27 @@
   ],
   "articles": [
     {
+      "id": "1unaq6o-1mfabo8",
+      "title": "How it feels to Onewheel… 🏄‍♂️ #Onewheel #mentalhealth",
+      "description": "",
+      "contentHtml": "",
+      "url": "https://www.youtube.com/shorts/WL5TfTBOEIs",
+      "publishedAt": "2026-09-24T17:54:54.000Z",
+      "author": "Onewheel",
+      "videoId": "WL5TfTBOEIs",
+      "image": "https://i4.ytimg.com/vi/WL5TfTBOEIs/hqdefault.jpg",
+      "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
+      "source": "Onewheel",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg",
+      "duplicateSourceIds": [
+        "onewheel-youtube-feed-fm-6kqsk4"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "15ezaic-80t4ep",
       "title": "Funwheel X7 Sport | VESC Onewheel",
       "description": "The Funwheel X7 Sport is the budget VESC one wheel board from Fungineers, and it's pretty encouraging of an offering. If you are between this and something like a Onewheel XR Classic, this is probably worth considering more seriously. Many thanks to @Fungineers for loaning this out. Find Jay's content here: https://www.youtube.com/@UCzChWdW2sDQ25WOtV18YmrA If this was helpful/useful, please consider becoming a channel member or supporting on Patreon: https://www.patreon.com/theboardgarage Use my code \"DONTFALL\" for 10% off at Flatland3D: https://flatland3d.com/?wpam_id=30 00:00 - Intro 00:34 - The Funwheel X7 Sport & Other Boards 01:12 - TLDR Review 01:56 - User Experience & Receiving 03:50 - Core Components Pt. 1 - Thor301 VESC 04:25 - Motor - Superflux Mk3 HS (High Speed) 05:19 - Thunder Tire 06:10 - Battery 07:56 - Range Test 09:05 - Ride Feel, Rails & Footpads 10:30 - Footholds & Offroad 11:55 - Best Thing About the X7 - XR Frame/Platform 13:48 - Fungineers Has Excellent Documentation, Thankfully",
@@ -2724,7 +2745,7 @@
       "duplicateSourceIds": [
         "the-board-garage-1n4rihg"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "17t1a79-14o2nhz",
@@ -2745,7 +2766,7 @@
       "duplicateSourceIds": [
         "the-float-life-1905vur"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "y1nk3o-1mfabo8",
@@ -3212,7 +3233,7 @@
     },
     {
       "id": "1x4halc-1joxsrd",
-      "title": "Ride The Rails On A OneWheel - Hackaday",
+      "title": "Ride The Rails On A OneWheel - hackaday.com",
       "description": "Ride The Rails On A OneWheel hackaday.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE8weDFTQUVXbE5QZUNiSzExc2xYeGRwQjJtcnZocURmY3YtNnRadkRqZXFwVWZfUFdvQTM0UGhKYndHbXRmU3lQZV9IMWtQX2hBWm16dFQ3V19HdlU2ZXlyYUc1ekNyNUpmMHNYYmxn?oc=5\" target=\"_blank\">Ride The Rails On A OneWheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hackaday.com</font>",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8weDFTQUVXbE5QZUNiSzExc2xYeGRwQjJtcnZocURmY3YtNnRadkRqZXFwVWZfUFdvQTM0UGhKYndHbXRmU3lQZV9IMWtQX2hBWm16dFQ3V19HdlU2ZXlyYUc1ekNyNUpmMHNYYmxn?oc=5",
@@ -7927,14 +7948,13 @@
       "videoId": "",
       "image": "https://cdn.shopify.com/s/files/1/0610/9075/8831/files/IMG_6255.heic?v=1782505551",
       "sourceId": "renteboards-houston-onewheel-products-jwgyjh",
-      "source": "RenteBoards Houston Onewheel Products",
+      "source": "RenteBoards Houston Onewheel Products (News)",
       "sourceDomain": "houston.renteboards.com",
       "sourceKind": "feed",
       "deck": "gear",
       "feedUrl": "https://houston.renteboards.com/blogs/news.atom",
       "duplicateSourceIds": [
-        "renteboards-houston-onewheel-products-jwgyjh",
-        "renteboards-houston-onewheel-products-a7dlgz"
+        "renteboards-houston-onewheel-products-jwgyjh"
       ],
       "mergedItemCount": 2
     },
@@ -18124,7 +18144,7 @@
     },
     {
       "id": "1fjkqbm-1joxsrd",
-      "title": "Sky Tavern to host Onewheel race - tahoedailytribune.com",
+      "title": "Sky Tavern to host Onewheel race - Tahoe Daily Tribune",
       "description": "Sky Tavern to host Onewheel race tahoedailytribune.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5\" target=\"_blank\">Sky Tavern to host Onewheel race</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">tahoedailytribune.com</font>",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUFoxVkRGWENPWUhRa2JYYUtGN0tmQVBjd1FLbXppcGtEZUVpT0RYZ0VUVEpsQ3RIMWw4V1dSX1A4ODV4MXFYVnJ5a05fRElKazBQOHlBQUF2RFg0UXIxMHF1SnQ0TUc4OC13WHFOTkRXS1JGbm5zVXE0WV8zWG1PREpnbVNBTGhhX0dNNDMzakhxWGs2MmRB?oc=5",
@@ -18276,7 +18296,7 @@
     },
     {
       "id": "larj94-1k6th9l",
-      "title": "Onewheel electric skateboard recall: What you need to know - The Manual",
+      "title": "Onewheel electric skateboard recall: What you need to know - themanual.com",
       "description": "Onewheel electric skateboard recall: What you need to know themanual.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5\" target=\"_blank\">Onewheel electric skateboard recall: What you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">themanual.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5",
@@ -22327,7 +22347,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "i89pfl-1joxsrd",
+      "id": "i89pfl-1k6th9l",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5\" target=\"_blank\">What Happed With the Onewheel Recall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">riderguide.com</font>",
@@ -22336,16 +22356,16 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -22373,7 +22393,7 @@
     },
     {
       "id": "1p505g0-1k6th9l",
-      "title": "Onewheel electric skateboards are recalled in the US after four deaths - theguardian.com",
+      "title": "Onewheel electric skateboards are recalled in the US after four deaths - The Guardian",
       "description": "Onewheel electric skateboards are recalled in the US after four deaths theguardian.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3ZHQld2NHE0WE5HQk5CcDg2TXphLTJVUDgxX3E2dlA5clBGNG5sb3JvVHFnY2tsWFpmZldLaGVTRjdBQWpnYjVORUxpaGlVMy1qNjVlQlN2cFNPLWV2VUVSdDZnSnI2NHpLR3BXeHZSdTBVeHVaZVI0dkxXVkVyLTFCbG5zQ1lrM1hWRVZVNnEwUkJRMlp4U1BwMUNUMFV3dFlWLUw0YVladktta0cyOWZ3emN6T2lWcFRFejhsLS0?oc=5\" target=\"_blank\">Onewheel electric skateboards are recalled in the US after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theguardian.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd3ZHQld2NHE0WE5HQk5CcDg2TXphLTJVUDgxX3E2dlA5clBGNG5sb3JvVHFnY2tsWFpmZldLaGVTRjdBQWpnYjVORUxpaGlVMy1qNjVlQlN2cFNPLWV2VUVSdDZnSnI2NHpLR3BXeHZSdTBVeHVaZVI0dkxXVkVyLTFCbG5zQ1lrM1hWRVZVNnEwUkJRMlp4U1BwMUNUMFV3dFlWLUw0YVladktta0cyOWZ3emN6T2lWcFRFejhsLS0?oc=5",
@@ -22412,8 +22432,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 2
     },
@@ -22880,7 +22899,7 @@
     },
     {
       "id": "c4oty5-1k6th9l",
-      "title": "All Onewheel electric skateboards recalled after four deaths and multiple injuries reported - CNN",
+      "title": "All Onewheel electric skateboards recalled after four deaths and multiple injuries reported - cnn.com",
       "description": "All Onewheel electric skateboards recalled after four deaths and multiple injuries reported cnn.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPemRfeWtMZXFuUGdQd1hMTDF0S0NEZWlZRXhjVWJPUENNUDJQTTd3STl2R1hUaUdTM3I0cEV5MmN6S2pTREVyV3hrdHdOMXc4aGtPTS16Rms0NTZSekdDOU94TzBfcDRuckRHRS1meWRpSm5DTUtrMkhUZm1kV3hub1JB?oc=5\" target=\"_blank\">All Onewheel electric skateboards recalled after four deaths and multiple injuries reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnn.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPemRfeWtMZXFuUGdQd1hMTDF0S0NEZWlZRXhjVWJPUENNUDJQTTd3STl2R1hUaUdTM3I0cEV5MmN6S2pTREVyV3hrdHdOMXc4aGtPTS16Rms0NTZSekdDOU94TzBfcDRuckRHRS1meWRpSm5DTUtrMkhUZm1kV3hub1JB?oc=5",
@@ -23013,11 +23032,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1mtf0bn-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC New York",
-      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnewyork.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2NyVlNjUVFTMUxBSWF4TFJVX3BERkktb1VyX1Y3ZkpzMEVnQTc0ZVFZTHhLVmt4azZYVkdsT29HOUVHd0hnMDhKaURXb3FPN2RQTkRYN1EyR1c2WlY0bWdlNW1oaXRwamJiMDVGUERtUW44cmJjeHRFdzRCMEhmbThUYkl2WmRFUXM3T0lSU1BIOWJWX3lKVExtNVVIU2VHSmJVczZ4dHhBVnNDdmJFd1FNQ01EVm1UZzBwLXBSTEtEN2R1WGfSAc4BQVVfeXFMTW1aYnBWVTZ6NjFKYUJ5U0h1VElRai1kX21pNktiSmpXNTM2NmZmZ2U1cXdjVGh4UXBHRnk5SER0SVRTVmxXZVJVNVo3c1FmeVJpemtlOVNfMGpUcW51bWx5NkMtem83QXgzY25xSkNlNFNsRlU5cVlFZVE1X2ExbkkyQ2d6TWt1dkF2XzY2TFo1YUxSdG9GSDFMSnZ3dXkyUUdHa0JwR3JHVFdTMkNqM2ZVZFZ2YTdvck02cGZuS1lfTGxYbXM1U0FUY2w5T1E?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnewyork.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2NyVlNjUVFTMUxBSWF4TFJVX3BERkktb1VyX1Y3ZkpzMEVnQTc0ZVFZTHhLVmt4azZYVkdsT29HOUVHd0hnMDhKaURXb3FPN2RQTkRYN1EyR1c2WlY0bWdlNW1oaXRwamJiMDVGUERtUW44cmJjeHRFdzRCMEhmbThUYkl2WmRFUXM3T0lSU1BIOWJWX3lKVExtNVVIU2VHSmJVczZ4dHhBVnNDdmJFd1FNQ01EVm1UZzBwLXBSTEtEN2R1WGfSAc4BQVVfeXFMTW1aYnBWVTZ6NjFKYUJ5U0h1VElRai1kX21pNktiSmpXNTM2NmZmZ2U1cXdjVGh4UXBHRnk5SER0SVRTVmxXZVJVNVo3c1FmeVJpemtlOVNfMGpUcW51bWx5NkMtem83QXgzY25xSkNlNFNsRlU5cVlFZVE1X2ExbkkyQ2d6TWt1dkF2XzY2TFo1YUxSdG9GSDFMSnZ3dXkyUUdHa0JwR3JHVFdTMkNqM2ZVZFZ2YTdvck02cGZuS1lfTGxYbXM1U0FUY2w5T1E?oc=5",
+      "id": "624tc3-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - KFYR-TV",
+      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury KFYR-TV",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KFYR-TV</font>",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -23035,11 +23054,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "624tc3-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - KFYR-TV",
-      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury KFYR-TV",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KFYR-TV</font>",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5",
+      "id": "1mtf0bn-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - nbcnewyork.com",
+      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnewyork.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2NyVlNjUVFTMUxBSWF4TFJVX3BERkktb1VyX1Y3ZkpzMEVnQTc0ZVFZTHhLVmt4azZYVkdsT29HOUVHd0hnMDhKaURXb3FPN2RQTkRYN1EyR1c2WlY0bWdlNW1oaXRwamJiMDVGUERtUW44cmJjeHRFdzRCMEhmbThUYkl2WmRFUXM3T0lSU1BIOWJWX3lKVExtNVVIU2VHSmJVczZ4dHhBVnNDdmJFd1FNQ01EVm1UZzBwLXBSTEtEN2R1WGfSAc4BQVVfeXFMTW1aYnBWVTZ6NjFKYUJ5U0h1VElRai1kX21pNktiSmpXNTM2NmZmZ2U1cXdjVGh4UXBHRnk5SER0SVRTVmxXZVJVNVo3c1FmeVJpemtlOVNfMGpUcW51bWx5NkMtem83QXgzY25xSkNlNFNsRlU5cVlFZVE1X2ExbkkyQ2d6TWt1dkF2XzY2TFo1YUxSdG9GSDFMSnZ3dXkyUUdHa0JwR3JHVFdTMkNqM2ZVZFZ2YTdvck02cGZuS1lfTGxYbXM1U0FUY2w5T1E?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnewyork.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2NyVlNjUVFTMUxBSWF4TFJVX3BERkktb1VyX1Y3ZkpzMEVnQTc0ZVFZTHhLVmt4azZYVkdsT29HOUVHd0hnMDhKaURXb3FPN2RQTkRYN1EyR1c2WlY0bWdlNW1oaXRwamJiMDVGUERtUW44cmJjeHRFdzRCMEhmbThUYkl2WmRFUXM3T0lSU1BIOWJWX3lKVExtNVVIU2VHSmJVczZ4dHhBVnNDdmJFd1FNQ01EVm1UZzBwLXBSTEtEN2R1WGfSAc4BQVVfeXFMTW1aYnBWVTZ6NjFKYUJ5U0h1VElRai1kX21pNktiSmpXNTM2NmZmZ2U1cXdjVGh4UXBHRnk5SER0SVRTVmxXZVJVNVo3c1FmeVJpemtlOVNfMGpUcW51bWx5NkMtem83QXgzY25xSkNlNFNsRlU5cVlFZVE1X2ExbkkyQ2d6TWt1dkF2XzY2TFo1YUxSdG9GSDFMSnZ3dXkyUUdHa0JwR3JHVFdTMkNqM2ZVZFZ2YTdvck02cGZuS1lfTGxYbXM1U0FUY2w5T1E?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -27951,7 +27970,7 @@
     },
     {
       "id": "1fwlnr0-1joxsrd",
-      "title": "The New Onewheel GT – An On/Off-Road Electric Skateboard - Silodrome - Gasoline Culture",
+      "title": "The New Onewheel GT – An On/Off-Road Electric Skateboard - silodrome.com",
       "description": "The New Onewheel GT – An On/Off-Road Electric Skateboard Silodrome - Gasoline Culture",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiSkFVX3lxTE1NTW9BSEdhdDNwMy03Q1F1TmNrWDlnMlpVUVJya21TeEhZMlBhQTF5OE82VmJZTWlHeGphSEY3Wlc4QTZsclV4aEdR?oc=5\" target=\"_blank\">The New Onewheel GT – An On/Off-Road Electric Skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Silodrome - Gasoline Culture</font>",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1NTW9BSEdhdDNwMy03Q1F1TmNrWDlnMlpVUVJya21TeEhZMlBhQTF5OE82VmJZTWlHeGphSEY3Wlc4QTZsclV4aEdR?oc=5",
@@ -28081,7 +28100,7 @@
     },
     {
       "id": "alo9xu-1joxsrd",
-      "title": "Onewheel GT's 32-mile range is nearly double the old Onewheel XR - inverse.com",
+      "title": "Onewheel GT's 32-mile range is nearly double the old Onewheel XR - Inverse",
       "description": "Onewheel GT's 32-mile range is nearly double the old Onewheel XR inverse.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPcURmZnZBNFZ0amlJSzB6S3Bjbl8wS3JUZWJZWXFQYWNwdHR0ZVVTLVdMUjhfakhlMDYzN3g4VXdSZ2hFSFFqOWthNnVVNUlLMGpzZmF0Y3FocVBiMVV3OUhSMXlNUXItLUJ0UVJReDlVZUhyRmE4OUZWclp5WTdCNlNHeWlpd185LTl3akVJbXBydw?oc=5\" target=\"_blank\">Onewheel GT's 32-mile range is nearly double the old Onewheel XR</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">inverse.com</font>",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcURmZnZBNFZ0amlJSzB6S3Bjbl8wS3JUZWJZWXFQYWNwdHR0ZVVTLVdMUjhfakhlMDYzN3g4VXdSZ2hFSFFqOWthNnVVNUlLMGpzZmF0Y3FocVBiMVV3OUhSMXlNUXItLUJ0UVJReDlVZUhyRmE4OUZWclp5WTdCNlNHeWlpd185LTl3akVJbXBydw?oc=5",
@@ -32007,7 +32026,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 119,
-      "articleCount": 1331
+      "articleCount": 1332
     },
     {
       "id": "onewheel",
@@ -32028,7 +32047,7 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 570
+      "articleCount": 571
     },
     {
       "id": "gear",
