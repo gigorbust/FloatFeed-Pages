@@ -5,7 +5,7 @@
     <description>VESC, repair, right-to-repair, build logs, and technical sources.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/tech.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 23 Sep 2026 17:01:59 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 04:55:49 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[19s2p Battery Installation Guidance]]></title>
@@ -125,7 +125,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0762/5985/2573/files/Rider-VESC_Comparison_33343712-69fb-453b-97e6-940cc7ce766c.jpg?v=1695582530" />
 
       <dc:creator>Wessley Uptagrafft</dc:creator>
-      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog</source>
+      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog (News)</source>
     </item>
     <item>
       <title><![CDATA[Hoyt Street Tabor Internal Look]]></title>
@@ -185,7 +185,7 @@
       <media:thumbnail url="https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B072284GVR&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=US&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=pevdispensary-20&amp;language=en_US" />
 
       <dc:creator>Wessley Uptagrafft</dc:creator>
-      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog</source>
+      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog (News)</source>
     </item>
     <item>
       <title><![CDATA[Wiring 8-pin SwitchCraft for xLite v3]]></title>
@@ -197,7 +197,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0762/5985/2573/files/WO_8pin_SC_xlite_diagram_480x480.jpg?v=1685916885" />
 
       <dc:creator>Wessley Uptagrafft</dc:creator>
-      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog</source>
+      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog (News)</source>
     </item>
     <item>
       <title><![CDATA[Wiring XLR for VEXR (VESC OneWheel)]]></title>
@@ -209,7 +209,7 @@
       <media:thumbnail url="https://cdn.shopify.com/s/files/1/0762/5985/2573/files/WO_XLR_Wiring_Chart_480x480.jpg?v=1685911114" />
 
       <dc:creator>Wessley Uptagrafft</dc:creator>
-      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog</source>
+      <source url="https://pevdispensary.com/blogs/news.atom">PEV Dispensary Blog (News)</source>
     </item>
     <item>
       <title><![CDATA[XLITE V3 - MOSFET Overheating Issue]]></title>
