@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 24 Sep 2026 21:34:41 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 11:54:29 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[BEGODE lets loose AI slop bot]]></title>
@@ -210,6 +210,18 @@
 
       <dc:creator>/u/Puzzleheaded-Gain256</dc:creator>
       <source url="https://www.reddit.com/r/onewheelpint.rss?limit=100">Reddit r/onewheelpint</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel art]]></title>
+      <link>https://www.reddit.com/r/FloatLife/comments/1wee4e4/onewheel_art/</link>
+      <guid isPermaLink="false">eq8s3y-2ihfsk</guid>
+      <pubDate>Sat, 12 Sep 2026 14:30:07 GMT</pubDate>
+      <description><![CDATA[<p>Handcrafted repurposed metal one wheel art. What do you guys think of it? submitted by /u/Puzzleheaded-Gain256 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/FloatLife/comments/1wee4e4/onewheel_art/" target="_blank" rel="noopener noreferrer"> <img src="https://external-preview.redd.it/bnpsaGtkZnNuM3BoMXWLa9o9Sw_Bv60DRYaUaDW38ew65vE9_JivC_vwxlUY.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=07cca15094dd4d91b631d4f83081c0fd08b55f5c" alt="Onewheel art" title="Onewheel art" /> </a> </td><td> <div><p>Handcrafted repurposed metal one wheel art. What do you guys think of it? </p> </div>   submitted by   <a href="https://www.reddit.com/user/Puzzleheaded-Gain256" target="_blank" rel="noopener noreferrer"> /u/Puzzleheaded-Gain256 </a> <br /> <span><a href="https://v.redd.it/i4esp5hsn3ph1" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/FloatLife/comments/1wee4e4/onewheel_art/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://external-preview.redd.it/bnpsaGtkZnNuM3BoMXWLa9o9Sw_Bv60DRYaUaDW38ew65vE9_JivC_vwxlUY.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=07cca15094dd4d91b631d4f83081c0fd08b55f5c" />
+
+      <dc:creator>/u/Puzzleheaded-Gain256</dc:creator>
+      <source url="https://www.reddit.com/r/FloatLife/best/.rss">Reddit r/FloatLife (best)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Photoshoot Thread]]></title>
