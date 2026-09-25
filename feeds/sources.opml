@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Fri, 25 Sep 2026 11:54:30 GMT</dateCreated>
+    <dateCreated>Fri, 25 Sep 2026 21:38:21 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -61,8 +61,8 @@
       <outline text="Reddit r/Onewheel_FL (new)" title="Reddit r/Onewheel_FL (new)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_FL/new/.rss" htmlUrl="https://www.reddit.com/r/Onewheel_FL/new" />
       <outline text="Reddit r/OnewheelGT (top)" title="Reddit r/OnewheelGT (top)" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/OnewheelGT/top?t=day" />
       <outline text="Reddit r/wheel (top)" title="Reddit r/wheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/wheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/wheel/top?t=day" />
-      <outline text="Onewheel DIY Mods Archives - The Sideways Movement (Category)" title="Onewheel DIY Mods Archives - The Sideways Movement (Category)" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/" />
-      <outline text="Onewheel Tips Archives - The Sideways Movement (Category)" title="Onewheel Tips Archives - The Sideways Movement (Category)" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/" />
+      <outline text="Onewheel DIY Mods Archives - The Sideways Movement" title="Onewheel DIY Mods Archives - The Sideways Movement" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/" />
+      <outline text="Onewheel Tips Archives - The Sideways Movement" title="Onewheel Tips Archives - The Sideways Movement" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/" />
     </outline>
     <outline text="feed | cached_fallback | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032" title="feed | cached_fallback | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032">
       <outline text="Reddit r/BaltimoreOnewheel" title="Reddit r/BaltimoreOnewheel" type="rss" xmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/.rss" htmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/top?t=day" />
@@ -92,7 +92,7 @@
       <outline text="YouTube channel (YouTube) (YouTube)" title="YouTube channel (YouTube) (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=UUyBvOIWMlhcVGk06SrXGF_w" htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=UUyBvOIWMlhcVGk06SrXGF_w" />
     </outline>
     <outline text="feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032" title="feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032">
-      <outline text="Reddit r/FloatLife (best)" title="Reddit r/FloatLife (best)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/best/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/best/" />
+      <outline text="Reddit r/FloatLife (best)" title="Reddit r/FloatLife (best)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/best/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/best" />
     </outline>
     <outline text="feed | blocked_or_unreachable | feed | historical_or_candidate | manual_rss_sources | manual_rss_sources" title="feed | blocked_or_unreachable | feed | historical_or_candidate | manual_rss_sources | manual_rss_sources">
       <outline text="Reddit r/FloatWheel" title="Reddit r/FloatWheel" type="rss" xmlUrl="https://www.reddit.com/r/FloatWheel/.rss" htmlUrl="https://www.reddit.com/r/FloatWheel/" />
