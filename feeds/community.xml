@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 25 Sep 2026 21:38:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 11:27:39 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[BEGODE lets loose AI slop bot]]></title>
@@ -42,6 +42,18 @@
 
       <dc:creator>/u/Broad_Explanation_36</dc:creator>
       <source url="https://www.reddit.com/r/ElectricUnicycle/.rss">Reddit r/ElectricUnicycle</source>
+    </item>
+    <item>
+      <title><![CDATA[Too good to be true?]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1wktmxy/too_good_to_be_true/</link>
+      <guid isPermaLink="false">1yiq1wh-8kv0cu</guid>
+      <pubDate>Sat, 19 Sep 2026 18:27:54 GMT</pubDate>
+      <description><![CDATA[<p>Saw this on fb marketplace and looking for some clarity. Context after talking to owner: sat in garage for a year and won’t charge. Never ridden through water but hasn’t been opened up to confirm. My question is if the above is true, how easy would it be to fix the problem? Is it as simple as replacing the battery or is the problem likely something else submitted by /u/Hot_Language864 to r/onewheel [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/onewheel/comments/1wktmxy/too_good_to_be_true/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/f42espulsiqh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9c27d3da481e061ef6add6a06d458d19e80db469" alt="Too good to be true?" title="Too good to be true?" /> </a> </td><td> <div><p>Saw this on fb marketplace and looking for some clarity.</p> <p>Context after talking to owner: sat in garage for a year and won’t charge. Never ridden through water but hasn’t been opened up to confirm. </p> <p>My question is if the above is true, how easy would it be to fix the problem? Is it as simple as replacing the battery or is the problem likely something else</p> </div>   submitted by   <a href="https://www.reddit.com/user/Hot_Language864" target="_blank" rel="noopener noreferrer"> /u/Hot_Language864 </a>   to   <a href="https://www.reddit.com/r/onewheel/" target="_blank" rel="noopener noreferrer"> r/onewheel </a> <br /> <span><a href="https://i.redd.it/f42espulsiqh1.jpeg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1wktmxy/too_good_to_be_true/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/f42espulsiqh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9c27d3da481e061ef6add6a06d458d19e80db469" />
+
+      <dc:creator>/u/Hot_Language864</dc:creator>
+      <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
       <title><![CDATA[XR wtfs to straight rails]]></title>
