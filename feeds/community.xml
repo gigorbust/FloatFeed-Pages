@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 27 Sep 2026 17:01:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 21:24:13 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[X7 long range]]></title>
@@ -1349,6 +1349,18 @@
 
 
       <dc:creator>/u/Its_Sharky18</dc:creator>
+      <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
+    </item>
+    <item>
+      <title><![CDATA[Retiring from commuting]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1vtuosq/retiring_from_commuting/</link>
+      <guid isPermaLink="false">1be3xsz-8kv0cu</guid>
+      <pubDate>Thu, 20 Aug 2026 20:14:43 GMT</pubDate>
+      <description><![CDATA[<p>retiring the Pintx from daily commute duty not getting rid of it, of course. I still absolutely love this thing. I’ve just gotten way too comfortable cruising at 18–20 mph and basically living on pushback, which feels like a nosedive waiting to happen. Just put in an order for a inmotion v12s for commute replacement. submitted by /u/MrCostcoVV to r/onewheel [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/onewheel/comments/1vtuosq/retiring_from_commuting/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/4btf0ffb8lkh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=602202bae0d30421dc9967fdd6670210213510cf" alt="Retiring from commuting" title="Retiring from commuting" /> </a> </td><td> <div><p>retiring the Pintx from daily commute duty not getting rid of it, of course. I still absolutely love this thing. I’ve just gotten way too comfortable cruising at 18–20 mph and basically living on pushback, which feels like a nosedive waiting to happen.<br /> Just put in an order for a inmotion v12s for commute replacement. </p> </div>   submitted by   <a href="https://www.reddit.com/user/MrCostcoVV" target="_blank" rel="noopener noreferrer"> /u/MrCostcoVV </a>   to   <a href="https://www.reddit.com/r/onewheel/" target="_blank" rel="noopener noreferrer"> r/onewheel </a> <br /> <span><a href="https://i.redd.it/4btf0ffb8lkh1.jpeg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1vtuosq/retiring_from_commuting/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/4btf0ffb8lkh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=602202bae0d30421dc9967fdd6670210213510cf" />
+
+      <dc:creator>/u/MrCostcoVV</dc:creator>
       <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
