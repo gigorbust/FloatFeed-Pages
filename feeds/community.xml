@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 30 Sep 2026 05:36:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:38:48 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[🇧🇷 Alguém aqui do Brasil já importou uma Floatwheel ADV ou ATOM?]]></title>
@@ -3054,6 +3054,18 @@
 
       <dc:creator>/u/TheOnlyRandomizer</dc:creator>
       <source url="https://www.reddit.com/r/Onewheel_FL/new/.rss">Reddit r/Onewheel_FL (new)</source>
+    </item>
+    <item>
+      <title><![CDATA[Hold my beer while ride a Onewheel with a samurai sword.]]></title>
+      <link>https://www.reddit.com/r/holdmybeer/comments/c1nkgh/hold_my_beer_while_ride_a_onewheel_with_a_samurai/</link>
+      <guid isPermaLink="false">1yvycix-8kv0cu</guid>
+      <pubDate>Mon, 17 Jun 2019 13:32:53 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/Razzooz to r/holdmybeer [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/holdmybeer/comments/c1nkgh/hold_my_beer_while_ride_a_onewheel_with_a_samurai/" target="_blank" rel="noopener noreferrer"> <img src="https://b.thumbs.redditmedia.com/19TVL1uEyCtb8rg34f0Xs7fBBbx_U_pNHkhDI80dYgU.jpg" alt="Hold my beer while ride a Onewheel with a samurai sword." title="Hold my beer while ride a Onewheel with a samurai sword." /> </a> </td><td>   submitted by   <a href="https://www.reddit.com/user/Razzooz" target="_blank" rel="noopener noreferrer"> /u/Razzooz </a>   to   <a href="https://www.reddit.com/r/holdmybeer/" target="_blank" rel="noopener noreferrer"> r/holdmybeer </a> <br /> <span><a href="https://gfycat.com/hiddenimperturbablegoa" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/holdmybeer/comments/c1nkgh/hold_my_beer_while_ride_a_onewheel_with_a_samurai/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://b.thumbs.redditmedia.com/19TVL1uEyCtb8rg34f0Xs7fBBbx_U_pNHkhDI80dYgU.jpg" />
+
+      <dc:creator>/u/Razzooz</dc:creator>
+      <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
   </channel>
 </rss>
