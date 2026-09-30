@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Wed, 30 Sep 2026 12:38:49 GMT</dateCreated>
+    <dateCreated>Wed, 30 Sep 2026 22:20:16 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -56,7 +56,7 @@
       <outline text="Popular Topics (owforum.co.uk)" title="Popular Topics (owforum.co.uk)" type="rss" xmlUrl="https://owforum.co.uk/popular/alltime.rss" htmlUrl="http://owforum.co.uk/popular/alltime" />
       <outline text="Reddit r/ChicagoOnewheel (top)" title="Reddit r/ChicagoOnewheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/ChicagoOnewheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/ChicagoOnewheel/top?t=day" />
       <outline text="Reddit r/FloatwheelTeam (top)" title="Reddit r/FloatwheelTeam (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/top?t=day" />
-      <outline text="Reddit r/Onewheel_CO (top)" title="Reddit r/Onewheel_CO (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_CO/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_CO/top?t=day" />
+      <outline text="Reddit r/Onewheel_CO (top)" title="Reddit r/Onewheel_CO (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_CO/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_CO/top/?t=day" />
       <outline text="Reddit r/Onewheel_DE (top)" title="Reddit r/Onewheel_DE (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_DE/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_DE/top?t=day" />
       <outline text="Reddit r/Onewheel_FL (new)" title="Reddit r/Onewheel_FL (new)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_FL/new/.rss" htmlUrl="https://www.reddit.com/r/Onewheel_FL/new" />
       <outline text="Reddit r/OnewheelGT (top)" title="Reddit r/OnewheelGT (top)" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/OnewheelGT/top?t=day" />
@@ -72,9 +72,6 @@
       <outline text="Reddit r/FloatLife (new)" title="Reddit r/FloatLife (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/new/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/new" />
       <outline text="Reddit r/FloatLife (top)" title="Reddit r/FloatLife (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatLife/top?t=day" />
       <outline text="Reddit r/onewheel (new)" title="Reddit r/onewheel (new)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/new/.rss" htmlUrl="https://www.reddit.com/r/onewheel/new" />
-    </outline>
-    <outline text="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed" title="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed">
-      <outline text="Reddit r/BurningMan (best)" title="Reddit r/BurningMan (best)" type="rss" xmlUrl="https://www.reddit.com/r/BurningMan/best/.rss" htmlUrl="https://www.reddit.com/r/BurningMan/best" />
     </outline>
     <outline text="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED" title="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED">
       <outline text="Reddit r/ElectricSkateboarding" title="Reddit r/ElectricSkateboarding" type="rss" xmlUrl="https://www.reddit.com/r/ElectricSkateboarding/.rss" htmlUrl="https://www.reddit.com/r/ElectricSkateboarding/search?q=%22onewheel%22&amp;restrict_sr=1&amp;sort=new" />
@@ -127,6 +124,7 @@
     </outline>
     <outline text="feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources" title="feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources">
       <outline text="Reddit r/onewheel (hot) (Latest)" title="Reddit r/onewheel (hot) (Latest)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/hot.rss" htmlUrl="https://www.reddit.com/r/onewheel/hot" />
+      <outline text="Sharky Shred Shop Products (sharkyshredshop.com)" title="Sharky Shred Shop Products (sharkyshredshop.com)" type="rss" xmlUrl="https://sharkyshredshop.com/products.atom" htmlUrl="https://sharkyshredshop.com/products" />
     </outline>
     <outline text="feed | historical_or_candidate | manual_rss_sources" title="feed | historical_or_candidate | manual_rss_sources">
       <outline text="Reddit r/onewheel (top) (Latest)" title="Reddit r/onewheel (top) (Latest)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/top.rss" htmlUrl="https://www.reddit.com/r/onewheel/top" />
@@ -154,7 +152,7 @@
       <outline text="floatwheel" title="floatwheel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg" htmlUrl="https://www.youtube.com/channel/UC_7p3yqxNR24i-9Qtu1Haxg" />
     </outline>
     <outline text="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources" title="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources">
-      <outline text="FlightFins Store (Site feed)" title="FlightFins Store (Site feed)" type="rss" xmlUrl="https://flightfins.com/feed" htmlUrl="https://flightfins.com/" />
+      <outline text="FlightFins Store" title="FlightFins Store" type="rss" xmlUrl="https://flightfins.com/feed/" htmlUrl="https://flightfins.com/" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032">
       <outline text="Float World (Deals Of The Week)" title="Float World (Deals Of The Week)" type="rss" xmlUrl="https://www.floatworlds.com/collections/deals-of-the-week.atom" htmlUrl="https://float-world.myshopify.com/collections/all" />
@@ -181,7 +179,7 @@
       <outline text="RenteBoards Houston Onewheel Products" title="RenteBoards Houston Onewheel Products" type="rss" xmlUrl="https://houston.renteboards.com/blogs/news.atom" htmlUrl="https://houston.renteboards.com/blogs/news" />
     </outline>
     <outline text="feed | ok_nonempty | feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources | public.manual_rss_sources | manual_rss_sources" title="feed | ok_nonempty | feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources | public.manual_rss_sources | manual_rss_sources">
-      <outline text="Sharky Shred Shop Products" title="Sharky Shred Shop Products" type="rss" xmlUrl="https://sharkyshredshop.com/blogs/news.atom" htmlUrl="https://sharkyshredshop.com/blogs/news" />
+      <outline text="Sharky Shred Shop Products (News)" title="Sharky Shred Shop Products (News)" type="rss" xmlUrl="https://sharkyshredshop.com/blogs/news.atom" htmlUrl="https://sharkyshredshop.com/blogs/news" />
       <outline text="RenteBoards News Blog" title="RenteBoards News Blog" type="rss" xmlUrl="https://renteboards.com/blogs/news.atom" htmlUrl="https://renteboards.com/blogs/news" />
     </outline>
     <outline text="feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="feed | recovered_from_paid_only_surface | Onewheel AI Feed">
