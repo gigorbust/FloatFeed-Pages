@@ -6,8 +6,8 @@
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
     "sourceCount": 121,
-    "feedSourceCount": 120,
-    "articleCount": 1370,
+    "feedSourceCount": 119,
+    "articleCount": 1373,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -17,7 +17,7 @@
     "color": "#08c66a",
     "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
     "sourceCount": 15,
-    "feedSourceCount": 15,
+    "feedSourceCount": 14,
     "articleCount": 114,
     "rssUrl": "/feeds/onewheel.xml"
   },
@@ -40,7 +40,7 @@
     "description": "YouTube, media feeds, podcasts, and riding videos.",
     "sourceCount": 65,
     "feedSourceCount": 65,
-    "articleCount": 579,
+    "articleCount": 582,
     "rssUrl": "/feeds/video.xml"
   },
   {

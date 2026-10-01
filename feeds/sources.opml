@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Thu, 01 Oct 2026 13:16:24 GMT</dateCreated>
+    <dateCreated>Thu, 01 Oct 2026 22:44:52 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -61,8 +61,8 @@
       <outline text="Reddit r/Onewheel_FL (new)" title="Reddit r/Onewheel_FL (new)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_FL/new/.rss" htmlUrl="https://www.reddit.com/r/Onewheel_FL/new" />
       <outline text="Reddit r/OnewheelGT (top)" title="Reddit r/OnewheelGT (top)" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/OnewheelGT/top?t=day" />
       <outline text="Reddit r/wheel (top)" title="Reddit r/wheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/wheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/wheel/top?t=day" />
-      <outline text="Onewheel DIY Mods Archives - The Sideways Movement (Category)" title="Onewheel DIY Mods Archives - The Sideways Movement (Category)" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/" />
-      <outline text="Onewheel Tips Archives - The Sideways Movement (Category)" title="Onewheel Tips Archives - The Sideways Movement (Category)" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/" />
+      <outline text="Onewheel DIY Mods Archives - The Sideways Movement" title="Onewheel DIY Mods Archives - The Sideways Movement" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/" />
+      <outline text="Onewheel Tips Archives - The Sideways Movement" title="Onewheel Tips Archives - The Sideways Movement" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/" />
     </outline>
     <outline text="feed | cached_fallback | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032" title="feed | cached_fallback | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032">
       <outline text="Reddit r/BaltimoreOnewheel" title="Reddit r/BaltimoreOnewheel" type="rss" xmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/.rss" htmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/top?t=day" />
@@ -148,7 +148,10 @@
       <outline text="floatwheel" title="floatwheel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg" htmlUrl="https://www.youtube.com/channel/UC_7p3yqxNR24i-9Qtu1Haxg" />
     </outline>
     <outline text="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources" title="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources">
-      <outline text="FlightFins Store" title="FlightFins Store" type="rss" xmlUrl="https://flightfins.com/feed/" htmlUrl="https://flightfins.com/" />
+      <outline text="FlightFins Store (flightfins.com)" title="FlightFins Store (flightfins.com)" type="rss" xmlUrl="https://flightfins.com/rss" htmlUrl="https://flightfins.com/" />
+    </outline>
+    <outline text="website_discovery | configured | DEFAULT_FEED_SOURCES" title="website_discovery | configured | DEFAULT_FEED_SOURCES">
+      <outline text="FlightFins Store (Site feed)" title="FlightFins Store (Site feed)" type="rss" xmlUrl="https://flightfins.com/feed/" htmlUrl="https://flightfins.com/" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032">
       <outline text="Float World (Deals Of The Week)" title="Float World (Deals Of The Week)" type="rss" xmlUrl="https://www.floatworlds.com/collections/deals-of-the-week.atom" htmlUrl="https://float-world.myshopify.com/collections/all" />
@@ -182,7 +185,7 @@
       <outline text="Tech News - Latest Technology and Gadget News | Sky News (news.sky.com)" title="Tech News - Latest Technology and Gadget News | Sky News (news.sky.com)" type="rss" xmlUrl="http://news.sky.com/sky-news/rss/technology/rss.xml" htmlUrl="https://news.sky.com/technology" />
       <outline text="autoevolution green, hybrid and EV news" title="autoevolution green, hybrid and EV news" type="rss" xmlUrl="https://www.autoevolution.com/rss/backend-green.xml" htmlUrl="https://www.autoevolution.com/rss/backend-green.xml" />
       <outline text="law.com (law.com)" title="law.com (law.com)" type="rss" xmlUrl="http://www.law.com/rss/rss_newswire.xml" htmlUrl="https://feeds.feedblitz.com/www.law.com/" />
-      <outline text="Snow Industry News RSS" title="Snow Industry News RSS" type="rss" xmlUrl="https://www.snowsportsnews.com/rss" htmlUrl="https://www.snowsportsnews.com/industry-news/" />
+      <outline text="Snow Industry News RSS" title="Snow Industry News RSS" type="rss" xmlUrl="https://www.snowsportsnews.com/rss" htmlUrl="https://www.snowindustrynews.com/" />
       <outline text="Bit Rebels" title="Bit Rebels" type="rss" xmlUrl="https://bitrebels.com/feed/" htmlUrl="https://bitrebels.com/" />
       <outline text="cs.RO updates on arXiv.org" title="cs.RO updates on arXiv.org" type="rss" xmlUrl="https://export.arxiv.org/rss/cs.RO" htmlUrl="http://rss.arxiv.org/rss/cs.RO" />
       <outline text="Electrek" title="Electrek" type="rss" xmlUrl="https://electrek.co/feed/" htmlUrl="https://electrek.co/" />
@@ -271,11 +274,8 @@
       <outline text="East Ride DE" title="East Ride DE" type="rss" xmlUrl="https://eastride.de/feed/" htmlUrl="https://eastride.de/" />
       <outline text="Wheel Life Rally" title="Wheel Life Rally" type="rss" xmlUrl="https://wheelliferally.com/feed/" htmlUrl="https://wheelliferally.com/" />
     </outline>
-    <outline text="feed | ok_nonempty | wrapper | nonportable_sources | ONEWHEEL FEED" title="feed | ok_nonempty | wrapper | nonportable_sources | ONEWHEEL FEED">
-      <outline text="Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)" title="Fallman.tech &quot;Onewheel&quot; Search Feed (Onewheel search)" type="rss" xmlUrl="https://fallman.tech/?feed=rss2&amp;s=onewheel" htmlUrl="https://fallman.tech/" />
-    </outline>
     <outline text="feed | portable_sources | website_discovery | ONEWHEEL FEED | Fallman.tech &quot;Onewheel&quot; Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | list-1264927333211308032 | DEFAULT_FEED_SOURCES" title="feed | portable_sources | website_discovery | ONEWHEEL FEED | Fallman.tech &quot;Onewheel&quot; Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | list-1264927333211308032 | DEFAULT_FEED_SOURCES">
-      <outline text="FallmanTech" title="FallmanTech" type="rss" xmlUrl="https://fallman.tech/feed/" htmlUrl="https://fallman.tech/" />
+      <outline text="FallmanTech (Site feed)" title="FallmanTech (Site feed)" type="rss" xmlUrl="https://fallman.tech/feed" htmlUrl="https://fallman.tech/" />
     </outline>
     <outline text="feed | public.manual_rss_sources.discovered_feed_url" title="feed | public.manual_rss_sources.discovered_feed_url">
       <outline text="Float Gang" title="Float Gang" type="rss" xmlUrl="https://floatgang.com/feed/" htmlUrl="https://floatgang.com/" />

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-01T13:16:23.657Z",
+  "generatedAt": "2026-10-01T22:44:51.434Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 278,
-    "archiveArticles": 1092
+    "currentArticles": 280,
+    "archiveArticles": 1093
   },
   "decks": [
     {
@@ -13,8 +13,8 @@
       "color": "#111827",
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 121,
-      "feedSourceCount": 120,
-      "articleCount": 1370,
+      "feedSourceCount": 119,
+      "articleCount": 1373,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -24,7 +24,7 @@
       "color": "#08c66a",
       "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
       "sourceCount": 15,
-      "feedSourceCount": 15,
+      "feedSourceCount": 14,
       "articleCount": 114,
       "rssUrl": "/feeds/onewheel.xml"
     },
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 579,
+      "articleCount": 582,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -121,7 +121,7 @@
       "articleCount": 36,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "auth_or_robots_block",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -988,34 +988,34 @@
       "fetchStatus": "ok_nonempty"
     },
     {
-      "id": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "id": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "title": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "displayName": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "domain": "fallman.tech",
-      "siteUrl": "https://fallman.tech/",
-      "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
+      "siteUrl": "https://fallman.tech/?s=onewheel",
+      "feedUrl": "",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
-      "hasFeed": true,
+      "hasFeed": false,
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
+        "endpoint": "missing",
+        "ingestion": "not_attempted",
         "cache": "not_used",
-        "content": "nonempty",
-        "directoryOnly": false
+        "content": "none",
+        "directoryOnly": true
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "blocked_or_unreachable"
     },
     {
       "id": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "title": "FallmanTech",
-      "displayName": "FallmanTech",
+      "title": "FallmanTech (Site feed)",
+      "displayName": "FallmanTech (Site feed)",
       "domain": "fallman.tech",
       "siteUrl": "https://fallman.tech/",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1023,13 +1023,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
         "cache": "not_used",
-        "content": "nonempty",
+        "content": "none",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "blocked_or_unreachable"
     },
     {
       "id": "float-gang-1a19hmu",
@@ -1121,8 +1121,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1133,18 +1133,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "title": "Onewheel Tips Archives - The Sideways Movement",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1155,13 +1155,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1221,13 +1221,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -2252,7 +2252,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 31,
+      "articleCount": 33,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2450,7 +2450,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 21,
+      "articleCount": 22,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2749,6 +2749,69 @@
     }
   ],
   "articles": [
+    {
+      "id": "de54zg-1mfabo8",
+      "title": "Age Wont Stop This Cross Country Onewheel Trip!",
+      "description": "Naomi Shedd is embarking on a Onewheel journey across the whole country! Come hang with her and Bodhi while she breaks down some of the details of the trip, her motivations and how you can support her journey! Instagram: @naomiunleashedd Facebook: @naomi.shedd My Sister's House Support: https://gofund.me/b04963ffe _____________________________ Check us out at www.Onewheel.com and grab yourself a board today! Onewheel Accessories: https://onewheel.com/pages/all-accessories DESTROY BOREDOM WITH US Instagram: https://www.instagram.com/onewheel/ TikTok: https://www.tiktok.com/@onewheel Twitter: https://twitter.com/rideonewheel?lang=en Facebook: https://www.facebook.com/OnewheelOfficial/ SUBSCRIBE TO THE ONEWHEEL NEWSLETTER https://onewheel.com/pages/newsletter-subscribe New to the channel? Check out some of our playlists! The Onewheel Podcast: https://youtube.com/playlist?list=PLwHhGWG1Ijyv_16ptqZQTD_1M_a3C22Ko Onewheel Shred Series: https://youtube.com/playlist?list=PLwHhGWG1IjysqE-qfjkd0JkU_ouoSLERC #onewheel #onewheelgt #onewheelpintx",
+      "contentHtml": "<p>Naomi Shedd is embarking on a Onewheel journey across the whole country! Come hang with her and Bodhi while she breaks down some of the details of the trip, her motivations and how you can support her journey!<br><br>Instagram: @naomiunleashedd<br>Facebook: @naomi.shedd <br>My Sister&#39;s House Support: https://gofund.me/b04963ffe<br><br>_____________________________<br>Check us out at www.Onewheel.com and grab yourself a board today!<br>Onewheel Accessories: https://onewheel.com/pages/all-accessories<br><br>DESTROY BOREDOM WITH US<br>Instagram: https://www.instagram.com/onewheel/<br>TikTok: https://www.tiktok.com/@onewheel<br>Twitter: https://twitter.com/rideonewheel?lang=en<br>Facebook: https://www.facebook.com/OnewheelOfficial/<br><br>SUBSCRIBE TO THE ONEWHEEL NEWSLETTER<br>https://onewheel.com/pages/newsletter-subscribe<br><br>New to the channel? Check out some of our playlists!<br><br>The Onewheel Podcast: https://youtube.com/playlist?list=PLwHhGWG1Ijyv_16ptqZQTD_1M_a3C22Ko<br><br>Onewheel Shred Series: https://youtube.com/playlist?list=PLwHhGWG1IjysqE-qfjkd0JkU_ouoSLERC<br><br><br>#onewheel #onewheelgt #onewheelpintx</p>",
+      "url": "https://www.youtube.com/watch?v=e0n9JUcToAM",
+      "publishedAt": "2026-10-01T21:25:05.000Z",
+      "author": "Onewheel",
+      "videoId": "e0n9JUcToAM",
+      "image": "https://i2.ytimg.com/vi/e0n9JUcToAM/hqdefault.jpg",
+      "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
+      "source": "Onewheel",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg",
+      "duplicateSourceIds": [
+        "onewheel-youtube-feed-fm-6kqsk4"
+      ],
+      "mergedItemCount": 1
+    },
+    {
+      "id": "spol2s-1mfabo8",
+      "title": "Onewheel vs E-Bike 🤜🤛",
+      "description": "_____________________________ Check us out at www.Onewheel.com and grab yourself a board today! Onewheel Accessories: https://onewheel.com/pages/all-accessories DESTROY BOREDOM WITH US Instagram: https://www.instagram.com/onewheel/ TikTok: https://www.tiktok.com/@onewheel Twitter: https://twitter.com/rideonewheel?lang=en Facebook: https://www.facebook.com/OnewheelOfficial/ SUBSCRIBE TO THE ONEWHEEL NEWSLETTER https://onewheel.com/pages/newsletter-subscribe New to the channel? Check out some of our playlists! The Onewheel Podcast: https://youtube.com/playlist?list=PLwHhGWG1Ijyv_16ptqZQTD_1M_a3C22Ko Onewheel Shred Series: https://youtube.com/playlist?list=PLwHhGWG1IjysqE-qfjkd0JkU_ouoSLERC #onewheel #onewheelgt #onewheelpintx",
+      "contentHtml": "<p>_____________________________<br>Check us out at www.Onewheel.com and grab yourself a board today!<br>Onewheel Accessories: https://onewheel.com/pages/all-accessories<br><br>DESTROY BOREDOM WITH US<br>Instagram: https://www.instagram.com/onewheel/<br>TikTok: https://www.tiktok.com/@onewheel<br>Twitter: https://twitter.com/rideonewheel?lang=en<br>Facebook: https://www.facebook.com/OnewheelOfficial/<br><br>SUBSCRIBE TO THE ONEWHEEL NEWSLETTER<br>https://onewheel.com/pages/newsletter-subscribe<br><br>New to the channel? Check out some of our playlists!<br><br>The Onewheel Podcast: https://youtube.com/playlist?list=PLwHhGWG1Ijyv_16ptqZQTD_1M_a3C22Ko<br><br>Onewheel Shred Series: https://youtube.com/playlist?list=PLwHhGWG1IjysqE-qfjkd0JkU_ouoSLERC<br><br><br>#onewheel #onewheelgt #onewheelpintx</p>",
+      "url": "https://www.youtube.com/shorts/CHVd2xlhqcY",
+      "publishedAt": "2026-10-01T17:50:03.000Z",
+      "author": "Onewheel",
+      "videoId": "CHVd2xlhqcY",
+      "image": "https://i4.ytimg.com/vi/CHVd2xlhqcY/hqdefault.jpg",
+      "sourceId": "onewheel-youtube-feed-fm-6kqsk4",
+      "source": "Onewheel",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg",
+      "duplicateSourceIds": [
+        "onewheel-youtube-feed-fm-6kqsk4"
+      ],
+      "mergedItemCount": 1
+    },
+    {
+      "id": "1iznhde-14o2nhz",
+      "title": "Onewheels + Lunch = Good Vibes || Sac Lunch 12",
+      "description": "Tag along with us on another ride to lunch:) Nothing beats Onewheeling to lunch with friends. Do you Onewheel to get lunch? Lunch Spot: https://goldenpineapple.net/ Follow us on Social! Instagram: @TheFloatLife Reddit: U/TheFloatLife #TheFloatLife #Onewheel #TFL #OnewheelLifestyle #OnewheelXR #OnewheelPint #OnewheelRider #OnewheelPlusXR #OnewheelAccessories #OnewheelTricks",
+      "contentHtml": "<p>Tag along with us on another ride to lunch:) Nothing beats Onewheeling to lunch with friends. Do you Onewheel to get lunch?<br><br>Lunch Spot: https://goldenpineapple.net/<br><br>Follow us on Social!<br>Instagram: @TheFloatLife  <br>Reddit: U/TheFloatLife<br><br>#TheFloatLife #Onewheel #TFL #OnewheelLifestyle #OnewheelXR #OnewheelPint  #OnewheelRider #OnewheelPlusXR #OnewheelAccessories #OnewheelTricks</p>",
+      "url": "https://www.youtube.com/watch?v=SAZ6Z0MhXks",
+      "publishedAt": "2026-10-01T17:02:55.000Z",
+      "author": "The Float Life",
+      "videoId": "SAZ6Z0MhXks",
+      "image": "https://i4.ytimg.com/vi/SAZ6Z0MhXks/hqdefault.jpg",
+      "sourceId": "the-float-life-1905vur",
+      "source": "The Float Life",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA",
+      "duplicateSourceIds": [
+        "the-float-life-1905vur"
+      ],
+      "mergedItemCount": 1
+    },
     {
       "id": "2210cf-1czfdl1",
       "title": "New to VESC and want to learn how to install a new BMS and battery",
@@ -7720,18 +7783,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8129,18 +8190,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8219,18 +8278,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8286,18 +8343,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8423,18 +8478,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8493,18 +8546,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8539,18 +8590,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8585,18 +8634,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -8658,18 +8705,16 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
-        "fallmantech-1ir0tvi"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1dn64sj"
       ],
       "mergedItemCount": 3
     },
@@ -9981,9 +10026,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -10007,9 +10050,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -12544,11 +12585,34 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1xw5u9l-1joxsrd",
-      "title": "Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. - webull.com",
-      "description": "Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. webull.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LQk81bk9iQTZMWUtjYUlzeUtOaE8wU2Fqb2FvM251V1hSbjZZbVZQY2dZMWc2bHRqYXRTbW5DUnUzZkl0ZTV1TnRXNm9yT1VhdE9NMkN0MGQ?oc=5\" target=\"_blank\">Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">webull.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LQk81bk9iQTZMWUtjYUlzeUtOaE8wU2Fqb2FvM251V1hSbjZZbVZQY2dZMWc2bHRqYXRTbW5DUnUzZkl0ZTV1TnRXNm9yT1VhdE9NMkN0MGQ?oc=5",
+      "id": "uc98qe-1k6th9l",
+      "title": "Onewheel team's Antic e-bike can pop eternal wheelies - Engadget",
+      "description": "Onewheel team's Antic e-bike can pop eternal wheelies engadget.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5\" target=\"_blank\">Onewheel team's Antic e-bike can pop eternal wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5",
+      "publishedAt": "2025-11-19T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "3zx4y2-1joxsrd",
+      "title": "Future Motion, creators of Onewheel, launch Antic - Event Santa Cruz",
+      "description": "Future Motion, creators of Onewheel, launch Antic eventsantacruz.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOdjJ6MWs2alg3QXFvRWJRT3BBbzV1VXhnSmJLWV96eDMyV19tenJ2aTVXbjVWRkJVNTFjY0ctZFNPd25CM1NxMF9VODBhZ3RWWVE2UDYyRlhvM25iU1VyVzVXczl5bUxzSWhuMkNBUDhkaHBCYURkaGJySm1oM3NSM1Q3TEo2dw?oc=5\" target=\"_blank\">Future Motion, creators of Onewheel, launch Antic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eventsantacruz.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdjJ6MWs2alg3QXFvRWJRT3BBbzV1VXhnSmJLWV96eDMyV19tenJ2aTVXbjVWRkJVNTFjY0ctZFNPd25CM1NxMF9VODBhZ3RWWVE2UDYyRlhvM25iU1VyVzVXczl5bUxzSWhuMkNBUDhkaHBCYURkaGJySm1oM3NSM1Q3TEo2dw?oc=5",
       "publishedAt": "2025-11-19T08:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -12566,34 +12630,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "uc98qe-1joxsrd",
-      "title": "Onewheel team's Antic e-bike can pop eternal wheelies - Engadget",
-      "description": "Onewheel team's Antic e-bike can pop eternal wheelies engadget.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5\" target=\"_blank\">Onewheel team's Antic e-bike can pop eternal wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5",
-      "publishedAt": "2025-11-19T08:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "3zx4y2-1joxsrd",
-      "title": "Future Motion, creators of Onewheel, launch Antic - Event Santa Cruz",
-      "description": "Future Motion, creators of Onewheel, launch Antic eventsantacruz.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOdjJ6MWs2alg3QXFvRWJRT3BBbzV1VXhnSmJLWV96eDMyV19tenJ2aTVXbjVWRkJVNTFjY0ctZFNPd25CM1NxMF9VODBhZ3RWWVE2UDYyRlhvM25iU1VyVzVXczl5bUxzSWhuMkNBUDhkaHBCYURkaGJySm1oM3NSM1Q3TEo2dw?oc=5\" target=\"_blank\">Future Motion, creators of Onewheel, launch Antic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eventsantacruz.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdjJ6MWs2alg3QXFvRWJRT3BBbzV1VXhnSmJLWV96eDMyV19tenJ2aTVXbjVWRkJVNTFjY0ctZFNPd25CM1NxMF9VODBhZ3RWWVE2UDYyRlhvM25iU1VyVzVXczl5bUxzSWhuMkNBUDhkaHBCYURkaGJySm1oM3NSM1Q3TEo2dw?oc=5",
+      "id": "1xw5u9l-1joxsrd",
+      "title": "Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. - webull.com",
+      "description": "Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. webull.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LQk81bk9iQTZMWUtjYUlzeUtOaE8wU2Fqb2FvM251V1hSbjZZbVZQY2dZMWc2bHRqYXRTbW5DUnUzZkl0ZTV1TnRXNm9yT1VhdE9NMkN0MGQ?oc=5\" target=\"_blank\">Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">webull.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LQk81bk9iQTZMWUtjYUlzeUtOaE8wU2Fqb2FvM251V1hSbjZZbVZQY2dZMWc2bHRqYXRTbW5DUnUzZkl0ZTV1TnRXNm9yT1VhdE9NMkN0MGQ?oc=5",
       "publishedAt": "2025-11-19T08:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -13568,15 +13609,15 @@
       "author": "Oskar Fällman",
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2025/08/image.png",
-      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
+      "sourceId": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
       "source": "Fallman.tech \"Onewheel\" Search Feed (Onewheel search)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
       "feedUrl": "https://fallman.tech/?feed=rss2&s=onewheel",
       "duplicateSourceIds": [
-        "fallman-tech-onewheel-search-feed-onewheel-search-w7ndk9",
-        "fallman-tech-onewheel-search-feed-w7ndk9"
+        "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
+        "fallman-tech-onewheel-search-feed-1k1p7f8"
       ],
       "mergedItemCount": 2
     },
@@ -14064,9 +14105,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -14090,9 +14129,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -14116,9 +14153,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -14142,9 +14177,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -14254,7 +14287,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -15841,7 +15874,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -15849,7 +15882,9 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq"
+        "the-sideways-movement-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
     },
@@ -15894,9 +15929,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -15941,9 +15974,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -15988,9 +16019,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16037,9 +16066,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16086,9 +16113,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16112,9 +16137,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16138,9 +16161,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16164,9 +16185,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16190,9 +16209,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16216,9 +16233,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16242,9 +16257,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16291,9 +16304,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16603,7 +16614,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -16756,9 +16767,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16782,9 +16791,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16852,9 +16859,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16878,9 +16883,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -16909,7 +16912,7 @@
     },
     {
       "id": "1bt0l7p-1joxsrd",
-      "title": "ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’ - Levin Papantonio",
+      "title": "ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’ - levinlaw.com",
       "description": "ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’ Levin Papantonio",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBuMFdDMWVUNUFrd2F0WEZfLVlMbVpuU2xJRHpvQWNHTVV3S25Rbm5ZX0dYZGNaR0tBWW0tWndnZ3BaZGpGYWNNNnJxQ2UwU2FNRGtxajZGNWhNX1UyMzVnZFB0UTEyc3BiM29aa1VfR0JEZUt4SEN4RFZ1WQ?oc=5\" target=\"_blank\">ONEWHEEL SKATEBOARDS: ‘NOT WORTH DYING FOR’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Levin Papantonio</font>",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuMFdDMWVUNUFrd2F0WEZfLVlMbVpuU2xJRHpvQWNHTVV3S25Rbm5ZX0dYZGNaR0tBWW0tWndnZ3BaZGpGYWNNNnJxQ2UwU2FNRGtxajZGNWhNX1UyMzVnZFB0UTEyc3BiM29aa1VfR0JEZUt4SEN4RFZ1WQ?oc=5",
@@ -17017,9 +17020,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -17109,9 +17110,7 @@
         "one-stop-board-shop-1j2yvf6",
         "one-stop-board-shop-onewheel-product-feed-1j2yvf6",
         "onewheel-1j2yvf6",
-        "one-stop-board-shop-blog-bw9l5y",
-        "blog-bw9l5y",
-        "one-stop-board-shop-bw9l5y"
+        "one-stop-board-shop-blog-bw9l5y"
       ],
       "mergedItemCount": 5
     },
@@ -17180,7 +17179,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "12jhxrt-1joxsrd",
+      "id": "12jhxrt-1k6th9l",
       "title": "Biggest Onewheel Black Friday Sale Ever: Up to $700 in Savings - PR Newswire",
       "description": "Biggest Onewheel Black Friday Sale Ever: Up to $700 in Savings PR Newswire",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOdWdkeFdvNjhKMVhyVHNjeFV0Nmh1RURIdEhZOFpPa2FyTXl1anBWbU5CemtMdnpSM2VyZ0RONS1ESFptM2tMcDVNdWpxWVZ2S2phdmR1dDIyLUQtbXZJTWRXd1ZQWENzcnVmMUFma2N0RGpETTFqY3Bmb2plY2MxNkJia29pS0oxNFNTc0Nrd19QekJCTXlwbE83eFNoVTM3QjlKOWNPZC1RdXhxUXpoN2NXZGNlYVE?oc=5\" target=\"_blank\">Biggest Onewheel Black Friday Sale Ever: Up to $700 in Savings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PR Newswire</font>",
@@ -17189,16 +17188,16 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -17420,7 +17419,7 @@
     },
     {
       "id": "k2uu6j-1k6th9l",
-      "title": "Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupidDOPE",
+      "title": "Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupiddope.com",
       "description": "Future Motion Revives the Onewheel XR Classic with Modern Upgrades stupiddope.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VBWTBDN0prOFJuNU9GbFQ3R093WGtDcFF3cGJvVFdmbzBPQXRZXzFHa1NSUld6c3MtRGt6VEtZU2g4d1NESW1QUDF5eXlyQzExdFBGYXduQkxHTTdEUTJ0MUVUZFBrRU1MNlVHd1lUU3JOT0FRcDNQSTlOckxJS09MRUpCc3ZZUEkzd0lfcTdFTE1maW9KeWw4amxVbGc?oc=5\" target=\"_blank\">Future Motion Revives the Onewheel XR Classic with Modern Upgrades</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">stupiddope.com</font>",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR2VBWTBDN0prOFJuNU9GbFQ3R093WGtDcFF3cGJvVFdmbzBPQXRZXzFHa1NSUld6c3MtRGt6VEtZU2g4d1NESW1QUDF5eXlyQzExdFBGYXduQkxHTTdEUTJ0MUVUZFBrRU1MNlVHd1lUU3JOT0FRcDNQSTlOckxJS09MRUpCc3ZZUEkzd0lfcTdFTE1maW9KeWw4amxVbGc?oc=5",
@@ -18141,7 +18140,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -19230,7 +19229,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1htjkpt-1joxsrd",
+      "id": "1htjkpt-1k6th9l",
       "title": "Industry rebel Onewheel launches a premium off-road electric board - Electrek",
       "description": "Industry rebel Onewheel launches a premium off-road electric board electrek.co",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQcFZMMURXY2VlUy1ZeDNmcnBWdUZIZzFScWtUR20xbFQweTY1bjdEekxodmJRUm1KMjB1UEtRZXV6Yk9fZExpdmUxcW9iT0dMX29PM01GUkVPMDlqdkhKVk9BaVlhNU52a1VZSkZFVG1KdE5iMFA1T3VRQldmajduWThZY3haWnhEdDJHWEtMX2dCdUtYemduR3VSQWVyYnc?oc=5\" target=\"_blank\">Industry rebel Onewheel launches a premium off-road electric board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
@@ -19239,16 +19238,16 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -19452,11 +19451,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "vewkle-1k6th9l",
-      "title": "Riding the Edge: Future Motion Marks 10 Years on Onewheel - Metro Silicon Valley",
-      "description": "Riding the Edge: Future Motion Marks 10 Years on Onewheel Metro Silicon Valley",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUXhUdUFjOG9BQk5xN2hGdjI0aFFSVlhQakpkQUZRNVJQaHprci0xSy0zN3pqakFPaFQxR05ua051RDJ6U3NoX0M1dFYxSDJ3MlBmUjZ5MTZmSWtnNDBiRnRMOVR2NDZzRWhEd25jVWlhRzIyNUdSLUp6bFZqNVpxYzVIS2lnSEx3OGFFTTMyY09mZFVwLV80?oc=5\" target=\"_blank\">Riding the Edge: Future Motion Marks 10 Years on Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro Silicon Valley</font>",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUXhUdUFjOG9BQk5xN2hGdjI0aFFSVlhQakpkQUZRNVJQaHprci0xSy0zN3pqakFPaFQxR05ua051RDJ6U3NoX0M1dFYxSDJ3MlBmUjZ5MTZmSWtnNDBiRnRMOVR2NDZzRWhEd25jVWlhRzIyNUdSLUp6bFZqNVpxYzVIS2lnSEx3OGFFTTMyY09mZFVwLV80?oc=5",
+      "id": "k1ehof-1k6th9l",
+      "title": "One Decade of Onewheel - Good Times | Santa Cruz California's Leading Free Weekly",
+      "description": "One Decade of Onewheel Good Times | Santa Cruz California's Leading Free Weekly",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5\" target=\"_blank\">One Decade of Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good Times | Santa Cruz California's Leading Free Weekly</font>",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5",
       "publishedAt": "2024-06-19T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -19473,11 +19472,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "k1ehof-1k6th9l",
-      "title": "One Decade of Onewheel - Good Times | Santa Cruz California's Leading Free Weekly",
-      "description": "One Decade of Onewheel Good Times | Santa Cruz California's Leading Free Weekly",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5\" target=\"_blank\">One Decade of Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good Times | Santa Cruz California's Leading Free Weekly</font>",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbmtSUC01S29rRVZaVTE4VDY0bkVjOTI5R3UwYkhqYzlFeWdqaWptblZfdVY5TjJoMGlEWEpzcmpMaG85dE1wUTBUSE9uNlowMjkwbW1ONGhXRUZIRHR0a1hwYnNsdFBFa2w0aERCSlFWeW9PamJTT09kekFLeERBZFdWNGpzMVdMQ2JDTGJhQQ?oc=5",
+      "id": "vewkle-1k6th9l",
+      "title": "Riding the Edge: Future Motion Marks 10 Years on Onewheel - Metro Silicon Valley",
+      "description": "Riding the Edge: Future Motion Marks 10 Years on Onewheel Metro Silicon Valley",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUXhUdUFjOG9BQk5xN2hGdjI0aFFSVlhQakpkQUZRNVJQaHprci0xSy0zN3pqakFPaFQxR05ua051RDJ6U3NoX0M1dFYxSDJ3MlBmUjZ5MTZmSWtnNDBiRnRMOVR2NDZzRWhEd25jVWlhRzIyNUdSLUp6bFZqNVpxYzVIS2lnSEx3OGFFTTMyY09mZFVwLV80?oc=5\" target=\"_blank\">Riding the Edge: Future Motion Marks 10 Years on Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro Silicon Valley</font>",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUXhUdUFjOG9BQk5xN2hGdjI0aFFSVlhQakpkQUZRNVJQaHprci0xSy0zN3pqakFPaFQxR05ua051RDJ6U3NoX0M1dFYxSDJ3MlBmUjZ5MTZmSWtnNDBiRnRMOVR2NDZzRWhEd25jVWlhRzIyNUdSLUp6bFZqNVpxYzVIS2lnSEx3OGFFTTMyY09mZFVwLV80?oc=5",
       "publishedAt": "2024-06-19T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -22908,7 +22907,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1ubxkha-1joxsrd",
+      "id": "1ubxkha-1k6th9l",
       "title": "Onewheel Skateboards Recalled 10 Months After CPSC Warnings - Consumer Notice",
       "description": "Onewheel Skateboards Recalled 10 Months After CPSC Warnings consumernotice.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNMndWTGV1Uk1ua2l4S3hUck5FWnpEUVJpdUdtMzNQMV9KTG9KQ29EMU9pX1VGVk91Mm8xZHVKZnNvaEZsTW11b21MZlYzRXZlQzA0Y2NPMFluSTlORjFPbkhoUG53SHpJTlNmWFh2VC1GNTBCWnluQW5Cd29CQm1fd184S2I2QW1RS1pTZlA2SQ?oc=5\" target=\"_blank\">Onewheel Skateboards Recalled 10 Months After CPSC Warnings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">consumernotice.org</font>",
@@ -22917,16 +22916,16 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -23241,6 +23240,49 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1e6uf0t-1k6th9l",
+      "title": "All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports - Claims Journal",
+      "description": "All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports claimsjournal.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE05dklzT2pSUXRreXVrVE9KdTI4VXZ3TlRrN1JmSHVOZ05wVmtkOWRJMmRLZEVJNnQ3YjJVb1NZSUxMbDd3VnVRbDhiYjU3VThXYlpJMEYtZnBhX01FSHg4dFpZOUU1MXlUeW1zLWJPRy14TnM?oc=5\" target=\"_blank\">All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">claimsjournal.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05dklzT2pSUXRreXVrVE9KdTI4VXZ3TlRrN1JmSHVOZ05wVmtkOWRJMmRLZEVJNnQ3YjJVb1NZSUxMbDd3VnVRbDhiYjU3VThXYlpJMEYtZnBhX01FSHg4dFpZOUU1MXlUeW1zLWJPRy14TnM?oc=5",
+      "publishedAt": "2023-10-03T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1wowj0n-1k6th9l",
+      "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
+      "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled worldwide after deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sky.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5",
+      "publishedAt": "2023-10-03T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "r6x2tg-1k6th9l",
       "title": "All Onewheel e-skateboards recalled worldwide after four deaths - BBC",
       "description": "All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk",
@@ -23282,49 +23324,6 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 2
-    },
-    {
-      "id": "1e6uf0t-1k6th9l",
-      "title": "All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports - Claims Journal",
-      "description": "All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports claimsjournal.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE05dklzT2pSUXRreXVrVE9KdTI4VXZ3TlRrN1JmSHVOZ05wVmtkOWRJMmRLZEVJNnQ3YjJVb1NZSUxMbDd3VnVRbDhiYjU3VThXYlpJMEYtZnBhX01FSHg4dFpZOUU1MXlUeW1zLWJPRy14TnM?oc=5\" target=\"_blank\">All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">claimsjournal.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05dklzT2pSUXRreXVrVE9KdTI4VXZ3TlRrN1JmSHVOZ05wVmtkOWRJMmRLZEVJNnQ3YjJVb1NZSUxMbDd3VnVRbDhiYjU3VThXYlpJMEYtZnBhX01FSHg4dFpZOUU1MXlUeW1zLWJPRy14TnM?oc=5",
-      "publishedAt": "2023-10-03T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1wowj0n-1k6th9l",
-      "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
-      "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled worldwide after deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sky.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5",
-      "publishedAt": "2023-10-03T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
     },
@@ -23459,11 +23458,77 @@
       "mergedItemCount": 2
     },
     {
+      "id": "mit9n4-1k6th9l",
+      "title": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported - NBC Los Angeles",
+      "description": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported nbclosangeles.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5\" target=\"_blank\">All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbclosangeles.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "1pzkrxv-1k6th9l",
       "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
       "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1qjtm5r-1k6th9l",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - nypost.com",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
+      "id": "1u779ba-1k6th9l",
+      "title": "Own a Onewheel? What To Know About the Recall After 4 Deaths - The San Francisco Standard",
+      "description": "Own a Onewheel? What To Know About the Recall After 4 Deaths The San Francisco Standard",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5\" target=\"_blank\">Own a Onewheel? What To Know About the Recall After 4 Deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The San Francisco Standard</font>",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5",
       "publishedAt": "2023-10-02T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -23504,29 +23569,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1u779ba-1joxsrd",
-      "title": "Own a Onewheel? What To Know About the Recall After 4 Deaths - The San Francisco Standard",
-      "description": "Own a Onewheel? What To Know About the Recall After 4 Deaths The San Francisco Standard",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5\" target=\"_blank\">Own a Onewheel? What To Know About the Recall After 4 Deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The San Francisco Standard</font>",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE13eUFNT1dFbDczeV9MZERCdF9VMkJDWGduMDQwck1nTldsQmd6SHFHMnkxYmpoSU8tX0E4TFdIbGhWanZrVnM2bTVvaVg2Ml9nQnRfbmJGMm84Wi15b0J3MFBrc3ZYblNRM1BfbWZxb0RBYklYQjBndXJYSQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "11ljmau-1joxsrd",
       "title": "OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature - AboutLawsuits.com",
       "description": "OneWheel Recall Issued After Dozens of Rider Injuries Due to \"Pushback\" Feature AboutLawsuits.com",
@@ -23545,49 +23587,6 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 2
-    },
-    {
-      "id": "mit9n4-1k6th9l",
-      "title": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported - NBC Los Angeles",
-      "description": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported nbclosangeles.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5\" target=\"_blank\">All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbclosangeles.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1qjtm5r-1k6th9l",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
     },
@@ -23794,6 +23793,27 @@
       "mergedItemCount": 3
     },
     {
+      "id": "yyn3fm-1k6th9l",
+      "title": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update - New York Daily News",
+      "description": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update New York Daily News",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXpsYUNDeTU5WVAzZTJoY0RfOE9SUWpBSERxMDFtQmZoTXRpSkdhdXFfR3IzZ1JlVXZldEtWZVVWUkh0UVAzTHRBaDhkaFJrQjZ6ZTRUM0VXN2lsLVpVajB1blZrTzdncXlyelU4LTlwaVc2Z2J3VDh1Vmd4MUZGemRzWWlqYk5rRFhhVWlBUmY?oc=5\" target=\"_blank\">Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Daily News</font>",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXpsYUNDeTU5WVAzZTJoY0RfOE9SUWpBSERxMDFtQmZoTXRpSkdhdXFfR3IzZ1JlVXZldEtWZVVWUkh0UVAzTHRBaDhkaFJrQjZ6ZTRUM0VXN2lsLVpVajB1blZrTzdncXlyelU4LTlwaVc2Z2J3VDh1Vmd4MUZGemRzWWlqYk5rRFhhVWlBUmY?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "gi4tg2-1joxsrd",
       "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
       "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
@@ -23856,27 +23876,6 @@
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 2
-    },
-    {
-      "id": "yyn3fm-1k6th9l",
-      "title": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update - New York Daily News",
-      "description": "Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update New York Daily News",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXpsYUNDeTU5WVAzZTJoY0RfOE9SUWpBSERxMDFtQmZoTXRpSkdhdXFfR3IzZ1JlVXZldEtWZVVWUkh0UVAzTHRBaDhkaFJrQjZ6ZTRUM0VXN2lsLVpVajB1blZrTzdncXlyelU4LTlwaVc2Z2J3VDh1Vmd4MUZGemRzWWlqYk5rRFhhVWlBUmY?oc=5\" target=\"_blank\">Onewheel e-skateboards recalled after four reported deaths; users asked to get firmware update</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Daily News</font>",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXpsYUNDeTU5WVAzZTJoY0RfOE9SUWpBSERxMDFtQmZoTXRpSkdhdXFfR3IzZ1JlVXZldEtWZVVWUkh0UVAzTHRBaDhkaFJrQjZ6ZTRUM0VXN2lsLVpVajB1blZrTzdncXlyelU4LTlwaVc2Z2J3VDh1Vmd4MUZGemRzWWlqYk5rRFhhVWlBUmY?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
     },
@@ -26497,7 +26496,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -26511,8 +26510,8 @@
     {
       "id": "14jcfu7-1bh986t",
       "title": "Floatwheel ADV, l’alternative au Onewheel ?",
-      "description": "Floatwheel ADV, l’alternative au Onewheel ? Le Onewheel a été créé en 2015 par Kyle Doerksen. La commercialisation du tout premier Onewheel (Original) s’est accompagnée de son lot de brevets et rime encore avec un monopole qui dure depuis bien longtemps. Future Motion, le fabricant, n’a donc eu aucune concurrence pendant des années régnant ainsi … Lire la suite de « Floatwheel ADV, l’alternative au Onewheel ? » L’article Floatwheel ADV, l’alternative au Onewheel ? est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .",
-      "contentHtml": "<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5514\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-300x300.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-150x150.webp 150w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-768x768.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-600x600.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-800x800.webp 800w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2.webp 1200w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\" style=\"font-size:clamp(18.959px, 1.185rem + ((1vw - 3.2px) * 0.977), 30px);\"><strong>Floatwheel ADV, l’alternative au Onewheel ?</strong></p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<p class=\"wp-block-paragraph\">Le <a href=\"https://onewheel.com\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel</a> a été créé en 2015 par <a href=\"https://uneroo.fr/onewheel/\" target=\"_blank\" rel=\"noreferrer noopener\">Kyle Doerksen</a>. La commercialisation du tout premier <a href=\"https://uneroo.fr/onewheel-original-v1/\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel (Original)</a> s’est accompagnée de son lot de brevets et rime encore avec un monopole qui dure depuis bien longtemps. Future Motion, le fabricant, n’a donc eu aucune concurrence pendant des années régnant ainsi sur ce segment et pratiquant la <a href=\"https://uneroo.fr/la-politique-de-future-motion/\" target=\"_blank\" rel=\"noreferrer noopener\">politique FM digne d’Apple</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mais les temps changent avec l’arrivée du contrôleur open source <a href=\"https://uneroo.fr/pourquoi-choisir-vesc/\">VESC</a> et d’un <a href=\"https://floatwheel.co/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel</a> qui vient chatouiller Future motion et son Onewheel GT/GT-S, modèle phare de la marque. Le premier atout du Floatwheel ADV, c&rsquo;est son prix : 2150USD. La <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a>, vendue 2200$ aux USA, est 35% plus chère que l&rsquo;ADV. La <a href=\"https://uneroo.fr/onewheel-gt-s/\" target=\"_blank\" rel=\"noreferrer noopener\">GT-S</a> est elle x2 plus chère que l&rsquo;ADV. L&rsquo;autre atout du Floatwheel ADV, ce sont des performances annoncées qui donnent le vertige : un moteur potentiellement 3x plus puissant que celui de la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a>, plus de couple, plus de sécurité, une meilleure autonomie et un <a href=\"https://uneroo.fr/indice-reparabilite/\" target=\"_blank\" rel=\"noreferrer noopener\">indice de réparabilité</a> proche du 100%. Le Floatwheel, tout comme le VESC, serait-il une vraie alternative au Onewheel ?</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"478\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-1024x478.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5488\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-1024x478.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-300x140.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-768x359.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-1536x718.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-600x280.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18.webp 1620w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Qu’est-ce que Floatwheel ?</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Le <a href=\"https://floatwheel.co/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel</a> a vu le jour en 2020. Le Floatwheel était un kit permettant de monter soi-même son Onewheel sur une base de contrôleur VESC. A l’époque, la Pint venait de sortir et les 1200€ qu’elle coûtait rebutait pas mal de monde. Un Floatwheel complet revenait à environ 850€ et plus de 500 kits ont été vendus à travers le monde d’après Tony Lai. Aujourd’hui, le Floatwheel a beaucoup évolué. Il vient taquiner le Onewheel GT et même la GT-S de Future Motion ! Et c&rsquo;est une bonne chose d&rsquo;avoir un peu de concurrence dans cet univers qui restait la chasse gardée du fabricant du Onewheel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Voir aussi 👉🏼 <a href=\"https://uneroo.fr/pourquoi-choisir-vesc/\" target=\"_blank\" rel=\"noreferrer noopener\">Pourquoi choisir VESC ?</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">C’est en “grandes pompes” que Tony Lai, fondateur du Floatwheel, nous a présenté début décembre 2022 sur Youtube <a href=\"https://youtu.be/Pvsr2DtOazI\" target=\"_blank\" rel=\"noreferrer noopener\">la nouvelle mouture du Floatwheel</a> sous deux déclinaisons : l’ADV et ADV Pro. La ressemblance avec la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> et GT-S est assez frappante au niveau design.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"428\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-1024x428.webp\" alt=\"\" class=\"wp-image-5499\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-1024x428.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-300x125.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-768x321.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-1536x642.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-600x251.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-800x335.webp 800w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1.webp 1654w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Les spécifications du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L&rsquo;ADV, c’est tout simplement une GT sous testostérone façon Floatwheel. </p>\n\n\n\n<h3 class=\"wp-block-heading\">Les principales différences entre le Floatwheel et la GT :</h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>un contrôleur conçu autour de la plateforme Open Source VESC offrant une totale <a href=\"https://uneroo.fr/indice-reparabilite/\" target=\"_blank\" rel=\"noreferrer noopener\">réparabilité</a></li>\n\n\n\n<li>un moteur 3x plus puissant (jusqu’à 9ch)</li>\n\n\n\n<li>une batterie 15% plus puissante (20s2p &#8211; 84v)</li>\n\n\n\n<li>une meilleure autonomie (+20%, jusqu’à 58km)</li>\n\n\n\n<li>des accessoires bien meilleur marché</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">voir aussi : <br>👉🏼 <a href=\"https://uneroo.fr/conversion-onewheel-vesc/\" target=\"_blank\" rel=\"noreferrer noopener\">Conversion d&rsquo;un Onewheel en VESC</a><br>👉🏼 <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\">Floatwheel ADV vs Onewheel GT</a><br>👉🏼 <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt-s/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel ADV vs Onewheel GT-S</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">Spécifications techniques détaillées du Floatwheel ADV</h2>\n\n\n\n<figure id=\"tablepress-49\" class=\"wp-block-table is-style-stripes\"><table><thead><tr><th></th><th>Floatwheel ADV</th></tr></thead><tbody><tr><td><strong>Prix</strong></td><td>1600 USD</td></tr><tr><td><strong><a href=\"https://uneroo.fr/indice-reparabilite/\" target=\"_blank\" rel=\"noreferrer noopener\">Indice de réparabilité</a></strong></td><td>9/10</td></tr><tr><td><strong>Autonomie</strong></td><td>45 &#8211; 60 km</td></tr><tr><td><strong>Vitesse maxi</strong></td><td>45 km/h</td></tr><tr><td><strong>Moteur</strong></td><td>6HP/1200W&nbsp;CannonCore&nbsp;Motor</td></tr><tr><td><strong>Type de cellules</strong></td><td>NMC: 21700</td></tr><tr><td><strong>Cellules</strong></td><td>21700-20S2P (84V)</td></tr><tr><td><strong>Capacité</strong></td><td>672Wh</td></tr><tr><td><strong>Temps de charge</strong></td><td>200 minutes</td></tr><tr><td><strong>Pneu</strong></td><td>11&#215;6.5-6.0 Floatwheel Forza<br>Profil arrondi </td></tr><tr><td><strong>Poids</strong></td><td>16 kg</td></tr><tr><td><strong>Pads</strong></td><td>Concaves AV/AR</td></tr><tr><td><strong>Eclairage réglable</strong></td><td>Oui</td></tr><tr><td><strong>Poignée de transport</strong></td><td>Oui (Aluminium)</td></tr><tr><td><strong>Simple Stop</strong></td><td>Oui</td></tr><tr><td><strong>Bip alerte sonore</strong></td><td>Non</td></tr><tr><td><strong>Mode custom</strong></td><td>Oui</td></tr></tbody></table></figure>\n\n\n\n<h3 class=\"wp-block-heading\">Deux versions du Floatwheel ADV</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Il y a donc deux versions de ce Floatwheel : l&rsquo;ADV et l&rsquo;ADV Pro.<br>L’ADV est celle qui se rapproche le plus de la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> et GT-S en termes de caractéristiques techniques. Elle permet en plus d’avoir trois hauteurs de roue que l’on va fixer plus ou moins haut sur les rails en fonction des besoins. Basse pour plus de stabilité et hauteur pour une meilleur garde au sol. L’ADV Pro quant à elle permet d’avoir 5 positions.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"422\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-1024x422.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5500\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-1024x422.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-300x124.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-768x317.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-1536x633.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-600x247.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10.webp 1676w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Deux packs batterie sont disponibles. Un premier pack est équipé de cellules <a href=\"https://lygte-info.dk/review/batteries2012/Lishen%2021700%204000mAh%20LR2170LA%20(Purple)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Lishen LR2170LA</a> et l’autre de cellules <a href=\"https://lygte-info.dk/review/batteries2012/Molicel%20INR21700-P42A%204200mAh%20(Gray)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Molicel P42A</a>. Ce dernier affiche 5% d&rsquo;autonomie en plus.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sur l’ADV, on peut choisir le pack batterie de son choix (+150$ avec le pack pro Molicel P42A). L’ADV Pro est équipé d&rsquo;origine du pack pro.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Voilà, tout ça, c’est ce que Tony Lai de chez Floatwheel nous annonce.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"515\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-1024x515.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5482\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-1024x515.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-300x151.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-768x387.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-1536x773.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-600x302.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12.webp 1653w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Floatwheel ADV</figcaption></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"508\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-1024x508.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5481\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-1024x508.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-300x149.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-768x381.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-1536x762.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-600x298.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11.webp 1653w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Floatwheel ADV Pro</figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Le contrôleur du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Le contrôleur s’appuie donc sur la plateforme <a href=\"https://fr.wikipedia.org/wiki/Open_source\" target=\"_blank\" rel=\"noreferrer noopener\">Open Source</a> VESC qui fait déjà beaucoup de bruit dans la communauté des gyroroues, des skates électriques et, depuis 2021, chez les onewheelers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Le gros avantage de cette plateforme c’est qu’elle est <a href=\"https://fr.wikipedia.org/wiki/Open_source\" target=\"_blank\" rel=\"noreferrer noopener\">Open Source</a>. On évite ainsi d’être totalement dépendant d’un fabricant comme <a href=\"https://uneroo.fr/la-politique-de-future-motion/\" target=\"_blank\" rel=\"noreferrer noopener\">Future Motion</a> dont le seul centre technique est à l&rsquo;autre bout de la planète et qui nous facture une tonne pour la moindre réparation. En passant sur VESC, on s’affranchit de ces contraintes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Pour résumer, VESC, c’est bien et c’est bon marché pour des performances qui ne sont pas au rabais.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Le moteur du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Concernant le moteur, Floatwheel n’a pas fait les choses à moitié. Ils se sont juste inspirés de ce que fait Future Motion et de l’améliorer. Le stator du moteur a grossi de 50% ce qui lui permet un potentiel maxi de 9ch contre 3ch pour la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> et laissant rêver de performances assez dingues. Ceci étant dit, équipé de la batterie actuelle + BMS, le moteur ne délivrera que 6ch, ce qui est tout de même 2x plus que la GT. On a hâte de voir ça ! Pas tant au niveau des vitesses max mais plutôt en termes de sécurité, nosedives et couple.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Par ailleurs, un moteur plus puissant, c’est synonyme de chauffe. Pour éviter donc tout risque de surchauffe et dissiper correctement la chaleur, l’axe de roue a doublé de diamètre. Le stator a quant à lui été enrobé de liquide <a href=\"https://ferrofluid.ferrotec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">FerroTec</a> STG contribuant ainsi à une meilleure dissipation de la chaleur. C’est un procédé qui existe depuis plus de 40ans. Ce <a href=\"https://ferrofluid.ferrotec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">FerroTec</a> a été testé et approuvé par les onewheelers les plus chevronnés qui l’ont déjà utilisé sur les <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> ayant des problèmes de surchauffe. </p>\n\n\n\n<h2 class=\"wp-block-heading\">La petite cerise sur le gâteau</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>L&rsquo;ADV est équipée d&rsquo;une jante en 6” ! 👍</strong><br>Tous les modèles de Onewheels ont des jantes en 6” ce qui est un format assez standard aujourd’hui, sauf la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a>/GT-S sur laquelle on a une jante en 6,5&Prime;. Future Motion a voulu verrouiller ses clients au maximum (façon Apple) avec un format de jante en 6,5” et obliger ses clients à acheter même les pneus chez eux. Avec cette jante en 6”, Floatwheel marque encore des points en nous ouvrant à un panel de pneus bien plus large qu&rsquo;avec une jante en 6,5&Prime;</p>\n\n\n\n<p class=\"wp-block-paragraph\">👉🏼 Voir aussi : <a href=\"https://uneroo.fr/la-politique-de-future-motion/\" target=\"_blank\" rel=\"noreferrer noopener\">La politique de Future Motion</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">L’autonomie du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Deux batteries sont disponibles :</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Pack Batterie Standard : 20s2p, 84v cellules 21700 <a href=\"https://lygte-info.dk/review/batteries2012/Lishen%2021700%204000mAh%20LR2170LA%20(Purple)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Lishen LR2170LA</a> (ADV)</li>\n\n\n\n<li>Pack Batterie Pro : 20s2p, 84v cellules 21700 <a href=\"https://lygte-info.dk/review/batteries2012/Molicel%20INR21700-P42A%204200mAh%20(Gray)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Molicel P42A</a> (ADV et ADV Pro)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Là encore, un gain assez considérable par rapport à la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> avec un gain d’autonomie de +20% avec le pack batterie Pro et +10% avec le pack Standard.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Pour information, les cellules Molicel équipent depuis longtemps les <a href=\"https://freemove.fr/fr/produit/batterie-cbxr/\" target=\"_blank\" rel=\"noreferrer noopener\">CBXR</a> et ont déjà fait leurs preuves. Les Molicel P42A spécifiquement équipent elles depuis quelques mois les pack batterie TORque Pack pour VESC de chez ChiBatterySystems. Elles ont de bonnes performances et leur réputation dans la communauté VESC n&rsquo;est plus à faire. Quant aux Lischen, elles semblent avoir de plutôt bonnes performances mais une durée de vie un peu en dessous des Molicel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">En revanche, l&rsquo;hyper chargeur en 84v/10A(840w) pourrait quant à lui poser problème. Il charge en effet à 5A par cellule, ce qui est un peu trop et pourrait dégrader rapidement la batterie. La meilleure option serait de prendre le chargeur standard en 84v/2.1A (180w) ce qui préserverait la longévité du pack batterie.</p>\n\n\n\n<h2 class=\"wp-block-heading\">L’achat du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L’achat du Floatwheel ADV ne se fait malheureusement qu’en crypto monnaie en passant par la plateforme CoinBase. Floatwheel n’acceptent effectivement que ce moyen de paiement suite aux soucis qu’ils ont eu avec Future Motion sur le KIT Floatwheel vendu en 2020.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Conclusion : Mon avis très très perso sur le Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L&rsquo;ADV c&rsquo;est top ! 👍🏼 Plus puissante qu&rsquo;une GT, plus d&rsquo;autonomie, 1000x plus réparable, que des qualités.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"1674\" height=\"691\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5502\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12.webp 1674w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-300x124.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-1024x423.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-768x317.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-1536x634.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-600x248.webp 600w\" sizes=\"(max-width: 1674px) 100vw, 1674px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">👉🏼 Petite parenthèse qui vous aidera à comprendre ce qui suit. <br>Beaucoup de personnes confondent les notions de puissance, puissance réelle et de couple.<br>Pour faire simple :<br>La tension (ou voltage) est souvent assimilée à la puissance. Elle est en réalité synonyme vitesse max de rotation du moteur. Elle s&rsquo;exprime en Volts.<br>Le courant (ou ampérage) est synonyme de couple (Torque en anglais), capacité à accélérer et à vous rééquilibrer. Il se mesure en Nm (Newton-mètre).<br>La puissance réelle se mesure en Watts. Elle correspond au produit de la tension x courant.<br>(Fin de parenthèse 😉)</p>\n\n\n\n<h3 class=\"wp-block-heading\">Performances</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Cette adv, est un vrai avion de chasse à ne pas mettre entre toutes les mains. Une vitesse max pouvant dépasser les 45km/h : Elle envoie fort ! Rien à dire ! Elle vous rattrape aussi de situations assez incroyables. La puissance est là. Le couple aussi !<br>Niveau autonomie, on est bien avec ses 45-60km.</p>\n\n\n\n<h3 class=\"wp-block-heading\">La qualité : la grande question. </h3>\n\n\n\n<p class=\"wp-block-paragraph\">Elle vaut quoi cette ADV ?</p>\n\n\n\n<p class=\"wp-block-paragraph\">Floatwheel a réussi un premier kit il y a 3 ans. Il s’est bien vendu. Floatwheel et Tony Lai bénéficient aujourd&rsquo;hui d&rsquo;une bonne image de marque, ça a l’air d’être sérieux mais qu’en est t-il de l’ADV au niveau qualité, SAV et garantie ?</p>\n\n\n\n<p class=\"wp-block-paragraph\">La qualité des plastiques reste encore à améliorer mais Floatwheel sont très à l&rsquo;écoute des utilisateurs. Ils travaillent d&rsquo;arrache pied pour produire une board au top et corriger le peu de défauts qu&rsquo;elle a.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Niveau SAV, excellente surprise. Le support répond très rapidement et tout les utilisateurs témoignent d&rsquo;une réactivité hors pair ! Ils renvoient gratuitement  les pièces de rechange sans lésiner.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Les équipes de The Float Life et Wheel Fun Stuff ont pu tester la machine.<br>👉🏼 <a href=\"https://uneroo.fr/floatwheel-adv-onewheel-alternative/#PREMIERS_GROS_TESTS_DE_LA_FLOATWHEEL\">Le gros test de la Floatwheel</a></p>\n\n\n\n<h3 class=\"wp-block-heading\">Faut-il l&rsquo;acheter ?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Si vous avez 2150USD, que le paiement en crypto monnaie ne vous fait pas peur, foncez ! Vous ne le regretterez pas.</p>\n\n\n\n<p class=\"wp-block-paragraph\">👉🏼 voir aussi : <a href=\"https://floatwheel.co/index.php?route=product/category&amp;path=84\" target=\"_blank\" rel=\"noreferrer noopener\">Conversion d&rsquo;un Onewheel en VESC</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">Les accessoires pour Onewheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L’un des trucs cools avec les accessoires disponibles pour l’ADV, c’est que tous les composants sont disponibles et à des prix particulièrement intéressants ce qui pourrait aussi intéresser les fans de <a href=\"https://www.wizishop.fr/lexique-ecommerce/diy\" target=\"_blank\" rel=\"noreferrer noopener\">DIY</a>  :</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Rails 200$</li>\n\n\n\n<li>Moteur 350$</li>\n\n\n\n<li>Pneu 70$</li>\n\n\n\n<li>Contrôleur 250$</li>\n\n\n\n<li>BMS 60$</li>\n\n\n\n<li>Batteries 300$/450$</li>\n\n\n\n<li>Boîtiers batterie/contrôleur 50$</li>\n\n\n\n<li>Couvercles de boitiers 40$</li>\n\n\n\n<li>Rail guards 30/40$</li>\n\n\n\n<li>Fender amovible 50$</li>\n\n\n\n<li>Footpad arrière 40$</li>\n\n\n\n<li>Footpad avant avec ou sans capteur 70$/100$</li>\n\n\n\n<li>capteur 30$</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Il ne manque que la poignée de transport, les float plates et des flight fins. 😅</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://floatwheel.co/index.php?route=product/category&amp;path=84\" target=\"_blank\" rel=\"noreferrer noopener\">Liste détaillée et prix des accessoires pour Floatwheel</a>.</p>\n\n\n\n<div class=\"wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<h2 class=\"wp-block-heading\">Liens utiles, ressources et vidéos</h2>\n\n\n\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\" style=\"grid-template-columns:30% auto\"><figure class=\"wp-block-media-text__media\"><a href=\"https://uneroo.fr/onewheel-gt-specifications-techniques-detaillees/\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"511\" src=\"https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-1024x511.webp\" alt=\"Floatwheel vs GT\" class=\"wp-image-6968 size-large\" srcset=\"https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-1024x511.webp 1024w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-300x150.webp 300w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-768x383.webp 768w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-600x300.webp 600w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-1200x599.webp 1200w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003.webp 1454w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure><div class=\"wp-block-media-text__content\">\n<p class=\"wp-block-paragraph\"><a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel GT vs Floatwheel</a></p>\n</div></div>\n\n\n\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\" style=\"grid-template-columns:30% auto\"><figure class=\"wp-block-media-text__media\"><a href=\"https://uneroo.fr/onewheel-gt-specifications-techniques-detaillees/\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"511\" src=\"https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-1024x511.webp\" alt=\"Floatwheel vs GTS\" class=\"wp-image-8025 size-large\" srcset=\"https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-1024x511.webp 1024w, https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-300x150.webp 300w, https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-18x9.webp 18w, https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003.webp 1456w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure><div class=\"wp-block-media-text__content\">\n<p class=\"wp-block-paragraph\"><a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt-s/\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel GT-S vs Floatwheel</a></p>\n</div></div>\n\n\n\n<p class=\"wp-block-paragraph\">Dans cette vidéo de David, vous verrez ce qu’était le tout premier <a href=\"https://floatwheels.ru/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel</a>.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"Partie 1: Déballage d&#039;un kit de floatwheel (c&#039;est presque comme un onewheel,mais pas pareil )\" width=\"950\" height=\"534\" src=\"https://www.youtube.com/embed/d3vT_L3zHG8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n</div>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h2 class=\"wp-block-heading\">PREMIERS GROS TESTS DE LA FLOATWHEEL</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Attention mesdames et messieurs, Kyle Hanson, gros rider Américain met la Floatwheel à l&rsquo;épreuve et l&#8217;emmène dans ses derniers retranchements. La pauvre y laisse quelques bouts de plastique&#8230; Nous vous laissons vous faire votre propre avis.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"ADV Floatwheel First Impressions\" width=\"950\" height=\"534\" src=\"https://www.youtube.com/embed/4yqxQPAP2o8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>L’article <a href=\"https://uneroo.fr/floatwheel-adv-onewheel-alternative/\">Floatwheel ADV, l’alternative au Onewheel ?</a> est apparu en premier sur <a href=\"https://uneroo.fr\">UneRoo – Blog Onewheel &amp; VESC : conseils, tests, DIY</a>.</p>",
+      "description": "Floatwheel ADV, l’alternative au Onewheel ? Le Floatwheel ADV est une alternative open-source (basée sur VESC) au Onewheel GT/GT-S. Plus puissant, réparable et entièrement personnalisable, il s’adresse principalement aux riders expérimentés et adeptes du DIY. Le Onewheel a été créé en 2015 par Kyle Doerksen. La commercialisation du tout premier Onewheel (Original) s’est accompagnée de … Lire la suite de « Floatwheel ADV, l’alternative au Onewheel ? » L’article Floatwheel ADV, l’alternative au Onewheel ? est apparu en premier sur UneRoo – Blog Onewheel & VESC : conseils, tests, DIY .",
+      "contentHtml": "<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5514\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-300x300.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-150x150.webp 150w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-768x768.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-600x600.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-800x800.webp 800w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2.webp 1200w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h1 class=\"wp-block-heading\" style=\"font-size:clamp(18.959px, 1.185rem + ((1vw - 3.2px) * 0.977), 30px);\"><strong>Floatwheel ADV, l’alternative au Onewheel ?</strong></h1>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<p class=\"wp-block-paragraph\">Le Floatwheel ADV est une alternative open-source (basée sur VESC) au Onewheel GT/GT-S. Plus puissant, réparable et entièrement personnalisable, il s&rsquo;adresse principalement aux riders expérimentés et adeptes du DIY. </p>\n\n\n\n<p class=\"wp-block-paragraph\">Le <a href=\"https://onewheel.com\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel</a> a été créé en 2015 par <a href=\"https://uneroo.fr/onewheel/\" target=\"_blank\" rel=\"noreferrer noopener\">Kyle Doerksen</a>. La commercialisation du tout premier <a href=\"https://uneroo.fr/onewheel-original-v1/\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel (Original)</a> s’est accompagnée de son lot de brevets et rime encore avec un monopole qui dure depuis bien longtemps. Future Motion, le fabricant, n’a donc eu aucune concurrence pendant des années régnant ainsi sur ce segment et pratiquant la <a href=\"https://uneroo.fr/la-politique-de-future-motion/\" target=\"_blank\" rel=\"noreferrer noopener\">politique FM digne d’Apple</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Mais les temps changent avec l’arrivée du contrôleur open source <a href=\"https://uneroo.fr/pourquoi-choisir-vesc/\">VESC</a> et d’un <a href=\"https://floatwheel.co/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel</a> qui vient chatouiller Future motion et son Onewheel GT/GT-S, modèle phare de la marque. Le premier atout du Floatwheel ADV, c&rsquo;est son prix : 2150USD. La <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a>, vendue 2200$ aux USA, est 35% plus chère que l&rsquo;ADV. La <a href=\"https://uneroo.fr/onewheel-gt-s/\" target=\"_blank\" rel=\"noreferrer noopener\">GT-S</a> est elle x2 plus chère que l&rsquo;ADV. L&rsquo;autre atout du Floatwheel ADV, ce sont des performances annoncées qui donnent le vertige : un moteur potentiellement 3x plus puissant que celui de la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a>, plus de couple, plus de sécurité, une meilleure autonomie et un <a href=\"https://uneroo.fr/indice-reparabilite/\" target=\"_blank\" rel=\"noreferrer noopener\">indice de réparabilité</a> proche du 100%. Le Floatwheel, tout comme le VESC, serait-il une vraie alternative au Onewheel ?</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"478\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-1024x478.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5488\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-1024x478.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-300x140.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-768x359.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-1536x718.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18-600x280.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-18.webp 1620w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Qu’est-ce que Floatwheel ?</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Le <a href=\"https://floatwheel.co/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel</a> a vu le jour en 2020. Le Floatwheel était un kit permettant de monter soi-même son Onewheel sur une base de contrôleur VESC. A l’époque, la Pint venait de sortir et les 1200€ qu’elle coûtait rebutait pas mal de monde. Un Floatwheel complet revenait à environ 850€ et plus de 500 kits ont été vendus à travers le monde d’après Tony Lai. Aujourd’hui, le Floatwheel a beaucoup évolué. Il vient taquiner le Onewheel GT et même la GT-S de Future Motion ! Et c&rsquo;est une bonne chose d&rsquo;avoir un peu de concurrence dans cet univers qui restait la chasse gardée du fabricant du Onewheel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Voir aussi 👉🏼 <a href=\"https://uneroo.fr/pourquoi-choisir-vesc/\" target=\"_blank\" rel=\"noreferrer noopener\">Pourquoi choisir VESC ?</a></p>\n\n\n\n<p class=\"wp-block-paragraph\">C’est en “grandes pompes” que Tony Lai, fondateur du Floatwheel, nous a présenté début décembre 2022 sur Youtube <a href=\"https://youtu.be/Pvsr2DtOazI\" target=\"_blank\" rel=\"noreferrer noopener\">la nouvelle mouture du Floatwheel</a> sous deux déclinaisons : l’ADV et ADV Pro. La ressemblance avec la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> et GT-S est assez frappante au niveau design.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"428\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-1024x428.webp\" alt=\"\" class=\"wp-image-5499\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-1024x428.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-300x125.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-768x321.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-1536x642.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-600x251.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1-800x335.webp 800w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-1.webp 1654w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Les spécifications du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L&rsquo;ADV, c’est tout simplement une GT sous testostérone façon Floatwheel. </p>\n\n\n\n<h3 class=\"wp-block-heading\">Les principales différences entre le Floatwheel et la GT :</h3>\n\n\n\n<ul class=\"wp-block-list\">\n<li>un contrôleur conçu autour de la plateforme Open Source VESC offrant une totale <a href=\"https://uneroo.fr/indice-reparabilite/\" target=\"_blank\" rel=\"noreferrer noopener\">réparabilité</a></li>\n\n\n\n<li>un moteur 3x plus puissant (jusqu’à 9ch)</li>\n\n\n\n<li>une batterie 15% plus puissante (20s2p &#8211; 84v)</li>\n\n\n\n<li>une meilleure autonomie (+20%, jusqu’à 58km)</li>\n\n\n\n<li>des accessoires bien meilleur marché</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">voir aussi : <br>👉🏼 <a href=\"https://uneroo.fr/conversion-onewheel-vesc/\" target=\"_blank\" rel=\"noreferrer noopener\">Conversion d&rsquo;un Onewheel en VESC</a><br>👉🏼 <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\">Floatwheel ADV vs Onewheel GT</a><br>👉🏼 <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt-s/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel ADV vs Onewheel GT-S</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">Spécifications techniques détaillées du Floatwheel ADV</h2>\n\n\n\n<figure id=\"tablepress-49\" class=\"wp-block-table is-style-stripes\"><table><thead><tr><th></th><th>Floatwheel ADV</th></tr></thead><tbody><tr><td><strong>Prix</strong></td><td>1600 USD</td></tr><tr><td><strong><a href=\"https://uneroo.fr/indice-reparabilite/\" target=\"_blank\" rel=\"noreferrer noopener\">Indice de réparabilité</a></strong></td><td>9/10</td></tr><tr><td><strong>Autonomie</strong></td><td>45 &#8211; 60 km</td></tr><tr><td><strong>Vitesse maxi</strong></td><td>45 km/h</td></tr><tr><td><strong>Moteur</strong></td><td>6HP/1200W&nbsp;CannonCore&nbsp;Motor</td></tr><tr><td><strong>Type de cellules</strong></td><td>NMC: 21700</td></tr><tr><td><strong>Cellules</strong></td><td>21700-20S2P (84V)</td></tr><tr><td><strong>Capacité</strong></td><td>672Wh</td></tr><tr><td><strong>Temps de charge</strong></td><td>200 minutes</td></tr><tr><td><strong>Pneu</strong></td><td>11&#215;6.5-6.0 Floatwheel Forza<br>Profil arrondi </td></tr><tr><td><strong>Poids</strong></td><td>16 kg</td></tr><tr><td><strong>Pads</strong></td><td>Concaves AV/AR</td></tr><tr><td><strong>Eclairage réglable</strong></td><td>Oui</td></tr><tr><td><strong>Poignée de transport</strong></td><td>Oui (Aluminium)</td></tr><tr><td><strong>Simple Stop</strong></td><td>Oui</td></tr><tr><td><strong>Bip alerte sonore</strong></td><td>Non</td></tr><tr><td><strong>Mode custom</strong></td><td>Oui</td></tr></tbody></table></figure>\n\n\n\n<h3 class=\"wp-block-heading\">Deux versions du Floatwheel ADV</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Il y a donc deux versions de ce Floatwheel : l&rsquo;ADV et l&rsquo;ADV Pro.<br>L’ADV est celle qui se rapproche le plus de la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> et GT-S en termes de caractéristiques techniques. Elle permet en plus d’avoir trois hauteurs de roue que l’on va fixer plus ou moins haut sur les rails en fonction des besoins. Basse pour plus de stabilité et hauteur pour une meilleur garde au sol. L’ADV Pro quant à elle permet d’avoir 5 positions.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"422\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-1024x422.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5500\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-1024x422.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-300x124.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-768x317.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-1536x633.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10-600x247.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-10.webp 1676w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">Deux packs batterie sont disponibles. Un premier pack est équipé de cellules <a href=\"https://lygte-info.dk/review/batteries2012/Lishen%2021700%204000mAh%20LR2170LA%20(Purple)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Lishen LR2170LA</a> et l’autre de cellules <a href=\"https://lygte-info.dk/review/batteries2012/Molicel%20INR21700-P42A%204200mAh%20(Gray)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Molicel P42A</a>. Ce dernier affiche 5% d&rsquo;autonomie en plus.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Sur l’ADV, on peut choisir le pack batterie de son choix (+150$ avec le pack pro Molicel P42A). L’ADV Pro est équipé d&rsquo;origine du pack pro.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Voilà, tout ça, c’est ce que Tony Lai de chez Floatwheel nous annonce.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"515\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-1024x515.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5482\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-1024x515.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-300x151.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-768x387.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-1536x773.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12-600x302.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-12.webp 1653w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Floatwheel ADV</figcaption></figure>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"508\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-1024x508.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5481\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-1024x508.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-300x149.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-768x381.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-1536x762.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11-600x298.webp 600w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Screen-Shot-2022.12.09-02.46.10-11.webp 1653w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Floatwheel ADV Pro</figcaption></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Le contrôleur du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Le contrôleur s’appuie donc sur la plateforme <a href=\"https://fr.wikipedia.org/wiki/Open_source\" target=\"_blank\" rel=\"noreferrer noopener\">Open Source</a> VESC qui fait déjà beaucoup de bruit dans la communauté des gyroroues, des skates électriques et, depuis 2021, chez les onewheelers.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Le gros avantage de cette plateforme c’est qu’elle est <a href=\"https://fr.wikipedia.org/wiki/Open_source\" target=\"_blank\" rel=\"noreferrer noopener\">Open Source</a>. On évite ainsi d’être totalement dépendant d’un fabricant comme <a href=\"https://uneroo.fr/la-politique-de-future-motion/\" target=\"_blank\" rel=\"noreferrer noopener\">Future Motion</a> dont le seul centre technique est à l&rsquo;autre bout de la planète et qui nous facture une tonne pour la moindre réparation. En passant sur VESC, on s’affranchit de ces contraintes.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Pour résumer, VESC, c’est bien et c’est bon marché pour des performances qui ne sont pas au rabais.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Le moteur du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Concernant le moteur, Floatwheel n’a pas fait les choses à moitié. Ils se sont juste inspirés de ce que fait Future Motion et de l’améliorer. Le stator du moteur a grossi de 50% ce qui lui permet un potentiel maxi de 9ch contre 3ch pour la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> et laissant rêver de performances assez dingues. Ceci étant dit, équipé de la batterie actuelle + BMS, le moteur ne délivrera que 6ch, ce qui est tout de même 2x plus que la GT. On a hâte de voir ça ! Pas tant au niveau des vitesses max mais plutôt en termes de sécurité, nosedives et couple.&nbsp;</p>\n\n\n\n<p class=\"wp-block-paragraph\">Par ailleurs, un moteur plus puissant, c’est synonyme de chauffe. Pour éviter donc tout risque de surchauffe et dissiper correctement la chaleur, l’axe de roue a doublé de diamètre. Le stator a quant à lui été enrobé de liquide <a href=\"https://ferrofluid.ferrotec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">FerroTec</a> STG contribuant ainsi à une meilleure dissipation de la chaleur. C’est un procédé qui existe depuis plus de 40ans. Ce <a href=\"https://ferrofluid.ferrotec.com/\" target=\"_blank\" rel=\"noreferrer noopener\">FerroTec</a> a été testé et approuvé par les onewheelers les plus chevronnés qui l’ont déjà utilisé sur les <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> ayant des problèmes de surchauffe. </p>\n\n\n\n<h2 class=\"wp-block-heading\">Comparatif avec les GT et GTS</h2>\n\n\n\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><thead><tr><td></td><td><strong>Onewheel (GT / GT-S)</strong></td><td><strong>Floatwheel ADV</strong></td></tr></thead><tbody><tr><td><strong>Philosophie</strong></td><td>Écosystème fermé (propriétaire)</td><td>Open-source (VESC)</td></tr><tr><td><strong>Puissance / Volts</strong></td><td>75V &#8211; 113V (selon modèle)</td><td>84V / Haute puissance</td></tr><tr><td><strong>Réparabilité</strong></td><td>Difficile, presque nulle (pièces détachées introuvables sur le marché)</td><td>Très élevée (pièces standard/DIY)</td></tr><tr><td><strong>Niveau requis</strong></td><td>Débutant à Expert</td><td>Débutant à Expert</td></tr><tr><td><strong>Prix approximatif</strong></td><td>~2 500 € à 3 800 €</td><td>~1 600 $- 2 000$ (+ import)</td></tr></tbody></table></figure>\n\n\n\n<h2 class=\"wp-block-heading\">La petite cerise sur le gâteau</h2>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>L&rsquo;ADV est équipée d&rsquo;une jante en 6” ! 👍</strong><br>Tous les modèles de Onewheels ont des jantes en 6” ce qui est un format assez standard aujourd’hui, sauf la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a>/GT-S sur laquelle on a une jante en 6,5&Prime;. Future Motion a voulu verrouiller ses clients au maximum (façon Apple) avec un format de jante en 6,5” et obliger ses clients à acheter même les pneus chez eux. Avec cette jante en 6”, Floatwheel marque encore des points en nous ouvrant à un panel de pneus bien plus large qu&rsquo;avec une jante en 6,5&Prime;</p>\n\n\n\n<p class=\"wp-block-paragraph\">👉🏼 Voir aussi : <a href=\"https://uneroo.fr/la-politique-de-future-motion/\" target=\"_blank\" rel=\"noreferrer noopener\">La politique de Future Motion</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">L’autonomie du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Deux batteries sont disponibles :</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Pack Batterie Standard : 20s2p, 84v cellules 21700 <a href=\"https://lygte-info.dk/review/batteries2012/Lishen%2021700%204000mAh%20LR2170LA%20(Purple)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Lishen LR2170LA</a> (ADV)</li>\n\n\n\n<li>Pack Batterie Pro : 20s2p, 84v cellules 21700 <a href=\"https://lygte-info.dk/review/batteries2012/Molicel%20INR21700-P42A%204200mAh%20(Gray)%20UK.html\" target=\"_blank\" rel=\"noreferrer noopener\">Molicel P42A</a> (ADV et ADV Pro)</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Là encore, un gain assez considérable par rapport à la <a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">GT</a> avec un gain d’autonomie de +20% avec le pack batterie Pro et +10% avec le pack Standard.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Pour information, les cellules Molicel équipent depuis longtemps les <a href=\"https://freemove.fr/fr/produit/batterie-cbxr/\" target=\"_blank\" rel=\"noreferrer noopener\">CBXR</a> et ont déjà fait leurs preuves. Les Molicel P42A spécifiquement équipent elles depuis quelques mois les pack batterie TORque Pack pour VESC de chez ChiBatterySystems. Elles ont de bonnes performances et leur réputation dans la communauté VESC n&rsquo;est plus à faire. Quant aux Lischen, elles semblent avoir de plutôt bonnes performances mais une durée de vie un peu en dessous des Molicel.</p>\n\n\n\n<p class=\"wp-block-paragraph\">En revanche, l&rsquo;hyper chargeur en 84v/10A(840w) pourrait quant à lui poser problème. Il charge en effet à 5A par cellule, ce qui est un peu trop et pourrait dégrader rapidement la batterie. La meilleure option serait de prendre le chargeur standard en 84v/2.1A (180w) ce qui préserverait la longévité du pack batterie.</p>\n\n\n\n<h2 class=\"wp-block-heading\">L’achat du Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L’achat du Floatwheel ADV ne se fait malheureusement qu’en crypto monnaie en passant par la plateforme CoinBase. Floatwheel n’acceptent effectivement que ce moyen de paiement suite aux soucis qu’ils ont eu avec Future Motion sur le KIT Floatwheel vendu en 2020.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Conclusion : Mon avis très très perso sur le Floatwheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L&rsquo;ADV c&rsquo;est top ! 👍🏼 Plus puissante qu&rsquo;une GT, plus d&rsquo;autonomie, 1000x plus réparable, que des qualités.</p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"1674\" height=\"691\" src=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12.webp\" alt=\"Floatwheel ADV Pro\" class=\"wp-image-5502\" srcset=\"https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12.webp 1674w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-300x124.webp 300w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-1024x423.webp 1024w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-768x317.webp 768w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-1536x634.webp 1536w, https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-Presentation-Screen-Shot-22-12-05-at-09.50-PM-000-12-600x248.webp 600w\" sizes=\"(max-width: 1674px) 100vw, 1674px\" /></figure>\n\n\n\n<p class=\"wp-block-paragraph\">👉🏼 Petite parenthèse qui vous aidera à comprendre ce qui suit. <br>Beaucoup de personnes confondent les notions de puissance, puissance réelle et de couple.<br>Pour faire simple :<br>La tension (ou voltage) est souvent assimilée à la puissance. Elle est en réalité synonyme vitesse max de rotation du moteur. Elle s&rsquo;exprime en Volts.<br>Le courant (ou ampérage) est synonyme de couple (Torque en anglais), capacité à accélérer et à vous rééquilibrer. Il se mesure en Nm (Newton-mètre).<br>La puissance réelle se mesure en Watts. Elle correspond au produit de la tension x courant.<br>(Fin de parenthèse 😉)</p>\n\n\n\n<h3 class=\"wp-block-heading\">Performances</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Cette adv, est un vrai avion de chasse à ne pas mettre entre toutes les mains. Une vitesse max pouvant dépasser les 45km/h : Elle envoie fort ! Rien à dire ! Elle vous rattrape aussi de situations assez incroyables. La puissance est là. Le couple aussi !<br>Niveau autonomie, on est bien avec ses 45-60km.</p>\n\n\n\n<h3 class=\"wp-block-heading\">La qualité : la grande question. </h3>\n\n\n\n<p class=\"wp-block-paragraph\">Elle vaut quoi cette ADV ?</p>\n\n\n\n<p class=\"wp-block-paragraph\">Floatwheel a réussi un premier kit il y a 3 ans. Il s’est bien vendu. Floatwheel et Tony Lai bénéficient aujourd&rsquo;hui d&rsquo;une bonne image de marque, ça a l’air d’être sérieux mais qu’en est t-il de l’ADV au niveau qualité, SAV et garantie ?</p>\n\n\n\n<p class=\"wp-block-paragraph\">La qualité des plastiques reste encore à améliorer mais Floatwheel sont très à l&rsquo;écoute des utilisateurs. Ils travaillent d&rsquo;arrache pied pour produire une board au top et corriger le peu de défauts qu&rsquo;elle a.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Niveau SAV, excellente surprise. Le support répond très rapidement et tout les utilisateurs témoignent d&rsquo;une réactivité hors pair ! Ils renvoient gratuitement  les pièces de rechange sans lésiner.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Les équipes de The Float Life et Wheel Fun Stuff ont pu tester la machine.<br>👉🏼 <a href=\"https://uneroo.fr/floatwheel-adv-onewheel-alternative/#PREMIERS_GROS_TESTS_DE_LA_FLOATWHEEL\">Le gros test de la Floatwheel</a></p>\n\n\n\n<h3 class=\"wp-block-heading\">Faut-il l&rsquo;acheter ?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Si vous avez 2150USD, que le paiement en crypto monnaie ne vous fait pas peur, foncez ! Vous ne le regretterez pas.</p>\n\n\n\n<p class=\"wp-block-paragraph\">👉🏼 voir aussi : <a href=\"https://floatwheel.co/index.php?route=product/category&amp;path=84\" target=\"_blank\" rel=\"noreferrer noopener\">Conversion d&rsquo;un Onewheel en VESC</a></p>\n\n\n\n<h2 class=\"wp-block-heading\">Les accessoires pour Onewheel ADV</h2>\n\n\n\n<p class=\"wp-block-paragraph\">L’un des trucs cools avec les accessoires disponibles pour l’ADV, c’est que tous les composants sont disponibles et à des prix particulièrement intéressants ce qui pourrait aussi intéresser les fans de <a href=\"https://www.wizishop.fr/lexique-ecommerce/diy\" target=\"_blank\" rel=\"noreferrer noopener\">DIY</a>  :</p>\n\n\n\n<ul class=\"wp-block-list\">\n<li>Rails 200$</li>\n\n\n\n<li>Moteur 350$</li>\n\n\n\n<li>Pneu 70$</li>\n\n\n\n<li>Contrôleur 250$</li>\n\n\n\n<li>BMS 60$</li>\n\n\n\n<li>Batteries 300$/450$</li>\n\n\n\n<li>Boîtiers batterie/contrôleur 50$</li>\n\n\n\n<li>Couvercles de boitiers 40$</li>\n\n\n\n<li>Rail guards 30/40$</li>\n\n\n\n<li>Fender amovible 50$</li>\n\n\n\n<li>Footpad arrière 40$</li>\n\n\n\n<li>Footpad avant avec ou sans capteur 70$/100$</li>\n\n\n\n<li>capteur 30$</li>\n</ul>\n\n\n\n<p class=\"wp-block-paragraph\">Il ne manque que la poignée de transport, les float plates et des flight fins. 😅</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://floatwheel.co/index.php?route=product/category&amp;path=84\" target=\"_blank\" rel=\"noreferrer noopener\">Liste détaillée et prix des accessoires pour Floatwheel</a>.</p>\n\n\n\n<div class=\"wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained\">\n<h2 class=\"wp-block-heading\">Liens utiles, ressources et vidéos</h2>\n\n\n\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\" style=\"grid-template-columns:30% auto\"><figure class=\"wp-block-media-text__media\"><a href=\"https://uneroo.fr/onewheel-gt-specifications-techniques-detaillees/\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"511\" src=\"https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-1024x511.webp\" alt=\"Floatwheel vs GT\" class=\"wp-image-6968 size-large\" srcset=\"https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-1024x511.webp 1024w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-300x150.webp 300w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-768x383.webp 768w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-600x300.webp 600w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003-1200x599.webp 1200w, https://uneroo.fr/wp-content/uploads/2023/11/Floatwheel-vs-GT-003.webp 1454w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure><div class=\"wp-block-media-text__content\">\n<p class=\"wp-block-paragraph\"><a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt/\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel GT vs Floatwheel</a></p>\n</div></div>\n\n\n\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\" style=\"grid-template-columns:30% auto\"><figure class=\"wp-block-media-text__media\"><a href=\"https://uneroo.fr/onewheel-gt-specifications-techniques-detaillees/\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"511\" src=\"https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-1024x511.webp\" alt=\"Floatwheel vs GTS\" class=\"wp-image-8025 size-large\" srcset=\"https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-1024x511.webp 1024w, https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-300x150.webp 300w, https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003-18x9.webp 18w, https://uneroo.fr/wp-content/uploads/2024/03/Floatwheel-vs-GTS-003.webp 1456w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></a></figure><div class=\"wp-block-media-text__content\">\n<p class=\"wp-block-paragraph\"><a href=\"https://uneroo.fr/floatwheel-adv-vs-onewheel-gt-s/\" target=\"_blank\" rel=\"noreferrer noopener\">Onewheel GT-S vs Floatwheel</a></p>\n</div></div>\n\n\n\n<p class=\"wp-block-paragraph\">Dans cette vidéo de David, vous verrez ce qu’était le tout premier <a href=\"https://floatwheels.ru/\" target=\"_blank\" rel=\"noreferrer noopener\">Floatwheel</a>.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"Partie 1: Déballage d&amp;apos;un kit de floatwheel (c&amp;apos;est presque comme un onewheel,mais pas pareil )\" width=\"950\" height=\"534\" src=\"https://www.youtube.com/embed/d3vT_L3zHG8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n</div>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h2 class=\"wp-block-heading\">PREMIERS GROS TESTS DE LA FLOATWHEEL</h2>\n\n\n\n<p class=\"wp-block-paragraph\">Attention mesdames et messieurs, Kyle Hanson, gros rider Américain met la Floatwheel à l&rsquo;épreuve et l&#8217;emmène dans ses derniers retranchements. La pauvre y laisse quelques bouts de plastique&#8230; Nous vous laissons vous faire votre propre avis.</p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe title=\"ADV Floatwheel First Impressions\" width=\"950\" height=\"534\" src=\"https://www.youtube.com/embed/4yqxQPAP2o8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>\n</div></figure>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n\n\n\n<div class=\"schema-faq wp-block-yoast-faq-block\"><div class=\"schema-faq-section\" id=\"faq-question-1790868224493\"><strong class=\"schema-faq-question\"><strong>Qu&rsquo;est-ce que le Floatwheel ADV ?</strong></strong> <p class=\"schema-faq-answer\">Le Floatwheel ADV est une alternative au Onewheel, fonctionnant sous le contrôleur open-source VESC.</p> </div> <div class=\"schema-faq-section\" id=\"faq-question-1790868239783\"><strong class=\"schema-faq-question\"><strong>Le Floatwheel est-il légal et réparable en France ?</strong></strong> <p class=\"schema-faq-answer\">Comme le Onewheel, son usage est soumis à la réglementation des EDPM en France. <br>Sa grande force réside dans sa réparabilité : chaque composant (batterie, BMS, contrôleur) peut être remplacé sans blocage logiciel.</p> </div> <div class=\"schema-faq-section\" id=\"faq-question-1790868282092\"><strong class=\"schema-faq-question\"><strong>Faut-il choisir un Onewheel ou un Floatwheel ?</strong></strong> <p class=\"schema-faq-answer\">Choisissez Onewheel si vous voulez une expérience simple sans bidouillage, c&rsquo;est juste beaucoup plus cher. <br>Choisissez Floatwheel si vous cherchez plus de puissance, une autonomie supérieure et la liberté de réparer vous-même votre board.</p> </div> </div>\n\n\n\n<p class=\"wp-block-paragraph\"></p>\n<p>L’article <a href=\"https://uneroo.fr/floatwheel-adv-onewheel-alternative/\">Floatwheel ADV, l’alternative au Onewheel ?</a> est apparu en premier sur <a href=\"https://uneroo.fr\">UneRoo – Blog Onewheel &amp; VESC : conseils, tests, DIY</a>.</p>",
       "url": "https://uneroo.fr/floatwheel-adv-onewheel-alternative/#utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=floatwheel-adv-onewheel-alternative",
       "publishedAt": "2022-12-09T06:04:52.000Z",
       "author": "Uneroo",
@@ -26663,7 +26662,7 @@
     },
     {
       "id": "1cu4ic6-1k6th9l",
-      "title": "Future Motion Refuses to Recall Onewheel Skateboards After Deaths - CNET",
+      "title": "Future Motion Refuses to Recall Onewheel Skateboards After Deaths - cnet.com",
       "description": "Future Motion Refuses to Recall Onewheel Skateboards After Deaths cnet.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNX1VYS2hSakl0dXYxOTBGaVRDUER5M0FZVlhyeWFNMzYzOUpfUV8yTWJNNjByMUcweTdHR3ZRb19Ta2lpMnktREFndDFYWko3T3VEQkdhSVFpQWwtdUMtZk5BWnFRcU1qSThmS2ViakYyaExJMFA5YkpGUG9QTi14X1BwZ0wwN1N0eFZqNGVNeFdLcW4tZXVORzluZjJsNHRBOW4xbw?oc=5\" target=\"_blank\">Future Motion Refuses to Recall Onewheel Skateboards After Deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cnet.com</font>",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX1VYS2hSakl0dXYxOTBGaVRDUER5M0FZVlhyeWFNMzYzOUpfUV8yTWJNNjByMUcweTdHR3ZRb19Ta2lpMnktREFndDFYWko3T3VEQkdhSVFpQWwtdUMtZk5BWnFRcU1qSThmS2ViakYyaExJMFA5YkpGUG9QTi14X1BwZ0wwN1N0eFZqNGVNeFdLcW4tZXVORzluZjJsNHRBOW4xbw?oc=5",
@@ -28447,7 +28446,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29018,7 +29017,7 @@
     },
     {
       "id": "alo9xu-1joxsrd",
-      "title": "Onewheel GT's 32-mile range is nearly double the old Onewheel XR - inverse.com",
+      "title": "Onewheel GT's 32-mile range is nearly double the old Onewheel XR - Inverse",
       "description": "Onewheel GT's 32-mile range is nearly double the old Onewheel XR inverse.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPcURmZnZBNFZ0amlJSzB6S3Bjbl8wS3JUZWJZWXFQYWNwdHR0ZVVTLVdMUjhfakhlMDYzN3g4VXdSZ2hFSFFqOWthNnVVNUlLMGpzZmF0Y3FocVBiMVV3OUhSMXlNUXItLUJ0UVJReDlVZUhyRmE4OUZWclp5WTdCNlNHeWlpd185LTl3akVJbXBydw?oc=5\" target=\"_blank\">Onewheel GT's 32-mile range is nearly double the old Onewheel XR</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">inverse.com</font>",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcURmZnZBNFZ0amlJSzB6S3Bjbl8wS3JUZWJZWXFQYWNwdHR0ZVVTLVdMUjhfakhlMDYzN3g4VXdSZ2hFSFFqOWthNnVVNUlLMGpzZmF0Y3FocVBiMVV3OUhSMXlNUXItLUJ0UVJReDlVZUhyRmE4OUZWclp5WTdCNlNHeWlpd185LTl3akVJbXBydw?oc=5",
@@ -29104,11 +29103,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "13wsk49-1k6th9l",
-      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
-      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
+      "id": "vm13z0-1k6th9l",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
+      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -29125,11 +29124,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "vm13z0-1k6th9l",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - theverge.com",
-      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
+      "id": "13wsk49-1k6th9l",
+      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
+      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -29220,7 +29219,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29759,7 +29758,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30059,7 +30058,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30354,7 +30353,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30694,7 +30693,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30779,7 +30778,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30906,7 +30905,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30996,7 +30995,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31251,7 +31250,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31259,7 +31258,8 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg"
+        "onewheel-tips-archives-the-sideways-movement-stokpg",
+        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
       ],
       "mergedItemCount": 3
     },
@@ -31274,7 +31274,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31361,7 +31361,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31447,7 +31447,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31556,7 +31556,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31578,7 +31578,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31646,7 +31646,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32987,7 +32987,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 121,
-      "articleCount": 1370
+      "articleCount": 1373
     },
     {
       "id": "onewheel",
@@ -33008,7 +33008,7 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 579
+      "articleCount": 582
     },
     {
       "id": "gear",
