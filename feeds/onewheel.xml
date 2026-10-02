@@ -5,7 +5,7 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 02 Oct 2026 05:40:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 12:37:15 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[New to VESC and want to learn how to install a new BMS and battery]]></title>
@@ -365,7 +365,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/06/Gosmilo-X7-2.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Refloat version 1.2]]></title>
@@ -413,7 +413,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/05/Dirty-Onewheel-XR-000-300x228.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint Motor and Footpad Connector Digikey]]></title>
@@ -461,7 +461,7 @@
 
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Too many nosedives!]]></title>
@@ -485,7 +485,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/ADV-vs-GT-specs-power-and-torque.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Refloat 1.3 Feature Preview: Timing rework and Setpoint smoothing]]></title>
@@ -533,7 +533,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2026/06/XRC-vs-XR-300x150.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV vs Onewheel GT-S – ENDGAME]]></title>
@@ -545,7 +545,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/ADV-vs-GTS-specs-power-and-torque.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Making Refloat's control loop frequency-independent]]></title>
@@ -593,7 +593,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2024/07/FST-Footpad-System-3-300x274.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[The Beam Virgo Helmet Review]]></title>
@@ -617,7 +617,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/12/Onewheel-XR-Controller-scaled-e1720433620997-300x225.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheels In Snow]]></title>
@@ -713,7 +713,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/VESC-Project-003.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel S-Series: The World’s First High Performance Onewheel for Racers and Average Riders (Me)]]></title>
@@ -749,7 +749,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/floatboxxlogozwartmetkaderpng.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Hoverwheel V1]]></title>
@@ -773,7 +773,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/tableau-indice-de-reparabilite.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT S-Series]]></title>
@@ -785,7 +785,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/11/Screen-Shot-2023.11.17-06.59.48.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Should you buy a Onewheel GT or a Onewheel Pint X?]]></title>
@@ -821,7 +821,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/10/Screen-Shot-2023.10.13-11.13.19.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Ultimate Guide: Onewheel Accessories in 2023]]></title>
@@ -857,7 +857,7 @@
       <media:thumbnail url="https://france3-regions.francetvinfo.fr/image/ZPsIvJUTZpLSWGEMBD7V__t-5YM/600x400/regions/2023/04/02/6429aa8e30346_jerem-ada.jpg" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[What’s a Onewheel? – Onewheel vs Hoverboards]]></title>
@@ -977,7 +977,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/12/Floatwheel-ADV-2-1024x1024.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[The Onewheel Podcast with Guest Jimmy Chang]]></title>
@@ -1001,7 +1001,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/11/XR-VESC-conversion.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Test Autonomie GT vs XR + CBXR]]></title>
@@ -1013,7 +1013,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/GT-vs-XR.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[La politique de Future Motion]]></title>
@@ -1025,7 +1025,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2023/09/Screen-Shot-2023.09.08-16.35.16.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Comparatif Onewheel XR vs GT]]></title>
@@ -1037,7 +1037,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/GT-vs-XR-1024x512.webp" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[Avis pneus sculptés pour Onewheel XR]]></title>
@@ -1049,7 +1049,7 @@
       <media:thumbnail url="https://uneroo.fr/wp-content/uploads/2022/03/Hoosier-vs-Burris.jpg" />
 
       <dc:creator>Uneroo</dc:creator>
-      <source url="https://uneroo.fr/feed">uneroo.fr</source>
+      <source url="https://uneroo.fr/feed/">uneroo.fr</source>
     </item>
     <item>
       <title><![CDATA[How to Rent a Onewheel in Orlando]]></title>
