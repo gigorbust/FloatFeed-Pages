@@ -5,18 +5,30 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 02 Oct 2026 12:37:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:19:25 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[New to VESC and want to learn how to install a new BMS and battery]]></title>
-      <link>https://pev.dev/t/new-to-vesc-and-want-to-learn-how-to-install-a-new-bms-and-battery/3045#post_3</link>
-      <guid isPermaLink="false">2210cf-1czfdl1</guid>
-      <pubDate>Thu, 01 Oct 2026 01:51:04 GMT</pubDate>
+      <link>https://pev.dev/t/new-to-vesc-and-want-to-learn-how-to-install-a-new-bms-and-battery/3045#post_4</link>
+      <guid isPermaLink="false">18279i-1czfdl1</guid>
+      <pubDate>Fri, 02 Oct 2026 20:59:51 GMT</pubDate>
       <description><![CDATA[<p>I’d probably wait until the battery arrives before installing/connecting the BMS. The CHI-VE Pint X 20.1 is a 20S/84V pack, and CHI specifically warns to check harness polarity before connecting anything because the Future Motion harness polarity is reversed. The Stoked Stock BMS supports 12S–32S packs, so 20S itself should be within its supported range, but I’d still make sure it’s configured correctly before hooking everything up. Since you’re using a UBOX 100V rather than the Pint V controller CHI specifically recommends for this battery, I’d also confirm the exact wiring with CHI or Indy S</p>]]></description>
       <content:encoded><![CDATA[<p>I’d probably wait until the battery arrives before installing/connecting the BMS. The CHI-VE Pint X 20.1 is a 20S/84V pack, and CHI specifically warns to check harness polarity before connecting anything because the Future Motion harness polarity is reversed.</p>&#10;<p>The Stoked Stock BMS supports 12S–32S packs, so 20S itself should be within its supported range, but I’d still make sure it’s configured correctly before hooking everything up.</p>&#10;<p>Since you’re using a UBOX 100V rather than the Pint V controller CHI specifically recommends for this battery, I’d also confirm the exact wiring with CHI or Indy Speed Control before making the final connections. CHI says to contact them regarding other controller compatibility.</p>&#10;<p>Definitely check polarity with a multimeter instead of trusting the connectors/colors alone. I wouldn’t start plugging the balance connector or main battery leads in until you have the correct connection order for that BMS.</p>&#10;<p>Once the battery arrives, post some pictures of the battery connectors, BMS, and harness. People here will probably be able to walk you through exactly what goes where.</p>&#10;<p>If you need anymore help I’m open. Hit me back.</p>]]></content:encoded>
 
 
-      <dc:creator>@GDOGGY</dc:creator>
+      <dc:creator>@Zackzto Zack Thompson</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Pint V Kit: Non-technical Newbie Guide]]></title>
+      <link>https://pev.dev/t/pint-v-kit-non-technical-newbie-guide/2653#post_4</link>
+      <guid isPermaLink="false">6bey4m-1czfdl1</guid>
+      <pubDate>Fri, 02 Oct 2026 14:29:47 GMT</pubDate>
+      <description><![CDATA[<p>Does anyone know if the flared footpad from FM will work seamlessly? My footpad is having pressure issues and I was considering upgrading it along with the VESC conversion.</p>]]></description>
+      <content:encoded><![CDATA[<p>Does anyone know if the flared footpad from FM will work seamlessly? My footpad is having pressure issues and I was considering upgrading it along with the VESC conversion.</p>]]></content:encoded>
+
+
+      <dc:creator>@Jackermius</dc:creator>
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
@@ -84,7 +96,7 @@
       <link>https://pev.dev/t/pint-x-7314-hydrus-5200-best-path-to-more-range-before-vesc/2993#post_5</link>
       <guid isPermaLink="false">ya37wq-1czfdl1</guid>
       <pubDate>Fri, 04 Sep 2026 02:56:11 GMT</pubDate>
-      <description><![CDATA[<p>If you open up your battery box you’ll see the BMS has 4 different cables going into it. The smallest one that sticks out perpendicular to the PCB is what lets your BMS tell your ESC that your board is charging. If you unplug it, it has no way of knowing so you can charge your board as you ride if you get a backpack setup This might break FM firmware as well, I can’t be completely sure. Personally, I recommend the PintV Kit. That opens your door far beyond FM support and restriction, so the skies (or rather your wallet) the limit for battery possibility. Easy as to install If you’ve got more d</p>]]></description>
+      <description><![CDATA[<p>I have a Pint X with Hardware 7314 and Hydrus 5200 firmware. My long-term goal is to convert the board to VESC, but right now my biggest limitation is range. I enjoy longer rides with multiple stops and would like more battery capacity and less voltage sag. I’ve looked into Chi Battery upgrades, but from what I’ve read many battery modifications are incompatible with newer hardware revisions. Is there a recommended upgrade path for this hardware version? Are there any battery upgrades that make sense today and won’t become wasted money when I eventually move to VESC? For those who have worked </p>]]></description>
       <content:encoded><![CDATA[<p>If you open up your battery box you’ll see the BMS has 4 different cables going into it. The smallest one that sticks out perpendicular to the PCB is what lets your BMS tell your ESC that your board is charging. If you unplug it, it has no way of knowing so you can charge your board as you ride if you get a backpack setup</p>&#10;<p>This might break FM firmware as well, I can’t be completely sure.</p>&#10;<p>Personally, I recommend the PintV Kit. That opens your door far beyond FM support and restriction, so the skies (or rather your wallet) the limit for battery possibility. Easy as to install</p>&#10;<p>If you’ve got more dough to throw around just buy an atom. Its the combine price of a stock Pint and the PintV kit, and that really opens your door to far better Hill Climb Performance, NOOB VESC and more range.</p>&#10;<p>Either way when it comes to VESC, your range is quite dependent on your Motor and Battery Current Limit, which is an inverse relation to Torque (hill climb performance).</p>&#10;<p>Its possible that you would get marginally better range from a Pint S-Series motor (straight from FM) but no guarentees.</p>]]></content:encoded>
 
 
@@ -321,15 +333,15 @@
     </item>
     <item>
       <title><![CDATA[Dismount Shudder]]></title>
-      <link>https://pev.dev/t/dismount-shudder/2996#post_1</link>
-      <guid isPermaLink="false">1n3gcdb-1czfdl1</guid>
+      <link>https://pev.dev/t/dismount-shudder/2996</link>
+      <guid isPermaLink="false">1h3nvns-vbx98k</guid>
       <pubDate>Tue, 16 Jun 2026 06:55:09 GMT</pubDate>
       <description><![CDATA[<p>I’ve notice recently (after some general maintenance) that my board has this sort of ‘shudder’ Its super mild when I switch between directions, but its definitely noticeable when I jump dismount It seems the motor is rapidly firing to try and keep itself upright for the 400ms of fault delay, holding its previous speed before I dismounted, but its indecisive of which direction it should be going. Higher full switch fault delay does yield longer shudders. Jumping off at a higher speed (like body varials) still works fine, as the board keeps its speed. Quickstops and Half-Sensor fault stops don’t</p>]]></description>
       <content:encoded><![CDATA[<p>I’ve notice recently (after some general maintenance) that my board has this sort of ‘shudder’<br />&#10;Its super mild when I switch between directions, but its definitely noticeable when I jump dismount<br />&#10;It seems the motor is rapidly firing to try and keep itself upright for the 400ms of fault delay, holding its previous speed before I dismounted, but its indecisive of which direction it should be going.</p>&#10;<p>Higher full switch fault delay does yield longer shudders.</p>&#10;<p>Jumping off at a higher speed (like body varials) still works fine, as the board keeps its speed. Quickstops and Half-Sensor fault stops don’t yield this behavior either.</p>&#10;<p>Another way to describe it is that the board doesn’t have enough of a middleground voltage to play with, like its snapping from maybe -5V to 5V (I have no earthly idea how much voltage) when it needs to instead have like 1.5V, so it rapidly switches between the 2.<br />&#10;Or rather, because everything is pulses (PWM not analog), the mosphets  don’t have enough Hz to create a smooth, low speed. My understanding of these things is comically limited.</p>&#10;<p>Its a Pint X-V, with the white PCB version of controller. I believe this is identical to the floatwheel adv1 controller.</p>&#10;<p>General Maintenance included:</p>&#10;<p>Update VESC firmware to v6.06, not sure what I was on previously</p>&#10;<p>Update Refloat Package to 1.2 (also not sure what I was on before but Data tab didn’t have that graph and there was no Haptic Feedback or BMS tab in RefloatCfg)</p>&#10;<p>Attempted IMU recalibration (got some extremely weird RTData so Reset to Default Settings)<br />&#10;Full board disassembly for cleaning, and replaced bumpers</p>&#10;<p>I’ve had my board for about 3 months now, I’m quite familiar with navigating VESCTool and what normal ride feel is like. Its not a complete problem, like my board is still rideable, but I’m a little concerned for hardware wear and tear.</p>&#10;<p>            <img src="https://pev.dev/uploads/db9240/optimized/2X/a/ae0d2ae92b8e5b1dd02abd441a8e7798159e0df0_2_690x388.jpeg" width="690" height="388" />&#10;            <a href="https://www.youtube.com/embed/0juT_termg0?feature=oembed&amp;wmode=opaque"></a>&#10;</p>&#10;<p>Appreciate any advice</p>&#10;            <p><small>3 posts - 1 participant</small></p>&#10;            <p><a href="https://pev.dev/t/dismount-shudder/2996" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
       <media:thumbnail url="https://pev.dev/uploads/db9240/optimized/2X/a/ae0d2ae92b8e5b1dd02abd441a8e7798159e0df0_2_690x388.jpeg" />
 
-      <dc:creator>@CalebTheMayor Caleb Meijer</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <dc:creator>CalebTheMayor</dc:creator>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[Refloat version 1.1]]></title>
@@ -629,7 +641,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic vs XR]]></title>
@@ -677,7 +689,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[VESC battery packs]]></title>
@@ -965,7 +977,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -1145,7 +1157,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Balance Board]]></title>
@@ -1157,7 +1169,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[eastride – Onewheel Power Button & Sidekicks]]></title>
@@ -1193,7 +1205,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Racing League]]></title>
@@ -1229,7 +1241,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Waterproofing Onewheel Shoes]]></title>
@@ -1241,7 +1253,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Installing FlightFins FlightFrame]]></title>
@@ -1253,7 +1265,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
@@ -1265,7 +1277,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
@@ -1277,7 +1289,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Rail Badge – Logo – Emblem]]></title>
@@ -1289,7 +1301,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Lights Not Working – Flickering]]></title>
@@ -1301,7 +1313,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -1313,7 +1325,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Blog Sites – Best Of 2020]]></title>
@@ -1325,7 +1337,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint First Look]]></title>
@@ -1337,7 +1349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Early Onewheel Pint Reviews]]></title>
@@ -1349,7 +1361,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -1361,7 +1373,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Why You Need a Onewheel Pint]]></title>
@@ -1373,7 +1385,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
   </channel>
 </rss>
