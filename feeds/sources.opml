@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Sat, 03 Oct 2026 16:21:05 GMT</dateCreated>
+    <dateCreated>Sat, 03 Oct 2026 21:17:40 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -154,6 +154,9 @@
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032">
       <outline text="Float World (Deals Of The Week)" title="Float World (Deals Of The Week)" type="rss" xmlUrl="https://www.floatworlds.com/collections/deals-of-the-week.atom" htmlUrl="https://float-world.myshopify.com/collections/all" />
     </outline>
+    <outline text="website_discovery | directory_only | feed | blocked_or_unreachable" title="website_discovery | directory_only | feed | blocked_or_unreachable">
+      <outline text="floatershack.com (News)" title="floatershack.com (News)" type="rss" xmlUrl="https://floatershack.com/blogs/news.atom" htmlUrl="https://floatershack.com/blogs/news" />
+    </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources | ONEWHEEL FEED | Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL_RSS_SOURCES | manual_rss_sources">
       <outline text="One Stop Board Shop - Blog" title="One Stop Board Shop - Blog" type="rss" xmlUrl="https://onestopboardshop.com/blogs/news.atom" htmlUrl="https://onestopboardshop.com/blogs/news" />
     </outline>
@@ -167,10 +170,7 @@
       <outline text="Onewheel Trail Finders" title="Onewheel Trail Finders" type="rss" xmlUrl="https://owtrailfinders.wordpress.com/feed/" htmlUrl="https://owtrailfinders.wordpress.com/" />
     </outline>
     <outline text="feed | ok_nonempty | feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources" title="feed | ok_nonempty | feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources">
-      <outline text="RenteBoards Houston Onewheel Products (News)" title="RenteBoards Houston Onewheel Products (News)" type="rss" xmlUrl="https://houston.renteboards.com/blogs/news.atom" htmlUrl="https://houston.renteboards.com/blogs/news" />
-    </outline>
-    <outline text="feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources" title="feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources">
-      <outline text="RenteBoards Houston Onewheel Products (News)" title="RenteBoards Houston Onewheel Products (News)" type="rss" xmlUrl="https://rent-eboards-houston.myshopify.com/blogs/news.atom" htmlUrl="https://rent-eboards-houston.myshopify.com/blogs/news" />
+      <outline text="RenteBoards Houston Onewheel Products" title="RenteBoards Houston Onewheel Products" type="rss" xmlUrl="https://houston.renteboards.com/blogs/news.atom" htmlUrl="https://houston.renteboards.com/blogs/news" />
     </outline>
     <outline text="feed | ok_nonempty | feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources | public.manual_rss_sources | manual_rss_sources" title="feed | ok_nonempty | feed | historical_or_candidate | public.manual_rss_sources | manual_rss_sources | public.manual_rss_sources | manual_rss_sources">
       <outline text="Sharky Shred Shop Products (News)" title="Sharky Shred Shop Products (News)" type="rss" xmlUrl="https://sharkyshredshop.com/blogs/news.atom" htmlUrl="https://sharkyshredshop.com/blogs/news" />
@@ -193,7 +193,7 @@
       <outline text="ESK8UNITY" title="ESK8UNITY" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCflmMx9Gg_XBSC0icnulp2w" htmlUrl="https://www.youtube.com/channel/UCflmMx9Gg_XBSC0icnulp2w" />
     </outline>
     <outline text="feed | portable_sources | website_discovery | ONEWHEEL FEED | public.manual_rss_sources | DEFAULT_FEED_SOURCES | ONEWHEEL FEED | Onewheel AI Feed | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources" title="feed | portable_sources | website_discovery | ONEWHEEL FEED | public.manual_rss_sources | DEFAULT_FEED_SOURCES | ONEWHEEL FEED | Onewheel AI Feed | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources">
-      <outline text="The Float Life - News (News)" title="The Float Life - News (News)" type="rss" xmlUrl="https://thefloatlife.com/blogs/news.atom" htmlUrl="https://thefloatlife.com/blogs/news" />
+      <outline text="The Float Life - News" title="The Float Life - News" type="rss" xmlUrl="https://thefloatlife.com/blogs/news.atom" htmlUrl="https://thefloatlife.com/blogs/news" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed">
       <outline text="theMOBshop (All)" title="theMOBshop (All)" type="rss" xmlUrl="https://themobshop.co/collections/all.atom" htmlUrl="https://themobshop.co/collections/all" />
@@ -296,10 +296,6 @@
     <outline text="feed | directory_only | feed | historical_or_candidate | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources" title="feed | directory_only | feed | historical_or_candidate | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources">
       <outline text="OneRadWheel - Onewheel" title="OneRadWheel - Onewheel" type="rss" xmlUrl="https://oneradwheel.com/feed" htmlUrl="https://oneradwheel.com/" />
     </outline>
-    <outline text="feed | enabled | public.manual_rss_sources" title="feed | enabled | public.manual_rss_sources">
-      <outline text="Onewheel - Flowstate" title="Onewheel - Flowstate" type="rss" xmlUrl="https://onewheel.com/pages/flowstate/feed" htmlUrl="https://onewheel.com/pages/flowstate/" />
-      <outline text="Onewheel Official" title="Onewheel Official" type="rss" xmlUrl="https://onewheel.com/feed" htmlUrl="https://onewheel.com/" />
-    </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032">
       <outline text="pev.dev - Latest posts (pev.dev)" title="pev.dev - Latest posts (pev.dev)" type="rss" xmlUrl="https://pev.dev/posts.rss" htmlUrl="https://pev.dev/" />
     </outline>
@@ -340,7 +336,7 @@
       <outline text="FixMyPEV (Site feed)" title="FixMyPEV (Site feed)" type="rss" xmlUrl="https://www.fixmypev.com/feed/" htmlUrl="https://www.fixmypev.com/" />
     </outline>
     <outline text="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources | ONEWHEEL_RSS_SOURCES | manual_rss_sources" title="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources | ONEWHEEL_RSS_SOURCES | manual_rss_sources">
-      <outline text="PEV Dispensary Blog (News)" title="PEV Dispensary Blog (News)" type="rss" xmlUrl="https://pevdispensary.com/blogs/news.atom" htmlUrl="https://pevdispensary.com/blogs/news" />
+      <outline text="PEV Dispensary Blog" title="PEV Dispensary Blog" type="rss" xmlUrl="https://pevdispensary.com/blogs/news.atom" htmlUrl="https://pevdispensary.com/blogs/news" />
     </outline>
     <outline text="feed | native_recovery | native YouTube Atom recovery" title="feed | native_recovery | native YouTube Atom recovery">
       <outline text="_GizmoDuck" title="_GizmoDuck" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A" htmlUrl="https://www.youtube.com/channel/UC-YgxQ9FEpMYWhZjohQGS5A" />
@@ -433,9 +429,6 @@
     </outline>
     <outline text="feed | portable_sources | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Onewheel AI Feed | list-1264927333211308032">
       <outline text="The Float Life" title="The Float Life" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA" htmlUrl="https://www.youtube.com/channel/UCJDddEUqK26B0soFP23fvmA" />
-    </outline>
-    <outline text="gear" title="gear">
-      <outline text="floatershack.com (News)" title="floatershack.com (News)" type="rss" xmlUrl="https://floatershack.com/blogs/news.atom" htmlUrl="https://floatershack.com/blogs/news" />
     </outline>
   </body>
 </opml>

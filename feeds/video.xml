@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 03 Oct 2026 16:21:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 21:17:39 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Bonk to tailslide on a onewheel 🔥]]></title>
+      <link>https://www.youtube.com/shorts/eioIKAcNcE0</link>
+      <guid isPermaLink="false">13iblzb-48s3eu</guid>
+      <pubDate>Sat, 03 Oct 2026 18:54:08 GMT</pubDate>
+      <description><![CDATA[<p>Bonk to tailslide on a onewheel. Love the process of figuring out new tricks. This one was on the bucket list for a while but I started out on the wrong side apparently. The magic was in the obvious. Finally made it work!</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/eioIKAcNcE0/hqdefault.jpg" alt="" /></p><p>Bonk to tailslide on a onewheel. Love the process of figuring out new tricks. This one was on the bucket list for a while but I started out on the wrong side apparently. The magic was in the obvious. Finally made it work!</p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/eioIKAcNcE0/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eioIKAcNcE0" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
+    </item>
     <item>
       <title><![CDATA[This Trick Has 45 MILLION Views… So I Did It at a Car Meet]]></title>
       <link>https://www.youtube.com/shorts/MZvFk9TxIH4</link>
