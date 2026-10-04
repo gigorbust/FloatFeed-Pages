@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 04 Oct 2026 12:24:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 21:27:37 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[A customer maintenance form in Uniface 10, part 10 - a CSV import with a dry run, and backing up a SQLite file Uniface keeps o]]></title>
@@ -1949,6 +1949,18 @@
       <media:thumbnail url="https://preview.redd.it/uilfe81u8qyg1.jpg?width=140&amp;height=140&amp;crop=1:1,smart&amp;auto=webp&amp;s=68f5130efe5ed22896ba9e9974d862d6f924de60" />
 
       <dc:creator>/u/Straight_Complaint69</dc:creator>
+      <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel+ XR still good in 26?]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1sz7lew/onewheel_xr_still_good_in_26/</link>
+      <guid isPermaLink="false">1tnswps-8kv0cu</guid>
+      <pubDate>Wed, 29 Apr 2026 18:39:41 GMT</pubDate>
+      <description><![CDATA[<p>I have someone selling a ow+ XR for $600. Sent me pics of the app saying 323 miles. I had a pint x last year and got rid of it due to it being too small for me and the constant foot fatigue. A)is this a good deal and B) is this board a better fit for me? Reference is I’m 6’5, 260lbs, size 12/13 shoes. Any input greatly appreciated. submitted by /u/ItsEirbear to r/onewheel [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>I have someone selling a ow+ XR for $600. Sent me pics of the app saying 323 miles. I had a pint x last year and got rid of it due to it being too small for me and the constant foot fatigue. A)is this a good deal and B) is this board a better fit for me? Reference is I’m 6’5, 260lbs, size 12/13 shoes. Any input greatly appreciated. </p> </div>   submitted by   <a href="https://www.reddit.com/user/ItsEirbear" target="_blank" rel="noopener noreferrer"> /u/ItsEirbear </a>   to   <a href="https://www.reddit.com/r/onewheel/" target="_blank" rel="noopener noreferrer"> r/onewheel </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/1sz7lew/onewheel_xr_still_good_in_26/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1sz7lew/onewheel_xr_still_good_in_26/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/ItsEirbear</dc:creator>
       <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
