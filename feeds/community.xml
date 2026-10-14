@@ -5,8 +5,20 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 06 Oct 2026 06:23:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:18:48 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Onewheel GTS humming noise (HELP)]]></title>
+      <link>http://owforum.co.uk/topic/571/onewheel-gts-humming-noise-help</link>
+      <guid isPermaLink="false">1muxgem-s1ax57</guid>
+      <pubDate>Sun, 11 Oct 2026 21:54:26 GMT</pubDate>
+      <description><![CDATA[<p>https://www.reddit.com/r/OnewheelGT/s/adBXxV1SCK Please watch the video of my one wheel and the humming noise it is creating. I plugged it in the other day, and when I started riding again, it was making this noise. I don&apos;t know what it could be from.</p>]]></description>
+      <content:encoded><![CDATA[<p><a href="https://www.reddit.com/r/OnewheelGT/s/adBXxV1SCK" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/OnewheelGT/s/adBXxV1SCK</a></p>&#10;<p>Please watch the video of my one wheel and the humming noise it is creating. I plugged it in the other day, and when I started riding again, it was making this noise. I don't know what it could be from.</p>]]></content:encoded>
+
+
+      <dc:creator>Jaden1918</dc:creator>
+      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
+    </item>
     <item>
       <title><![CDATA[A customer maintenance form in Uniface 10, part 10 - a CSV import with a dry run, and backing up a SQLite file Uniface keeps o]]></title>
       <link>https://dev.to/f345345dfg/a-customer-maintenance-form-in-uniface-10-part-10-a-csv-import-with-a-dry-run-and-backing-up-a-4716</link>
