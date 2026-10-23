@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T17:10:06.949Z",
+  "generatedAt": "2026-10-23T21:30:06.432Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 300,
@@ -143,7 +143,7 @@
       "articleCount": 37,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "auth_or_robots_block",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -385,7 +385,7 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "auth_or_robots_block",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1125,7 +1125,7 @@
       "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1133,13 +1133,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
@@ -1155,13 +1155,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1213,7 +1213,7 @@
       "displayName": "The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/",
-      "feedUrl": "https://thesidewaysmovement.com/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/feed",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1221,13 +1221,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -15277,7 +15277,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/feed",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
         "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
@@ -16875,7 +16875,9 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq"
+        "the-sideways-movement-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
     },
@@ -17601,7 +17603,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/feed",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
         "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
@@ -27665,7 +27667,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -30461,7 +30463,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -31327,7 +31329,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -31622,7 +31624,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -31965,7 +31967,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -32050,7 +32052,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -32177,7 +32179,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -32269,7 +32271,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
@@ -32525,11 +32527,12 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg"
+        "onewheel-tips-archives-the-sideways-movement-stokpg",
+        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
       ],
       "mergedItemCount": 3
     },
@@ -32548,7 +32551,7 @@
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
+      "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed",
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd"
