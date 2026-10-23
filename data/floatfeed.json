@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T08:48:26.636Z",
+  "generatedAt": "2026-10-23T11:41:16.088Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 300,
@@ -668,7 +668,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 201,
+      "articleCount": 202,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -1011,11 +1011,11 @@
     },
     {
       "id": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "title": "FallmanTech (Site feed)",
-      "displayName": "FallmanTech (Site feed)",
+      "title": "FallmanTech",
+      "displayName": "FallmanTech",
       "domain": "fallman.tech",
       "siteUrl": "https://fallman.tech/",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1023,13 +1023,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "float-gang-1a19hmu",
@@ -1045,13 +1045,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "gnar-park-1qf3twg",
@@ -2790,7 +2790,7 @@
       "duplicateSourceIds": [
         "magic-skateboard-media-1ivrf8g"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1twya8u-1mfabo8",
@@ -2811,7 +2811,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "a6j44r-1k6th9l",
@@ -2854,7 +2854,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "m6hlop-14o2nhz",
@@ -2875,7 +2875,7 @@
       "duplicateSourceIds": [
         "the-float-life-1905vur"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1657pes-48s3eu",
@@ -2896,7 +2896,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "zx7yil-1czfdl1",
@@ -2918,7 +2918,7 @@
         "pev-dev-latest-posts-1cj89fa",
         "pev-dev-latest-topics-zkk6og"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 3
     },
     {
       "id": "b7kxax-1czfdl1",
@@ -2961,7 +2961,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1h1168g-pr77lg",
@@ -2982,7 +2982,7 @@
       "duplicateSourceIds": [
         "magic-skateboard-media-1ivrf8g"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "119fdvj-1mfabo8",
@@ -3003,7 +3003,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "13osxxt-48s3eu",
@@ -3024,7 +3024,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1jqujvp-1mfabo8",
@@ -3045,7 +3045,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "xi7gp-1mfabo8",
@@ -3066,7 +3066,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "9s46f-1mfabo8",
@@ -3087,7 +3087,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "81cvvw-s1ax57",
@@ -3108,7 +3108,7 @@
       "duplicateSourceIds": [
         "onewheel-forum-recent-7x71yd"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "l50x5d-1mfabo8",
@@ -8678,13 +8678,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9087,13 +9088,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9174,13 +9176,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9238,13 +9241,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9372,13 +9376,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9439,13 +9444,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9482,13 +9488,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9525,13 +9532,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9595,13 +9603,14 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech (Site feed)",
+      "source": "FallmanTech",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed",
+      "feedUrl": "https://fallman.tech/feed/",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
+        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -20073,7 +20082,7 @@
     },
     {
       "id": "1ekwoxm-1joxsrd",
-      "title": "Onewheel Pint X Review: I Didn't Break a Single Bone Testing It - yankodesign.com",
+      "title": "Onewheel Pint X Review: I Didn’t Break a Single Bone Testing It - Yanko Design",
       "description": "Onewheel Pint X Review: I Didn't Break a Single Bone Testing It yankodesign.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjByQ05GOXNSZFJrMDZmelFJZGQtcW1rUGdPWDl6T2RMZjZieTVwWVlFaVprdjg2OHRHVHhnaHdsNUoxelp1UzhPeEp0d3dVT1MwcThjVnhHQmlXUzRSRlpZc1M4bzBva05ldGRaZVB5aWdoR25UR3d3dkc2YlE4QnAtRlozdHhKUndRWFhGT2Z4anFyYzVmOG1LOGdvOC1NZTdB0gGoAUFVX3lxTFBfTXVtaEJNY2NhQW5aMmlDdmRzZUQ1OGNWOUtwT1NlUnNRUE1VdTNWUXBrNzZQZmk2cTZ4RUlxMHlhbHlHTi02UnRndW83QTFtMkk3RThST0pDNnh2bVZFN2NkeHZxWi10Q3RZdHhtX3Jwc0QyZDRLZWwzSFlUZXNoRnZiVURYcE1oSjVvVXhPdUd5UzBTTm9ockRMckxvSG9TandJV3Iybw?oc=5\" target=\"_blank\">Onewheel Pint X Review: I Didn't Break a Single Bone Testing It</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">yankodesign.com</font>",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjByQ05GOXNSZFJrMDZmelFJZGQtcW1rUGdPWDl6T2RMZjZieTVwWVlFaVprdjg2OHRHVHhnaHdsNUoxelp1UzhPeEp0d3dVT1MwcThjVnhHQmlXUzRSRlpZc1M4bzBva05ldGRaZVB5aWdoR25UR3d3dkc2YlE4QnAtRlozdHhKUndRWFhGT2Z4anFyYzVmOG1LOGdvOC1NZTdB0gGoAUFVX3lxTFBfTXVtaEJNY2NhQW5aMmlDdmRzZUQ1OGNWOUtwT1NlUnNRUE1VdTNWUXBrNzZQZmk2cTZ4RUlxMHlhbHlHTi02UnRndW83QTFtMkk3RThST0pDNnh2bVZFN2NkeHZxWi10Q3RZdHhtX3Jwc0QyZDRLZWwzSFlUZXNoRnZiVURYcE1oSjVvVXhPdUd5UzBTTm9ockRMckxvSG9TandJV3Iybw?oc=5",
@@ -28021,7 +28030,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "119sooa-1joxsrd",
@@ -28850,9 +28859,12 @@
       "deck": "news",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
-      "mergedItemCount": 2
+      "mergedItemCount": 3
     },
     {
       "id": "1wkah5o-1k6th9l",

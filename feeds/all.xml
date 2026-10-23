@@ -5,7 +5,7 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 23 Oct 2026 08:48:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 11:41:16 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[I CHASED a SUPERCAR Convoy on My Onewheel! 🔥]]></title>
@@ -3089,7 +3089,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[Pushback: high voltage warning while riding at 90% after update to 7.0]]></title>
@@ -3305,7 +3305,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[Flipsky 75200 Pro FOC Detection Stuck at 0.000 Flux Linkage]]></title>
@@ -3353,7 +3353,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[You'll Never Catch Me! || Onewheel Follow Me Series]]></title>
@@ -3389,7 +3389,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[Onewheel dirt jumps]]></title>
@@ -3461,7 +3461,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[Best Onewheel Grind Tricks #skate]]></title>
@@ -3497,7 +3497,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[Fungineers' Jay on #onewheel and #vesc community at @oakcityshredfest]]></title>
@@ -3521,7 +3521,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[Onewheel is like skateboarding]]></title>
@@ -3545,7 +3545,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[OneWheel vs Funwheel]]></title>
@@ -3581,7 +3581,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
+      <source url="https://fallman.tech/feed/">FallmanTech</source>
     </item>
     <item>
       <title><![CDATA[XR revival build from Belgium: Thor301 vs LFOCer V4 vs XRV, and best 20s2p sourcing in the EU?]]></title>
@@ -9284,7 +9284,7 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel Pint X Review: I Didn't Break a Single Bone Testing It - yankodesign.com]]></title>
+      <title><![CDATA[Onewheel Pint X Review: I Didn’t Break a Single Bone Testing It - Yanko Design]]></title>
       <link>https://news.google.com/rss/articles/CBMiowFBVV95cUxNbjByQ05GOXNSZFJrMDZmelFJZGQtcW1rUGdPWDl6T2RMZjZieTVwWVlFaVprdjg2OHRHVHhnaHdsNUoxelp1UzhPeEp0d3dVT1MwcThjVnhHQmlXUzRSRlpZc1M4bzBva05ldGRaZVB5aWdoR25UR3d3dkc2YlE4QnAtRlozdHhKUndRWFhGT2Z4anFyYzVmOG1LOGdvOC1NZTdB0gGoAUFVX3lxTFBfTXVtaEJNY2NhQW5aMmlDdmRzZUQ1OGNWOUtwT1NlUnNRUE1VdTNWUXBrNzZQZmk2cTZ4RUlxMHlhbHlHTi02UnRndW83QTFtMkk3RThST0pDNnh2bVZFN2NkeHZxWi10Q3RZdHhtX3Jwc0QyZDRLZWwzSFlUZXNoRnZiVURYcE1oSjVvVXhPdUd5UzBTTm9ockRMckxvSG9TandJV3Iybw?oc=5</link>
       <guid isPermaLink="false">1ekwoxm-1joxsrd</guid>
       <pubDate>Tue, 06 Aug 2024 07:00:00 GMT</pubDate>
