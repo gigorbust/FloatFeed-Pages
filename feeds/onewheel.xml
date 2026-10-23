@@ -5,8 +5,32 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 14 Oct 2026 10:18:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 08:48:26 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[IMU recommendations for VESC Onewheel controller manufacturers]]></title>
+      <link>https://pev.dev/t/imu-recommendations-for-vesc-onewheel-controller-manufacturers/3051#post_1</link>
+      <guid isPermaLink="false">zx7yil-1czfdl1</guid>
+      <pubDate>Sat, 17 Oct 2026 15:08:04 GMT</pubDate>
+      <description><![CDATA[<p>With the IMU overhaul done, the firmware can now make full use of well-connected IMUs. Here are my recommendations for VESC controller makers on how to wire the IMU. It’s not difficult, I just wanted a short, clear and easy to reference post. Use hardware SPI Connect the IMU to pins wired to a hardware SPI peripheral. A hardware SPI transfer runs at up to 10 MHz (versus 700 kHz of I2C) and doesn’t put load on the CPU. The Thor301, Thor400 and Z400 already do this. Wire the data-ready interrupt Route the IMU INT1 pin to a free MCU pin. This is to drive the sample timing from the IMU via an inte</p>]]></description>
+      <content:encoded><![CDATA[<p>With the <a href="https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047" target="_blank" rel="noopener noreferrer">IMU overhaul</a> done, the firmware can now make full use of well-connected IMUs. Here are my recommendations for VESC controller makers on how to wire the IMU. It’s not difficult, I just wanted a short, clear and easy to reference post.</p>&#10;<h2><a href="https://pev.dev/#p-6530-use-hardware-spi-1" target="_blank" rel="noopener noreferrer"></a>Use hardware SPI</h2>&#10;<p>Connect the IMU to pins wired to a hardware SPI peripheral. A hardware SPI transfer runs at up to 10 MHz (versus 700 kHz of I2C) and doesn’t put load on the CPU. The Thor301, Thor400 and Z400 already do this.</p>&#10;<h2><a href="https://pev.dev/#p-6530-wire-the-data-ready-interrupt-2" target="_blank" rel="noopener noreferrer"></a>Wire the data-ready interrupt</h2>&#10;<p>Route the IMU INT1 pin to a free MCU pin. This is to drive the sample timing from the IMU via an interrupt. It’s a single PCB trace. Currently only the Z400 onboard IMU has it.</p>&#10;<p>One detail for the pin selection: EXTI interrupt lines are shared across ports by pin number (e.g. for pin B6 the 6 is the number), so pick a pin whose number doesn’t collide with another external interrupt in the design.</p>&#10;<h2><a href="https://pev.dev/#p-6530-consider-a-modern-imu-3" target="_blank" rel="noopener noreferrer"></a>Consider a modern IMU</h2>&#10;<p>The IMU device layer rewrite also made adding support for new IMUs much easier. The ST LSM6DSV32X is now supported as a new modern IMU. It has much better on-paper temperature drift (nearly 10× lower gyro zero-rate drift) and somewhat lower noise.</p>&#10;<p>But my opinion at the moment is that IMUs can have their quirks, which differ unit by unit. Especially the ST LSM6 IMU line (might just be the DS3) seems to be quite susceptible to this, so it’d be nice to have some comparison to more modern IMUs. Note though, given these unit-to-unit differences, IMUs should ideally be evaluated in a larger sample size, either with very expensive equipment and a lot of engineering time, or simply by riding.</p>&#10;<p>If you’re considering a new IMU and need firmware support for it, or any help with the IMU integration in general, I’m available to help.</p>&#10;<h2><a href="https://pev.dev/#p-6530-support-the-project-4" target="_blank" rel="noopener noreferrer"></a>Support the project</h2>&#10;<p>This work is done in my free time and benefits the whole VESC Onewheel ecosystem, including the products built on top of it. If you’re a hardware vendor and you think my work makes your product better, consider <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">supporting the development</a>.</p>&#10;            <p><small>1 post - 1 participant</small></p>&#10;            <p><a href="https://pev.dev/t/imu-recommendations-for-vesc-onewheel-controller-manufacturers/3051" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+
+
+      <dc:creator>@riddimrider</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Refloat version 1.3]]></title>
+      <link>https://pev.dev/t/refloat-version-1-3/2995#post_10</link>
+      <guid isPermaLink="false">b7kxax-1czfdl1</guid>
+      <pubDate>Sat, 17 Oct 2026 13:33:52 GMT</pubDate>
+      <description><![CDATA[<p>Should have posted this way earlier, there’s a small percentage of users getting markable nose oscillations (nose hunting) after upgrading to Refloat 1.3. From what I’ve heard so far, decreasing the IMU Sample Rate to 416 Hz is a workaround to fix the problem. I’m not sure about the exact cause of this, I believe it’s just the messed up timing from the old firmware IMU sampling code. Seems updating to a firmware with my IMU fixes does fix the issue. For LSM6DS3 controllers, firmware 7.00 should do, though it doesn’t have all the fixes. For BMI160 controllers (or if you wanna get all the fixes </p>]]></description>
+      <content:encoded><![CDATA[<p>Refloat 1.3 is here. This is a big one, it brings a number of improvements that cause small changes in behavior, bundled in one release to minimize the disruption.</p>&#10;<p>Release stage: <em><strong>stable</strong></em></p>&#10;<h2><a href="https://pev.dev/#p-6403-update-1" target="_blank" rel="noopener noreferrer"></a>Update</h2>&#10;<p>1.3.1-beta1 has been released with some fixes and a “Convert from 1.2” button added to the tune dialogs.</p>&#10;<h2><a href="https://pev.dev/#p-6403-whats-new-2" target="_blank" rel="noopener noreferrer"></a>What’s new</h2>&#10;<p>Three major changes define this release:</p>&#10;<h3><a href="https://pev.dev/#p-6403-timing-rework-3" target="_blank" rel="noopener noreferrer"></a>Timing rework</h3>&#10;<p>The internal timing and synchronization have been overhauled. All calculations are now independent of the frequency they run at, and the core balancing control runs in sync with the IMU. The Loop Hertz config option has been removed.</p>&#10;<p>The practical result is better vibration rejection and more consistent tune behavior across different boards and configurations. Tunes should transfer more cleanly between setups.</p>&#10;<p>I’ve written a <a href="https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925" target="_blank" rel="noopener noreferrer">detailed post</a> about the technical details.</p>&#10;<h3><a href="https://pev.dev/#p-6403-setpoint-smoothing-4" target="_blank" rel="noopener noreferrer"></a>Setpoint smoothing</h3>&#10;<p>All Tilts (ATR, Torque Tilt, Brake Tilt, Turn Tilt and Remote) now have setpoint smoothing. This replaces the old linear transitions with smooth curves that allow higher tiltback speeds without jerkiness. The algorithm is based on the <a href="https://pev.dev/t/refloat-v1-1-feature-preview-2-haptic-feedback-setpoint-smoothing/2326/2" target="_blank" rel="noopener noreferrer">3-Stage filter</a> from earlier feature previews.</p>&#10;<p>The main knobs to adjust are the Smoothing Time Constants:</p>&#10;<ul>&#10;<li><strong>Smoothing Time Constant</strong>: the overall smoothing delay (think 0.15-0.3s)</li>&#10;<li><strong>On Speed Time Constant</strong>: smooths the “into tiltback” transition</li>&#10;<li><strong>Off Speed Time Constant</strong>: smooths the “release” transition</li>&#10;</ul>&#10;<p>Torque Tilt and ATR have all three configurable. Turn Tilt and Remote are simplified to just the Smoothing Time Constant. The Time Constants are now the primary thing to tweak. Tiltback Speeds for Turn Tilt and Remote have been removed entirely in favor of the smoothing, and for Torque Tilt and ATR they’ve been reset to higher defaults that better complement it (your Torque Tilt and ATR Tiltback speeds won’t carry over from tune backups).</p>&#10;<p>As smoothing replaces its function, ATR Response Boost has been removed. ATR Transition Boost has been reworked to apply to both the smoothing constants and angling rates.</p>&#10;<p>More details on this can be found in the <a href="https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959" target="_blank" rel="noopener noreferrer">feature preview post</a>.</p>&#10;<p>The defaults for the new smoothing options work well for smooth casual riding. For racing and aggressive riding in general, the numbers need to be lowered in general, the following values should be a good starting point for a race tune:</p>&#10;<ul>&#10;<li>Torque Tilt&#10;<ul>&#10;<li><em>Smoothing Time Constant</em>: 0.15</li>&#10;<li><em>Smooting On Speed Time Constant</em>: 0.05</li>&#10;<li><em>Smooting Off Speed Time Constant</em>: 0.1</li>&#10;</ul>&#10;</li>&#10;<li>ATR&#10;<ul>&#10;<li><em>Smoothing Time Constant</em>: 0.2</li>&#10;<li><em>Smooting On Speed Time Constant</em>: 0.08</li>&#10;<li><em>Smooting Off Speed Time Constant</em>: 0.01</li>&#10;</ul>&#10;</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6403-torque-normalization-via-flux-linkage-firmware-606-5" target="_blank" rel="noopener noreferrer"></a>Torque normalization via Flux Linkage (firmware 6.06+)</h3>&#10;<p>On firmware 6.06+, the package now uses the motor’s Flux Linkage value to convert current to torque internally. This compensates for different motors’ torque constants and makes tunes behave more consistently across different motors. The reference value is 27 mWb. The more your motor differs from this, the more your tune will be adjusted.</p>&#10;<p>On firmware 6.05 and older, the behavior remains unchanged.</p>&#10;<h2><a href="https://pev.dev/#p-6403-updating-to-13-6" target="_blank" rel="noopener noreferrer"></a>Updating to 1.3</h2>&#10;<p>This release will cause small changes in tune behavior:</p>&#10;<ul>&#10;<li><strong>Timing corrections:</strong> Angling speeds for tilts and pushbacks were running about 9-17% slower than configured. In practice, the new smoothing overshadows this (and Tiltback Speeds which remain will reset to higher values as mentioned above).</li>&#10;<li><strong>Torque normalization (6.06+ only):</strong> Config options are now internally adjusted based on your motor’s Flux Linkage. To compensate and retain your current tune behavior, calculate <code>k = Flux Linkage / 27</code> and:&#10;<ul>&#10;<li><strong>Divide by <code>k</code></strong> (likely noticeable, recommended to adjust): Torque Tilt Strength, Torque Tilt Strength (Regen)</li>&#10;<li><strong>Multiply by <code>k</code></strong> (subtle, adjust if needed): Angle P, Rate P, Angle I, I Term Limit, Booster Currents, Torque Tilt Start Current, ATR Amps Ratios</li>&#10;</ul>&#10;</li>&#10;<li><strong>Smoothing defaults:</strong> The defaults are tuned for smooth casual riding. Aggressive or racing tunes may need the Time Constants dialed down a bit for more responsiveness.</li>&#10;</ul>&#10;<p>For Flux Linkage normalization to work correctly, make sure your Motor Cfg → Additional Info → Setup → Motor Poles value is correct. If your board reports speed correctly, it should be. The correct value for all Onewheel motors to date is 30.</p>&#10;<p>Automatic config restore works as usual: confirm the dialog after upgrading and your config will be migrated.</p>&#10;<h2><a href="https://pev.dev/#p-6403-other-notable-changes-7" target="_blank" rel="noopener noreferrer"></a>Other notable changes</h2>&#10;<ul>&#10;<li>New and more consistent Reverse Stop implementation</li>&#10;<li>Motor utilization on the LED status bar (motor saturation, battery saturation, duty cycle)</li>&#10;<li>Option to swap left/right footpad ADCs</li>&#10;<li>Fullscreen remote overlay in package UI</li>&#10;<li>Reworked remote/wheel control from apps</li>&#10;<li>Various fixes (see full changelog)</li>&#10;</ul>&#10;<h2><a href="https://pev.dev/#p-6403-download-and-changelog-8" target="_blank" rel="noopener noreferrer"></a>Download and changelog</h2>&#10;<p><a href="https://github.com/lukash/refloat/releases/tag/v1.3.0" target="_blank" rel="noopener noreferrer">Refloat 1.3.0</a><br />&#10;<a href="https://github.com/lukash/refloat/releases/tag/v1.3.1-beta1" target="_blank" rel="noopener noreferrer">Refloat 1.3.1-beta1</a></p>&#10;<h2><a href="https://pev.dev/#p-6403-support-the-project-9" target="_blank" rel="noopener noreferrer"></a>Support the project</h2>&#10;<p>I invest a lot of time and energy into the development and testing of Refloat. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;            <p><small>11 posts - 3 participants</small></p>&#10;            <p><a href="https://pev.dev/t/refloat-version-1-3/2995" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+
+
+      <dc:creator>@riddimrider</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
     <item>
       <title><![CDATA[VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling]]></title>
       <link>https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_1</link>
@@ -116,18 +140,6 @@
       <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
-      <title><![CDATA[Refloat version 1.3]]></title>
-      <link>https://pev.dev/t/refloat-version-1-3/2995#post_9</link>
-      <guid isPermaLink="false">17dnbxn-1czfdl1</guid>
-      <pubDate>Mon, 24 Aug 2026 07:09:58 GMT</pubDate>
-      <description><![CDATA[<p>Final version is out! Refloat 1.3.0 On top of beta3 it contains these two changes which kind of get lost in the complete changelog so listing them here: Fix BMS Integration sometimes reporting Connection Error and not recovering or potentially getting stuck on another error Add the “Control Loop Latency” metric to realtime data Shows how much later than usual the control loop processed each IMU sample, in milliseconds. Ideally it stays near zero; spikes mean the processing of a sample was delayed, e.g. by other tasks running on the controller. Note the value is relative to the best case observ</p>]]></description>
-      <content:encoded><![CDATA[<p>Refloat 1.3 is here. This is a big one, it brings a number of improvements that cause small changes in behavior, bundled in one release to minimize the disruption.</p>&#10;<p>Release stage: <em><strong>stable</strong></em></p>&#10;<h2><a href="https://pev.dev/#p-6403-whats-new-1" target="_blank" rel="noopener noreferrer"></a>What’s new</h2>&#10;<p>Three major changes define this release:</p>&#10;<h3><a href="https://pev.dev/#p-6403-timing-rework-2" target="_blank" rel="noopener noreferrer"></a>Timing rework</h3>&#10;<p>The internal timing and synchronization have been overhauled. All calculations are now independent of the frequency they run at, and the core balancing control runs in sync with the IMU. The Loop Hertz config option has been removed.</p>&#10;<p>The practical result is better vibration rejection and more consistent tune behavior across different boards and configurations. Tunes should transfer more cleanly between setups.</p>&#10;<p>I’ve written a <a href="https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925" target="_blank" rel="noopener noreferrer">detailed post</a> about the technical details.</p>&#10;<h3><a href="https://pev.dev/#p-6403-setpoint-smoothing-3" target="_blank" rel="noopener noreferrer"></a>Setpoint smoothing</h3>&#10;<p>All Tilts (ATR, Torque Tilt, Brake Tilt, Turn Tilt and Remote) now have setpoint smoothing. This replaces the old linear transitions with smooth curves that allow higher tiltback speeds without jerkiness. The algorithm is based on the <a href="https://pev.dev/t/refloat-v1-1-feature-preview-2-haptic-feedback-setpoint-smoothing/2326/2" target="_blank" rel="noopener noreferrer">3-Stage filter</a> from earlier feature previews.</p>&#10;<p>The main knobs to adjust are the Smoothing Time Constants:</p>&#10;<ul>&#10;<li><strong>Smoothing Time Constant</strong>: the overall smoothing delay (think 0.15-0.3s)</li>&#10;<li><strong>On Speed Time Constant</strong>: smooths the “into tiltback” transition</li>&#10;<li><strong>Off Speed Time Constant</strong>: smooths the “release” transition</li>&#10;</ul>&#10;<p>Torque Tilt and ATR have all three configurable. Turn Tilt and Remote are simplified to just the Smoothing Time Constant. The Time Constants are now the primary thing to tweak. Tiltback Speeds for Turn Tilt and Remote have been removed entirely in favor of the smoothing, and for Torque Tilt and ATR they’ve been reset to higher defaults that better complement it (your Torque Tilt and ATR Tiltback speeds won’t carry over from tune backups).</p>&#10;<p>As smoothing replaces its function, ATR Response Boost has been removed. ATR Transition Boost has been reworked to apply to both the smoothing constants and angling rates.</p>&#10;<p>More details on this can be found in the <a href="https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959" target="_blank" rel="noopener noreferrer">feature preview post</a>.</p>&#10;<p>The defaults for the new smoothing options work well for smooth casual riding. For racing and aggressive riding in general, the numbers need to be lowered in general, the following values should be a good starting point for a race tune:</p>&#10;<ul>&#10;<li>Torque Tilt&#10;<ul>&#10;<li><em>Smoothing Time Constant</em>: 0.15</li>&#10;<li><em>Smooting On Speed Time Constant</em>: 0.05</li>&#10;<li><em>Smooting Off Speed Time Constant</em>: 0.1</li>&#10;</ul>&#10;</li>&#10;<li>ATR&#10;<ul>&#10;<li><em>Smoothing Time Constant</em>: 0.2</li>&#10;<li><em>Smooting On Speed Time Constant</em>: 0.08</li>&#10;<li><em>Smooting Off Speed Time Constant</em>: 0.01</li>&#10;</ul>&#10;</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6403-torque-normalization-via-flux-linkage-firmware-606-4" target="_blank" rel="noopener noreferrer"></a>Torque normalization via Flux Linkage (firmware 6.06+)</h3>&#10;<p>On firmware 6.06+, the package now uses the motor’s Flux Linkage value to convert current to torque internally. This compensates for different motors’ torque constants and makes tunes behave more consistently across different motors. The reference value is 27 mWb. The more your motor differs from this, the more your tune will be adjusted.</p>&#10;<p>On firmware 6.05 and older, the behavior remains unchanged.</p>&#10;<h2><a href="https://pev.dev/#p-6403-updating-to-13-5" target="_blank" rel="noopener noreferrer"></a>Updating to 1.3</h2>&#10;<p>This release will cause small changes in tune behavior:</p>&#10;<ul>&#10;<li><strong>Timing corrections:</strong> Angling speeds for tilts and pushbacks were running about 9-17% slower than configured. In practice, the new smoothing overshadows this (and Tiltback Speeds which remain will reset to higher values as mentioned above).</li>&#10;<li><strong>Torque normalization (6.06+ only):</strong> Config options are now internally adjusted based on your motor’s Flux Linkage. To compensate and retain your current tune behavior, calculate <code>k = Flux Linkage / 27</code> and:&#10;<ul>&#10;<li><strong>Divide by <code>k</code></strong> (likely noticeable, recommended to adjust): Torque Tilt Strength, Torque Tilt Strength (Regen)</li>&#10;<li><strong>Multiply by <code>k</code></strong> (subtle, adjust if needed): Angle P, Rate P, Angle I, I Term Limit, Booster Currents, Torque Tilt Start Current, ATR Amps Ratios</li>&#10;</ul>&#10;</li>&#10;<li><strong>Smoothing defaults:</strong> The defaults are tuned for smooth casual riding. Aggressive or racing tunes may need the Time Constants dialed down a bit for more responsiveness.</li>&#10;</ul>&#10;<p>For Flux Linkage normalization to work correctly, make sure your Motor Cfg → Additional Info → Setup → Motor Poles value is correct. If your board reports speed correctly, it should be. The correct value for all Onewheel motors to date is 30.</p>&#10;<p>Automatic config restore works as usual: confirm the dialog after upgrading and your config will be migrated.</p>&#10;<h2><a href="https://pev.dev/#p-6403-other-notable-changes-6" target="_blank" rel="noopener noreferrer"></a>Other notable changes</h2>&#10;<ul>&#10;<li>New and more consistent Reverse Stop implementation</li>&#10;<li>Motor utilization on the LED status bar (motor saturation, battery saturation, duty cycle)</li>&#10;<li>Option to swap left/right footpad ADCs</li>&#10;<li>Fullscreen remote overlay in package UI</li>&#10;<li>Reworked remote/wheel control from apps</li>&#10;<li>Various fixes (see full changelog)</li>&#10;</ul>&#10;<h2><a href="https://pev.dev/#p-6403-download-and-changelog-7" target="_blank" rel="noopener noreferrer"></a>Download and changelog</h2>&#10;<p><a href="https://github.com/lukash/refloat/releases/tag/v1.3.0" target="_blank" rel="noopener noreferrer">Refloat 1.3.0</a></p>&#10;<h2><a href="https://pev.dev/#p-6403-support-the-project-8" target="_blank" rel="noopener noreferrer"></a>Support the project</h2>&#10;<p>I invest a lot of time and energy into the development and testing of Refloat. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;            <p><small>9 posts - 3 participants</small></p>&#10;            <p><a href="https://pev.dev/t/refloat-version-1-3/2995" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
-
-
-      <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
-    </item>
-    <item>
       <title><![CDATA[Onewheel Terrain Guide: Riding on Pavement, Grass, Trails, Sand and Snow]]></title>
       <link>https://fallman.tech/onewheel-terrain/</link>
       <guid isPermaLink="false">1t4ylp6-m6g0vw</guid>
@@ -137,7 +149,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Pushback: high voltage warning while riding at 90% after update to 7.0]]></title>
@@ -173,7 +185,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Flipsky 75200 Pro FOC Detection Stuck at 0.000 Flux Linkage]]></title>
@@ -209,7 +221,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Slang: 20+ Terms Every Rider Should Know (2026 Guide)]]></title>
@@ -221,7 +233,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Initial VESCTool Configuration Guide]]></title>
@@ -245,7 +257,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[The Float Life Acquires 1Protect Gloves]]></title>
@@ -257,7 +269,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Race for the Rail: Winners Through the Years]]></title>
@@ -269,7 +281,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Race for the Rail 2026: The Onewheel Community’s Super Bowl Is About to Begin]]></title>
@@ -281,7 +293,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[The Best Onewheel Safety Gear (Elbow/Knee Pads, Helmet, Wristguard)]]></title>
@@ -293,7 +305,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[XR revival build from Belgium: Thor301 vs LFOCer V4 vs XRV, and best 20s2p sourcing in the EU?]]></title>
@@ -653,7 +665,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic vs XR]]></title>
@@ -701,7 +713,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[VESC battery packs]]></title>
@@ -989,7 +1001,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -1169,7 +1181,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Balance Board]]></title>
@@ -1181,7 +1193,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[eastride – Onewheel Power Button & Sidekicks]]></title>
@@ -1217,7 +1229,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Racing League]]></title>
@@ -1253,7 +1265,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Waterproofing Onewheel Shoes]]></title>
@@ -1265,7 +1277,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Installing FlightFins FlightFrame]]></title>
@@ -1277,7 +1289,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
@@ -1289,7 +1301,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
@@ -1301,7 +1313,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Rail Badge – Logo – Emblem]]></title>
@@ -1313,7 +1325,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Lights Not Working – Flickering]]></title>
@@ -1325,7 +1337,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -1337,7 +1349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Blog Sites – Best Of 2020]]></title>
@@ -1349,7 +1361,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint First Look]]></title>
@@ -1361,7 +1373,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Early Onewheel Pint Reviews]]></title>
@@ -1373,7 +1385,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -1385,7 +1397,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Why You Need a Onewheel Pint]]></title>
@@ -1397,7 +1409,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
   </channel>
 </rss>
