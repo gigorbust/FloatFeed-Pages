@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 24 Oct 2026 11:01:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 16:00:59 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Onewheel/Parts for sale]]></title>
@@ -41,7 +41,7 @@
 
 
       <dc:creator>Franz</dc:creator>
-      <source url="https://dev.to/feed/">DEV Community (Site feed)</source>
+      <source url="https://dev.to/feed">DEV Community (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[🇧🇷 Alguém aqui do Brasil já importou uma Floatwheel ADV ou ATOM?]]></title>
