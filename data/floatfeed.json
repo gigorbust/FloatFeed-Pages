@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T16:00:59.564Z",
+  "generatedAt": "2026-10-24T20:53:13.473Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 299,
@@ -134,7 +134,7 @@
       "title": "onewheel Reddit Alert (Relevance search)",
       "displayName": "onewheel Reddit Alert (Relevance search)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/search?q=onewheel&sort=relevance&type=link",
+      "siteUrl": "https://www.reddit.com/search/?q=onewheel&type=link&sort=relevance",
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "deck": "community",
       "kind": "social",
@@ -143,13 +143,13 @@
       "articleCount": 40,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "popular-topics-li2s6i",
@@ -1011,11 +1011,11 @@
     },
     {
       "id": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "title": "FallmanTech",
-      "displayName": "FallmanTech",
+      "title": "FallmanTech (Site feed)",
+      "displayName": "FallmanTech (Site feed)",
       "domain": "fallman.tech",
       "siteUrl": "https://fallman.tech/",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1023,13 +1023,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "float-gang-1a19hmu",
@@ -8723,14 +8723,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9133,14 +9132,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9221,14 +9219,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9286,14 +9283,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9421,14 +9417,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9489,14 +9484,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9533,14 +9527,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9577,14 +9570,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -9648,14 +9640,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg",
       "sourceId": "fallman-tech-onewheel-search-feed-1dn64sj",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
         "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj",
         "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 3
@@ -14379,11 +14370,11 @@
       "embedHeightFetchedAt": "2026-09-17T18:47:10.953Z"
     },
     {
-      "id": "1fd221x-1joxsrd",
+      "id": "11gyuv-1joxsrd",
       "title": "Hawaii teen becomes fastest racer on Onewheel - Hawaii News Now",
       "description": "Hawaii teen becomes fastest racer on Onewheel hawaiinewsnow.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5\" target=\"_blank\">Hawaii teen becomes fastest racer on Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hawaiinewsnow.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWQ1NnRxU2w1Wm9UMGlhVlNGMk9sdldvNkRHWHNCUG9Yb3BhVW1rS0NNSzZqNWZjTERmUjRRd196TG1DT0xlOG1uN1hhVk1LLVN0UGliQjcyaXBDeW5rWlY3VksyTGg1UDdZRERDQm1wNk5KV2k1ZDNHTF9lX3kwWWpXWDRPNzFiRThmREVmQ0FhSkVi?oc=5",
       "publishedAt": "2025-09-03T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -20600,29 +20591,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "8jg986-1joxsrd",
-      "title": "AkzoNobel's ‘OneWheel’ Portfolio Provides Liquid and Powder Coatings with Color Consistency - Coatings World",
-      "description": "AkzoNobel's ‘OneWheel’ Portfolio Provides Liquid and Powder Coatings with Color Consistency coatingsworld.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHZacGdweTF1X1cwdzVaWDEzM2VMWTJ6V1ZYbHVQcjVKRTNiZlY2eVpDSnUzd0RnblAxUFdldFRRV0RacW5fVHRaVkRJbW81TXhFYVpUdlJMbU9FSlhZdUZ2QnlkbmVsYk1hb3VJbXlFSGYtS0QxczdvQzJQSUJDVk53dHN0bFdBd3VaZFdNdUhFZTNoUElsbHJ5NEVVMU1Dc1R0SHBSOXRBWUNMSF84ZXVrck5fWnhHaHNfdlpJT1VDUVVyQ0ZMYm1B?oc=5\" target=\"_blank\">AkzoNobel's ‘OneWheel’ Portfolio Provides Liquid and Powder Coatings with Color Consistency</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coatingsworld.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHZacGdweTF1X1cwdzVaWDEzM2VMWTJ6V1ZYbHVQcjVKRTNiZlY2eVpDSnUzd0RnblAxUFdldFRRV0RacW5fVHRaVkRJbW81TXhFYVpUdlJMbU9FSlhZdUZ2QnlkbmVsYk1hb3VJbXlFSGYtS0QxczdvQzJQSUJDVk53dHN0bFdBd3VaZFdNdUhFZTNoUElsbHJ5NEVVMU1Dc1R0SHBSOXRBWUNMSF84ZXVrck5fWnhHaHNfdlpJT1VDUVVyQ0ZMYm1B?oc=5",
-      "publishedAt": "2024-06-19T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "k1ehof-1joxsrd",
       "title": "One Decade of Onewheel - Good Times | Santa Cruz California's Leading Free Weekly",
       "description": "One Decade of Onewheel Good Times | Santa Cruz California's Leading Free Weekly",
@@ -20643,6 +20611,29 @@
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "8jg986-1joxsrd",
+      "title": "AkzoNobel's ‘OneWheel’ Portfolio Provides Liquid and Powder Coatings with Color Consistency - Coatings World",
+      "description": "AkzoNobel's ‘OneWheel’ Portfolio Provides Liquid and Powder Coatings with Color Consistency coatingsworld.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHZacGdweTF1X1cwdzVaWDEzM2VMWTJ6V1ZYbHVQcjVKRTNiZlY2eVpDSnUzd0RnblAxUFdldFRRV0RacW5fVHRaVkRJbW81TXhFYVpUdlJMbU9FSlhZdUZ2QnlkbmVsYk1hb3VJbXlFSGYtS0QxczdvQzJQSUJDVk53dHN0bFdBd3VaZFdNdUhFZTNoUElsbHJ5NEVVMU1Dc1R0SHBSOXRBWUNMSF84ZXVrck5fWnhHaHNfdlpJT1VDUVVyQ0ZMYm1B?oc=5\" target=\"_blank\">AkzoNobel's ‘OneWheel’ Portfolio Provides Liquid and Powder Coatings with Color Consistency</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">coatingsworld.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOMHZacGdweTF1X1cwdzVaWDEzM2VMWTJ6V1ZYbHVQcjVKRTNiZlY2eVpDSnUzd0RnblAxUFdldFRRV0RacW5fVHRaVkRJbW81TXhFYVpUdlJMbU9FSlhZdUZ2QnlkbmVsYk1hb3VJbXlFSGYtS0QxczdvQzJQSUJDVk53dHN0bFdBd3VaZFdNdUhFZTNoUElsbHJ5NEVVMU1Dc1R0SHBSOXRBWUNMSF84ZXVrck5fWnhHaHNfdlpJT1VDUVVyQ0ZMYm1B?oc=5",
+      "publishedAt": "2024-06-19T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -24320,6 +24311,30 @@
       "mergedItemCount": 2
     },
     {
+      "id": "1ngnsde-1k6th9l",
+      "title": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - Lookout Santa Cruz",
+      "description": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials Lookout Santa Cruz",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5\" target=\"_blank\">Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lookout Santa Cruz</font>",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5",
+      "publishedAt": "2023-10-04T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "i89pfl-1k6th9l",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
@@ -24340,30 +24355,6 @@
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1ngnsde-1joxsrd",
-      "title": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - Lookout Santa Cruz",
-      "description": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials Lookout Santa Cruz",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5\" target=\"_blank\">Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lookout Santa Cruz</font>",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5",
-      "publishedAt": "2023-10-04T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -24460,6 +24451,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1w36n5e-1joxsrd",
+      "title": "Recall alert: All models of Onewheel skateboards recalled; four deaths reported - KIRO 7 News Seattle",
+      "description": "Recall alert: All models of Onewheel skateboards recalled; four deaths reported KIRO 7 News Seattle",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmlDdGpMeDQ5bTdiUU91d2lFSkhqR0VUQXZSXzBkc3dNVi1QZzRMdzJmTnFWbVI5Q2tQNGJ5VTZqWlZXMUYzWEhGdEZaVFh5ZlROZ0tOY0ZxQkpfWXBuSEludldjRW1nbWs5U1Y3Z2ZXX0hFVGVJbnRid21DMVR1WWI1ZS03ampsRHpRMmFBTlhEZzFuTzFNSkV0SmtnNC12QXBwMmxVblRHZ2F6a185MHpvMUJuanM1bDBLanlsbEw5SkUzU0kzWFlKVHBRZjh5VkJXZtIB6AFBVV95cUxNb2pvN1RYVVZ1bld4SmdiN0dxX3l6VlU3d2ZzamM4VUQwTTZkclVqb0ptbzgtX3luNUV2TUg5VndVenlQdmtuckpBQ0tTcllwTkZXMWhCN3k4OUM1ZjFFdU1TeUprRFpISXdYNHJmNGVVMUIySTUzMlF1YUJEYXdjaDdsYlg3aV9xNXBNc3pOM1VYUjBMNFByNGxBS3VOYzZMZmZURUVIODkyZlV2YktuUWotNDZFX1B4d1J6cmxnVy05N1lHTjF0Y1B6empIQV84Ukl6YmN4NmVnRXdHY0lXUlhaZkVMa0Nh?oc=5\" target=\"_blank\">Recall alert: All models of Onewheel skateboards recalled; four deaths reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KIRO 7 News Seattle</font>",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmlDdGpMeDQ5bTdiUU91d2lFSkhqR0VUQXZSXzBkc3dNVi1QZzRMdzJmTnFWbVI5Q2tQNGJ5VTZqWlZXMUYzWEhGdEZaVFh5ZlROZ0tOY0ZxQkpfWXBuSEludldjRW1nbWs5U1Y3Z2ZXX0hFVGVJbnRid21DMVR1WWI1ZS03ampsRHpRMmFBTlhEZzFuTzFNSkV0SmtnNC12QXBwMmxVblRHZ2F6a185MHpvMUJuanM1bDBLanlsbEw5SkUzU0kzWFlKVHBRZjh5VkJXZtIB6AFBVV95cUxNb2pvN1RYVVZ1bld4SmdiN0dxX3l6VlU3d2ZzamM4VUQwTTZkclVqb0ptbzgtX3luNUV2TUg5VndVenlQdmtuckpBQ0tTcllwTkZXMWhCN3k4OUM1ZjFFdU1TeUprRFpISXdYNHJmNGVVMUIySTUzMlF1YUJEYXdjaDdsYlg3aV9xNXBNc3pOM1VYUjBMNFByNGxBS3VOYzZMZmZURUVIODkyZlV2YktuUWotNDZFX1B4d1J6cmxnVy05N1lHTjF0Y1B6empIQV84Ukl6YmN4NmVnRXdHY0lXUlhaZkVMa0Nh?oc=5",
+      "publishedAt": "2023-10-03T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "1e6uf0t-1joxsrd",
       "title": "All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports - Claims Journal",
       "description": "All Onewheel Electric Skateboards Under Recall After 4 Deaths and Serious Injury Reports claimsjournal.com",
@@ -24482,29 +24496,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "1w36n5e-1joxsrd",
-      "title": "Recall alert: All models of Onewheel skateboards recalled; four deaths reported - KIRO 7 News Seattle",
-      "description": "Recall alert: All models of Onewheel skateboards recalled; four deaths reported KIRO 7 News Seattle",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmlDdGpMeDQ5bTdiUU91d2lFSkhqR0VUQXZSXzBkc3dNVi1QZzRMdzJmTnFWbVI5Q2tQNGJ5VTZqWlZXMUYzWEhGdEZaVFh5ZlROZ0tOY0ZxQkpfWXBuSEludldjRW1nbWs5U1Y3Z2ZXX0hFVGVJbnRid21DMVR1WWI1ZS03ampsRHpRMmFBTlhEZzFuTzFNSkV0SmtnNC12QXBwMmxVblRHZ2F6a185MHpvMUJuanM1bDBLanlsbEw5SkUzU0kzWFlKVHBRZjh5VkJXZtIB6AFBVV95cUxNb2pvN1RYVVZ1bld4SmdiN0dxX3l6VlU3d2ZzamM4VUQwTTZkclVqb0ptbzgtX3luNUV2TUg5VndVenlQdmtuckpBQ0tTcllwTkZXMWhCN3k4OUM1ZjFFdU1TeUprRFpISXdYNHJmNGVVMUIySTUzMlF1YUJEYXdjaDdsYlg3aV9xNXBNc3pOM1VYUjBMNFByNGxBS3VOYzZMZmZURUVIODkyZlV2YktuUWotNDZFX1B4d1J6cmxnVy05N1lHTjF0Y1B6empIQV84Ukl6YmN4NmVnRXdHY0lXUlhaZkVMa0Nh?oc=5\" target=\"_blank\">Recall alert: All models of Onewheel skateboards recalled; four deaths reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KIRO 7 News Seattle</font>",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSmlDdGpMeDQ5bTdiUU91d2lFSkhqR0VUQXZSXzBkc3dNVi1QZzRMdzJmTnFWbVI5Q2tQNGJ5VTZqWlZXMUYzWEhGdEZaVFh5ZlROZ0tOY0ZxQkpfWXBuSEludldjRW1nbWs5U1Y3Z2ZXX0hFVGVJbnRid21DMVR1WWI1ZS03ampsRHpRMmFBTlhEZzFuTzFNSkV0SmtnNC12QXBwMmxVblRHZ2F6a185MHpvMUJuanM1bDBLanlsbEw5SkUzU0kzWFlKVHBRZjh5VkJXZtIB6AFBVV95cUxNb2pvN1RYVVZ1bld4SmdiN0dxX3l6VlU3d2ZzamM4VUQwTTZkclVqb0ptbzgtX3luNUV2TUg5VndVenlQdmtuckpBQ0tTcllwTkZXMWhCN3k4OUM1ZjFFdU1TeUprRFpISXdYNHJmNGVVMUIySTUzMlF1YUJEYXdjaDdsYlg3aV9xNXBNc3pOM1VYUjBMNFByNGxBS3VOYzZMZmZURUVIODkyZlV2YktuUWotNDZFX1B4d1J6cmxnVy05N1lHTjF0Y1B6empIQV84Ukl6YmN4NmVnRXdHY0lXUlhaZkVMa0Nh?oc=5",
-      "publishedAt": "2023-10-03T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "1wxku03-1joxsrd",
@@ -28955,7 +28946,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -30454,11 +30447,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "g7fh15-1k6th9l",
-      "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
-      "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5\" target=\"_blank\">Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5",
+      "id": "13wsk49-1k6th9l",
+      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
+      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -30475,11 +30468,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "13wsk49-1k6th9l",
-      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
-      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
+      "id": "g7fh15-1k6th9l",
+      "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
+      "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5\" target=\"_blank\">Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
