@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 25 Oct 2026 04:43:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 11:31:50 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Onewheel/Parts for sale]]></title>
@@ -258,6 +258,18 @@
 
       <dc:creator>/u/starfoxinstinct</dc:creator>
       <source url="https://www.reddit.com/r/ElectricUnicycle/.rss">Reddit r/ElectricUnicycle</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel + WS2812 + ESP8266]]></title>
+      <link>https://www.reddit.com/r/arduino/comments/1wmjir5/onewheel_ws2812_esp8266/</link>
+      <guid isPermaLink="false">1gzk0zr-8kv0cu</guid>
+      <pubDate>Mon, 21 Sep 2026 17:32:55 GMT</pubDate>
+      <description><![CDATA[<p>Making my Onewheel more colorful with WS2812 and esp8266 :D Controlled via web interface but I’m considering switching to esp32 to add Bluetooth since the Onewheel board also communicates via BT. In the final version the electronics will be attached to the bottom of the front footpad. submitted by /u/MrNiceThings to r/arduino [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/arduino/comments/1wmjir5/onewheel_ws2812_esp8266/" target="_blank" rel="noopener noreferrer"> <img src="https://external-preview.redd.it/YjVjcWt5ZDlzd3FoMVbYibw_Vj6StjBbiRKBuzv8fGVsTArGyuUzKFjKMbr-.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f81afff5c91ac2d1ad1e51f6c354473b1d24745d" alt="Onewheel + WS2812 + ESP8266" title="Onewheel + WS2812 + ESP8266" /> </a> </td><td> <div><p>Making my Onewheel more colorful with WS2812 and esp8266 :D Controlled via web interface but I’m considering switching to esp32 to add Bluetooth since the Onewheel board also communicates via BT. In the final version the electronics will be attached to the bottom of the front footpad.</p> </div>   submitted by   <a href="https://www.reddit.com/user/MrNiceThings" target="_blank" rel="noopener noreferrer"> /u/MrNiceThings </a>   to   <a href="https://www.reddit.com/r/arduino/" target="_blank" rel="noopener noreferrer"> r/arduino </a> <br /> <span><a href="https://v.redd.it/74eiceo9swqh1" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/arduino/comments/1wmjir5/onewheel_ws2812_esp8266/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://external-preview.redd.it/YjVjcWt5ZDlzd3FoMVbYibw_Vj6StjBbiRKBuzv8fGVsTArGyuUzKFjKMbr-.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f81afff5c91ac2d1ad1e51f6c354473b1d24745d" />
+
+      <dc:creator>/u/MrNiceThings</dc:creator>
+      <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ATOM Production Update]]></title>
