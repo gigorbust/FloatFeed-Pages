@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Sun, 25 Oct 2026 11:31:51 GMT</dateCreated>
+    <dateCreated>Sun, 25 Oct 2026 16:21:06 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -69,6 +69,9 @@
       <outline text="Reddit r/FloatLife (new)" title="Reddit r/FloatLife (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/new/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/new" />
       <outline text="Reddit r/FloatLife (top)" title="Reddit r/FloatLife (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatLife/top?t=day" />
       <outline text="Reddit r/onewheel (new)" title="Reddit r/onewheel (new)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/new/.rss" htmlUrl="https://www.reddit.com/r/onewheel/new" />
+    </outline>
+    <outline text="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed" title="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed">
+      <outline text="Reddit r/BurningMan (best)" title="Reddit r/BurningMan (best)" type="rss" xmlUrl="https://www.reddit.com/r/BurningMan/best/.rss" htmlUrl="https://www.reddit.com/r/BurningMan/best" />
     </outline>
     <outline text="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED" title="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED">
       <outline text="Reddit r/ElectricSkateboarding" title="Reddit r/ElectricSkateboarding" type="rss" xmlUrl="https://www.reddit.com/r/ElectricSkateboarding/.rss" htmlUrl="https://www.reddit.com/r/ElectricSkateboarding/search?q=%22onewheel%22&amp;restrict_sr=1&amp;sort=new" />
