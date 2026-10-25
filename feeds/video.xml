@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 25 Oct 2026 16:21:05 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 20:54:12 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Is it even possible on the OG XR+??]]></title>
+      <link>https://www.youtube.com/shorts/MqhXreDzhE0</link>
+      <guid isPermaLink="false">325re4-48s3eu</guid>
+      <pubDate>Sun, 25 Oct 2026 18:43:57 GMT</pubDate>
+      <description><![CDATA[<p>Now that I have the backside 180’s on lockdown on a VESC onewheel, can I do them on the OG onewheel XR+ with old firmare (pre-buzz)?!</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/MqhXreDzhE0/hqdefault.jpg" alt="" /></p><p>Now that I have the backside 180’s on lockdown on a VESC onewheel, can I do them on the OG onewheel XR+ with old firmare (pre-buzz)?!</p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/MqhXreDzhE0/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MqhXreDzhE0" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
+    </item>
     <item>
       <title><![CDATA[I CHASED a SUPERCAR Convoy on My Onewheel! 🔥]]></title>
       <link>https://www.youtube.com/shorts/jtud0Jzz6Po</link>
