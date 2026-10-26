@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Mon, 26 Oct 2026 13:03:55 GMT</dateCreated>
+    <dateCreated>Mon, 26 Oct 2026 22:49:48 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -22,7 +22,7 @@
     </outline>
     <outline text="feed | blocked_or_unreachable | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES" title="feed | blocked_or_unreachable | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES">
       <outline text="Onewheel Community Forums" title="Onewheel Community Forums" type="rss" xmlUrl="https://onewheel.community/forum.rss" htmlUrl="https://onewheel.community/forum.rss" />
-      <outline text="Reddit r/OnewheelGT" title="Reddit r/OnewheelGT" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT.rss?limit=100" htmlUrl="https://www.reddit.com/r/OnewheelGT" />
+      <outline text="Reddit r/OnewheelGT" title="Reddit r/OnewheelGT" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT.rss?limit=100" htmlUrl="https://www.reddit.com/r/OnewheelGT?limit=100" />
       <outline text="Reddit r/onewheelpint" title="Reddit r/onewheelpint" type="rss" xmlUrl="https://www.reddit.com/r/onewheelpint.rss?limit=100" htmlUrl="https://www.reddit.com/r/onewheelpint" />
       <outline text="Aaron Onewheel" title="Aaron Onewheel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5WRNB7wLUY7XjjfOhDZYPw" htmlUrl="https://www.youtube.com/channel/UC5WRNB7wLUY7XjjfOhDZYPw" />
       <outline text="Bodhi Harrison" title="Bodhi Harrison" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdnmWaT1L5bTKCFKFLvN8pw" htmlUrl="https://www.youtube.com/channel/UCdnmWaT1L5bTKCFKFLvN8pw" />
@@ -47,7 +47,7 @@
       <outline text="Onewheel Forum Recent" title="Onewheel Forum Recent" type="rss" xmlUrl="https://owforum.co.uk/recent.rss" htmlUrl="http://owforum.co.uk/recent" />
     </outline>
     <outline text="feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032" title="feed | portable_sources | wrapper | replaced_by_portable_source | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | ONEWHEEL FEED | list-1264927333211308032">
-      <outline text="onewheel Reddit Alert (Relevance search)" title="onewheel Reddit Alert (Relevance search)" type="rss" xmlUrl="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link" htmlUrl="https://www.reddit.com/search/?q=onewheel&amp;type=link&amp;sort=relevance" />
+      <outline text="onewheel Reddit Alert (Relevance search)" title="onewheel Reddit Alert (Relevance search)" type="rss" xmlUrl="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link" htmlUrl="https://www.reddit.com/search?q=onewheel&amp;sort=relevance&amp;type=link" />
     </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032 | ONEWHEEL FEED | list-1264927333211308032">
       <outline text="Popular Topics (owforum.co.uk)" title="Popular Topics (owforum.co.uk)" type="rss" xmlUrl="https://owforum.co.uk/popular/alltime.rss" htmlUrl="http://owforum.co.uk/popular/alltime" />
@@ -66,12 +66,13 @@
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032">
       <outline text="Reddit r/BaltimoreOnewheel (top)" title="Reddit r/BaltimoreOnewheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/top?t=day" />
-      <outline text="Reddit r/FloatLife (new)" title="Reddit r/FloatLife (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/new/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/new" />
+      <outline text="Reddit r/FloatLife (new)" title="Reddit r/FloatLife (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/new/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/new/" />
       <outline text="Reddit r/FloatLife (top)" title="Reddit r/FloatLife (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatLife/top?t=day" />
       <outline text="Reddit r/onewheel (new)" title="Reddit r/onewheel (new)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/new/.rss" htmlUrl="https://www.reddit.com/r/onewheel/new" />
     </outline>
     <outline text="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed" title="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed">
       <outline text="Reddit r/BurningMan (best)" title="Reddit r/BurningMan (best)" type="rss" xmlUrl="https://www.reddit.com/r/BurningMan/best/.rss" htmlUrl="https://www.reddit.com/r/BurningMan/best" />
+      <outline text="Reddit r/wheel (new)" title="Reddit r/wheel (new)" type="rss" xmlUrl="https://www.reddit.com/r/wheel/new/.rss" htmlUrl="https://www.reddit.com/r/wheel/new" />
     </outline>
     <outline text="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED" title="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED">
       <outline text="Reddit r/ElectricSkateboarding" title="Reddit r/ElectricSkateboarding" type="rss" xmlUrl="https://www.reddit.com/r/ElectricSkateboarding/.rss" htmlUrl="https://www.reddit.com/r/ElectricSkateboarding/search?q=%22onewheel%22&amp;restrict_sr=1&amp;sort=new" />
@@ -190,7 +191,7 @@
       <outline text="MobileSyrup" title="MobileSyrup" type="rss" xmlUrl="https://mobilesyrup.com/feed/" htmlUrl="https://mobilesyrup.com/" />
       <outline text="PCMag Australia" title="PCMag Australia" type="rss" xmlUrl="https://au.pcmag.com/feed.xml" htmlUrl="https://au.pcmag.com/" />
       <outline text="RetailWire* (retailwire.com)" title="RetailWire* (retailwire.com)" type="rss" xmlUrl="http://www.retailwire.com/rss/091.xml" htmlUrl="https://retailwire.com/" />
-      <outline text="TREND HUNTER - The Latest Trends (trendhunter.com)" title="TREND HUNTER - The Latest Trends (trendhunter.com)" type="rss" xmlUrl="https://www.trendhunter.com/rss" htmlUrl="http://www.trendhunter.com/" />
+      <outline text="TREND HUNTER - The Latest Trends (trendhunter.com)" title="TREND HUNTER - The Latest Trends (trendhunter.com)" type="rss" xmlUrl="https://www.trendhunter.com/rss" htmlUrl="https://www.trendhunter.com/" />
       <outline text="You searched for onewheel - SUPrents (suprents.com)" title="You searched for onewheel - SUPrents (suprents.com)" type="rss" xmlUrl="https://suprents.com/search/onewheel/feed/rss2" htmlUrl="https://suprents.com/" />
       <outline text="ESK8UNITY" title="ESK8UNITY" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCflmMx9Gg_XBSC0icnulp2w" htmlUrl="https://www.youtube.com/channel/UCflmMx9Gg_XBSC0icnulp2w" />
     </outline>
@@ -260,8 +261,8 @@
       <outline text="East Ride DE" title="East Ride DE" type="rss" xmlUrl="https://eastride.de/feed/" htmlUrl="https://eastride.de/" />
       <outline text="Wheel Life Rally" title="Wheel Life Rally" type="rss" xmlUrl="https://wheelliferally.com/feed/" htmlUrl="https://wheelliferally.com/" />
     </outline>
-    <outline text="website_discovery | ONEWHEEL FEED | Fallman.tech &quot;Onewheel&quot; Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed" title="website_discovery | ONEWHEEL FEED | Fallman.tech &quot;Onewheel&quot; Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed">
-      <outline text="Fallman.tech &quot;Onewheel&quot; Search Feed" title="Fallman.tech &quot;Onewheel&quot; Search Feed" type="rss" xmlUrl="https://fallman.tech/rss" htmlUrl="https://fallman.tech/?s=onewheel" />
+    <outline text="feed | portable_sources | website_discovery | ONEWHEEL FEED | Fallman.tech &quot;Onewheel&quot; Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | list-1264927333211308032 | DEFAULT_FEED_SOURCES" title="feed | portable_sources | website_discovery | ONEWHEEL FEED | Fallman.tech &quot;Onewheel&quot; Search Feed | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | list-1264927333211308032 | DEFAULT_FEED_SOURCES">
+      <outline text="FallmanTech" title="FallmanTech" type="rss" xmlUrl="https://fallman.tech/feed/" htmlUrl="https://fallman.tech/" />
     </outline>
     <outline text="feed | public.manual_rss_sources.discovered_feed_url" title="feed | public.manual_rss_sources.discovered_feed_url">
       <outline text="Float Gang" title="Float Gang" type="rss" xmlUrl="https://floatgang.com/feed/" htmlUrl="https://floatgang.com/" />
@@ -295,7 +296,7 @@
     </outline>
     <outline text="website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | Onewheel AI Feed">
       <outline text="Published Content Feed | Manufacturing.net" title="Published Content Feed | Manufacturing.net" type="rss" xmlUrl="https://www.manufacturing.net/feed/" htmlUrl="https://manufacturing.net/" />
-      <outline text="TREND HUNTER - The Latest Trends (Site feed)" title="TREND HUNTER - The Latest Trends (Site feed)" type="rss" xmlUrl="http://www.trendhunter.com/feed/" htmlUrl="http://www.trendhunter.com/" />
+      <outline text="TREND HUNTER - The Latest Trends (Site feed)" title="TREND HUNTER - The Latest Trends (Site feed)" type="rss" xmlUrl="http://www.trendhunter.com/feed/" htmlUrl="https://www.trendhunter.com/" />
     </outline>
     <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed | Onewheel AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed | Onewheel AI Feed">
       <outline text="SGB Media Online" title="SGB Media Online" type="rss" xmlUrl="https://sgbonline.com/feed/" htmlUrl="https://sgbonline.com/" />
@@ -410,7 +411,7 @@
     </outline>
     <outline text="feed | recovered_from_paid_only_surface | Onewheel Board" title="feed | recovered_from_paid_only_surface | Onewheel Board">
       <outline text="Richard Kohberger" title="Richard Kohberger" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCeNgrosbwD17C3yrB9-BAEA" htmlUrl="https://www.youtube.com/channel/UCeNgrosbwD17C3yrB9-BAEA" />
-      <outline text="Austen Hartley (YouTube)" title="Austen Hartley (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMoS0oTBMq6EeUOpvq0LUhg" htmlUrl="https://www.youtube.com/channel/UCMoS0oTBMq6EeUOpvq0LUhg" />
+      <outline text="YouTube (YouTube)" title="YouTube (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMoS0oTBMq6EeUOpvq0LUhg" htmlUrl="https://www.youtube.com/channel/UCMoS0oTBMq6EeUOpvq0LUhg" />
       <outline text="Corridor Cast (YouTube)" title="Corridor Cast (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNSeDrWRGxx5p2l3tj7RWQw" htmlUrl="https://www.youtube.com/channel/UCNSeDrWRGxx5p2l3tj7RWQw" />
     </outline>
     <outline text="feed | portable_sources | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Future Motion Onewheel AI Feed | Floatwheel AI Feed | public.rss_sources | list-1264927333211308032" title="feed | portable_sources | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Future Motion Onewheel AI Feed | Floatwheel AI Feed | public.rss_sources | list-1264927333211308032">
@@ -424,6 +425,9 @@
     </outline>
     <outline text="feed | portable_sources | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | website_discovery | ONEWHEEL FEED | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Onewheel AI Feed | list-1264927333211308032">
       <outline text="The Float Life" title="The Float Life" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA" htmlUrl="https://www.youtube.com/channel/UCJDddEUqK26B0soFP23fvmA" />
+    </outline>
+    <outline text="onewheel" title="onewheel">
+      <outline text="Fallman.tech &quot;Onewheel&quot; Search Feed" title="Fallman.tech &quot;Onewheel&quot; Search Feed" type="rss" xmlUrl="https://fallman.tech/rss" htmlUrl="https://fallman.tech/" />
     </outline>
     <outline text="gear" title="gear">
       <outline text="floatershack.com (News)" title="floatershack.com (News)" type="rss" xmlUrl="https://floatershack.com/blogs/news.atom" htmlUrl="https://floatershack.com/blogs/news" />
