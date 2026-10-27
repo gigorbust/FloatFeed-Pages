@@ -5,8 +5,8 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 125,
-    "feedSourceCount": 123,
+    "sourceCount": 124,
+    "feedSourceCount": 122,
     "articleCount": 1470,
     "rssUrl": "/feeds/all.xml"
   },
@@ -16,8 +16,8 @@
     "shortTitle": "Onewheel",
     "color": "#08c66a",
     "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
-    "sourceCount": 16,
-    "feedSourceCount": 15,
+    "sourceCount": 15,
+    "feedSourceCount": 14,
     "articleCount": 118,
     "rssUrl": "/feeds/onewheel.xml"
   },
