@@ -5,8 +5,20 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 28 Oct 2026 18:30:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:50:09 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Need help diagnosing dead Pint]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1xi0jgm/need_help_diagnosing_dead_pint/</link>
+      <guid isPermaLink="false">jhvn5e-1tmrdpk</guid>
+      <pubDate>Wed, 28 Oct 2026 21:05:28 GMT</pubDate>
+      <description><![CDATA[<p>Pint suddenly cut out while riding, won&apos;t turn on. So far for diagnosis I&apos;ve opened up the battery compartment and verified the battery voltage is sitting at 62V. The output from the BMS is 0V. If I push the momentary switch power button I hear a brief &quot;buzz&quot; for less than a second. Voltage at the output of the BMS goes to ~10V and then drops to 0V over a few minutes. I&apos;m thinking either dead BMS, broken battery balance lead wire causing BMS to cut out, or dead controller. How to differentiate or diagnose further? Assuming it&apos;s dead BMS or controller, next step would be to VESC. Anything better/cheaper than floatwheel PintV kit? Has an upgraded quart-style battery with new cells, but stock everything else. submitted by /u/pjh82 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Pint suddenly cut out while riding, won't turn on. So far for diagnosis I've opened up the battery compartment and verified the battery voltage is sitting at 62V. The output from the BMS is 0V. If I push the momentary switch power button I hear a brief "buzz" for less than a second. Voltage at the output of the BMS goes to ~10V and then drops to 0V over a few minutes.</p> <p>I'm thinking either dead BMS, broken battery balance lead wire causing BMS to cut out, or dead controller. How to differentiate or diagnose further?</p> <p>Assuming it's dead BMS or controller, next step would be to VESC. Anything better/cheaper than floatwheel PintV kit?</p> <p>Has an upgraded quart-style battery with new cells, but stock everything else.</p> </div>   submitted by   <a href="https://www.reddit.com/user/pjh82" target="_blank" rel="noopener noreferrer"> /u/pjh82 </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/1xi0jgm/need_help_diagnosing_dead_pint/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1xi0jgm/need_help_diagnosing_dead_pint/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/pjh82</dc:creator>
+      <source url="https://www.reddit.com/r/onewheel/top/.rss?t=day">Reddit r/onewheel (top) (Top)</source>
+    </item>
     <item>
       <title><![CDATA[First day impressions!]]></title>
       <link>https://www.reddit.com/r/onewheel/comments/1xd2hmk/first_day_impressions/</link>

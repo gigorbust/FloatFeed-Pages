@@ -5,8 +5,20 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 28 Oct 2026 18:30:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:50:09 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Questions on Original Pint conversions]]></title>
+      <link>https://pev.dev/t/questions-on-original-pint-conversions/1708#post_4</link>
+      <guid isPermaLink="false">1aq1q9o-1czfdl1</guid>
+      <pubDate>Wed, 28 Oct 2026 23:48:23 GMT</pubDate>
+      <description><![CDATA[<p>Apologies for reviving an old thread. I’m looking in to doing the same thing as you and have a couple questions since I’m fairly new to OneWheel / VESC. I have a Pint that I plan to install the Pint V drop-in kit into. Eventually, I want to upgrade the battery to the PintX battery. I’m reading in other forums that the PintX battery doesn’t fit into the Pint’s battery housing(?). From what you’ve said, it sounds like you didn’t have any issues with the PintX battery fitting by just upgrading to pint x bumpers? I would love to avoid the hassle of looking for a pintX battery box since a quick loo</p>]]></description>
+      <content:encoded><![CDATA[<p>Apologies for reviving an old thread. I’m looking in to doing the same thing as you and have a couple questions since I’m fairly new to OneWheel / VESC.</p>&#10;<p>I have a Pint that I plan to install the Pint V drop-in kit into. Eventually, I want to upgrade the battery to the PintX battery. I’m reading in other forums that the PintX battery doesn’t fit into the Pint’s battery housing(?).</p>&#10;<p>From what you’ve said, it sounds like you didn’t have any issues with the PintX battery fitting by just upgrading to pint x bumpers? I would love to avoid the hassle of looking for a pintX battery box since a quick look around me has not been successful.</p>]]></content:encoded>
+
+
+      <dc:creator>@WuTang</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
     <item>
       <title><![CDATA[VESC based Controllers WIKI]]></title>
       <link>https://pev.dev/t/vesc-based-controllers-wiki/605#post_7</link>
