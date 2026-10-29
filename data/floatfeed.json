@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T12:34:43.631Z",
+  "generatedAt": "2026-10-29T18:29:56.565Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 301,
@@ -134,7 +134,7 @@
       "title": "onewheel Reddit Alert (Relevance search)",
       "displayName": "onewheel Reddit Alert (Relevance search)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/search/?q=onewheel&type=link&sort=relevance",
+      "siteUrl": "https://www.reddit.com/search?q=onewheel&sort=relevance&type=link",
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "deck": "community",
       "kind": "social",
@@ -143,13 +143,13 @@
       "articleCount": 43,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "auth_or_robots_block",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "popular-topics-li2s6i",
@@ -14148,7 +14148,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "uc98qe-1joxsrd",
+      "id": "uc98qe-1k6th9l",
       "title": "Onewheel team's Antic e-bike can pop eternal wheelies - Engadget",
       "description": "Onewheel team's Antic e-bike can pop eternal wheelies engadget.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5\" target=\"_blank\">Onewheel team's Antic e-bike can pop eternal wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
@@ -14157,17 +14157,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -20603,6 +20603,28 @@
       "mergedItemCount": 2
     },
     {
+      "id": "1tx86ja-1k6th9l",
+      "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - PR Newswire",
+      "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire prnewswire.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5",
+      "publishedAt": "2024-09-05T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "1485oh4-1joxsrd",
       "title": "Midwest Onewheel: A Thrilling Ride through Wisconsin - Wisconsin Life",
       "description": "Midwest Onewheel: A Thrilling Ride through Wisconsin wisconsinlife.org",
@@ -20622,28 +20644,6 @@
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1tx86ja-1k6th9l",
-      "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - PR Newswire",
-      "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire prnewswire.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5",
-      "publishedAt": "2024-09-05T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -21090,7 +21090,7 @@
       "embedHeightFetchedAt": "2026-10-26T22:49:47.404Z"
     },
     {
-      "id": "larj94-1joxsrd",
+      "id": "larj94-1k6th9l",
       "title": "Onewheel electric skateboard recall: What you need to know - The Manual",
       "description": "Every Onewheel electric skateboard is being recalled (find out who just needs an update and who should ditch their board) The Manual",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5\" target=\"_blank\">Every Onewheel electric skateboard is being recalled (find out who just needs an update and who should ditch their board)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Manual</font>",
@@ -21099,17 +21099,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -21203,7 +21203,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1htjkpt-1joxsrd",
+      "id": "1htjkpt-1k6th9l",
       "title": "Industry rebel Onewheel launches a premium off-road electric board - Electrek",
       "description": "Industry rebel Onewheel launches a premium off-road electric board electrek.co",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQcFZMMURXY2VlUy1ZeDNmcnBWdUZIZzFScWtUR20xbFQweTY1bjdEekxodmJRUm1KMjB1UEtRZXV6Yk9fZExpdmUxcW9iT0dMX29PM01GUkVPMDlqdkhKVk9BaVlhNU52a1VZSkZFVG1KdE5iMFA1T3VRQldmajduWThZY3haWnhEdDJHWEtMX2dCdUtYemduR3VSQWVyYnc?oc=5\" target=\"_blank\">Industry rebel Onewheel launches a premium off-road electric board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
@@ -21212,17 +21212,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -25410,7 +25410,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "i89pfl-1joxsrd",
+      "id": "i89pfl-1k6th9l",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5\" target=\"_blank\">What Happed With the Onewheel Recall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">riderguide.com</font>",
@@ -25419,17 +25419,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -25503,30 +25503,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "dkvj2t-1k6th9l",
-      "title": "All Onewheel e-skateboards recalled worldwide after four deaths - BBC",
-      "description": "All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5\" target=\"_blank\">All Onewheel e-skateboards recalled worldwide after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bbc.co.uk</font>",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1ZmZOU2ZhV1Vla0pwXzg2TW1HSDVnSEQ0X0N0YWdJMF9rcU5FazdOX2NBb3RiVWE4ejY4WWVZdDVRY0taTVNVNGdmZ2ZWbGkyTmd5QVpwQQ?oc=5",
-      "publishedAt": "2023-10-03T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 4
-    },
-    {
       "id": "1wowj0n-1k6th9l",
       "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
       "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
@@ -25546,6 +25522,30 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "r6x2tg-1k6th9l",
+      "title": "All Onewheel e-skateboards recalled worldwide after four deaths - BBC",
+      "description": "All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5\" target=\"_blank\">All Onewheel e-skateboards recalled worldwide after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bbc.co.uk</font>",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5",
+      "publishedAt": "2023-10-03T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 4
     },
     {
       "id": "1w36n5e-1joxsrd",
@@ -25707,6 +25707,51 @@
       "mergedItemCount": 2
     },
     {
+      "id": "1pzkrxv-1k6th9l",
+      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
+      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1qjtm5r-1k6th9l",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "qkagye-1joxsrd",
       "title": "Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported - Spectrum News",
       "description": "Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported spectrumlocalnews.com",
@@ -25799,51 +25844,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "1pzkrxv-1joxsrd",
-      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
-      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1qjtm5r-1k6th9l",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "1wlgib8-1joxsrd",
@@ -26143,6 +26143,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1he8fki-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
+      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "624tc3-1joxsrd",
       "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - KFYR-TV",
       "description": "Onewheel electric skateboards recalled after multiple reports of death, injury kfyrtv.com",
@@ -26231,29 +26254,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1he8fki-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
-      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "d4l0s0-1joxsrd",
       "title": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards - SILive.com",
       "description": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards SILive.com",
@@ -26301,6 +26301,30 @@
       "embedHeightFetchedAt": "2026-09-17T18:47:11.271Z"
     },
     {
+      "id": "fo439r-1k6th9l",
+      "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York",
+      "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5\" target=\"_blank\">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Eyewitness News</font>",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5",
+      "publishedAt": "2023-09-30T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "18a4tc9-1k6th9l",
       "title": "All Onewheel e-skateboards are recalled after reported deaths - NPR",
       "description": "All Onewheel e-skateboards are recalled after reported deaths npr.org",
@@ -26321,30 +26345,6 @@
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "fo439r-1k6th9l",
-      "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York",
-      "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5\" target=\"_blank\">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Eyewitness News</font>",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5",
-      "publishedAt": "2023-09-30T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -29035,6 +29035,27 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1tw6iub-1k6th9l",
+      "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald",
+      "description": "Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5\" target=\"_blank\">Federal regulator issues warning for Santa Cruz-based Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">montereyherald.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5",
+      "publishedAt": "2022-11-18T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "qztwll-1joxsrd",
       "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL News",
       "description": "How hard is it to ride a Onewheel? And are they safe for kids? KSL News",
@@ -29056,27 +29077,6 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "1tw6iub-1k6th9l",
-      "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald",
-      "description": "Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5\" target=\"_blank\">Federal regulator issues warning for Santa Cruz-based Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">montereyherald.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5",
-      "publishedAt": "2022-11-18T08:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "1cu4ic6-1k6th9l",
@@ -29101,7 +29101,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1u4hvfh-1joxsrd",
+      "id": "1u4hvfh-1k6th9l",
       "title": "Onewheel skateboards linked to 4 deaths, feds say - CBS News",
       "description": "Onewheel skateboards linked to 4 deaths, feds say cbsnews.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Y9IBgAFBVV95cUxNdFJ5Z214d1M1bkxqX0pybTJPaHZ6dWNZNDUtNks3M3p0bzF3WHltWGktbHhZTXNOdjVfRTVXVGJYNllZN1FfaHZleGpqQ1Z0eU1lLTlUcVF2YUpfWWZ5em1IOV81Y1hDdFJjZVNyYllkM2tQdG84amlteC1jNndmZg?oc=5\" target=\"_blank\">Onewheel skateboards linked to 4 deaths, feds say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cbsnews.com</font>",
@@ -29110,17 +29110,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -29806,7 +29806,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1l16yld-1joxsrd",
+      "id": "1l16yld-1k6th9l",
       "title": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off - ClassAction.org",
       "description": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off ClassAction.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5\" target=\"_blank\">Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ClassAction.org</font>",
@@ -29815,17 +29815,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -30026,7 +30026,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1fsa6f4-1joxsrd",
+      "id": "1fsa6f4-1k6th9l",
       "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - GearJunkie",
       "description": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5\" target=\"_blank\">Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
@@ -30035,17 +30035,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -31496,11 +31496,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1auyj4f-1k6th9l",
-      "title": "Onewheel GT is Future Motion's first three-horsepower electric board - Engadget",
-      "description": "Onewheel GT is Future Motion's first three-horsepower electric board engadget.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5\" target=\"_blank\">Onewheel GT is Future Motion's first three-horsepower electric board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5",
+      "id": "vm13z0-1k6th9l",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
+      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -31520,11 +31520,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "g7fh15-1k6th9l",
-      "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
-      "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5\" target=\"_blank\">Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5",
+      "id": "1auyj4f-1k6th9l",
+      "title": "Onewheel GT is Future Motion's first three-horsepower electric board - Engadget",
+      "description": "Onewheel GT is Future Motion's first three-horsepower electric board engadget.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5\" target=\"_blank\">Onewheel GT is Future Motion's first three-horsepower electric board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53WElmd0x2eloyWHgtdWdNc0Rra29BaTA1MVFrcWs3T0VsMnJfT2tkX0xySDJuTndzTFhQVWFtZk9iNXRCMWR6VUdDeGdxZGM5LXlGY2NrUDY3RG5CSGZLUWN2MDU4akdZRjJ2SFY3SHI0TExDdkJlNkhCVUw?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -31536,51 +31536,7 @@
       "deck": "news",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
-    },
-    {
-      "id": "vm13z0-1joxsrd",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
-      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "180228f-1joxsrd",
-      "title": "Onewheel’s latest self-balancing electric boards get huge performance boosts - CNET",
-      "description": "Onewheel’s latest self-balancing electric boards get huge performance boosts CNET",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5\" target=\"_blank\">Onewheel’s latest self-balancing electric boards get huge performance boosts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNET</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
@@ -31608,6 +31564,50 @@
         "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 4
+    },
+    {
+      "id": "g7fh15-1k6th9l",
+      "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
+      "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5\" target=\"_blank\">Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
+      "id": "180228f-1joxsrd",
+      "title": "Onewheel’s latest self-balancing electric boards get huge performance boosts - CNET",
+      "description": "Onewheel’s latest self-balancing electric boards get huge performance boosts CNET",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5\" target=\"_blank\">Onewheel’s latest self-balancing electric boards get huge performance boosts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNET</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "1uz8msw-1tth00z",
