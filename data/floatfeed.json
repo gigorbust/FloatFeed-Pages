@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T00:50:09.332Z",
+  "generatedAt": "2026-10-29T06:37:25.621Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 301,
@@ -354,7 +354,7 @@
       "title": "Reddit r/onewheel (top) (Top)",
       "displayName": "Reddit r/onewheel (top) (Top)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/onewheel/top/?t=day",
+      "siteUrl": "https://www.reddit.com/r/onewheel/top?t=day",
       "feedUrl": "https://www.reddit.com/r/onewheel/top/.rss?t=day",
       "deck": "community",
       "kind": "social",
@@ -363,13 +363,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "r-onewheel-fl-yt2esa",
@@ -1023,13 +1023,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
+        "endpoint": "empty_feed",
         "ingestion": "succeeded",
         "cache": "not_used",
-        "content": "nonempty",
+        "content": "empty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "ok_empty"
     },
     {
       "id": "east-ride-de-1mh6j40",
@@ -1187,8 +1187,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1199,18 +1199,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement",
+      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1221,13 +1221,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1287,13 +1287,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -1419,7 +1419,7 @@
       "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1429,8 +1429,8 @@
     },
     {
       "id": "1woman1wheel-1m2cc80",
-      "title": "1woman1wheel",
-      "displayName": "1woman1wheel",
+      "title": "1woman1wheel (YouTube)",
+      "displayName": "1woman1wheel (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCsw3YG-fXvvI6D6jgcJkhaw",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsw3YG-fXvvI6D6jgcJkhaw",
@@ -1451,8 +1451,8 @@
     },
     {
       "id": "alex-lepoutre-14abvcu",
-      "title": "Alex Lepoutre",
-      "displayName": "Alex Lepoutre",
+      "title": "Alex Lepoutre (YouTube)",
+      "displayName": "Alex Lepoutre (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UC8E5vX67VGsAdv0dmWgbpzw",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC8E5vX67VGsAdv0dmWgbpzw",
@@ -1529,7 +1529,7 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1551,7 +1551,7 @@
       "articleCount": 6,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1661,13 +1661,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "duckbillwill-1ssgiy3",
@@ -1705,13 +1705,13 @@
       "articleCount": 2,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "fatdaddy-13rphsq",
@@ -1749,13 +1749,13 @@
       "articleCount": 13,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "flightfins-1uyzyyl",
@@ -1781,8 +1781,8 @@
     },
     {
       "id": "float-addicts-10ohrpj",
-      "title": "Float Addicts",
-      "displayName": "Float Addicts",
+      "title": "Float Addicts (YouTube)",
+      "displayName": "Float Addicts (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCNiKK7zXx76ugiFYQhsHZww",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww",
@@ -1793,7 +1793,7 @@
       "articleCount": 6,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1859,7 +1859,7 @@
       "articleCount": 16,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1881,7 +1881,7 @@
       "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1913,8 +1913,8 @@
     },
     {
       "id": "ict-onewheelbros-i044b1",
-      "title": "ict_onewheelbros",
-      "displayName": "ict_onewheelbros",
+      "title": "ict_onewheelbros (YouTube)",
+      "displayName": "ict_onewheelbros (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCKIuJibSevxeoooHSaGXHAg",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKIuJibSevxeoooHSaGXHAg",
@@ -2343,7 +2343,7 @@
       "articleCount": 5,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2353,8 +2353,8 @@
     },
     {
       "id": "retiredandtripn-1o6xz79",
-      "title": "Retiredandtripn",
-      "displayName": "Retiredandtripn",
+      "title": "Retiredandtripn (YouTube)",
+      "displayName": "Retiredandtripn (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCg8RS6WXVg_IVj58sZ820hg",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCg8RS6WXVg_IVj58sZ820hg",
@@ -2375,8 +2375,8 @@
     },
     {
       "id": "richard-kohberger-1tgsqyn",
-      "title": "Richard Kohberger",
-      "displayName": "Richard Kohberger",
+      "title": "Richard Kohberger (YouTube)",
+      "displayName": "Richard Kohberger (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCeNgrosbwD17C3yrB9-BAEA",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCeNgrosbwD17C3yrB9-BAEA",
@@ -2409,7 +2409,7 @@
       "articleCount": 11,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2463,8 +2463,8 @@
     },
     {
       "id": "thatsginterev-1h4uiux",
-      "title": "ThatsGinterEV",
-      "displayName": "ThatsGinterEV",
+      "title": "ThatsGinterEV (YouTube)",
+      "displayName": "ThatsGinterEV (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCtvHyYTLXA0tayyZzdjJyIQ",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtvHyYTLXA0tayyZzdjJyIQ",
@@ -2673,7 +2673,7 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2856,7 +2856,7 @@
       "duplicateSourceIds": [
         "pev-dev-latest-posts-1cj89fa"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "jhvn5e-1tmrdpk",
@@ -2877,9 +2877,9 @@
       "duplicateSourceIds": [
         "top-posts-on-r-onewheel-11sf722"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-10-29T00:50:09.246Z"
     },
     {
@@ -4176,7 +4176,7 @@
       "videoId": "UrlXNTPkBqc",
       "image": "https://i2.ytimg.com/vi/UrlXNTPkBqc/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -4385,7 +4385,7 @@
       "videoId": "vxseYkmsEpE",
       "image": "https://i3.ytimg.com/vi/vxseYkmsEpE/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -5138,7 +5138,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -5269,7 +5271,7 @@
       "videoId": "-7E93k3aLns",
       "image": "https://i2.ytimg.com/vi/-7E93k3aLns/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -6798,10 +6800,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.445Z"
@@ -6824,10 +6827,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.559Z"
@@ -6850,10 +6854,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.456Z"
@@ -6876,10 +6881,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.506Z"
@@ -6902,10 +6908,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.499Z"
@@ -6921,7 +6928,7 @@
       "videoId": "h7ZOF09vatU",
       "image": "https://i1.ytimg.com/vi/h7ZOF09vatU/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -6970,10 +6977,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.511Z"
@@ -6996,10 +7004,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.550Z"
@@ -7022,10 +7031,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.566Z"
@@ -7048,10 +7058,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.577Z"
@@ -7074,10 +7085,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.609Z"
@@ -7100,10 +7112,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.619Z"
@@ -7151,10 +7164,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.724Z"
@@ -7227,10 +7241,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.671Z"
@@ -7253,10 +7268,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.775Z"
@@ -7303,10 +7319,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.790Z"
@@ -7329,10 +7346,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.787Z"
@@ -7355,10 +7373,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.914Z"
@@ -7381,10 +7400,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.927Z"
@@ -7407,10 +7427,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.840Z"
@@ -7433,10 +7454,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.854Z"
@@ -7459,10 +7481,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.893Z"
@@ -7485,10 +7508,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.909Z"
@@ -7556,10 +7580,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.974Z"
@@ -7582,10 +7607,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.971Z"
@@ -7608,10 +7634,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.992Z"
@@ -7676,10 +7703,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.003Z"
@@ -7747,10 +7775,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.132Z"
@@ -7773,10 +7802,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.054Z"
@@ -7799,10 +7829,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.158Z"
@@ -7846,10 +7877,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.183Z"
@@ -7872,6 +7904,7 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6",
         "reddit-r-floatwheelteam-1wdrxpi"
@@ -7941,10 +7974,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.235Z"
@@ -7967,10 +8001,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.258Z"
@@ -7993,10 +8028,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.289Z"
@@ -8019,10 +8055,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.375Z"
@@ -8045,10 +8082,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.296Z"
@@ -8071,10 +8109,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.405Z"
@@ -8121,10 +8160,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.354Z"
@@ -8147,10 +8187,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.509Z"
@@ -8173,10 +8214,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.420Z"
@@ -8244,10 +8286,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.562Z"
@@ -8270,10 +8313,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.480Z"
@@ -8296,10 +8340,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.490Z"
@@ -8343,10 +8388,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.601Z"
@@ -8393,10 +8439,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.561Z"
@@ -8419,10 +8466,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.666Z"
@@ -8445,10 +8493,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.666Z"
@@ -8471,10 +8520,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.682Z"
@@ -8497,10 +8547,11 @@
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
         "reddit-r-onewheel-latest-1hks7dv",
+        "onewheel-reddit-ezjdl6",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
-      "mergedItemCount": 3,
+      "mergedItemCount": 4,
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:09.689Z"
@@ -8603,7 +8654,7 @@
       "videoId": "ij7n0aPMTLc",
       "image": "https://i2.ytimg.com/vi/ij7n0aPMTLc/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -10300,7 +10351,7 @@
       "videoId": "JS2N2e5UQAo",
       "image": "https://i3.ytimg.com/vi/JS2N2e5UQAo/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -10758,7 +10809,7 @@
       "videoId": "qCFDV17Kz1I",
       "image": "https://i2.ytimg.com/vi/qCFDV17Kz1I/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11486,7 +11537,7 @@
       "videoId": "XHtd0_XwMY4",
       "image": "https://i1.ytimg.com/vi/XHtd0_XwMY4/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11709,7 +11760,7 @@
       "videoId": "MZLDe8TX31A",
       "image": "https://i2.ytimg.com/vi/MZLDe8TX31A/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11928,7 +11979,7 @@
       "videoId": "-OKPg7U02i0",
       "image": "https://i2.ytimg.com/vi/-OKPg7U02i0/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -11949,7 +12000,7 @@
       "videoId": "TL_lkK_cUmE",
       "image": "https://i1.ytimg.com/vi/TL_lkK_cUmE/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12016,7 +12067,7 @@
       "videoId": "WW5_IZSAIdU",
       "image": "https://i4.ytimg.com/vi/WW5_IZSAIdU/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12260,7 +12311,7 @@
       "videoId": "UdJTt136VFU",
       "image": "https://i2.ytimg.com/vi/UdJTt136VFU/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12350,7 +12401,7 @@
       "videoId": "8A2J8XmrSdU",
       "image": "https://i1.ytimg.com/vi/8A2J8XmrSdU/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12461,7 +12512,7 @@
       "videoId": "rdK4EjvIqmI",
       "image": "https://i3.ytimg.com/vi/rdK4EjvIqmI/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -12971,7 +13022,7 @@
       "videoId": "JBtmC-9gavg",
       "image": "https://i3.ytimg.com/vi/JBtmC-9gavg/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13180,7 +13231,7 @@
       "videoId": "zKo9I-LTOrs",
       "image": "https://i3.ytimg.com/vi/zKo9I-LTOrs/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13319,7 +13370,7 @@
       "videoId": "8nzggzK2qPw",
       "image": "https://i1.ytimg.com/vi/8nzggzK2qPw/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13527,7 +13578,7 @@
       "videoId": "9HTrEJ9RRNc",
       "image": "https://i2.ytimg.com/vi/9HTrEJ9RRNc/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13801,7 +13852,7 @@
       "videoId": "mP0s-8VvT8o",
       "image": "https://i2.ytimg.com/vi/mP0s-8VvT8o/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13864,7 +13915,7 @@
       "videoId": "i_S1K7W-tak",
       "image": "https://i2.ytimg.com/vi/i_S1K7W-tak/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13954,7 +14005,7 @@
       "videoId": "gTRQqAH-fsk",
       "image": "https://i4.ytimg.com/vi/gTRQqAH-fsk/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -13982,7 +14033,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -14062,7 +14115,7 @@
       "videoId": "GVynpz5aGH0",
       "image": "https://i4.ytimg.com/vi/GVynpz5aGH0/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14144,7 +14197,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "uc98qe-1k6th9l",
+      "id": "uc98qe-1joxsrd",
       "title": "Onewheel team's Antic e-bike can pop eternal wheelies - Engadget",
       "description": "Onewheel team's Antic e-bike can pop eternal wheelies engadget.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5\" target=\"_blank\">Onewheel team's Antic e-bike can pop eternal wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
@@ -14153,17 +14206,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -14341,7 +14394,7 @@
       "videoId": "Cm24Jml370I",
       "image": "https://i4.ytimg.com/vi/Cm24Jml370I/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14410,7 +14463,7 @@
       "videoId": "OhNqGpPL5Vg",
       "image": "https://i4.ytimg.com/vi/OhNqGpPL5Vg/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14701,7 +14754,7 @@
       "videoId": "rHR6ZgQazTo",
       "image": "https://i3.ytimg.com/vi/rHR6ZgQazTo/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14722,7 +14775,7 @@
       "videoId": "i2CZ0DyFCBk",
       "image": "https://i2.ytimg.com/vi/i2CZ0DyFCBk/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14767,7 +14820,7 @@
       "videoId": "57gJJfVpTUA",
       "image": "https://i2.ytimg.com/vi/57gJJfVpTUA/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14788,7 +14841,7 @@
       "videoId": "jINqs9xd5ug",
       "image": "https://i3.ytimg.com/vi/jINqs9xd5ug/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14877,7 +14930,7 @@
       "videoId": "twXMOHNIRJY",
       "image": "https://i1.ytimg.com/vi/twXMOHNIRJY/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -14912,11 +14965,11 @@
       "embedHeightFetchedAt": "2026-09-17T18:47:10.953Z"
     },
     {
-      "id": "1fd221x-1joxsrd",
+      "id": "11gyuv-1joxsrd",
       "title": "Hawaii teen becomes fastest racer on Onewheel - Hawaii News Now",
       "description": "Hawaii teen becomes fastest racer on Onewheel hawaiinewsnow.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5\" target=\"_blank\">Hawaii teen becomes fastest racer on Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hawaiinewsnow.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcldvRThhZnhvZ3RIanpaV3BOMmsxel9BQ0lKTjR0bklGMFdOWVZMS2dfN20tRVR6bGd6bmNwSWJNR24xeHNaWEIzS3UtOHlhbDluYjhTdXAwRG9WSU14NHFQMlRMb21GRDBRQk1PRWgyMGhpMk5wSW9YSGxBWG42SmFhOFRXR0ktUk5FV9IBoAFBVV95cUxNUmJyb2Eydk8tSF9tYlg5dmlUdjIyVm9tM25wV21MaHJZbnRuV0xfcFNOMkNNUTB6d3lOZnVfa24yUTJORU80MjZXT1h3LVJhbUlaQm9CZkRCalVjQW02MUgwdFk1dWhvZ3NSU2w2OGtVLUNQNGdqUWJIQU53MGtTcmg5NFZEQ0lEMHdaWkRXeWZ5cm1MYVhMa1N0N2hxT2h6?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWQ1NnRxU2w1Wm9UMGlhVlNGMk9sdldvNkRHWHNCUG9Yb3BhVW1rS0NNSzZqNWZjTERmUjRRd196TG1DT0xlOG1uN1hhVk1LLVN0UGliQjcyaXBDeW5rWlY3VksyTGg1UDdZRERDQm1wNk5KV2k1ZDNHTF9lX3kwWWpXWDRPNzFiRThmREVmQ0FhSkVi?oc=5",
       "publishedAt": "2025-09-03T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -14945,7 +14998,7 @@
       "videoId": "tIXBZkPhmTg",
       "image": "https://i1.ytimg.com/vi/tIXBZkPhmTg/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15011,7 +15064,7 @@
       "videoId": "9kEhIRkoqhw",
       "image": "https://i2.ytimg.com/vi/9kEhIRkoqhw/hqdefault.jpg",
       "sourceId": "alex-lepoutre-14abvcu",
-      "source": "Alex Lepoutre",
+      "source": "Alex Lepoutre (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15374,9 +15427,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -15482,7 +15533,7 @@
       "videoId": "9XKRTotJYZQ",
       "image": "https://i2.ytimg.com/vi/9XKRTotJYZQ/hqdefault.jpg",
       "sourceId": "thatsginterev-1h4uiux",
-      "source": "ThatsGinterEV",
+      "source": "ThatsGinterEV (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15503,7 +15554,7 @@
       "videoId": "V3qIZh1hAPs",
       "image": "https://i3.ytimg.com/vi/V3qIZh1hAPs/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15702,7 +15753,7 @@
       "videoId": "SOTXqVaq0HU",
       "image": "https://i4.ytimg.com/vi/SOTXqVaq0HU/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15768,7 +15819,7 @@
       "videoId": "Bl6XOI6xjwk",
       "image": "https://i3.ytimg.com/vi/Bl6XOI6xjwk/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15952,7 +16003,7 @@
       "videoId": "nBBKSiy2kZw",
       "image": "https://i3.ytimg.com/vi/nBBKSiy2kZw/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -15980,7 +16031,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -16018,7 +16069,7 @@
       "videoId": "6-37xDRVocQ",
       "image": "https://i3.ytimg.com/vi/6-37xDRVocQ/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -16081,7 +16132,7 @@
       "videoId": "HJT_frZaQ0o",
       "image": "https://i1.ytimg.com/vi/HJT_frZaQ0o/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -16232,7 +16283,7 @@
       "videoId": "bJCxclyJVs0",
       "image": "https://i3.ytimg.com/vi/bJCxclyJVs0/hqdefault.jpg",
       "sourceId": "ict-onewheelbros-i044b1",
-      "source": "ict_onewheelbros",
+      "source": "ict_onewheelbros (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -16512,7 +16563,7 @@
       "videoId": "b6qzNns6BOs",
       "image": "https://i3.ytimg.com/vi/b6qzNns6BOs/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -16980,7 +17031,7 @@
       "videoId": "gg5q6GsLGpc",
       "image": "https://i4.ytimg.com/vi/gg5q6GsLGpc/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -17663,7 +17714,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -17671,9 +17722,7 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
-        "the-sideways-movement-1031nqx"
+        "the-sideways-movement-4mideq"
       ],
       "mergedItemCount": 3
     },
@@ -18450,7 +18499,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -19058,9 +19107,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -20030,7 +20077,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -20603,28 +20650,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1tx86ja-1k6th9l",
-      "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - PR Newswire",
-      "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire prnewswire.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5",
-      "publishedAt": "2024-09-05T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "1485oh4-1joxsrd",
       "title": "Midwest Onewheel: A Thrilling Ride through Wisconsin - Wisconsin Life",
       "description": "Midwest Onewheel: A Thrilling Ride through Wisconsin wisconsinlife.org",
@@ -20644,6 +20669,28 @@
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1tx86ja-1k6th9l",
+      "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - PR Newswire",
+      "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire prnewswire.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNSUFjMHRnNEttUy1wSlVCOU1LTHo0TkFPWkRmRU1ZN3pmUmtCUlVVSGdVWlc4Y04yUk9GT0ZMQ3l4c0RtRk9lWUxOcTFmMGhWSF9acjZvcnlueGlwVnRjNzNOakNMazR5eW04WVFoaEl1X0FBQTdJaTRnQU9yMUtnVmVQZW9SaHZFQlF0bnNQLTJLTk5oVDhqOUlDcVRpRFZIVWkzeGdoMDJ5UlZhX2FycHRjcHI0dXhxcFl6QnhUcmxFV2VrVHNWTUdETC14QUd2Y2VOUWN0UkNsM0tLN0lLM1J6czV0YThQNXNieEdYd1FYM2tPMkNwdS1mSGJhNHRPU2Nn?oc=5",
+      "publishedAt": "2024-09-05T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -21090,7 +21137,7 @@
       "embedHeightFetchedAt": "2026-10-26T22:49:47.404Z"
     },
     {
-      "id": "larj94-1k6th9l",
+      "id": "larj94-1joxsrd",
       "title": "Onewheel electric skateboard recall: What you need to know - The Manual",
       "description": "Every Onewheel electric skateboard is being recalled (find out who just needs an update and who should ditch their board) The Manual",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5\" target=\"_blank\">Every Onewheel electric skateboard is being recalled (find out who just needs an update and who should ditch their board)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Manual</font>",
@@ -21099,17 +21146,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -21203,7 +21250,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1htjkpt-1k6th9l",
+      "id": "1htjkpt-1joxsrd",
       "title": "Industry rebel Onewheel launches a premium off-road electric board - Electrek",
       "description": "Industry rebel Onewheel launches a premium off-road electric board electrek.co",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQcFZMMURXY2VlUy1ZeDNmcnBWdUZIZzFScWtUR20xbFQweTY1bjdEekxodmJRUm1KMjB1UEtRZXV6Yk9fZExpdmUxcW9iT0dMX29PM01GUkVPMDlqdkhKVk9BaVlhNU52a1VZSkZFVG1KdE5iMFA1T3VRQldmajduWThZY3haWnhEdDJHWEtMX2dCdUtYemduR3VSQWVyYnc?oc=5\" target=\"_blank\">Industry rebel Onewheel launches a premium off-road electric board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
@@ -21212,17 +21259,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -22251,7 +22298,7 @@
       "videoId": "Wq0HYvFF8oQ",
       "image": "https://i4.ytimg.com/vi/Wq0HYvFF8oQ/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -24948,7 +24995,7 @@
       "videoId": "ZH8Usw1KO6c",
       "image": "https://i3.ytimg.com/vi/ZH8Usw1KO6c/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -25410,7 +25457,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "i89pfl-1k6th9l",
+      "id": "i89pfl-1joxsrd",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5\" target=\"_blank\">What Happed With the Onewheel Recall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">riderguide.com</font>",
@@ -25419,17 +25466,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -25503,6 +25550,30 @@
       "mergedItemCount": 3
     },
     {
+      "id": "dkvj2t-1k6th9l",
+      "title": "All Onewheel e-skateboards recalled worldwide after four deaths - BBC",
+      "description": "All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5\" target=\"_blank\">All Onewheel e-skateboards recalled worldwide after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bbc.co.uk</font>",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1ZmZOU2ZhV1Vla0pwXzg2TW1HSDVnSEQ0X0N0YWdJMF9rcU5FazdOX2NBb3RiVWE4ejY4WWVZdDVRY0taTVNVNGdmZ2ZWbGkyTmd5QVpwQQ?oc=5",
+      "publishedAt": "2023-10-03T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "1wowj0n-1k6th9l",
       "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
       "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
@@ -25522,30 +25593,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
-    },
-    {
-      "id": "r6x2tg-1k6th9l",
-      "title": "All Onewheel e-skateboards recalled worldwide after four deaths - BBC",
-      "description": "All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5\" target=\"_blank\">All Onewheel e-skateboards recalled worldwide after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bbc.co.uk</font>",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5",
-      "publishedAt": "2023-10-03T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 4
     },
     {
       "id": "1w36n5e-1joxsrd",
@@ -25679,7 +25726,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -25703,74 +25752,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
-    },
-    {
-      "id": "1pzkrxv-1k6th9l",
-      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
-      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1qjtm5r-1k6th9l",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
-    },
-    {
-      "id": "1wlgib8-1joxsrd",
-      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
-      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "qkagye-1joxsrd",
@@ -25844,7 +25825,7 @@
     },
     {
       "id": "mit9n4-1joxsrd",
-      "title": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported - NBC4 Los Angeles",
+      "title": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported - NBC Los Angeles",
       "description": "All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported nbclosangeles.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5\" target=\"_blank\">All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbclosangeles.com</font>",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5",
@@ -25865,6 +25846,74 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
+    },
+    {
+      "id": "1pzkrxv-1joxsrd",
+      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
+      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1qjtm5r-1k6th9l",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
+      "id": "1wlgib8-1joxsrd",
+      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
+      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "165d1hz-1joxsrd",
@@ -26071,6 +26120,30 @@
       "mergedItemCount": 3
     },
     {
+      "id": "l9uvac-1joxsrd",
+      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
+      "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "1v6lmtn-1joxsrd",
       "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business",
       "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com",
@@ -26115,30 +26188,6 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "l9uvac-1joxsrd",
-      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
-      "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 4
     },
     {
       "id": "624tc3-1joxsrd",
@@ -26299,30 +26348,6 @@
       "embedHeightFetchedAt": "2026-09-17T18:47:11.271Z"
     },
     {
-      "id": "fo439r-1k6th9l",
-      "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York",
-      "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5\" target=\"_blank\">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Eyewitness News</font>",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5",
-      "publishedAt": "2023-09-30T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "18a4tc9-1k6th9l",
       "title": "All Onewheel e-skateboards are recalled after reported deaths - NPR",
       "description": "All Onewheel e-skateboards are recalled after reported deaths npr.org",
@@ -26343,6 +26368,30 @@
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "fo439r-1k6th9l",
+      "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York",
+      "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5\" target=\"_blank\">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Eyewitness News</font>",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5",
+      "publishedAt": "2023-09-30T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -26472,7 +26521,7 @@
       "videoId": "4zvP1POoAls",
       "image": "https://i1.ytimg.com/vi/4zvP1POoAls/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -26668,7 +26717,7 @@
       "videoId": "ZDs1UrI9gQA",
       "image": "https://i3.ytimg.com/vi/ZDs1UrI9gQA/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -26731,7 +26780,7 @@
       "videoId": "-oCSUZJCxds",
       "image": "https://i2.ytimg.com/vi/-oCSUZJCxds/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -26817,7 +26866,7 @@
       "videoId": "TVYnEm51h-8",
       "image": "https://i1.ytimg.com/vi/TVYnEm51h-8/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -27184,7 +27233,7 @@
       "videoId": "yP4QxiYOit4",
       "image": "https://i2.ytimg.com/vi/yP4QxiYOit4/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -28523,7 +28572,7 @@
       "videoId": "jVRhdkvXJ60",
       "image": "https://i3.ytimg.com/vi/jVRhdkvXJ60/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -28589,7 +28638,7 @@
       "videoId": "_ZsO5Ko8xkc",
       "image": "https://i4.ytimg.com/vi/_ZsO5Ko8xkc/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -28610,7 +28659,7 @@
       "videoId": "s6TwV57krko",
       "image": "https://i4.ytimg.com/vi/s6TwV57krko/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -28631,7 +28680,7 @@
       "videoId": "gWXyTCbWvKY",
       "image": "https://i4.ytimg.com/vi/gWXyTCbWvKY/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -28652,7 +28701,7 @@
       "videoId": "ygC4PycTvqg",
       "image": "https://i2.ytimg.com/vi/ygC4PycTvqg/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -28844,7 +28893,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -28956,7 +29005,7 @@
       "videoId": "t17afVkMlbA",
       "image": "https://i1.ytimg.com/vi/t17afVkMlbA/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -29026,30 +29075,11 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "1tw6iub-1k6th9l",
-      "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald",
-      "description": "Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5\" target=\"_blank\">Federal regulator issues warning for Santa Cruz-based Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">montereyherald.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5",
-      "publishedAt": "2022-11-18T08:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "qztwll-1joxsrd",
@@ -29075,6 +29105,27 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1tw6iub-1k6th9l",
+      "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald",
+      "description": "Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5\" target=\"_blank\">Federal regulator issues warning for Santa Cruz-based Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">montereyherald.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5",
+      "publishedAt": "2022-11-18T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "1cu4ic6-1k6th9l",
       "title": "Future Motion Refuses to Recall Onewheel Skateboards After Deaths - CNET",
       "description": "Future Motion Refuses to Recall Onewheel Skateboards After Deaths cnet.com",
@@ -29097,7 +29148,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1u4hvfh-1k6th9l",
+      "id": "1u4hvfh-1joxsrd",
       "title": "Onewheel skateboards linked to 4 deaths, feds say - CBS News",
       "description": "Onewheel skateboards linked to 4 deaths, feds say cbsnews.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Y9IBgAFBVV95cUxNdFJ5Z214d1M1bkxqX0pybTJPaHZ6dWNZNDUtNks3M3p0bzF3WHltWGktbHhZTXNOdjVfRTVXVGJYNllZN1FfaHZleGpqQ1Z0eU1lLTlUcVF2YUpfWWZ5em1IOV81Y1hDdFJjZVNyYllkM2tQdG84amlteC1jNndmZg?oc=5\" target=\"_blank\">Onewheel skateboards linked to 4 deaths, feds say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cbsnews.com</font>",
@@ -29106,17 +29157,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -29184,7 +29235,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -29414,7 +29467,7 @@
       "videoId": "FRtsjlzOeFw",
       "image": "https://i3.ytimg.com/vi/FRtsjlzOeFw/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -29544,7 +29597,7 @@
       "videoId": "M_Bi-2LeE7M",
       "image": "https://i2.ytimg.com/vi/M_Bi-2LeE7M/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -29800,7 +29853,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1l16yld-1k6th9l",
+      "id": "1l16yld-1joxsrd",
       "title": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off - ClassAction.org",
       "description": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off ClassAction.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5\" target=\"_blank\">Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ClassAction.org</font>",
@@ -29809,17 +29862,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -29841,9 +29894,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 4
     },
@@ -29925,7 +29976,7 @@
       "videoId": "-MPtoDwPfrU",
       "image": "https://i2.ytimg.com/vi/-MPtoDwPfrU/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -30022,7 +30073,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1fsa6f4-1k6th9l",
+      "id": "1fsa6f4-1joxsrd",
       "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - GearJunkie",
       "description": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5\" target=\"_blank\">Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
@@ -30031,17 +30082,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -30296,7 +30347,7 @@
       "videoId": "9efk8R6Avl8",
       "image": "https://i2.ytimg.com/vi/9efk8R6Avl8/hqdefault.jpg",
       "sourceId": "1woman1wheel-1m2cc80",
-      "source": "1woman1wheel",
+      "source": "1woman1wheel (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -30852,7 +30903,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -30916,7 +30967,7 @@
       "videoId": "9BLfBqdXJpo",
       "image": "https://i2.ytimg.com/vi/9BLfBqdXJpo/hqdefault.jpg",
       "sourceId": "richard-kohberger-1tgsqyn",
-      "source": "Richard Kohberger",
+      "source": "Richard Kohberger (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31260,7 +31311,7 @@
       "videoId": "NjDdR_gXjQA",
       "image": "https://i3.ytimg.com/vi/NjDdR_gXjQA/hqdefault.jpg",
       "sourceId": "richard-kohberger-1tgsqyn",
-      "source": "Richard Kohberger",
+      "source": "Richard Kohberger (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31327,7 +31378,7 @@
       "videoId": "zlBEa2Zkq0Y",
       "image": "https://i3.ytimg.com/vi/zlBEa2Zkq0Y/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31492,30 +31543,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "vm13z0-1k6th9l",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
-      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "1auyj4f-1k6th9l",
       "title": "Onewheel GT is Future Motion's first three-horsepower electric board - Engadget",
       "description": "Onewheel GT is Future Motion's first three-horsepower electric board engadget.com",
@@ -31540,30 +31567,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "13wsk49-1k6th9l",
-      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
-      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 4
-    },
-    {
       "id": "g7fh15-1k6th9l",
       "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
       "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
@@ -31583,6 +31586,30 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "vm13z0-1joxsrd",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
+      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "180228f-1joxsrd",
@@ -31608,6 +31635,28 @@
       "mergedItemCount": 3
     },
     {
+      "id": "13wsk49-1k6th9l",
+      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
+      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "1uz8msw-1tth00z",
       "title": "Fox Proframe Helmet",
       "description": "This video is an overview of the Fox Proframe Full Face helmet with Multi-Directional Impact Protection System (MIPS). I purchased the helmet used, but never worn. The helmet features plenty of vents and breathes well in the Florida heat. I purchased the Proframe because I had a bad crash while mountain biking and was pretty shook up. Wearing this helmet gave me the confidence to keep pushing myself while feeling safe and secure. I’ve had and have used this helmet for over a year and love it. I wear the Proframe as my off road OneWheel helmet as well as my mountain bike helmet for the jump line. *Ordinarily I would never buy a used helmet because you never know how hard its been dropped or conditions its been subjected to.* 🔴 Subscribe for more videos like this: https://www.youtube.com/channel/UCg8RS6WXVg_IVj58sZ820hg?sub_confimation=1 --------------------------------SOCIAL-------------------------------- • Instagram ➭ https://www.instagram.com/retired_and_tripn/ • Instagram ➭ https://www.instagram.com/crashcoursemtb/ --------------------------------GEAR-------------------------------- Newer Version of Fox Proframe ➭ https://amzn.to/3zZdiCW • GoPro 5 Session ➭ https://amzn.to/35RjdfC • GoPro 7 Black ➭ https://amzn.to/2UCAU0f FTC Legal Disclaimer - Some links found in the description box of my videos may be affiliate links, meaning I will make commission on sales you make through my link. This is at no extra cost to you to use my links/codes, it's just one more way to support me and my channel! Thank you. #foxproframe #retiredandtripn #ppereview",
@@ -31618,7 +31667,7 @@
       "videoId": "Z_FXlFRivFE",
       "image": "https://i3.ytimg.com/vi/Z_FXlFRivFE/hqdefault.jpg",
       "sourceId": "retiredandtripn-1o6xz79",
-      "source": "Retiredandtripn",
+      "source": "Retiredandtripn (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -31639,7 +31688,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32184,7 +32233,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32206,7 +32255,7 @@
       "videoId": "irpgIhnm_Jc",
       "image": "https://i2.ytimg.com/vi/irpgIhnm_Jc/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32269,7 +32318,7 @@
       "videoId": "aH0yjD_XKPY",
       "image": "https://i2.ytimg.com/vi/aH0yjD_XKPY/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32505,7 +32554,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32695,7 +32744,7 @@
       "videoId": "chmUusCOSsM",
       "image": "https://i4.ytimg.com/vi/chmUusCOSsM/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32716,7 +32765,7 @@
       "videoId": "aNZRsjPSqRc",
       "image": "https://i2.ytimg.com/vi/aNZRsjPSqRc/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32758,7 +32807,7 @@
       "videoId": "7yiEex4ZsbU",
       "image": "https://i4.ytimg.com/vi/7yiEex4ZsbU/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32779,7 +32828,7 @@
       "videoId": "iU2TeNw_puc",
       "image": "https://i2.ytimg.com/vi/iU2TeNw_puc/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -32800,7 +32849,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33143,7 +33192,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33228,7 +33277,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33355,7 +33404,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33447,7 +33496,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33703,7 +33752,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33711,8 +33760,7 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg",
-        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
+        "onewheel-tips-archives-the-sideways-movement-stokpg"
       ],
       "mergedItemCount": 3
     },
@@ -33727,7 +33775,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33816,7 +33864,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33903,7 +33951,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34015,7 +34063,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34037,7 +34085,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34105,7 +34153,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34163,6 +34211,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "qw1vnz-1joxsrd",
+      "title": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry - New Atlas",
+      "description": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry New Atlas",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5\" target=\"_blank\">Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Atlas</font>",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5",
+      "publishedAt": "2019-03-13T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "vgg1p6-1joxsrd",
       "title": "onewheel pint is a mini, portable one-wheeled skateboard for novices - Designboom",
       "description": "onewheel pint is a mini, portable one-wheeled skateboard for novices designboom.com",
@@ -34185,29 +34256,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "qw1vnz-1joxsrd",
-      "title": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry - New Atlas",
-      "description": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry New Atlas",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5\" target=\"_blank\">Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Atlas</font>",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5",
-      "publishedAt": "2019-03-13T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "1b9ksyh-1joxsrd",
@@ -34317,7 +34365,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
