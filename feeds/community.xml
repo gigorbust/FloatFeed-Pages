@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 30 Oct 2026 12:33:59 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 18:26:06 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Need help diagnosing dead Pint]]></title>
@@ -90,6 +90,18 @@
 
       <dc:creator>Franz</dc:creator>
       <source url="https://dev.to/feed">DEV Community (Site feed)</source>
+    </item>
+    <item>
+      <title><![CDATA[Need onewheel]]></title>
+      <link>https://www.reddit.com/r/onewheelpint/comments/1wuogu8/need_onewheel/</link>
+      <guid isPermaLink="false">ttrhw4-73w35x</guid>
+      <pubDate>Thu, 01 Oct 2026 03:00:50 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/Loranzo- [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/Loranzo-" target="_blank" rel="noopener noreferrer"> /u/Loranzo- </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/1wuo9q8/need_onewheel/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheelpint/comments/1wuogu8/need_onewheel/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/Loranzo-</dc:creator>
+      <source url="https://www.reddit.com/r/onewheelpint.rss?limit=100">Reddit r/onewheelpint</source>
     </item>
     <item>
       <title><![CDATA[XR Vesc upgrade worth it? And how would I go it]]></title>
