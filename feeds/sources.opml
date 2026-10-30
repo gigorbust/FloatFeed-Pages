@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Fri, 30 Oct 2026 00:51:12 GMT</dateCreated>
+    <dateCreated>Fri, 30 Oct 2026 06:37:04 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -58,8 +58,8 @@
       <outline text="Reddit r/Onewheel_FL (new)" title="Reddit r/Onewheel_FL (new)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_FL/new/.rss" htmlUrl="https://www.reddit.com/r/Onewheel_FL/new" />
       <outline text="Reddit r/OnewheelGT (top)" title="Reddit r/OnewheelGT (top)" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/OnewheelGT/top?t=day" />
       <outline text="Reddit r/wheel (top)" title="Reddit r/wheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/wheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/wheel/top?t=day" />
-      <outline text="Onewheel DIY Mods Archives - The Sideways Movement" title="Onewheel DIY Mods Archives - The Sideways Movement" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/" />
-      <outline text="Onewheel Tips Archives - The Sideways Movement" title="Onewheel Tips Archives - The Sideways Movement" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/" />
+      <outline text="Onewheel DIY Mods Archives - The Sideways Movement (Category)" title="Onewheel DIY Mods Archives - The Sideways Movement (Category)" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/" />
+      <outline text="Onewheel Tips Archives - The Sideways Movement (Category)" title="Onewheel Tips Archives - The Sideways Movement (Category)" type="rss" xmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/" htmlUrl="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/" />
     </outline>
     <outline text="feed | cached_fallback | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032" title="feed | cached_fallback | feed | portable_sources | ONEWHEEL FEED | list-1264927333211308032">
       <outline text="Reddit r/BaltimoreOnewheel" title="Reddit r/BaltimoreOnewheel" type="rss" xmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/.rss" htmlUrl="https://www.reddit.com/r/BaltimoreOnewheel/top?t=day" />
@@ -310,7 +310,7 @@
       <outline text="The Verge" title="The Verge" type="rss" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/" />
     </outline>
     <outline text="feed | ok_nonempty" title="feed | ok_nonempty">
-      <outline text="uneroo.fr" title="uneroo.fr" type="rss" xmlUrl="https://uneroo.fr/feed" htmlUrl="https://uneroo.fr/" />
+      <outline text="uneroo.fr" title="uneroo.fr" type="rss" xmlUrl="https://uneroo.fr/feed/" htmlUrl="https://uneroo.fr/" />
     </outline>
     <outline text="feed | inspect_components_before_use | feed | inspect_components_before_use | current Folo Onewheel thread | DEFAULT_FEED_SOURCES | current Folo Onewheel thread | DEFAULT_FEED_SOURCES" title="feed | inspect_components_before_use | feed | inspect_components_before_use | current Folo Onewheel thread | DEFAULT_FEED_SOURCES | current Folo Onewheel thread | DEFAULT_FEED_SOURCES">
       <outline text="zapier-onewheel-feed" title="zapier-onewheel-feed" type="rss" xmlUrl="https://zapier.com/engine/rss/946065/onewheel-feed" htmlUrl="https://zapier.com/" />
@@ -355,7 +355,7 @@
       <outline text="1woman1wheel (YouTube)" title="1woman1wheel (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsw3YG-fXvvI6D6jgcJkhaw" htmlUrl="https://www.youtube.com/channel/UCsw3YG-fXvvI6D6jgcJkhaw" />
       <outline text="Crashy Ride (YouTube)" title="Crashy Ride (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjsRs5hSckGBRYYpCtcSNng" htmlUrl="https://www.youtube.com/channel/UCjsRs5hSckGBRYYpCtcSNng" />
       <outline text="Float Addicts (YouTube)" title="Float Addicts (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww" htmlUrl="https://www.youtube.com/channel/UCNiKK7zXx76ugiFYQhsHZww" />
-      <outline text="floatips" title="floatips" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvloZRAGWERExHYWb4ETUJA" htmlUrl="https://www.youtube.com/channel/UCvloZRAGWERExHYWb4ETUJA" />
+      <outline text="floatips (YouTube)" title="floatips (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvloZRAGWERExHYWb4ETUJA" htmlUrl="https://www.youtube.com/channel/UCvloZRAGWERExHYWb4ETUJA" />
       <outline text="FloatLife Fest (YouTube)" title="FloatLife Fest (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuYm-llY2Hwa3K_qltIVL-w" htmlUrl="https://www.youtube.com/channel/UCuYm-llY2Hwa3K_qltIVL-w" />
       <outline text="Flowwolf Rider (YouTube)" title="Flowwolf Rider (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwAnUtaW1CCAxxfIJMGKReA" htmlUrl="https://www.youtube.com/channel/UCwAnUtaW1CCAxxfIJMGKReA" />
       <outline text="Indiemoto (YouTube)" title="Indiemoto (YouTube)" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1McMOJ9uc5uUfeCRMgxNXw" htmlUrl="https://www.youtube.com/channel/UC1McMOJ9uc5uUfeCRMgxNXw" />
