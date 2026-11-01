@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T12:27:17.166Z",
+  "generatedAt": "2026-11-01T18:24:18.609Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 337,
@@ -310,7 +310,7 @@
       "title": "Reddit r/onewheel",
       "displayName": "Reddit r/onewheel",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/onewheel?limit=100",
+      "siteUrl": "https://www.reddit.com/r/onewheel",
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "deck": "community",
       "kind": "social",
@@ -319,13 +319,13 @@
       "articleCount": 83,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "reddit-onewheel-best-xcwj1l",
@@ -365,18 +365,18 @@
         "publisher": "unverified",
         "endpoint": "rate_limited",
         "ingestion": "failed",
-        "cache": "fallback",
-        "content": "nonempty",
+        "cache": "not_used",
+        "content": "none",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "blocked_or_unreachable"
     },
     {
       "id": "r-onewheel-fl-yt2esa",
       "title": "Reddit r/Onewheel_FL (new)",
       "displayName": "Reddit r/Onewheel_FL (new)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/Onewheel_FL/new",
+      "siteUrl": "https://www.reddit.com/r/Onewheel_FL/new/",
       "feedUrl": "https://www.reddit.com/r/Onewheel_FL/new/.rss",
       "deck": "community",
       "kind": "social",
@@ -385,13 +385,13 @@
       "articleCount": 7,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "reddit-r-onewheelgt-bq5dao",
@@ -1187,8 +1187,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1199,18 +1199,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement",
+      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1221,13 +1221,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1287,13 +1287,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -2860,7 +2860,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.584Z"
     },
     {
@@ -3033,7 +3033,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.631Z"
     },
     {
@@ -3059,7 +3059,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.630Z"
     },
     {
@@ -3085,7 +3085,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.647Z"
     },
     {
@@ -3132,7 +3132,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.641Z"
     },
     {
@@ -3158,7 +3158,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.691Z"
     },
     {
@@ -3205,7 +3205,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.689Z"
     },
     {
@@ -3231,7 +3231,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.696Z"
     },
     {
@@ -3347,7 +3347,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.789Z"
     },
     {
@@ -3373,7 +3373,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.849Z"
     },
     {
@@ -3399,7 +3399,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.751Z"
     },
     {
@@ -3446,7 +3446,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.756Z"
     },
     {
@@ -3493,7 +3493,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.809Z"
     },
     {
@@ -3519,7 +3519,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.811Z"
     },
     {
@@ -3545,7 +3545,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.951Z"
     },
     {
@@ -3571,7 +3571,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.869Z"
     },
     {
@@ -3597,7 +3597,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.873Z"
     },
     {
@@ -3644,7 +3644,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.910Z"
     },
     {
@@ -3670,7 +3670,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.931Z"
     },
     {
@@ -3691,9 +3691,7 @@
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "duplicateSourceIds": [
         "onewheel-reddit-alert-1iiw4o8",
-        "reddit-r-onewheel-latest-1hks7dv",
-        "reddit-r-onewheel-latest-pju8wd",
-        "reddit-r-onewheel-latest-ezjdl6"
+        "reddit-r-onewheel-latest-1hks7dv"
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
@@ -3723,7 +3721,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.931Z"
     },
     {
@@ -3749,7 +3747,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.968Z"
     },
     {
@@ -3775,7 +3773,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.989Z"
     },
     {
@@ -3795,14 +3793,14 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
-        "r-floatlife-4ronf4",
         "reddit-r-onewheel-latest-1hks7dv",
         "reddit-r-onewheel-latest-pju8wd",
-        "reddit-r-onewheel-latest-ezjdl6"
+        "reddit-r-onewheel-latest-ezjdl6",
+        "r-floatlife-4ronf4"
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.994Z"
     },
     {
@@ -3828,7 +3826,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.011Z"
     },
     {
@@ -3854,7 +3852,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.026Z"
     },
     {
@@ -3922,7 +3920,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.049Z"
     },
     {
@@ -3948,7 +3946,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.056Z"
     },
     {
@@ -3974,7 +3972,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.069Z"
     },
     {
@@ -4000,7 +3998,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.097Z"
     },
     {
@@ -4026,7 +4024,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.109Z"
     },
     {
@@ -4052,7 +4050,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:17.114Z"
     },
     {
@@ -4166,7 +4164,7 @@
       "id": "b7kxax-1czfdl1",
       "title": "Refloat version 1.3",
       "description": "Should have posted this way earlier, there’s a small percentage of users getting markable nose oscillations (nose hunting) after upgrading to Refloat 1.3. From what I’ve heard so far, decreasing the IMU Sample Rate to 416 Hz is a workaround to fix the problem. I’m not sure about the exact cause of this, I believe it’s just the messed up timing from the old firmware IMU sampling code. Seems updating to a firmware with my IMU fixes does fix the issue. For LSM6DS3 controllers, firmware 7.00 should do, though it doesn’t have all the fixes. For BMI160 controllers (or if you wanna get all the fixes ",
-      "contentHtml": "<p>Refloat 1.3 is here. This is a big one, it brings a number of improvements that cause small changes in behavior, bundled in one release to minimize the disruption.</p>\n<p>Release stage: <em><strong>stable</strong></em></p>\n<h2><a name=\"p-6403-update-1\" class=\"anchor\" href=\"https://pev.dev#p-6403-update-1\" aria-label=\"Heading link\"></a>Update</h2>\n<p>1.3.1-beta2 has been released. Notably it fixes a serious bug which could cause nose hunting or non-smooth motor operation on some setups, a few more fixes and a “Convert from 1.2” button added to the tune dialogs.</p>\n<h2><a name=\"p-6403-whats-new-2\" class=\"anchor\" href=\"https://pev.dev#p-6403-whats-new-2\" aria-label=\"Heading link\"></a>What’s new</h2>\n<p>Three major changes define this release:</p>\n<h3><a name=\"p-6403-timing-rework-3\" class=\"anchor\" href=\"https://pev.dev#p-6403-timing-rework-3\" aria-label=\"Heading link\"></a>Timing rework</h3>\n<p>The internal timing and synchronization have been overhauled. All calculations are now independent of the frequency they run at, and the core balancing control runs in sync with the IMU. The Loop Hertz config option has been removed.</p>\n<p>The practical result is better vibration rejection and more consistent tune behavior across different boards and configurations. Tunes should transfer more cleanly between setups.</p>\n<p>I’ve written a <a href=\"https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925\">detailed post</a> about the technical details.</p>\n<h3><a name=\"p-6403-setpoint-smoothing-4\" class=\"anchor\" href=\"https://pev.dev#p-6403-setpoint-smoothing-4\" aria-label=\"Heading link\"></a>Setpoint smoothing</h3>\n<p>All Tilts (ATR, Torque Tilt, Brake Tilt, Turn Tilt and Remote) now have setpoint smoothing. This replaces the old linear transitions with smooth curves that allow higher tiltback speeds without jerkiness. The algorithm is based on the <a href=\"https://pev.dev/t/refloat-v1-1-feature-preview-2-haptic-feedback-setpoint-smoothing/2326/2\">3-Stage filter</a> from earlier feature previews.</p>\n<p>The main knobs to adjust are the Smoothing Time Constants:</p>\n<ul>\n<li><strong>Smoothing Time Constant</strong>: the overall smoothing delay (think 0.15-0.3s)</li>\n<li><strong>On Speed Time Constant</strong>: smooths the “into tiltback” transition</li>\n<li><strong>Off Speed Time Constant</strong>: smooths the “release” transition</li>\n</ul>\n<p>Torque Tilt and ATR have all three configurable. Turn Tilt and Remote are simplified to just the Smoothing Time Constant. The Time Constants are now the primary thing to tweak. Tiltback Speeds for Turn Tilt and Remote have been removed entirely in favor of the smoothing, and for Torque Tilt and ATR they’ve been reset to higher defaults that better complement it (your Torque Tilt and ATR Tiltback speeds won’t carry over from tune backups).</p>\n<p>As smoothing replaces its function, ATR Response Boost has been removed. ATR Transition Boost has been reworked to apply to both the smoothing constants and angling rates.</p>\n<p>More details on this can be found in the <a href=\"https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959\">feature preview post</a>.</p>\n<p>The defaults for the new smoothing options work well for smooth casual riding. For racing and aggressive riding in general, the numbers need to be lowered in general, the following values should be a good starting point for a race tune:</p>\n<ul>\n<li>Torque Tilt\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.15</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.05</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.1</li>\n</ul>\n</li>\n<li>ATR\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.2</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.08</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.01</li>\n</ul>\n</li>\n</ul>\n<h3><a name=\"p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" class=\"anchor\" href=\"https://pev.dev#p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" aria-label=\"Heading link\"></a>Torque normalization via Flux Linkage (firmware 6.06+)</h3>\n<p>On firmware 6.06+, the package now uses the motor’s Flux Linkage value to convert current to torque internally. This compensates for different motors’ torque constants and makes tunes behave more consistently across different motors. The reference value is 27 mWb. The more your motor differs from this, the more your tune will be adjusted.</p>\n<p>On firmware 6.05 and older, the behavior remains unchanged.</p>\n<h2><a name=\"p-6403-updating-to-13-6\" class=\"anchor\" href=\"https://pev.dev#p-6403-updating-to-13-6\" aria-label=\"Heading link\"></a>Updating to 1.3</h2>\n<p>This release will cause small changes in tune behavior:</p>\n<ul>\n<li><strong>Timing corrections:</strong> Angling speeds for tilts and pushbacks were running about 9-17% slower than configured. In practice, the new smoothing overshadows this (and Tiltback Speeds which remain will reset to higher values as mentioned above).</li>\n<li><strong>Torque normalization (6.06+ only):</strong> Config options are now internally adjusted based on your motor’s Flux Linkage. To compensate and retain your current tune behavior, calculate <code>k = Flux Linkage / 27</code> and:\n<ul>\n<li><strong>Divide by <code>k</code></strong> (likely noticeable, recommended to adjust): Torque Tilt Strength, Torque Tilt Strength (Regen)</li>\n<li><strong>Multiply by <code>k</code></strong> (subtle, adjust if needed): Angle P, Rate P, Angle I, I Term Limit, Booster Currents, Torque Tilt Start Current, ATR Amps Ratios</li>\n</ul>\n</li>\n<li><strong>Smoothing defaults:</strong> The defaults are tuned for smooth casual riding. Aggressive or racing tunes may need the Time Constants dialed down a bit for more responsiveness.</li>\n</ul>\n<p>For Flux Linkage normalization to work correctly, make sure your Motor Cfg → Additional Info → Setup → Motor Poles value is correct. If your board reports speed correctly, it should be. The correct value for all Onewheel motors to date is 30.</p>\n<p>Automatic config restore works as usual: confirm the dialog after upgrading and your config will be migrated.</p>\n<h2><a name=\"p-6403-other-notable-changes-7\" class=\"anchor\" href=\"https://pev.dev#p-6403-other-notable-changes-7\" aria-label=\"Heading link\"></a>Other notable changes</h2>\n<ul>\n<li>New and more consistent Reverse Stop implementation</li>\n<li>Motor utilization on the LED status bar (motor saturation, battery saturation, duty cycle)</li>\n<li>Option to swap left/right footpad ADCs</li>\n<li>Fullscreen remote overlay in package UI</li>\n<li>Reworked remote/wheel control from apps</li>\n<li>Various fixes (see full changelog)</li>\n</ul>\n<h2><a name=\"p-6403-download-and-changelog-8\" class=\"anchor\" href=\"https://pev.dev#p-6403-download-and-changelog-8\" aria-label=\"Heading link\"></a>Download and changelog</h2>\n<p><a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.0\">Refloat 1.3.0</a><br>\n<a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.1-beta2\">Refloat 1.3.1-beta2</a></p>\n<h2><a name=\"p-6403-support-the-project-9\" class=\"anchor\" href=\"https://pev.dev#p-6403-support-the-project-9\" aria-label=\"Heading link\"></a>Support the project</h2>\n<p>I invest a lot of time and energy into the development and testing of Refloat. If you would like to support the development, here’s <a href=\"https://riddimrider.one/donate/\">a few options to do so</a>.</p>\n            <p><small>12 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/refloat-version-1-3/2995\">Read full topic</a></p>",
+      "contentHtml": "<p>Refloat 1.3 is here. This is a big one, it brings a number of improvements that cause small changes in behavior, bundled in one release to minimize the disruption.</p>\n<p>Release stage: <em><strong>stable</strong></em></p>\n<h2><a name=\"p-6403-update-1\" class=\"anchor\" href=\"https://pev.dev#p-6403-update-1\" aria-label=\"Heading link\"></a>Update</h2>\n<p>1.3.1 is in the works (beta stage). Notably it fixes a serious bug which could cause nose hunting or non-smooth motor operation on some setups, a few more fixes and a “Convert from 1.2” button added to the tune dialogs.</p>\n<h2><a name=\"p-6403-whats-new-2\" class=\"anchor\" href=\"https://pev.dev#p-6403-whats-new-2\" aria-label=\"Heading link\"></a>What’s new</h2>\n<p>Three major changes define this release:</p>\n<h3><a name=\"p-6403-timing-rework-3\" class=\"anchor\" href=\"https://pev.dev#p-6403-timing-rework-3\" aria-label=\"Heading link\"></a>Timing rework</h3>\n<p>The internal timing and synchronization have been overhauled. All calculations are now independent of the frequency they run at, and the core balancing control runs in sync with the IMU. The Loop Hertz config option has been removed.</p>\n<p>The practical result is better vibration rejection and more consistent tune behavior across different boards and configurations. Tunes should transfer more cleanly between setups.</p>\n<p>I’ve written a <a href=\"https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925\">detailed post</a> about the technical details.</p>\n<h3><a name=\"p-6403-setpoint-smoothing-4\" class=\"anchor\" href=\"https://pev.dev#p-6403-setpoint-smoothing-4\" aria-label=\"Heading link\"></a>Setpoint smoothing</h3>\n<p>All Tilts (ATR, Torque Tilt, Brake Tilt, Turn Tilt and Remote) now have setpoint smoothing. This replaces the old linear transitions with smooth curves that allow higher tiltback speeds without jerkiness. The algorithm is based on the <a href=\"https://pev.dev/t/refloat-v1-1-feature-preview-2-haptic-feedback-setpoint-smoothing/2326/2\">3-Stage filter</a> from earlier feature previews.</p>\n<p>The main knobs to adjust are the Smoothing Time Constants:</p>\n<ul>\n<li><strong>Smoothing Time Constant</strong>: the overall smoothing delay (think 0.15-0.3s)</li>\n<li><strong>On Speed Time Constant</strong>: smooths the “into tiltback” transition</li>\n<li><strong>Off Speed Time Constant</strong>: smooths the “release” transition</li>\n</ul>\n<p>Torque Tilt and ATR have all three configurable. Turn Tilt and Remote are simplified to just the Smoothing Time Constant. The Time Constants are now the primary thing to tweak. Tiltback Speeds for Turn Tilt and Remote have been removed entirely in favor of the smoothing, and for Torque Tilt and ATR they’ve been reset to higher defaults that better complement it (your Torque Tilt and ATR Tiltback speeds won’t carry over from tune backups).</p>\n<p>As smoothing replaces its function, ATR Response Boost has been removed. ATR Transition Boost has been reworked to apply to both the smoothing constants and angling rates.</p>\n<p>More details on this can be found in the <a href=\"https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959\">feature preview post</a>.</p>\n<p>The defaults for the new smoothing options work well for smooth casual riding. For racing and aggressive riding in general, the numbers need to be lowered in general, the following values should be a good starting point for a race tune:</p>\n<ul>\n<li>Torque Tilt\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.15</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.05</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.1</li>\n</ul>\n</li>\n<li>ATR\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.2</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.08</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.01</li>\n</ul>\n</li>\n</ul>\n<h3><a name=\"p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" class=\"anchor\" href=\"https://pev.dev#p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" aria-label=\"Heading link\"></a>Torque normalization via Flux Linkage (firmware 6.06+)</h3>\n<p>On firmware 6.06+, the package now uses the motor’s Flux Linkage value to convert current to torque internally. This compensates for different motors’ torque constants and makes tunes behave more consistently across different motors. The reference value is 27 mWb. The more your motor differs from this, the more your tune will be adjusted.</p>\n<p>On firmware 6.05 and older, the behavior remains unchanged.</p>\n<h2><a name=\"p-6403-updating-to-13-6\" class=\"anchor\" href=\"https://pev.dev#p-6403-updating-to-13-6\" aria-label=\"Heading link\"></a>Updating to 1.3</h2>\n<p>This release will cause small changes in tune behavior:</p>\n<ul>\n<li><strong>Timing corrections:</strong> Angling speeds for tilts and pushbacks were running about 9-17% slower than configured. In practice, the new smoothing overshadows this (and Tiltback Speeds which remain will reset to higher values as mentioned above).</li>\n<li><strong>Torque normalization (6.06+ only):</strong> Config options are now internally adjusted based on your motor’s Flux Linkage. To compensate and retain your current tune behavior, calculate <code>k = Flux Linkage / 27</code> and:\n<ul>\n<li><strong>Divide by <code>k</code></strong> (likely noticeable, recommended to adjust): Torque Tilt Strength, Torque Tilt Strength (Regen)</li>\n<li><strong>Multiply by <code>k</code></strong> (subtle, adjust if needed): Angle P, Rate P, Angle I, I Term Limit, Booster Currents, Torque Tilt Start Current, ATR Amps Ratios</li>\n</ul>\n</li>\n<li><strong>Smoothing defaults:</strong> The defaults are tuned for smooth casual riding. Aggressive or racing tunes may need the Time Constants dialed down a bit for more responsiveness.</li>\n</ul>\n<p>For Flux Linkage normalization to work correctly, make sure your Motor Cfg → Additional Info → Setup → Motor Poles value is correct. If your board reports speed correctly, it should be. The correct value for all Onewheel motors to date is 30.</p>\n<p>Automatic config restore works as usual: confirm the dialog after upgrading and your config will be migrated.</p>\n<h2><a name=\"p-6403-other-notable-changes-7\" class=\"anchor\" href=\"https://pev.dev#p-6403-other-notable-changes-7\" aria-label=\"Heading link\"></a>Other notable changes</h2>\n<ul>\n<li>New and more consistent Reverse Stop implementation</li>\n<li>Motor utilization on the LED status bar (motor saturation, battery saturation, duty cycle)</li>\n<li>Option to swap left/right footpad ADCs</li>\n<li>Fullscreen remote overlay in package UI</li>\n<li>Reworked remote/wheel control from apps</li>\n<li>Various fixes (see full changelog)</li>\n</ul>\n<h2><a name=\"p-6403-download-and-changelog-8\" class=\"anchor\" href=\"https://pev.dev#p-6403-download-and-changelog-8\" aria-label=\"Heading link\"></a>Download and changelog</h2>\n<p><a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.0\">Refloat 1.3.0</a><br>\n<a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.1-beta3\">Refloat 1.3.1-beta3</a></p>\n<h2><a name=\"p-6403-support-the-project-9\" class=\"anchor\" href=\"https://pev.dev#p-6403-support-the-project-9\" aria-label=\"Heading link\"></a>Support the project</h2>\n<p>I invest a lot of time and energy into the development and testing of Refloat. If you would like to support the development, here’s <a href=\"https://riddimrider.one/donate/\">a few options to do so</a>.</p>\n            <p><small>13 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/refloat-version-1-3/2995\">Read full topic</a></p>",
       "url": "https://pev.dev/t/refloat-version-1-3/2995#post_10",
       "publishedAt": "2026-10-17T13:33:52.000Z",
       "author": "@riddimrider",
@@ -18667,7 +18665,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -18675,9 +18673,7 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
-        "the-sideways-movement-1031nqx"
+        "the-sideways-movement-4mideq"
       ],
       "mergedItemCount": 3
     },
@@ -21032,7 +21028,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29846,7 +29842,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -31856,7 +31852,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32641,7 +32637,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33186,7 +33182,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33507,7 +33503,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33802,7 +33798,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34145,7 +34141,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34230,7 +34226,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34357,7 +34353,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34452,7 +34448,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34708,7 +34704,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34716,8 +34712,7 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg",
-        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
+        "onewheel-tips-archives-the-sideways-movement-stokpg"
       ],
       "mergedItemCount": 3
     },
@@ -34732,7 +34727,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34821,7 +34816,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34908,7 +34903,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35020,7 +35015,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35042,7 +35037,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35110,7 +35105,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
