@@ -2,13 +2,12 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Mon, 02 Nov 2026 12:30:22 GMT</dateCreated>
+    <dateCreated>Mon, 02 Nov 2026 18:28:28 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
       <outline text="DEV Community (Site feed)" title="DEV Community (Site feed)" type="rss" xmlUrl="http://thepracticaldev.com/feed" htmlUrl="https://dev.to/" />
       <outline text="CNET (news.cnet.com)" title="CNET (news.cnet.com)" type="rss" xmlUrl="http://news.cnet.com/2547-1_3-0-20.xml" htmlUrl="https://www.cnet.com/#ftag=CAD590a51e" />
-      <outline text="Dance Music NW" title="Dance Music NW" type="rss" xmlUrl="https://www.dancemusicnw.com/feed/" htmlUrl="https://www.dancemusicnw.com/" />
       <outline text="GAMINGTREND" title="GAMINGTREND" type="rss" xmlUrl="https://gamingtrend.com/rss/" htmlUrl="https://gamingtrend.com/" />
     </outline>
     <outline text="website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="website_discovery | directory_only | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -109,6 +108,9 @@
     <outline text="feed | blocked_or_unreachable | feed | enabled | public.rss_sources | public.rss_sources" title="feed | blocked_or_unreachable | feed | enabled | public.rss_sources | public.rss_sources">
       <outline text="Reddit r/FloatwheelTeam (hot)" title="Reddit r/FloatwheelTeam (hot)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/hot/.rss" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/hot/" />
     </outline>
+    <outline text="website_discovery | blocked_or_unreachable | wrapper | blocked_or_unreachable | Floatwheel AI Feed | Onewheel AI Feed | ONEWHEEL" title="website_discovery | blocked_or_unreachable | wrapper | blocked_or_unreachable | Floatwheel AI Feed | Onewheel AI Feed | ONEWHEEL">
+      <outline text="Reddit r/FloatwheelTeam (new)" title="Reddit r/FloatwheelTeam (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/new/.rss" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/new" />
+    </outline>
     <outline text="feed | cached_fallback | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES" title="feed | cached_fallback | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES">
       <outline text="Reddit r/onewheel" title="Reddit r/onewheel" type="rss" xmlUrl="https://www.reddit.com/r/onewheel.rss?limit=100" htmlUrl="https://www.reddit.com/r/onewheel" />
     </outline>
@@ -145,7 +147,7 @@
       <outline text="floatwheel" title="floatwheel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg" htmlUrl="https://www.youtube.com/channel/UC_7p3yqxNR24i-9Qtu1Haxg" />
     </outline>
     <outline text="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources" title="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources">
-      <outline text="FlightFins Store" title="FlightFins Store" type="rss" xmlUrl="https://flightfins.com/feed" htmlUrl="https://flightfins.com/" />
+      <outline text="FlightFins Store" title="FlightFins Store" type="rss" xmlUrl="https://flightfins.com/feed/" htmlUrl="https://flightfins.com/" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032">
       <outline text="Float World (Deals Of The Week)" title="Float World (Deals Of The Week)" type="rss" xmlUrl="https://www.floatworlds.com/collections/deals-of-the-week.atom" htmlUrl="https://float-world.myshopify.com/collections/all" />
@@ -250,6 +252,10 @@
     <outline text="website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="website_discovery | blocked_or_unreachable | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
       <outline text="CNET (cnet.com)" title="CNET (cnet.com)" type="rss" xmlUrl="https://www.cnet.com/rss/all/" htmlUrl="https://www.cnet.com/" />
     </outline>
+    <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
+      <outline text="Dance Music NW" title="Dance Music NW" type="rss" xmlUrl="https://www.dancemusicnw.com/feed" htmlUrl="https://www.dancemusicnw.com/" />
+      <outline text="The Daily Dot" title="The Daily Dot" type="rss" xmlUrl="https://dailydot.com/feed" htmlUrl="https://dailydot.com/" />
+    </outline>
     <outline text="feed | ok_nonempty | website_discovery | enabled | public.event_sources" title="feed | ok_nonempty | website_discovery | enabled | public.event_sources">
       <outline text="East Ride DE" title="East Ride DE" type="rss" xmlUrl="https://eastride.de/feed/" htmlUrl="https://eastride.de/" />
       <outline text="Wheel Life Rally" title="Wheel Life Rally" type="rss" xmlUrl="https://wheelliferally.com/feed/" htmlUrl="https://wheelliferally.com/" />
@@ -297,9 +303,6 @@
     <outline text="website_discovery | blocked_or_unreachable" title="website_discovery | blocked_or_unreachable">
       <outline text="suprents.com" title="suprents.com" type="rss" xmlUrl="https://suprents.com/home?format=rss" htmlUrl="https://suprents.com/" />
     </outline>
-    <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
-      <outline text="The Daily Dot" title="The Daily Dot" type="rss" xmlUrl="https://dailydot.com/feed" htmlUrl="https://dailydot.com/" />
-    </outline>
     <outline text="feed | blocked_or_unreachable | feed | historical_or_candidate | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources" title="feed | blocked_or_unreachable | feed | historical_or_candidate | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | manual_rss_sources">
       <outline text="The IOWA (International One Wheel Association)" title="The IOWA (International One Wheel Association)" type="rss" xmlUrl="https://theiowa.org/feed" htmlUrl="https://theiowa.org/" />
     </outline>
@@ -322,7 +325,7 @@
       <outline text="Blog – e-RIDES" title="Blog – e-RIDES" type="rss" xmlUrl="https://e-rides.com/blog/feed/" htmlUrl="https://e-rides.com/" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources" title="feed | portable_sources | ONEWHEEL FEED | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources">
-      <outline text="FixMyPEV (Site feed)" title="FixMyPEV (Site feed)" type="rss" xmlUrl="https://www.fixmypev.com/feed/" htmlUrl="https://www.fixmypev.com/" />
+      <outline text="FixMyPEV (Site feed)" title="FixMyPEV (Site feed)" type="rss" xmlUrl="https://www.fixmypev.com/feed" htmlUrl="https://www.fixmypev.com/" />
     </outline>
     <outline text="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources | ONEWHEEL_RSS_SOURCES | manual_rss_sources" title="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources | ONEWHEEL_RSS_SOURCES | manual_rss_sources">
       <outline text="PEV Dispensary Blog" title="PEV Dispensary Blog" type="rss" xmlUrl="https://pevdispensary.com/blogs/news.atom" htmlUrl="https://pevdispensary.com/blogs/news" />

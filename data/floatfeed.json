@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T12:30:21.276Z",
+  "generatedAt": "2026-11-02T18:28:28.220Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 340,
+    "currentArticles": 362,
     "archiveArticles": 1180
   },
   "decks": [
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 125,
       "feedSourceCount": 123,
-      "articleCount": 1520,
+      "articleCount": 1542,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 629,
+      "articleCount": 630,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -80,7 +80,7 @@
       "description": "Forums, Reddit, social sources, and community discussion streams.",
       "sourceCount": 19,
       "feedSourceCount": 18,
-      "articleCount": 331,
+      "articleCount": 352,
       "rssUrl": "/feeds/community.xml"
     }
   ],
@@ -294,16 +294,16 @@
       "kind": "social",
       "sourcePlatform": "Reddit",
       "hasFeed": true,
-      "articleCount": 25,
+      "articleCount": 48,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "reddit-r-onewheel-latest-1hks7dv",
@@ -485,7 +485,7 @@
       "id": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "title": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
       "displayName": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "domain": "api.reddit.com",
+      "domain": "www.reddit.com",
       "siteUrl": "https://www.reddit.com/r/ElectricSkateboarding/search?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
       "feedUrl": "",
       "deck": "community",
@@ -671,13 +671,13 @@
       "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "trailwheel-ii0g5k",
@@ -803,13 +803,13 @@
       "articleCount": 5,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-official-ambassadors-archive-5c0gec",
@@ -2736,7 +2736,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 30,
+      "articleCount": 31,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2838,6 +2838,27 @@
   ],
   "articles": [
     {
+      "id": "1hlrw7z-48s3eu",
+      "title": "Alexis with the onewheel flow #skrrrt",
+      "description": "Skrrrt freestyle session with Alexis.",
+      "contentHtml": "<p>Skrrrt freestyle session with Alexis.</p>",
+      "url": "https://www.youtube.com/shorts/cmCIXq5_Irs",
+      "publishedAt": "2026-11-02T18:14:29.000Z",
+      "author": "Vinie Vizzle",
+      "videoId": "cmCIXq5_Irs",
+      "image": "https://i4.ytimg.com/vi/cmCIXq5_Irs/hqdefault.jpg",
+      "sourceId": "vinie-vizzle-7ackvr",
+      "source": "Vinie Vizzle",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A",
+      "duplicateSourceIds": [
+        "vinie-vizzle-7ackvr"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "wjpia2-1tmrdpk",
       "title": "Lego one wheel",
       "description": "Got bored while babysitting and saw sum legos and made this master piece submitted by /u/Commercial_Relief656 [link] [comments]",
@@ -2908,7 +2929,7 @@
     },
     {
       "id": "ah2t4j-48s3eu",
-      "title": "Skrrrt Parkt - Bring Your Feature Freestyle Sesh 2",
+      "title": "Skrrrt Park - Bring Your Feature Freestyle Sesh 2",
       "description": "When the wet season comes to your doorstep you have to get creative. So we invited everyone to bring a feature to the Skrrrt shred session and ow boy did they deliver. We were able to build an awesome little freestyle park in a sheltered area. Onewheel shred sesh with the boys. Join us! https://www.instagram.com/vinievizzle/ https://www.instagram.com/skrrrt.eu/ https://www.skrrrt.eu #skrrrt",
       "contentHtml": "<p>When the wet season comes to your doorstep you have to get creative. So we invited everyone to bring a feature to the Skrrrt shred session and ow boy did they deliver. We were able to build an awesome little freestyle park in a sheltered area. Onewheel shred sesh with the boys.<br><br>Join us!<br>https://www.instagram.com/vinievizzle/<br>https://www.instagram.com/skrrrt.eu/<br>https://www.skrrrt.eu<br><br>#skrrrt</p>",
       "url": "https://www.youtube.com/watch?v=xhGwO6Yb7Rk",
@@ -2925,7 +2946,31 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
+    },
+    {
+      "id": "1s18vd3-kx83sb",
+      "title": "ADV2 nose bobbing",
+      "description": "The nose of my ADV2 that I got is bobbing up and down slightly when I am riding at 10-15ish mph. What setting should I change to fix this? submitted by /u/MusicWarm7320 [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>The nose of my ADV2 that I got is bobbing up and down slightly when I am riding at 10-15ish mph. What setting should I change to fix this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MusicWarm7320\"> /u/MusicWarm7320 </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xkr0mq/adv2_nose_bobbing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xkr0mq/adv2_nose_bobbing/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xkr0mq/adv2_nose_bobbing/",
+      "publishedAt": "2026-11-01T01:39:43.000Z",
+      "author": "/u/MusicWarm7320",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.847Z"
     },
     {
       "id": "756jgx-114nteh",
@@ -3179,6 +3224,30 @@
       "embedHeightFetchedAt": "2026-11-01T12:27:16.647Z"
     },
     {
+      "id": "ifkhgq-kx83sb",
+      "title": "🚨 MATIXBUILT JUST GOT A MAJOR UPGRADE.🚨",
+      "description": "submitted by /u/Matix10104 [link] [comments]",
+      "contentHtml": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Matix10104\"> /u/Matix10104 </a> <br/> <span><a href=\"http://matixbuilt.com\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xjqc4u/matixbuilt_just_got_a_major_upgrade/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xjqc4u/matixbuilt_just_got_a_major_upgrade/",
+      "publishedAt": "2026-10-30T20:23:33.000Z",
+      "author": "/u/Matix10104",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.757Z"
+    },
+    {
       "id": "8ta69p-48s3eu",
       "title": "Noseslide in the skatepark ⚡️",
       "description": "Nose slide on a onewheel at the skatepark 💜",
@@ -3325,6 +3394,54 @@
       "embedHeightFetchedAt": "2026-11-01T12:27:16.696Z"
     },
     {
+      "id": "1om09oh-kx83sb",
+      "title": "Buying guide for Floatwheel",
+      "description": "Hi all. I want to buy a floatwheel, but I am having trouble figuring out the crypto stuff. There is a guide, but it seems out of date. Is anyone willing to make an updated guide? Or just help me with the process? I am using MetaMask and the test transaction keeps failing. Thanks in advance. submitted by /u/UnspokenBird [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi all.</p> <p>I want to buy a floatwheel, but I am having trouble figuring out the crypto stuff. There is a guide, but it seems out of date. Is anyone willing to make an updated guide? Or just help me with the process? I am using MetaMask and the test transaction keeps failing.</p> <p>Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/UnspokenBird\"> /u/UnspokenBird </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xi8l0v/buying_guide_for_floatwheel/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xi8l0v/buying_guide_for_floatwheel/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xi8l0v/buying_guide_for_floatwheel/",
+      "publishedAt": "2026-10-29T02:55:13.000Z",
+      "author": "/u/UnspokenBird",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.764Z"
+    },
+    {
+      "id": "om3p8s-kx83sb",
+      "title": "Pint V makes annoying sound when F/R lights on.",
+      "description": "The motor is very quiet until I turn the lights on. Then it is like a loud radio trying to find a frequency. I've tried low brightness setting and ZVF 15 through 30. Tone changes but volume doesn't. New install so I don't know if this is normal. Any ideas on how to make it quieter with lights on? UPDATE: Comments tell me this is normal. Had my first ride tonight and light noise was not nearly as bad as it was standing on it in my office. Thank you for your feedback and ideas! submitted by /u/Quick_Two_1104 [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>The motor is very quiet until I turn the lights on. Then it is like a loud radio trying to find a frequency.</p> <p>I&#39;ve tried low brightness setting and ZVF 15 through 30. Tone changes but volume doesn&#39;t.</p> <p>New install so I don&#39;t know if this is normal.</p> <p>Any ideas on how to make it quieter with lights on?</p> <p>UPDATE: Comments tell me this is normal. Had my first ride tonight and light noise was not nearly as bad as it was standing on it in my office. Thank you for your feedback and ideas!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Quick_Two_1104\"> /u/Quick_Two_1104 </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xi6ocn/pint_v_makes_annoying_sound_when_fr_lights_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xi6ocn/pint_v_makes_annoying_sound_when_fr_lights_on/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xi6ocn/pint_v_makes_annoying_sound_when_fr_lights_on/",
+      "publishedAt": "2026-10-29T01:23:32.000Z",
+      "author": "/u/Quick_Two_1104",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.767Z"
+    },
+    {
       "id": "1aq1q9o-1czfdl1",
       "title": "Questions on Original Pint conversions",
       "description": "Apologies for reviving an old thread. I’m looking in to doing the same thing as you and have a couple questions since I’m fairly new to OneWheel / VESC. I have a Pint that I plan to install the Pint V drop-in kit into. Eventually, I want to upgrade the battery to the PintX battery. I’m reading in other forums that the PintX battery doesn’t fit into the Pint’s battery housing(?). From what you’ve said, it sounds like you didn’t have any issues with the PintX battery fitting by just upgrading to pint x bumpers? I would love to avoid the hassle of looking for a pintX battery box since a quick loo",
@@ -3373,6 +3490,30 @@
       "embedHeightFetchedAt": "2026-10-29T00:50:09.246Z"
     },
     {
+      "id": "1m5k658-kx83sb",
+      "title": "Atom weight after adding wtf rails, bang bumpers and TFL Enduro?",
+      "description": "Was an XR rider for a while but for my purposes of errand running and short cruises around town, I found it too cumbersome. Switched to a Pint S and am loving the smaller form factor but I am so intrigued by the Atom and its 22lb weight. I was wondering if adding the above would essentially negate the weight savings submitted by /u/alleyooptroop [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Was an XR rider for a while but for my purposes of errand running and short cruises around town, I found it too cumbersome. Switched to a Pint S and am loving the smaller form factor but I am so intrigued by the Atom and its 22lb weight. I was wondering if adding the above would essentially negate the weight savings</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/alleyooptroop\"> /u/alleyooptroop </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xhvllh/atom_weight_after_adding_wtf_rails_bang_bumpers/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xhvllh/atom_weight_after_adding_wtf_rails_bang_bumpers/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xhvllh/atom_weight_after_adding_wtf_rails_bang_bumpers/",
+      "publishedAt": "2026-10-28T18:04:35.000Z",
+      "author": "/u/alleyooptroop",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.816Z"
+    },
+    {
       "id": "128d38a-1mfabo8",
       "title": "Onewheel vs. Hills",
       "description": "_____________________________ Check us out at www.Onewheel.com and grab yourself a board today! Onewheel Accessories: https://onewheel.com/pages/all-accessories DESTROY BOREDOM WITH US Instagram: https://www.instagram.com/onewheel/ TikTok: https://www.tiktok.com/@onewheel Twitter: https://twitter.com/rideonewheel?lang=en Facebook: https://www.facebook.com/OnewheelOfficial/ SUBSCRIBE TO THE ONEWHEEL NEWSLETTER https://onewheel.com/pages/newsletter-subscribe New to the channel? Check out some of our playlists! The Onewheel Podcast: https://youtube.com/playlist?list=PLwHhGWG1Ijyv_16ptqZQTD_1M_a3C22Ko Onewheel Shred Series: https://youtube.com/playlist?list=PLwHhGWG1IjysqE-qfjkd0JkU_ouoSLERC #onewheel #onewheelgt #onewheelpintx",
@@ -3392,6 +3533,30 @@
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "6erpfl-kx83sb",
+      "title": "How is the atom treating you so far!",
+      "description": "I broke my ribs and tore my ACL irrelevantly from PEV lol and it's gonna be hard for me to carry my VESC or GTS for a while but I'm starting to heal, and buying a pint/x feels like it'd be a disappointment... I've been debating an atom for a while because of the weight and size but I would be semi often using it for a ~6 mile (12 round trip over a bridge) city commute and it's been a long time since I've been on a tiny board! Also on comfort I need a fender so no extended rails, I'm 6'0 and 155 lbs size 12 shoes submitted by /u/Excendence [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I broke my ribs and tore my ACL irrelevantly from PEV lol and it&#39;s gonna be hard for me to carry my VESC or GTS for a while but I&#39;m starting to heal, and buying a pint/x feels like it&#39;d be a disappointment...</p> <p>I&#39;ve been debating an atom for a while because of the weight and size but I would be semi often using it for a ~6 mile (12 round trip over a bridge) city commute and it&#39;s been a long time since I&#39;ve been on a tiny board! </p> <p>Also on comfort I need a fender so no extended rails, I&#39;m 6&#39;0 and 155 lbs size 12 shoes</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Excendence\"> /u/Excendence </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xhsuns/how_is_the_atom_treating_you_so_far/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xhsuns/how_is_the_atom_treating_you_so_far/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xhsuns/how_is_the_atom_treating_you_so_far/",
+      "publishedAt": "2026-10-28T16:26:57.000Z",
+      "author": "/u/Excendence",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.824Z"
     },
     {
       "id": "1f9zb1e-1mfabo8",
@@ -3467,30 +3632,55 @@
       "embedHeightFetchedAt": "2026-11-01T12:27:16.849Z"
     },
     {
-      "id": "zggb9r-114nteh",
+      "id": "15xwrqy-kx83sb",
       "title": "Essential Upgrades?",
       "description": "I've had my GT for just over a year and I still love it. I've recently gotten busy and only ride for 1-2 miles a day a few times a week but up until a few months ago I would often go on 5-10 mile rides at a time almost daily. Aside from bumpers, rail guards, and a fender all from FM direct site.....my board is stock. I really am interested in maybe some new foot pads or even the FSTs for some jumps from float life as well maybe different grip tape styles like the hexagon with patterns in between. What upgrades would the more experienced community recommend to me? submitted by /u/sketteoz [link] [comments]",
       "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve had my GT for just over a year and I still love it. I&#39;ve recently gotten busy and only ride for 1-2 miles a day a few times a week but up until a few months ago I would often go on 5-10 mile rides at a time almost daily.</p> <p>Aside from bumpers, rail guards, and a fender all from FM direct site.....my board is stock.</p> <p>I really am interested in maybe some new foot pads or even the FSTs for some jumps from float life as well maybe different grip tape styles like the hexagon with patterns in between.</p> <p>What upgrades would the more experienced community recommend to me?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sketteoz\"> /u/sketteoz </a> <br/> <span><a href=\"https://www.reddit.com/r/onewheel/comments/1xglo89/essential_upgrades/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/onewheel/comments/1xglo89/essential_upgrades/\">[comments]</a></span>",
-      "url": "https://www.reddit.com/r/onewheel/comments/1xglo89/essential_upgrades/",
-      "publishedAt": "2026-10-27T07:05:15.000Z",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xglob7/essential_upgrades/",
+      "publishedAt": "2026-10-27T07:05:24.000Z",
       "author": "/u/sketteoz",
       "videoId": "",
       "image": "",
-      "sourceId": "reddit-r-onewheel-latest-1hks7dv",
-      "source": "Reddit r/onewheel",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
       "sourceDomain": "reddit.com",
       "sourceKind": "social",
       "deck": "community",
-      "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
       "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v",
         "reddit-r-onewheel-latest-1hks7dv",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "cached_reddit_oembed",
-      "embedHeightFetchedAt": "2026-11-01T12:27:16.751Z"
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.832Z"
+    },
+    {
+      "id": "1o2nahv-kx83sb",
+      "title": "Obligatory check-in (pintV w/battery)",
+      "description": "Just checking in if there’s any news of if/when the pintV kit WITH the 84v battery pack will be available? submitted by /u/ResolveHistorical498 [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Just checking in if there’s any news of if/when the pintV kit WITH the 84v battery pack will be available?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ResolveHistorical498\"> /u/ResolveHistorical498 </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xfwd48/obligatory_checkin_pintv_wbattery/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xfwd48/obligatory_checkin_pintv_wbattery/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xfwd48/obligatory_checkin_pintv_wbattery/",
+      "publishedAt": "2026-10-26T13:09:37.000Z",
+      "author": "/u/ResolveHistorical498",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.980Z"
     },
     {
       "id": "1mg2xgv-pr77lg",
@@ -3538,6 +3728,30 @@
       "embedHeight": 316,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-01T12:27:16.756Z"
+    },
+    {
+      "id": "efwjy7-kx83sb",
+      "title": "Needed guidance for upgrading pint",
+      "description": "Hi! So I am thinking about modding my Onewheel pint soon and I don't want to go too crazy. I'm looking at getting the PintV kit combined with a CHI-VE PINT 20.1 battery as all of my research showed they should work together. My only question is about aftermarket BMS as the Chi Battery states you can't use stock BMS, the PintV kit includes its own BMS, however I couldn't find anything that says if its ok to use the the PintV BMS with the Chi Battery and Chi sells a SSBMS separately. Another thing I wanted to clarify is if I get a Chi Battery, I have to get one of their chargers and cannot use the stock pint charger? Thanks! submitted by /u/Iosnoop [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Hi!</p> <p>So I am thinking about modding my Onewheel pint soon and I don&#39;t want to go too crazy. I&#39;m looking at getting the PintV kit combined with a CHI-VE PINT 20.1 battery as all of my research showed they should work together. My only question is about aftermarket BMS as the Chi Battery states you can&#39;t use stock BMS, the PintV kit includes its own BMS, however I couldn&#39;t find anything that says if its ok to use the the PintV BMS with the Chi Battery and Chi sells a SSBMS separately. </p> <p>Another thing I wanted to clarify is if I get a Chi Battery, I have to get one of their chargers and cannot use the stock pint charger? Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Iosnoop\"> /u/Iosnoop </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xfb3e6/needed_guidance_for_upgrading_pint/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xfb3e6/needed_guidance_for_upgrading_pint/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xfb3e6/needed_guidance_for_upgrading_pint/",
+      "publishedAt": "2026-10-25T19:17:05.000Z",
+      "author": "/u/Iosnoop",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.983Z"
     },
     {
       "id": "325re4-48s3eu",
@@ -3613,6 +3827,30 @@
       "embedHeightFetchedAt": "2026-11-01T12:27:16.811Z"
     },
     {
+      "id": "1vhmjdc-kx83sb",
+      "title": "Glen Parx River Falls Sconnie",
+      "description": "submitted by /u/Individual-Run-4464 [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xettsc/glen_parx_river_falls_sconnie/\"> <img src=\"https://external-preview.redd.it/a2F2YjN5OXVzanhoMclfb2P_bqN78y9B1_6o-hf7UGM0st2aEO6o0R8QY2Zo.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a77f2df07ef8603a1db39e1e13f0d3ffa71da483\" alt=\"Glen Parx River Falls Sconnie\" title=\"Glen Parx River Falls Sconnie\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Individual-Run-4464\"> /u/Individual-Run-4464 </a> <br/> <span><a href=\"https://v.redd.it/iyneyrbusjxh1\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xettsc/glen_parx_river_falls_sconnie/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xettsc/glen_parx_river_falls_sconnie/",
+      "publishedAt": "2026-10-25T05:20:04.000Z",
+      "author": "/u/Individual-Run-4464",
+      "videoId": "",
+      "image": "https://external-preview.redd.it/a2F2YjN5OXVzanhoMclfb2P_bqN78y9B1_6o-hf7UGM0st2aEO6o0R8QY2Zo.jpeg?width=640&crop=smart&auto=webp&s=a77f2df07ef8603a1db39e1e13f0d3ffa71da483",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.895Z"
+    },
+    {
       "id": "11vi48m-114nteh",
       "title": "Are any of you CNCing onewheel parts at home?",
       "description": "Lots of people 3d print enclosures, footpads, fenders and all kinds of parts for their onewheels. But is anyone milling aluminum parts like lids or even controller boxes on prosumer CNCs (shapeoko, altmill, onefinity, etc)? submitted by /u/jb-schitz-ki [link] [comments]",
@@ -3639,30 +3877,55 @@
       "embedHeightFetchedAt": "2026-11-01T12:27:16.951Z"
     },
     {
-      "id": "satjfx-114nteh",
+      "id": "13uazzh-kx83sb",
       "title": "Onewheel pint s customization",
       "description": "Hey I was wondering if anyone has any good ideas to make my onewheel look better with ought spending a lot of money! submitted by /u/BedResponsible1624 [link] [comments]",
       "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/onewheel/comments/1xeiscl/onewheel_pint_s_customization/\"> <img src=\"https://preview.redd.it/yfdabxsb4hxh1.jpeg?width=140&amp;height=105&amp;auto=webp&amp;s=a29349dae71b59d50deb61d35bab2b12a231bef5\" alt=\"Onewheel pint s customization\" title=\"Onewheel pint s customization\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Hey I was wondering if anyone has any good ideas to make my onewheel look better with ought spending a lot of money!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BedResponsible1624\"> /u/BedResponsible1624 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1xeiscl\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/onewheel/comments/1xeiscl/onewheel_pint_s_customization/\">[comments]</a></span> </td></tr></table>",
-      "url": "https://www.reddit.com/r/onewheel/comments/1xeiscl/onewheel_pint_s_customization/",
-      "publishedAt": "2026-10-24T20:19:46.000Z",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xeisxb/onewheel_pint_s_customization/",
+      "publishedAt": "2026-10-24T20:20:26.000Z",
       "author": "/u/BedResponsible1624",
       "videoId": "",
       "image": "https://preview.redd.it/yfdabxsb4hxh1.jpeg?width=140&height=105&auto=webp&s=a29349dae71b59d50deb61d35bab2b12a231bef5",
-      "sourceId": "reddit-r-onewheel-latest-1hks7dv",
-      "source": "Reddit r/onewheel",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
       "sourceDomain": "reddit.com",
       "sourceKind": "social",
       "deck": "community",
-      "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
       "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v",
         "reddit-r-onewheel-latest-1hks7dv",
         "reddit-r-onewheel-latest-pju8wd",
         "reddit-r-onewheel-latest-ezjdl6"
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
-      "embedHeightSource": "cached_reddit_oembed",
-      "embedHeightFetchedAt": "2026-11-01T12:27:16.869Z"
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.912Z"
+    },
+    {
+      "id": "1yf2o5a-kx83sb",
+      "title": "FYI: Pint V kit, China to East Coast USA in 7-days",
+      "description": "I was ready to wait 30+ days so this was a nice surprise. Tony was very helpful with the crypto payment and my order was shipped the day after purchase. The only catch was the test wallet transfer and final transfer had processing fees, which totaled $20. I also have $7 stuck in USDC because it costs $10 to get it out. Perhaps someone more familiar with crypto exchanges could have worked around these costs. The kit is sitting on my bench waiting for me to finish all the chores I planned for this weekend...maybe not all of them ;) submitted by /u/Quick_Two_1104 [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>I was ready to wait 30+ days so this was a nice surprise. Tony was very helpful with the crypto payment and my order was shipped the day after purchase. The only catch was the test wallet transfer and final transfer had processing fees, which totaled $20. I also have $7 stuck in USDC because it costs $10 to get it out. Perhaps someone more familiar with crypto exchanges could have worked around these costs. The kit is sitting on my bench waiting for me to finish all the chores I planned for this weekend...maybe not all of them ;)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Quick_Two_1104\"> /u/Quick_Two_1104 </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xee96h/fyi_pint_v_kit_china_to_east_coast_usa_in_7days/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xee96h/fyi_pint_v_kit_china_to_east_coast_usa_in_7days/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xee96h/fyi_pint_v_kit_china_to_east_coast_usa_in_7days/",
+      "publishedAt": "2026-10-24T17:16:49.000Z",
+      "author": "/u/Quick_Two_1104",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.957Z"
     },
     {
       "id": "sichjc-114nteh",
@@ -4208,6 +4471,30 @@
       "mergedItemCount": 2
     },
     {
+      "id": "vo2v3z-kx83sb",
+      "title": "Scootwear (vesc tool..ish)",
+      "description": "submitted by /u/IronGh0st [link] [comments]",
+      "contentHtml": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IronGh0st\"> /u/IronGh0st </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1xa2j0i\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1xa2jaj/scootwear_vesc_toolish/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1xa2jaj/scootwear_vesc_toolish/",
+      "publishedAt": "2026-10-19T17:04:48.000Z",
+      "author": "/u/IronGh0st",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:27.975Z"
+    },
+    {
       "id": "1657pes-48s3eu",
       "title": "Onewheel feature add-ons ⚡️",
       "description": "Making this obstacle even more playful with some add on pieces. Still needs some fine tuning but creating new options. 🔥💜⚡️",
@@ -4251,6 +4538,30 @@
       "mergedItemCount": 3
     },
     {
+      "id": "wik25e-kx83sb",
+      "title": "XRV not charging",
+      "description": "Yesterday I went for a ride on my XRV and got caught in the rain. I made it home just fine, but I plugged it in, and it isn't charging. I have tried both my standard home charger and my hypercharger. The light on both of the chargers stays green when plugged in, but the battery is at 53.6 V (not fully charged). What is my issue? submitted by /u/MusicWarm7320 [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Yesterday I went for a ride on my XRV and got caught in the rain. I made it home just fine, but I plugged it in, and it isn&#39;t charging. I have tried both my standard home charger and my hypercharger. The light on both of the chargers stays green when plugged in, but the battery is at 53.6 V (not fully charged). What is my issue?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MusicWarm7320\"> /u/MusicWarm7320 </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x8cf5m/xrv_not_charging/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x8cf5m/xrv_not_charging/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x8cf5m/xrv_not_charging/",
+      "publishedAt": "2026-10-17T15:02:43.000Z",
+      "author": "/u/MusicWarm7320",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.021Z"
+    },
+    {
       "id": "b7kxax-1czfdl1",
       "title": "Refloat version 1.3",
       "description": "Should have posted this way earlier, there’s a small percentage of users getting markable nose oscillations (nose hunting) after upgrading to Refloat 1.3. From what I’ve heard so far, decreasing the IMU Sample Rate to 416 Hz is a workaround to fix the problem. I’m not sure about the exact cause of this, I believe it’s just the messed up timing from the old firmware IMU sampling code. Seems updating to a firmware with my IMU fixes does fix the issue. For LSM6DS3 controllers, firmware 7.00 should do, though it doesn’t have all the fixes. For BMI160 controllers (or if you wanna get all the fixes ",
@@ -4273,6 +4584,30 @@
       "mergedItemCount": 6
     },
     {
+      "id": "1er36hn-kx83sb",
+      "title": "OnlyAmps Chargers Are Finally Here!",
+      "description": "submitted by /u/Only-Amps [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x80umc/onlyamps_chargers_are_finally_here/\"> <img src=\"https://preview.redd.it/vl1t995jeyvh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=dec79951d6e43d2f6d0556f03aa18ddc9ce2cbbc\" alt=\"OnlyAmps Chargers Are Finally Here!\" title=\"OnlyAmps Chargers Are Finally Here!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Only-Amps\"> /u/Only-Amps </a> <br/> <span><a href=\"https://i.redd.it/vl1t995jeyvh1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x80umc/onlyamps_chargers_are_finally_here/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x80umc/onlyamps_chargers_are_finally_here/",
+      "publishedAt": "2026-10-17T04:18:43.000Z",
+      "author": "/u/Only-Amps",
+      "videoId": "",
+      "image": "https://preview.redd.it/vl1t995jeyvh1.jpeg?width=640&crop=smart&auto=webp&s=dec79951d6e43d2f6d0556f03aa18ddc9ce2cbbc",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.141Z"
+    },
+    {
       "id": "1yt066j-48s3eu",
       "title": "My dream onewheel obstacle ⚡️",
       "description": "The playfulness of this onewheel feature is off the charts!",
@@ -4292,6 +4627,54 @@
         "vinie-vizzle-7ackvr"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "uqakuu-kx83sb",
+      "title": "Trying out the stock Atom tire!",
+      "description": "submitted by /u/Portuwheel [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x7l4mc/trying_out_the_stock_atom_tire/\"> <img src=\"https://external-preview.redd.it/UR4N_Hw7tuI6fJW-BXtH68N1s1XUpYWB_AKqDPTVSDg.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=ea15d2c65bcab123a2a98cdec3a94174fb62595f\" alt=\"Trying out the stock Atom tire!\" title=\"Trying out the stock Atom tire!\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Portuwheel\"> /u/Portuwheel </a> <br/> <span><a href=\"https://www.youtube.com/watch?v=xh0FTkKrWHE\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x7l4mc/trying_out_the_stock_atom_tire/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x7l4mc/trying_out_the_stock_atom_tire/",
+      "publishedAt": "2026-10-16T16:38:54.000Z",
+      "author": "/u/Portuwheel",
+      "videoId": "",
+      "image": "https://external-preview.redd.it/UR4N_Hw7tuI6fJW-BXtH68N1s1XUpYWB_AKqDPTVSDg.jpeg?width=320&crop=smart&auto=webp&s=ea15d2c65bcab123a2a98cdec3a94174fb62595f",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.040Z"
+    },
+    {
+      "id": "lohi5e-kx83sb",
+      "title": "Update: 25 km/h onewheel for France/EU – survey results so far + manufacturer answers",
+      "description": "submitted by /u/Smooth_Ordinary3413 [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x7e42z/update_25_kmh_onewheel_for_franceeu_survey/\"> <img src=\"https://external-preview.redd.it/vXOF8G9GBUU_-_vM38jf2S1-5UiTZqBcFWecpk4eHS4.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0ce3efa89a3cbcf97b0e71a16d32db82062ff632\" alt=\"Update: 25 km/h onewheel for France/EU – survey results so far + manufacturer answers\" title=\"Update: 25 km/h onewheel for France/EU – survey results so far + manufacturer answers\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Smooth_Ordinary3413\"> /u/Smooth_Ordinary3413 </a> <br/> <span><a href=\"/r/onewheel/comments/1x78ngf/update_25_kmh_onewheel_for_franceeu_survey/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x7e42z/update_25_kmh_onewheel_for_franceeu_survey/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x7e42z/update_25_kmh_onewheel_for_franceeu_survey/",
+      "publishedAt": "2026-10-16T11:51:04.000Z",
+      "author": "/u/Smooth_Ordinary3413",
+      "videoId": "",
+      "image": "https://external-preview.redd.it/vXOF8G9GBUU_-_vM38jf2S1-5UiTZqBcFWecpk4eHS4.jpeg?width=640&crop=smart&auto=webp&s=0ce3efa89a3cbcf97b0e71a16d32db82062ff632",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.048Z"
     },
     {
       "id": "1h1168g-pr77lg",
@@ -4439,6 +4822,30 @@
         "onewheel-forum-recent-7x71yd"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "1nnbm8t-kx83sb",
+      "title": "How NOT to change your Floatwheel Atom tire.",
+      "description": "Another one of those! submitted by /u/Portuwheel [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x5ash5/how_not_to_change_your_floatwheel_atom_tire/\"> <img src=\"https://external-preview.redd.it/R_yDYPvL2Rd-3U9goiOj9VXqUaOO66DHxquD-hOHYAE.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp;s=1d0fd53214f79f6650ba4778652a863bee4bf8e0\" alt=\"How NOT to change your Floatwheel Atom tire.\" title=\"How NOT to change your Floatwheel Atom tire.\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>Another one of those! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Portuwheel\"> /u/Portuwheel </a> <br/> <span><a href=\"https://www.youtube.com/watch?v=ySvn_3Q0Tbw\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x5ash5/how_not_to_change_your_floatwheel_atom_tire/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x5ash5/how_not_to_change_your_floatwheel_atom_tire/",
+      "publishedAt": "2026-10-13T22:31:10.000Z",
+      "author": "/u/Portuwheel",
+      "videoId": "",
+      "image": "https://external-preview.redd.it/R_yDYPvL2Rd-3U9goiOj9VXqUaOO66DHxquD-hOHYAE.jpeg?width=320&crop=smart&auto=webp&s=1d0fd53214f79f6650ba4778652a863bee4bf8e0",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.084Z"
     },
     {
       "id": "l50x5d-1mfabo8",
@@ -4634,6 +5041,30 @@
       "mergedItemCount": 3
     },
     {
+      "id": "gtjre9-kx83sb",
+      "title": "Atom Shipping Update",
+      "description": "Since I know many people are eager for news on floatwheel atom shipping updates, I have an early bird order which would be one of the first non beta boards to ship. I just noticed mine shipped 2 days ago 10/08/26, so I should have it in 43 days or less now. submitted by /u/Gravity_Wrangler [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Since I know many people are eager for news on floatwheel atom shipping updates, I have an early bird order which would be one of the first non beta boards to ship. I just noticed mine shipped 2 days ago 10/08/26, so I should have it in 43 days or less now. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Gravity_Wrangler\"> /u/Gravity_Wrangler </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x2mczx/atom_shipping_update/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x2mczx/atom_shipping_update/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x2mczx/atom_shipping_update/",
+      "publishedAt": "2026-10-10T18:27:45.000Z",
+      "author": "/u/Gravity_Wrangler",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.104Z"
+    },
+    {
       "id": "nn7jia-503sdn",
       "title": "Linnpower Urban - X 2wd Lite review",
       "description": "GET YOURS HERE discount code “esk8unity” https://linnpower.com/?aff=11 DISCOUNT CODES. *SHREDLIGHTS*: “esk8unity” discount code https://shredlights.com/?aff=278 *CLOUDWHEELS*: “esk8unity” discount code https://icloudwheel.com/v/ESK8UNITY *Omni Esk8* (tons of parts. pullies/tires/batteries/bearings/gear drive): discount code: “esk8unity”. https://omniesk8.com EVOLVE BOARDS. (discount code”ESK8UNITY_50OFF”) https://evolveskateboardsusa.com/?sca_ref=4156010.2sntJUeiIs (type in “we want to know” for evolve review to get coupon) Newsesh Boards discount code “esk8unity” https://newsesh.com/electric-skateboard/echo-gtp/ LINNPOWER discount code “esk8unity” https://linnpower.com/?aff=11 NEXT GEN REFERRAL LINK https://www.nextgenmobility.org/?sca_ref=11099032.ROxZjmJjoomr jackrabbit referral link https://jackrabbit.bike?stamped_referral_code=e1ad68b3&rewards-launcher=view-referrals-claim UDITER BOARDS discount code “esk8unity” https://uditerboard.com/?ref=ESK8UNITY ONECNA SCOOTERS discount code “esk8unity” https://onecnascooter.com/ESK8UNITY riptide bushings discount code: ILAKSGKC5 https://www.riptidesports.com/skateboard/bushing-formulas/krank/krank-barrel/ *ONSRA* discount code “esk8unity” link: https://onsracalifornia.com/?ref=85yjVelrMdob link: https://rideonsra.com/?ref=esk8unity PROPEL boards “esk8unity” discount code https://ridepropel.com/?ref=21 NICKELEYES discount code : ESK8UNITY https://nickeleyes.com/?fbclid=PAQ0xDSwMSvX1leHRuA2FlbQIxMAABp5ymazRcfPzyF-TWCo910d9SD7eiShIOw2iYF7X6SrO5eRWSM-uvhir5SVy__aem_wmRkHu2Nv9DKgCwdzSK-2g Aipas ebikes discount code “esk8unity” https://aipasbike.com/?ref=ESKUNITY thousand helmets discount link! https://www.explorethousand.com/a/refer-a-friend/redeem/aanwn90sgp59qqab6f0flajsnpicdan6v8o1m4bn/4989 Parsec boards discount code “esk8unity” https://shop.rideparsec.com/?ref=esk8unity ISINWHEEL discount code “esk8unity1” for the V10 board discount code “esk8unity” for all other boards and pev’s https://www.isinwheel.com/?ref=fBhgIUCM Cavity boards discount code “esk8unity” https://www.cavityboards.com/?ref=esk8unity Loaded/orangatang link: https://get.loadedboards.com/fred-onorato backfire boards “esk8unity” discount code Backfire boards world wide https://www.shareasale.com/u.cfm?d=1079037&m=92892&u=3456296 backfire scooters https://backfirescooter.com/?ref=esk8unity evolve accessories http://evolveskateboardsu.refr.cc/fredonorato acedeck discount code: esk8unity link https://acedeckboards.com/?aff=4 Tynee board discount code “esk8unity” https://tyneeboard.com?aff=67 VBELT GUYS “TEN10TENOFF” OWNBOARD discount code “esk8unity “ https://www.ownboard.net/?rfsn=7574548.eb9f158&utm_source=refersion&utm_medium=affiliate&utm_campaign=7574548.eb9f158 momentum boards: esk8unity momentum/hollow wheels link https://momentum-boards.com/?srrf=6WcnB meepo: esk8unity meepo affiliate link: https://www.meepoboard.com/?aff=107 meepo discount accessories link: https://loox.io/z/NJ5RXWSOp Ghostlongboards ghost longboards discount code esk8unity Ghostboards.com/ref/esk8unity Verreal boards link https://iverreal.myshopify.com/?rfsn=4597991.ff91b1 omw boards discount code “esk8unity” https://omwboards.com/?aff=2 Kugoo scooters discount code “esk8unity” g2 discount code “esk8unityg2” https://www.kugooscooterusa.com/?aff=6 lorentz major discount code “esk8unity” https://lorentzboards.com/?ref=esk8unity veymax: discount code “esk8unity” https://veymax.com/discount/ESK8UNITY?rs_ref=e8HA2Lm2 exway: esk8unity ORORO heated jackets: esk8unity https://www.ororowear.com/discount/esk8unity Tynee boards https://tyneeboard.com?aff=67 elofty boards discount code “esk8unity” https://eloftyboards.com/?aff=3 Yoc griptape: esk8unity (discount code) link: https://yocgrip.com/?ref=esk8unity JKING board “esk8unity” discount code https://jkingboard.com/?ref=9y62voesqOo_hn maxfind: discount code : “esk8unity” https://www.maxfind.com?sca_ref=1594585.EzfWf82njG Varla scooters discount code “esk8unity” https://varlascooter.com/ESK8UNITY Kingsong discount codes “esk8unity” https://www.kingsong.com/?ref=ESKUNITY tst ebikes discount code “esk8unity” https://tstebike.com/ESK8UNITY inmotion wheels “esk8unity” discount code https://store.inmotionworld.com/?ref=bjfgcadl Himiway ebikes. discount code “esk8unity” https://himiwaybike.com/ESK8UNITY outdoor master caribou & skate helmets: “esk8unity” https://outdoormaster.com/?ref=esk8unity&utm_medium=inhouse&utm_source=affiliate IF anyone would like to donate any amount of funds to help support the channel, my paypal and venmo are below. Lotsss of time and effort and devices go into just one review.. Just leave a comment when you donate so I can show some love back in our videos. 🙏🏼 thank you for watching 😁😁 paypal: hatchgsr04@aol.com venmo: @esk8unity",
@@ -4653,6 +5084,54 @@
         "esk8unity-1qty9u8"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "jdhz7h-kx83sb",
+      "title": "XRV turns on but wont turn off",
+      "description": "Just intalled XRV kit and the board turns on but wont turn off. Tried 2 different powerbuttons. Only way to turn off is by unpluging battery or after about 20-30 minutes it shuts itself off. Any recomendations. I have already reached out to Toney. submitted by /u/Serious-Upstairs5059 [link] [comments]",
+      "contentHtml": "<!-- SC_OFF --><div class=\"md\"><p>Just intalled XRV kit and the board turns on but wont turn off. Tried 2 different powerbuttons. Only way to turn off is by unpluging battery or after about 20-30 minutes it shuts itself off. Any recomendations. I have already reached out to Toney.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Serious-Upstairs5059\"> /u/Serious-Upstairs5059 </a> <br/> <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x258vi/xrv_turns_on_but_wont_turn_off/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x258vi/xrv_turns_on_but_wont_turn_off/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x258vi/xrv_turns_on_but_wont_turn_off/",
+      "publishedAt": "2026-10-10T03:44:57.000Z",
+      "author": "/u/Serious-Upstairs5059",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.111Z"
+    },
+    {
+      "id": "7qrus0-kx83sb",
+      "title": "Would ya choose an Adv2 or Atom?",
+      "description": "submitted by /u/Shawck [link] [comments]",
+      "contentHtml": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Shawck\"> /u/Shawck </a> <br/> <span><a href=\"/r/onewheel/comments/1x256fh/adv2_or_atom/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x2573l/would_ya_choose_an_adv2_or_atom/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x2573l/would_ya_choose_an_adv2_or_atom/",
+      "publishedAt": "2026-10-10T03:42:06.000Z",
+      "author": "/u/Shawck",
+      "videoId": "",
+      "image": "",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 316,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.150Z"
     },
     {
       "id": "1a87ni0-1mfabo8",
@@ -4695,6 +5174,30 @@
         "vinie-vizzle-7ackvr"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "7stbk7-kx83sb",
+      "title": "Major Service Questions",
+      "description": "I have a 2 year old ADV2 with about 1000 miles. I use it almost daily. Wondering what, if any, recommended service to help ensure it stays safe to ride? Also, what would you guess the value would be on the used market? Considering getting a new one at some point just to help keep peace of mind. thanks! submitted by /u/Just-Construction788 [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x163oj/major_service_questions/\"> <img src=\"https://preview.redd.it/rtf8m0oovbuh1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=5926c8a79636485c5ed0249efbc36ee1afe2d96d\" alt=\"Major Service Questions\" title=\"Major Service Questions\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I have a 2 year old ADV2 with about 1000 miles. I use it almost daily. Wondering what, if any, recommended service to help ensure it stays safe to ride?</p> <p>Also, what would you guess the value would be on the used market? Considering getting a new one at some point just to help keep peace of mind. </p> <p>thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Just-Construction788\"> /u/Just-Construction788 </a> <br/> <span><a href=\"https://i.redd.it/rtf8m0oovbuh1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1x163oj/major_service_questions/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1x163oj/major_service_questions/",
+      "publishedAt": "2026-10-08T23:29:41.000Z",
+      "author": "/u/Just-Construction788",
+      "videoId": "",
+      "image": "https://preview.redd.it/rtf8m0oovbuh1.jpeg?width=640&crop=smart&auto=webp&s=5926c8a79636485c5ed0249efbc36ee1afe2d96d",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.165Z"
     },
     {
       "id": "rlvxna-48s3eu",
@@ -4800,6 +5303,30 @@
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "3p7s54-kx83sb",
+      "title": "Sanity",
+      "description": "submitted by /u/borisisreliable [link] [comments]",
+      "contentHtml": "<table> <tr><td> <a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1wypn0w/sanity/\"> <img src=\"https://preview.redd.it/v55s3z39yqth1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=d7e10fb47bd494c020e8e164dc765cab0aa1db3a\" alt=\"Sanity\" title=\"Sanity\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/borisisreliable\"> /u/borisisreliable </a> <br/> <span><a href=\"https://i.redd.it/v55s3z39yqth1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatwheelTeam/comments/1wypn0w/sanity/\">[comments]</a></span> </td></tr></table>",
+      "url": "https://www.reddit.com/r/FloatwheelTeam/comments/1wypn0w/sanity/",
+      "publishedAt": "2026-10-06T01:06:51.000Z",
+      "author": "/u/borisisreliable",
+      "videoId": "",
+      "image": "https://preview.redd.it/v55s3z39yqth1.jpeg?width=640&crop=smart&auto=webp&s=d7e10fb47bd494c020e8e164dc765cab0aa1db3a",
+      "sourceId": "reddit-r-floatwheelteam-hot-rtv69v",
+      "source": "Reddit r/FloatwheelTeam (hot)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
+      "duplicateSourceIds": [
+        "reddit-r-floatwheelteam-hot-rtv69v"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-02T18:28:28.174Z"
     },
     {
       "id": "hee639-1k6th9l",
@@ -7502,7 +8029,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -9878,7 +10405,7 @@
       "image": "https://preview.redd.it/bppkxwkvejkh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=dbe58ec62be52cbd33a0af99b8a079802a22e0c8",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -10408,7 +10935,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -10741,7 +11268,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -11303,7 +11830,7 @@
       "image": "https://preview.redd.it/agukvmq48odh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=122e21829a7c2af221fea53797df7f8074535b37",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -11569,7 +12096,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -11614,7 +12141,7 @@
       "image": "https://preview.redd.it/0yk6mdgoh3bh1.jpeg?width=640&crop=smart&auto=webp&s=5906d2f3cacade7df68da79a95099fe00d023a5f",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -11659,7 +12186,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -13767,7 +14294,7 @@
       "image": "https://preview.redd.it/40qgae4k1pog1.jpeg?width=640&crop=smart&auto=webp&s=2208f9e11e0a6eef2f2099c12bd13e947de90e32",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -13972,7 +14499,7 @@
       "image": "https://external-preview.redd.it/OWZpanVoMGdkcm1nMTqb51bOpbbqE2JeDsQfSHGiZrVpYMfeVoIiwZJH_6BR.png?width=640&crop=smart&auto=webp&s=a09ef53f200a8c7f71c8f423e610903564a5286e",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -14228,7 +14755,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -14530,7 +15057,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -14575,7 +15102,7 @@
       "image": "",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -14734,7 +15261,7 @@
       "image": "https://external-preview.redd.it/d2NscmZ6cWd0OWJnMZsfYw_-o3G-YRJmy48IAeMhv9Z5F2AKfe1yiALgpiG3.png?width=640&crop=smart&auto=webp&s=af42bbde0a01db419c7a24ec597aa45722794741",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -15002,7 +15529,7 @@
       "image": "https://b.thumbs.redditmedia.com/ZhRDKZRF5jqtejKfCenQ17VVYii_pRanVv5Ln5UQBAM.jpg",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -15460,7 +15987,7 @@
       "image": "https://preview.redd.it/sakwn0e1vdwf1.jpeg?width=640&crop=smart&auto=webp&s=36c60cec8c6ab36249573fa79e40402e8eec2484",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -15658,7 +16185,7 @@
       "image": "https://b.thumbs.redditmedia.com/QkZcB8HKN7N5F_lPFqn-Ir9zTq-MRplQBc4bYRhYZ-E.jpg",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -15682,7 +16209,7 @@
       "image": "https://preview.redd.it/8wwrwikzkmqf1.jpeg?width=640&crop=smart&auto=webp&s=6759a938f2ec1e9bd0c92d76f2de6d3b425861ef",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -15706,7 +16233,7 @@
       "image": "https://preview.redd.it/iqiifhbajeqf1.jpeg?width=640&crop=smart&auto=webp&s=d2b869a895c7286e2b007e2e85514fb00de421e2",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -15817,7 +16344,7 @@
       "image": "https://external-preview.redd.it/Jl8mxhOqXeayFElzZ-atBgMRbPDFv0hFuqCYPBREkzo.jpeg?width=320&crop=smart&auto=webp&s=faa9541b2b06fe6b78f266ef9f1f7d87f97b4082",
       "sourceId": "top-posts-on-r-electricskateboarding-containing-onewheel-1f26fww",
       "source": "Top posts on r/ElectricSkateboarding containing \"onewheel\"",
-      "sourceDomain": "api.reddit.com",
+      "sourceDomain": "www.reddit.com",
       "sourceKind": "social",
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/ElectricSkateboarding/search.rss?q=%22onewheel%22&restrict_sr=1&sort=top&t=year",
@@ -17051,7 +17578,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -19519,7 +20046,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -26498,30 +27025,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1ngnsde-1k6th9l",
-      "title": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - Lookout Santa Cruz",
-      "description": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials Lookout Santa Cruz",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5\" target=\"_blank\">Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lookout Santa Cruz</font>",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5",
-      "publishedAt": "2023-10-04T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "i89pfl-1joxsrd",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
@@ -26542,6 +27045,28 @@
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1ngnsde-1k6th9l",
+      "title": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - Lookout Santa Cruz",
+      "description": "Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials Lookout Santa Cruz",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5\" target=\"_blank\">Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lookout Santa Cruz</font>",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTG9EMzdaVjJOQ0hwR0N5WWdfUzlOald6Wmx6QnJZTW5uWXlzWF94YUt0ejJNbHE5YmtNQURCMkZmRlZ2MTRlbG0tSlJrVk1mTTlCMTk5cHhKRy1jb1dVUlg3N3JKUzlhTnJZd1kxYkZDUnlNVXVlbmhQeWhMSVBRcTMydmsxczRINXoxNkFCR0xPckpvaGFZR05WTWtOV0dIQ215NUxRTGNiQ0FuYTAycEp3TjdKYUNISTg3RGdPZDN3bXRvNnJfcUtKSQ?oc=5",
+      "publishedAt": "2023-10-04T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -27233,6 +27758,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "1ate0jg-1joxsrd",
+      "title": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards - SILive.com",
+      "description": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards SILive.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB0gHGAUFVX3lxTE9fZDVSYjZ1T3kzcGpacHhLOXN5YXY5NlRaMVU0NHpxWTJEQlFQNUNsdzZhTDlGU3VQNks3YnRhNHhqZVdKd2dfSHc5Q0tNQkwzeXJnVDhwcXgxV0p0UzRtbmRySTdzdzVxbTBYWXpZNzhUSXBOakhpN2dtYkNmMFgwbVZ0YUdUWHdDV0NPZjdLQ2JzU0VId0V6UFZONlgzeEdJaFpvcmNRdnVXaVE1RFBCc0twMGlWS05wMW1QVFJsajFCUWZNQQ?oc=5\" target=\"_blank\">After 4 deaths, Onewheel electric skateboards recalled for crash hazards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SILive.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "1he8fki-1joxsrd",
       "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
       "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
@@ -27326,29 +27874,6 @@
       "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 NBC 4 New York",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2NyVlNjUVFTMUxBSWF4TFJVX3BERkktb1VyX1Y3ZkpzMEVnQTc0ZVFZTHhLVmt4azZYVkdsT29HOUVHd0hnMDhKaURXb3FPN2RQTkRYN1EyR1c2WlY0bWdlNW1oaXRwamJiMDVGUERtUW44cmJjeHRFdzRCMEhmbThUYkl2WmRFUXM3T0lSU1BIOWJWX3lKVExtNVVIU2VHSmJVczZ4dHhBVnNDdmJFd1FNQ01EVm1UZzBwLXBSTEtEN2R1WGfSAc4BQVVfeXFMTW1aYnBWVTZ6NjFKYUJ5U0h1VElRai1kX21pNktiSmpXNTM2NmZmZ2U1cXdjVGh4UXBHRnk5SER0SVRTVmxXZVJVNVo3c1FmeVJpemtlOVNfMGpUcW51bWx5NkMtem83QXgzY25xSkNlNFNsRlU5cVlFZVE1X2ExbkkyQ2d6TWt1dkF2XzY2TFo1YUxSdG9GSDFMSnZ3dXkyUUdHa0JwR3JHVFdTMkNqM2ZVZFZ2YTdvck02cGZuS1lfTGxYbXM1U0FUY2w5T1E?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC 4 New York</font>",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOX2NyVlNjUVFTMUxBSWF4TFJVX3BERkktb1VyX1Y3ZkpzMEVnQTc0ZVFZTHhLVmt4azZYVkdsT29HOUVHd0hnMDhKaURXb3FPN2RQTkRYN1EyR1c2WlY0bWdlNW1oaXRwamJiMDVGUERtUW44cmJjeHRFdzRCMEhmbThUYkl2WmRFUXM3T0lSU1BIOWJWX3lKVExtNVVIU2VHSmJVczZ4dHhBVnNDdmJFd1FNQ01EVm1UZzBwLXBSTEtEN2R1WGfSAc4BQVVfeXFMTW1aYnBWVTZ6NjFKYUJ5U0h1VElRai1kX21pNktiSmpXNTM2NmZmZ2U1cXdjVGh4UXBHRnk5SER0SVRTVmxXZVJVNVo3c1FmeVJpemtlOVNfMGpUcW51bWx5NkMtem83QXgzY25xSkNlNFNsRlU5cVlFZVE1X2ExbkkyQ2d6TWt1dkF2XzY2TFo1YUxSdG9GSDFMSnZ3dXkyUUdHa0JwR3JHVFdTMkNqM2ZVZFZ2YTdvck02cGZuS1lfTGxYbXM1U0FUY2w5T1E?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "d4l0s0-1joxsrd",
-      "title": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards - SILive.com",
-      "description": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards SILive.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB0gHGAUFVX3lxTE9fZDVSYjZ1T3kzcGpacHhLOXN5YXY5NlRaMVU0NHpxWTJEQlFQNUNsdzZhTDlGU3VQNks3YnRhNHhqZVdKd2dfSHc5Q0tNQkwzeXJnVDhwcXgxV0p0UzRtbmRySTdzdzVxbTBYWXpZNzhUSXBOakhpN2dtYkNmMFgwbVZ0YUdUWHdDV0NPZjdLQ2JzU0VId0V6UFZONlgzeEdJaFpvcmNRdnVXaVE1RFBCc0twMGlWS05wMW1QVFJsajFCUWZNQQ?oc=5\" target=\"_blank\">After 4 deaths, Onewheel electric skateboards recalled for crash hazards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SILive.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB0gHGAUFVX3lxTE9fZDVSYjZ1T3kzcGpacHhLOXN5YXY5NlRaMVU0NHpxWTJEQlFQNUNsdzZhTDlGU3VQNks3YnRhNHhqZVdKd2dfSHc5Q0tNQkwzeXJnVDhwcXgxV0p0UzRtbmRySTdzdzVxbTBYWXpZNzhUSXBOakhpN2dtYkNmMFgwbVZ0YUdUWHdDV0NPZjdLQ2JzU0VId0V6UFZONlgzeEdJaFpvcmNRdnVXaVE1RFBCc0twMGlWS05wMW1QVFJsajFCUWZNQQ?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -30118,9 +30643,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -32678,7 +33201,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "13wsk49-1k6th9l",
+      "id": "13wsk49-1joxsrd",
       "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
       "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
@@ -32687,15 +33210,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
     },
@@ -36673,7 +37198,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 125,
-      "articleCount": 1520
+      "articleCount": 1542
     },
     {
       "id": "onewheel",
@@ -36694,7 +37219,7 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 629
+      "articleCount": 630
     },
     {
       "id": "gear",
@@ -36715,7 +37240,7 @@
       "title": "Community pulse",
       "url": "/feeds/community.xml",
       "sourceCount": 19,
-      "articleCount": 331
+      "articleCount": 352
     }
   ]
 }

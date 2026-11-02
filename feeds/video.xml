@@ -5,10 +5,22 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 02 Nov 2026 12:30:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 18:28:28 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
-      <title><![CDATA[Skrrrt Parkt - Bring Your Feature Freestyle Sesh 2]]></title>
+      <title><![CDATA[Alexis with the onewheel flow #skrrrt]]></title>
+      <link>https://www.youtube.com/shorts/cmCIXq5_Irs</link>
+      <guid isPermaLink="false">1hlrw7z-48s3eu</guid>
+      <pubDate>Mon, 02 Nov 2026 18:14:29 GMT</pubDate>
+      <description><![CDATA[<p>Skrrrt freestyle session with Alexis.</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i4.ytimg.com/vi/cmCIXq5_Irs/hqdefault.jpg" alt="" /></p><p>Skrrrt freestyle session with Alexis.</p>]]></content:encoded>
+      <media:thumbnail url="https://i4.ytimg.com/vi/cmCIXq5_Irs/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=cmCIXq5_Irs" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
+    </item>
+    <item>
+      <title><![CDATA[Skrrrt Park - Bring Your Feature Freestyle Sesh 2]]></title>
       <link>https://www.youtube.com/watch?v=xhGwO6Yb7Rk</link>
       <guid isPermaLink="false">ah2t4j-48s3eu</guid>
       <pubDate>Sun, 01 Nov 2026 19:00:08 GMT</pubDate>
