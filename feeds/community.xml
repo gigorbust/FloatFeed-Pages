@@ -5,8 +5,20 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 02 Nov 2026 00:45:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 06:40:10 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Lego one wheel]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1xllzi9/lego_one_wheel/</link>
+      <guid isPermaLink="false">wjpia2-1tmrdpk</guid>
+      <pubDate>Mon, 02 Nov 2026 02:52:50 GMT</pubDate>
+      <description><![CDATA[<p>Got bored while babysitting and saw sum legos and made this master piece submitted by /u/Commercial_Relief656 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/onewheel/comments/1xllzi9/lego_one_wheel/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/zrrq6wxv54zh1.jpeg?width=140&amp;height=78&amp;auto=webp&amp;s=9be035e6201920eebce5ab17df3e18b9f6dd8ca0" alt="Lego one wheel" title="Lego one wheel" /> </a> </td><td> <div><p>Got bored while babysitting and saw sum legos and made this master piece </p> </div>   submitted by   <a href="https://www.reddit.com/user/Commercial_Relief656" target="_blank" rel="noopener noreferrer"> /u/Commercial_Relief656 </a> <br /> <span><a href="https://www.reddit.com/gallery/1xllzi9" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1xllzi9/lego_one_wheel/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/zrrq6wxv54zh1.jpeg?width=140&amp;height=78&amp;auto=webp&amp;s=9be035e6201920eebce5ab17df3e18b9f6dd8ca0" />
+
+      <dc:creator>/u/Commercial_Relief656</dc:creator>
+      <source url="https://www.reddit.com/r/onewheel/top/.rss?t=day">Reddit r/onewheel (top) (Top)</source>
+    </item>
     <item>
       <title><![CDATA[OneWheel Pint BMS Module wanted!]]></title>
       <link>http://owforum.co.uk/topic/570/onewheel-pint-bms-module-wanted</link>
@@ -18,6 +30,18 @@
 
       <dc:creator>bradster3</dc:creator>
       <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
+    </item>
+    <item>
+      <title><![CDATA[New (used) Pint owner — what should stepping on and balancing actually feel like?]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1xlcobr/new_used_pint_owner_what_should_stepping_on_and/</link>
+      <guid isPermaLink="false">11jdsm-1tmrdpk</guid>
+      <pubDate>Sun, 01 Nov 2026 19:54:47 GMT</pubDate>
+      <description><![CDATA[<p>Hi all, just picked up a used 2019 Pint (126 lifetime miles, battery at 99%) and it&apos;s my first Onewheel. It paired fine and I&apos;ve only ridden it in the garage so far. Redwood felt soft and a bit wobbly, Skyline felt tighter. Since I&apos;ve never ridden one of these, I want to make sure the gyro and motor are working properly. A few questions: When I step on, exactly what should I feel? How firm should the self-leveling be? How can I tell the gyro and motor are healthy — are there checks I should do? Is side-to-side wobble at low speed normal for a beginner, or a sign of a problem? Anything else I should check on a used Pint before riding it more? Thanks! submitted by /u/AnyFarmer8046 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Hi all, just picked up a used 2019 Pint (126 lifetime miles, battery at 99%) and it's my first Onewheel. It paired fine and I've only ridden it in the garage so far. Redwood felt soft and a bit wobbly, Skyline felt tighter.</p> <p>Since I've never ridden one of these, I want to make sure the gyro and motor are working properly. A few questions:</p> <ol> <li>When I step on, exactly what should I feel? How firm should the self-leveling be?</li> <li>How can I tell the gyro and motor are healthy — are there checks I should do?</li> <li>Is side-to-side wobble at low speed normal for a beginner, or a sign of a problem?</li> <li>Anything else I should check on a used Pint before riding it more?</li> </ol> <p>Thanks!</p> </div>   submitted by   <a href="https://www.reddit.com/user/AnyFarmer8046" target="_blank" rel="noopener noreferrer"> /u/AnyFarmer8046 </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/1xlcobr/new_used_pint_owner_what_should_stepping_on_and/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1xlcobr/new_used_pint_owner_what_should_stepping_on_and/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/AnyFarmer8046</dc:creator>
+      <source url="https://www.reddit.com/r/onewheel/top/.rss?t=day">Reddit r/onewheel (top) (Top)</source>
     </item>
     <item>
       <title><![CDATA[Introducing The HITBOX Bracket | Customizable Mounting for Footholds and Accessories]]></title>
@@ -461,7 +485,7 @@
 
 
       <dc:creator>Franz</dc:creator>
-      <source url="https://dev.to/feed">DEV Community (Site feed)</source>
+      <source url="https://dev.to/feed/">DEV Community (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Need onewheel]]></title>
