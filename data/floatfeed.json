@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T00:44:11.362Z",
+  "generatedAt": "2026-11-03T06:33:16.869Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 361,
@@ -1023,13 +1023,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
+        "endpoint": "empty_feed",
         "ingestion": "succeeded",
         "cache": "not_used",
-        "content": "nonempty",
+        "content": "empty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "ok_empty"
     },
     {
       "id": "east-ride-de-1mh6j40",
@@ -1661,7 +1661,7 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1749,7 +1749,7 @@
       "articleCount": 13,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1815,7 +1815,7 @@
       "articleCount": 11,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1881,7 +1881,7 @@
       "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2045,8 +2045,8 @@
     },
     {
       "id": "leon-chang-17x8i3f",
-      "title": "Leon Chang",
-      "displayName": "Leon Chang",
+      "title": "Leon Chang (YouTube)",
+      "displayName": "Leon Chang (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCIwQe0ros1sQKfsDN0544Zg",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIwQe0ros1sQKfsDN0544Zg",
@@ -2343,7 +2343,7 @@
       "articleCount": 5,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2409,7 +2409,7 @@
       "articleCount": 11,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2475,7 +2475,7 @@
       "articleCount": 18,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2497,7 +2497,7 @@
       "articleCount": 16,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2739,13 +2739,13 @@
       "articleCount": 31,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "vow-1xtz51n",
@@ -23466,7 +23466,7 @@
       "videoId": "ez99VcGNFJc",
       "image": "https://i2.ytimg.com/vi/ez99VcGNFJc/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -25076,7 +25076,7 @@
       "videoId": "BwStG5CRnPs",
       "image": "https://i3.ytimg.com/vi/BwStG5CRnPs/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -25911,7 +25911,7 @@
       "videoId": "yKqVTMpzuVQ",
       "image": "https://i2.ytimg.com/vi/yKqVTMpzuVQ/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -27684,11 +27684,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "gi4tg2-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
-      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
+      "id": "1v6lmtn-1joxsrd",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foxbusiness.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -27707,11 +27707,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1v6lmtn-1joxsrd",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foxbusiness.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5",
+      "id": "gi4tg2-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
+      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -28988,7 +28988,7 @@
       "videoId": "qIPj5jP04jA",
       "image": "https://i2.ytimg.com/vi/qIPj5jP04jA/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -29721,7 +29721,7 @@
       "videoId": "ZOE2uXDCulY",
       "image": "https://i3.ytimg.com/vi/ZOE2uXDCulY/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -30071,7 +30071,7 @@
       "videoId": "6mXfpLLLJSo",
       "image": "https://i3.ytimg.com/vi/6mXfpLLLJSo/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -30370,7 +30370,7 @@
       "videoId": "RBbEkRj6c68",
       "image": "https://i3.ytimg.com/vi/RBbEkRj6c68/hqdefault.jpg",
       "sourceId": "leon-chang-17x8i3f",
-      "source": "Leon Chang",
+      "source": "Leon Chang (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
