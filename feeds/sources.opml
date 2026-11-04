@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Wed, 04 Nov 2026 12:29:56 GMT</dateCreated>
+    <dateCreated>Wed, 04 Nov 2026 18:25:45 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -148,7 +148,7 @@
       <outline text="floatwheel" title="floatwheel" type="rss" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_7p3yqxNR24i-9Qtu1Haxg" htmlUrl="https://www.youtube.com/channel/UC_7p3yqxNR24i-9Qtu1Haxg" />
     </outline>
     <outline text="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources" title="feed | ok_nonempty | website_discovery | configured | DEFAULT_FEED_SOURCES | public.manual_rss_sources">
-      <outline text="FlightFins Store" title="FlightFins Store" type="rss" xmlUrl="https://flightfins.com/feed/" htmlUrl="https://flightfins.com/" />
+      <outline text="FlightFins Store (Site feed)" title="FlightFins Store (Site feed)" type="rss" xmlUrl="https://flightfins.com/feed" htmlUrl="https://flightfins.com/" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | list-1264927333211308032">
       <outline text="Float World (Deals Of The Week)" title="Float World (Deals Of The Week)" type="rss" xmlUrl="https://www.floatworlds.com/collections/deals-of-the-week.atom" htmlUrl="https://float-world.myshopify.com/collections/all" />
