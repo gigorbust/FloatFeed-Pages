@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:43:09.853Z",
+  "generatedAt": "2026-11-04T06:32:46.598Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 364,
@@ -143,7 +143,7 @@
       "articleCount": 43,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "auth_or_robots_block",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -354,7 +354,7 @@
       "title": "Reddit r/onewheel (top) (Top)",
       "displayName": "Reddit r/onewheel (top) (Top)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/onewheel/top/?t=day",
+      "siteUrl": "https://www.reddit.com/r/onewheel/top?t=day",
       "feedUrl": "https://www.reddit.com/r/onewheel/top/.rss?t=day",
       "deck": "community",
       "kind": "social",
@@ -363,13 +363,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "r-onewheel-fl-yt2esa",
@@ -1033,11 +1033,11 @@
     },
     {
       "id": "east-ride-de-1mh6j40",
-      "title": "East Ride DE (Site feed)",
-      "displayName": "East Ride DE (Site feed)",
+      "title": "East Ride DE",
+      "displayName": "East Ride DE",
       "domain": "eastride.de",
       "siteUrl": "https://eastride.de/",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1045,13 +1045,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "fallman-tech-onewheel-search-feed-onewheel-search-1k1p7f8",
@@ -1419,7 +1419,7 @@
       "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1441,7 +1441,7 @@
       "articleCount": 14,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1485,7 +1485,7 @@
       "articleCount": 8,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1573,7 +1573,7 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1771,18 +1771,18 @@
       "articleCount": 12,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "float-addicts-10ohrpj",
-      "title": "Float Addicts",
-      "displayName": "Float Addicts",
+      "title": "Float Addicts (YouTube)",
+      "displayName": "Float Addicts (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCNiKK7zXx76ugiFYQhsHZww",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww",
@@ -1793,13 +1793,13 @@
       "articleCount": 6,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "floatips-m1halt",
@@ -1837,7 +1837,7 @@
       "articleCount": 8,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1859,13 +1859,13 @@
       "articleCount": 16,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "flowwolf-rider-10p58c7",
@@ -1881,7 +1881,7 @@
       "articleCount": 15,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1903,13 +1903,13 @@
       "articleCount": 12,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "ict-onewheelbros-i044b1",
@@ -1969,13 +1969,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "jeff-barksdale-1wc30gl",
@@ -1991,7 +1991,7 @@
       "articleCount": 6,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2013,7 +2013,7 @@
       "articleCount": 4,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2079,7 +2079,7 @@
       "articleCount": 14,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2101,13 +2101,13 @@
       "articleCount": 5,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "matt-feige-aka-onewheel-tire-guru-bpwbwm",
@@ -2189,7 +2189,7 @@
       "articleCount": 6,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2211,13 +2211,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "one-with-wheel-george-g-zpiav",
@@ -2233,7 +2233,7 @@
       "articleCount": 13,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2299,7 +2299,7 @@
       "articleCount": 8,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2343,7 +2343,7 @@
       "articleCount": 5,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2365,13 +2365,13 @@
       "articleCount": 7,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "richard-kohberger-1tgsqyn",
@@ -2409,13 +2409,13 @@
       "articleCount": 11,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "youtube-scotmendenhall-youtube-fhbqec",
@@ -2453,7 +2453,7 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2475,7 +2475,7 @@
       "articleCount": 18,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2519,7 +2519,7 @@
       "articleCount": 27,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2541,7 +2541,7 @@
       "articleCount": 11,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2563,13 +2563,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "the-m-b-shop-l1xc0s",
@@ -2639,8 +2639,8 @@
     },
     {
       "id": "thedirits-v91wg3",
-      "title": "thedirits",
-      "displayName": "thedirits",
+      "title": "thedirits (YouTube)",
+      "displayName": "thedirits (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UCw8oAlvVdfUZqQASfnnNLnA",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA",
@@ -2651,13 +2651,13 @@
       "articleCount": 4,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "not_found",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "thisfunwheel-1o4wwvi",
@@ -2739,7 +2739,7 @@
       "articleCount": 31,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2856,9 +2856,9 @@
       "duplicateSourceIds": [
         "top-posts-on-r-onewheel-11sf722"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 240,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-04T00:43:09.700Z"
     },
     {
@@ -2880,9 +2880,9 @@
       "duplicateSourceIds": [
         "top-posts-on-r-onewheel-11sf722"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-04T00:43:09.647Z"
     },
     {
@@ -2904,9 +2904,9 @@
       "duplicateSourceIds": [
         "top-posts-on-r-onewheel-11sf722"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-04T00:43:09.639Z"
     },
     {
@@ -2953,9 +2953,9 @@
       "duplicateSourceIds": [
         "top-posts-on-r-onewheel-11sf722"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-04T00:43:09.666Z"
     },
     {
@@ -2977,9 +2977,9 @@
       "duplicateSourceIds": [
         "top-posts-on-r-onewheel-11sf722"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 500,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-04T00:43:09.785Z"
     },
     {
@@ -6875,7 +6875,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -15719,7 +15721,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -17111,9 +17115,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -20795,9 +20797,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -22825,7 +22825,7 @@
       "embedHeightFetchedAt": "2026-10-26T22:49:47.404Z"
     },
     {
-      "id": "larj94-1k6th9l",
+      "id": "larj94-1joxsrd",
       "title": "Onewheel electric skateboard recall: What you need to know - The Manual",
       "description": "Every Onewheel electric skateboard is being recalled (find out who just needs an update and who should ditch their board) The Manual",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBGelpqU2RMWVRwenNYU2J0LUYwTTdtWEd5ekxfWWM1SC1Belg2YUp0TGhRc1ItMEg2RTdCd2VnSTNqUkktbkRlQUhiaFduWXVJd1RWNzRjVDlFTzkxdXQzdmVoWkxMOW9ydlg2TlpUTi11bUxaWWdnQ2ln?oc=5\" target=\"_blank\">Every Onewheel electric skateboard is being recalled (find out who just needs an update and who should ditch their board)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Manual</font>",
@@ -22834,15 +22834,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
     },
@@ -22936,7 +22938,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1htjkpt-1k6th9l",
+      "id": "1htjkpt-1joxsrd",
       "title": "Industry rebel Onewheel launches a premium off-road electric board - Electrek",
       "description": "Industry rebel Onewheel launches a premium off-road electric board electrek.co",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQcFZMMURXY2VlUy1ZeDNmcnBWdUZIZzFScWtUR20xbFQweTY1bjdEekxodmJRUm1KMjB1UEtRZXV6Yk9fZExpdmUxcW9iT0dMX29PM01GUkVPMDlqdkhKVk9BaVlhNU52a1VZSkZFVG1KdE5iMFA1T3VRQldmajduWThZY3haWnhEdDJHWEtMX2dCdUtYemduR3VSQWVyYnc?oc=5\" target=\"_blank\">Industry rebel Onewheel launches a premium off-road electric board</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
@@ -22945,15 +22947,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
     },
@@ -23913,11 +23917,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -27187,7 +27191,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "i89pfl-1k6th9l",
+      "id": "i89pfl-1joxsrd",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5\" target=\"_blank\">What Happed With the Onewheel Recall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">riderguide.com</font>",
@@ -27196,15 +27200,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
     },
@@ -27432,75 +27438,11 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1wlgib8-1joxsrd",
-      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
-      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "1pzkrxv-1k6th9l",
-      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
-      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 4
-    },
-    {
-      "id": "1qjtm5r-1k6th9l",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "qkagye-1joxsrd",
@@ -27595,6 +27537,74 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
+    },
+    {
+      "id": "1pzkrxv-1joxsrd",
+      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
+      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 4
+    },
+    {
+      "id": "1wlgib8-1joxsrd",
+      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
+      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1qjtm5r-1k6th9l",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
     },
     {
       "id": "2a4udp-1k6th9l",
@@ -27822,6 +27832,30 @@
       "mergedItemCount": 3
     },
     {
+      "id": "l9uvac-1joxsrd",
+      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
+      "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "1v6lmtn-1joxsrd",
       "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business",
       "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com",
@@ -27868,35 +27902,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "l9uvac-1joxsrd",
-      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
-      "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 4
-    },
-    {
-      "id": "1ate0jg-1joxsrd",
-      "title": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards - SILive.com",
-      "description": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards SILive.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB0gHGAUFVX3lxTE9fZDVSYjZ1T3kzcGpacHhLOXN5YXY5NlRaMVU0NHpxWTJEQlFQNUNsdzZhTDlGU3VQNks3YnRhNHhqZVdKd2dfSHc5Q0tNQkwzeXJnVDhwcXgxV0p0UzRtbmRySTdzdzVxbTBYWXpZNzhUSXBOakhpN2dtYkNmMFgwbVZ0YUdUWHdDV0NPZjdLQ2JzU0VId0V6UFZONlgzeEdJaFpvcmNRdnVXaVE1RFBCc0twMGlWS05wMW1QVFJsajFCUWZNQQ?oc=5\" target=\"_blank\">After 4 deaths, Onewheel electric skateboards recalled for crash hazards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SILive.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB?oc=5",
+      "id": "1he8fki-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
+      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -27915,11 +27925,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1he8fki-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
-      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5",
+      "id": "1ate0jg-1joxsrd",
+      "title": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards - SILive.com",
+      "description": "After 4 deaths, Onewheel electric skateboards recalled for crash hazards SILive.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB0gHGAUFVX3lxTE9fZDVSYjZ1T3kzcGpacHhLOXN5YXY5NlRaMVU0NHpxWTJEQlFQNUNsdzZhTDlGU3VQNks3YnRhNHhqZVdKd2dfSHc5Q0tNQkwzeXJnVDhwcXgxV0p0UzRtbmRySTdzdzVxbTBYWXpZNzhUSXBOakhpN2dtYkNmMFgwbVZ0YUdUWHdDV0NPZjdLQ2JzU0VId0V6UFZONlgzeEdJaFpvcmNRdnVXaVE1RFBCc0twMGlWS05wMW1QVFJsajFCUWZNQQ?oc=5\" target=\"_blank\">After 4 deaths, Onewheel electric skateboards recalled for crash hazards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SILive.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUTI5Mm0zUU1SUmVpSm5ZVEVMUThVdnVXako0cU1SWWZtZUpoaVFhMHJGS19MNFNKLVZyNlVjb1BxMmRaSWRLeVpwZzBUYjlvUW9rX3dOcTFGeHgxUTdNZUNIVk5GSXpyWjd3VWQxX2dQdUxNVjU1QXJoSGpWcmpDYnk4LW03eGpzd3U0R0tVWGpoSEIzWTZFSUkzQWRQWVVjV0s0X2w3cnFPVG1LOFdha2JB?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -30102,11 +30112,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -30552,11 +30562,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -30777,7 +30787,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -30935,7 +30947,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -31773,7 +31787,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1fsa6f4-1k6th9l",
+      "id": "1fsa6f4-1joxsrd",
       "title": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall - GearJunkie",
       "description": "Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1jeTAzLTFFTkt3NkJ4T0lCTC1fRFdJVG1YSmpLNDFrSlNwVFNIZ1hVU2ExcU54UXR0N3ZCY3hFaVQ0MU9Yei0xenNHZVhsengzY2hRaVdzME5DdnF4ZUNnTGNn?oc=5\" target=\"_blank\">Reports of Injured Bystanders Trigger Onewheel GT Footpad Recall</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
@@ -31782,15 +31796,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
     },
@@ -32306,11 +32322,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -32349,11 +32365,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -32488,11 +32504,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -33286,11 +33302,11 @@
       "mergedItemCount": 2
     },
     {
-      "id": "13wsk49-1joxsrd",
-      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
-      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
+      "id": "vm13z0-1joxsrd",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
+      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
       "publishedAt": "2021-10-27T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -33306,28 +33322,6 @@
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 4
-    },
-    {
-      "id": "vm13z0-1k6th9l",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
-      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 4
     },
@@ -33353,6 +33347,30 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
+    },
+    {
+      "id": "13wsk49-1joxsrd",
+      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
+      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 4
     },
     {
       "id": "1uz8msw-1tth00z",
@@ -33629,11 +33647,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -33844,11 +33862,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -33953,7 +33971,7 @@
       "videoId": "irpgIhnm_Jc",
       "image": "https://i2.ytimg.com/vi/irpgIhnm_Jc/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -34016,7 +34034,7 @@
       "videoId": "aH0yjD_XKPY",
       "image": "https://i2.ytimg.com/vi/aH0yjD_XKPY/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -34058,11 +34076,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -34101,11 +34119,11 @@
       "videoId": "",
       "image": "",
       "sourceId": "east-ride-de-1mh6j40",
-      "source": "East Ride DE (Site feed)",
+      "source": "East Ride DE",
       "sourceDomain": "eastride.de",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://eastride.de/feed",
+      "feedUrl": "https://eastride.de/feed/",
       "duplicateSourceIds": [
         "east-ride-de-1mh6j40",
         "east-ride-de-1kl9s6n"
@@ -34442,7 +34460,7 @@
       "videoId": "chmUusCOSsM",
       "image": "https://i4.ytimg.com/vi/chmUusCOSsM/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -34463,7 +34481,7 @@
       "videoId": "aNZRsjPSqRc",
       "image": "https://i2.ytimg.com/vi/aNZRsjPSqRc/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -34505,7 +34523,7 @@
       "videoId": "7yiEex4ZsbU",
       "image": "https://i4.ytimg.com/vi/7yiEex4ZsbU/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -34526,7 +34544,7 @@
       "videoId": "iU2TeNw_puc",
       "image": "https://i2.ytimg.com/vi/iU2TeNw_puc/hqdefault.jpg",
       "sourceId": "float-addicts-10ohrpj",
-      "source": "Float Addicts",
+      "source": "Float Addicts (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -35499,7 +35517,7 @@
       "videoId": "0shWuGG8B4I",
       "image": "https://i1.ytimg.com/vi/0shWuGG8B4I/hqdefault.jpg",
       "sourceId": "thedirits-v91wg3",
-      "source": "thedirits",
+      "source": "thedirits (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -35588,7 +35606,7 @@
       "videoId": "kwNj2Q_Ljmw",
       "image": "https://i4.ytimg.com/vi/kwNj2Q_Ljmw/hqdefault.jpg",
       "sourceId": "thedirits-v91wg3",
-      "source": "thedirits",
+      "source": "thedirits (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -35609,7 +35627,7 @@
       "videoId": "tJ3aADChl2o",
       "image": "https://i1.ytimg.com/vi/tJ3aADChl2o/hqdefault.jpg",
       "sourceId": "thedirits-v91wg3",
-      "source": "thedirits",
+      "source": "thedirits (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -35744,7 +35762,7 @@
       "videoId": "hKMIvcFqbao",
       "image": "https://i1.ytimg.com/vi/hKMIvcFqbao/hqdefault.jpg",
       "sourceId": "thedirits-v91wg3",
-      "source": "thedirits",
+      "source": "thedirits (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -35913,6 +35931,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "qw1vnz-1joxsrd",
+      "title": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry - New Atlas",
+      "description": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry New Atlas",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5\" target=\"_blank\">Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Atlas</font>",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5",
+      "publishedAt": "2019-03-13T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "vgg1p6-1joxsrd",
       "title": "onewheel pint is a mini, portable one-wheeled skateboard for novices - Designboom",
       "description": "onewheel pint is a mini, portable one-wheeled skateboard for novices designboom.com",
@@ -35935,29 +35976,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "qw1vnz-1joxsrd",
-      "title": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry - New Atlas",
-      "description": "Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry New Atlas",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5\" target=\"_blank\">Smaller, cheaper Onewheel Pint electric skateboard packs a fold-out handle for easier carry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Atlas</font>",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWZ0ZlMUxicUhZNnl4YnBhVGRycVgzVUV0SXJhNjZUNklxM05QQ0Z0YklCSTR0a1UzcDNucHpmQTc4ay1iZWRNc1BYNkZlR3VjS3pubHZtWjZpM1doQVlKbU1B?oc=5",
-      "publishedAt": "2019-03-13T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "1b9ksyh-1joxsrd",
@@ -36067,7 +36085,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },

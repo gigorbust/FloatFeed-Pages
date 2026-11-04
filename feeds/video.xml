@@ -5,7 +5,7 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 04 Nov 2026 00:43:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:32:46 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Alexis with the onewheel flow #skrrrt]]></title>
@@ -7109,7 +7109,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/irpgIhnm_Jc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=irpgIhnm_Jc" /></media:content>
       <dc:creator>Float Addicts</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR : test et avis sur la tenue de route sur tout type de chemin]]></title>
@@ -7133,7 +7133,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/aH0yjD_XKPY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=aH0yjD_XKPY" /></media:content>
       <dc:creator>Float Addicts</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Gent Marathon 2021 - Epic Run After movie]]></title>
@@ -7169,7 +7169,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/chmUusCOSsM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=chmUusCOSsM" /></media:content>
       <dc:creator>Float Addicts</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Stay READY!]]></title>
@@ -7181,7 +7181,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/aNZRsjPSqRc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=aNZRsjPSqRc" /></media:content>
       <dc:creator>Float Addicts</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Première fois avec un Onewheel dans la forêt: est-ce vraiment facile ?]]></title>
@@ -7205,7 +7205,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/7yiEex4ZsbU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=7yiEex4ZsbU" /></media:content>
       <dc:creator>Float Addicts</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[INTO DEEP!]]></title>
@@ -7217,7 +7217,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/iU2TeNw_puc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=iU2TeNw_puc" /></media:content>
       <dc:creator>Float Addicts</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCNiKK7zXx76ugiFYQhsHZww">Float Addicts (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[#2 PARK SESSION at Topia onewheel tricks]]></title>
@@ -7457,7 +7457,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/0shWuGG8B4I/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=0shWuGG8B4I" /></media:content>
       <dc:creator>thedirits</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -7469,7 +7469,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/kwNj2Q_Ljmw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=kwNj2Q_Ljmw" /></media:content>
       <dc:creator>thedirits</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[DIY onewheel from used hoverboard build video]]></title>
@@ -7481,7 +7481,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/tJ3aADChl2o/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=tJ3aADChl2o" /></media:content>
       <dc:creator>thedirits</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[DIY onewheel]]></title>
@@ -7493,7 +7493,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/hKMIvcFqbao/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=hKMIvcFqbao" /></media:content>
       <dc:creator>thedirits</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCw8oAlvVdfUZqQASfnnNLnA">thedirits (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Experience Tour]]></title>
