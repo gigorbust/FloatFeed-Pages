@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-05T12:30:20.957Z",
+  "generatedAt": "2026-11-05T18:28:02.158Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 369,
-    "archiveArticles": 1188
+    "currentArticles": 368,
+    "archiveArticles": 1190
   },
   "decks": [
     {
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 125,
       "feedSourceCount": 123,
-      "articleCount": 1557,
+      "articleCount": 1558,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 632,
+      "articleCount": 633,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -143,7 +143,7 @@
       "articleCount": 44,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "auth_or_robots_block",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -310,7 +310,7 @@
       "title": "Reddit r/onewheel",
       "displayName": "Reddit r/onewheel",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/onewheel?limit=100",
+      "siteUrl": "https://www.reddit.com/r/onewheel",
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "deck": "community",
       "kind": "social",
@@ -319,13 +319,13 @@
       "articleCount": 96,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "reddit-onewheel-best-xcwj1l",
@@ -365,11 +365,11 @@
         "publisher": "unverified",
         "endpoint": "rate_limited",
         "ingestion": "failed",
-        "cache": "fallback",
-        "content": "nonempty",
+        "cache": "not_used",
+        "content": "none",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "blocked_or_unreachable"
     },
     {
       "id": "r-onewheel-fl-yt2esa",
@@ -2516,7 +2516,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 28,
+      "articleCount": 29,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2838,6 +2838,27 @@
   ],
   "articles": [
     {
+      "id": "h3x36v-14o2nhz",
+      "title": "ZEN ZESSIONS || Onewheel Feestyle Film",
+      "description": "When it comes to freestyle Onewheeling, we're all about pushing the limits and redefining what's possible. In this video, we're highlighting one of the most talented and creative riders in the freestyle scene, Jonny Robles. Jonny has been making his mark in the Onewheel community for years, and he's no stranger to the podium. Most recently, he claimed the title of 2025 Seek N Shred Slopestyle Champion, proving once again why he's one of the best in the game. We had the opportunity to film this session at Blue Mountain Event Center, the birthplace of Seek N Shred Shred Fest. We couldn't have asked for a better time of year to capture this place in all its glory. For those who've attended any of the events, from the very first SNS to the sixth, you know just how special this place is to us. We're incredibly grateful for the memories, the community, and the opportunity to keep pushing the sport forward. Sit back, enjoy the riding, and get ready to see Jonny do his thing! Follow Jonny @nimblej530 on IG Also, be sure to check out @upliftedmindz on Instagram! He and his amazing partner Bre create truly one-of-a-kind, handcrafted pieces. Show them some love and check out their work! Follow us on Social! Instagram: @TheFloatLife Reddit: U/TheFloatLife #TheFloatLife #Onewheel #TFL #OnewheelLifestyle #OnewheelXR #OnewheelPint #OnewheelRider #OnewheelPlusXR #OnewheelAccessories #OnewheelTricks",
+      "contentHtml": "<p>When it comes to freestyle Onewheeling, we&#39;re all about pushing the limits and redefining what&#39;s possible. In this video, we&#39;re highlighting one of the most talented and creative riders in the freestyle scene, Jonny Robles.<br><br>Jonny has been making his mark in the Onewheel community for years, and he&#39;s no stranger to the podium. Most recently, he claimed the title of 2025 Seek N Shred Slopestyle Champion, proving once again why he&#39;s one of the best in the game.<br><br>We had the opportunity to film this session at Blue Mountain Event Center, the birthplace of Seek N Shred Shred Fest. We couldn&#39;t have asked for a better time of year to capture this place in all its glory.<br><br>For those who&#39;ve attended any of the events, from the very first SNS to the sixth, you know just how special this place is to us. We&#39;re incredibly grateful for the memories, the community, and the opportunity to keep pushing the sport forward.<br><br>Sit back, enjoy the riding, and get ready to see Jonny do his thing!<br><br>Follow Jonny @nimblej530 on IG<br>Also, be sure to check out @upliftedmindz on Instagram! He and his amazing partner Bre create truly one-of-a-kind, handcrafted pieces. Show them some love and check out their work!<br><br><br>Follow us on Social!<br>Instagram: @TheFloatLife  <br>Reddit: U/TheFloatLife<br><br>#TheFloatLife #Onewheel #TFL #OnewheelLifestyle #OnewheelXR #OnewheelPint  #OnewheelRider #OnewheelPlusXR #OnewheelAccessories #OnewheelTricks</p>",
+      "url": "https://www.youtube.com/watch?v=UW8YDS0EWMg",
+      "publishedAt": "2026-11-05T17:00:02.000Z",
+      "author": "The Float Life",
+      "videoId": "UW8YDS0EWMg",
+      "image": "https://i2.ytimg.com/vi/UW8YDS0EWMg/hqdefault.jpg",
+      "sourceId": "the-float-life-1905vur",
+      "source": "The Float Life",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA",
+      "duplicateSourceIds": [
+        "the-float-life-1905vur"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "1kk7x8i-s1ax57",
       "title": "In The Wild, Photo Share (If Possible To Capture).... Keep Your OneWheel In The Shot If You Can.",
       "description": "The mink sighting stands out to me—road-killed or not, that's a rare one to come across. And the detail about the mama mink carrying a baby rabbit last year is the kind of thing that makes you stop and rethink how much is happening just off the porch. Sensible call on the photo; a still body can be a lot for some folks even without blood. The lizard from your daughter in Louisiana fits the thread's spirit well, especially arriving as a reply to the massasauga shot.",
@@ -2882,7 +2903,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-05T12:30:20.792Z"
     },
     {
@@ -2908,7 +2929,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-05T12:30:20.814Z"
     },
     {
@@ -3053,8 +3074,6 @@
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-hot-rtv69v",
         "reddit-r-onewheel-latest-1hks7dv",
-        "reddit-r-onewheel-latest-pju8wd",
-        "reddit-r-onewheel-latest-ezjdl6",
         "top-posts-on-r-onewheel-11sf722"
       ],
       "mergedItemCount": 3,
@@ -3139,7 +3158,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-05T12:30:20.825Z"
     },
     {
@@ -3165,7 +3184,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-05T12:30:20.824Z"
     },
     {
@@ -3212,7 +3231,7 @@
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-05T12:30:20.901Z"
     },
     {
@@ -4012,9 +4031,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-hot-rtv69v",
-        "reddit-r-onewheel-latest-1hks7dv",
-        "reddit-r-onewheel-latest-pju8wd",
-        "reddit-r-onewheel-latest-ezjdl6"
+        "reddit-r-onewheel-latest-1hks7dv"
       ],
       "mergedItemCount": 3,
       "embedHeight": 316,
@@ -4257,9 +4274,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam/hot/.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-hot-rtv69v",
-        "reddit-r-onewheel-latest-1hks7dv",
-        "reddit-r-onewheel-latest-pju8wd",
-        "reddit-r-onewheel-latest-ezjdl6"
+        "reddit-r-onewheel-latest-1hks7dv"
       ],
       "mergedItemCount": 3,
       "embedHeight": 500,
@@ -17941,7 +17956,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -20409,7 +20424,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -22534,7 +22549,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -36287,9 +36304,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -37570,7 +37585,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 125,
-      "articleCount": 1557
+      "articleCount": 1558
     },
     {
       "id": "onewheel",
@@ -37591,7 +37606,7 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 632
+      "articleCount": 633
     },
     {
       "id": "gear",

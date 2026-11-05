@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Thu, 05 Nov 2026 12:30:21 GMT</dateCreated>
+    <dateCreated>Thu, 05 Nov 2026 18:28:03 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -109,11 +109,8 @@
     <outline text="feed | blocked_or_unreachable | feed | enabled | public.rss_sources | public.rss_sources" title="feed | blocked_or_unreachable | feed | enabled | public.rss_sources | public.rss_sources">
       <outline text="Reddit r/FloatwheelTeam (hot)" title="Reddit r/FloatwheelTeam (hot)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/hot/.rss" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/hot/" />
     </outline>
-    <outline text="website_discovery | blocked_or_unreachable | wrapper | blocked_or_unreachable | Floatwheel AI Feed | Onewheel AI Feed | ONEWHEEL" title="website_discovery | blocked_or_unreachable | wrapper | blocked_or_unreachable | Floatwheel AI Feed | Onewheel AI Feed | ONEWHEEL">
-      <outline text="Reddit r/FloatwheelTeam (new)" title="Reddit r/FloatwheelTeam (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/new/.rss" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/new" />
-    </outline>
     <outline text="feed | cached_fallback | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES" title="feed | cached_fallback | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES">
-      <outline text="Reddit r/onewheel" title="Reddit r/onewheel" type="rss" xmlUrl="https://www.reddit.com/r/onewheel.rss?limit=100" htmlUrl="https://www.reddit.com/r/onewheel?limit=100" />
+      <outline text="Reddit r/onewheel" title="Reddit r/onewheel" type="rss" xmlUrl="https://www.reddit.com/r/onewheel.rss?limit=100" htmlUrl="https://www.reddit.com/r/onewheel" />
     </outline>
     <outline text="feed | enabled | public.rss_sources" title="feed | enabled | public.rss_sources">
       <outline text="Reddit r/onewheel (best)" title="Reddit r/onewheel (best)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/best/.rss" htmlUrl="https://www.reddit.com/r/onewheel/best/" />
