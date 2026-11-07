@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 07 Nov 2026 12:26:51 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 18:24:21 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Atom arrived.]]></title>
@@ -186,6 +186,18 @@
 
       <dc:creator>/u/Hot_Bit2207</dc:creator>
       <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[⚡️BATTERIE ONEWHEEL XR à Vendre⚡️ Je vends cette batterie Onewheel XR d’origine en très bon état composant essentiel pour votre Onewheel XR]]></title>
+      <link>https://www.reddit.com/r/FloatLife/comments/1xmd4rd/batterie_onewheel_xr_%C3%A0_vendre_je_vends_cette/</link>
+      <guid isPermaLink="false">2atdkt-gi2s1i</guid>
+      <pubDate>Mon, 02 Nov 2026 23:31:20 GMT</pubDate>
+      <description><![CDATA[<p>submitted by /u/Correct-Loss-5139 [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[  submitted by   <a href="https://www.reddit.com/user/Correct-Loss-5139" target="_blank" rel="noopener noreferrer"> /u/Correct-Loss-5139 </a> <br /> <span><a href="https://www.reddit.com/gallery/1xmd3md" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/FloatLife/comments/1xmd4rd/batterie_onewheel_xr_%C3%A0_vendre_je_vends_cette/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/Correct-Loss-5139</dc:creator>
+      <source url="https://www.reddit.com/r/FloatLife/new/.rss">Reddit r/FloatLife (new)</source>
     </item>
     <item>
       <title><![CDATA[Pushback from firmware update?]]></title>

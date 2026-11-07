@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-07T12:26:51.546Z",
+  "generatedAt": "2026-11-07T18:24:21.703Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 380,
+    "currentArticles": 381,
     "archiveArticles": 1191
   },
   "decks": [
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 126,
       "feedSourceCount": 124,
-      "articleCount": 1571,
+      "articleCount": 1572,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -80,7 +80,7 @@
       "description": "Forums, Reddit, social sources, and community discussion streams.",
       "sourceCount": 20,
       "feedSourceCount": 19,
-      "articleCount": 371,
+      "articleCount": 372,
       "rssUrl": "/feeds/community.xml"
     }
   ],
@@ -134,7 +134,7 @@
       "title": "onewheel Reddit Alert (Relevance search)",
       "displayName": "onewheel Reddit Alert (Relevance search)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/search?q=onewheel&sort=relevance&type=link",
+      "siteUrl": "https://www.reddit.com/search/?q=onewheel&type=link&sort=relevance",
       "feedUrl": "https://www.reddit.com/search.rss?q=onewheel&sort=relevance&type=link",
       "deck": "community",
       "kind": "social",
@@ -143,13 +143,13 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "popular-topics-li2s6i",
@@ -244,22 +244,22 @@
       "title": "Reddit r/FloatLife (new)",
       "displayName": "Reddit r/FloatLife (new)",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/FloatLife/new",
+      "siteUrl": "https://www.reddit.com/r/FloatLife/new/",
       "feedUrl": "https://www.reddit.com/r/FloatLife/new/.rss",
       "deck": "community",
       "kind": "social",
       "sourcePlatform": "Reddit",
       "hasFeed": true,
-      "articleCount": 8,
+      "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "reddit-r-floatwheelteam-1wdrxpi",
@@ -2860,6 +2860,28 @@
   ],
   "articles": [
     {
+      "id": "1pqcd61-1czfdl1",
+      "title": "VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling",
+      "description": "IMU filtering I realized I haven’t addressed the IMU filtering levels in my post, so here we go. The Accel/Gyro Filter setting (LOW, MEDIUM, HIGH) selects low-pass filters inside the IMU. The cutoff frequencies you get from it depend on whether the IMU is polled or uses the data-ready interrupt. In the tables below, each cell shows the accelerometer and gyro cutoff in Hz. When polled (all onboard IMUs except Z400), the IMU always runs at its maximum rate and the firmware reads the newest sample at the Sample Rate. With the data-ready interrupt (Z400 onboard IMU), the IMU runs at the Sample Rat",
+      "contentHtml": "<p>It’s been a year and a half since I first started working on resolving the IMU issues that plague VESC Onewheels. After many weekends spent over the code and testing, plenty of setbacks and several nosedives, I’ve now mostly finished the cleanup of the low-level IMU data signal path. That is, with the elephant in the room still kind of looming…</p>\n<h2><a name=\"p-6523-the-mysterious-controller-resets-1\" class=\"anchor\" href=\"https://pev.dev#p-6523-the-mysterious-controller-resets-1\" aria-label=\"Heading link\"></a>The mysterious controller resets</h2>\n<p>The main roadblock all along was me getting random controller resets, for which I still don’t have an explanation. The only conclusive trigger condition I observed was raising IMU Sample Rate to levels which fully saturated the CPU (close to 100% load). The resets also only ever happened to me on one board, although it was on two different controllers (Tronic 250R and JetFleet F6 32S v1). One tester (Kleym on discord, thanks!) recently dared to reproduce this by going to the same or higher frequencies than me and reported no issues. I’ll call this one data point not enough and declare Sample Rates above 900 Hz not safe on controllers where the CPU has to do the IMU comms (all of them except Thor301, Thor400 and Z400 as of writing this).</p>\n<h2><a name=\"p-6523-high-level-overview-of-the-changes-2\" class=\"anchor\" href=\"https://pev.dev#p-6523-high-level-overview-of-the-changes-2\" aria-label=\"Heading link\"></a>High-level overview of the changes</h2>\n<p>After my initial <a href=\"https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956\">excursion into IMU sampling fixes</a>, I went on to rewrite the IMU hardware device layer in the VESC firmware to unify and deduplicate the codebase, make it modular and overall clean up the code. This allowed me to apply the same fixes I did for the LSM6DS3 IMU to all the other IMUs, make further speedups and timing improvements to the data signal, and also make it much easier to add new IMUs, which will now also use the shared, cleaned up infrastructure.</p>\n<p>The main practical impacts of this work are removing some cases of nose hunting (mainly nose up/down bias at higher speeds on rough terrain, which produces vibrations) and better vibration rejection as demonstrated in the linked post. On controllers that support it, higher IMU Sample Rates can now be reached, which may improve some aspects of board control (not widely explored yet).</p>\n<p>It also serves as reassurance that the signal path is now clean (barring any potential stupid mistakes) on this level and the package is being served healthy data.</p>\n<h2><a name=\"p-6523-how-can-i-get-it-3\" class=\"anchor\" href=\"https://pev.dev#p-6523-how-can-i-get-it-3\" aria-label=\"Heading link\"></a>How can I get it?</h2>\n<p>All the changes have been submitted to the VESC firmware and will be part of the 7.01 release. Until then, I am also providing my own <a href=\"https://github.com/lukash/bldc/releases/tag/v7.00-rflt-xtras-0.5\">7.00 Refloat Extras release</a>.</p>\n<p>Release stage: <strong><em>testing</em></strong></p>\n<p>The release is moderately tested, the only known issue is the potential controller resets described above, which have never happened (over thousands of kilometers) at IMU Sample Rate 900 Hz. My release does have the Sample Rate limit lifted to allow anyone to experiment if they so wish, so please take care to stay at or below 900 Hz (the 7.01 final will keep the limit in place for the risky software-comms case).</p>\n<p>As always with experimental firmware, follow <a href=\"https://pev.dev/t/testing-experimental-software/2955\">my initial test guide</a> before riding.</p>\n<p><strong><em>Please</em></strong> make yourself familiar with <a href=\"https://pev.dev/t/diagnosing-nosedives-motor-cut-issues/2957\">what to do in case you get a nosedive</a>. If it happens, try to gather as much information as possible and send it to me, it’ll help to diagnose the issue and can save others from the same fate.</p>\n<h2><a name=\"p-6523-support-the-cause-4\" class=\"anchor\" href=\"https://pev.dev#p-6523-support-the-cause-4\" aria-label=\"Heading link\"></a>Support the cause</h2>\n<p>Getting this far has cost a tremendous amount of time, some hardware, ruined clothes and a few bruises. If you would like to support the development, here’s <a href=\"https://riddimrider.one/donate/\">a few options to do so</a>.</p>\n<h2><a name=\"p-6523-technical-breakdown-of-the-changes-5\" class=\"anchor\" href=\"https://pev.dev#p-6523-technical-breakdown-of-the-changes-5\" aria-label=\"Heading link\"></a>Technical breakdown of the changes</h2>\n<h3><a name=\"p-6523-from-software-i2c-to-hardware-spi-6\" class=\"anchor\" href=\"https://pev.dev#p-6523-from-software-i2c-to-hardware-spi-6\" aria-label=\"Heading link\"></a>From software I2C to hardware SPI</h3>\n<p>Most Onewheel VESC controllers nowadays use software I2C for IMU comms (the CPU manually toggles bits on the wire with precise timing). I2C is slow (each sample takes hundreds of microseconds) and in the software-driven case gets interrupted by higher priority workloads (mainly motor control). I’ve done what I could to get the most out of this setup.</p>\n<p>On select controllers (Thor301, Thor400, Z400), thanks to the good work of David Molony / mxlemming, the IMU is connected in a better way (it needs to be on the right MCU pins) which also allows hardware comms (the CPU doesn’t do the work, a specialized hardware peripheral does) using the SPI bus protocol instead of I2C. Until now these controllers shared the code with the rest, so they also used software I2C; now they use hardware SPI. SPI can go up to 10 MHz clock speed compared to 700 kHz of I2C, so it’s much faster.</p>\n<p>Here’s how the two compare. <code>dt</code> is the time between consecutive samples (ideally a flat line) and sample latency is how long a sample is delayed before the firmware actually gets to use it:</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/db9240/original/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973.jpeg\" data-download-href=\"https://pev.dev/uploads/db9240/20f03593727b1b13d5748bf58508c4b7d720f973\" title=\"Software I2C\"><img src=\"https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg\" alt=\"Software I2C\" data-base62-sha1=\"4HnVlX2GDlIQCvXgLPlhiu8pxgn\" width=\"690\" height=\"399\" srcset=\"https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg, https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_1035x598.jpeg 1.5x, https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_1380x798.jpeg 2x\" data-dominant-color=\"1A110E\"></a></div><p></p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/db9240/original/2X/8/8c8bb4398436a8aab64e15753e137010900671a5.png\" data-download-href=\"https://pev.dev/uploads/db9240/8c8bb4398436a8aab64e15753e137010900671a5\" title=\"Hardware SPI\"><img src=\"https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_690x400.png\" alt=\"Hardware SPI\" data-base62-sha1=\"k3k9WdU5axYnrbeeYZDOQDecgjH\" width=\"690\" height=\"400\" srcset=\"https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_690x400.png, https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_1035x600.png 1.5x, https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_1380x800.png 2x\" data-dominant-color=\"15100F\"></a></div><p></p>\n<h3><a name=\"p-6523-the-data-ready-interrupt-7\" class=\"anchor\" href=\"https://pev.dev#p-6523-the-data-ready-interrupt-7\" aria-label=\"Heading link\"></a>The data-ready interrupt</h3>\n<p>Hardware SPI fixes the transfer, but there’s a second problem: the firmware polls the IMU on its own schedule, while the IMU takes samples on its own internal clock. The two clocks inevitably drift against each other (even setting the same 832 Hz on both IMU Sample Rate and Package Loop Hertz doesn’t make them line up at all), so the firmware sometimes reads a sample that’s already stale and the effective timing wobbles.</p>\n<p>The fix is to let the IMU drive the timing: it has an interrupt pin that fires the moment a new sample is ready, and the firmware can use the signal to read the sample at that exact moment. With this, the sample timing is much more precise:</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/db9240/original/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff.png\" data-download-href=\"https://pev.dev/uploads/db9240/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff\" title=\"Hardware SPI with data ready interrupt\"><img src=\"https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_690x399.png\" alt=\"Hardware SPI with data ready interrupt\" data-base62-sha1=\"rLebupRGMzUF0jZoVRoR4CS2Pld\" width=\"690\" height=\"399\" srcset=\"https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_690x399.png, https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_1035x598.png 1.5x, https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_1380x798.png 2x\" data-dominant-color=\"0D0D0D\"></a></div><p></p>\n<p>The data-ready interrupt requires the IMU interrupt pin to be wired to the controller, so it’s only available where the hardware allows it: currently only the Z400 onboard IMU has it, and some external IMUs support it (described below).</p>\n<h3><a name=\"p-6523-the-new-imu_status-command-8\" class=\"anchor\" href=\"https://pev.dev#p-6523-the-new-imu_status-command-8\" aria-label=\"Heading link\"></a>The new imu_status command</h3>\n<p>There is now a new, unified <code>imu_status</code> terminal command which can be used to find out the model of the IMU, its communication bus (I2C/SPI), whether it’s hardware or software driven, and some more data:</p>\n<pre><code class=\"lang-auto\">-&gt; imu_status\n\nModel         : LSM6DS3\nVariant       : TR-C\nTransport     : spi-hw\nRunning       : yes\nSample Rate   : 1700 Hz\nRead fails    : 0\n</code></pre>\n<h3><a name=\"p-6523-other-imu-improvements-9\" class=\"anchor\" href=\"https://pev.dev#p-6523-other-imu-improvements-9\" aria-label=\"Heading link\"></a>Other IMU improvements</h3>\n<p>The overhaul comes with a number of smaller improvements across the board, also for the controllers staying on software I2C (some have already been mentioned in the previous post):</p>\n<ul>\n<li>The I2C bus speed is raised to 700 kHz on all supported controllers</li>\n<li>More accurate sample timestamping in all modes</li>\n<li>On hardware SPI controllers, the IMU processing priority is raised to avoid arbitrary delays caused by other tasks</li>\n<li>The board orientation is now seeded at startup, shortening the IMU startup time and overall bootup</li>\n<li>If the IMU freezes and stops producing fresh data, the firmware detects it and stops feeding the stale readings to the package, letting it detect the sensor loss instead of staying engaged on data that are wrong just the right way</li>\n<li>Support for the ST LSM6DSV32X, a modern IMU with much better on-paper noise and temperature-drift characteristics and twice the measurement range on both accel and gyro</li>\n</ul>\n<h3><a name=\"p-6523-external-imu-over-hardware-spi-10\" class=\"anchor\" href=\"https://pev.dev#p-6523-external-imu-over-hardware-spi-10\" aria-label=\"Heading link\"></a>External IMU over hardware SPI</h3>\n<p>A few select controllers expose full hardware SPI on a connector. An external IMU can be connected to this interface and it works much better than an I2C-connected one. SPI is much more resilient to noise and interference due to its electrical design, <em>while</em> running at 10 MHz clock speed compared to 700 kHz of I2C. For this reason, I’ve changed the external IMU support from I2C on the external UART connector (which will no longer work) to this new connector. Additionally, the data-ready interrupt is supported on this interface as well — wiring the INT1 pin is required for the LSM6DS3 and LSM6DSV32X (the older IMUs don’t support it and stay polled, the pin is then unused).</p>\n<p><strong><em>If you’ve been running an external IMU on one of these controllers, it will break and you’ll need to re-wire it for the new connection.</em></strong> I’ve made this breaking change because I believe the new one is so superior to the old one, it’s worth it, and it’s a niche setup which very few people are running, if anyone. If you are running this, please stay on the old firmware until you’re ready to rewire your IMU.</p>\n<p>Supported controllers:</p>\n<ul>\n<li>Thor301</li>\n<li>Thor400 / Thor400v2</li>\n<li>JetFleet F6 v1 (not v2)</li>\n</ul>\n<p><em>Note: Even if you don’t wire anything to the external UART connector, the new connection shares the controller’s internal pins with it, so the two can’t run simultaneously. The external UART is disabled while an external IMU is configured.</em></p>\n<p>Note on JetFleet F6 v1: I wasn’t able to test the support properly before my controller burnt (unrelated to the IMU), so it is not included upstream. If you can test this and confirm, reach out and I’ll submit it for inclusion.</p>\n<h4><a name=\"p-6523-wiring-11\" class=\"anchor\" href=\"https://pev.dev#p-6523-wiring-11\" aria-label=\"Heading link\"></a>Wiring</h4>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>IMU module pin</th>\n<th>Thor301 / Thor400</th>\n<th>JetFleet F6</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>SCK / SCL</td>\n<td>PC10 (UART TX)</td>\n<td>PC10 (UART TX)</td>\n</tr>\n<tr>\n<td>SDO / MISO</td>\n<td>PC11 (UART RX)</td>\n<td>PC11 (UART RX)</td>\n</tr>\n<tr>\n<td>SDI / SDA / MOSI</td>\n<td>PC12</td>\n<td>PC12</td>\n</tr>\n<tr>\n<td>CS</td>\n<td>PA7</td>\n<td>PB10</td>\n</tr>\n<tr>\n<td>INT1</td>\n<td>PC9</td>\n<td>PC9 (AUX)</td>\n</tr>\n<tr>\n<td>VCC</td>\n<td>3.3V</td>\n<td>3.3V</td>\n</tr>\n<tr>\n<td>GND</td>\n<td>GND</td>\n<td>GND</td>\n</tr>\n</tbody>\n</table>\n</div><p>Either the LSM6DS3 or the BMI160, wired correctly, is supported (the other, older IMUs should work as well but aren’t recommended). Once 7.01 is out, LSM6DSV32X will be available for selection in the config as well.</p>\n<p>You can verify the IMU is running with the <code>imu_status</code> VESC Terminal command.</p>\n            <p><small>2 posts - 1 participant</small></p>\n            <p><a href=\"https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047\">Read full topic</a></p>",
+      "url": "https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_2",
+      "publishedAt": "2026-11-07T13:06:21.000Z",
+      "author": "@riddimrider",
+      "videoId": "",
+      "image": "https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg",
+      "sourceId": "pev-dev-latest-posts-1cj89fa",
+      "source": "pev.dev - Latest posts (pev.dev)",
+      "sourceDomain": "pev.dev",
+      "sourceKind": "feed",
+      "deck": "onewheel",
+      "feedUrl": "https://pev.dev/posts.rss",
+      "duplicateSourceIds": [
+        "pev-dev-latest-posts-1cj89fa",
+        "pev-dev-latest-topics-zkk6og"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "1v7yadb-1mfabo8",
       "title": "Fall sunsets are amazing 😍 #onewheel #sunset",
       "description": "",
@@ -2878,7 +2900,7 @@
       "duplicateSourceIds": [
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "km2iua-14o2nhz",
@@ -2899,7 +2921,7 @@
       "duplicateSourceIds": [
         "the-float-life-1905vur"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "x8azvi-48s3eu",
@@ -2920,7 +2942,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1ooy40g-11egqbd",
@@ -3428,6 +3450,30 @@
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-04T00:43:09.785Z"
+    },
+    {
+      "id": "2atdkt-gi2s1i",
+      "title": "⚡️BATTERIE ONEWHEEL XR à Vendre⚡️ Je vends cette batterie Onewheel XR d’origine en très bon état composant essentiel pour votre Onewheel XR",
+      "description": "submitted by /u/Correct-Loss-5139 [link] [comments]",
+      "contentHtml": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Correct-Loss-5139\"> /u/Correct-Loss-5139 </a> <br/> <span><a href=\"https://www.reddit.com/gallery/1xmd3md\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/FloatLife/comments/1xmd4rd/batterie_onewheel_xr_à_vendre_je_vends_cette/\">[comments]</a></span>",
+      "url": "https://www.reddit.com/r/FloatLife/comments/1xmd4rd/batterie_onewheel_xr_%C3%A0_vendre_je_vends_cette/",
+      "publishedAt": "2026-11-02T23:31:20.000Z",
+      "author": "/u/Correct-Loss-5139",
+      "videoId": "",
+      "image": "",
+      "sourceId": "r-floatlife-4ronf4",
+      "source": "Reddit r/FloatLife (new)",
+      "sourceDomain": "reddit.com",
+      "sourceKind": "social",
+      "deck": "community",
+      "feedUrl": "https://www.reddit.com/r/FloatLife/new/.rss",
+      "duplicateSourceIds": [
+        "r-floatlife-4ronf4"
+      ],
+      "mergedItemCount": 1,
+      "embedHeight": 500,
+      "embedHeightSource": "reddit_oembed",
+      "embedHeightFetchedAt": "2026-11-07T18:24:21.660Z"
     },
     {
       "id": "lgo9oj-114nteh",
@@ -4038,9 +4084,9 @@
       "duplicateSourceIds": [
         "onewheel-reddit-alert-1iiw4o8"
       ],
-      "mergedItemCount": 1,
+      "mergedItemCount": 2,
       "embedHeight": 316,
-      "embedHeightSource": "reddit_oembed",
+      "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-07T12:26:51.473Z"
     },
     {
@@ -4854,10 +4900,10 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/onewheel.rss?limit=100",
       "duplicateSourceIds": [
+        "r-floatlife-4ronf4",
         "reddit-r-onewheel-latest-1hks7dv",
         "reddit-r-onewheel-latest-pju8wd",
-        "reddit-r-onewheel-latest-ezjdl6",
-        "r-floatlife-4ronf4"
+        "reddit-r-onewheel-latest-ezjdl6"
       ],
       "mergedItemCount": 4,
       "embedHeight": 500,
@@ -5729,28 +5775,6 @@
         "vinie-vizzle-7ackvr"
       ],
       "mergedItemCount": 2
-    },
-    {
-      "id": "1owdk34-1czfdl1",
-      "title": "VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling",
-      "description": "It’s been a year and a half since I first started working on resolving the IMU issues that plague VESC Onewheels. After many weekends spent over the code and testing, plenty of setbacks and several nosedives, I’ve now mostly finished the cleanup of the low-level IMU data signal path. That is, with the elephant in the room still kind of looming… The mysterious controller resets The main roadblock all along was me getting random controller resets, for which I still don’t have an explanation. The only conclusive trigger condition I observed was raising IMU Sample Rate to levels which fully satura",
-      "contentHtml": "<p>It’s been a year and a half since I first started working on resolving the IMU issues that plague VESC Onewheels. After many weekends spent over the code and testing, plenty of setbacks and several nosedives, I’ve now mostly finished the cleanup of the low-level IMU data signal path. That is, with the elephant in the room still kind of looming…</p>\n<h2><a name=\"p-6523-the-mysterious-controller-resets-1\" class=\"anchor\" href=\"https://pev.dev#p-6523-the-mysterious-controller-resets-1\" aria-label=\"Heading link\"></a>The mysterious controller resets</h2>\n<p>The main roadblock all along was me getting random controller resets, for which I still don’t have an explanation. The only conclusive trigger condition I observed was raising IMU Sample Rate to levels which fully saturated the CPU (close to 100% load). The resets also only ever happened to me on one board, although it was on two different controllers (Tronic 250R and JetFleet F6 32S v1). One tester (Kleym on discord, thanks!) recently dared to reproduce this by going to the same or higher frequencies than me and reported no issues. I’ll call this one data point not enough and declare Sample Rates above 900 Hz not safe on controllers where the CPU has to do the IMU comms (all of them except Thor301, Thor400 and Z400 as of writing this).</p>\n<h2><a name=\"p-6523-high-level-overview-of-the-changes-2\" class=\"anchor\" href=\"https://pev.dev#p-6523-high-level-overview-of-the-changes-2\" aria-label=\"Heading link\"></a>High-level overview of the changes</h2>\n<p>After my initial <a href=\"https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956\">excursion into IMU sampling fixes</a>, I went on to rewrite the IMU hardware device layer in the VESC firmware to unify and deduplicate the codebase, make it modular and overall clean up the code. This allowed me to apply the same fixes I did for the LSM6DS3 IMU to all the other IMUs, make further speedups and timing improvements to the data signal, and also make it much easier to add new IMUs, which will now also use the shared, cleaned up infrastructure.</p>\n<p>The main practical impacts of this work are removing some cases of nose hunting (mainly nose up/down bias at higher speeds on rough terrain, which produces vibrations) and better vibration rejection as demonstrated in the linked post. On controllers that support it, higher IMU Sample Rates can now be reached, which may improve some aspects of board control (not widely explored yet).</p>\n<p>It also serves as reassurance that the signal path is now clean (barring any potential stupid mistakes) on this level and the package is being served healthy data.</p>\n<h2><a name=\"p-6523-how-can-i-get-it-3\" class=\"anchor\" href=\"https://pev.dev#p-6523-how-can-i-get-it-3\" aria-label=\"Heading link\"></a>How can I get it?</h2>\n<p>All the changes have been submitted to the VESC firmware and will be part of the 7.01 release. Until then, I am also providing my own <a href=\"https://github.com/lukash/bldc/releases/tag/v7.00-rflt-xtras-0.5\">7.00 Refloat Extras release</a>.</p>\n<p>Release stage: <strong><em>testing</em></strong></p>\n<p>The release is moderately tested, the only known issue is the potential controller resets described above, which have never happened (over thousands of kilometers) at IMU Sample Rate 900 Hz. My release does have the Sample Rate limit lifted to allow anyone to experiment if they so wish, so please take care to stay at or below 900 Hz (the 7.01 final will keep the limit in place for the risky software-comms case).</p>\n<p>As always with experimental firmware, follow <a href=\"https://pev.dev/t/testing-experimental-software/2955\">my initial test guide</a> before riding.</p>\n<p><strong><em>Please</em></strong> make yourself familiar with <a href=\"https://pev.dev/t/diagnosing-nosedives-motor-cut-issues/2957\">what to do in case you get a nosedive</a>. If it happens, try to gather as much information as possible and send it to me, it’ll help to diagnose the issue and can save others from the same fate.</p>\n<h2><a name=\"p-6523-support-the-cause-4\" class=\"anchor\" href=\"https://pev.dev#p-6523-support-the-cause-4\" aria-label=\"Heading link\"></a>Support the cause</h2>\n<p>Getting this far has cost a tremendous amount of time, some hardware, ruined clothes and a few bruises. If you would like to support the development, here’s <a href=\"https://riddimrider.one/donate/\">a few options to do so</a>.</p>\n<h2><a name=\"p-6523-technical-breakdown-of-the-changes-5\" class=\"anchor\" href=\"https://pev.dev#p-6523-technical-breakdown-of-the-changes-5\" aria-label=\"Heading link\"></a>Technical breakdown of the changes</h2>\n<h3><a name=\"p-6523-from-software-i2c-to-hardware-spi-6\" class=\"anchor\" href=\"https://pev.dev#p-6523-from-software-i2c-to-hardware-spi-6\" aria-label=\"Heading link\"></a>From software I2C to hardware SPI</h3>\n<p>Most Onewheel VESC controllers nowadays use software I2C for IMU comms (the CPU manually toggles bits on the wire with precise timing). I2C is slow (each sample takes hundreds of microseconds) and in the software-driven case gets interrupted by higher priority workloads (mainly motor control). I’ve done what I could to get the most out of this setup.</p>\n<p>On select controllers (Thor301, Thor400, Z400), thanks to the good work of David Molony / mxlemming, the IMU is connected in a better way (it needs to be on the right MCU pins) which also allows hardware comms (the CPU doesn’t do the work, a specialized hardware peripheral does) using the SPI bus protocol instead of I2C. Until now these controllers shared the code with the rest, so they also used software I2C; now they use hardware SPI. SPI can go up to 10 MHz clock speed compared to 700 kHz of I2C, so it’s much faster.</p>\n<p>Here’s how the two compare. <code>dt</code> is the time between consecutive samples (ideally a flat line) and sample latency is how long a sample is delayed before the firmware actually gets to use it:</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/db9240/original/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973.jpeg\" data-download-href=\"https://pev.dev/uploads/db9240/20f03593727b1b13d5748bf58508c4b7d720f973\" title=\"Software I2C\"><img src=\"https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg\" alt=\"Software I2C\" data-base62-sha1=\"4HnVlX2GDlIQCvXgLPlhiu8pxgn\" width=\"690\" height=\"399\" srcset=\"https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg, https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_1035x598.jpeg 1.5x, https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_1380x798.jpeg 2x\" data-dominant-color=\"1A110E\"></a></div><p></p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/db9240/original/2X/8/8c8bb4398436a8aab64e15753e137010900671a5.png\" data-download-href=\"https://pev.dev/uploads/db9240/8c8bb4398436a8aab64e15753e137010900671a5\" title=\"Hardware SPI\"><img src=\"https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_690x400.png\" alt=\"Hardware SPI\" data-base62-sha1=\"k3k9WdU5axYnrbeeYZDOQDecgjH\" width=\"690\" height=\"400\" srcset=\"https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_690x400.png, https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_1035x600.png 1.5x, https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_1380x800.png 2x\" data-dominant-color=\"15100F\"></a></div><p></p>\n<h3><a name=\"p-6523-the-data-ready-interrupt-7\" class=\"anchor\" href=\"https://pev.dev#p-6523-the-data-ready-interrupt-7\" aria-label=\"Heading link\"></a>The data-ready interrupt</h3>\n<p>Hardware SPI fixes the transfer, but there’s a second problem: the firmware polls the IMU on its own schedule, while the IMU takes samples on its own internal clock. The two clocks inevitably drift against each other (even setting the same 832 Hz on both IMU Sample Rate and Package Loop Hertz doesn’t make them line up at all), so the firmware sometimes reads a sample that’s already stale and the effective timing wobbles.</p>\n<p>The fix is to let the IMU drive the timing: it has an interrupt pin that fires the moment a new sample is ready, and the firmware can use the signal to read the sample at that exact moment. With this, the sample timing is much more precise:</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/db9240/original/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff.png\" data-download-href=\"https://pev.dev/uploads/db9240/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff\" title=\"Hardware SPI with data ready interrupt\"><img src=\"https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_690x399.png\" alt=\"Hardware SPI with data ready interrupt\" data-base62-sha1=\"rLebupRGMzUF0jZoVRoR4CS2Pld\" width=\"690\" height=\"399\" srcset=\"https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_690x399.png, https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_1035x598.png 1.5x, https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_1380x798.png 2x\" data-dominant-color=\"0D0D0D\"></a></div><p></p>\n<p>The data-ready interrupt requires the IMU interrupt pin to be wired to the controller, so it’s only available where the hardware allows it: currently only the Z400 onboard IMU has it, and some external IMUs support it (described below).</p>\n<h3><a name=\"p-6523-the-new-imu_status-command-8\" class=\"anchor\" href=\"https://pev.dev#p-6523-the-new-imu_status-command-8\" aria-label=\"Heading link\"></a>The new imu_status command</h3>\n<p>There is now a new, unified <code>imu_status</code> terminal command which can be used to find out the model of the IMU, its communication bus (I2C/SPI), whether it’s hardware or software driven, and some more data:</p>\n<pre><code class=\"lang-auto\">-&gt; imu_status\n\nModel         : LSM6DS3\nVariant       : TR-C\nTransport     : spi-hw\nRunning       : yes\nSample Rate   : 1700 Hz\nRead fails    : 0\n</code></pre>\n<h3><a name=\"p-6523-other-imu-improvements-9\" class=\"anchor\" href=\"https://pev.dev#p-6523-other-imu-improvements-9\" aria-label=\"Heading link\"></a>Other IMU improvements</h3>\n<p>The overhaul comes with a number of smaller improvements across the board, also for the controllers staying on software I2C (some have already been mentioned in the previous post):</p>\n<ul>\n<li>The I2C bus speed is raised to 700 kHz on all supported controllers</li>\n<li>More accurate sample timestamping in all modes</li>\n<li>On hardware SPI controllers, the IMU processing priority is raised to avoid arbitrary delays caused by other tasks</li>\n<li>The board orientation is now seeded at startup, shortening the IMU startup time and overall bootup</li>\n<li>If the IMU freezes and stops producing fresh data, the firmware detects it and stops feeding the stale readings to the package, letting it detect the sensor loss instead of staying engaged on data that are wrong just the right way</li>\n<li>Support for the ST LSM6DSV32X, a modern IMU with much better on-paper noise and temperature-drift characteristics and twice the measurement range on both accel and gyro</li>\n</ul>\n<h3><a name=\"p-6523-external-imu-over-hardware-spi-10\" class=\"anchor\" href=\"https://pev.dev#p-6523-external-imu-over-hardware-spi-10\" aria-label=\"Heading link\"></a>External IMU over hardware SPI</h3>\n<p>A few select controllers expose full hardware SPI on a connector. An external IMU can be connected to this interface and it works much better than an I2C-connected one. SPI is much more resilient to noise and interference due to its electrical design, <em>while</em> running at 10 MHz clock speed compared to 700 kHz of I2C. For this reason, I’ve changed the external IMU support from I2C on the external UART connector (which will no longer work) to this new connector. Additionally, the data-ready interrupt is supported on this interface as well — wiring the INT1 pin is required for the LSM6DS3 and LSM6DSV32X (the older IMUs don’t support it and stay polled, the pin is then unused).</p>\n<p><strong><em>If you’ve been running an external IMU on one of these controllers, it will break and you’ll need to re-wire it for the new connection.</em></strong> I’ve made this breaking change because I believe the new one is so superior to the old one, it’s worth it, and it’s a niche setup which very few people are running, if anyone. If you are running this, please stay on the old firmware until you’re ready to rewire your IMU.</p>\n<p>Supported controllers:</p>\n<ul>\n<li>Thor301</li>\n<li>Thor400 / Thor400v2</li>\n<li>JetFleet F6 v1 (not v2)</li>\n</ul>\n<p><em>Note: Even if you don’t wire anything to the external UART connector, the new connection shares the controller’s internal pins with it, so the two can’t run simultaneously. The external UART is disabled while an external IMU is configured.</em></p>\n<p>Note on JetFleet F6 v1: I wasn’t able to test the support properly before my controller burnt (unrelated to the IMU), so it is not included upstream. If you can test this and confirm, reach out and I’ll submit it for inclusion.</p>\n<h4><a name=\"p-6523-wiring-11\" class=\"anchor\" href=\"https://pev.dev#p-6523-wiring-11\" aria-label=\"Heading link\"></a>Wiring</h4>\n<div class=\"md-table\">\n<table>\n<thead>\n<tr>\n<th>IMU module pin</th>\n<th>Thor301 / Thor400</th>\n<th>JetFleet F6</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>SCK / SCL</td>\n<td>PC10 (UART TX)</td>\n<td>PC10 (UART TX)</td>\n</tr>\n<tr>\n<td>SDO / MISO</td>\n<td>PC11 (UART RX)</td>\n<td>PC11 (UART RX)</td>\n</tr>\n<tr>\n<td>SDI / SDA / MOSI</td>\n<td>PC12</td>\n<td>PC12</td>\n</tr>\n<tr>\n<td>CS</td>\n<td>PA7</td>\n<td>PB10</td>\n</tr>\n<tr>\n<td>INT1</td>\n<td>PC9</td>\n<td>PC9 (AUX)</td>\n</tr>\n<tr>\n<td>VCC</td>\n<td>3.3V</td>\n<td>3.3V</td>\n</tr>\n<tr>\n<td>GND</td>\n<td>GND</td>\n<td>GND</td>\n</tr>\n</tbody>\n</table>\n</div><p>Either the LSM6DS3 or the BMI160, wired correctly, is supported (the other, older IMUs should work as well but aren’t recommended). Once 7.01 is out, LSM6DSV32X will be available for selection in the config as well.</p>\n<p>You can verify the IMU is running with the <code>imu_status</code> VESC Terminal command.</p>\n            <p><small>1 post - 1 participant</small></p>\n            <p><a href=\"https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_1",
-      "publishedAt": "2026-10-11T12:07:46.000Z",
-      "author": "@riddimrider",
-      "videoId": "",
-      "image": "https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts (pev.dev)",
-      "sourceDomain": "pev.dev",
-      "sourceKind": "feed",
-      "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
-      "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "gtjre9-kx83sb",
@@ -11419,8 +11443,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi",
         "r-floatlife-4ronf4",
+        "reddit-r-floatwheelteam-1wdrxpi",
         "best-posts-on-r-floatlife-qe5u46"
       ],
       "mergedItemCount": 3,
@@ -31357,7 +31381,7 @@
     },
     {
       "id": "qztwll-1joxsrd",
-      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL News",
+      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL",
       "description": "How hard is it to ride a Onewheel? And are they safe for kids? KSL News",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5\" target=\"_blank\">How hard is it to ride a Onewheel? And are they safe for kids?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KSL News</font>",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5",
@@ -37922,7 +37946,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 126,
-      "articleCount": 1571
+      "articleCount": 1572
     },
     {
       "id": "onewheel",
@@ -37964,7 +37988,7 @@
       "title": "Community pulse",
       "url": "/feeds/community.xml",
       "sourceCount": 20,
-      "articleCount": 371
+      "articleCount": 372
     }
   ]
 }
