@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 07 Nov 2026 06:30:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 12:26:51 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Atom arrived.]]></title>
@@ -354,6 +354,18 @@
 
       <dc:creator>/u/CommonExplanation711</dc:creator>
       <source url="https://www.reddit.com/r/onewheel.rss?limit=100">Reddit r/onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Welp, It finally happened]]></title>
+      <link>https://www.reddit.com/r/onewheel/comments/1xinjax/welp_it_finally_happened/</link>
+      <guid isPermaLink="false">14l049i-8kv0cu</guid>
+      <pubDate>Thu, 29 Oct 2026 15:44:24 GMT</pubDate>
+      <description><![CDATA[<p>Had a real slam this morning. Totally my fault. I was riding to class and in a hurry so I was toward the top of the limit of the board, looked over my shoulder to check behind me and SLAM. I think I had a nose dive because I was just too far forward over the board when I brought my attention back to what was in front of me. THANKFULLY I had a helmet on. Messed my elbow up a bit, but so far so good. I can move it just fine. Friendly reminder to everyone to please wear safety gear and ride safe! submitted by /u/Due-Performance-5737 to r/onewheel [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<div><p>Had a real slam this morning. Totally my fault. I was riding to class and in a hurry so I was toward the top of the limit of the board, looked over my shoulder to check behind me and SLAM. I think I had a nose dive because I was just too far forward over the board when I brought my attention back to what was in front of me. </p> <p>THANKFULLY I had a helmet on. Messed my elbow up a bit, but so far so good. I can move it just fine. Friendly reminder to everyone to please wear safety gear and ride safe! </p> </div>   submitted by   <a href="https://www.reddit.com/user/Due-Performance-5737" target="_blank" rel="noopener noreferrer"> /u/Due-Performance-5737 </a>   to   <a href="https://www.reddit.com/r/onewheel/" target="_blank" rel="noopener noreferrer"> r/onewheel </a> <br /> <span><a href="https://www.reddit.com/r/onewheel/comments/1xinjax/welp_it_finally_happened/" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/onewheel/comments/1xinjax/welp_it_finally_happened/" target="_blank" rel="noopener noreferrer">[comments]</a></span>]]></content:encoded>
+
+
+      <dc:creator>/u/Due-Performance-5737</dc:creator>
+      <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
       <title><![CDATA[Looking for onewheel gt box or alternatives]]></title>
