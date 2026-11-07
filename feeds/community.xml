@@ -5,8 +5,20 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 07 Nov 2026 00:41:46 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 06:30:22 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Atom arrived.]]></title>
+      <link>https://www.reddit.com/r/FloatwheelTeam/comments/1xpk95c/atom_arrived/</link>
+      <guid isPermaLink="false">1ooy40g-11egqbd</guid>
+      <pubDate>Fri, 06 Nov 2026 18:28:15 GMT</pubDate>
+      <description><![CDATA[<p>Early bird. submitted by /u/GerbiJosh [link] [comments]</p>]]></description>
+      <content:encoded><![CDATA[<table> <tr><td> <a href="https://www.reddit.com/r/FloatwheelTeam/comments/1xpk95c/atom_arrived/" target="_blank" rel="noopener noreferrer"> <img src="https://preview.redd.it/pb2cry6fc10i1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fe9846a35852066ddb22e529cde0078cb3508099" alt="Atom arrived." title="Atom arrived." /> </a> </td><td> <div><p>Early bird.</p> </div>   submitted by   <a href="https://www.reddit.com/user/GerbiJosh" target="_blank" rel="noopener noreferrer"> /u/GerbiJosh </a> <br /> <span><a href="https://i.redd.it/pb2cry6fc10i1.jpeg" target="_blank" rel="noopener noreferrer">[link]</a></span>   <span><a href="https://www.reddit.com/r/FloatwheelTeam/comments/1xpk95c/atom_arrived/" target="_blank" rel="noopener noreferrer">[comments]</a></span> </td></tr></table>]]></content:encoded>
+      <media:thumbnail url="https://preview.redd.it/pb2cry6fc10i1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=fe9846a35852066ddb22e529cde0078cb3508099" />
+
+      <dc:creator>/u/GerbiJosh</dc:creator>
+      <source url="https://www.reddit.com/r/FloatwheelTeam/top/.rss?t=day">Reddit r/FloatwheelTeam (top)</source>
+    </item>
     <item>
       <title><![CDATA[Does anybody ride in phoenix-Mesa area?]]></title>
       <link>https://www.reddit.com/r/FloatwheelTeam/comments/1xofv2y/does_anybody_ride_in_phoenixmesa_area/</link>
