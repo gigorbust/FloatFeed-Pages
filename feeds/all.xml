@@ -5,7 +5,7 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 09 Nov 2026 06:40:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 12:29:59 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Stoked to finally get a One Wheel!]]></title>
@@ -42,6 +42,18 @@
 
       <dc:creator>/u/bostamole</dc:creator>
       <source url="https://www.reddit.com/r/onewheel/top.rss">Reddit r/onewheel (top) (Latest)</source>
+    </item>
+    <item>
+      <title><![CDATA[Fungineers Funwheel with X7 curved rails - first ride]]></title>
+      <link>https://www.youtube.com/watch?v=k5AU0mCuOkc</link>
+      <guid isPermaLink="false">10fm8el-48s3eu</guid>
+      <pubDate>Sun, 08 Nov 2026 19:00:35 GMT</pubDate>
+      <description><![CDATA[<p>Testing the Funwheel X7 for the first time. Going out for a trail ride with this VESC board which is equipped with X7 curved rails, concave footpads, and a ThunderCat tire from the Float Life. How does it ride? Join us! https://www.instagram.com/vinievizzle/ https://www.instagram.com/skrrrt.eu/ https://www.skrrrt.eu #skrrrt</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i4.ytimg.com/vi/k5AU0mCuOkc/hqdefault.jpg" alt="" /></p><p>Testing the Funwheel X7 for the first time. Going out for a trail ride with this VESC board which is equipped with X7 curved rails, concave footpads, and a ThunderCat tire from the Float Life. How does it ride?<br /><br />Join us!<br />https://www.instagram.com/vinievizzle/<br />https://www.instagram.com/skrrrt.eu/<br />https://www.skrrrt.eu<br /><br />#skrrrt</p>]]></content:encoded>
+      <media:thumbnail url="https://i4.ytimg.com/vi/k5AU0mCuOkc/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=k5AU0mCuOkc" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
     </item>
     <item>
       <title><![CDATA[Open heart surgery vs OneWheel...]]></title>
@@ -101,7 +113,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/JMTgHE7ZkCk/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=JMTgHE7ZkCk" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Check out our latest Onewheel Film ZEN ZESSIONS ft. Jonny Robles #thefloatlife #onewheel #vesc]]></title>
@@ -113,7 +125,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/kJ7ceO9yhxI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=kJ7ceO9yhxI" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Onewheel trick season is on! ⚡️]]></title>
@@ -173,7 +185,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/2M_Fh1B5w2Q/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2M_Fh1B5w2Q" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[ZEN ZESSIONS || Onewheel Feestyle Film]]></title>
@@ -185,7 +197,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/UW8YDS0EWMg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=UW8YDS0EWMg" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Does anybody ride in phoenix-Mesa area?]]></title>
@@ -305,7 +317,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/6tFOfFvI9cY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=6tFOfFvI9cY" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[X7SC vs X7LR for fat guy riding on beach.]]></title>
@@ -329,7 +341,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/1G7c_Ji33Yc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=1G7c_Ji33Yc" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Should I get the one wheel gts xl?]]></title>
@@ -521,7 +533,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/n-xkH34AFXE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=n-xkH34AFXE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[It was love at first sight #surfsup #halloween #onewheel]]></title>
@@ -533,7 +545,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/IboARmDmmkU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=IboARmDmmkU" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Surf is up! #surfsup #halloween #onewheel]]></title>
@@ -545,7 +557,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/cUDQB3tqqQU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=cUDQB3tqqQU" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[I can feel it in my nuggets #surfsup #halloween #onewheel]]></title>
@@ -557,7 +569,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/g12DZ-xLEG8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=g12DZ-xLEG8" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[The surf is up💀 #surfsup #halloween #onewheel]]></title>
@@ -569,7 +581,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/Hnhs73JMssE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Hnhs73JMssE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Cody is me bro #surfsup #halloween #onewheel]]></title>
@@ -581,7 +593,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/guVD3i0bQMk/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=guVD3i0bQMk" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[STILL KILLIN' IT || A Onewheel Short Film]]></title>
@@ -593,7 +605,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/oLKh6Qj4W2I/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=oLKh6Qj4W2I" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[I’ve been experimenting with anodized and color shifting spray paints for when I finish my Vesc build. Thoughts?]]></title>
@@ -689,7 +701,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/CkhM7-pZwJQ/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=CkhM7-pZwJQ" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Welp, It finally happened]]></title>
@@ -797,7 +809,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/P1obGd2sMhw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=P1obGd2sMhw" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[How is the atom treating you so far!]]></title>
@@ -821,7 +833,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/T39W9yxzX2c/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=T39W9yxzX2c" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[In the new Break 50 with Bryson Dechambeau I spied a Onewheel sticker]]></title>
@@ -1145,7 +1157,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/-y_BC7O-ppI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=-y_BC7O-ppI" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[October 21, 2015: Marty McFly arrives in the future.]]></title>
@@ -1241,7 +1253,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/2jkcmZa8xUM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2jkcmZa8xUM" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[How To Do Nudge Variations w/ Ryan || Onewheel Trick Tutorial]]></title>
@@ -1253,7 +1265,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/UPfrkRXA0jU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=UPfrkRXA0jU" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Scootwear (vesc tool..ish)]]></title>
@@ -1385,7 +1397,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/N1y0g4gyrls/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=N1y0g4gyrls" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Free bird 💜⚡️]]></title>
@@ -1409,7 +1421,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/olTweVamMbE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=olTweVamMbE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Groms rule 😤 #onewheel]]></title>
@@ -1421,7 +1433,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/fUxqVg7AniI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=fUxqVg7AniI" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel vs. Scooter🤜🤛]]></title>
@@ -1433,7 +1445,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/RUORDJtBvbk/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=RUORDJtBvbk" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel/Parts for sale]]></title>
@@ -1469,7 +1481,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/mHovHfyXFOE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=mHovHfyXFOE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[All-in-one onewheel obstacle ⚡️]]></title>
@@ -1493,7 +1505,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/NerWnD39c6g/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=NerWnD39c6g" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Mondays be like… #thefloatlife #vesc #onehweel #pev #happymonday]]></title>
@@ -1505,7 +1517,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/s4FATU0Txg4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=s4FATU0Txg4" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[The ultimate onewheel feature? ⚡️]]></title>
@@ -1613,7 +1625,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/V2404TlC0hg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=V2404TlC0hg" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Dropping into the skatepark on one wheel ⚡️]]></title>
@@ -1661,7 +1673,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/P9lxrPUU1Hc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=P9lxrPUU1Hc" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[BS 180’s might be my new favorite trick ⚡️]]></title>
@@ -1685,7 +1697,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/PDgkpL43QCA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=PDgkpL43QCA" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Onewheel ASMR 😌 #onewheel #trailriding]]></title>
@@ -1697,7 +1709,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/ePBxvyH98kE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ePBxvyH98kE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Sanity]]></title>
@@ -1745,7 +1757,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/Sw557h0Yu9I/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Sw557h0Yu9I" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[I finally landed a new trick… and immediately broke the VESC board.]]></title>
@@ -1769,7 +1781,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/LiqdAiBYV08/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=LiqdAiBYV08" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[A customer maintenance form in Uniface 10, part 10 - a CSV import with a dry run, and backing up a SQLite file Uniface keeps o]]></title>
@@ -1853,7 +1865,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/e0n9JUcToAM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=e0n9JUcToAM" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel vs E-Bike 🤜🤛]]></title>
@@ -1865,7 +1877,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/CHVd2xlhqcY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=CHVd2xlhqcY" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheels + Lunch = Good Vibes || Sac Lunch 12]]></title>
@@ -1877,7 +1889,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/SAZ6Z0MhXks/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=SAZ6Z0MhXks" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Need onewheel]]></title>
@@ -1913,7 +1925,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/FmrazF5srrY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=FmrazF5srrY" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Leveling up the sliding game 🆙]]></title>
@@ -1949,7 +1961,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/qNhY7Tv8lbQ/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=qNhY7Tv8lbQ" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Bonk to tail slide 💜⚡️]]></title>
@@ -2117,7 +2129,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/q0joz0Rrr8U/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=q0joz0Rrr8U" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[How can I seal a small puncture in my onewheel?]]></title>
@@ -2165,7 +2177,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/WL5TfTBOEIs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=WL5TfTBOEIs" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Pint X with S-Series motor: PintV drop-in kit or X7 Sport? Looking for honest pros/cons]]></title>
@@ -2189,7 +2201,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/Xz8USI6Q2XA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Xz8USI6Q2XA" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Our Lake Tahoe trip was INSANE! Got a link to the whole vid in the comments.]]></title>
@@ -2213,7 +2225,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/64YJY8sYtjs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=64YJY8sYtjs" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Rail Guards?.]]></title>
@@ -2261,7 +2273,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/loBkCs0MQUc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=loBkCs0MQUc" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[MAD VENTURES ONEWHEEL TAHOE TOUR || Full Experience]]></title>
@@ -2273,7 +2285,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/Pd57DyKc2CA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Pd57DyKc2CA" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Travis Tatum on Floatwheel ATOM!]]></title>
@@ -2333,7 +2345,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/LMWRJ32_zeU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=LMWRJ32_zeU" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel + WS2812 + ESP8266]]></title>
@@ -2429,7 +2441,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/gVmZagQljas/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=gVmZagQljas" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Future Motion Turns a Onewheel XR Classic Into a Self-Balancing Track Cart - gnyouth.net]]></title>
@@ -2513,7 +2525,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/npXZN-J_2P8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=npXZN-J_2P8" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Which one wheel?]]></title>
@@ -2609,7 +2621,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/lY_RdqrKU5o/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lY_RdqrKU5o" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Invite to discord?]]></title>
@@ -2669,7 +2681,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/Rj8cGKr5M7A/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Rj8cGKr5M7A" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[SunF 15x7-6 Tubeless 6 Ply - A011 — Single Tire]]></title>
@@ -2765,7 +2777,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/7i1iysTZqWU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=7i1iysTZqWU" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Photoshoot Thread]]></title>
@@ -2825,7 +2837,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/qhsU0gVFKd4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=qhsU0gVFKd4" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Black Sheep: Kai Jones, Neil Bennett and the Onewheel - Teton Gravity Research]]></title>
@@ -2849,7 +2861,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/btJKlbrvYKE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=btJKlbrvYKE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[This is why we ride 💜⚡️ #skrrrt]]></title>
@@ -2873,7 +2885,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/zbM_h1wHqV0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=zbM_h1wHqV0" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Which BTG tire for Floatwheel?]]></title>
@@ -2897,7 +2909,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/z4Z5MM9PPUM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=z4Z5MM9PPUM" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Buying an Atom from the UK]]></title>
@@ -2921,7 +2933,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/x6Mc1ifjXQg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=x6Mc1ifjXQg" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Is it possible to dye the plastic parts?]]></title>
@@ -2969,7 +2981,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/pIsRT8oKwDc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=pIsRT8oKwDc" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Built for the ride 🫡 #onewheel #landedfootwear]]></title>
@@ -2981,7 +2993,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/ylg0GrypTV0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ylg0GrypTV0" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[ADV bumpers?]]></title>
@@ -3089,7 +3101,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/13kmcWDPSzk/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=13kmcWDPSzk" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Pint X (7314 / Hydrus 5200) — Best Path to More Range Before VESC?]]></title>
@@ -3125,7 +3137,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/_mhp7wdufXU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=_mhp7wdufXU" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Do you actually recommend bindings, or are they unnecessary?]]></title>
@@ -3149,7 +3161,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/_W4BxVu7-E0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=_W4BxVu7-E0" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Pint sale ends the 7th! Don’t miss out! #Onewheel #OnewheelTricks #OnewheelPint]]></title>
@@ -3161,7 +3173,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/8Sqqma3qBWA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=8Sqqma3qBWA" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Jimmy Chang - C-SIDE (Full Album)]]></title>
@@ -3209,7 +3221,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/Zaub5I7G6jo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Zaub5I7G6jo" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Optimize your Atom's configuration]]></title>
@@ -3281,7 +3293,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/tIfEYL-lo1M/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=tIfEYL-lo1M" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Funwheel+Molex adapter?]]></title>
@@ -3305,7 +3317,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/sJD-JpACVPE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=sJD-JpACVPE" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Practice with the Pros | Onewheel Racing @ DirtSurferz Enduro '26]]></title>
@@ -3401,7 +3413,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/z36x0rwp8eA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=z36x0rwp8eA" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[GT vibration/stuttering issue]]></title>
@@ -3665,7 +3677,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/Gb9M2V4tJlQ/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Gb9M2V4tJlQ" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Atom 1st impression and range test]]></title>
@@ -3737,7 +3749,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/k6p2JAEDAcg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=k6p2JAEDAcg" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[OW Pint/X/S & Floatwheel Atom fender 3D model for TFL Extended Straight & Extended WTF rails]]></title>
@@ -3773,7 +3785,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/N8LDpC88CzA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=N8LDpC88CzA" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Can’t get my Onewheel to engage…]]></title>
@@ -3821,7 +3833,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/dthkFaFdgIE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=dthkFaFdgIE" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Is there a store in the Bay Area where I can try out a one wheel?]]></title>
@@ -3857,7 +3869,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/3JQpeyKaOUc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=3JQpeyKaOUc" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Nothing like a cruise around town -o- #thefloatlife #onewheel #vesc #pev #onewheeltricks]]></title>
@@ -3869,7 +3881,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/eeNkkue9Y2g/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eeNkkue9Y2g" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[SUPrents for a new Pint S ???]]></title>
@@ -4061,7 +4073,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/5ucMsmP1j-0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=5ucMsmP1j-0" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Onewheel pint X + fishbones, issues]]></title>
@@ -4181,7 +4193,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/lc_WJP2QUH4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lc_WJP2QUH4" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Will It Go The Distance? || Floatwheel Atom Range Test]]></title>
@@ -4193,7 +4205,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/dcrdNtKIgxU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=dcrdNtKIgxU" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[This Is Austin Onewheel Club | Shot on DJI Osmo Pocket 4P]]></title>
@@ -4253,7 +4265,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/FbLsvFO7q1g/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=FbLsvFO7q1g" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Retiring from commuting]]></title>
@@ -4277,7 +4289,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/Gb2_V_ljatM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Gb2_V_ljatM" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[XRV won't turn on]]></title>
@@ -4349,7 +4361,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/KEapn0_WDq0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=KEapn0_WDq0" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[How do i use crypto i want to buy the xrv kit im 16]]></title>
@@ -4421,7 +4433,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/J1MfdGBEqMw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=J1MfdGBEqMw" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Pint x for first onewheel?]]></title>
@@ -4469,7 +4481,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/EuK9pX-KHj4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=EuK9pX-KHj4" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[A week and a half ago I posted a onewheel game I was building and got taken apart in the comments — in the useful way. The iPhone beta is live now, so here's where it stands.]]></title>
@@ -4505,7 +4517,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/aPI__iOtLZc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=aPI__iOtLZc" /></media:content>
       <dc:creator>Onewheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel YouTube Feed (FM) (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
     </item>
     <item>
       <title><![CDATA[Watch Greyson the Pit Bull Masterfully Ride a Onewheel and Navigate Speed Bumps - Yahoo]]></title>
@@ -4529,7 +4541,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/EGu1oGoZoKQ/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=EGu1oGoZoKQ" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Pit Bull Rides a Onewheel With Incredible Ease and Even Knows How to Handle Speed Bumps - PetHelpful]]></title>
@@ -4685,7 +4697,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/mn1ZvWk_Iks/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=mn1ZvWk_Iks" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[How to verify proper hall sensor recognition and alignment in VESC tool]]></title>
@@ -4721,7 +4733,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/qZC0Yu4Nczs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=qZC0Yu4Nczs" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[floatwheel atom installation tutorial & FAQ about beta testing]]></title>
@@ -4817,7 +4829,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/VvPcJS_2EMU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=VvPcJS_2EMU" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pricing Explained: What You Actually Pay and What You Get]]></title>
@@ -4877,7 +4889,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/pDj1_F4W33c/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=pDj1_F4W33c" /></media:content>
       <dc:creator>Amped Electric Games</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games</source>
     </item>
     <item>
       <title><![CDATA[Race for the Rail: Winners Through the Years]]></title>
@@ -5009,7 +5021,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/OkMUMPOV_cc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=OkMUMPOV_cc" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Prendre l’avion avec un one wheel]]></title>
@@ -5033,7 +5045,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/RKnihdlEVgU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=RKnihdlEVgU" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Which Onewheel should I buy]]></title>
@@ -5057,7 +5069,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/S5tgzQaozLI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=S5tgzQaozLI" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Just started my hobby 10 days ago and loving it , just pulled the trigger on my second board ENDEAVOR 3GT(gear) any tips ??]]></title>
@@ -5129,7 +5141,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/lDGXT1UMUaA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lDGXT1UMUaA" /></media:content>
       <dc:creator>Amped Electric Games</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint walnut rail guards. Walnut fender delete in the works.]]></title>
@@ -5165,7 +5177,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/RON_pcznF4w/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=RON_pcznF4w" /></media:content>
       <dc:creator>Amped Electric Games</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games</source>
     </item>
     <item>
       <title><![CDATA[This Isn't Your Normal Onewheel Race... || Wheel Fun Races @ Seek n Shred Fest 6]]></title>
@@ -5177,7 +5189,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/AWdmwEkJA1Y/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=AWdmwEkJA1Y" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Vesc using Ubox single]]></title>
@@ -5249,7 +5261,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/9FcxbqrhxGE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=9FcxbqrhxGE" /></media:content>
       <dc:creator>Amped Electric Games</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games</source>
     </item>
     <item>
       <title><![CDATA[Summerboard demo/rental in SLC area?]]></title>
@@ -5273,7 +5285,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/lVb2IzCh6MY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=lVb2IzCh6MY" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[New Lines At Our Favorite Spots // Onewheel VESC Tricks]]></title>
@@ -5285,7 +5297,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/gobqU7G22c0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=gobqU7G22c0" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[Josh Ledford's #onewheel Origin Story]]></title>
@@ -5297,7 +5309,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/I3VF_7Pl_-U/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=I3VF_7Pl_-U" /></media:content>
       <dc:creator>Amped Electric Games</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg">Amped Electric Games</source>
     </item>
     <item>
       <title><![CDATA[Is the VESCmann Allround tune the one I've been looking for?]]></title>
@@ -5321,7 +5333,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/tcvVSXdfLjA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=tcvVSXdfLjA" /></media:content>
       <dc:creator>The Float Life</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
     </item>
     <item>
       <title><![CDATA[🤳 Why was this so hard in the beginning?]]></title>
@@ -5441,7 +5453,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/eCERJ6laXW4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eCERJ6laXW4" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[King GTR Max Scooter Is Wild Plus Onewheel Racing League News]]></title>
@@ -5453,7 +5465,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/Lpsar8Cpw3s/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Lpsar8Cpw3s" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Gosmilo X7 : Une nouvelle board dans le game]]></title>
@@ -5477,7 +5489,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/pb9nwmHtZv8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=pb9nwmHtZv8" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA["Quart" style batteries for sale]]></title>
@@ -5537,7 +5549,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/UVUlcwpUlvU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=UVUlcwpUlvU" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Who Is Faster The Vesc Onewheel or Future Motion Onewheel?]]></title>
@@ -5549,7 +5561,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/MyUm04vRxJw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MyUm04vRxJw" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Antic Pit Bike On PumpTrack]]></title>
@@ -5561,7 +5573,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/fsIIznXvCPw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=fsIIznXvCPw" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Antic Bike Does It Handle Trails? Plus Onewheel Race Results]]></title>
@@ -5573,7 +5585,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/xrV2ur_Y6fI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=xrV2ur_Y6fI" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Video Overlays from log files]]></title>
@@ -5597,7 +5609,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/-_FXK3cjkXY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=-_FXK3cjkXY" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Made A Bike]]></title>
@@ -5609,7 +5621,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/jXlPLZncDXQ/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=jXlPLZncDXQ" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Blood Feud: Onewheel declares surfers who ride e-bikes are “kookiest people on the planet” - BeachGrit.com]]></title>
@@ -5705,7 +5717,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/7K0JASN_LDo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=7K0JASN_LDo" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Did craft&ride discontinue the colored soft foot pads/grips?]]></title>
@@ -5837,7 +5849,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/NSV3DjwR9Zs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=NSV3DjwR9Zs" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint/X/S Drop Top fender 3D model]]></title>
@@ -5885,7 +5897,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/031w4nW_S-4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=031w4nW_S-4" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[19s2p Battery Installation Guidance]]></title>
@@ -5921,7 +5933,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/nmYGijAgqFo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=nmYGijAgqFo" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR still good in 26?]]></title>
@@ -6053,7 +6065,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/K-umlplgQmc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=K-umlplgQmc" /></media:content>
       <dc:creator>Scot Mendenhall</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC5She3VOj8lYzFptlB8CqoA">Scot Mendenhall</source>
     </item>
     <item>
       <title><![CDATA[How to Change an Antic Bike Tire: Front and Rear Tire Replacement Walkthrough]]></title>
@@ -6329,7 +6341,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/_Sdbt_7qq9s/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=_Sdbt_7qq9s" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Diagnosing nosedives / motor cut issues]]></title>
@@ -6389,7 +6401,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/eDLDLWp9Dzc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eDLDLWp9Dzc" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Onewheel & DJI Neo2 - Are they the perfect match!? Your personal camera man.]]></title>
@@ -6497,7 +6509,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/NOOQ7uHcLI4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=NOOQ7uHcLI4" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Handplant]]></title>
@@ -6857,7 +6869,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/6vlWeJUBLwo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=6vlWeJUBLwo" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[First Onewheel bought had a bad battery]]></title>
@@ -6893,7 +6905,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/tNDMZ_5gFzY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=tNDMZ_5gFzY" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Onewheel pint x + Samojed + Winter = fun]]></title>
@@ -7037,7 +7049,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/OpusRds2yLA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=OpusRds2yLA" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Footpad ghosting occasionally... footpad calibration?]]></title>
@@ -7217,7 +7229,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/aUvIbZQKxDs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=aUvIbZQKxDs" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Justin Bieber Suffers Painful Rib Injury After Onewheel Skateboard Accident - Yahoo]]></title>
@@ -7625,7 +7637,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/-mECxI2ZvQo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=-mECxI2ZvQo" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Rally XL + FlightFin & FST // Raw Run]]></title>
@@ -7649,7 +7661,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/Oyr3JzbxEn0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Oyr3JzbxEn0" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA["Should I VESC My Onewheel?"]]></title>
@@ -7697,7 +7709,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/c0x4PDGOIbY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=c0x4PDGOIbY" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT XL unboxing ASMR ride and unbiased review]]></title>
@@ -7877,7 +7889,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/HFP9BuQJyBk/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=HFP9BuQJyBk" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[A Phoenix Onewheel Summer Evening Float]]></title>
@@ -8117,7 +8129,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/Su9-eyOLqpM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Su9-eyOLqpM" /></media:content>
       <dc:creator>The Realberg Experience</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCRkBpDKQZrUAV81762V8auA">The Realberg Experience (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCRkBpDKQZrUAV81762V8auA">The Realberg Experience</source>
     </item>
     <item>
       <title><![CDATA[Chillest Chooses Sharky Shred Shop for Exclusive Merch Distribution]]></title>
@@ -8273,7 +8285,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/24tCaFfdoc4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=24tCaFfdoc4" /></media:content>
       <dc:creator>The Realberg Experience</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCRkBpDKQZrUAV81762V8auA">The Realberg Experience (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCRkBpDKQZrUAV81762V8auA">The Realberg Experience</source>
     </item>
     <item>
       <title><![CDATA[Any thoughts on the Onewheel Backpack?]]></title>
@@ -8297,7 +8309,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/UFWlaW792OQ/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=UFWlaW792OQ" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[Chibattery CBGT 50S Range Test]]></title>
@@ -8321,7 +8333,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/8T3sgk9zHh0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=8T3sgk9zHh0" /></media:content>
       <dc:creator>The Realberg Experience</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCRkBpDKQZrUAV81762V8auA">The Realberg Experience (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCRkBpDKQZrUAV81762V8auA">The Realberg Experience</source>
     </item>
     <item>
       <title><![CDATA[Taking a ☕️ Break on Onewheel GTS]]></title>
@@ -8405,7 +8417,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/LXxoLRasa9U/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=LXxoLRasa9U" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[126v FAS Pack Install for VESC One Wheel]]></title>
@@ -8417,7 +8429,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/c9WhAIjTdLg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=c9WhAIjTdLg" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[OWAT - Onewheel Algarve Tour 2024]]></title>
@@ -8489,7 +8501,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/MS4CSeA6z-s/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MS4CSeA6z-s" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Racing - Las Vegas - Let It Ride 2025 - Women's Finals]]></title>
@@ -8501,7 +8513,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/LrQGDcxRvD8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=LrQGDcxRvD8" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[He beat my top speed on my GT S-Series]]></title>
@@ -8525,7 +8537,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/MO2GNn5GMFw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MO2GNn5GMFw" /></media:content>
       <dc:creator>The Board Garage</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCkm38ykBXTgSAYYD42BREhQ">The Board Garage</source>
     </item>
     <item>
       <title><![CDATA[3 amp internal power kit connections]]></title>
@@ -8561,7 +8573,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/q_mVVKb4XxA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=q_mVVKb4XxA" /></media:content>
       <dc:creator>Jeff Barksdale</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale</source>
     </item>
     <item>
       <title><![CDATA[Now I’ve seen it all 😳 #onewheel]]></title>
@@ -8609,7 +8621,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/a2JIE1q4YHc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=a2JIE1q4YHc" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Throwback to Allie and Kyle crushing the freestyle 🔥 #onewheel]]></title>
@@ -8849,7 +8861,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/j7CtHnYAZ8k/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=j7CtHnYAZ8k" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Onewheel’s First Adventure Tour Two Spots Available in an Exclusive Giveaway - Drift Travel Magazine]]></title>
@@ -8981,7 +8993,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/5PQiPuRV3ik/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=5PQiPuRV3ik" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[let's do a quick onewheel rebuild! www.floatworlds.com #everyone #skateboarding #cool #shorts]]></title>
@@ -9113,7 +9125,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Is Snowboarding Better Than Onewheel???]]></title>
@@ -9809,7 +9821,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/zv3n4TReqgA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=zv3n4TReqgA" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[Is the XR Classic BETTER than Onewheel GT?]]></title>
@@ -9893,7 +9905,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/ffeIu2Z0jwc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ffeIu2Z0jwc" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[😱OUR GUY SEBASTIAN KEEPS LEVELING UP💪]]></title>
@@ -9905,7 +9917,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/XYDWBZFqG7I/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=XYDWBZFqG7I" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[FST Quickie Foot Hold System for Onewheel Exploded View #onewheel #onewheelgt #onewheelgts]]></title>
@@ -9965,7 +9977,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/2zjNyQ_PpmA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2zjNyQ_PpmA" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[Future Motion Revives the Onewheel XR Classic with Modern Upgrades - stupidDOPE]]></title>
@@ -9989,7 +10001,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/U_a231ZcUMA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=U_a231ZcUMA" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic First Impressions!!]]></title>
@@ -10001,7 +10013,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/QzAcru3ytZ8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=QzAcru3ytZ8" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[I ride the very first Onewheel ever at Future Motion!]]></title>
@@ -10037,7 +10049,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/2QqhJ7NaWvw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2QqhJ7NaWvw" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic Trail Ride Review]]></title>
@@ -10049,7 +10061,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/KczOELC-J90/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=KczOELC-J90" /></media:content>
       <dc:creator>Jeff Barksdale</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale</source>
     </item>
     <item>
       <title><![CDATA[Cutoff Angle #euc #pev #begode #crash]]></title>
@@ -10085,7 +10097,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/dUXDBQQ_OsU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=dUXDBQQ_OsU" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic Range Test - How Far Will It Really Go?]]></title>
@@ -10097,7 +10109,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/m5UVeeHUCq4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=m5UVeeHUCq4" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[I Shouldn't Ride Pumptracks in the Dark #euc #pev #begode #pumptrack]]></title>
@@ -10121,7 +10133,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/MAmFgbxOimI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MAmFgbxOimI" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[The Onewheel XR Classic]]></title>
@@ -10265,7 +10277,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/QpN855CzHfs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=QpN855CzHfs" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Xnito Helmets]]></title>
@@ -10301,7 +10313,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/0UjIdeqjJAI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=0UjIdeqjJAI" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[One hospitalized after crash between motorcycle and electric Onewheel - KOAA News 5]]></title>
@@ -10337,7 +10349,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/HO-nHJpH9mg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=HO-nHJpH9mg" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel Purchase Guide]]></title>
@@ -10385,7 +10397,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Andrew Stroh rides the new Onewheel GTS and his thoughts on it. Winman’s 2024]]></title>
@@ -10409,7 +10421,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/sGfFZ_MBru4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=sGfFZ_MBru4" /></media:content>
       <dc:creator>Jeff Barksdale</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale</source>
     </item>
     <item>
       <title><![CDATA[Insane Onewheel Jumping and riding from Luke Austin at the 2024 WinMan Enduro.]]></title>
@@ -10421,7 +10433,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/X1OyxKY1UO8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=X1OyxKY1UO8" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[*Yard Sale* Future Motion Fender - Onewheel GT-S and Onewheel GT Compatible - USED]]></title>
@@ -10589,7 +10601,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/OfMV0eMHJSM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=OfMV0eMHJSM" /></media:content>
       <dc:creator>Jeff Barksdale</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale</source>
     </item>
     <item>
       <title><![CDATA[OWArace 2023 Women's Final]]></title>
@@ -10613,7 +10625,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/PZXC1J87vEs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=PZXC1J87vEs" /></media:content>
       <dc:creator>FixMyPEV</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC28VvwvADFO-Ge3NO0xiEIQ">FixMyPEV</source>
     </item>
     <item>
       <title><![CDATA[FloatLife Fest 7 - Day 2 Highlights]]></title>
@@ -11249,7 +11261,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/Ype_8I6TVy0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Ype_8I6TVy0" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[South Florida Onewheel - The Video]]></title>
@@ -11285,7 +11297,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/KlxgCl18TdY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=KlxgCl18TdY" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Armor Dilloz: What Color Should I Choose?]]></title>
@@ -11477,7 +11489,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/334G7Od6enU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=334G7Od6enU" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL RACING ! Racing in VEGAS! #onewheelgt #onewheel]]></title>
@@ -11489,7 +11501,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/YTZ-llZqbvU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=YTZ-llZqbvU" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[TOP 5 NEW ONEWHEEL PRODUCTS COMING IN 2024]]></title>
@@ -11537,7 +11549,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/X_wOFMRiUiE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=X_wOFMRiUiE" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Rectify your VESC'ed Onewheel GT - Assessment]]></title>
@@ -11549,7 +11561,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/inUkRZKuPko/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=inUkRZKuPko" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[VESC battery packs]]></title>
@@ -11633,7 +11645,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/MhHGh2Zy98A/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MhHGh2Zy98A" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Hit and Run Drunk Driver - Stopped with a Onewheel]]></title>
@@ -11693,7 +11705,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/p1tfU-fkaa0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=p1tfU-fkaa0" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL GT-S vs MTB FEATURES ! #mountainbikejumps #onewheelgt #onewheel]]></title>
@@ -11705,7 +11717,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/gpF9mqUX3fI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=gpF9mqUX3fI" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Your onewheel PintX is capable of so much more!]]></title>
@@ -11729,7 +11741,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/GPDfync7lF8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=GPDfync7lF8" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[Onewheel skateboards rise in popularity among students - The Reflector online]]></title>
@@ -11753,7 +11765,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/jH7bUp0JkVg/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=jH7bUp0JkVg" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL EVENTS CALENDAR 2024]]></title>
@@ -11777,7 +11789,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/Pg-HdTzI7z8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Pg-HdTzI7z8" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[How To Replace Brake Pads On Every Hydraulic And Mechanical Electric Bike]]></title>
@@ -11801,7 +11813,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/-C1BZAk3v4M/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=-C1BZAk3v4M" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Richflip @1920 FPS Final HD 1080p]]></title>
@@ -11825,7 +11837,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/Yc2_UoTU1gE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Yc2_UoTU1gE" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL GT-S NEW FIRMWARE ! #onewheelgt #onewheelgts]]></title>
@@ -11837,7 +11849,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/sSod-PlsJoc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=sSod-PlsJoc" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Slow Motion Onewheel Slasher - B Roll]]></title>
@@ -11873,7 +11885,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/mTmUoaI4MAM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=mTmUoaI4MAM" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[The GREATEST OF ALL ONEWHEEL TIRES | Goat 6 by FlightFins]]></title>
@@ -12209,7 +12221,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/vxDC3TpuwkI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=vxDC3TpuwkI" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[PSA: Please Waterproof... also your charge port cover isn't as effective as you think]]></title>
@@ -12389,7 +12401,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/_sYTdEZpj2s/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=_sYTdEZpj2s" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Tech Rails “Ice Blocks” fit the @TheFloatLife MTE wheel! #onewheelgt #onewheelgts]]></title>
@@ -12401,7 +12413,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/CMWFs_XfpiA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=CMWFs_XfpiA" /></media:content>
       <dc:creator>LONE STAR AUDITING</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1atkZx_7Axrd3lNBTykvkg">LONE STAR AUDITING</source>
     </item>
     <item>
       <title><![CDATA[Onewheel GT Review – [Two Years Later]]]></title>
@@ -14141,7 +14153,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/Q4vviU6Zs5E/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Q4vviU6Zs5E" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[Winman Enduro '23 Segment 6: Perimeter - Preview]]></title>
@@ -14225,7 +14237,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/nDLl7g3EWVw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=nDLl7g3EWVw" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[A Thank You from Alicia]]></title>
@@ -14333,7 +14345,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/uD5tQd0VuKw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=uD5tQd0VuKw" /></media:content>
       <dc:creator>Carve Creative</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCmWVcgQPUsJQ_ocrGYSQtgA">Carve Creative</source>
     </item>
     <item>
       <title><![CDATA[At FloatLife Fest - Show #2 (Orie Rush and Kyle Hanson)]]></title>
@@ -14549,7 +14561,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/dTsGxxsPGN4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=dTsGxxsPGN4" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Tire Guru - Pint X Battery Box Fix]]></title>
@@ -14657,7 +14669,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/eFaqsHSbJuI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eFaqsHSbJuI" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Orlando Onewheel – Wheel Wednesday Group Ride]]></title>
@@ -14693,7 +14705,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/tfBf47q2eeY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=tfBf47q2eeY" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Racing League - Let It Ride II Finals POV]]></title>
@@ -14705,7 +14717,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/WA0r1UZ-vj0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=WA0r1UZ-vj0" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Lawsuit - Consumer Notice]]></title>
@@ -14789,7 +14801,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/xiBc9ur1ieM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=xiBc9ur1ieM" /></media:content>
       <dc:creator>Jeff Barksdale</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Kicker Ramp Hack]]></title>
@@ -15005,7 +15017,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/gLiHfZBzQ38/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=gLiHfZBzQ38" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[Onewheel — Pragmatic Commuter Tool or The Secret To Eternal Youth? - CleanTechnica]]></title>
@@ -15041,7 +15053,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/k9jGf5wE7D8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=k9jGf5wE7D8" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[Vescify your Onewheel Pint! Guide Part 1-3]]></title>
@@ -15053,7 +15065,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/MFjxFUPXhrw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=MFjxFUPXhrw" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[Onewheel handball #onewheel #handball #southflorida #shorts]]></title>
@@ -15245,7 +15257,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -15485,7 +15497,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/vRM3ajdywW0/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=vRM3ajdywW0" /></media:content>
       <dc:creator>DuckBillWill</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC1rGSNY4An-6PmB4BGyrF1A">DuckBillWill</source>
     </item>
     <item>
       <title><![CDATA[Future Motion recalls footpads for Onewheel GT Electric Skateboards due to bystander injury hazard - Waterfront Media HFX]]></title>
@@ -15533,7 +15545,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/aNAQiSG7eDs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=aNAQiSG7eDs" /></media:content>
       <dc:creator>Dave Stewart</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCVnLHzw8BzL-FzRYGve8K2g">Dave Stewart</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL ALGARVE TOUR 2022 TEASER]]></title>
@@ -15665,7 +15677,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/GQfJ4E4kFpU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=GQfJ4E4kFpU" /></media:content>
       <dc:creator>Jeff Barksdale</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCA8U7v2R3UwehgZhq23ArIw">Jeff Barksdale</source>
     </item>
     <item>
       <title><![CDATA[La politique de Future Motion]]></title>
@@ -15821,7 +15833,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/nLeS2MjgaCM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=nLeS2MjgaCM" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[StokeBird 2022 Afterparty: Amelia Earhart Park]]></title>
@@ -15953,7 +15965,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/ynzdePTsWXs/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ynzdePTsWXs" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[Micromobility recharging: Fire Resistant Lithium Battery Charging Cabinet from e-RIDES]]></title>
@@ -15977,7 +15989,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/mBmIP-cKlWo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=mBmIP-cKlWo" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[Riders to Invite?]]></title>
@@ -16001,7 +16013,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/yzlyApI7L1U/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=yzlyApI7L1U" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[Cerro Negro - Los Angeles - Underground West Coast Circuit North 2022]]></title>
@@ -16013,7 +16025,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/W-gE5HQd-Sw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=W-gE5HQd-Sw" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[ChiBattery Quart Rebuild & Review]]></title>
@@ -16085,7 +16097,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/XcQvSuODWDE/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=XcQvSuODWDE" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[ONEWHEEL ALGARVE TOUR 2021 TEASER]]></title>
@@ -16109,7 +16121,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/ZkC8HAsWUss/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ZkC8HAsWUss" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[AFEEZ FROM e-RIDES IS COMING TO AMERICA! ITS OFFICIAL HE'S GOING TO BE IN CHICAGO FOR THE GROUNDINGS]]></title>
@@ -16169,7 +16181,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/4OuKz4MBvP8/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=4OuKz4MBvP8" /></media:content>
       <dc:creator>Onewheel Underground</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCFrun1jWS0idbinnRgH_PVA">Onewheel Underground</source>
     </item>
     <item>
       <title><![CDATA[VESC-XR Onewheel Conversion]]></title>
@@ -16337,7 +16349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[One Man's Treasure]]></title>
@@ -16373,7 +16385,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/9BLfBqdXJpo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=9BLfBqdXJpo" /></media:content>
       <dc:creator>Richard Kohberger</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCeNgrosbwD17C3yrB9-BAEA">Richard Kohberger (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCeNgrosbwD17C3yrB9-BAEA">Richard Kohberger</source>
     </item>
     <item>
       <title><![CDATA[Float Life Fest 4 2021, Onewheel Event in Bentonville, AR]]></title>
@@ -16565,7 +16577,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/NjDdR_gXjQA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=NjDdR_gXjQA" /></media:content>
       <dc:creator>Richard Kohberger</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCeNgrosbwD17C3yrB9-BAEA">Richard Kohberger (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCeNgrosbwD17C3yrB9-BAEA">Richard Kohberger</source>
     </item>
     <item>
       <title><![CDATA[The upgraded Onewheel GT electric skateboard is built for adventure - Gadget Flow]]></title>
@@ -16769,7 +16781,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[WCGW if I ride my onewheel on some offroad trails while playing a saxophone?]]></title>
@@ -17069,7 +17081,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Wheelistic - Lesie Touat -France]]></title>
@@ -17249,7 +17261,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[The Arborist]]></title>
@@ -17417,7 +17429,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Jack Mitrani]]></title>
@@ -17561,7 +17573,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/tzSYT_aMGno/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=tzSYT_aMGno" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[To Honor A Friend Felled By Cancer, This Guy Rode A Onewheel 2,900 Miles Across Canada - Forbes]]></title>
@@ -17609,7 +17621,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[#2 SHRED SESSION AT : Lac du Salagou Onewheel trail France]]></title>
@@ -17645,7 +17657,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/U-qmHFfn4gA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=U-qmHFfn4gA" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
@@ -17657,7 +17669,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Ride Downtown Sacramento]]></title>
@@ -17669,7 +17681,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/CUrDQkr4_uY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=CUrDQkr4_uY" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Trail Ride at Folsom Lake]]></title>
@@ -17681,7 +17693,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/qFhGPPXhjeM/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=qFhGPPXhjeM" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[Woodward Park Offroad Onewheel Dirt Surfing]]></title>
@@ -17693,7 +17705,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/CJ0uzK9nWXY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=CJ0uzK9nWXY" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Flatland Tricks Practice]]></title>
@@ -17705,7 +17717,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/asKaKfFcAWw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=asKaKfFcAWw" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[Off-road Onewheel Cruise at Woodward Park]]></title>
@@ -17717,7 +17729,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/r96gm2qmfKI/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=r96gm2qmfKI" /></media:content>
       <dc:creator>ThisFunWheel</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel (YouTube)</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCk9yRPObnehOQVo08LnYyCg">ThisFunWheel</source>
     </item>
     <item>
       <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
@@ -17729,7 +17741,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Subreddit Information & Discord Server]]></title>
@@ -17777,7 +17789,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Female Onewheel Riders!!]]></title>
@@ -17909,7 +17921,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -17921,7 +17933,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[$250 3d printed DIY Onewheel!]]></title>
@@ -17969,7 +17981,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -18017,7 +18029,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel riders take sport to new level at Northstar - Sierra Sun]]></title>
@@ -18077,7 +18089,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -18089,7 +18101,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Hold my beer while ride a Onewheel with a samurai sword.]]></title>
@@ -18125,7 +18137,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR Review - TechGearLab]]></title>
