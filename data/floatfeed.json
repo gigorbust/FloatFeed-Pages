@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T00:42:27.432Z",
+  "generatedAt": "2026-11-10T06:32:08.466Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 380,
@@ -178,7 +178,7 @@
       "title": "Reddit r/BaltimoreOnewheel",
       "displayName": "Reddit r/BaltimoreOnewheel",
       "domain": "reddit.com",
-      "siteUrl": "https://www.reddit.com/r/BaltimoreOnewheel/",
+      "siteUrl": "https://www.reddit.com/r/BaltimoreOnewheel/top?t=day",
       "feedUrl": "https://www.reddit.com/r/BaltimoreOnewheel/.rss",
       "deck": "community",
       "kind": "social",
@@ -187,13 +187,13 @@
       "articleCount": 4,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "rate_limited",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "top-posts-on-r-baltimoreonewheel-xfxb99",
@@ -1089,13 +1089,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
+        "endpoint": "empty_feed",
         "ingestion": "succeeded",
         "cache": "not_used",
-        "content": "nonempty",
+        "content": "empty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "ok_empty"
     },
     {
       "id": "east-ride-de-1mh6j40",
@@ -1551,7 +1551,7 @@
       "articleCount": 8,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1595,7 +1595,7 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1727,13 +1727,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "duckbillwill-1ssgiy3",
@@ -1749,7 +1749,7 @@
       "articleCount": 7,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2519,7 +2519,7 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "fetch_failed",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2815,8 +2815,8 @@
     },
     {
       "id": "vow-1xtz51n",
-      "title": "VOW",
-      "displayName": "VOW",
+      "title": "VOW (YouTube)",
+      "displayName": "VOW (YouTube)",
       "domain": "youtube.com",
       "siteUrl": "https://www.youtube.com/channel/UClOz_aLlfHQvAT2-Nl49G4w",
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UClOz_aLlfHQvAT2-Nl49G4w",
@@ -3168,6 +3168,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "top-posts-on-r-floatwheelteam-fbmzqz"
       ],
       "mergedItemCount": 3,
@@ -3276,7 +3277,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -3300,7 +3302,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -3373,7 +3376,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
@@ -3397,7 +3401,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -3447,7 +3452,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -3595,6 +3601,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v",
         "reddit-r-onewheel-latest-1hks7dv",
         "top-posts-on-r-onewheel-11sf722"
@@ -3895,6 +3902,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4171,6 +4179,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4366,6 +4375,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4391,6 +4401,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4464,6 +4475,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4510,6 +4522,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4608,6 +4621,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v",
         "reddit-r-onewheel-latest-1hks7dv"
       ],
@@ -4634,6 +4648,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4706,6 +4721,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4804,6 +4820,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -4855,6 +4872,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v",
         "reddit-r-onewheel-latest-1hks7dv"
       ],
@@ -4881,6 +4899,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -5449,6 +5468,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -5517,6 +5537,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -5564,6 +5585,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -5610,6 +5632,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -7976,6 +7999,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8115,6 +8139,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8345,6 +8370,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8477,6 +8503,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8523,6 +8550,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8569,6 +8597,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8681,6 +8710,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8706,6 +8736,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8752,6 +8783,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -8820,6 +8852,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -9203,6 +9236,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -9643,6 +9677,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -9694,6 +9729,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -9719,6 +9755,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -9795,7 +9832,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -10048,7 +10086,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
@@ -10218,7 +10257,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -10613,7 +10653,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -10736,7 +10777,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
@@ -10885,7 +10927,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11147,7 +11190,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11284,7 +11328,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11353,7 +11398,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11422,7 +11468,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 240,
@@ -11446,7 +11493,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11470,7 +11518,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11494,7 +11543,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11651,6 +11701,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "r-floatlife-4ronf4",
         "best-posts-on-r-floatlife-qe5u46"
       ],
@@ -11676,7 +11727,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11811,7 +11863,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 500,
@@ -11835,7 +11888,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -11883,7 +11937,8 @@
       "deck": "community",
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
-        "reddit-r-floatwheelteam-1wdrxpi"
+        "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb"
       ],
       "mergedItemCount": 2,
       "embedHeight": 316,
@@ -17326,7 +17381,7 @@
       "videoId": "-reZ1p_T7bI",
       "image": "https://i2.ytimg.com/vi/-reZ1p_T7bI/hqdefault.jpg",
       "sourceId": "vow-1xtz51n",
-      "source": "VOW",
+      "source": "VOW (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -19074,7 +19129,7 @@
       "videoId": "8vGTjxNG7EY",
       "image": "https://i1.ytimg.com/vi/8vGTjxNG7EY/hqdefault.jpg",
       "sourceId": "vow-1xtz51n",
-      "source": "VOW",
+      "source": "VOW (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -20737,7 +20792,7 @@
       "videoId": "PsIudsIf8wQ",
       "image": "https://i1.ytimg.com/vi/PsIudsIf8wQ/hqdefault.jpg",
       "sourceId": "vow-1xtz51n",
-      "source": "VOW",
+      "source": "VOW (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -21460,7 +21515,7 @@
       "videoId": "CZ13kXuqS30",
       "image": "https://i4.ytimg.com/vi/CZ13kXuqS30/hqdefault.jpg",
       "sourceId": "vow-1xtz51n",
-      "source": "VOW",
+      "source": "VOW (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -21571,7 +21626,7 @@
       "videoId": "e8Q_om4bfeU",
       "image": "https://i2.ytimg.com/vi/e8Q_om4bfeU/hqdefault.jpg",
       "sourceId": "vow-1xtz51n",
-      "source": "VOW",
+      "source": "VOW (YouTube)",
       "sourceDomain": "youtube.com",
       "sourceKind": "video",
       "deck": "video",
@@ -22508,6 +22563,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
@@ -27990,7 +28046,7 @@
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 3
+      "mergedItemCount": 4
     },
     {
       "id": "i89pfl-1k6th9l",
@@ -28549,6 +28605,7 @@
       "feedUrl": "https://www.reddit.com/r/FloatwheelTeam.rss",
       "duplicateSourceIds": [
         "reddit-r-floatwheelteam-1wdrxpi",
+        "reddit-floatwheelteam-163kqhb",
         "reddit-r-floatwheelteam-hot-rtv69v"
       ],
       "mergedItemCount": 3,
