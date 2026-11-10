@@ -5,8 +5,8 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 127,
-    "feedSourceCount": 125,
+    "sourceCount": 128,
+    "feedSourceCount": 126,
     "articleCount": 1579,
     "rssUrl": "/feeds/all.xml"
   },
@@ -71,8 +71,8 @@
     "shortTitle": "Community",
     "color": "#94b447",
     "description": "Forums, Reddit, social sources, and community discussion streams.",
-    "sourceCount": 21,
-    "feedSourceCount": 20,
+    "sourceCount": 22,
+    "feedSourceCount": 21,
     "articleCount": 377,
     "rssUrl": "/feeds/community.xml"
   }
