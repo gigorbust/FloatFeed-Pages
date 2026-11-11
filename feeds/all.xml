@@ -5,8 +5,44 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 11 Nov 2026 00:44:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 06:32:57 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling]]></title>
+      <link>https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_3</link>
+      <guid isPermaLink="false">1pgcrh2-1czfdl1</guid>
+      <pubDate>Wed, 11 Nov 2026 05:57:16 GMT</pubDate>
+      <description><![CDATA[<p>IMU filtering I realized I haven’t addressed the IMU filtering levels in my post, so here we go. The Accel/Gyro Filter setting (LOW, MEDIUM, HIGH) selects low-pass filters inside the IMU. The cutoff frequencies you get from it depend on whether the IMU is polled or uses the data-ready interrupt. In the tables below, each cell shows the accelerometer and gyro cutoff in Hz. When polled (all onboard IMUs except Z400), the IMU always runs at its maximum rate and the firmware reads the newest sample at the Sample Rate. With the data-ready interrupt (Z400 onboard IMU), the IMU runs at the Sample Rat</p>]]></description>
+      <content:encoded><![CDATA[<p>It’s been a year and a half since I first started working on resolving the IMU issues that plague VESC Onewheels. After many weekends spent over the code and testing, plenty of setbacks and several nosedives, I’ve now mostly finished the cleanup of the low-level IMU data signal path. That is, with the elephant in the room still kind of looming…</p>&#10;<h2><a href="https://pev.dev/#p-6523-the-mysterious-controller-resets-1" target="_blank" rel="noopener noreferrer"></a>The mysterious controller resets</h2>&#10;<p>The main roadblock all along was me getting random controller resets, for which I still don’t have an explanation. The only conclusive trigger condition I observed was raising IMU Sample Rate to levels which fully saturated the CPU (close to 100% load). The resets also only ever happened to me on one board, although it was on two different controllers (Tronic 250R and JetFleet F6 32S v1). One tester (Kleym on discord, thanks!) recently dared to reproduce this by going to the same or higher frequencies than me and reported no issues. I’ll call this one data point not enough and declare Sample Rates above 900 Hz not safe on controllers where the CPU has to do the IMU comms (all of them except Thor301, Thor400 and Z400 as of writing this).</p>&#10;<h2><a href="https://pev.dev/#p-6523-high-level-overview-of-the-changes-2" target="_blank" rel="noopener noreferrer"></a>High-level overview of the changes</h2>&#10;<p>After my initial <a href="https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956" target="_blank" rel="noopener noreferrer">excursion into IMU sampling fixes</a>, I went on to rewrite the IMU hardware device layer in the VESC firmware to unify and deduplicate the codebase, make it modular and overall clean up the code. This allowed me to apply the same fixes I did for the LSM6DS3 IMU to all the other IMUs, make further speedups and timing improvements to the data signal, and also make it much easier to add new IMUs, which will now also use the shared, cleaned up infrastructure.</p>&#10;<p>The main practical impacts of this work are removing some cases of nose hunting (mainly nose up/down bias at higher speeds on rough terrain, which produces vibrations) and better vibration rejection as demonstrated in the linked post. On controllers that support it, higher IMU Sample Rates can now be reached, which may improve some aspects of board control (not widely explored yet).</p>&#10;<p>It also serves as reassurance that the signal path is now clean (barring any potential stupid mistakes) on this level and the package is being served healthy data.</p>&#10;<h2><a href="https://pev.dev/#p-6523-how-can-i-get-it-3" target="_blank" rel="noopener noreferrer"></a>How can I get it?</h2>&#10;<p>All the changes have been submitted to the VESC firmware and will be part of the 7.01 release. Until then, I am also providing my own <a href="https://github.com/lukash/bldc/releases/tag/v7.00-rflt-xtras-0.5" target="_blank" rel="noopener noreferrer">7.00 Refloat Extras release</a>.</p>&#10;<p>Release stage: <strong><em>testing</em></strong></p>&#10;<p>The release is moderately tested, the only known issue is the potential controller resets described above, which have never happened (over thousands of kilometers) at IMU Sample Rate 900 Hz. My release does have the Sample Rate limit lifted to allow anyone to experiment if they so wish, so please take care to stay at or below 900 Hz (the 7.01 final will keep the limit in place for the risky software-comms case).</p>&#10;<p>As always with experimental firmware, follow <a href="https://pev.dev/t/testing-experimental-software/2955" target="_blank" rel="noopener noreferrer">my initial test guide</a> before riding.</p>&#10;<p><strong><em>Please</em></strong> make yourself familiar with <a href="https://pev.dev/t/diagnosing-nosedives-motor-cut-issues/2957" target="_blank" rel="noopener noreferrer">what to do in case you get a nosedive</a>. If it happens, try to gather as much information as possible and send it to me, it’ll help to diagnose the issue and can save others from the same fate.</p>&#10;<h2><a href="https://pev.dev/#p-6523-support-the-cause-4" target="_blank" rel="noopener noreferrer"></a>Support the cause</h2>&#10;<p>Getting this far has cost a tremendous amount of time, some hardware, ruined clothes and a few bruises. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;<h2><a href="https://pev.dev/#p-6523-technical-breakdown-of-the-changes-5" target="_blank" rel="noopener noreferrer"></a>Technical breakdown of the changes</h2>&#10;<h3><a href="https://pev.dev/#p-6523-from-software-i2c-to-hardware-spi-6" target="_blank" rel="noopener noreferrer"></a>From software I2C to hardware SPI</h3>&#10;<p>Most Onewheel VESC controllers nowadays use software I2C for IMU comms (the CPU manually toggles bits on the wire with precise timing). I2C is slow (each sample takes hundreds of microseconds) and in the software-driven case gets interrupted by higher priority workloads (mainly motor control). I’ve done what I could to get the most out of this setup.</p>&#10;<p>On select controllers (Thor301, Thor400, Z400), thanks to the good work of David Molony / mxlemming, the IMU is connected in a better way (it needs to be on the right MCU pins) which also allows hardware comms (the CPU doesn’t do the work, a specialized hardware peripheral does) using the SPI bus protocol instead of I2C. Until now these controllers shared the code with the rest, so they also used software I2C; now they use hardware SPI. SPI can go up to 10 MHz clock speed compared to 700 kHz of I2C, so it’s much faster.</p>&#10;<p>Here’s how the two compare. <code>dt</code> is the time between consecutive samples (ideally a flat line) and sample latency is how long a sample is delayed before the firmware actually gets to use it:</p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973.jpeg" title="Software I2C" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg" alt="Software I2C" width="690" height="399" /></a></div><p></p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/8/8c8bb4398436a8aab64e15753e137010900671a5.png" title="Hardware SPI" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_690x400.png" alt="Hardware SPI" width="690" height="400" /></a></div><p></p>&#10;<h3><a href="https://pev.dev/#p-6523-the-data-ready-interrupt-7" target="_blank" rel="noopener noreferrer"></a>The data-ready interrupt</h3>&#10;<p>Hardware SPI fixes the transfer, but there’s a second problem: the firmware polls the IMU on its own schedule, while the IMU takes samples on its own internal clock. The two clocks inevitably drift against each other (even setting the same 832 Hz on both IMU Sample Rate and Package Loop Hertz doesn’t make them line up at all), so the firmware sometimes reads a sample that’s already stale and the effective timing wobbles.</p>&#10;<p>The fix is to let the IMU drive the timing: it has an interrupt pin that fires the moment a new sample is ready, and the firmware can use the signal to read the sample at that exact moment. With this, the sample timing is much more precise:</p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff.png" title="Hardware SPI with data ready interrupt" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_690x399.png" alt="Hardware SPI with data ready interrupt" width="690" height="399" /></a></div><p></p>&#10;<p>The data-ready interrupt requires the IMU interrupt pin to be wired to the controller, so it’s only available where the hardware allows it: currently only the Z400 onboard IMU has it, and some external IMUs support it (described below).</p>&#10;<h3><a href="https://pev.dev/#p-6523-the-new-imu_status-command-8" target="_blank" rel="noopener noreferrer"></a>The new imu_status command</h3>&#10;<p>There is now a new, unified <code>imu_status</code> terminal command which can be used to find out the model of the IMU, its communication bus (I2C/SPI), whether it’s hardware or software driven, and some more data:</p>&#10;<pre><code>-&gt; imu_status&#10;&#10;Model         : LSM6DS3&#10;Variant       : TR-C&#10;Transport     : spi-hw&#10;Running       : yes&#10;Sample Rate   : 1700 Hz&#10;Read fails    : 0&#10;</code></pre>&#10;<h3><a href="https://pev.dev/#p-6523-other-imu-improvements-9" target="_blank" rel="noopener noreferrer"></a>Other IMU improvements</h3>&#10;<p>The overhaul comes with a number of smaller improvements across the board, also for the controllers staying on software I2C (some have already been mentioned in the previous post):</p>&#10;<ul>&#10;<li>The I2C bus speed is raised to 700 kHz on all supported controllers</li>&#10;<li>More accurate sample timestamping in all modes</li>&#10;<li>On hardware SPI controllers, the IMU processing priority is raised to avoid arbitrary delays caused by other tasks</li>&#10;<li>The board orientation is now seeded at startup, shortening the IMU startup time and overall bootup</li>&#10;<li>If the IMU freezes and stops producing fresh data, the firmware detects it and stops feeding the stale readings to the package, letting it detect the sensor loss instead of staying engaged on data that are wrong just the right way</li>&#10;<li>Support for the ST LSM6DSV32X, a modern IMU with much better on-paper noise and temperature-drift characteristics and twice the measurement range on both accel and gyro</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6523-external-imu-over-hardware-spi-10" target="_blank" rel="noopener noreferrer"></a>External IMU over hardware SPI</h3>&#10;<p>A few select controllers expose full hardware SPI on a connector. An external IMU can be connected to this interface and it works much better than an I2C-connected one. SPI is much more resilient to noise and interference due to its electrical design, <em>while</em> running at 10 MHz clock speed compared to 700 kHz of I2C. For this reason, I’ve changed the external IMU support from I2C on the external UART connector (which will no longer work) to this new connector. Additionally, the data-ready interrupt is supported on this interface as well — wiring the INT1 pin is required for the LSM6DS3 and LSM6DSV32X (the older IMUs don’t support it and stay polled, the pin is then unused).</p>&#10;<p><strong><em>If you’ve been running an external IMU on one of these controllers, it will break and you’ll need to re-wire it for the new connection.</em></strong> I’ve made this breaking change because I believe the new one is so superior to the old one, it’s worth it, and it’s a niche setup which very few people are running, if anyone. If you are running this, please stay on the old firmware until you’re ready to rewire your IMU.</p>&#10;<p>Supported controllers:</p>&#10;<ul>&#10;<li>Thor301</li>&#10;<li>Thor400 / Thor400v2</li>&#10;<li>JetFleet F6 v1 (not v2)</li>&#10;</ul>&#10;<p><em>Note: Even if you don’t wire anything to the external UART connector, the new connection shares the controller’s internal pins with it, so the two can’t run simultaneously. The external UART is disabled while an external IMU is configured.</em></p>&#10;<p>Note on JetFleet F6 v1: I wasn’t able to test the support properly before my controller burnt (unrelated to the IMU), so it is not included upstream. If you can test this and confirm, reach out and I’ll submit it for inclusion.</p>&#10;<h4><a href="https://pev.dev/#p-6523-wiring-11" target="_blank" rel="noopener noreferrer"></a>Wiring</h4>&#10;<div>&#10;<table>&#10;<thead>&#10;<tr>&#10;<th>IMU module pin</th>&#10;<th>Thor301 / Thor400</th>&#10;<th>JetFleet F6</th>&#10;</tr>&#10;</thead>&#10;<tbody>&#10;<tr>&#10;<td>SCK / SCL</td>&#10;<td>PC10 (UART TX)</td>&#10;<td>PC10 (UART TX)</td>&#10;</tr>&#10;<tr>&#10;<td>SDO / MISO</td>&#10;<td>PC11 (UART RX)</td>&#10;<td>PC11 (UART RX)</td>&#10;</tr>&#10;<tr>&#10;<td>SDI / SDA / MOSI</td>&#10;<td>PC12</td>&#10;<td>PC12</td>&#10;</tr>&#10;<tr>&#10;<td>CS</td>&#10;<td>PA7</td>&#10;<td>PB10</td>&#10;</tr>&#10;<tr>&#10;<td>INT1</td>&#10;<td>PC9</td>&#10;<td>PC9 (AUX)</td>&#10;</tr>&#10;<tr>&#10;<td>VCC</td>&#10;<td>3.3V</td>&#10;<td>3.3V</td>&#10;</tr>&#10;<tr>&#10;<td>GND</td>&#10;<td>GND</td>&#10;<td>GND</td>&#10;</tr>&#10;</tbody>&#10;</table>&#10;</div><p>Either the LSM6DS3 or the BMI160, wired correctly, is supported (the other, older IMUs should work as well but aren’t recommended). Once 7.01 is out, LSM6DSV32X will be available for selection in the config as well.</p>&#10;<p>You can verify the IMU is running with the <code>imu_status</code> VESC Terminal command.</p>&#10;            <p><small>3 posts - 2 participants</small></p>&#10;            <p><a href="https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+      <media:thumbnail url="https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg" />
+
+      <dc:creator>@Jet_Fleet JetFleet</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+    </item>
+    <item>
+      <title><![CDATA[Anyone tried changing their Onewheel tire pressure for smoother rides?]]></title>
+      <link>http://owforum.co.uk/topic/580/anyone-tried-changing-their-onewheel-tire-pressure-for-smoother-rides</link>
+      <guid isPermaLink="false">wzmt30-s1ax57</guid>
+      <pubDate>Wed, 11 Nov 2026 05:06:45 GMT</pubDate>
+      <description><![CDATA[<p>I ride my Onewheel around the neighborhood and some of the sidewalks here in Louisville are pretty rough. I&apos;ve been thinking about adjusting the tire pressure to see if it makes a difference in how it handles bumps and cracks. The stock pressure feels a bit stiff to me, but I&apos;m not sure if lowering it would hurt the range or make the board feel sluggish. I don&apos;t want to mess with anything that could cause a flat or wear the tire out faster either. I mostly ride on pavement but occasionally cut through grass or gravel paths. Curious what pressure other riders in this area tend to run, especiall</p>]]></description>
+      <content:encoded><![CDATA[<p>I ride my Onewheel around the neighborhood and some of the sidewalks here in Louisville are pretty rough. I've been thinking about adjusting the tire pressure to see if it makes a difference in how it handles bumps and cracks. The stock pressure feels a bit stiff to me, but I'm not sure if lowering it would hurt the range or make the board feel sluggish. I don't want to mess with anything that could cause a flat or wear the tire out faster either. I mostly ride on pavement but occasionally cut through grass or gravel paths. Curious what pressure other riders in this area tend to run, especially if you deal with similar surfaces. Has anyone found a sweet spot that balances comfort and control, or is it better to just stick with what Onewheel recommends? Any input would be helpful.</p>]]></content:encoded>
+
+
+      <dc:creator>LOAF</dc:creator>
+      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
+    </item>
+    <item>
+      <title><![CDATA[Anyone else ride a Onewheel in Austin heat and notice range dropping?]]></title>
+      <link>http://owforum.co.uk/topic/579/anyone-else-ride-a-onewheel-in-austin-heat-and-notice-range-dropping</link>
+      <guid isPermaLink="false">1bemgwb-s1ax57</guid>
+      <pubDate>Wed, 11 Nov 2026 05:04:51 GMT</pubDate>
+      <description><![CDATA[<p>I ride a Onewheel Pint around Austin, mostly on the hike-and-bike trails and short errands near downtown. With summer temps creeping past 100°F, I&apos;ve been noticing my range isn&apos;t what it used to be on the same routes. I&apos;m not sure if it&apos;s the heat affecting the battery, tire pressure changes, or just me pushing harder on the hills. I usually ride in the late afternoon when it&apos;s still pretty hot out. I&apos;m trying to decide whether to change up my riding schedule or look into any battery care habits for hot weather. I don&apos;t want to shorten the board&apos;s lifespan by riding in extreme heat, but evenin</p>]]></description>
+      <content:encoded><![CDATA[<p>I ride a Onewheel Pint around Austin, mostly on the hike-and-bike trails and short errands near downtown. With summer temps creeping past 100°F, I've been noticing my range isn't what it used to be on the same routes. I'm not sure if it's the heat affecting the battery, tire pressure changes, or just me pushing harder on the hills. I usually ride in the late afternoon when it's still pretty hot out.</p>&#10;<p>I'm trying to decide whether to change up my riding schedule or look into any battery care habits for hot weather. I don't want to shorten the board's lifespan by riding in extreme heat, but evening rides are the only time I have. Has anyone here dealt with range loss in Texas summers? Any tips on managing heat with a Onewheel would be really helpful.</p>]]></content:encoded>
+
+
+      <dc:creator>LOAF</dc:creator>
+      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
+    </item>
     <item>
       <title><![CDATA[In The Wild, Photo Share (If Possible To Capture).... Keep Your OneWheel In The Shot If You Can.]]></title>
       <link>http://owforum.co.uk/topic/40/in-the-wild-photo-share-if-possible-to-capture-keep-your-onewheel-in-the-shot-if-you-can</link>
@@ -17,30 +53,6 @@
 
 
       <dc:creator>Lia</dc:creator>
-      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
-    </item>
-    <item>
-      <title><![CDATA[Anyone tried changing their Onewheel tire pressure for smoother rides?]]></title>
-      <link>http://owforum.co.uk/topic/580/anyone-tried-changing-their-onewheel-tire-pressure-for-smoother-rides</link>
-      <guid isPermaLink="false">wzmt30-s1ax57</guid>
-      <pubDate>Tue, 10 Nov 2026 08:16:26 GMT</pubDate>
-      <description><![CDATA[<p>I ride my Onewheel around the neighborhood and some of the sidewalks here in Louisville are pretty rough. I&apos;ve been thinking about adjusting the tire pressure to see if it makes a difference in how it handles bumps and cracks. The stock pressure feels a bit stiff to me, but I&apos;m not sure if lowering it would hurt the range or make the board feel sluggish. I don&apos;t want to mess with anything that could cause a flat or wear the tire out faster either. I mostly ride on pavement but occasionally cut through grass or gravel paths. Curious what pressure other riders in this area tend to run, especiall</p>]]></description>
-      <content:encoded><![CDATA[<p>I ride my Onewheel around the neighborhood and some of the sidewalks here in Louisville are pretty rough. I've been thinking about adjusting the tire pressure to see if it makes a difference in how it handles bumps and cracks. The stock pressure feels a bit stiff to me, but I'm not sure if lowering it would hurt the range or make the board feel sluggish. I don't want to mess with anything that could cause a flat or wear the tire out faster either. I mostly ride on pavement but occasionally cut through grass or gravel paths. Curious what pressure other riders in this area tend to run, especially if you deal with similar surfaces. Has anyone found a sweet spot that balances comfort and control, or is it better to just stick with what Onewheel recommends? Any input would be helpful.</p>]]></content:encoded>
-
-
-      <dc:creator>emilysmith</dc:creator>
-      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
-    </item>
-    <item>
-      <title><![CDATA[Anyone else ride a Onewheel in Austin heat and notice range dropping?]]></title>
-      <link>http://owforum.co.uk/topic/579/anyone-else-ride-a-onewheel-in-austin-heat-and-notice-range-dropping</link>
-      <guid isPermaLink="false">1bemgwb-s1ax57</guid>
-      <pubDate>Tue, 10 Nov 2026 04:06:24 GMT</pubDate>
-      <description><![CDATA[<p>I ride a Onewheel Pint around Austin, mostly on the hike-and-bike trails and short errands near downtown. With summer temps creeping past 100°F, I&apos;ve been noticing my range isn&apos;t what it used to be on the same routes. I&apos;m not sure if it&apos;s the heat affecting the battery, tire pressure changes, or just me pushing harder on the hills. I usually ride in the late afternoon when it&apos;s still pretty hot out. I&apos;m trying to decide whether to change up my riding schedule or look into any battery care habits for hot weather. I don&apos;t want to shorten the board&apos;s lifespan by riding in extreme heat, but evenin</p>]]></description>
-      <content:encoded><![CDATA[<p>I ride a Onewheel Pint around Austin, mostly on the hike-and-bike trails and short errands near downtown. With summer temps creeping past 100°F, I've been noticing my range isn't what it used to be on the same routes. I'm not sure if it's the heat affecting the battery, tire pressure changes, or just me pushing harder on the hills. I usually ride in the late afternoon when it's still pretty hot out.</p>&#10;<p>I'm trying to decide whether to change up my riding schedule or look into any battery care habits for hot weather. I don't want to shorten the board's lifespan by riding in extreme heat, but evening rides are the only time I have. Has anyone here dealt with range loss in Texas summers? Any tips on managing heat with a Onewheel would be really helpful.</p>]]></content:encoded>
-
-
-      <dc:creator>williamlewis</dc:creator>
       <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
     </item>
     <item>
@@ -162,18 +174,6 @@
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=fWk5LtZg1pk" /></media:content>
       <dc:creator>Vinie Vizzle</dc:creator>
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle (YouTube)</source>
-    </item>
-    <item>
-      <title><![CDATA[VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling]]></title>
-      <link>https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_2</link>
-      <guid isPermaLink="false">1pqcd61-1czfdl1</guid>
-      <pubDate>Sat, 07 Nov 2026 13:06:21 GMT</pubDate>
-      <description><![CDATA[<p>IMU filtering I realized I haven’t addressed the IMU filtering levels in my post, so here we go. The Accel/Gyro Filter setting (LOW, MEDIUM, HIGH) selects low-pass filters inside the IMU. The cutoff frequencies you get from it depend on whether the IMU is polled or uses the data-ready interrupt. In the tables below, each cell shows the accelerometer and gyro cutoff in Hz. When polled (all onboard IMUs except Z400), the IMU always runs at its maximum rate and the firmware reads the newest sample at the Sample Rate. With the data-ready interrupt (Z400 onboard IMU), the IMU runs at the Sample Rat</p>]]></description>
-      <content:encoded><![CDATA[<p>It’s been a year and a half since I first started working on resolving the IMU issues that plague VESC Onewheels. After many weekends spent over the code and testing, plenty of setbacks and several nosedives, I’ve now mostly finished the cleanup of the low-level IMU data signal path. That is, with the elephant in the room still kind of looming…</p>&#10;<h2><a href="https://pev.dev/#p-6523-the-mysterious-controller-resets-1" target="_blank" rel="noopener noreferrer"></a>The mysterious controller resets</h2>&#10;<p>The main roadblock all along was me getting random controller resets, for which I still don’t have an explanation. The only conclusive trigger condition I observed was raising IMU Sample Rate to levels which fully saturated the CPU (close to 100% load). The resets also only ever happened to me on one board, although it was on two different controllers (Tronic 250R and JetFleet F6 32S v1). One tester (Kleym on discord, thanks!) recently dared to reproduce this by going to the same or higher frequencies than me and reported no issues. I’ll call this one data point not enough and declare Sample Rates above 900 Hz not safe on controllers where the CPU has to do the IMU comms (all of them except Thor301, Thor400 and Z400 as of writing this).</p>&#10;<h2><a href="https://pev.dev/#p-6523-high-level-overview-of-the-changes-2" target="_blank" rel="noopener noreferrer"></a>High-level overview of the changes</h2>&#10;<p>After my initial <a href="https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956" target="_blank" rel="noopener noreferrer">excursion into IMU sampling fixes</a>, I went on to rewrite the IMU hardware device layer in the VESC firmware to unify and deduplicate the codebase, make it modular and overall clean up the code. This allowed me to apply the same fixes I did for the LSM6DS3 IMU to all the other IMUs, make further speedups and timing improvements to the data signal, and also make it much easier to add new IMUs, which will now also use the shared, cleaned up infrastructure.</p>&#10;<p>The main practical impacts of this work are removing some cases of nose hunting (mainly nose up/down bias at higher speeds on rough terrain, which produces vibrations) and better vibration rejection as demonstrated in the linked post. On controllers that support it, higher IMU Sample Rates can now be reached, which may improve some aspects of board control (not widely explored yet).</p>&#10;<p>It also serves as reassurance that the signal path is now clean (barring any potential stupid mistakes) on this level and the package is being served healthy data.</p>&#10;<h2><a href="https://pev.dev/#p-6523-how-can-i-get-it-3" target="_blank" rel="noopener noreferrer"></a>How can I get it?</h2>&#10;<p>All the changes have been submitted to the VESC firmware and will be part of the 7.01 release. Until then, I am also providing my own <a href="https://github.com/lukash/bldc/releases/tag/v7.00-rflt-xtras-0.5" target="_blank" rel="noopener noreferrer">7.00 Refloat Extras release</a>.</p>&#10;<p>Release stage: <strong><em>testing</em></strong></p>&#10;<p>The release is moderately tested, the only known issue is the potential controller resets described above, which have never happened (over thousands of kilometers) at IMU Sample Rate 900 Hz. My release does have the Sample Rate limit lifted to allow anyone to experiment if they so wish, so please take care to stay at or below 900 Hz (the 7.01 final will keep the limit in place for the risky software-comms case).</p>&#10;<p>As always with experimental firmware, follow <a href="https://pev.dev/t/testing-experimental-software/2955" target="_blank" rel="noopener noreferrer">my initial test guide</a> before riding.</p>&#10;<p><strong><em>Please</em></strong> make yourself familiar with <a href="https://pev.dev/t/diagnosing-nosedives-motor-cut-issues/2957" target="_blank" rel="noopener noreferrer">what to do in case you get a nosedive</a>. If it happens, try to gather as much information as possible and send it to me, it’ll help to diagnose the issue and can save others from the same fate.</p>&#10;<h2><a href="https://pev.dev/#p-6523-support-the-cause-4" target="_blank" rel="noopener noreferrer"></a>Support the cause</h2>&#10;<p>Getting this far has cost a tremendous amount of time, some hardware, ruined clothes and a few bruises. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;<h2><a href="https://pev.dev/#p-6523-technical-breakdown-of-the-changes-5" target="_blank" rel="noopener noreferrer"></a>Technical breakdown of the changes</h2>&#10;<h3><a href="https://pev.dev/#p-6523-from-software-i2c-to-hardware-spi-6" target="_blank" rel="noopener noreferrer"></a>From software I2C to hardware SPI</h3>&#10;<p>Most Onewheel VESC controllers nowadays use software I2C for IMU comms (the CPU manually toggles bits on the wire with precise timing). I2C is slow (each sample takes hundreds of microseconds) and in the software-driven case gets interrupted by higher priority workloads (mainly motor control). I’ve done what I could to get the most out of this setup.</p>&#10;<p>On select controllers (Thor301, Thor400, Z400), thanks to the good work of David Molony / mxlemming, the IMU is connected in a better way (it needs to be on the right MCU pins) which also allows hardware comms (the CPU doesn’t do the work, a specialized hardware peripheral does) using the SPI bus protocol instead of I2C. Until now these controllers shared the code with the rest, so they also used software I2C; now they use hardware SPI. SPI can go up to 10 MHz clock speed compared to 700 kHz of I2C, so it’s much faster.</p>&#10;<p>Here’s how the two compare. <code>dt</code> is the time between consecutive samples (ideally a flat line) and sample latency is how long a sample is delayed before the firmware actually gets to use it:</p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973.jpeg" title="Software I2C" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg" alt="Software I2C" width="690" height="399" /></a></div><p></p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/8/8c8bb4398436a8aab64e15753e137010900671a5.png" title="Hardware SPI" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/8/8c8bb4398436a8aab64e15753e137010900671a5_2_690x400.png" alt="Hardware SPI" width="690" height="400" /></a></div><p></p>&#10;<h3><a href="https://pev.dev/#p-6523-the-data-ready-interrupt-7" target="_blank" rel="noopener noreferrer"></a>The data-ready interrupt</h3>&#10;<p>Hardware SPI fixes the transfer, but there’s a second problem: the firmware polls the IMU on its own schedule, while the IMU takes samples on its own internal clock. The two clocks inevitably drift against each other (even setting the same 832 Hz on both IMU Sample Rate and Package Loop Hertz doesn’t make them line up at all), so the firmware sometimes reads a sample that’s already stale and the effective timing wobbles.</p>&#10;<p>The fix is to let the IMU drive the timing: it has an interrupt pin that fires the moment a new sample is ready, and the firmware can use the signal to read the sample at that exact moment. With this, the sample timing is much more precise:</p>&#10;<p></p><div><a href="https://pev.dev/uploads/db9240/original/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff.png" title="Hardware SPI with data ready interrupt" target="_blank" rel="noopener noreferrer"><img src="https://pev.dev/uploads/db9240/optimized/2X/c/c2916af0d3c8f3efa71074dbc8b6e98bd6cbe7ff_2_690x399.png" alt="Hardware SPI with data ready interrupt" width="690" height="399" /></a></div><p></p>&#10;<p>The data-ready interrupt requires the IMU interrupt pin to be wired to the controller, so it’s only available where the hardware allows it: currently only the Z400 onboard IMU has it, and some external IMUs support it (described below).</p>&#10;<h3><a href="https://pev.dev/#p-6523-the-new-imu_status-command-8" target="_blank" rel="noopener noreferrer"></a>The new imu_status command</h3>&#10;<p>There is now a new, unified <code>imu_status</code> terminal command which can be used to find out the model of the IMU, its communication bus (I2C/SPI), whether it’s hardware or software driven, and some more data:</p>&#10;<pre><code>-&gt; imu_status&#10;&#10;Model         : LSM6DS3&#10;Variant       : TR-C&#10;Transport     : spi-hw&#10;Running       : yes&#10;Sample Rate   : 1700 Hz&#10;Read fails    : 0&#10;</code></pre>&#10;<h3><a href="https://pev.dev/#p-6523-other-imu-improvements-9" target="_blank" rel="noopener noreferrer"></a>Other IMU improvements</h3>&#10;<p>The overhaul comes with a number of smaller improvements across the board, also for the controllers staying on software I2C (some have already been mentioned in the previous post):</p>&#10;<ul>&#10;<li>The I2C bus speed is raised to 700 kHz on all supported controllers</li>&#10;<li>More accurate sample timestamping in all modes</li>&#10;<li>On hardware SPI controllers, the IMU processing priority is raised to avoid arbitrary delays caused by other tasks</li>&#10;<li>The board orientation is now seeded at startup, shortening the IMU startup time and overall bootup</li>&#10;<li>If the IMU freezes and stops producing fresh data, the firmware detects it and stops feeding the stale readings to the package, letting it detect the sensor loss instead of staying engaged on data that are wrong just the right way</li>&#10;<li>Support for the ST LSM6DSV32X, a modern IMU with much better on-paper noise and temperature-drift characteristics and twice the measurement range on both accel and gyro</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6523-external-imu-over-hardware-spi-10" target="_blank" rel="noopener noreferrer"></a>External IMU over hardware SPI</h3>&#10;<p>A few select controllers expose full hardware SPI on a connector. An external IMU can be connected to this interface and it works much better than an I2C-connected one. SPI is much more resilient to noise and interference due to its electrical design, <em>while</em> running at 10 MHz clock speed compared to 700 kHz of I2C. For this reason, I’ve changed the external IMU support from I2C on the external UART connector (which will no longer work) to this new connector. Additionally, the data-ready interrupt is supported on this interface as well — wiring the INT1 pin is required for the LSM6DS3 and LSM6DSV32X (the older IMUs don’t support it and stay polled, the pin is then unused).</p>&#10;<p><strong><em>If you’ve been running an external IMU on one of these controllers, it will break and you’ll need to re-wire it for the new connection.</em></strong> I’ve made this breaking change because I believe the new one is so superior to the old one, it’s worth it, and it’s a niche setup which very few people are running, if anyone. If you are running this, please stay on the old firmware until you’re ready to rewire your IMU.</p>&#10;<p>Supported controllers:</p>&#10;<ul>&#10;<li>Thor301</li>&#10;<li>Thor400 / Thor400v2</li>&#10;<li>JetFleet F6 v1 (not v2)</li>&#10;</ul>&#10;<p><em>Note: Even if you don’t wire anything to the external UART connector, the new connection shares the controller’s internal pins with it, so the two can’t run simultaneously. The external UART is disabled while an external IMU is configured.</em></p>&#10;<p>Note on JetFleet F6 v1: I wasn’t able to test the support properly before my controller burnt (unrelated to the IMU), so it is not included upstream. If you can test this and confirm, reach out and I’ll submit it for inclusion.</p>&#10;<h4><a href="https://pev.dev/#p-6523-wiring-11" target="_blank" rel="noopener noreferrer"></a>Wiring</h4>&#10;<div>&#10;<table>&#10;<thead>&#10;<tr>&#10;<th>IMU module pin</th>&#10;<th>Thor301 / Thor400</th>&#10;<th>JetFleet F6</th>&#10;</tr>&#10;</thead>&#10;<tbody>&#10;<tr>&#10;<td>SCK / SCL</td>&#10;<td>PC10 (UART TX)</td>&#10;<td>PC10 (UART TX)</td>&#10;</tr>&#10;<tr>&#10;<td>SDO / MISO</td>&#10;<td>PC11 (UART RX)</td>&#10;<td>PC11 (UART RX)</td>&#10;</tr>&#10;<tr>&#10;<td>SDI / SDA / MOSI</td>&#10;<td>PC12</td>&#10;<td>PC12</td>&#10;</tr>&#10;<tr>&#10;<td>CS</td>&#10;<td>PA7</td>&#10;<td>PB10</td>&#10;</tr>&#10;<tr>&#10;<td>INT1</td>&#10;<td>PC9</td>&#10;<td>PC9 (AUX)</td>&#10;</tr>&#10;<tr>&#10;<td>VCC</td>&#10;<td>3.3V</td>&#10;<td>3.3V</td>&#10;</tr>&#10;<tr>&#10;<td>GND</td>&#10;<td>GND</td>&#10;<td>GND</td>&#10;</tr>&#10;</tbody>&#10;</table>&#10;</div><p>Either the LSM6DS3 or the BMI160, wired correctly, is supported (the other, older IMUs should work as well but aren’t recommended). Once 7.01 is out, LSM6DSV32X will be available for selection in the config as well.</p>&#10;<p>You can verify the IMU is running with the <code>imu_status</code> VESC Terminal command.</p>&#10;            <p><small>2 posts - 1 participant</small></p>&#10;            <p><a href="https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
-      <media:thumbnail url="https://pev.dev/uploads/db9240/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg" />
-
-      <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[Fall sunsets are amazing 😍 #onewheel #sunset]]></title>
@@ -378,6 +378,18 @@
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=6tFOfFvI9cY" /></media:content>
       <dc:creator>The Float Life</dc:creator>
       <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life (YouTube)</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel Lawsuit - Electric Skateboard Lawsuits - November 2026 - AboutLawsuits.com]]></title>
+      <link>https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5</link>
+      <guid isPermaLink="false">hee639-1k6th9l</guid>
+      <pubDate>Tue, 03 Nov 2026 21:27:21 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 AboutLawsuits.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5" target="_blank" rel="noopener noreferrer">Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026</a>  AboutLawsuits.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[X7SC vs X7LR for fat guy riding on beach.]]></title>
@@ -1782,18 +1794,6 @@
 
       <dc:creator>/u/borisisreliable</dc:creator>
       <source url="https://www.reddit.com/r/FloatwheelTeam/hot/.rss">Reddit r/FloatwheelTeam (hot)</source>
-    </item>
-    <item>
-      <title><![CDATA[Onewheel Lawsuit - Electric Skateboard Lawsuits - October 2026 - AboutLawsuits.com]]></title>
-      <link>https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5</link>
-      <guid isPermaLink="false">hee639-1k6th9l</guid>
-      <pubDate>Mon, 05 Oct 2026 19:13:36 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026 AboutLawsuits.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1rQnVzTE5OTzBha2ZzVWFBUlMxOEExMnZudVljREVqMFNSQk9Oaksza25yNU40Z1VzSGFyM1gtNDBETzBicmxFZUkzeXZjbVRmZmtfOFh1RHRySkk?oc=5" target="_blank" rel="noopener noreferrer">Onewheel Lawsuit - Electric Skateboard Lawsuits - September 2026</a>  AboutLawsuits.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[This might be my new favorite trick ⚡️]]></title>
@@ -7397,7 +7397,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/ZeVdYk-L7Jk/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ZeVdYk-L7Jk" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Italian Dolomites Dream Shred Destination~ Onewheel Friendship and Shredding Diary Docuseries p.4]]></title>
@@ -7409,7 +7409,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/eWeyAO8zLuY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eWeyAO8zLuY" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Travel Vlogger Attempts 400 Km Manali-Ladakh Trip On Onewheel, Sparks Online Buzz - NDTV]]></title>
@@ -7469,7 +7469,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/uBmOCl-vfUU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=uBmOCl-vfUU" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Which board is better?]]></title>
@@ -7517,7 +7517,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/C-c8OHE8XRc/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=C-c8OHE8XRc" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Buying a used One Wheel gt]]></title>
@@ -7781,7 +7781,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/dJjYNzVD-88/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=dJjYNzVD-88" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Big onewheel jumps]]></title>
@@ -8729,7 +8729,7 @@
       <media:thumbnail url="https://i2.ytimg.com/vi/U_MzFGfJkdw/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=U_MzFGfJkdw" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Potato conquers speed bumps 💪 #onewheel]]></title>
@@ -8945,7 +8945,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/2Buk3nkzdi4/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2Buk3nkzdi4" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel's First Adventure Tour Sells Out in Hours: Two Spots Available in an Exclusive Giveaway - PR Newswire]]></title>
@@ -9185,7 +9185,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Is Snowboarding Better Than Onewheel???]]></title>
@@ -9197,7 +9197,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/BdBjOQ3o_XY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=BdBjOQ3o_XY" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Retro 64 Kush Wide Footpad - Onewheel GT-S and Onewheel GT Compatible]]></title>
@@ -9257,7 +9257,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/ZJlfwj5SqhY/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=ZJlfwj5SqhY" /></media:content>
       <dc:creator>The Shred Diaries</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCcBljfaMfxQEf0q1lobpA3A">The Shred Diaries (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* Bearing Protection - Onewheel Pint X and Onewheel Pint Compatible]]></title>
@@ -10457,7 +10457,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Andrew Stroh rides the new Onewheel GTS and his thoughts on it. Winman’s 2024]]></title>
@@ -13784,24 +13784,24 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business]]></title>
-      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5</link>
-      <guid isPermaLink="false">1v6lmtn-1joxsrd</guid>
-      <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5" target="_blank" rel="noopener noreferrer">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>  foxbusiness.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News]]></title>
       <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5</link>
       <guid isPermaLink="false">gi4tg2-1joxsrd</guid>
       <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5" target="_blank" rel="noopener noreferrer">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>  nbcnews.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business]]></title>
+      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5</link>
+      <guid isPermaLink="false">1v6lmtn-1joxsrd</guid>
+      <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5" target="_blank" rel="noopener noreferrer">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>  foxbusiness.com]]></content:encoded>
 
 
 
@@ -13904,24 +13904,24 @@
       <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
-      <title><![CDATA[All Onewheel e-skateboards are recalled after reported deaths - NPR]]></title>
-      <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5</link>
-      <guid isPermaLink="false">18a4tc9-1k6th9l</guid>
-      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>All Onewheel e-skateboards are recalled after reported deaths npr.org</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel e-skateboards are recalled after reported deaths</a>  npr.org]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York]]></title>
       <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5</link>
       <guid isPermaLink="false">fo439r-1k6th9l</guid>
       <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Eyewitness News]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[All Onewheel e-skateboards are recalled after reported deaths - NPR]]></title>
+      <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5</link>
+      <guid isPermaLink="false">18a4tc9-1k6th9l</guid>
+      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>All Onewheel e-skateboards are recalled after reported deaths npr.org</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel e-skateboards are recalled after reported deaths</a>  npr.org]]></content:encoded>
 
 
 
@@ -14309,7 +14309,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/VLXY9pMMRME/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=VLXY9pMMRME" /></media:content>
       <dc:creator>UK Float Events</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPI4M6oPKCszuSAFTz1Jp9Q">UK Float Events</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPI4M6oPKCszuSAFTz1Jp9Q">UK Float Events (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Is this the best place to ride Onewheel in France ? 🇫🇷]]></title>
@@ -14801,7 +14801,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/SGCrMDh-hVU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=SGCrMDh-hVU" /></media:content>
       <dc:creator>_GizmoDuck</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[XLITE V3 - MOSFET Overheating Issue]]></title>
@@ -15317,7 +15317,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -15773,7 +15773,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/Ztu0VWW_N18/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=Ztu0VWW_N18" /></media:content>
       <dc:creator>UK Float Events</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPI4M6oPKCszuSAFTz1Jp9Q">UK Float Events</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPI4M6oPKCszuSAFTz1Jp9Q">UK Float Events (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Boston Onewheel Float w/ Marshall]]></title>
@@ -15809,7 +15809,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/vt7PXbnRYcU/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=vt7PXbnRYcU" /></media:content>
       <dc:creator>UK Float Events</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPI4M6oPKCszuSAFTz1Jp9Q">UK Float Events</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCPI4M6oPKCszuSAFTz1Jp9Q">UK Float Events (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Santa Cruz-based Onewheel manufacturer caught in class-action suit - The Mercury News]]></title>
@@ -15929,7 +15929,7 @@
       <media:thumbnail url="https://i3.ytimg.com/vi/bY0rWRIRVwo/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=bY0rWRIRVwo" /></media:content>
       <dc:creator>_GizmoDuck</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Organising the Archive]]></title>
@@ -16193,7 +16193,7 @@
       <media:thumbnail url="https://i1.ytimg.com/vi/dyk-nhCu5_o/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=dyk-nhCu5_o" /></media:content>
       <dc:creator>_GizmoDuck</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[Is The Onewheel GT Worth It?]]></title>
@@ -16409,7 +16409,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[One Man's Treasure]]></title>
@@ -16841,7 +16841,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[WCGW if I ride my onewheel on some offroad trails while playing a saxophone?]]></title>
@@ -17009,7 +17009,7 @@
       <media:thumbnail url="https://i4.ytimg.com/vi/oKU8B0ZmjmA/hqdefault.jpg" />
       <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=oKU8B0ZmjmA" /></media:content>
       <dc:creator>_GizmoDuck</dc:creator>
-      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck</source>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UC-YgxQ9FEpMYWhZjohQGS5A">_GizmoDuck (YouTube)</source>
     </item>
     <item>
       <title><![CDATA[The Adventure of Fatherhood]]></title>
@@ -17141,7 +17141,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Wheelistic - Lesie Touat -France]]></title>
@@ -17321,7 +17321,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[The Arborist]]></title>
@@ -17489,7 +17489,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Jack Mitrani]]></title>
@@ -17681,7 +17681,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[#2 SHRED SESSION AT : Lac du Salagou Onewheel trail France]]></title>
@@ -17729,7 +17729,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Ride Downtown Sacramento]]></title>
@@ -17801,7 +17801,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Subreddit Information & Discord Server]]></title>
@@ -17849,7 +17849,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Female Onewheel Riders!!]]></title>
@@ -17981,7 +17981,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -17993,7 +17993,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[$250 3d printed DIY Onewheel!]]></title>
@@ -18041,7 +18041,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -18089,7 +18089,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel riders take sport to new level at Northstar - Sierra Sun]]></title>
@@ -18149,7 +18149,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -18161,7 +18161,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Hold my beer while ride a Onewheel with a samurai sword.]]></title>
@@ -18197,7 +18197,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR Review - TechGearLab]]></title>
