@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Wed, 11 Nov 2026 18:25:09 GMT</dateCreated>
+    <dateCreated>Thu, 12 Nov 2026 00:43:32 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -53,7 +53,7 @@
       <outline text="Popular Topics (owforum.co.uk)" title="Popular Topics (owforum.co.uk)" type="rss" xmlUrl="https://owforum.co.uk/popular/alltime.rss" htmlUrl="http://owforum.co.uk/popular/alltime" />
       <outline text="Reddit r/ChicagoOnewheel (top)" title="Reddit r/ChicagoOnewheel (top)" type="rss" xmlUrl="https://www.reddit.com/r/ChicagoOnewheel/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/ChicagoOnewheel/top?t=day" />
       <outline text="Reddit r/FloatwheelTeam (top)" title="Reddit r/FloatwheelTeam (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/top?t=day" />
-      <outline text="Reddit r/Onewheel_CO (top)" title="Reddit r/Onewheel_CO (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_CO/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_CO/top/?t=day" />
+      <outline text="Reddit r/Onewheel_CO (top)" title="Reddit r/Onewheel_CO (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_CO/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_CO/top?t=day" />
       <outline text="Reddit r/Onewheel_DE (top)" title="Reddit r/Onewheel_DE (top)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_DE/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/Onewheel_DE/top?t=day" />
       <outline text="Reddit r/Onewheel_FL (new)" title="Reddit r/Onewheel_FL (new)" type="rss" xmlUrl="https://www.reddit.com/r/Onewheel_FL/new/.rss" htmlUrl="https://www.reddit.com/r/Onewheel_FL/new" />
       <outline text="Reddit r/OnewheelGT (top)" title="Reddit r/OnewheelGT (top)" type="rss" xmlUrl="https://www.reddit.com/r/OnewheelGT/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/OnewheelGT/top?t=day" />
@@ -108,9 +108,6 @@
     </outline>
     <outline text="feed | blocked_or_unreachable | feed | enabled | public.rss_sources | public.rss_sources" title="feed | blocked_or_unreachable | feed | enabled | public.rss_sources | public.rss_sources">
       <outline text="Reddit r/FloatwheelTeam (hot)" title="Reddit r/FloatwheelTeam (hot)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/hot/.rss" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/hot/" />
-    </outline>
-    <outline text="website_discovery | blocked_or_unreachable | wrapper | blocked_or_unreachable | Floatwheel AI Feed | Onewheel AI Feed | ONEWHEEL" title="website_discovery | blocked_or_unreachable | wrapper | blocked_or_unreachable | Floatwheel AI Feed | Onewheel AI Feed | ONEWHEEL">
-      <outline text="Reddit r/FloatwheelTeam (new)" title="Reddit r/FloatwheelTeam (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatwheelTeam/new/.rss" htmlUrl="https://www.reddit.com/r/FloatwheelTeam/new" />
     </outline>
     <outline text="feed | cached_fallback | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES" title="feed | cached_fallback | feed | configured | DEFAULT_FEED_SOURCES | DEFAULT_FEED_SOURCES">
       <outline text="Reddit r/onewheel" title="Reddit r/onewheel" type="rss" xmlUrl="https://www.reddit.com/r/onewheel.rss?limit=100" htmlUrl="https://www.reddit.com/r/onewheel" />
@@ -179,7 +176,7 @@
       <outline text="autoevolution green, hybrid and EV news" title="autoevolution green, hybrid and EV news" type="rss" xmlUrl="https://www.autoevolution.com/rss/backend-green.xml" htmlUrl="https://www.autoevolution.com/rss/backend-green.xml" />
       <outline text="law.com (law.com)" title="law.com (law.com)" type="rss" xmlUrl="http://www.law.com/rss/rss_newswire.xml" htmlUrl="https://feeds.feedblitz.com/www.law.com/" />
       <outline text="Snow Industry News RSS" title="Snow Industry News RSS" type="rss" xmlUrl="https://www.snowsportsnews.com/rss" htmlUrl="https://www.snowsportsnews.com/industry-news/" />
-      <outline text="Bit Rebels" title="Bit Rebels" type="rss" xmlUrl="https://bitrebels.com/feed/" htmlUrl="https://bitrebels.com/" />
+      <outline text="Bit Rebels (bitrebels.com)" title="Bit Rebels (bitrebels.com)" type="rss" xmlUrl="http://www.bitrebels.com/rss" htmlUrl="https://bitrebels.com/" />
       <outline text="cs.RO updates on arXiv.org" title="cs.RO updates on arXiv.org" type="rss" xmlUrl="https://export.arxiv.org/rss/cs.RO" htmlUrl="https://export.arxiv.org/rss/cs.RO" />
       <outline text="Electrek" title="Electrek" type="rss" xmlUrl="https://electrek.co/feed/" htmlUrl="https://electrek.co/" />
       <outline text="Frontiers in Neurorobotics | New and Recent Articles (journal.frontiersin.org)" title="Frontiers in Neurorobotics | New and Recent Articles (journal.frontiersin.org)" type="rss" xmlUrl="http://journal.frontiersin.org/journal/neurorobotics/rss" htmlUrl="https://www.frontiersin.org/journals/neurorobotics" />
@@ -247,6 +244,9 @@
     <outline text="feed | blocked_or_unreachable | feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources" title="feed | blocked_or_unreachable | feed | enabled | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources | public.manual_rss_sources.discovered_feed_url | public.manual_rss_sources">
       <outline text="TeePublic Onewheel Merchandise (teepublic.com) (teepublic.com)" title="TeePublic Onewheel Merchandise (teepublic.com) (teepublic.com)" type="rss" xmlUrl="https://www.teepublic.com/blog/rss" htmlUrl="https://www.teepublic.com/blog/" />
     </outline>
+    <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed">
+      <outline text="Bit Rebels (Site feed)" title="Bit Rebels (Site feed)" type="rss" xmlUrl="https://bitrebels.com/feed/" htmlUrl="https://bitrebels.com/" />
+    </outline>
     <outline text="feed | ok_nonempty | website_discovery | recovered_from_paid_only_surface | Onewheel Board" title="feed | ok_nonempty | website_discovery | recovered_from_paid_only_surface | Onewheel Board">
       <outline text="bwees.io" title="bwees.io" type="rss" xmlUrl="https://bwees.io/index.xml" htmlUrl="https://bwees.io/" />
     </outline>
@@ -285,7 +285,7 @@
       <outline text="OneRadWheel - Onewheel" title="OneRadWheel - Onewheel" type="rss" xmlUrl="https://oneradwheel.com/feed" htmlUrl="https://oneradwheel.com/" />
     </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | DIY / Open Source / Onewheel Alternatives AI Feed | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032">
-      <outline text="pev.dev - Latest posts (pev.dev)" title="pev.dev - Latest posts (pev.dev)" type="rss" xmlUrl="https://pev.dev/posts.rss" htmlUrl="https://pev.dev/" />
+      <outline text="pev.dev - Latest posts" title="pev.dev - Latest posts" type="rss" xmlUrl="https://pev.dev/posts.rss" htmlUrl="https://pev.dev/" />
     </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | public.manual_rss_sources | list-1264927333211308032 | manual_rss_sources">
       <outline text="pev.dev - Latest topics (pev.dev)" title="pev.dev - Latest topics (pev.dev)" type="rss" xmlUrl="https://pev.dev/latest.rss" htmlUrl="https://pev.dev/latest" />

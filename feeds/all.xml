@@ -5,8 +5,20 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 11 Nov 2026 18:25:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:43:31 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[New map unlocked 🔓 #onewheel #pov]]></title>
+      <link>https://www.youtube.com/shorts/eSmMAAQXGyo</link>
+      <guid isPermaLink="false">7uxvmk-1mfabo8</guid>
+      <pubDate>Thu, 12 Nov 2026 00:40:02 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i2.ytimg.com/vi/eSmMAAQXGyo/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/eSmMAAQXGyo/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/eSmMAAQXGyo/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=eSmMAAQXGyo" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
     <item>
       <title><![CDATA[VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling]]></title>
       <link>https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_4</link>
@@ -17,7 +29,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg" />
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Thinking about an under-desk walking pad for winter riding fitness at home?]]></title>
@@ -929,7 +941,7 @@
 
 
       <dc:creator>@WuTang</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Need help diagnosing dead Pint]]></title>
@@ -1181,7 +1193,7 @@
 
 
       <dc:creator>@CalvinH88</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[2026 Tire recommendations for Onewheel+ XR]]></title>
@@ -1457,7 +1469,7 @@
 
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[XRV not charging]]></title>
@@ -1481,7 +1493,7 @@
 
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[OnlyAmps Chargers Are Finally Here!]]></title>
@@ -1973,7 +1985,7 @@
 
 
       <dc:creator>@Zackzto Zack Thompson</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Onewheel tricks in the City ⚡️]]></title>
@@ -1997,7 +2009,7 @@
 
 
       <dc:creator>@Jackermius</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Age Wont Stop This Cross Country Onewheel Trip!]]></title>
@@ -2453,7 +2465,7 @@
 
 
       <dc:creator>@ndia</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[BEGODE lets loose AI slop bot]]></title>
@@ -2633,7 +2645,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/6/647553c816a2dcdbe42ea42e11ee2a999c0a0490_2_690x141.png" />
 
       <dc:creator>@Mheeleshtyle</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[GT-S Completely dead after sitting on charger]]></title>
@@ -2861,7 +2873,7 @@
 
 
       <dc:creator>@Beegold</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[One wheel or other brands?]]></title>
@@ -3257,7 +3269,7 @@
 
 
       <dc:creator>@Zackzto Zack Thompson</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Why is the XRC better than Pint X and is atom better than both?]]></title>
@@ -4613,7 +4625,7 @@
 
 
       <dc:creator>@qqmajikpp</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Riding In New Orleans]]></title>
@@ -4781,7 +4793,7 @@
 
 
       <dc:creator>@Michaelmay1999 Michael V</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Vesc Conversion Status (Rose/Mika)]]></title>
@@ -4829,7 +4841,7 @@
 
 
       <dc:creator>@Onurelt</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Trails = Happy Place 😁 #thefloatlife #vesc #onewheel #pev #trails]]></title>
@@ -4853,7 +4865,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3_2_690x324.png" />
 
       <dc:creator>@nexinity Caleb</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Race for the Rail: The Boards That Defined the Competition]]></title>
@@ -4937,7 +4949,7 @@
 
 
       <dc:creator>@Drumbeater82 Matthew Ahrens</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Greyson and his Onewheel]]></title>
@@ -5117,7 +5129,7 @@
 
 
       <dc:creator>@Pezmc</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[GT vesc components layout]]></title>
@@ -5153,7 +5165,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" />
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Is This The Best Trick Board? // Rep Your Set w/ Travis Tatum]]></title>
@@ -5309,7 +5321,7 @@
 
 
       <dc:creator>@Broskul wyatt</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Preview #kingofthehammers #euc and #Onewheel races 2027]]></title>
@@ -5345,7 +5357,7 @@
       <media:thumbnail url="https://pev.dev/uploads/db9240/optimized/2X/a/ac6a1af70a86996bbe7d47c539c9679e147f7f1d_2_690x459.jpeg" />
 
       <dc:creator>@Broskul wyatt</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Should I get a Onewheel? I need an honest opinion.]]></title>
@@ -5549,7 +5561,7 @@
 
 
       <dc:creator>@Rafeh1 Rafe</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[New Pint Controller Module for sale.]]></title>
@@ -5573,7 +5585,7 @@
 
 
       <dc:creator>@CalebTheMayor Caleb Meijer</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[The Float Connection 2026 - Onewheel Paradise in France]]></title>
@@ -5669,7 +5681,7 @@
 
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Protective Black Bear Mother Charges Onewheel Rider At North America's Largest Ski Resort - Unofficial Networks]]></title>
@@ -5801,7 +5813,7 @@
 
 
       <dc:creator>@myles6537 Myles</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Comment entretenir son Onewheel ?]]></title>
@@ -5825,7 +5837,7 @@
 
 
       <dc:creator>@k.treez k.treez</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[*CLOSEOUT* OSBS x TFL Collab Float Sidekicks HD - Onewheel+ XR Compatible]]></title>
@@ -13988,6 +14000,18 @@
       <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
+      <title><![CDATA[All Onewheel e-skateboards are recalled after reported deaths - NPR]]></title>
+      <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5</link>
+      <guid isPermaLink="false">18a4tc9-1k6th9l</guid>
+      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>All Onewheel e-skateboards are recalled after reported deaths npr.org</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel e-skateboards are recalled after reported deaths</a>  npr.org]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+    </item>
+    <item>
       <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York]]></title>
       <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5</link>
       <guid isPermaLink="false">fo439r-1k6th9l</guid>
@@ -14010,18 +14034,6 @@
 
 
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
-      <title><![CDATA[All Onewheel e-skateboards are recalled after reported deaths - NPR]]></title>
-      <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5</link>
-      <guid isPermaLink="false">18a4tc9-1k6th9l</guid>
-      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>All Onewheel e-skateboards are recalled after reported deaths npr.org</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel e-skateboards are recalled after reported deaths</a>  npr.org]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[After first refusing, OneWheel recalls all of its self-balancing electric skateboards - Electrek]]></title>

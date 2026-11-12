@@ -5,7 +5,7 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 11 Nov 2026 18:25:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 00:43:31 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling]]></title>
@@ -17,7 +17,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/2/20f03593727b1b13d5748bf58508c4b7d720f973_2_690x399.jpeg" />
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Questions on Original Pint conversions]]></title>
@@ -29,7 +29,7 @@
 
 
       <dc:creator>@WuTang</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[VESC based Controllers WIKI]]></title>
@@ -41,7 +41,7 @@
 
 
       <dc:creator>@CalvinH88</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[IMU recommendations for VESC Onewheel controller manufacturers]]></title>
@@ -53,7 +53,7 @@
 
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Refloat version 1.3]]></title>
@@ -65,7 +65,7 @@
 
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[New to VESC and want to learn how to install a new BMS and battery]]></title>
@@ -77,7 +77,7 @@
 
 
       <dc:creator>@Zackzto Zack Thompson</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Pint V Kit: Non-technical Newbie Guide]]></title>
@@ -89,7 +89,7 @@
 
 
       <dc:creator>@Jackermius</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[LED Lights for Little FOCer v4 VESC based Onewheel]]></title>
@@ -101,7 +101,7 @@
 
 
       <dc:creator>@ndia</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Benchmarking Autonomous Driving Planners Across Leaderboards: A Unified CARLA-Based Evaluation]]></title>
@@ -125,7 +125,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/6/647553c816a2dcdbe42ea42e11ee2a999c0a0490_2_690x141.png" />
 
       <dc:creator>@Mheeleshtyle</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[SunF 15x7-6 Tubeless 6 Ply - A011 — Single Tire]]></title>
@@ -149,7 +149,7 @@
 
 
       <dc:creator>@Beegold</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Pint X (7314 / Hydrus 5200) — Best Path to More Range Before VESC?]]></title>
@@ -161,7 +161,7 @@
 
 
       <dc:creator>@Zackzto Zack Thompson</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Terrain Guide: Riding on Pavement, Grass, Trails, Sand and Snow]]></title>
@@ -185,7 +185,7 @@
 
 
       <dc:creator>@qqmajikpp</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[VESC Motor List]]></title>
@@ -197,7 +197,7 @@
 
 
       <dc:creator>@Michaelmay1999 Michael V</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Race for the Rail 2026: Joseph Katz and Zayne Carter Take the Titles at Hollister Hills]]></title>
@@ -221,7 +221,7 @@
 
 
       <dc:creator>@Onurelt</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[How to verify proper hall sensor recognition and alignment in VESC tool]]></title>
@@ -233,7 +233,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3_2_690x324.png" />
 
       <dc:creator>@nexinity Caleb</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Race for the Rail: The Boards That Defined the Competition]]></title>
@@ -269,7 +269,7 @@
 
 
       <dc:creator>@Drumbeater82 Matthew Ahrens</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pricing Explained: What You Actually Pay and What You Get]]></title>
@@ -341,7 +341,7 @@
 
 
       <dc:creator>@Pezmc</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
@@ -353,7 +353,7 @@
       <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" />
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[New build but I don’t have experience]]></title>
@@ -365,7 +365,7 @@
 
 
       <dc:creator>@Broskul wyatt</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Vesc using Ubox single]]></title>
@@ -377,7 +377,7 @@
       <media:thumbnail url="https://pev.dev/uploads/db9240/optimized/2X/a/ac6a1af70a86996bbe7d47c539c9679e147f7f1d_2_690x459.jpeg" />
 
       <dc:creator>@Broskul wyatt</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Dismount Shudder]]></title>
@@ -401,7 +401,7 @@
 
 
       <dc:creator>@Rafeh1 Rafe</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel LCM (ADV/GTV/XRV/PintV)]]></title>
@@ -413,7 +413,7 @@
 
 
       <dc:creator>@CalebTheMayor Caleb Meijer</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Gosmilo X7 : Une nouvelle board dans le game]]></title>
@@ -437,7 +437,7 @@
 
 
       <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Video Overlays from log files]]></title>
@@ -461,7 +461,7 @@
 
 
       <dc:creator>@myles6537 Myles</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Comment entretenir son Onewheel ?]]></title>
@@ -485,7 +485,7 @@
 
 
       <dc:creator>@k.treez k.treez</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts (pev.dev)</source>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
     </item>
     <item>
       <title><![CDATA[Why is the VESC color selection like that]]></title>
