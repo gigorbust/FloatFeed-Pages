@@ -5,7 +5,7 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 12 Nov 2026 12:30:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:26:56 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[Thinking about an under-desk walking pad for winter riding fitness at home?]]></title>
@@ -1642,14 +1642,14 @@
     <item>
       <title><![CDATA[Onewheel Photoshoot Thread]]></title>
       <link>http://owforum.co.uk/topic/18/onewheel-photoshoot-thread</link>
-      <guid isPermaLink="false">1atn8dh-s1ax57</guid>
+      <guid isPermaLink="false">1atn8dh-lmaomx</guid>
       <pubDate>Fri, 11 Sep 2026 19:17:33 GMT</pubDate>
       <description><![CDATA[<p>@puzz360 Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂 On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>]]></description>
       <content:encoded><![CDATA[<p><a href="http://owforum.co.uk/uid/67" target="_blank" rel="noopener noreferrer">@puzz360</a> Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂</p>&#10;<p>On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>]]></content:encoded>
 
 
       <dc:creator>scabaa</dc:creator>
-      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
+      <source url="https://owforum.co.uk/popular/alltime.rss">Popular Topics (owforum.co.uk)</source>
     </item>
     <item>
       <title><![CDATA[Any update on a new model coming from future motion?]]></title>
