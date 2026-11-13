@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T12:29:57.915Z",
+  "generatedAt": "2026-11-13T18:25:05.677Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 386,
+    "currentArticles": 387,
     "archiveArticles": 1208
   },
   "decks": [
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 129,
       "feedSourceCount": 127,
-      "articleCount": 1594,
+      "articleCount": 1595,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 647,
+      "articleCount": 648,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -2824,7 +2824,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 35,
+      "articleCount": 36,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2926,6 +2926,48 @@
   ],
   "articles": [
     {
+      "id": "538iwd-s1ax57",
+      "title": "Anyone else in Austin juggling Onewheel sessions with sports news overload?",
+      "description": "I'm in Austin and usually squeeze in a FloatWheel session after work, but lately I've been spending way too much time scrolling sports headlines before I even get out the door. I'm trying to figure out a better routine so I actually ride instead of reading about other people competing. I'm not sure whether it's better to set a hard cutoff before I go out or just accept that I'll ride later in the evening when it cools down. My concern is that if I leave it too late the paths get crowded and I lose motivation. Nothing online has really settled it for me, it's just general sports news chatter th",
+      "contentHtml": "<p dir=\"auto\">I'm in Austin and usually squeeze in a FloatWheel session after work, but lately I've been spending way too much time scrolling sports headlines before I even get out the door. I'm trying to figure out a better routine so I actually ride instead of reading about other people competing. I'm not sure whether it's better to set a hard cutoff before I go out or just accept that I'll ride later in the evening when it cools down. My concern is that if I leave it too late the paths get crowded and I lose motivation. Nothing online has really settled it for me, it's just general sports news chatter that eats the time. Curious how other riders here in Texas balance screen time with actual float time, especially when there's a big game or event on. What's worked for you?</p>",
+      "url": "http://owforum.co.uk/topic/578/anyone-else-in-austin-juggling-onewheel-sessions-with-sports-news-overload",
+      "publishedAt": "2026-11-13T18:22:09.000Z",
+      "author": "williamlewis",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-forum-recent-7x71yd",
+      "source": "Onewheel Forum Recent",
+      "sourceDomain": "owforum.co.uk",
+      "sourceKind": "feed",
+      "deck": "community",
+      "feedUrl": "https://owforum.co.uk/recent.rss",
+      "duplicateSourceIds": [
+        "onewheel-forum-recent-7x71yd"
+      ],
+      "mergedItemCount": 2
+    },
+    {
+      "id": "v0bn26-48s3eu",
+      "title": "Nosedrag for days on vesc ⚡️ #skrrrt",
+      "description": "Playing with a onewheel vesc remote gets you set up for new tricks! Nosedrag for days..",
+      "contentHtml": "<p>Playing with a onewheel vesc remote gets you set up for new tricks! Nosedrag for days..</p>",
+      "url": "https://www.youtube.com/shorts/3k7g3hYWHFM",
+      "publishedAt": "2026-11-13T17:50:35.000Z",
+      "author": "Vinie Vizzle",
+      "videoId": "3k7g3hYWHFM",
+      "image": "https://i4.ytimg.com/vi/3k7g3hYWHFM/hqdefault.jpg",
+      "sourceId": "vinie-vizzle-7ackvr",
+      "source": "Vinie Vizzle",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A",
+      "duplicateSourceIds": [
+        "vinie-vizzle-7ackvr"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "p933d5-80t4ep",
       "title": "GoSmilo X7 | Still Broken",
       "description": "This VESC Onewheel kind of sucks. The BMS on the GoSmilo X7 broke about 2 miles into the board's usage. Some months later, the idle drain sapped the battery dead. Despite being told that replacement parts would arrive back since back in May, nothing has arrived, and so this board is still broken. It's being given away to a colleague.",
@@ -2944,7 +2986,7 @@
       "duplicateSourceIds": [
         "the-board-garage-1n4rihg"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "y1p3b3-14o2nhz",
@@ -3274,27 +3316,6 @@
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-11-11T12:30:16.986Z"
-    },
-    {
-      "id": "538iwd-s1ax57",
-      "title": "Anyone else in Austin juggling Onewheel sessions with sports news overload?",
-      "description": "I'm in Austin and usually squeeze in a FloatWheel session after work, but lately I've been spending way too much time scrolling sports headlines before I even get out the door. I'm trying to figure out a better routine so I actually ride instead of reading about other people competing. I'm not sure whether it's better to set a hard cutoff before I go out or just accept that I'll ride later in the evening when it cools down. My concern is that if I leave it too late the paths get crowded and I lose motivation. Nothing online has really settled it for me, it's just general sports news chatter th",
-      "contentHtml": "<p dir=\"auto\">I'm in Austin and usually squeeze in a FloatWheel session after work, but lately I've been spending way too much time scrolling sports headlines before I even get out the door. I'm trying to figure out a better routine so I actually ride instead of reading about other people competing. I'm not sure whether it's better to set a hard cutoff before I go out or just accept that I'll ride later in the evening when it cools down. My concern is that if I leave it too late the paths get crowded and I lose motivation. Nothing online has really settled it for me, it's just general sports news chatter that eats the time. Curious how other riders here in Texas balance screen time with actual float time, especially when there's a big game or event on. What's worked for you?</p>",
-      "url": "http://owforum.co.uk/topic/578/anyone-else-in-austin-juggling-onewheel-sessions-with-sports-news-overload",
-      "publishedAt": "2026-11-09T03:28:25.000Z",
-      "author": "williamlewis",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-forum-recent-7x71yd",
-      "source": "Onewheel Forum Recent",
-      "sourceDomain": "owforum.co.uk",
-      "sourceKind": "feed",
-      "deck": "community",
-      "feedUrl": "https://owforum.co.uk/recent.rss",
-      "duplicateSourceIds": [
-        "onewheel-forum-recent-7x71yd"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "bvmtc5-ho94h0",
@@ -17014,7 +17035,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "lyeod8-1k6th9l",
+      "id": "lyeod8-1joxsrd",
       "title": "Maker of Onewheel launches wild new electric mini bike that does self-balancing wheelies - Electrek",
       "description": "Maker of Onewheel launches wild new electric mini bike that does self-balancing wheelies electrek.co",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHIySUZKZzd6YXh2QjlHU2VXNE5QYThoSjU3YldKeXF4eDZaQVBtN2dVd2xPeGc0RlRTc2VMUUZsQzd0ZHp1VnA0aGNtWGxUZmZ2Z3YwWnNsUngwTDhFYl9qUy1pSVVfY0pfdVRLdlJ5T05ocGlNUFBVMThwVXhJOFJRUXF3bFhSOUkxUFQxVExjcHFCbC13MG10ZjRpOXpJR3I4Zk9qQVFjdDJ4TEd3OG5vY1k1ekh0dHNQYW5n?oc=5\" target=\"_blank\">Maker of Onewheel launches wild new electric mini bike that does self-balancing wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
@@ -17023,15 +17044,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -29432,9 +29455,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -38508,7 +38529,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 129,
-      "articleCount": 1594
+      "articleCount": 1595
     },
     {
       "id": "onewheel",
@@ -38529,7 +38550,7 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 647
+      "articleCount": 648
     },
     {
       "id": "gear",

@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 13 Nov 2026 12:29:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 18:25:05 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Nosedrag for days on vesc ⚡️ #skrrrt]]></title>
+      <link>https://www.youtube.com/shorts/3k7g3hYWHFM</link>
+      <guid isPermaLink="false">v0bn26-48s3eu</guid>
+      <pubDate>Fri, 13 Nov 2026 17:50:35 GMT</pubDate>
+      <description><![CDATA[<p>Playing with a onewheel vesc remote gets you set up for new tricks! Nosedrag for days..</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i4.ytimg.com/vi/3k7g3hYWHFM/hqdefault.jpg" alt="" /></p><p>Playing with a onewheel vesc remote gets you set up for new tricks! Nosedrag for days..</p>]]></content:encoded>
+      <media:thumbnail url="https://i4.ytimg.com/vi/3k7g3hYWHFM/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=3k7g3hYWHFM" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
+    </item>
     <item>
       <title><![CDATA[GoSmilo X7 | Still Broken]]></title>
       <link>https://www.youtube.com/watch?v=XptMtUMUtWs</link>
