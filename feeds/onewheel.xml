@@ -5,8 +5,20 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 13 Nov 2026 18:25:05 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 00:44:24 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Critical Setting Fixes for PintV & XRV Riders]]></title>
+      <link>https://pev.dev/t/critical-setting-fixes-for-pintv-xrv-riders/1924?page=3#post_45</link>
+      <guid isPermaLink="false">s790lr-1czfdl1</guid>
+      <pubDate>Fri, 13 Nov 2026 20:22:37 GMT</pubDate>
+      <description><![CDATA[<p>Thank you community for this Guide! I was able to use this on my first VESC project and got the float wheel xrv kit going with the stock battery. I just received my new only amps JP30 tabless 15s battery and I am wondering if there is anything different that should be done? or just toss the new battery in and rip? Than you</p>]]></description>
+      <content:encoded><![CDATA[<p>Thank you community for this Guide! I was able to use this on my first VESC project and got the float wheel xrv kit going with the stock battery. I just received my new only amps JP30 tabless 15s battery and I am wondering if there is anything different that should be done? or just toss the new battery in and rip? Than you</p>]]></content:encoded>
+
+
+      <dc:creator>@Gravybird Chris</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
+    </item>
     <item>
       <title><![CDATA[VESC firmware IMU overhaul: hardware comms and interrupt-driven sampling]]></title>
       <link>https://pev.dev/t/vesc-firmware-imu-overhaul-hardware-comms-and-interrupt-driven-sampling/3047#post_4</link>
@@ -333,15 +345,15 @@
     </item>
     <item>
       <title><![CDATA[XR revival build from Belgium: Thor301 vs LFOCer V4 vs XRV, and best 20s2p sourcing in the EU?]]></title>
-      <link>https://pev.dev/t/xr-revival-build-from-belgium-thor301-vs-lfocer-v4-vs-xrv-and-best-20s2p-sourcing-in-the-eu/3017#post_1</link>
-      <guid isPermaLink="false">x5297i-1czfdl1</guid>
+      <link>https://pev.dev/t/xr-revival-build-from-belgium-thor301-vs-lfocer-v4-vs-xrv-and-best-20s2p-sourcing-in-the-eu/3017</link>
+      <guid isPermaLink="false">bot6h3-vbx98k</guid>
       <pubDate>Sun, 26 Jul 2026 06:47:19 GMT</pubDate>
       <description><![CDATA[<p>Planning a full revival of my Onewheel+ XR (8+ years old) and would appreciate a sanity check before I order. Current state: motor, rails and body all healthy. Battery is the original 15s2p with known cell imbalance, so it’s being replaced regardless — which makes this the moment to do controller + battery in one go. Where I’m at after research: - Controller: Thor301 seems like the community flagship (onboard Express, native LED, 300A-tested FETs), LFOCer V4 the value option (but kits appear out of stock at CustomWheel), XRV the low-effort drop-in. Am I missing anything current? Anyone running</p>]]></description>
       <content:encoded><![CDATA[<p>Planning a full revival of my Onewheel+ XR (8+ years old) and would appreciate a sanity check before I order.</p>&#10;<p>Current state: motor, rails and body all healthy. Battery is the original 15s2p with known cell imbalance, so it’s being replaced regardless — which makes this the moment to do controller + battery in one go.</p>&#10;<p>Where I’m at after research:</p>&#10;<p>- <strong>Controller:</strong> Thor301 seems like the community flagship (onboard Express, native LED, 300A-tested FETs), LFOCer V4 the value option (but kits appear out of stock at CustomWheel), XRV the low-effort drop-in. Am I missing anything current? Anyone running a Thor301 in XR rails long-term?</p>&#10;<p>- <strong>Battery</strong>: torn between 20s2p P30B (slim, fits the stock XR enclosure, e.g. Indy Speed Control) vs 18s2p P45B/P50B 21700s with a TorqueBox 2. Commuting + festival site use, I care about speed and safety more than max range. Is the 84V top-end worth giving up the 21700 torque/capacity, or is that overthinking it?</p>&#10;<p>- BMS: Xlite V4 vs ZBMS/Maxkgo - any strong preference in 2026?</p>&#10;<p>EU-specific questions (I’m in Leuven, Belgium):</p>&#10;<ol>&#10;<li>Best current EU sources for controllers and 20s2p packs? CustomWheel looks out of stock, onewheelrider.eu I’m already talking to. Anyone know a German/Benelux battery builder taking orders?</li>&#10;<li>Anyone in the Benelux doing conversions who’d take a mail-in (or drive-in) build? I’m technical (software eng, own a Prusa, fine with a soldering iron) so DIY is on the table too, mostly a parts-availability question.</li>&#10;</ol>&#10;<p>Old battery gets removed and recycled locally before any shipping. Thanks!</p>&#10;            <p><small>2 posts - 2 participants</small></p>&#10;            <p><a href="https://pev.dev/t/xr-revival-build-from-belgium-thor301-vs-lfocer-v4-vs-xrv-and-best-20s2p-sourcing-in-the-eu/3017" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
 
 
-      <dc:creator>@Pezmc</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
+      <dc:creator>Pezmc</dc:creator>
+      <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
@@ -1025,7 +1037,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -1217,7 +1229,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[eastride – Onewheel Power Button & Sidekicks]]></title>
@@ -1289,7 +1301,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Waterproofing Onewheel Shoes]]></title>
@@ -1301,7 +1313,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Installing FlightFins FlightFrame]]></title>
@@ -1313,7 +1325,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
@@ -1325,7 +1337,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
@@ -1337,7 +1349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Rail Badge – Logo – Emblem]]></title>
@@ -1349,7 +1361,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Lights Not Working – Flickering]]></title>
@@ -1361,7 +1373,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -1373,7 +1385,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Blog Sites – Best Of 2020]]></title>
