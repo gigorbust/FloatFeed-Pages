@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-15T12:27:35.210Z",
+  "generatedAt": "2026-11-15T18:24:58.921Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 401,
+    "currentArticles": 402,
     "archiveArticles": 1211
   },
   "decks": [
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 130,
       "feedSourceCount": 128,
-      "articleCount": 1612,
+      "articleCount": 1613,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -80,7 +80,7 @@
       "description": "Forums, Reddit, social sources, and community discussion streams.",
       "sourceCount": 23,
       "feedSourceCount": 22,
-      "articleCount": 396,
+      "articleCount": 397,
       "rssUrl": "/feeds/community.xml"
     }
   ],
@@ -118,7 +118,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 17,
+      "articleCount": 18,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2948,6 +2948,48 @@
   ],
   "articles": [
     {
+      "id": "vs1iv6-s1ax57",
+      "title": "Fitting a folding treadmill beside my Onewheel setup — worth the floor space?",
+      "description": "I ride a Onewheel around Austin and my garage corner is already taken up by the board, stand and charging gear. I want to add some off-board conditioning when the weather turns, and I am looking at folding treadmills for 2026 since they seem to be the only option that could tuck away between sessions. The concern is whether a folding deck actually feels stable enough for regular use, or whether the hinge becomes a weak point over time. I also read a few third-party comparisons online suggesting some space-saving models trade running surface for compactness, which could matter for my stride. I ",
+      "contentHtml": "<p dir=\"auto\">I ride a Onewheel around Austin and my garage corner is already taken up by the board, stand and charging gear. I want to add some off-board conditioning when the weather turns, and I am looking at folding treadmills for 2026 since they seem to be the only option that could tuck away between sessions. The concern is whether a folding deck actually feels stable enough for regular use, or whether the hinge becomes a weak point over time. I also read a few third-party comparisons online suggesting some space-saving models trade running surface for compactness, which could matter for my stride. I have not tried any of them myself, so I am going off specs and what others have said. For anyone juggling a small home gym alongside their board, did a folding treadmill work out, or did you end up wishing you had gone non-folding? Curious how the fold mechanism has held up.</p>",
+      "url": "http://owforum.co.uk/topic/584/fitting-a-folding-treadmill-beside-my-onewheel-setup-worth-the-floor-space",
+      "publishedAt": "2026-11-15T18:09:07.000Z",
+      "author": "williamlewis",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-forum-recent-7x71yd",
+      "source": "Onewheel Forum Recent",
+      "sourceDomain": "owforum.co.uk",
+      "sourceKind": "feed",
+      "deck": "community",
+      "feedUrl": "https://owforum.co.uk/recent.rss",
+      "duplicateSourceIds": [
+        "onewheel-forum-recent-7x71yd"
+      ],
+      "mergedItemCount": 1
+    },
+    {
+      "id": "pohxqc-1ryezx2",
+      "title": "Amped Electric Games Fall Contest! Drawing Winners Announced!",
+      "description": "The moment you've been waiting for is here! We have a bunch of winners to announce. Firstly we'll announce the three winners of the Amped Electric Games survey - drawn randomly from the survey participants. Next we will announce the Amped Media Contest winners, from those submitted on instagram and viewable on https://media.ampedelectricgames.com Lastly, we will draw and announce the 12 winners of the Amped Electric Games Fall Contest presented by Next Gen Mobility and sponsored by Lemonade Float Co. Tune in live to see if you’re one of the lucky winners! Grand Prize Winner will select from: Leaperkim Lynx-S – Presented by Next Gen Mobility OR Onewheel Rally XL – Sponsored by Lemonade Float Co Runner Up Prizes 1x Brake Free Helmet Light – For ultimate safety 1x Landed Footwear Elevate – Ride in style 1X USA FLT Hoodie 1x USA FLT Flat brim hat 1X USA EUC Hoodie 1x USA EUC Flat brim hat 1x Roger Charger 1x Flight Fins Goat Tire 1x Flight Fins 1x Demon United Flexmeter Wrist guards 1x Grizzla Pads 1x Dragy Pro Don’t forget to subscribe to our channel for more events, giveaways, and community updates. Good luck to everyone who entered, may the odds be in your favor!",
+      "contentHtml": "<p>The moment you&#39;ve been waiting for is here!<br><br>We have a bunch of winners to announce.  Firstly we&#39;ll announce the three winners of the Amped Electric Games survey - drawn randomly from the survey participants.<br><br>Next we will announce the Amped Media Contest winners, from those submitted on instagram and viewable on https://media.ampedelectricgames.com<br><br>Lastly, we will draw and announce the 12 winners of the Amped Electric Games Fall Contest presented by Next Gen Mobility and sponsored by Lemonade Float Co.<br><br>Tune in live to see if you’re one of the lucky winners!<br><br>Grand Prize Winner will select from:<br>Leaperkim Lynx-S – Presented by Next Gen Mobility<br>OR <br>Onewheel Rally XL – Sponsored by Lemonade Float Co<br><br>Runner Up Prizes<br>1x Brake Free Helmet Light – For ultimate safety<br>1x Landed Footwear Elevate – Ride in style<br>1X USA FLT Hoodie<br>1x USA FLT Flat brim hat<br>1X USA EUC Hoodie<br>1x USA EUC Flat brim hat<br>1x Roger Charger<br>1x Flight Fins Goat Tire<br>1x Flight Fins<br>1x Demon United Flexmeter Wrist guards<br>1x Grizzla Pads <br>1x Dragy Pro<br><br>Don’t forget to subscribe to our channel for more events, giveaways, and community updates. Good luck to everyone who entered, may the odds be in your favor!</p>",
+      "url": "https://www.youtube.com/watch?v=Hq0fmru4mLM",
+      "publishedAt": "2026-11-15T17:19:35.000Z",
+      "author": "Amped Electric Games",
+      "videoId": "Hq0fmru4mLM",
+      "image": "https://i1.ytimg.com/vi/Hq0fmru4mLM/hqdefault.jpg",
+      "sourceId": "amped-electric-games-csvv3v",
+      "source": "Amped Electric Games",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg",
+      "duplicateSourceIds": [
+        "amped-electric-games-csvv3v"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "61pgkg-48s3eu",
       "title": "Street style drops & pops 💥",
       "description": "Onewheel Street style drops & pops on this wicked spot",
@@ -2966,7 +3008,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "s790lr-1czfdl1",
@@ -10321,27 +10363,6 @@
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:08.609Z"
-    },
-    {
-      "id": "pohxqc-1ryezx2",
-      "title": "Amped Electric Games Fall Contest! Drawing Winners Announced!",
-      "description": "The moment you've been waiting for is here! We have a bunch of winners to announce. Firstly we'll announce the three winners of the Amped Electric Games survey - drawn randomly from the survey participants. Next we will announce the Amped Media Contest winners, from those submitted on instagram and viewable on https://media.ampedelectricgames.com Lastly, we will draw and announce the 12 winners of the Amped Electric Games Fall Contest presented by Next Gen Mobility and sponsored by Lemonade Float Co. Tune in live to see if you’re one of the lucky winners! Grand Prize Winner will select from: Leaperkim Lynx-S – Presented by Next Gen Mobility OR Onewheel Rally XL – Sponsored by Lemonade Float Co Runner Up Prizes 1x Brake Free Helmet Light – For ultimate safety 1x Landed Footwear Elevate – Ride in style 1X USA FLT Hoodie 1x USA FLT Flat brim hat 1X USA EUC Hoodie 1x USA EUC Flat brim hat 1x Roger Charger 1x Flight Fins Goat Tire 1x Flight Fins 1x Demon United Flexmeter Wrist guards 1x Grizzla Pads 1x Dragy Pro Don’t forget to subscribe to our channel for more events, giveaways, and community updates. Good luck to everyone who entered, may the odds be in your favor!",
-      "contentHtml": "<p>The moment you&#39;ve been waiting for is here!<br><br>We have a bunch of winners to announce.  Firstly we&#39;ll announce the three winners of the Amped Electric Games survey - drawn randomly from the survey participants.<br><br>Next we will announce the Amped Media Contest winners, from those submitted on instagram and viewable on https://media.ampedelectricgames.com<br><br>Lastly, we will draw and announce the 12 winners of the Amped Electric Games Fall Contest presented by Next Gen Mobility and sponsored by Lemonade Float Co.<br><br>Tune in live to see if you’re one of the lucky winners!<br><br>Grand Prize Winner will select from:<br>Leaperkim Lynx-S – Presented by Next Gen Mobility<br>OR <br>Onewheel Rally XL – Sponsored by Lemonade Float Co<br><br>Runner Up Prizes<br>1x Brake Free Helmet Light – For ultimate safety<br>1x Landed Footwear Elevate – Ride in style<br>1X USA FLT Hoodie<br>1x USA FLT Flat brim hat<br>1X USA EUC Hoodie<br>1x USA EUC Flat brim hat<br>1x Roger Charger<br>1x Flight Fins Goat Tire<br>1x Flight Fins<br>1x Demon United Flexmeter Wrist guards<br>1x Grizzla Pads <br>1x Dragy Pro<br><br>Don’t forget to subscribe to our channel for more events, giveaways, and community updates. Good luck to everyone who entered, may the odds be in your favor!</p>",
-      "url": "https://www.youtube.com/watch?v=Hq0fmru4mLM",
-      "publishedAt": "2026-08-30T23:08:41.000Z",
-      "author": "Amped Electric Games",
-      "videoId": "Hq0fmru4mLM",
-      "image": "https://i1.ytimg.com/vi/Hq0fmru4mLM/hqdefault.jpg",
-      "sourceId": "amped-electric-games-csvv3v",
-      "source": "Amped Electric Games",
-      "sourceDomain": "youtube.com",
-      "sourceKind": "video",
-      "deck": "video",
-      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg",
-      "duplicateSourceIds": [
-        "amped-electric-games-csvv3v"
-      ],
-      "mergedItemCount": 1
     },
     {
       "id": "13wsx1j-114nteh",
@@ -34856,6 +34877,27 @@
       "mergedItemCount": 3
     },
     {
+      "id": "g7fh15-1k6th9l",
+      "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
+      "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5\" target=\"_blank\">Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "13wsk49-1joxsrd",
       "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
       "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
@@ -34878,27 +34920,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "g7fh15-1k6th9l",
-      "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
-      "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5\" target=\"_blank\">Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "vm13z0-1k6th9l",
@@ -38939,7 +38960,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 130,
-      "articleCount": 1612
+      "articleCount": 1613
     },
     {
       "id": "onewheel",
@@ -38981,7 +39002,7 @@
       "title": "Community pulse",
       "url": "/feeds/community.xml",
       "sourceCount": 23,
-      "articleCount": 396
+      "articleCount": 397
     }
   ]
 }
