@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T06:33:44.250Z",
+  "generatedAt": "2026-11-17T12:29:41.348Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 397,
@@ -816,7 +816,7 @@
       "title": "\"future motion\" - Google News",
       "displayName": "\"future motion\" - Google News",
       "domain": "news.google.com",
-      "siteUrl": "https://news.google.com/search?hl=en-US&gl=US&ceid=US:en&q=%22future+motion%22",
+      "siteUrl": "https://news.google.com/search?ceid=US:en&gl=US&hl=en-US&q=%22future+motion%22",
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "deck": "news",
       "kind": "feed",
@@ -825,21 +825,21 @@
       "articleCount": 95,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-google-news-xwe1wh",
-      "title": "\"onewheel\" - Google News (news.google.com)",
-      "displayName": "\"onewheel\" - Google News (news.google.com)",
+      "title": "\"onewheel\" - Google News",
+      "displayName": "\"onewheel\" - Google News",
       "domain": "news.google.com",
-      "siteUrl": "https://news.google.com/search?ceid=US:en&gl=US&hl=en-US&q=%22onewheel%22",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "siteUrl": "https://news.google.com/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "deck": "news",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -4349,6 +4349,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -7626,13 +7627,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -8676,13 +8678,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -9230,13 +9233,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -12031,13 +12035,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -12580,13 +12585,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -12644,13 +12650,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -12666,13 +12673,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -14464,13 +14472,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -14639,13 +14648,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -14930,13 +14940,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -15278,13 +15289,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -15366,13 +15378,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -15388,13 +15401,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -15786,13 +15800,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -15808,13 +15823,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -16111,13 +16127,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -16524,13 +16541,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -16792,7 +16810,7 @@
       "embedHeightFetchedAt": "2026-10-26T22:49:47.304Z"
     },
     {
-      "id": "1lf6xwe-1joxsrd",
+      "id": "1lf6xwe-1k6th9l",
       "title": "OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies - GearJunkie",
       "description": "OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies gearjunkie.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Ra0F3Nmc4U09iMHdzTHROS25Gd1RQTDkyRmlERzFpbHA0TmhTaTVhNFpyaGV3UnZqdW5hRDlHdFFlY2FjNVNhc1JCR1J3bnBTdkpSaWtuSGY0dzVJT1pr?oc=5\" target=\"_blank\">OneWheel Has a Sister: ‘Antic’ Mini E-Bike Helps You Pop Wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
@@ -16801,16 +16819,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -17386,13 +17405,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17471,13 +17491,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17501,6 +17522,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17516,13 +17538,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -17539,13 +17562,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -17562,13 +17586,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -17585,13 +17610,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17628,13 +17654,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17674,13 +17701,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17853,13 +17881,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17875,13 +17904,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -17918,13 +17948,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -18299,13 +18330,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -18452,13 +18484,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -18750,6 +18783,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -18765,13 +18799,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -20611,13 +20646,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -21536,6 +21572,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -22178,13 +22215,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -22336,13 +22374,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -22454,6 +22493,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -22854,13 +22894,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -23004,13 +23045,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -23287,13 +23329,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -23915,13 +23958,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -23958,13 +24002,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -24024,13 +24069,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24219,13 +24265,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24262,13 +24309,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24305,13 +24353,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24327,13 +24376,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24349,13 +24399,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24371,13 +24422,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24393,13 +24445,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24524,13 +24577,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24613,13 +24667,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24680,13 +24735,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24702,13 +24758,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -24857,13 +24914,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -24880,13 +24938,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -25182,13 +25241,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -25225,13 +25285,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -25574,13 +25635,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -25596,13 +25658,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -25876,13 +25939,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -26344,13 +26408,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -27127,13 +27192,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -27277,13 +27343,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -27299,13 +27366,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -27555,13 +27623,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -27983,13 +28052,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28005,13 +28075,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28395,13 +28466,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28417,13 +28489,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28439,13 +28512,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28483,13 +28557,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28513,6 +28588,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28528,13 +28604,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28795,13 +28872,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -28818,13 +28896,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -28841,13 +28920,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28871,6 +28951,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28894,6 +28975,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
@@ -28930,13 +29012,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28952,13 +29035,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -28975,13 +29059,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -28997,13 +29082,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29071,6 +29157,29 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "1wlgib8-1joxsrd",
+      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
+      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "1pzkrxv-1k6th9l",
@@ -29201,28 +29310,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1wlgib8-1joxsrd",
-      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
-      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "qkagye-1joxsrd",
       "title": "Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported - Spectrum News",
       "description": "Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported spectrumlocalnews.com",
@@ -29233,13 +29320,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29255,13 +29343,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -29278,13 +29367,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29300,13 +29390,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -29323,13 +29414,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29401,6 +29493,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29424,6 +29517,53 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "gi4tg2-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
+      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1v6lmtn-1joxsrd",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foxbusiness.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29471,50 +29611,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "gi4tg2-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
-      "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1v6lmtn-1joxsrd",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">foxbusiness.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "l9uvac-1joxsrd",
       "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
       "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
@@ -29525,13 +29621,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -29548,13 +29645,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29570,13 +29668,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29592,13 +29691,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29614,13 +29714,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29668,6 +29769,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29727,13 +29829,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29749,13 +29852,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29771,13 +29875,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -29793,13 +29898,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -29845,6 +29951,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -30114,13 +30221,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -30178,13 +30286,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -30477,13 +30586,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -30499,13 +30609,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -30886,13 +30997,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -30971,13 +31083,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -31014,13 +31127,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -31235,6 +31349,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -31511,13 +31626,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -31660,13 +31776,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -31768,13 +31885,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -32219,13 +32337,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -32262,13 +32381,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -32359,6 +32479,29 @@
       "mergedItemCount": 3
     },
     {
+      "id": "qztwll-1joxsrd",
+      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL",
+      "description": "How hard is it to ride a Onewheel? And are they safe for kids? KSL News",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5\" target=\"_blank\">How hard is it to ride a Onewheel? And are they safe for kids?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KSL News</font>",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5",
+      "publishedAt": "2022-11-18T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "1tw6iub-1k6th9l",
       "title": "Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald",
       "description": "Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com",
@@ -32402,24 +32545,26 @@
       "mergedItemCount": 3
     },
     {
-      "id": "qztwll-1joxsrd",
-      "title": "How hard is it to ride a Onewheel? And are they safe for kids? - KSL",
-      "description": "How hard is it to ride a Onewheel? And are they safe for kids? KSL News",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5\" target=\"_blank\">How hard is it to ride a Onewheel? And are they safe for kids?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KSL News</font>",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5",
-      "publishedAt": "2022-11-18T08:00:00.000Z",
+      "id": "1u4hvfh-1joxsrd",
+      "title": "Onewheel skateboards linked to 4 deaths, feds say - CBS News",
+      "description": "Onewheel skateboards linked to 4 deaths, feds say cbsnews.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Y9IBgAFBVV95cUxNdFJ5Z214d1M1bkxqX0pybTJPaHZ6dWNZNDUtNks3M3p0bzF3WHltWGktbHhZTXNOdjVfRTVXVGJYNllZN1FfaHZleGpqQ1Z0eU1lLTlUcVF2YUpfWWZ5em1IOV81Y1hDdFJjZVNyYllkM2tQdG84amlteC1jNndmZg?oc=5\" target=\"_blank\">Onewheel skateboards linked to 4 deaths, feds say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cbsnews.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Yw?oc=5",
+      "publishedAt": "2022-11-17T08:00:00.000Z",
       "author": "",
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
@@ -32446,29 +32591,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1u4hvfh-1joxsrd",
-      "title": "Onewheel skateboards linked to 4 deaths, feds say - CBS News",
-      "description": "Onewheel skateboards linked to 4 deaths, feds say cbsnews.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Y9IBgAFBVV95cUxNdFJ5Z214d1M1bkxqX0pybTJPaHZ6dWNZNDUtNks3M3p0bzF3WHltWGktbHhZTXNOdjVfRTVXVGJYNllZN1FfaHZleGpqQ1Z0eU1lLTlUcVF2YUpfWWZ5em1IOV81Y1hDdFJjZVNyYllkM2tQdG84amlteC1jNndmZg?oc=5\" target=\"_blank\">Onewheel skateboards linked to 4 deaths, feds say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cbsnews.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Yw?oc=5",
-      "publishedAt": "2022-11-17T08:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "1froi56-1k6th9l",
       "title": "CPSC Warns Consumers to Stop Using Onewheel Self-Balancing Electric Skateboards Due to Ejection Hazard; At Least Four Deaths and Multiple Injuries Reported - CPSC.gov",
       "description": "CPSC Warns Consumers to Stop Using Onewheel Self-Balancing Electric Skateboards Due to Ejection Hazard; At Least Four Deaths and Multiple Injuries Reported U.S. Consumer Product Safety Commission (.gov)",
@@ -32487,6 +32609,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -32545,13 +32668,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -32889,13 +33013,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33087,13 +33212,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33109,13 +33235,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33131,13 +33258,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -33154,13 +33282,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -33177,13 +33306,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33199,13 +33329,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33263,13 +33394,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33378,6 +33510,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33803,13 +33936,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -33825,13 +33959,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34551,13 +34686,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34594,13 +34730,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34616,13 +34753,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34746,13 +34884,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34789,13 +34928,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34819,6 +34959,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -34845,6 +34986,29 @@
       "mergedItemCount": 2
     },
     {
+      "id": "180228f-1joxsrd",
+      "title": "Onewheel’s latest self-balancing electric boards get huge performance boosts - CNET",
+      "description": "Onewheel’s latest self-balancing electric boards get huge performance boosts CNET",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5\" target=\"_blank\">Onewheel’s latest self-balancing electric boards get huge performance boosts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNET</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "vm13z0-1k6th9l",
       "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
       "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
@@ -34867,28 +35031,6 @@
       "mergedItemCount": 4
     },
     {
-      "id": "180228f-1joxsrd",
-      "title": "Onewheel’s latest self-balancing electric boards get huge performance boosts - CNET",
-      "description": "Onewheel’s latest self-balancing electric boards get huge performance boosts CNET",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5\" target=\"_blank\">Onewheel’s latest self-balancing electric boards get huge performance boosts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNET</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRmhDMXYwR3JMWHFmbk1ib3dIUmxyX09aYktmTUpYS2I2Zi1iQl90dTZoTmFyUmdkUWlUQVpmNDFIdHUtd09HcnJBTEwxNko1UnljWE8wc3V0cHBDa1NINi1abjVydjFCQU1WRVdTd0ZQWHczWXZ5c2d3YnlkOTZJeXo3OTNTUGRPXzJUM3Vrdm9vMkM4MGg1Tkg1STE1UmtiT18yeDNST1U4RFMzV1c3c09TekpUR3psQmdnTWIwc3I2dw?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "13wsk49-1joxsrd",
       "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
       "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
@@ -34899,13 +35041,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -35031,13 +35174,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -35076,13 +35220,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -35140,13 +35285,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -35205,13 +35351,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -35311,13 +35458,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -35439,13 +35587,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -35738,13 +35887,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -36266,13 +36416,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -36330,13 +36481,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -36373,13 +36525,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -36699,13 +36852,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -36721,13 +36875,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -36837,13 +36992,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37065,13 +37221,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37087,13 +37244,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37173,13 +37331,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37217,13 +37376,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37239,13 +37399,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37261,13 +37422,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37416,13 +37578,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37438,13 +37601,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37460,13 +37624,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8",
         "future-motion-google-news-ftx3vn"
       ],
@@ -37483,13 +37648,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37505,13 +37671,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37548,13 +37715,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37570,13 +37738,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37635,13 +37804,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37657,13 +37827,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37743,13 +37914,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37807,13 +37979,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37829,13 +38002,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37956,13 +38130,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -37978,13 +38153,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38147,13 +38323,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38274,13 +38451,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38695,13 +38873,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38738,13 +38917,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38760,13 +38940,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38782,13 +38963,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38804,13 +38986,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
@@ -38847,13 +39030,14 @@
       "videoId": "",
       "image": "",
       "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News (news.google.com)",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22onewheel%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
         "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3

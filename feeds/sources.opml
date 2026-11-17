@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Tue, 17 Nov 2026 06:33:45 GMT</dateCreated>
+    <dateCreated>Tue, 17 Nov 2026 12:29:42 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -69,6 +69,9 @@
       <outline text="Reddit r/FloatLife (new)" title="Reddit r/FloatLife (new)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/new/.rss" htmlUrl="https://www.reddit.com/r/FloatLife/new" />
       <outline text="Reddit r/FloatLife (top)" title="Reddit r/FloatLife (top)" type="rss" xmlUrl="https://www.reddit.com/r/FloatLife/top/.rss?t=day" htmlUrl="https://www.reddit.com/r/FloatLife/top?t=day" />
       <outline text="Reddit r/onewheel (new)" title="Reddit r/onewheel (new)" type="rss" xmlUrl="https://www.reddit.com/r/onewheel/new/.rss" htmlUrl="https://www.reddit.com/r/onewheel/new" />
+    </outline>
+    <outline text="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed" title="website_discovery | blocked_or_unreachable | wrapper | recovered_from_paid_only_surface | Onewheel AI Feed">
+      <outline text="Reddit r/BurningMan (best)" title="Reddit r/BurningMan (best)" type="rss" xmlUrl="https://www.reddit.com/r/BurningMan/best/.rss" htmlUrl="https://www.reddit.com/r/BurningMan/best" />
     </outline>
     <outline text="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED" title="feed | blocked_or_unreachable | website_discovery | ONEWHEEL FEED">
       <outline text="Reddit r/ElectricSkateboarding" title="Reddit r/ElectricSkateboarding" type="rss" xmlUrl="https://www.reddit.com/r/ElectricSkateboarding/.rss" htmlUrl="https://www.reddit.com/r/ElectricSkateboarding/search?q=%22onewheel%22&amp;restrict_sr=1&amp;sort=new" />
@@ -201,13 +204,10 @@
       <outline text="TrailWheel (Site feed)" title="TrailWheel (Site feed)" type="rss" xmlUrl="https://trailwheel.com/feed/" htmlUrl="https://trailwheel.com/" />
     </outline>
     <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032">
-      <outline text="&quot;future motion&quot; - Google News" title="&quot;future motion&quot; - Google News" type="rss" xmlUrl="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22" htmlUrl="https://news.google.com/search?hl=en-US&amp;gl=US&amp;ceid=US:en&amp;q=%22future+motion%22" />
+      <outline text="&quot;future motion&quot; - Google News" title="&quot;future motion&quot; - Google News" type="rss" xmlUrl="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22" htmlUrl="https://news.google.com/search?ceid=US:en&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22" />
     </outline>
     <outline text="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032">
-      <outline text="&quot;onewheel&quot; - Google News (news.google.com)" title="&quot;onewheel&quot; - Google News (news.google.com)" type="rss" xmlUrl="https://news.google.com/news/rss/search/section/q/%22onewheel%22/%22onewheel%22?ned=us" htmlUrl="https://news.google.com/search?hl=en-US&amp;gl=US&amp;ceid=US:en&amp;q=%22onewheel%22" />
-    </outline>
-    <outline text="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032" title="feed | portable_sources | feed | portable_sources | ONEWHEEL FEED | Onewheel AI Feed | DIY / Open Source / Onewheel Alternatives AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032 | ONEWHEEL FEED | Onewheel AI Feed | Floatwheel AI Feed | Future Motion Onewheel AI Feed | list-1264927333211308032">
-      <outline text="&quot;onewheel&quot; - Google News (news.google.com)" title="&quot;onewheel&quot; - Google News (news.google.com)" type="rss" xmlUrl="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22onewheel%22" htmlUrl="https://news.google.com/search?ceid=US:en&amp;gl=US&amp;hl=en-US&amp;q=%22onewheel%22" />
+      <outline text="&quot;onewheel&quot; - Google News" title="&quot;onewheel&quot; - Google News" type="rss" xmlUrl="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" htmlUrl="https://news.google.com/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" />
     </outline>
     <outline text="website_discovery | blocked_or_unreachable | feed | blocked_or_unreachable" title="website_discovery | blocked_or_unreachable | feed | blocked_or_unreachable">
       <outline text="12. Keith Nitz on Medium - https://angeloewpa283.medium.com/15-best-onewheel-fins-bloggers-you-need-to-follow-53058faa48f1" title="12. Keith Nitz on Medium - https://angeloewpa283.medium.com/15-best-onewheel-fins-bloggers-you-need-to-follow-53058faa48f1" type="rss" xmlUrl="https://angeloewpa283.medium.com/feed" htmlUrl="https://medium.com/@angeloewpa283?source=rss-438a64dafdef------2" />
