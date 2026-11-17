@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T12:29:41.348Z",
+  "generatedAt": "2026-11-17T18:27:31.303Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 397,
@@ -143,7 +143,7 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "auth_or_robots_block",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
