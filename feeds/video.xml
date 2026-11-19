@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 19 Nov 2026 00:44:48 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 06:33:34 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[RETRO ONEWHEEL VIDEO GAME?]]></title>
+      <link>https://www.youtube.com/shorts/yw_ot208rh8</link>
+      <guid isPermaLink="false">jokwd4-1mfabo8</guid>
+      <pubDate>Thu, 19 Nov 2026 05:59:15 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i2.ytimg.com/vi/yw_ot208rh8/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/yw_ot208rh8/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/yw_ot208rh8/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=yw_ot208rh8" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
     <item>
       <title><![CDATA[Team Bollie or Team Bonk? 🤔 #onewheel #onewheeltricks #onewheeltutorial]]></title>
       <link>https://www.youtube.com/shorts/NceS3-2s04g</link>
