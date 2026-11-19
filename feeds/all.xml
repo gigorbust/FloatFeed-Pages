@@ -5,7 +5,7 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 19 Nov 2026 12:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 18:27:08 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
     <item>
       <title><![CDATA[RETRO ONEWHEEL VIDEO GAME?]]></title>
@@ -4973,7 +4973,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Pushback: high voltage warning while riding at 90% after update to 7.0]]></title>
@@ -5201,7 +5201,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Flipsky 75200 Pro FOC Detection Stuck at 0.000 Flux Linkage]]></title>
@@ -5249,7 +5249,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[You'll Never Catch Me! || Onewheel Follow Me Series]]></title>
@@ -5285,7 +5285,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel dirt jumps]]></title>
@@ -5369,7 +5369,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Best Onewheel Grind Tricks #skate]]></title>
@@ -5405,7 +5405,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Fungineers' Jay on #onewheel and #vesc community at @oakcityshredfest]]></title>
@@ -5429,7 +5429,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel is like skateboarding]]></title>
@@ -5453,7 +5453,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[OneWheel vs Funwheel]]></title>
@@ -5489,7 +5489,7 @@
       <media:thumbnail url="https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg" />
 
       <dc:creator>Oskar Fällman</dc:creator>
-      <source url="https://fallman.tech/feed/">FallmanTech</source>
+      <source url="https://fallman.tech/feed">FallmanTech (Site feed)</source>
     </item>
     <item>
       <title><![CDATA[XR revival build from Belgium: Thor301 vs LFOCer V4 vs XRV, and best 20s2p sourcing in the EU?]]></title>
@@ -9653,7 +9653,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Is Snowboarding Better Than Onewheel???]]></title>
@@ -10925,7 +10925,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Andrew Stroh rides the new Onewheel GTS and his thoughts on it. Winman’s 2024]]></title>
@@ -15797,7 +15797,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -16330,14 +16330,14 @@
     <item>
       <title><![CDATA[OneWheel Shut Off Defect Consumer Rights Class Action - Hagens Berman]]></title>
       <link>https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0R0p1NzdEdGlNcWVla2pwdV9mZkNiUlltUVN4NGJTNk42XzBKdmg4TE1jN2FURG9aUzZqV2lOTjZFWFZ0THZ1bWwzcXkxQzVNS1g0RWJvcVZ2NUJBRDI5RVFTQTc?oc=5</link>
-      <guid isPermaLink="false">1la1sy6-1joxsrd</guid>
+      <guid isPermaLink="false">1la1sy6-1k6th9l</guid>
       <pubDate>Tue, 06 Sep 2022 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>OneWheel Shut Off Defect Consumer Rights Class Action Hagens Berman</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0R0p1NzdEdGlNcWVla2pwdV9mZkNiUlltUVN4NGJTNk42XzBKdmg4TE1jN2FURG9aUzZqV2lOTjZFWFZ0THZ1bWwzcXkxQzVNS1g0RWJvcVZ2NUJBRDI5RVFTQTc?oc=5" target="_blank" rel="noopener noreferrer">OneWheel Shut Off Defect Consumer Rights Class Action</a>  Hagens Berman]]></content:encoded>
 
 
 
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Police: Men bought over $12K worth of OneWheel electric boards at Williamsburg bike shop using fake credit card info - wavy.com]]></title>
@@ -16889,7 +16889,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[One Man's Treasure]]></title>
@@ -17321,7 +17321,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[WCGW if I ride my onewheel on some offroad trails while playing a saxophone?]]></title>
@@ -17621,7 +17621,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Wheelistic - Lesie Touat -France]]></title>
@@ -17801,7 +17801,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[The Arborist]]></title>
@@ -17969,7 +17969,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Jack Mitrani]]></title>
@@ -18161,7 +18161,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[#2 SHRED SESSION AT : Lac du Salagou Onewheel trail France]]></title>
@@ -18209,7 +18209,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Ride Downtown Sacramento]]></title>
@@ -18281,7 +18281,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Subreddit Information & Discord Server]]></title>
@@ -18329,7 +18329,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Female Onewheel Riders!!]]></title>
@@ -18461,7 +18461,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -18473,7 +18473,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[$250 3d printed DIY Onewheel!]]></title>
@@ -18521,7 +18521,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -18569,7 +18569,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel riders take sport to new level at Northstar - Sierra Sun]]></title>
@@ -18629,7 +18629,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -18641,7 +18641,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Hold my beer while ride a Onewheel with a samurai sword.]]></title>
@@ -18677,7 +18677,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR Review - TechGearLab]]></title>

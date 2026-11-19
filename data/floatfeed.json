@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-19T12:30:00.012Z",
+  "generatedAt": "2026-11-19T18:27:08.096Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 394,
-    "archiveArticles": 1230
+    "currentArticles": 392,
+    "archiveArticles": 1232
   },
   "decks": [
     {
@@ -143,7 +143,7 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "rate_limited",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1187,11 +1187,11 @@
     },
     {
       "id": "fallmantech-1ir0tvi",
-      "title": "FallmanTech",
-      "displayName": "FallmanTech",
+      "title": "FallmanTech (Site feed)",
+      "displayName": "FallmanTech (Site feed)",
       "domain": "fallman.tech",
       "siteUrl": "https://fallman.tech/",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "deck": "onewheel",
       "kind": "feed",
       "sourcePlatform": "Publisher",
@@ -1199,13 +1199,13 @@
       "articleCount": 9,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "float-gang-1a19hmu",
@@ -1297,8 +1297,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1309,18 +1309,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "title": "Onewheel Tips Archives - The Sideways Movement",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1331,13 +1331,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1397,13 +1397,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -12578,15 +12578,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/04/Riding-the-Onewheel-Backwards-1024x536.jpg",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13010,15 +13008,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/image-1-1024x499.png",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13098,15 +13094,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/08/Race-for-the-Rail-Boards-history-vertical-v2.jpg",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13163,15 +13157,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2022/02/Onewheel-Wobble-1024x536.jpg",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13322,15 +13314,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2021/12/Onewheel-Pint-on-pavement-1024x310.jpg",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13390,15 +13380,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-4.png",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13434,15 +13422,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/image-2-1024x683.png",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13478,15 +13464,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2026/07/race-for-the-rail-picture.png",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -13549,15 +13533,13 @@
       "videoId": "",
       "image": "https://eadn-wc04-4899773.nxedge.io/wp-content/uploads/2023/08/TSG-Pass-Pro-riding-on-field-1024x768.jpg",
       "sourceId": "fallmantech-1ir0tvi",
-      "source": "FallmanTech",
+      "source": "FallmanTech (Site feed)",
       "sourceDomain": "fallman.tech",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://fallman.tech/feed/",
+      "feedUrl": "https://fallman.tech/feed",
       "duplicateSourceIds": [
-        "fallmantech-1ir0tvi",
-        "fallman-tech-onewheel-search-feed-1dn64sj",
-        "fallmantech-1dn64sj"
+        "fallmantech-1ir0tvi"
       ],
       "mergedItemCount": 4
     },
@@ -21225,7 +21207,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -21233,7 +21215,9 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq"
+        "the-sideways-movement-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
     },
@@ -23590,7 +23574,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32441,7 +32425,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -33421,7 +33405,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1la1sy6-1joxsrd",
+      "id": "1la1sy6-1k6th9l",
       "title": "OneWheel Shut Off Defect Consumer Rights Class Action - Hagens Berman",
       "description": "OneWheel Shut Off Defect Consumer Rights Class Action Hagens Berman",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0R0p1NzdEdGlNcWVla2pwdV9mZkNiUlltUVN4NGJTNk42XzBKdmg4TE1jN2FURG9aUzZqV2lOTjZFWFZ0THZ1bWwzcXkxQzVNS1g0RWJvcVZ2NUJBRDI5RVFTQTc?oc=5\" target=\"_blank\">OneWheel Shut Off Defect Consumer Rights Class Action</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hagens Berman</font>",
@@ -33430,17 +33414,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -34450,7 +34434,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35235,7 +35219,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35780,7 +35764,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36101,7 +36085,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36396,7 +36380,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36739,7 +36723,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36824,7 +36808,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36951,7 +36935,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37047,7 +37031,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37303,7 +37287,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37311,7 +37295,8 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg"
+        "onewheel-tips-archives-the-sideways-movement-stokpg",
+        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
       ],
       "mergedItemCount": 3
     },
@@ -37326,7 +37311,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37415,7 +37400,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37502,7 +37487,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37614,7 +37599,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37636,7 +37621,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37704,7 +37689,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
