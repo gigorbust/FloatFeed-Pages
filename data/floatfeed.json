@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T06:32:29.241Z",
+  "generatedAt": "2026-11-20T12:29:25.681Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 393,
@@ -143,7 +143,7 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "rate_limited",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -187,7 +187,7 @@
       "articleCount": 4,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -2966,7 +2966,7 @@
       "duplicateSourceIds": [
         "amped-electric-games-csvv3v"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "1tt4i7s-48s3eu",
@@ -36027,8 +36027,8 @@
       "mergedItemCount": 2
     },
     {
-      "id": "pddj5v-1k6th9l",
-      "title": "Onewheel Announces First \"Flow State\" Brand Ambassadors - prnewswire.com",
+      "id": "pddj5v-1joxsrd",
+      "title": "Onewheel Announces First \"Flow State\" Brand Ambassadors - PR Newswire",
       "description": "Onewheel Announces First \"Flow State\" Brand Ambassadors prnewswire.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPMFpDWVNSNUtXREllR1BpcS1VNENlbm1qMlh5aFB2aDNvM2FubE1QUDJYSFNpRTlmQnZWVWZyYldmRGk4TTBLQnVNRUM0dlpoSm0tcklfRUVfcWxsaTFpbUpIODhObFFUZmFDVnA3YXlXbG80NVN2UW1NTGdiMy04X01fUnRmNFd6RnVwZ3ZFNHhESTdiM1I1WlJ1N295TWlULUR6Z0dyRHFtak5lV3c?oc=5\" target=\"_blank\">Onewheel Announces First \"Flow State\" Brand Ambassadors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">prnewswire.com</font>",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMFpDWVNSNUtXREllR1BpcS1VNENlbm1qMlh5aFB2aDNvM2FubE1QUDJYSFNpRTlmQnZWVWZyYldmRGk4TTBLQnVNRUM0dlpoSm0tcklfRUVfcWxsaTFpbUpIODhObFFUZmFDVnA3YXlXbG80NVN2UW1NTGdiMy04X01fUnRmNFd6RnVwZ3ZFNHhESTdiM1I1WlJ1N295TWlULUR6Z0dyRHFtak5lV3c?oc=5",
@@ -36036,15 +36036,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
       "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 3
     },
