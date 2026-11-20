@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-20T00:43:59.227Z",
+  "generatedAt": "2026-11-20T06:32:29.241Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 392,
+    "currentArticles": 393,
     "archiveArticles": 1233
   },
   "decks": [
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 130,
       "feedSourceCount": 128,
-      "articleCount": 1625,
+      "articleCount": 1626,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 659,
+      "articleCount": 660,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -1614,7 +1614,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 7,
+      "articleCount": 8,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2948,6 +2948,27 @@
   ],
   "articles": [
     {
+      "id": "1ousxef-1ryezx2",
+      "title": "Bentonville vibes winner: @cameronewheel | Amped Media Contest",
+      "description": "Bentonville Onewheel vibes just hit different. @cameronewheel takes Bentonville vibes in the Amped Media Contest — and an Amped 2026 T-shirt or hoodie from @ampedelectricgames. Follow @ampedelectricgames for the next winner. — the Amped team #AmpedElectricGames #Onewheel #Bentonville #AmpedMediaContest",
+      "contentHtml": "<p>Bentonville Onewheel vibes just hit different.<br><br>@cameronewheel takes Bentonville vibes in the Amped Media Contest — and an Amped 2026 T-shirt or hoodie from @ampedelectricgames.<br><br>Follow @ampedelectricgames for the next winner.<br><br>— the Amped team<br><br>#AmpedElectricGames #Onewheel #Bentonville #AmpedMediaContest</p>",
+      "url": "https://www.youtube.com/shorts/kzfbwdHWaLI",
+      "publishedAt": "2026-11-20T01:03:02.000Z",
+      "author": "Amped Electric Games",
+      "videoId": "kzfbwdHWaLI",
+      "image": "https://i4.ytimg.com/vi/kzfbwdHWaLI/hqdefault.jpg",
+      "sourceId": "amped-electric-games-csvv3v",
+      "source": "Amped Electric Games",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnWwiJSpGSL4H_-JFM6ViFg",
+      "duplicateSourceIds": [
+        "amped-electric-games-csvv3v"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "1tt4i7s-48s3eu",
       "title": "Bonk into natural mini halfpipe 😆",
       "description": "Bonkink my onewheel into a natural mini halfpipe.",
@@ -2966,7 +2987,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "jokwd4-1mfabo8",
@@ -24141,7 +24162,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "9yg664-1joxsrd",
+      "id": "9yg664-1k6th9l",
       "title": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire - Event Santa Cruz",
       "description": "Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire eventsantacruz.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWhHQ1doWXJvcVQtLWVOeUkwVVB6c1htYmdmWmJIZzRyUmZVeVFJa2tja3hKNGFubWFvZmpnTWxHaS1tTW40eWRid01mLXFhMjhET001bzU1ZnBnLWhGV2FubS13ZGpqTFBHbk5NTkZCOGp5RkNJT1RaVXRwdEFSRXh1aUxUaVpoSzItMjhBTnJWUGpDTkFGY3JmQkxGZnpEOTBuOG85X1cxMXIwT1k4amRYYmJ5di1Zc1pNZE5FeElsSG5xcktwQmZjQV9PdWtVX3pGY0lRc3VxVUtCb2pqVjdfZw?oc=5\" target=\"_blank\">Future Motion Launches the New Onewheel Pint S, a Tuned-Up Version of its Smallest Board with a Burly All-Terrain Tire</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">eventsantacruz.com</font>",
@@ -24150,17 +24171,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -39221,7 +39242,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 130,
-      "articleCount": 1625
+      "articleCount": 1626
     },
     {
       "id": "onewheel",
@@ -39242,7 +39263,7 @@
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 659
+      "articleCount": 660
     },
     {
       "id": "gear",

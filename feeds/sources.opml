@@ -2,7 +2,7 @@
 <opml version="2.0">
   <head>
     <title>FloatFeed Sources</title>
-    <dateCreated>Fri, 20 Nov 2026 00:44:00 GMT</dateCreated>
+    <dateCreated>Fri, 20 Nov 2026 06:32:30 GMT</dateCreated>
   </head>
   <body>
     <outline text="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed" title="feed | recovered_from_paid_only_surface | DIY / Open Source / Onewheel Alternatives AI Feed">
@@ -292,7 +292,7 @@
       <outline text="TREND HUNTER - The Latest Trends (Site feed)" title="TREND HUNTER - The Latest Trends (Site feed)" type="rss" xmlUrl="http://www.trendhunter.com/feed/" htmlUrl="https://www.trendhunter.com/" />
     </outline>
     <outline text="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed | Onewheel AI Feed" title="feed | ok_nonempty | feed | recovered_from_paid_only_surface | Onewheel AI Feed | Onewheel AI Feed">
-      <outline text="SGB Media Online" title="SGB Media Online" type="rss" xmlUrl="https://sgbonline.com/feed" htmlUrl="https://sgbonline.com/" />
+      <outline text="SGB Media Online" title="SGB Media Online" type="rss" xmlUrl="https://sgbonline.com/feed/" htmlUrl="https://sgbonline.com/" />
     </outline>
     <outline text="website_discovery | blocked_or_unreachable" title="website_discovery | blocked_or_unreachable">
       <outline text="suprents.com" title="suprents.com" type="rss" xmlUrl="https://suprents.com/home?format=rss" htmlUrl="https://suprents.com/" />
