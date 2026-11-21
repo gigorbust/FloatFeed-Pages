@@ -5,8 +5,20 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 20 Nov 2026 18:28:13 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:43:00 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Mini onewheel feels like skateboarding ⚡️]]></title>
+      <link>https://www.youtube.com/shorts/QsGXbiRGJmk</link>
+      <guid isPermaLink="false">j0sx6b-48s3eu</guid>
+      <pubDate>Fri, 20 Nov 2026 19:42:11 GMT</pubDate>
+      <description><![CDATA[<p>Playing with the onewheel growler XR feels like skateboarding in the forest.</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/QsGXbiRGJmk/hqdefault.jpg" alt="" /></p><p>Playing with the onewheel growler XR feels like skateboarding in the forest.</p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/QsGXbiRGJmk/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=QsGXbiRGJmk" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
+    </item>
     <item>
       <title><![CDATA[Bentonville vibes winner: @cameronewheel | Amped Media Contest]]></title>
       <link>https://www.youtube.com/shorts/kzfbwdHWaLI</link>
