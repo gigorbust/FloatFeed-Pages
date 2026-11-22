@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T06:31:46.470Z",
+  "generatedAt": "2026-11-22T12:28:12.130Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
     "currentArticles": 391,
@@ -143,7 +143,7 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "rate_limited",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1297,8 +1297,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1309,18 +1309,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "title": "Onewheel Tips Archives - The Sideways Movement",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1331,13 +1331,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1397,13 +1397,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "fetch_failed",
-        "ingestion": "failed",
-        "cache": "fallback",
+        "endpoint": "valid_feed",
+        "ingestion": "succeeded",
+        "cache": "not_used",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "cached_fallback"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -2948,6 +2948,50 @@
   ],
   "articles": [
     {
+      "id": "3dflnb-1czfdl1",
+      "title": "New build but I don’t have experience",
+      "description": "I’ve been wanting to upgrade my GT and I’ve been talking around I want to get a 6 inch hub n52 magnets GTV or Thor 301 kit Indy speed control 20s2p pnp battery with bms flight fins The only question I have is what is better to do consider considering I’m new and I don’t have any experience. Should I try the Thor 301 I’ve never vesc anything before and I’m not sure if I want to screw up my GT by doing something wrong 3 posts - 3 participants Read full topic",
+      "contentHtml": "<p>I’ve been wanting to upgrade my GT and I’ve been talking around</p>\n<p>I want to get a 6 inch hub n52 magnets</p>\n<p>GTV or Thor 301 kit</p>\n<p>Indy speed control 20s2p pnp battery with bms</p>\n<p>flight fins</p>\n<p>The only question I have is what is better to do consider considering I’m new and I don’t have any experience. Should I try the Thor 301 I’ve never vesc anything before and I’m not sure if I want to screw up my GT by doing something wrong</p>\n            <p><small>3 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/new-build-but-i-don-t-have-experience/2979\">Read full topic</a></p>",
+      "url": "https://pev.dev/t/new-build-but-i-don-t-have-experience/2979#post_3",
+      "publishedAt": "2026-11-22T10:29:28.000Z",
+      "author": "@jenniferseward",
+      "videoId": "",
+      "image": "",
+      "sourceId": "pev-dev-latest-posts-1cj89fa",
+      "source": "pev.dev - Latest posts",
+      "sourceDomain": "pev.dev",
+      "sourceKind": "feed",
+      "deck": "onewheel",
+      "feedUrl": "https://pev.dev/posts.rss",
+      "duplicateSourceIds": [
+        "pev-dev-latest-posts-1cj89fa",
+        "pev-dev-latest-topics-zkk6og"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "y03m7r-1czfdl1",
+      "title": "Pint X (7314 / Hydrus 5200) — Best Path to More Range Before VESC?",
+      "description": "I have a Pint X with Hardware 7314 and Hydrus 5200 firmware. My long-term goal is to convert the board to VESC, but right now my biggest limitation is range. I enjoy longer rides with multiple stops and would like more battery capacity and less voltage sag. I’ve looked into Chi Battery upgrades, but from what I’ve read many battery modifications are incompatible with newer hardware revisions. Is there a recommended upgrade path for this hardware version? Are there any battery upgrades that make sense today and won’t become wasted money when I eventually move to VESC? For those who have worked ",
+      "contentHtml": "<p>If you open up your battery box you’ll see the BMS has 4 different cables going into it. The smallest one that sticks out perpendicular to the PCB is what lets your BMS tell your ESC that your board is charging. If you unplug it, it has no way of knowing so you can charge your board as you ride if you get a backpack setup</p>\n<p>This might break FM firmware as well, I can’t be completely sure.</p>\n<p>Personally, I recommend the PintV Kit. That opens your door far beyond FM support and restriction, so the skies (or rather your wallet) the limit for battery possibility. Easy as to install</p>\n<p>If you’ve got more dough to throw around just buy an atom. Its the combine price of a stock Pint and the PintV kit, and that really opens your door to far better Hill Climb Performance, NOOB VESC and more range.</p>\n<p>Either way when it comes to VESC, your range is quite dependent on your Motor and Battery Current Limit, which is an inverse relation to Torque (hill climb performance).</p>\n<p>Its possible that you would get marginally better range from a Pint S-Series motor (straight from FM) but no guarentees.</p>",
+      "url": "https://pev.dev/t/pint-x-7314-hydrus-5200-best-path-to-more-range-before-vesc/2993#post_6",
+      "publishedAt": "2026-11-22T09:28:35.000Z",
+      "author": "@jenniferseward",
+      "videoId": "",
+      "image": "",
+      "sourceId": "pev-dev-latest-posts-1cj89fa",
+      "source": "pev.dev - Latest posts",
+      "sourceDomain": "pev.dev",
+      "sourceKind": "feed",
+      "deck": "onewheel",
+      "feedUrl": "https://pev.dev/posts.rss",
+      "duplicateSourceIds": [
+        "pev-dev-latest-posts-1cj89fa",
+        "pev-dev-latest-topics-zkk6og"
+      ],
+      "mergedItemCount": 5
+    },
+    {
       "id": "1atn8dh-s1ax57",
       "title": "Onewheel Photoshoot Thread",
       "description": "This was yesterday while on a small road trip. A place called Thetford... From Google \"Thetford Castle (also known as Castle Hill) is a monumental Norman motte-and-bailey earthwork built within earlier Iron Age ramparts in Thetford, Norfolk\" The fibreglass steps are a relatively new addition to stop the wear from people climbing it but reports say the locals weren't that happy with it... 😏 IMG20261120150522 (1).jpeg",
@@ -3031,7 +3075,7 @@
       "duplicateSourceIds": [
         "vinie-vizzle-7ackvr"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "22moq-503sdn",
@@ -9975,28 +10019,6 @@
       "mergedItemCount": 2
     },
     {
-      "id": "ya37wq-1czfdl1",
-      "title": "Pint X (7314 / Hydrus 5200) — Best Path to More Range Before VESC?",
-      "description": "I have a Pint X with Hardware 7314 and Hydrus 5200 firmware. My long-term goal is to convert the board to VESC, but right now my biggest limitation is range. I enjoy longer rides with multiple stops and would like more battery capacity and less voltage sag. I’ve looked into Chi Battery upgrades, but from what I’ve read many battery modifications are incompatible with newer hardware revisions. Is there a recommended upgrade path for this hardware version? Are there any battery upgrades that make sense today and won’t become wasted money when I eventually move to VESC? For those who have worked ",
-      "contentHtml": "<p>If you open up your battery box you’ll see the BMS has 4 different cables going into it. The smallest one that sticks out perpendicular to the PCB is what lets your BMS tell your ESC that your board is charging. If you unplug it, it has no way of knowing so you can charge your board as you ride if you get a backpack setup</p>\n<p>This might break FM firmware as well, I can’t be completely sure.</p>\n<p>Personally, I recommend the PintV Kit. That opens your door far beyond FM support and restriction, so the skies (or rather your wallet) the limit for battery possibility. Easy as to install</p>\n<p>If you’ve got more dough to throw around just buy an atom. Its the combine price of a stock Pint and the PintV kit, and that really opens your door to far better Hill Climb Performance, NOOB VESC and more range.</p>\n<p>Either way when it comes to VESC, your range is quite dependent on your Motor and Battery Current Limit, which is an inverse relation to Torque (hill climb performance).</p>\n<p>Its possible that you would get marginally better range from a Pint S-Series motor (straight from FM) but no guarentees.</p>",
-      "url": "https://pev.dev/t/pint-x-7314-hydrus-5200-best-path-to-more-range-before-vesc/2993#post_5",
-      "publishedAt": "2026-09-04T02:56:11.000Z",
-      "author": "@Zackzto Zack Thompson",
-      "videoId": "",
-      "image": "",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
-      "sourceDomain": "pev.dev",
-      "sourceKind": "feed",
-      "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
-      "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
-      ],
-      "mergedItemCount": 5
-    },
-    {
       "id": "10cilwl-14wflbm",
       "title": "Why is the XRC better than Pint X and is atom better than both?",
       "description": "I’ve been a pint x rider for about 2 years and I’ve got ~900 miles under my belt. Ive added a good amount of TFL upgrades and I love the pint X, but I would love something with some more top end speed for the safety piece of mind. I don’t really understand why people say the XRC is better than the pint X, unless your size requires a larger board. I am a smaller guy and my understanding is that the pint x and xrc have the same top end speed, so get to around 18/20mph on either one and you’re in the danger zone. Am I wrong in thinking that? I love the small size and weight of the pint platform, I just want a little more cushion on the top the speed for safety. Is the atom the answer? What’s the top end speed of an atom once tuned properly? Is floatwheel reliable? submitted by /u/Outdoor-Panda [link] [comments]",
@@ -13347,24 +13369,24 @@
       "embedHeightFetchedAt": "2026-09-17T18:47:10.021Z"
     },
     {
-      "id": "l69awt-1czfdl1",
+      "id": "1uexeci-vbx98k",
       "title": "Initial VESCTool Configuration Guide",
       "description": "This is a configuration guide I started when I first started building VESC boards (Onewheels) in August of 2023. I do my best to keep updating this guide as technology advances. If you follow it from top to bottom you should be able to setup your VESC and have a rideable board to then fine tune to your riding style. I’ve used some of the settings and the advice from @surfdado, @NicoAleman , and @theboardgarage along with my own experience. Load Generic Bootloader prior to flashing firmware on Ennoid controllers Thor400 Hall Sensors Bug FIX: Motor Cfg > FOC > General > Sensor Mode = Hall Sensor",
       "contentHtml": "<p>This is a configuration guide I started when I first started building VESC boards (Onewheels) in August of 2023. I do my best to keep updating this guide as technology advances. If you follow it from top to bottom you should be able to setup your VESC and have a rideable board to then fine tune to your riding style. I’ve used some of the settings and the advice from <a href=\"https://pev.dev/u/surfdado\">@surfdado,</a><a href=\"https://pev.dev/u/nicoaleman\">@NicoAleman</a>, and <a href=\"https://pev.dev/u/theboardgarage\">@theboardgarage</a> along with my own experience.</p>\n<p><em><strong>Load Generic Bootloader prior to flashing firmware on Ennoid controllers</strong></em></p>\n<p>Thor400 Hall Sensors Bug FIX:</p>\n<p>Motor Cfg &gt; FOC &gt; General &gt; Sensor Mode = Hall Sensors</p>\n<p>(after running Setup Motors [VescTool], or running motor configuration in FloatHub), then write and backup configuration.</p>\n<p>FW v6.05+ UBOX MOMENTARY BUTTON SETUP BUG <span class=\"hashtag-raw\">#2</span> FIX:</p>\n<p>App CFG &gt; General &gt; Shutdown Mode = TOGGLE_BUTTON_ONLY</p>\n<p>FW v6.05+ NOSEDIVE PREVENTION BUG <span class=\"hashtag-raw\">#3</span> FIX:</p>\n<p>Motor CFG &gt; FOC &gt; Advanced Speed Tracker Position Source = Corrected Position</p>\n<p>FW v6.06 Bluetooth Bug Hardwired Fix:</p>\n<p>App Cfg &gt; General &gt; UART &gt; Permanent UART = Enabled</p>\n<p>MOTOR CONFIGURATION:</p>\n<p>Motor Cfg &gt; FOC &gt; Advanced &gt; Observer Type = FOC_OBSERVER_ORTEGA_ORIGINAL and run Motor Setup Wizard. Ortega Lambda-Comp is also a great option to try out. (Motor Setup Wizard has to be re-ran). NO LEMMINGS!</p>\n<p>Motor FOC (HyperCore Motor):<br>\nStart &gt; Setup Motors &gt; EUC &gt; Large Outrunner<br>\nOverride (Advanced)<br>\nMax Power Loss = 400W<br>\nOpenLoop ERPM = 700<br>\nSensorless ERPM = 2000<br>\nMotor Poles = 30</p>\n<p>Direct Drive box = Checked<br>\nWheel Diameter = 280mm (for speed calculation) or multiply 25.4 x Tire Diameter</p>\n<p>Motor Selection = Yes<br>\nBattery &gt; Battery Type = LIIION 3_0_4_2</p>\n<p>Run Detection (Allow wheel to free spin)</p>\n<p>Motor FOC (SuperFlux &amp; Cannon Core Motor):<br>\nStart &gt; Setup Motors &gt; EUC &gt; Large Outrunner<br>\nOverride (Advanced)<br>\nMax Power Loss = 700W<br>\nOpen Loop ERPM = 1500<br>\nSensorless ERPM = 1500<br>\nMotor Poles = 30</p>\n<p>Direct Drive box = Checked<br>\nWheel Diameter = 280mm (for speed calculation) or multiply 25.4 x Tire Diameter</p>\n<p>Motor Selection = Yes<br>\nBattery &gt; Battery Type = LIIION 3_0_4_2</p>\n<p>Run Detection (Allow wheel to free spin)</p>\n<p>Battery Cells:<br>\nStock XR (63V) = 15 cells<br>\nStock Pint X (63V) = 15 cells<br>\nStock GT (75.6V) = 18 cells</p>\n<p>GTS/R/XL (113.4V) = 27 cells<br>\nTORque Pack (79.8V) = 19 cells<br>\nCBCSO (84V) = 20 cells</p>\n<p>Battery Capacity:<br>\nStock XR = 6Ah<br>\nStock GT = 8Ah<br>\nStock Pint X = 6Ah<br>\nCBCSO or Custom 20S2P = 5.6Ah (P28A); 10Ah (50S)</p>\n<p>Battery Current Regen = -25A [-35A RS50/P50B/50S]<br>\nBattery Current Max = 45A [50A RS50/P50B/50S]</p>\n<p>Correct Results range in values. Consider re-running Motor Wizard if you get number(s) drastically different than below when configuring a Motor.</p>\n<p>Motor Values &amp; Acceptable Ranges (HyperCore):<br>\nMotor Resistance (R) = (80 - 104mOhm)<br>\nMotor Inductance (L) = (190 - 228ųH)<br>\nMotor Inductance Difference = (25ųH - 55ųH)<br>\nFlux Linkage (ƴ) = (26.5 - 29mWb) [28-29mWb N52M HyperCore]<br>\nCurrent KP = 0.198 (= L/1000)<br>\nCurrent KI = 87 (= Motor Resistance)<br>\nObserver Gain (x1M) = 0.70 - 0.90 (Half of detected value)</p>\n<p>Motor Cfg &gt; FOC &gt; General &gt; Observer Gain (x1M) = 0.75 - 0.90 (Half of detected value) (1.77)(AVG = 0.83/0.84) [0.89]<br>\nZVF = 25-35kHz [28.7kHz Pint V Controller w/Pint S-Series motor; 27.3kHz Tronic 250R Controller w/Pint S-Series motor] (Adjust in +/- 0.1 increments until motor runs quietest)</p>\n<p>Motor Cfg &gt; FOC &gt; Advanced &gt; Zero Vector Frequency</p>\n<p>Motor Values &amp; Acceptable Ranges (SuperFlux/Cannon Core):<br>\nMotor Resistance (R) = 27.46mOhm - 32.77mOhm (30.60mOhm - 40mOhm)(+20% from Motor Wizard) [34mOhm]<br>\nMotor Inductance (L) = 106.97ųH - 113.22ųH [108.42ųh]<br>\nMotor Lq-Ld = 28.14ųH - 38.23ųH [40.91ųH/32.69]<br>\nMotor Flux Ln Flux Linkage (ƴ) = 23.62mWb - 24.71mWb [23.728mWb/23.853]<br>\nCurrent KP = 0.198 (==L/1000) [0.1084]<br>\nCurrent KI = 87 (== R) [27.94]<br>\nObserver Gain (x1M) = 0.75 - 0.90 (Half of detected value)(AVG = 0.83/0.84) [1.77/0.89]<br>\nZVF = 25 - 35kHz (AVG = 29.5) [27.3 kHz P28A 20S2P VEXR on LilFOCer/SuperFlux MKI] (Adjust in +/- 0.1 increments until motor runs quietest)<br>\nMotor Cfg &gt; FOC &gt; Advanced &gt; Zero Vector Frequency</p>\n<p>Motor Cfg &gt; Additional Info &gt; Setup:<br>\nMotor Poles = 30<br>\nGear Ratio = 1<br>\nWheel Diameter = 280mm or multiply 25.4 x Tire Diameter<br>\nBattery Type: BATTERY_TYPE_LIION_3_0__4_2<br>\nBattery Cells Series: <span class=\"hashtag-raw\">#cells</span>/series for your battery<br>\nBattery Capacity: Use the Ah number listed on your battery (20S2P 50S = 10Ah)</p>\n<p>BATTERY CONFIGURATION:<br>\nBattery Current Max/Battery Current Max Regen Recommended Settings by <a class=\"mention\" href=\"https://pev.dev/u/surfdado\">@Surfdado</a>:<br>\nFungineers Pack: 50/-40A<br>\nTorque Pack: 60/-40A<br>\nME4T Pack: 50/-40A<br>\nFloatwheel: 60/-40A<br>\nGTV: 60/-40A<br>\nStock XR: 35/-30A<br>\nCBXR: 35/-30A<br>\n30S1P P45B: 40/-40A</p>\n<p>Maximum Regen Voltage (30-32S):</p>\n<p>Motor Cfg &gt; General &gt; Advanced &gt; Maximum Input Voltage = 147.0v (Thor400 32S)</p>\n<p>Lowered Time Constant (30-32S):</p>\n<p>Motor Cfg &gt; FOC &gt; General &gt; Advanced &gt; Time Constant = 400ųs</p>\n<p>Motor Current Configuration:</p>\n<p>Motor Cfg &gt; General &gt; Current Tab:<br>\nMotor Current Max = 160-180A Cannon Core/Superflux (120A HyperCore)<br>\nMotor Current Max Brake = -150A Cannon Core/Superflux (-100A HyperCore)<br>\nAbsolute Max Current = 240 - 270A Cannon Core/Superflux (+50% Motor Current Max) (180A HyperCore) (264.8A 24S MK8 Controller 20% margin for 331A MOSFET Maximum Current)</p>\n<p>(211.2A 30S MK8 Controller w/20% Safety Margin for 264A MOSFET Maximum Current)<br>\nBattery Current Max = 30A (you can use 50-60A for Molicel 2P packs, like TORque pack) [45A 24S1P P45B]<br>\nBattery Current Max Regen = -30A (you can use -50 - 60A for Molicel 2P packs, like TORque pack)</p>\n<p>Field Weakening:</p>\n<p>Motor Cfg &gt; FOC &gt; Field Weakening<br>\n(Default should be fine, but can adjust to personal preference)<br>\nMax Start = 30A - 50A (30A Standard/30-50A 20S2P or 80% or battery’s capacity) (ie: 40A for P50B/RS50)<br>\nDuty Start = 50% (some prefer 60%+/65%)<br>\nRamp Time = 1000 (300-800ms recommended)(Nose Hunting)<br>\nQ Axis = 2% (don’t touch!)</p>\n<p>Overmodulation:</p>\n<p>Motor CFG &gt; FOC &gt; Advanced &gt; Overmodulation Factor = 1.0/1.10/1.15</p>\n<p>Temperature Settings:<br>\nMotor Cfg &gt; General &gt; Temperature Tab:<br>\n(Activates Pushback for Overtemps) should be set correctly by default</p>\n<p>General:<br>\nAcceleration Temperature Decrease = 0%</p>\n<p>Motor Cfg &gt; FOC &gt; Sensorless &gt; TempComp = Enabled</p>\n<p>MOSFET:<br>\nMOSFET Temp Cutoff Start = 70°C/158°F (Lower setting if running split pack battery in controller box)<br>\nMOSFET Temp Cutoff End = 80°C/176°F</p>\n<p>Motor:<br>\nMotor Temp Cutoff Start = 80°C/176°F<br>\nMotor Temp Cutoff End = 90°C/194°F</p>\n<p>Write settings to VESC, then backup configuration Start &gt; Backup Configs</p>\n<p>Motor Crunch Troubleshooting:</p>\n<p>Motor Cfg &gt; FOC &gt; Hall Sensors &gt; Sensored ERPM Start = 1200-1500 HyperCore; 900-1200 SuperFlux/CannonCore [1350]</p>\n<p>Motor Cfg &gt; FOC &gt; Hall Sensors &gt; Sensorless ERPM = 2000 HyperCore; 1500 SuperFlux/CannonCore</p>\n<ul>\n<li>Note information in <span class=\"chcklst-box fa fa-square-o\"></span> are my settings.</li>\n</ul>\n<p>While the motor is cold, and able to spin freely<br>\nMotor Cfg &gt; FOC &gt; Hall Sensors<br>\nPress … in lower right corner of menu and select Detect FOC Hall Sensors, then select Apply, then Close, then Write</p>\n<p>Terminal tab &gt; type “hall_analyze 10” and tap send. Make sure motor can free spin, just like hall test. Sometimes it doesnt report back, you may have to do it twice or more if dont get a result. (Only use when there’s a hall sensor fault)</p>\n<p>Motor Cfg &gt; FOC &gt; Hall Sensors &gt; Hall Interpolation = 200-250 HyperCore; 250+ SuperFlux/CannonCore</p>\n<p>Motor Cfg &gt; FOC &gt; General &gt; Motor Resistance = 80-104 HyperCore; +20% SuperFlux</p>\n<p>Matching KI- KI factor to match their now higher Motor Resistance value</p>\n<p>Sensor Settings:<br>\nRefloat Cfg &gt; Stop<br>\nHalf Switch Fault Delay = 500+ms</p>\n<p>Full Switch Fault Delay = 300ms</p>\n<p>Miscellaneous Settings:<br>\n(Eliminate Onewheel rolling downhill)<br>\nMotor Cfg &gt; FOC &gt; Advanced<br>\nshort fets on zero duty enable</p>\n<p>Saturation Compensation Mode:<br>\nMotor Cfg &gt; FOC &gt; Sensorless &gt; Saturation Compensation Mode = Lambda and Factor</p>\n<p>Motor Cfg &gt; FOC &gt; Sensorless &gt; Saturation Compensation Factor = 10%</p>\n<p>Turn off Offset Calibration at Boot:<br>\nMotor Cfg &gt; FOC &gt; Offsets Uncheck ‘Run calibration at boot’ then select ‘Write’ button</p>\n<p>Click on the ’…’ and measure offsets</p>\n<p>Voltage Settings:</p>\n<p>Motor Cfg &gt; General &gt; Voltage &gt; Battery Voltage Cutoff Start (2.7-2.9V/Cell) or (2.3-2.5V/Cell <span class=\"mention\">@Mario</span> Contino)<br>\nStock XR = 40.5-43.5V or 34.5-37.5V<br>\nStock Pint X = 40.5-43.5V or 34.5-37.5V<br>\nStock GT = 48.6-52.2V or 41.4-45V<br>\n20S2P = 54-58V or 46-50V [50V]<br>\nADV2 = 54–58V or 46-50V<br>\n24S = 64.8 - 69.6V or 55.2 - 60V<br>\n27S = 72.9 - 78.3V or 62.1 - 67.5V<br>\n30S = 81 - 87V or 69 - 75V<br>\n32S = 86.4 - 92.8V or 73.6 - 80V</p>\n<p>Motor Cfg &gt; General &gt; Voltage &gt; Battery Voltage Cutoff End (2.5-2.75V/Cell) or (2.0V/Cell from Mario Contino)<br>\nStock XR = 37.5-41.25V or 30V<br>\nStock Pint X = 37.5-41.25V or 30V<br>\nStock GT = 45-49.5V or 36V<br>\n20S2P = 50-55V or 40V<br>\nADV2 = 50-55V or 40V<br>\n24S = 60.0 - 66V or 48V<br>\n27S = 67.5 - 74.3V or 54V<br>\n30S = 75.0 - 82.5V or 60V<br>\n32S = 80.0 - 88V or 64V</p>\n<p>Battery Basics:<br>\nFull = 4.2V/Cell<br>\n15S = 63V<br>\n18S = 75.6V<br>\n20S = 84V<br>\n24S = 100.8V<br>\n27S = 113.4V<br>\n30S = 126V<br>\n32S = 134.4V</p>\n<p>Nominal = 3.6V/Cell<br>\n15S = 54V<br>\n18S = 64.8V<br>\n20S = 72V<br>\n24S = 86.4V<br>\n27S = 97.2V<br>\n30S = 108V<br>\n32S = 115.2V</p>\n<p>Empty = 3.0V/Cell<br>\n15S = 45V<br>\n18S = 54V<br>\n20S = 60V<br>\n24S = 72V<br>\n27S = 81V<br>\n30S = 90V<br>\n32S = 96V</p>\n<p>Empty Empty = 2.5V/Cell<br>\n15S = 37.5V<br>\n18S = 45V<br>\n20S = 50V<br>\n24S = 60V<br>\n27S = 67.5V<br>\n30S = 75V<br>\n32S = 80V</p>\n<p>Omni Charger 90% Charging Voltages (@ 4.125V/Cell) Floatwheel BMS’s:<br>\n15S = 60.2V (16.9V)<br>\n18S = 72.2V (20.3V)<br>\n20S = 80.3V (22.5V)<br>\n24S = 96.3V (27.0V)<br>\n27S = 108.3V (30.4V)<br>\n30S = 120.4V (33.8V)<br>\n32S = 128.4V (36.0V)</p>\n<p>Omni Charger 90% Charging Voltages (@ 4.2V/Cell):<br>\n15S = 61.2V (18.0V)<br>\n18S = 73.4V (21.6V)<br>\n20S = 81.6V (24.0V) 84-60 x .90<br>\n24S = 97.9V (28.8V)<br>\n27S = 110.2V (32.4V)<br>\n30S = 122.4V (36.0V)<br>\n32S = 130.6V (38.4V) 134.4-96 x .90</p>\n<p>Omni Charger 90% Charging Voltages (@ 4.2V/Cell P45B/P50B 2.5V Empty):<br>\n18S = 72.5V (27.5V)<br>\n20S = 80.6V (34.0V) 84-50 x .90<br>\n24S = 96.7V (40.8V) 100.8-60 x .90<br>\n27S = 108.8V (45.9V)<br>\n30S = 120.9V (51.0V) 126.0-75 x .90<br>\n32S = 129.0V (49.0V) 134.4-80 x .90</p>\n<p>Omni Charger 90% Charging Voltages (@ 4.25V/Cell P45B/P50B/RS50 2.7V Empty) ISC:</p>\n<p>20S = 81.9V (31.0V) 85-54 x .90</p>\n<p>24S = 98.3V (37.2V) 102-64.8 x .90<br>\n27S = 110.6V (41.9V) 114.8-72.9 x .90<br>\n30S = 122.9V (46.5V) 127.5-81 x .90<br>\n32S = 131.0V (49.6V) 136-86.4 x .90</p>\n<p>SOC:<br>\nSOC = Capacity Remaining Ah/Total Capacity Ah (BMS uses SOC)</p>\n<p>63V @ 6Ah = 378Wh total capacity (100% for 15S2P VCT6)<br>\n3.0V x 15 cells = 45V (0%)</p>\n<p>30S1P RS50</p>\n<p>0% = 2.7V x 30 x (6Ah Discharge Rate) = 486Wh</p>\n<p>25% = 3.2V x 30 x (6Ah Discharge Rate) = 576Wh</p>\n<p>50% = 3.6V x 30 x (6Ah Discharge Rate) = 648Wh</p>\n<p>75% = 4.0V x 30 x (6Ah Discharge Rate) = 720Wh</p>\n<p>100% = 4.25V x 30 x (6Ah Discharge Rate)= 765Wh</p>\n<p>[30S1P RS50 Example: 4.059V x 30 = 121.77V x5Ah (Stored Capacity) = 608.85Wh/765Wh = 0.7958 x 100 = 79.58% SOC]</p>\n<p>90% of 765Wh = 688.5Wh/6Ah = 114.75v</p>\n<p>127.5V - 81v = 46.5v x 90% = 41.85v + 81v = 122.8v (90% SOCę)</p>\n<p>SOCc = State of Charge Capacity (≈1,500mAh)<br>\nSOCę = State of Charge Energy (54V for 63V battery) (50% SOCę)</p>\n<p>Linear Battery Percentage = (Current Voltage - Empty Voltage of Battery)/(Full Voltage of Battery - Empty Voltage of Battery) x 100<br>\n[Example: 60.7V - 45V) = 15.7V; 15.7V/18V = .87; .87 x 100 = 87% SOCę]</p>\n<p>60.7V x 3Ah (Stored Capacity) = 182.1Wh/378Wh = 0.4817 x 100 = 48.17% SOCç</p>\n<p>IMU Configuration:<br>\nThis is most commonly done when initially setting up a board for the first time, though you can re-do individual steps as required in the future. For example, if you want to “re-level” your board (maybe you got new rails or repositioned your controller), you can just re-do the IMU Orientation step. Or if you’re concerned the Gyro or Accel calibrations aren’t accurate, those can be re-done individually as well.</p>\n<p>It’s important to make any of these IMU changes using the Wizard instead of manually! When using the wizard, changes made from one step will adjust all values to accommodate, allowing for example the re-calibration of Orientation without needing to recalibrate Gyro or Accel.</p>\n<p>Lastly, if you are facing massive behavioral issues with your IMU, I would recommend reading the default values for IMU, Writing, and following this guide from scratch. You can write these default values on Desktop from the Circle-A icon on the right sidebar followed by the Down-A icon to Write, or on Mobile from App CFG, selecting the … button in the bottom right, selecting Read Default Values, and tapping Write.</p>\n<p>The whole process consists of three parts:<br>\nA) IMU Wizard<br>\nB) Manual Adjustments<br>\nC) Verifying your Calibration in RT Data</p>\n<p>A) IMU Wizard<br>\nProp the board such that it lays still in the orientation you would like to be considered “level.” A milk crate or similar container may be handy here.</p>\n<p>If you already have Float Package/Refloat installed, it’s best to disable this, as activating the sensors mid-calibration can have hectic results. First double check High/Low Voltage Threshold is reading correctly by selecting Refloat &gt; Specs High/Low Voltage Threshold &gt; Read. Disable Float Package/Refloat by navigating to Float CFG/Refloat &gt; Specs, flipping the Disable Float Package/Refloat toggle switch, and hitting Write.</p>\n<p>Go to the Start tab on mobile, or Welcome &amp; Wizards on desktop, and select Setup IMU.</p>\n<p>IMU Configurator:<br>\nStart &gt; Setup IMU &gt; IMU Configurator<br>\nIMU Detected: should say true. If not the case, hit “Search for IMU” (This may take a few tries sometimes. If it never succeeds, don’t stress it, this is just for the IMU Sample Rate which we can set manually later)</p>\n<p>In IMU Profile Selector choose Balance Skateboard</p>\n<p>IMU Sample Rate/Loop Hertz:<br>\nIf IMU was detected properly, the Frequency at the bottom should read as the correct sample rate for your IMU. For example, LFoc v3.1 (LSM6DS3) should read 832Hz (Again, can be set manually later if need be).</p>\n<p>(BM160 IMU): 800Hz<br>\nFlipsky/Spinted/Floatwheel ADV/GTV/LilFOCer 3.0/RION</p>\n<p>(LSM6 IMU): 832Hz<br>\nLilFOCer V3.1+/Thor300/400/Tronic 250R/X12/ADV500</p>\n<p>The other values should appear set as follows:<br>\nAHRS: Mahony<br>\nAcc Decay 0.020<br>\nMahony KP 2.0<br>\nAccel Z Filter 1.0<br>\nGyro Filter 0.0</p>\n<p>If all values check out, select Save.</p>\n<p>Gyroscope Calibration:<br>\nStart &gt; Setup IMU &gt; Gyroscope Calibration Make sure board is completely still, and isn’t moved or bumped</p>\n<p>Wait for the readings on all axes to stabilize within +/- 0.01 or so, with no values constantly drifting in one direction.</p>\n<p>Once stabilized, select Save.</p>\n<p>IMU Orientation Calibration (Save Accelerometer for last):<br>\nStart &gt; Setup IMU &gt; Orientation Calibration</p>\n<p>Roll Offset: Wait for the reading to stabilize within +/- 0.01 or so, with no values constantly drifting in one direction. Once stabilized, select Save.</p>\n<p>Pitch Offset: Wait for the reading to stabilize within +/- 0.01 or so, with no values constantly drifting in one direction. Once stabilized, select Save.</p>\n<p>Yaw Offset: Lift the NOSE of the board up 45 degrees. Assuming you have yet to calibrate your IMU, this value should stabilize to a multiple of 90 (-90, 0, 90, 180) depending on your controller/IMU orientation. Once stabilized to a multiple of 90, select Save.</p>\n<p>Assuming no present IMU Yaw value (the offset shown is relative to current value), the Yaw value for LFoc v3.1 in a Flowglider box is 90º.</p>\n<p>If just re-leveling your board, IMU Yaw can be skipped entirely once Roll and Pitch are saved</p>\n<p>If your controller is mounted in a slanted/diagonal orientation, a Yaw value that isn’t a multiple of 90 may be necessary. Having this measurement on hand for reference may be useful.</p>\n<p>Accelerometer Calibration:<br>\nStart &gt; Setup IMU &gt; Accelerometer Calibration<br>\nThis one is a bit confusing explained over text, I recommend checking out <a class=\"mention\" href=\"https://pev.dev/u/surfdado\">@SurfDado</a>’s video on this. If you prefer the text guide, carry on.</p>\n<p>NOTE: The orientations mentioned for each Accel axis are assuming you have your orientation properly calibrated. If these orientations don’t clearly raise the offset near 1.0, you may need to re-do Orientation Calibration.</p>\n<p>Accel X: Gradually prop the board up vertically on its nose, you should see the reading begin to climb towards 1.0. Once the reading stabilizes (be patient), slowly shift the board back and forth, trying to find the max possible value. Once you find a point where the value decreases in each direction, gently set the board down (to avoid the value spiking) and select Save.</p>\n<p>NOTE: You are simply looking for the max stable value. It’s okay if this is above or below 1.0, that’s the point of calibrating. Do not specifically aim for it to read 1.0 and save.</p>\n<p>Do NOT jerk the board, as this can cause the value to spike. If the max value spikes due to this at any point, select Clear Max and start again.</p>\n<p>Accel Y: Follow the same process, this time with the max being found when the board is resting on its left (power button) side rail. Once the value stabilizes and you find a point where the value decreases in each direction you tip the board, select Save.</p>\n<p>Accel Z: Follow the same process, this time with the max being found when the board is brought to level on the ground, as if it was engaged (no crate/container since you need to tilt it back and forth). Once the value stabilizes and you find a point where the value decreases in each direction you tip the board, select Save.</p>\n<p>Now that the IMU Wizard is completed, hit cancel to exit the IMU Wizard.</p>\n<p>B) Manual Adjustments<br>\nApp CFG &gt; IMU:</p>\n<p>Sample Rate: If you failed to detect IMU during the IMU Configurator step of the wizard, you may need to set this manually. The value this should be depends on the sample rate of the IMU being used. Set this to the appropriate value and hit Write (Bottom of screen on Mobile, or on right sidebar [Down-A icon] for Desktop).</p>\n<p>For LFoc V3.1 (LSM6DS3), we recommend using 832Hz. For Floatwheel (BMI160), this should be 800Hz.</p>\n<p>Loop Hertz: For most, this parameter should match what you set for your Sample Rate in App CFG &gt; IMU. Set it to the appropriate value and hit Write at the bottom of the screen.</p>\n<p>NOTE: If you set your Sample Rate to a lower frequency for one reason or another, such as to 416Hz, this should be multiplied so that the value set as Loop Hertz is in the 800-1000Hz range (i.e. Sample Rate of 416Hz, Loop Hertz of 832Hz) to ensure good performance.</p>\n<p>C) Verifying Calibration in RT Data<br>\nWe must first navigate to the proper RT Data screen, depending on your platform:</p>\n<p>Desktop: Navigate to Data Analysis → IMU Data on the left sidebar, and stay on the Roll/Pitch/Yaw tab. Then, enable the IMU toggle on the right sidebar to allow IMU Data to be read in real time. The graph should populate (NOTE: May glitch out if also on VESC Tool Mobile’s RT Data screen).</p>\n<p>Mobile: Navigate to the RT Data tab at the top of your screen, then scroll down to the screen with a 3D model of a box and IMU values listed up top.</p>\n<p>Set the board on its tail down resting position, with the nose pointed up. The Roll reading should be near 0, and the Pitch reading should be around positive 20-30 degrees, NOT negative.</p>\n<p>If Pitch is negative, or Pitch and Roll seem inverted, a mistake was made in the Orientation calibration. If so, feel free to re-do this step individually.</p>\n<p>If Pitch and Roll seem nonsensical and/or moving the board around doesn’t appear correct, you may have made a mistake in Gyro and/or Accel calibration. If so, I would recommend setting all Gyro and Accel values at the bottom of App CFG → IMU to 0’s (defaults), hit Write, and re-do the Gyro and Accel steps of the IMU Wizard.</p>\n<p>D) Before you do first test ride…<br>\nRe-enable the Float Package by flipping the toggle under Float CFG → Specs and hitting Write.</p>\n<p>Go to AppUI &gt; Controls (If on Desktop, can be found under Welcome &amp; Wizards) and use the Movement Control slider to test Motor Direction. The wheel should spin forwards for moving the slider right, and backwards for left. If this is inverted, the Invert Motor Direction toggle under Motor CFG → General → General should be flipped from the current position, and hit Write (Bottom of screen on Mobile, or on right sidebar [Down-M icon] for Desktop).</p>\n<p>If you’ve verified everything so far in this guide, it should be safe to ride. However, I would first test by hand with the motor free-spinning, either in the air or on a crate. Once this looks good (confirm motor direction, try to stabilize in center), then test by hand on the ground (preferably outside in open area). And once this looks good and it’s clearly self-balancing, you should be clear to ride!</p>\n<p>Last but certainly not least, BACKUP YOUR CONFIGS! If you have confirmed the board is ridable, now is the time to backup your configs to ensure you have a fallback in case anything happens in the future, such as accidentally poorly re-calibrating.</p>\n<p>Desktop: From the top menu bar, navigate to ConfBackup → Backup Configuration and Save. You can also save your App and Motor configurations as XML files under File → Save Motor/App Configuration XML as…</p>\n<p>Mobile: Navigate to the Start tab, and simply tap the large Backup Config button, confirming your backup on the popup window that comes up.</p>\n<p>Float Package/Refloat CFG:<br>\nHow to Install Float Package/Refloat from scratch</p>\n<p>If you are setting up a new board or you simply want so re-install everything from zero, this is the right tutorial. If you want to update the Float Package, make sure to scroll down to next headline.</p>\n<p>Requirements:<br>\nBoard with VESC based controller<br>\nLatest VESC App for iOS/Android</p>\n<p>Latest VESC Firmware installed on the controller</p>\n<p>Configuration of MOTOR AND IMU must be completed at this point!!!</p>\n<p>Part 1 - Install Float Package:<br>\nConnect VESC App to your board</p>\n<p>At the top bar scroll all the way to the last tab “Packages”</p>\n<p>Hit the Info button first and read the all the notes, before proceeding</p>\n<p>Hit the Install button and wait for the “Install Done!..” message. Click “OK”.</p>\n<p>Go to tab “Start” and select the Backup Configuration, then Disconnect Button.</p>\n<p>Then hit Connect again.</p>\n<p>Part 2 - Configure Float Package/Refloat:<br>\nNow you need to make crucial configurations for your battery and footpads. If you have the stock OW+ or XR battery, then the settings are already set up the right way for you. If you have a different battery setup, you need to set the values yourself.</p>\n<p>Float Cfg/Refloat &gt; Alerts/Pushback &gt; Duty Cycle Alert Pushback &gt; Angle = 6°<br>\nFloat Cfg/Refloat &gt; Alerts/Pushback &gt; Duty Cycle Alert Pushback &gt; Speed = 3°/sec</p>\n<p>Refloat &gt; Haptic Feedback &gt; Duty Cycle Audible Frequency = (495Hz default GTS/440Hz default XR/Pint) @ 3.0V</p>\n<p>Refloat &gt; Haptic Feedback &gt; Error Audible Frequency = 590Hz @ 3.0V</p>\n<p>Refloat &gt; Haptic Feedback &gt; Vibration Feedback &gt; Vibrate Frequency = 70Hz @ 8A [0A]</p>\n<p>Battery High Voltage/Low Voltage Threshold FLOAT CFG/Refloat &gt; Specs &gt; Voltage Tiltbacks &gt;<br>\nHigh/Low Voltage Threshold:<br>\n(4.3V/Cell &amp; 3.0-3.2V/Cell)<br>\n*3.2V/Cell for older batteries<br>\n15sXp = 64.5V/45-48V<br>\n18sXp = 77.4/54-57.6V<br>\n20sXp = 86V/60-64.0V<br>\nADV2 = 86V/60-64.0V<br>\n24S = 103.2V/72.0V<br>\n27S = 116.1V/81.0V<br>\n30S = 129V/90.0V<br>\n32S = 137.6V/96.0V</p>\n<p>Configuration of Aftermarket Rails by Nico Aleman:<br>\nTo recalibrate the nose angle. Select Start Tab &gt; IMU Setup &gt; IMU Orientation, and then either IMU Roll or Pitch will represent nose angle depending on your setup (just move nose up and down to check). Whichever it is, you want to get the board to the desired angle, wait for the value to stabilize, and save. For the other, and for IMU Yaw, skip. So you’d either Save IMU Roll and skip pitch and yaw, or skip Roll, save Pitch, and skip yaw. It just depends on your setup, usually it’s IMU Roll that represents nose angle</p>\n<p>Braking Adjustments <span class=\"mention\">@Nico</span> Aleman:<br>\nUnder the Tune Tab, Angle P and Rate P can both be tweaked either by their base values, or under the Brake Scaling section if you don’t want to tweak the acceleration / nose feel.</p>\n<p>Angle P adjusts how braking reacts to the angle of the board, with a stiffer Angle P having stronger response as the board angles down (as tail angles down, in the context of braking).</p>\n<p>Rate P adjusts how braking reacts to the rate at which the angle of the board is changing. You can think of it as a resistance almost, how resistant the board is to snapping the nose/tail down. This is most noticeable when trying to snap the nose up for nudges, or when landing drops off balance, but is also prevalent when trying to slam on the gas or brakes.</p>\n<p>Lastly, under the Tune Modifiers tab, Torque Tilt Strength (specifically Strength (Regen) for brakes) will make the Angle-based response stronger and stronger the longer and harder you hold the brakes, especially on downhills. This is by far the most effective and aggressive way to strengthen your brakes if that’s what you’re looking for.</p>\n<p>Technically other ways too but those are the most prominent and least complex. For example, lowering Mahony KP stiffens the board in general (even that’s oversimplified), but that can have a chain reaction on other parts of your tune that you may not want to be affected, like the acceleration feel.</p>\n<p>If you need a stiffer tail on drops, increase the Rate P Brake Scaling, it’s intentionally softer on that tune so you can snap it down a bit easier. For ATR, in general you’re just gonna be looking at increasing the strengths, but also I would increase the Max Angle up to 15° just so it’s not limited in that way. If you’re on the latest Refloat, you can also get away with much higher tilt speeds if you want it to kick in faster. Latest Refloat (v1.1+)</p>\n<p>smooths out the tilting a bit so f</p>\n            <p><small>1 post - 1 participant</small></p>\n            <p><a href=\"https://pev.dev/t/initial-vesctool-configuration-guide/3022\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/initial-vesctool-configuration-guide/3022#post_1",
+      "url": "https://pev.dev/t/initial-vesctool-configuration-guide/3022",
       "publishedAt": "2026-08-02T00:47:39.000Z",
-      "author": "@Drumbeater82 Matthew Ahrens",
+      "author": "Drumbeater82",
       "videoId": "",
       "image": "",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
+      "sourceId": "pev-dev-latest-topics-zkk6og",
+      "source": "pev.dev - Latest topics (pev.dev)",
       "sourceDomain": "pev.dev",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
+      "feedUrl": "https://pev.dev/latest.rss",
       "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
+        "pev-dev-latest-topics-zkk6og",
+        "pev-dev-latest-posts-1cj89fa"
       ],
       "mergedItemCount": 3
     },
@@ -14039,28 +14061,6 @@
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:10.154Z"
-    },
-    {
-      "id": "33fzyc-1czfdl1",
-      "title": "New build but I don’t have experience",
-      "description": "I’ve been wanting to upgrade my GT and I’ve been talking around I want to get a 6 inch hub n52 magnets GTV or Thor 301 kit Indy speed control 20s2p pnp battery with bms flight fins The only question I have is what is better to do consider considering I’m new and I don’t have any experience. Should I try the Thor 301 I’ve never vesc anything before and I’m not sure if I want to screw up my GT by doing something wrong 2 posts - 2 participants Read full topic",
-      "contentHtml": "<p>I’ve been wanting to upgrade my GT and I’ve been talking around</p>\n<p>I want to get a 6 inch hub n52 magnets</p>\n<p>GTV or Thor 301 kit</p>\n<p>Indy speed control 20s2p pnp battery with bms</p>\n<p>flight fins</p>\n<p>The only question I have is what is better to do consider considering I’m new and I don’t have any experience. Should I try the Thor 301 I’ve never vesc anything before and I’m not sure if I want to screw up my GT by doing something wrong</p>\n            <p><small>2 posts - 2 participants</small></p>\n            <p><a href=\"https://pev.dev/t/new-build-but-i-don-t-have-experience/2979\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/new-build-but-i-don-t-have-experience/2979#post_2",
-      "publishedAt": "2026-07-09T14:11:09.000Z",
-      "author": "@Broskul wyatt",
-      "videoId": "",
-      "image": "",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
-      "sourceDomain": "pev.dev",
-      "sourceKind": "feed",
-      "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
-      "duplicateSourceIds": [
-        "pev-dev-latest-topics-zkk6og",
-        "pev-dev-latest-posts-1cj89fa"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "1d3fs9u-1ryezx2",
@@ -19691,7 +19691,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -21397,7 +21397,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -21405,7 +21405,9 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq"
+        "the-sideways-movement-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
     },
@@ -22182,7 +22184,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -23762,7 +23764,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32619,7 +32621,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34630,7 +34632,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35417,7 +35419,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35962,7 +35964,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36285,7 +36287,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36580,7 +36582,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36923,7 +36925,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37008,7 +37010,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37135,7 +37137,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37231,7 +37233,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37487,7 +37489,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37495,7 +37497,8 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg"
+        "onewheel-tips-archives-the-sideways-movement-stokpg",
+        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
       ],
       "mergedItemCount": 3
     },
@@ -37510,7 +37513,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37599,7 +37602,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37686,7 +37689,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37798,7 +37801,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37820,7 +37823,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37888,7 +37891,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "source": "Onewheel Tips Archives - The Sideways Movement",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
