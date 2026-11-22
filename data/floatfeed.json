@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-22T12:28:12.130Z",
+  "generatedAt": "2026-11-22T18:28:31.084Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 391,
-    "archiveArticles": 1241
+    "currentArticles": 388,
+    "archiveArticles": 1244
   },
   "decks": [
     {
@@ -143,7 +143,7 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1297,8 +1297,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1309,18 +1309,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement",
+      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1331,13 +1331,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1397,13 +1397,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -2948,6 +2948,50 @@
   ],
   "articles": [
     {
+      "id": "1atn8dh-s1ax57",
+      "title": "Onewheel Photoshoot Thread",
+      "description": "This was yesterday while on a small road trip. A place called Thetford... From Google \"Thetford Castle (also known as Castle Hill) is a monumental Norman motte-and-bailey earthwork built within earlier Iron Age ramparts in Thetford, Norfolk\" The fibreglass steps are a relatively new addition to stop the wear from people climbing it but reports say the locals weren't that happy with it... 😏 IMG20261120150522 (1).jpeg",
+      "contentHtml": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"http://owforum.co.uk/uid/67\">@puzz360</a> Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂</p>\n<p dir=\"auto\">On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>",
+      "url": "http://owforum.co.uk/topic/18/onewheel-photoshoot-thread",
+      "publishedAt": "2026-11-22T16:50:38.000Z",
+      "author": "HanahsDax",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-forum-recent-7x71yd",
+      "source": "Onewheel Forum Recent",
+      "sourceDomain": "owforum.co.uk",
+      "sourceKind": "feed",
+      "deck": "community",
+      "feedUrl": "https://owforum.co.uk/recent.rss",
+      "duplicateSourceIds": [
+        "onewheel-forum-recent-7x71yd",
+        "popular-topics-li2s6i"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "5pvj0y-1czfdl1",
+      "title": "Rattling/Vibrating of Onewheel XRV Power Kit",
+      "description": "Hey there, lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior. First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as tho",
+      "contentHtml": "<p>Hey there,</p>\n<p>lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior.</p>\n<p>First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as those xml files. Sadly, this side does not allow me to upload those files but you can finde them here: <a href=\"https://pev.dev/t/gtv-xrv-pintv-power-kit-accidentally-reset-configs-motor-squeal-on-engagement-how-to-fix/1709\">https://pev.dev/t/gtv-xrv-pintv-power-kit-accidentally-reset-configs-motor-squeal-on-engagement-how-to-fix/1709</a></p>\n<p>Could it have to do something with Floaty or Float Control? I use both as I have an Android and iPhone.</p>\n<p>For now, there is nothing more I can tell so thanks for any advice and ride safely!</p>\n            <p><small>3 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032\">Read full topic</a></p>",
+      "url": "https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_3",
+      "publishedAt": "2026-11-22T13:42:25.000Z",
+      "author": "@robertthompson",
+      "videoId": "",
+      "image": "",
+      "sourceId": "pev-dev-latest-posts-1cj89fa",
+      "source": "pev.dev - Latest posts",
+      "sourceDomain": "pev.dev",
+      "sourceKind": "feed",
+      "deck": "onewheel",
+      "feedUrl": "https://pev.dev/posts.rss",
+      "duplicateSourceIds": [
+        "pev-dev-latest-posts-1cj89fa",
+        "pev-dev-latest-topics-zkk6og"
+      ],
+      "mergedItemCount": 5
+    },
+    {
       "id": "3dflnb-1czfdl1",
       "title": "New build but I don’t have experience",
       "description": "I’ve been wanting to upgrade my GT and I’ve been talking around I want to get a 6 inch hub n52 magnets GTV or Thor 301 kit Indy speed control 20s2p pnp battery with bms flight fins The only question I have is what is better to do consider considering I’m new and I don’t have any experience. Should I try the Thor 301 I’ve never vesc anything before and I’m not sure if I want to screw up my GT by doing something wrong 3 posts - 3 participants Read full topic",
@@ -2990,28 +3034,6 @@
         "pev-dev-latest-topics-zkk6og"
       ],
       "mergedItemCount": 5
-    },
-    {
-      "id": "1atn8dh-s1ax57",
-      "title": "Onewheel Photoshoot Thread",
-      "description": "This was yesterday while on a small road trip. A place called Thetford... From Google \"Thetford Castle (also known as Castle Hill) is a monumental Norman motte-and-bailey earthwork built within earlier Iron Age ramparts in Thetford, Norfolk\" The fibreglass steps are a relatively new addition to stop the wear from people climbing it but reports say the locals weren't that happy with it... 😏 IMG20261120150522 (1).jpeg",
-      "contentHtml": "<p dir=\"auto\"><a class=\"plugin-mentions-user plugin-mentions-a\" href=\"http://owforum.co.uk/uid/67\">@puzz360</a> Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂</p>\n<p dir=\"auto\">On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>",
-      "url": "http://owforum.co.uk/topic/18/onewheel-photoshoot-thread",
-      "publishedAt": "2026-11-21T23:20:01.000Z",
-      "author": "Puzz360",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-forum-recent-7x71yd",
-      "source": "Onewheel Forum Recent",
-      "sourceDomain": "owforum.co.uk",
-      "sourceKind": "feed",
-      "deck": "community",
-      "feedUrl": "https://owforum.co.uk/recent.rss",
-      "duplicateSourceIds": [
-        "onewheel-forum-recent-7x71yd",
-        "popular-topics-li2s6i"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "1i1syh-1czfdl1",
@@ -9294,28 +9316,6 @@
       "embedHeightFetchedAt": "2026-09-17T18:47:07.898Z"
     },
     {
-      "id": "5zv4px-1czfdl1",
-      "title": "Rattling/Vibrating of Onewheel XRV Power Kit",
-      "description": "Hey there, lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior. First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as tho",
-      "contentHtml": "<p>Hey there,</p>\n<p>lately I’ve run into a problem with my onewheel. I use an XRV power kit and for 2 years now it worked great but for some days now when wheeling, it vibrates strangely. I noticed, it does it mostly when leaning forwards to the inner side of my body. Sometimes, when it starts it may not stop until i stop the board, really odd behavior.</p>\n<p>First, I tried loading the base xml files of Tony back into the vesc app and redoing the IMU calibration but nothing worked. Retightening thr screws also did not solve the problem as there is nothing loose. So, my settings are the same basic ones as those xml files. Sadly, this side does not allow me to upload those files but you can finde them here: <a href=\"https://pev.dev/t/gtv-xrv-pintv-power-kit-accidentally-reset-configs-motor-squeal-on-engagement-how-to-fix/1709\">https://pev.dev/t/gtv-xrv-pintv-power-kit-accidentally-reset-configs-motor-squeal-on-engagement-how-to-fix/1709</a></p>\n<p>Could it have to do something with Floaty or Float Control? I use both as I have an Android and iPhone.</p>\n<p>For now, there is nothing more I can tell so thanks for any advice and ride safely!</p>\n            <p><small>2 posts - 2 participants</small></p>\n            <p><a href=\"https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_2",
-      "publishedAt": "2026-09-13T17:02:58.000Z",
-      "author": "@Beegold",
-      "videoId": "",
-      "image": "",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
-      "sourceDomain": "pev.dev",
-      "sourceKind": "feed",
-      "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
-      "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
-      ],
-      "mergedItemCount": 4
-    },
-    {
       "id": "1hhq18p-8kv0cu",
       "title": "One wheel or other brands?",
       "description": "I’m new to this, I really want to get into the hobby, I’m an Argentinian guy living in China, I been checking around About prices, and onewheel are extremely expensive here compared to to Gosmilo for example that is a local brand here in China, so I’m wondering if anyone has any recommendations about it, since for the price of a one wheel I can get almost 3 Gosmilo x9 here in China. Or if anyone has a better recommendation, maybe there’s another brand in China. submitted by /u/TaiHitsu to r/onewheel [link] [comments]",
@@ -13171,24 +13171,24 @@
       "mergedItemCount": 4
     },
     {
-      "id": "1wuyvg3-1czfdl1",
+      "id": "w2wqp8-vbx98k",
       "title": "Flipsky 75200 Pro FOC Detection Stuck at 0.000 Flux Linkage",
       "description": "Controller: Flipsky 75200 Pro (original, not V2), Hardware: 75_300_R2 Motor: Original 2000W Phat Scooter hub motor (worked perfectly on the stock controller) Firmware: 7.00 VESC Tool: 7.00 (iOS) Problem: After replacing the stock controller with the Flipsky, the motor only spins with a loud grinding/buzzing noise. It never runs smoothly. FOC detection consistently detects: Resistance: ~3.5–4.7 mΩ Inductance: ~350 µH Hall sensors detected However: Flux linkage is always 0.000 mWb. Hall detection never generates a hall table. I’ve also seen “Phase filter fault, invalid phase filter readings” and",
       "contentHtml": "<p><strong>Controller:</strong> Flipsky 75200 Pro (original, not V2), Hardware: 75_300_R2<br>\n<strong>Motor:</strong> Original 2000W Phat Scooter hub motor (worked perfectly on the stock controller)<br>\n<strong>Firmware:</strong> 7.00<br>\n<strong>VESC Tool:</strong> 7.00 (iOS)</p>\n<p><strong>Problem:</strong><br>\nAfter replacing the stock controller with the Flipsky, the motor only spins with a loud grinding/buzzing noise. It never runs smoothly.</p>\n<p>FOC detection consistently detects:</p>\n<ul>\n<li>\n<p>Resistance: ~3.5–4.7 mΩ</p>\n</li>\n<li>\n<p>Inductance: ~350 µH</p>\n</li>\n<li>\n<p>Hall sensors detected</p>\n</li>\n</ul>\n<p>However:</p>\n<ul>\n<li>\n<p><strong>Flux linkage is always 0.000 mWb.</strong></p>\n</li>\n<li>\n<p>Hall detection never generates a hall table.</p>\n</li>\n<li>\n<p>I’ve also seen <strong>“Phase filter fault, invalid phase filter readings”</strong> and <strong>“Overcurrent Fault”</strong> during detection.</p>\n</li>\n</ul>\n<p><strong>What I’ve tried:</strong></p>\n<ul>\n<li>\n<p>Verified all three hall sensors with a multimeter (all switch 0–3.3 V).</p>\n</li>\n<li>\n<p>Verified 5 V hall supply.</p>\n</li>\n<li>\n<p>Tried multiple phase and hall wire combinations.</p>\n</li>\n<li>\n<p>Restored default settings.</p>\n</li>\n<li>\n<p>Enabled/disabled phase filters.</p>\n</li>\n<li>\n<p>Re-ran FOC detection many times.</p>\n</li>\n</ul>\n<p>This happens <strong>every time</strong> and is fully reproducible.</p>\n<p>Is this a known issue with the 75200 Pro/75_300_R2, or does it point to a faulty controller?</p>\n            <p><small>2 posts - 2 participants</small></p>\n            <p><a href=\"https://pev.dev/t/flipsky-75200-pro-foc-detection-stuck-at-0-000-flux-linkage/3027\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/flipsky-75200-pro-foc-detection-stuck-at-0-000-flux-linkage/3027#post_1",
+      "url": "https://pev.dev/t/flipsky-75200-pro-foc-detection-stuck-at-0-000-flux-linkage/3027",
       "publishedAt": "2026-08-07T18:12:44.000Z",
-      "author": "@Onurelt",
+      "author": "Onurelt",
       "videoId": "",
       "image": "",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
+      "sourceId": "pev-dev-latest-topics-zkk6og",
+      "source": "pev.dev - Latest topics (pev.dev)",
       "sourceDomain": "pev.dev",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
+      "feedUrl": "https://pev.dev/latest.rss",
       "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
+        "pev-dev-latest-topics-zkk6og",
+        "pev-dev-latest-posts-1cj89fa"
       ],
       "mergedItemCount": 3
     },
@@ -13214,24 +13214,24 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1i4441b-1czfdl1",
+      "id": "1khaqe0-vbx98k",
       "title": "How to verify proper hall sensor recognition and alignment in VESC tool",
       "description": "You got issues with hall sensor detection? Let’s verify if there is an actual issue before throwing hands with your board. Prereqs: VESC Tool on mobile AND PC. This is a direct download for the 6.06 exe. Your board. A working wifi connection that both your phone and PC are connected to. Part 1: Ensuring proper hall sensor behavior Step 1: Power on and connect to your board using VESC Tool on your phone. Ensure you are connected to/CANned into your controller. Step 2: On the main START page, scroll down until you see “Wireless Bridge to Computer (TCP)”. Click “Activate Bridge” and ensure two IP",
       "contentHtml": "<p>You got issues with hall sensor detection? Let’s verify if there is an actual issue before throwing hands with your board.</p>\n<p>Prereqs:<br>\nVESC Tool on mobile AND PC. <a href=\"https://mega.nz/file/yFJ1haiQ#IHzOBG9XLho0fLtvUFyUUN81ffWbljtBIsuvfEmJ-e8\">This is a direct download for the 6.06 exe.</a><br>\nYour board.<br>\nA working wifi connection that both your phone and PC are connected to.</p>\n<p><em><strong>Part 1: Ensuring proper hall sensor behavior</strong></em></p>\n<p>Step 1: Power on and connect to your board using VESC Tool on your phone. Ensure you are connected to/CANned into your controller.</p>\n<p>Step 2: On the main START page, scroll down until you see “Wireless Bridge to Computer (TCP)”. Click “Activate Bridge” and ensure two IPs show up.</p>\n<p>Step 3: Fire up the desktop version of VESC Tool, head to the “Connection” tab in the sidebar and then the “TCP” tab up top. Input the IP address from your phone that does NOT say “Connected Client” next to it into the Address bar on your desktop tool. Ensure “Port” matches on both devices, then click the connect button (2nd button to the right of “Port”).<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/default/original/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3.png\" data-download-href=\"https://pev.dev/uploads/default/59e5d258cc5d6f904cf65efca7ffa942b90362c3\" title=\"connect\"><img src=\"https://pev.dev/uploads/default/optimized/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3_2_690x324.png\" alt=\"connect\" data-base62-sha1=\"cPgSTWAMsOUZ9hWk3YQ36NPVuoP\" width=\"690\" height=\"324\" srcset=\"https://pev.dev/uploads/default/optimized/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3_2_690x324.png, https://pev.dev/uploads/default/optimized/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3_2_1035x486.png 1.5x, https://pev.dev/uploads/default/original/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3.png 2x\" data-dominant-color=\"434040\"></a></div><p></p>\n<p>Step 4: After connecting, head to “Welcome and Wizards” on the sidebar to ensure you are connected successfully. After a successful confirmation, click the Settings cog and disable the refloat package.<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/default/original/2X/3/3038be560a5330a44e38ad95fee25d70a42ffdbd.png\" data-download-href=\"https://pev.dev/uploads/default/3038be560a5330a44e38ad95fee25d70a42ffdbd\" title=\"confirmconnection2\"><img src=\"https://pev.dev/uploads/default/optimized/2X/3/3038be560a5330a44e38ad95fee25d70a42ffdbd_2_690x393.png\" alt=\"confirmconnection2\" data-base62-sha1=\"6SAurhZNWHIBO7CmCc5opWysrcF\" width=\"690\" height=\"393\" srcset=\"https://pev.dev/uploads/default/optimized/2X/3/3038be560a5330a44e38ad95fee25d70a42ffdbd_2_690x393.png, https://pev.dev/uploads/default/optimized/2X/3/3038be560a5330a44e38ad95fee25d70a42ffdbd_2_1035x589.png 1.5x, https://pev.dev/uploads/default/optimized/2X/3/3038be560a5330a44e38ad95fee25d70a42ffdbd_2_1380x786.png 2x\" data-dominant-color=\"3B3B3B\"></a></div><p></p>\n<p>Step 5: Next, Head to the “Terminal” tab in the side bar under “VESC Dev Tools”. Ensure your motor is free to move and type in</p>\n<blockquote>\n<p>hall_analyze 10</p>\n</blockquote>\n<p>or</p>\n<blockquote>\n<p>hall_analyze 20</p>\n</blockquote>\n<p>Adjusting this number tells the VESC how many phase amps to use to turn the motor. 10-20 is commonly used.</p>\n<p>Note: Upon sending the command, there is a chance the terminal will not populate with extra data. Sometimes it does and sometimes it doesn’t. Here are some example outputs after 3 runs I ran on my board.<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/default/original/2X/c/c35f0d23f8e7f8c3c55f33a3252b98fc335c551b.png\" data-download-href=\"https://pev.dev/uploads/default/c35f0d23f8e7f8c3c55f33a3252b98fc335c551b\" title=\"output\"><img src=\"https://pev.dev/uploads/default/original/2X/c/c35f0d23f8e7f8c3c55f33a3252b98fc335c551b.png\" alt=\"output\" data-base62-sha1=\"rSkKHA5KZwg38oqQhumV4KI8ef1\" width=\"690\" height=\"458\" data-dominant-color=\"323233\"></a></div><p></p>\n<p>Step 6: Disregard what the terminal tells you and head over to the “Experimental Plot” under “Data Analysis” in the sidebar. This is where the magic happens.<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/default/original/2X/8/81e9e2a599a4af55b6902d441575d9f97ef72346.png\" data-download-href=\"https://pev.dev/uploads/default/81e9e2a599a4af55b6902d441575d9f97ef72346\" title=\"expplot\"><img src=\"https://pev.dev/uploads/default/optimized/2X/8/81e9e2a599a4af55b6902d441575d9f97ef72346_2_690x390.png\" alt=\"expplot\" data-base62-sha1=\"ixgGP74BHJsoY7EuFU5aGtpjrRI\" width=\"690\" height=\"390\" srcset=\"https://pev.dev/uploads/default/optimized/2X/8/81e9e2a599a4af55b6902d441575d9f97ef72346_2_690x390.png, https://pev.dev/uploads/default/optimized/2X/8/81e9e2a599a4af55b6902d441575d9f97ef72346_2_1035x585.png 1.5x, https://pev.dev/uploads/default/optimized/2X/8/81e9e2a599a4af55b6902d441575d9f97ef72346_2_1380x780.png 2x\" data-dominant-color=\"393633\"></a></div><br>\nCount how many “levels” your VESC detects. The magic number you are looking for is 6. If you see anything less than 6, it is likely one of your hall sensors are not working. This can be due to many reasons, common reasons including a bad connection in the chain or a dead sensor. If you get 7 states due to your halls falling to level 0, like in my example plot, that can still be okay. The main thing you want to see are 6 relatively full and flat levels.<p></p>\n<p><em><strong>Part 2: “Forcing” Hall sensors to detect after a successful plot</strong></em></p>\n<p>If you are getting 6 levels consistently, lets proceed to forcing a hall sensor detection (in case motor detections do not get them.)</p>\n<p>Step 1: Head over to Motor Settings &gt; FOC &gt; Hall sensors on your desktop client. Ensure I = 10-20 (same current setting behavior as in the terminal) and then hit the play button. If you get a successful detection, you will have 8 numbers populate the zeros. This may take a few or even many attempts (it took me 17 tries). After your 8 numbers populate, hit apply.<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/default/original/2X/a/a13d73a1a86d4174a1553e7efabac4c5c979fd99.png\" data-download-href=\"https://pev.dev/uploads/default/a13d73a1a86d4174a1553e7efabac4c5c979fd99\" title=\"halls\"><img src=\"https://pev.dev/uploads/default/optimized/2X/a/a13d73a1a86d4174a1553e7efabac4c5c979fd99_2_690x395.png\" alt=\"halls\" data-base62-sha1=\"n0ox0qXmlTbnkXn9AqyTPzR0K2R\" width=\"690\" height=\"395\" srcset=\"https://pev.dev/uploads/default/optimized/2X/a/a13d73a1a86d4174a1553e7efabac4c5c979fd99_2_690x395.png, https://pev.dev/uploads/default/optimized/2X/a/a13d73a1a86d4174a1553e7efabac4c5c979fd99_2_1035x592.png 1.5x, https://pev.dev/uploads/default/optimized/2X/a/a13d73a1a86d4174a1553e7efabac4c5c979fd99_2_1380x790.png 2x\" data-dominant-color=\"3B3939\"></a></div><p></p>\n<p>Step 2: Head over to the “General” tab up top, select “Hall Sensors” in the “Sensor Mode” drop down, then click write.<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://pev.dev/uploads/default/original/2X/8/81299b788b68d364d3726a2e38c6b42f96458bf1.png\" data-download-href=\"https://pev.dev/uploads/default/81299b788b68d364d3726a2e38c6b42f96458bf1\" title=\"hallsensorscheck\"><img src=\"https://pev.dev/uploads/default/optimized/2X/8/81299b788b68d364d3726a2e38c6b42f96458bf1_2_690x391.png\" alt=\"hallsensorscheck\" data-base62-sha1=\"iqCJGM6RNkeboJRGPQ0actnDUel\" width=\"690\" height=\"391\" srcset=\"https://pev.dev/uploads/default/optimized/2X/8/81299b788b68d364d3726a2e38c6b42f96458bf1_2_690x391.png, https://pev.dev/uploads/default/optimized/2X/8/81299b788b68d364d3726a2e38c6b42f96458bf1_2_1035x586.png 1.5x, https://pev.dev/uploads/default/optimized/2X/8/81299b788b68d364d3726a2e38c6b42f96458bf1_2_1380x782.png 2x\" data-dominant-color=\"403D3D\"></a></div><p></p>\n<p>Congrats! You have validated and forced enabled your hall sensors. Don’t forget to re-enable your refloat package. Happy floating!</p>\n            <p><small>1 post - 1 participant</small></p>\n            <p><a href=\"https://pev.dev/t/how-to-verify-proper-hall-sensor-recognition-and-alignment-in-vesc-tool/3025\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/how-to-verify-proper-hall-sensor-recognition-and-alignment-in-vesc-tool/3025#post_1",
+      "url": "https://pev.dev/t/how-to-verify-proper-hall-sensor-recognition-and-alignment-in-vesc-tool/3025",
       "publishedAt": "2026-08-07T00:44:34.000Z",
-      "author": "@nexinity Caleb",
+      "author": "nexinity",
       "videoId": "",
       "image": "https://pev.dev/uploads/default/optimized/2X/5/59e5d258cc5d6f904cf65efca7ffa942b90362c3_2_690x324.png",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
+      "sourceId": "pev-dev-latest-topics-zkk6og",
+      "source": "pev.dev - Latest topics (pev.dev)",
       "sourceDomain": "pev.dev",
       "sourceKind": "feed",
       "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
+      "feedUrl": "https://pev.dev/latest.rss",
       "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
+        "pev-dev-latest-topics-zkk6og",
+        "pev-dev-latest-posts-1cj89fa"
       ],
       "mergedItemCount": 3
     },
@@ -19691,7 +19691,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -21397,7 +21397,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -21405,9 +21405,7 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
-        "the-sideways-movement-1031nqx"
+        "the-sideways-movement-4mideq"
       ],
       "mergedItemCount": 3
     },
@@ -22184,7 +22182,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -23764,7 +23762,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -32621,7 +32619,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34632,7 +34630,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35419,7 +35417,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35964,7 +35962,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36287,7 +36285,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36582,7 +36580,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36925,7 +36923,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37010,7 +37008,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37137,7 +37135,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37233,7 +37231,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37489,7 +37487,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37497,8 +37495,7 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg",
-        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
+        "onewheel-tips-archives-the-sideways-movement-stokpg"
       ],
       "mergedItemCount": 3
     },
@@ -37513,7 +37510,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37602,7 +37599,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37689,7 +37686,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37801,7 +37798,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37823,7 +37820,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37891,7 +37888,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
