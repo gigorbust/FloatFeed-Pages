@@ -5,8 +5,20 @@
     <description>Forums, Reddit, social sources, and community discussion streams.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/community.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 21 Nov 2026 18:26:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 06:31:46 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Onewheel Photoshoot Thread]]></title>
+      <link>http://owforum.co.uk/topic/18/onewheel-photoshoot-thread</link>
+      <guid isPermaLink="false">1atn8dh-s1ax57</guid>
+      <pubDate>Sat, 21 Nov 2026 23:20:01 GMT</pubDate>
+      <description><![CDATA[<p>This was yesterday while on a small road trip. A place called Thetford... From Google &quot;Thetford Castle (also known as Castle Hill) is a monumental Norman motte-and-bailey earthwork built within earlier Iron Age ramparts in Thetford, Norfolk&quot; The fibreglass steps are a relatively new addition to stop the wear from people climbing it but reports say the locals weren&apos;t that happy with it... 😏 IMG20261120150522 (1).jpeg</p>]]></description>
+      <content:encoded><![CDATA[<p><a href="http://owforum.co.uk/uid/67" target="_blank" rel="noopener noreferrer">@puzz360</a> Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂</p>&#10;<p>On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>]]></content:encoded>
+
+
+      <dc:creator>Puzz360</dc:creator>
+      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
+    </item>
     <item>
       <title><![CDATA[Possibly shutting down the forum]]></title>
       <link>http://owforum.co.uk/topic/586/possibly-shutting-down-the-forum</link>
@@ -1782,18 +1794,6 @@
 
       <dc:creator>/u/Puzzleheaded-Gain256</dc:creator>
       <source url="https://www.reddit.com/r/FloatLife/best/.rss">Reddit r/FloatLife (best)</source>
-    </item>
-    <item>
-      <title><![CDATA[Onewheel Photoshoot Thread]]></title>
-      <link>http://owforum.co.uk/topic/18/onewheel-photoshoot-thread</link>
-      <guid isPermaLink="false">1atn8dh-s1ax57</guid>
-      <pubDate>Fri, 11 Sep 2026 19:17:33 GMT</pubDate>
-      <description><![CDATA[<p>@puzz360 Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂 On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>]]></description>
-      <content:encoded><![CDATA[<p><a href="http://owforum.co.uk/uid/67" target="_blank" rel="noopener noreferrer">@puzz360</a> Man driving 2500mi is no small feat! But well worth it if you guys got to some extra places like lake Balaton. Weather this year was super hot there all summer.. bouncing between 30C and 45C.. so no wonder the water temperature felt like in a thermal bath 😂</p>&#10;<p>On that note I really want to drive down with my onewheel and go around Budapest on all the routes/trails where I used to mountain bike. One day!</p>]]></content:encoded>
-
-
-      <dc:creator>scabaa</dc:creator>
-      <source url="https://owforum.co.uk/recent.rss">Onewheel Forum Recent</source>
     </item>
     <item>
       <title><![CDATA[Any update on a new model coming from future motion?]]></title>
