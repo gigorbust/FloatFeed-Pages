@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-23T00:51:00.831Z",
+  "generatedAt": "2026-11-23T06:42:51.572Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 383,
-    "archiveArticles": 1249
+    "currentArticles": 381,
+    "archiveArticles": 1251
   },
   "decks": [
     {
@@ -143,7 +143,7 @@
       "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "rate_limited",
+        "endpoint": "not_found",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -187,7 +187,7 @@
       "articleCount": 4,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "not_found",
+        "endpoint": "rate_limited",
         "ingestion": "failed",
         "cache": "fallback",
         "content": "nonempty",
@@ -1133,13 +1133,13 @@
       "articleCount": 1,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "empty_feed",
+        "endpoint": "valid_feed",
         "ingestion": "succeeded",
         "cache": "not_used",
-        "content": "empty",
+        "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_empty"
+      "fetchStatus": "ok_nonempty"
     },
     {
       "id": "east-ride-de-1mh6j40",
@@ -1297,8 +1297,8 @@
     },
     {
       "id": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "title": "Onewheel DIY Mods Archives - The Sideways Movement",
-      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "title": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/",
@@ -1309,18 +1309,18 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "title": "Onewheel Tips Archives - The Sideways Movement",
-      "displayName": "Onewheel Tips Archives - The Sideways Movement",
+      "title": "Onewheel Tips Archives - The Sideways Movement (Category)",
+      "displayName": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "domain": "thesidewaysmovement.com",
       "siteUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/",
       "feedUrl": "https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/",
@@ -1331,13 +1331,13 @@
       "articleCount": 10,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "pev-dev-latest-posts-1cj89fa",
@@ -1397,13 +1397,13 @@
       "articleCount": 3,
       "sourceStatus": {
         "publisher": "unverified",
-        "endpoint": "valid_feed",
-        "ingestion": "succeeded",
-        "cache": "not_used",
+        "endpoint": "fetch_failed",
+        "ingestion": "failed",
+        "cache": "fallback",
         "content": "nonempty",
         "directoryOnly": false
       },
-      "fetchStatus": "ok_nonempty"
+      "fetchStatus": "cached_fallback"
     },
     {
       "id": "uneroo-fr-181vp5c",
@@ -21397,7 +21397,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -21405,9 +21405,7 @@
       "duplicateSourceIds": [
         "onewheel-tips-archives-the-sideways-movement-stokpg",
         "onewheel-tips-archives-the-sideways-movement-1e8oa5v",
-        "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
-        "the-sideways-movement-1031nqx"
+        "the-sideways-movement-4mideq"
       ],
       "mergedItemCount": 3
     },
@@ -23764,7 +23762,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -29442,6 +29440,27 @@
       "mergedItemCount": 3
     },
     {
+      "id": "2a4udp-1k6th9l",
+      "title": "Santa Cruz company Future Motion recalls 300,000 electric skateboards - The Business Journals",
+      "description": "Santa Cruz company Future Motion recalls 300,000 electric skateboards The Business Journals",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUThHVXVfOUN6OXhlMlg5c3lVbVJQVjJWWFcxMC1LR2xYcVExVll4WU9LSHhWakJYUldpZEtHMnZGQUktSVVULUExQ3ZRX1lsU1EybHNLTnpXdHhBOHNfbW5jcG1tczIyb2V3QS1MZ21wNDZlZDluY3d4UG0wSlR5c0I0M0RYcmRseHlDSDJxOE41OHFIWVVzTW9jOEVEYUpsMGRVLVZiX3ZxZlpEOTczWUZKWXo4V1BBWDVB?oc=5\" target=\"_blank\">Santa Cruz company Future Motion recalls 300,000 electric skateboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Journals</font>",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUThHVXVfOUN6OXhlMlg5c3lVbVJQVjJWWFcxMC1LR2xYcVExVll4WU9LSHhWakJYUldpZEtHMnZGQUktSVVULUExQ3ZRX1lsU1EybHNLTnpXdHhBOHNfbW5jcG1tczIyb2V3QS1MZ21wNDZlZDluY3d4UG0wSlR5c0I0M0RYcmRseHlDSDJxOE41OHFIWVVzTW9jOEVEYUpsMGRVLVZiX3ZxZlpEOTczWUZKWXo4V1BBWDVB?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
+    },
+    {
       "id": "1wlgib8-1joxsrd",
       "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
       "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
@@ -29581,27 +29600,6 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "2a4udp-1k6th9l",
-      "title": "Santa Cruz company Future Motion recalls 300,000 electric skateboards - The Business Journals",
-      "description": "Santa Cruz company Future Motion recalls 300,000 electric skateboards The Business Journals",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUThHVXVfOUN6OXhlMlg5c3lVbVJQVjJWWFcxMC1LR2xYcVExVll4WU9LSHhWakJYUldpZEtHMnZGQUktSVVULUExQ3ZRX1lsU1EybHNLTnpXdHhBOHNfbW5jcG1tczIyb2V3QS1MZ21wNDZlZDluY3d4UG0wSlR5c0I0M0RYcmRseHlDSDJxOE41OHFIWVVzTW9jOEVEYUpsMGRVLVZiX3ZxZlpEOTczWUZKWXo4V1BBWDVB?oc=5\" target=\"_blank\">Santa Cruz company Future Motion recalls 300,000 electric skateboards</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Journals</font>",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUThHVXVfOUN6OXhlMlg5c3lVbVJQVjJWWFcxMC1LR2xYcVExVll4WU9LSHhWakJYUldpZEtHMnZGQUktSVVULUExQ3ZRX1lsU1EybHNLTnpXdHhBOHNfbW5jcG1tczIyb2V3QS1MZ21wNDZlZDluY3d4UG0wSlR5c0I0M0RYcmRseHlDSDJxOE41OHFIWVVzTW9jOEVEYUpsMGRVLVZiX3ZxZlpEOTczWUZKWXo4V1BBWDVB?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "1qjtm5r-1k6th9l",
@@ -32621,7 +32619,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -34632,7 +34630,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35419,7 +35417,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -35964,7 +35962,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36287,7 +36285,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36582,7 +36580,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -36925,7 +36923,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37010,7 +37008,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37137,7 +37135,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37233,7 +37231,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37489,7 +37487,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37497,8 +37495,7 @@
       "duplicateSourceIds": [
         "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
         "onewheel-diy-mods-archives-the-sideways-movement-15w4pkd",
-        "onewheel-tips-archives-the-sideways-movement-stokpg",
-        "onewheel-tips-archives-the-sideways-movement-1e8oa5v"
+        "onewheel-tips-archives-the-sideways-movement-stokpg"
       ],
       "mergedItemCount": 3
     },
@@ -37513,7 +37510,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-diy-mods-archives-the-sideways-movement-1uoa0o6",
-      "source": "Onewheel DIY Mods Archives - The Sideways Movement",
+      "source": "Onewheel DIY Mods Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37602,7 +37599,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37689,7 +37686,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37801,7 +37798,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37823,7 +37820,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
@@ -37891,7 +37888,7 @@
       "videoId": "",
       "image": "https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&ssl=1",
       "sourceId": "onewheel-tips-archives-the-sideways-movement-stokpg",
-      "source": "Onewheel Tips Archives - The Sideways Movement",
+      "source": "Onewheel Tips Archives - The Sideways Movement (Category)",
       "sourceDomain": "thesidewaysmovement.com",
       "sourceKind": "feed",
       "deck": "onewheel",
