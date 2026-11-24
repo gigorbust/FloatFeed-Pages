@@ -5,8 +5,32 @@
     <description>YouTube, media feeds, podcasts, and riding videos.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/video.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 23 Nov 2026 18:30:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:42:37 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Woah 😍 #onewheel]]></title>
+      <link>https://www.youtube.com/shorts/EEg8N31z0_s</link>
+      <guid isPermaLink="false">1xogvr7-1mfabo8</guid>
+      <pubDate>Mon, 23 Nov 2026 21:29:25 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i2.ytimg.com/vi/EEg8N31z0_s/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/EEg8N31z0_s/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/EEg8N31z0_s/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=EEg8N31z0_s" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Sometimes this is all you need 🙂 #thefloatlife #onewheel #vesc #pev #trails]]></title>
+      <link>https://www.youtube.com/shorts/2p4ksMeHRCA</link>
+      <guid isPermaLink="false">fsvwsq-14o2nhz</guid>
+      <pubDate>Mon, 23 Nov 2026 19:25:05 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i3.ytimg.com/vi/2p4ksMeHRCA/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i3.ytimg.com/vi/2p4ksMeHRCA/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i3.ytimg.com/vi/2p4ksMeHRCA/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2p4ksMeHRCA" /></media:content>
+      <dc:creator>The Float Life</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
+    </item>
     <item>
       <title><![CDATA[I spy with my Onewheel eye 👀]]></title>
       <link>https://www.youtube.com/shorts/BGeYtZF_hvo</link>

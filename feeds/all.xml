@@ -5,8 +5,32 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 23 Nov 2026 18:30:37 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:42:37 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Woah 😍 #onewheel]]></title>
+      <link>https://www.youtube.com/shorts/EEg8N31z0_s</link>
+      <guid isPermaLink="false">1xogvr7-1mfabo8</guid>
+      <pubDate>Mon, 23 Nov 2026 21:29:25 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i2.ytimg.com/vi/EEg8N31z0_s/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i2.ytimg.com/vi/EEg8N31z0_s/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i2.ytimg.com/vi/EEg8N31z0_s/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=EEg8N31z0_s" /></media:content>
+      <dc:creator>Onewheel</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCCZMFqngWIbTcX_zPWPIJkg">Onewheel</source>
+    </item>
+    <item>
+      <title><![CDATA[Sometimes this is all you need 🙂 #thefloatlife #onewheel #vesc #pev #trails]]></title>
+      <link>https://www.youtube.com/shorts/2p4ksMeHRCA</link>
+      <guid isPermaLink="false">fsvwsq-14o2nhz</guid>
+      <pubDate>Mon, 23 Nov 2026 19:25:05 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://i3.ytimg.com/vi/2p4ksMeHRCA/hqdefault.jpg" alt="" /></p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i3.ytimg.com/vi/2p4ksMeHRCA/hqdefault.jpg" alt="" /></p>]]></content:encoded>
+      <media:thumbnail url="https://i3.ytimg.com/vi/2p4ksMeHRCA/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=2p4ksMeHRCA" /></media:content>
+      <dc:creator>The Float Life</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCJDddEUqK26B0soFP23fvmA">The Float Life</source>
+    </item>
     <item>
       <title><![CDATA[Onewheel Photoshoot Thread]]></title>
       <link>http://owforum.co.uk/topic/18/onewheel-photoshoot-thread</link>
@@ -5077,7 +5101,7 @@
       <guid isPermaLink="false">ftxnsx-vbx98k</guid>
       <pubDate>Sat, 15 Aug 2026 11:16:25 GMT</pubDate>
       <description><![CDATA[<p>So you encountered a problem and need help… bug? crash? weird behavior? Please include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting controller/motor thor301 / hypercore firmware version 7.0 package version (and name) refloat 1.2 configuration details my can is busted how often has this happened? single incident? can you reproduce it? it worked fine before i updated fw. after that </p>]]></description>
-      <content:encoded><![CDATA[<p>So you encountered a problem and need help…</p>&#10;<p>bug?<br />&#10;crash?<br />&#10;weird behavior?<br />&#10;Please include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting</p>&#10;<p>controller/motor thor301 / hypercore<br />&#10;firmware version 7.0<br />&#10;package version (and name) refloat 1.2<br />&#10;configuration details<br />&#10;my can is busted</p>&#10;<p>how often has this happened? single incident? can you reproduce it?</p>&#10;<p>it worked fine before i updated fw. after that everything broke and all the sensors were reporting values way out of spec. i had to redo the entire config from floathub</p>&#10;<p>the circumstances leading up to it, when the incident happened what exactly were you doing?<br />&#10;and last but not least: log files / videos - however DO NOT EXPECT that we’ll watch minutes of video or sift thru megabytes of logs to try to figure out what might have happened. Keep the logs and videos short.</p>&#10;<p>i updated the firmware on my controller from within vesc tools</p>&#10;<p>I personally ignore any video posted as the primary problem description. Use your words <img src="https://pev.dev/images/emoji/twitter/wink.png?v=15" title=":wink:" alt=":wink:" width="20" height="20" /></p>&#10;            <p><small>2 posts - 1 participant</small></p>&#10;            <p><a href="https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>So you encountered a problem and need help…</p>&#10;<p>bug?<br />&#10;crash?<br />&#10;weird behavior?<br />&#10;Please include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting</p>&#10;<p>controller/motor thor301 / hypercore<br />&#10;firmware version 7.0<br />&#10;package version (and name) refloat 1.2<br />&#10;configuration details<br />&#10;my can is busted</p>&#10;<p>how often has this happened? single incident? can you reproduce it?</p>&#10;<p>it worked fine before i updated fw. after that everything broke and all the sensors were reporting values way out of spec. i had to redo the entire config from floathub</p>&#10;<p>the circumstances leading up to it, when the incident happened what exactly were you doing?<br />&#10;and last but not least: log files / videos - however DO NOT EXPECT that we’ll watch minutes of video or sift thru megabytes of logs to try to figure out what might have happened. Keep the logs and videos short.</p>&#10;<p>i updated the firmware on my controller from within vesc tools</p>&#10;<p>I personally ignore any video posted as the primary problem description. Use your words <img src="https://pev.dev/images/emoji/twitter/wink.png?v=15" title=":wink:" alt=":wink:" width="20" height="20" /></p>&#10;            <p><small>3 posts - 2 participants</small></p>&#10;            <p><a href="https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
 
 
       <dc:creator>qqmajikpp</dc:creator>
@@ -5593,7 +5617,7 @@
       <guid isPermaLink="false">bot6h3-vbx98k</guid>
       <pubDate>Sun, 26 Jul 2026 06:47:19 GMT</pubDate>
       <description><![CDATA[<p>Planning a full revival of my Onewheel+ XR (8+ years old) and would appreciate a sanity check before I order. Current state: motor, rails and body all healthy. Battery is the original 15s2p with known cell imbalance, so it’s being replaced regardless — which makes this the moment to do controller + battery in one go. Where I’m at after research: - Controller: Thor301 seems like the community flagship (onboard Express, native LED, 300A-tested FETs), LFOCer V4 the value option (but kits appear out of stock at CustomWheel), XRV the low-effort drop-in. Am I missing anything current? Anyone running</p>]]></description>
-      <content:encoded><![CDATA[<p>Planning a full revival of my Onewheel+ XR (8+ years old) and would appreciate a sanity check before I order.</p>&#10;<p>Current state: motor, rails and body all healthy. Battery is the original 15s2p with known cell imbalance, so it’s being replaced regardless — which makes this the moment to do controller + battery in one go.</p>&#10;<p>Where I’m at after research:</p>&#10;<p>- <strong>Controller:</strong> Thor301 seems like the community flagship (onboard Express, native LED, 300A-tested FETs), LFOCer V4 the value option (but kits appear out of stock at CustomWheel), XRV the low-effort drop-in. Am I missing anything current? Anyone running a Thor301 in XR rails long-term?</p>&#10;<p>- <strong>Battery</strong>: torn between 20s2p P30B (slim, fits the stock XR enclosure, e.g. Indy Speed Control) vs 18s2p P45B/P50B 21700s with a TorqueBox 2. Commuting + festival site use, I care about speed and safety more than max range. Is the 84V top-end worth giving up the 21700 torque/capacity, or is that overthinking it?</p>&#10;<p>- BMS: Xlite V4 vs ZBMS/Maxkgo - any strong preference in 2026?</p>&#10;<p>EU-specific questions (I’m in Leuven, Belgium):</p>&#10;<ol>&#10;<li>Best current EU sources for controllers and 20s2p packs? CustomWheel looks out of stock, onewheelrider.eu I’m already talking to. Anyone know a German/Benelux battery builder taking orders?</li>&#10;<li>Anyone in the Benelux doing conversions who’d take a mail-in (or drive-in) build? I’m technical (software eng, own a Prusa, fine with a soldering iron) so DIY is on the table too, mostly a parts-availability question.</li>&#10;</ol>&#10;<p>Old battery gets removed and recycled locally before any shipping. Thanks!</p>&#10;            <p><small>2 posts - 2 participants</small></p>&#10;            <p><a href="https://pev.dev/t/xr-revival-build-from-belgium-thor301-vs-lfocer-v4-vs-xrv-and-best-20s2p-sourcing-in-the-eu/3017" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>Planning a full revival of my Onewheel+ XR (8+ years old) and would appreciate a sanity check before I order.</p>&#10;<p>Current state: motor, rails and body all healthy. Battery is the original 15s2p with known cell imbalance, so it’s being replaced regardless — which makes this the moment to do controller + battery in one go.</p>&#10;<p>Where I’m at after research:</p>&#10;<p>- <strong>Controller:</strong> Thor301 seems like the community flagship (onboard Express, native LED, 300A-tested FETs), LFOCer V4 the value option (but kits appear out of stock at CustomWheel), XRV the low-effort drop-in. Am I missing anything current? Anyone running a Thor301 in XR rails long-term?</p>&#10;<p>- <strong>Battery</strong>: torn between 20s2p P30B (slim, fits the stock XR enclosure, e.g. Indy Speed Control) vs 18s2p P45B/P50B 21700s with a TorqueBox 2. Commuting + festival site use, I care about speed and safety more than max range. Is the 84V top-end worth giving up the 21700 torque/capacity, or is that overthinking it?</p>&#10;<p>- BMS: Xlite V4 vs ZBMS/Maxkgo - any strong preference in 2026?</p>&#10;<p>EU-specific questions (I’m in Leuven, Belgium):</p>&#10;<ol>&#10;<li>Best current EU sources for controllers and 20s2p packs? CustomWheel looks out of stock, onewheelrider.eu I’m already talking to. Anyone know a German/Benelux battery builder taking orders?</li>&#10;<li>Anyone in the Benelux doing conversions who’d take a mail-in (or drive-in) build? I’m technical (software eng, own a Prusa, fine with a soldering iron) so DIY is on the table too, mostly a parts-availability question.</li>&#10;</ol>&#10;<p>Old battery gets removed and recycled locally before any shipping. Thanks!</p>&#10;            <p><small>3 posts - 3 participants</small></p>&#10;            <p><a href="https://pev.dev/t/xr-revival-build-from-belgium-thor301-vs-lfocer-v4-vs-xrv-and-best-20s2p-sourcing-in-the-eu/3017" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
 
 
       <dc:creator>Pezmc</dc:creator>
@@ -7796,6 +7820,18 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
+      <title><![CDATA[Onewheel team's Antic e-bike can pop eternal wheelies - Engadget]]></title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5</link>
+      <guid isPermaLink="false">uc98qe-1joxsrd</guid>
+      <pubDate>Wed, 19 Nov 2025 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel team&apos;s Antic e-bike can pop eternal wheelies engadget.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5" target="_blank" rel="noopener noreferrer">Onewheel team's Antic e-bike can pop eternal wheelies</a>  engadget.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
       <title><![CDATA[Maker of Onewheel launches wild new electric mini bike that does self-balancing wheelies - Electrek]]></title>
       <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHIySUZKZzd6YXh2QjlHU2VXNE5QYThoSjU3YldKeXF4eDZaQVBtN2dVd2xPeGc0RlRTc2VMUUZsQzd0ZHp1VnA0aGNtWGxUZmZ2Z3YwWnNsUngwTDhFYl9qUy1pSVVfY0pfdVRLdlJ5T05ocGlNUFBVMThwVXhJOFJRUXF3bFhSOUkxUFQxVExjcHFCbC13MG10ZjRpOXpJR3I4Zk9qQVFjdDJ4TEd3OG5vY1k1ekh0dHNQYW5n?oc=5</link>
       <guid isPermaLink="false">lyeod8-1joxsrd</guid>
@@ -7814,18 +7850,6 @@
       <pubDate>Wed, 19 Nov 2025 08:00:00 GMT</pubDate>
       <description><![CDATA[<p>Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. prnewswire.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiogJBVV95cUxQWXNIQTB1aVNsbDhYWjkzXzhVRC1tSVlFVklkb2wzb2JjNjZaT3pyMTlEYXBrR0RXd0dHamFpQVJRVlpoVGFBSlFWb2RFN3BhRW9NREpyREdvS0p0WHBfa3U1MXV2b0RfdEUtOWszRUNUNTlxNzBxRzY0M1F3X1N2aHpULUlkcG9MV1FqNXoxVUt2d1Z2Z0hnWFZZS0xrZldidWtVbDluaFZEWGNnSEhIcDZQRHhfeUV6Yzc2TlVkUXVCVlh5OWE3YWFhZWN0dDBoc3hMX0pSTWl6bHM1OWVCbDBlZktvRjlhd1N2dW8wa21KREVDYmpsQUpfVG5GWWl2WEszR0tnUFVPeHA1QktRWC1LWGxrVHlGb1JQMVI5WUJDUQ?oc=5" target="_blank" rel="noopener noreferrer">Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie.</a>  prnewswire.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
-      <title><![CDATA[Onewheel team's Antic e-bike can pop eternal wheelies - Engadget]]></title>
-      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5</link>
-      <guid isPermaLink="false">uc98qe-1joxsrd</guid>
-      <pubDate>Wed, 19 Nov 2025 08:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel team&apos;s Antic e-bike can pop eternal wheelies engadget.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5" target="_blank" rel="noopener noreferrer">Onewheel team's Antic e-bike can pop eternal wheelies</a>  engadget.com]]></content:encoded>
 
 
 
@@ -9761,7 +9785,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Is Snowboarding Better Than Onewheel???]]></title>
@@ -11033,7 +11057,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Andrew Stroh rides the new Onewheel GTS and his thoughts on it. Winman’s 2024]]></title>
@@ -15905,7 +15929,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -16997,7 +17021,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[One Man's Treasure]]></title>
@@ -17429,7 +17453,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[WCGW if I ride my onewheel on some offroad trails while playing a saxophone?]]></title>
@@ -17729,7 +17753,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Wheelistic - Lesie Touat -France]]></title>
@@ -17909,7 +17933,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[The Arborist]]></title>
@@ -18077,7 +18101,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Jack Mitrani]]></title>
@@ -18269,7 +18293,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[#2 SHRED SESSION AT : Lac du Salagou Onewheel trail France]]></title>
@@ -18317,7 +18341,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Ride Downtown Sacramento]]></title>
@@ -18389,7 +18413,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Subreddit Information & Discord Server]]></title>
@@ -18437,7 +18461,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Female Onewheel Riders!!]]></title>
@@ -18569,7 +18593,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -18581,7 +18605,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[$250 3d printed DIY Onewheel!]]></title>
@@ -18629,7 +18653,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -18677,7 +18701,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel riders take sport to new level at Northstar - Sierra Sun]]></title>
@@ -18737,7 +18761,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -18749,7 +18773,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Hold my beer while ride a Onewheel with a samurai sword.]]></title>
@@ -18785,7 +18809,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR Review - TechGearLab]]></title>
