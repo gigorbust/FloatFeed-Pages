@@ -5,8 +5,20 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 24 Nov 2026 18:27:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:19 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
+      <link>https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956#post_17</link>
+      <guid isPermaLink="false">1mepjui-1czfdl1</guid>
+      <pubDate>Tue, 24 Nov 2026 19:26:56 GMT</pubDate>
+      <description><![CDATA[<p>Release stage: beta I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release. Update Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed! IMU improvements (LSM6DS3 only) Add an option to increase the LSM6DS3 IMU communication speed to 700kHz Rework the sampling of the LSM6DS3 I</p>]]></description>
+      <content:encoded><![CDATA[<p>Release stage: <strong><em>beta</em></strong></p>&#10;<p>I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release.</p>&#10;<h2><a href="https://pev.dev/#p-6320-update-1" target="_blank" rel="noopener noreferrer"></a>Update</h2>&#10;<p><strong>Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed!</strong></p>&#10;<h2><a href="https://pev.dev/#p-6320-imu-improvements-lsm6ds3-only-2" target="_blank" rel="noopener noreferrer"></a>IMU improvements (LSM6DS3  only)</h2>&#10;<ul>&#10;<li><strong>Add an option to increase the LSM6DS3 IMU communication speed to 700kHz</strong></li>&#10;<li><strong>Rework the sampling of the LSM6DS3 IMU</strong></li>&#10;</ul>&#10;<p>These changes together clean up the data path from the IMU to the package (at least as much as possible with the current hardware). They massively improve the static vibration rejection as demonstrated in this video:<br />&#10;            <img src="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" width="690" height="388" />&#10;            <a href="https://www.youtube.com/embed/-kFPVx26u1s?feature=oembed&amp;wmode=opaque"></a>&#10;</p>&#10;<p>They also have the potential of getting rid of some cases of nose hunting. I have very little data on that atm., but they have resolved a particular case of nose hunting for me (on cobblestones at around 25km/h) and have improved stability for another rider at speeds close to or over 60 km/h.</p>&#10;<p>List of common Onewheel controllers with the LSM6DS3 IMU (The rest of common Onewheel controllers use the BMI160 IMU, to which no changes were made in this release. If you have a niche controller, you should verify.):</p>&#10;<ul>&#10;<li>ADV500</li>&#10;<li>JetFleetF6_20s</li>&#10;<li>JetFleetF6_24s</li>&#10;<li>JetFleetF6_32s</li>&#10;<li>Little_FOCer_V3_1</li>&#10;<li>Little_FOCer_V4</li>&#10;<li>Thor300</li>&#10;<li>Thor301</li>&#10;<li>Thor400</li>&#10;<li>Thor400v2</li>&#10;<li>TRONIC_250R</li>&#10;<li>X12_PRO24</li>&#10;<li>X12_PRO30</li>&#10;</ul>&#10;<p><strong>The increase in IMU communication speed to 700 kHz is experimental!</strong> It should be safe after testing it over ~10 minutes of careful riding.</p>&#10;<p>The higher speed can be configured by setting the “Use magnetometer” IMU config option to <em><strong>False</strong></em> (false = fast). Setting <em>True</em> (default) results in slow (400 kHz) speed being used.</p>&#10;<p>Tested combinations of IMU configurations and their status:</p>&#10;<ul>&#10;<li>Common IMU sample rates of 416 or 833 Hz <strong>safe</strong></li>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 900 Hz <strong>safe</strong></li>&#10;<li>&#10;<ul>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 1200 Hz <strong>DANGEROUS</strong></li>&#10;</ul>&#10;</li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1200 Hz <strong>should be safe after an initial test</strong></li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1600 Hz <strong>UNKNOWN - run at your own risk, may be the same situation as with 400 kHz / 1200 Hz</strong></li>&#10;</ul>&#10;<p>List of controllers tested at 700 kHz speed (single unit each):</p>&#10;<ul>&#10;<li>Tronic 250R (riding for ~2 months)</li>&#10;<li>JetFleet F6 (riding for ~5 months)</li>&#10;<li>Thor 400v1 (900 km)</li>&#10;<li>Thor 300 (benchtop testing)</li>&#10;<li>Thor 301 (brief benchtop testing)</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6320-recommended-imu-settings-after-careful-testing-3" target="_blank" rel="noopener noreferrer"></a>Recommended IMU settings (after careful testing)</h3>&#10;<ul>&#10;<li>Use magnetometer: False (fast 700 kHz speed)</li>&#10;<li>IMU Sample Rate: 1200 Hz</li>&#10;<li>Accel/Gyro Filter: IMU_FILTER_LOW</li>&#10;</ul>&#10;<h2><a href="https://pev.dev/#p-6320-other-changes-4" target="_blank" rel="noopener noreferrer"></a>Other changes</h2>&#10;<ul>&#10;<li>&#10;<p><strong>Disable Motor/MOSFET temeperature fault if Temp Cutoff End is set to 100°C or above</strong></p>&#10;<p>Setting the Temp Cutoff End to 100°C or higher for either Motor or MOSFET will completely disable the VESC firmware throttling and fault logic. Useful as a precaution for a hardware failure causing a fault and a nosedive.</p>&#10;<p>It is expected you rely on and respect the temperature alerts from the package (those are based off the Temp Cutoff <em>Start</em> config values).</p>&#10;</li>&#10;<li>&#10;<p><strong>Support for Data Recording</strong></p>&#10;<p>Allows to store a short time period of realtime data in the board itself without the need to be connected, which can be later viewed in Refloat.</p>&#10;</li>&#10;<li>&#10;<p><strong>Don’t cut the motor during package config writes</strong></p>&#10;<p>Reverts the VESC firmware change of now cutting the motor while writing the package config.</p>&#10;</li>&#10;<li>&#10;<p><strong>Add the <code>crash_diag</code> VESC Terminal command</strong></p>&#10;<p>Can be used to debug spurious controller resets.</p>&#10;</li>&#10;</ul>&#10;<p>Please read the changelog for more details on all the changes (linked below).</p>&#10;<h2><a href="https://pev.dev/#p-6320-testing-the-firmware-after-installing-5" target="_blank" rel="noopener noreferrer"></a>Testing the firmware after installing</h2>&#10;<p>Make sure to follow <a href="https://pev.dev/t/testing-experimental-software/2955" target="_blank" rel="noopener noreferrer">my experimental software testing guide</a> to ensure the firmware works properly on your board before riding it.</p>&#10;<h2><a href="https://pev.dev/#p-6320-download-and-changelog-6" target="_blank" rel="noopener noreferrer"></a>Download and changelog</h2>&#10;<p><a href="https://github.com/lukash/bldc/releases/tag/v6.06-rflt-xtras-0.1" target="_blank" rel="noopener noreferrer">v6.06-rflt-xtras-0.1</a></p>&#10;<h2><a href="https://pev.dev/#p-6320-support-me-7" target="_blank" rel="noopener noreferrer"></a>Support me</h2>&#10;<p>I invest a lot of time and energy into developing and testing of these improvements. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;            <p><small>17 posts - 9 participants</small></p>&#10;            <p><a href="https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+      <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" />
+
+      <dc:creator>@jenniferseward</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
+    </item>
     <item>
       <title><![CDATA[Rattling/Vibrating of Onewheel XRV Power Kit]]></title>
       <link>https://pev.dev/t/rattling-vibrating-of-onewheel-xrv-power-kit/3032#post_3</link>
@@ -368,18 +380,6 @@
       <source url="https://pev.dev/latest.rss">pev.dev - Latest topics (pev.dev)</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
-      <link>https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956#post_16</link>
-      <guid isPermaLink="false">1mop5jh-1czfdl1</guid>
-      <pubDate>Thu, 23 Jul 2026 18:18:52 GMT</pubDate>
-      <description><![CDATA[<p>Release stage: beta I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release. Update Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed! IMU improvements (LSM6DS3 only) Add an option to increase the LSM6DS3 IMU communication speed to 700kHz Rework the sampling of the LSM6DS3 I</p>]]></description>
-      <content:encoded><![CDATA[<p>Release stage: <strong><em>beta</em></strong></p>&#10;<p>I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release.</p>&#10;<h2><a href="https://pev.dev/#p-6320-update-1" target="_blank" rel="noopener noreferrer"></a>Update</h2>&#10;<p><strong>Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed!</strong></p>&#10;<h2><a href="https://pev.dev/#p-6320-imu-improvements-lsm6ds3-only-2" target="_blank" rel="noopener noreferrer"></a>IMU improvements (LSM6DS3  only)</h2>&#10;<ul>&#10;<li><strong>Add an option to increase the LSM6DS3 IMU communication speed to 700kHz</strong></li>&#10;<li><strong>Rework the sampling of the LSM6DS3 IMU</strong></li>&#10;</ul>&#10;<p>These changes together clean up the data path from the IMU to the package (at least as much as possible with the current hardware). They massively improve the static vibration rejection as demonstrated in this video:<br />&#10;            <img src="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" width="690" height="388" />&#10;            <a href="https://www.youtube.com/embed/-kFPVx26u1s?feature=oembed&amp;wmode=opaque"></a>&#10;</p>&#10;<p>They also have the potential of getting rid of some cases of nose hunting. I have very little data on that atm., but they have resolved a particular case of nose hunting for me (on cobblestones at around 25km/h) and have improved stability for another rider at speeds close to or over 60 km/h.</p>&#10;<p>List of common Onewheel controllers with the LSM6DS3 IMU (The rest of common Onewheel controllers use the BMI160 IMU, to which no changes were made in this release. If you have a niche controller, you should verify.):</p>&#10;<ul>&#10;<li>ADV500</li>&#10;<li>JetFleetF6_20s</li>&#10;<li>JetFleetF6_24s</li>&#10;<li>JetFleetF6_32s</li>&#10;<li>Little_FOCer_V3_1</li>&#10;<li>Little_FOCer_V4</li>&#10;<li>Thor300</li>&#10;<li>Thor301</li>&#10;<li>Thor400</li>&#10;<li>Thor400v2</li>&#10;<li>TRONIC_250R</li>&#10;<li>X12_PRO24</li>&#10;<li>X12_PRO30</li>&#10;</ul>&#10;<p><strong>The increase in IMU communication speed to 700 kHz is experimental!</strong> It should be safe after testing it over ~10 minutes of careful riding.</p>&#10;<p>The higher speed can be configured by setting the “Use magnetometer” IMU config option to <em><strong>False</strong></em> (false = fast). Setting <em>True</em> (default) results in slow (400 kHz) speed being used.</p>&#10;<p>Tested combinations of IMU configurations and their status:</p>&#10;<ul>&#10;<li>Common IMU sample rates of 416 or 833 Hz <strong>safe</strong></li>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 900 Hz <strong>safe</strong></li>&#10;<li>&#10;<ul>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 1200 Hz <strong>DANGEROUS</strong></li>&#10;</ul>&#10;</li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1200 Hz <strong>should be safe after an initial test</strong></li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1600 Hz <strong>UNKNOWN - run at your own risk, may be the same situation as with 400 kHz / 1200 Hz</strong></li>&#10;</ul>&#10;<p>List of controllers tested at 700 kHz speed (single unit each):</p>&#10;<ul>&#10;<li>Tronic 250R (riding for ~2 months)</li>&#10;<li>JetFleet F6 (riding for ~5 months)</li>&#10;<li>Thor 400v1 (900 km)</li>&#10;<li>Thor 300 (benchtop testing)</li>&#10;<li>Thor 301 (brief benchtop testing)</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6320-recommended-imu-settings-after-careful-testing-3" target="_blank" rel="noopener noreferrer"></a>Recommended IMU settings (after careful testing)</h3>&#10;<ul>&#10;<li>Use magnetometer: False (fast 700 kHz speed)</li>&#10;<li>IMU Sample Rate: 1200 Hz</li>&#10;<li>Accel/Gyro Filter: IMU_FILTER_LOW</li>&#10;</ul>&#10;<h2><a href="https://pev.dev/#p-6320-other-changes-4" target="_blank" rel="noopener noreferrer"></a>Other changes</h2>&#10;<ul>&#10;<li>&#10;<p><strong>Disable Motor/MOSFET temeperature fault if Temp Cutoff End is set to 100°C or above</strong></p>&#10;<p>Setting the Temp Cutoff End to 100°C or higher for either Motor or MOSFET will completely disable the VESC firmware throttling and fault logic. Useful as a precaution for a hardware failure causing a fault and a nosedive.</p>&#10;<p>It is expected you rely on and respect the temperature alerts from the package (those are based off the Temp Cutoff <em>Start</em> config values).</p>&#10;</li>&#10;<li>&#10;<p><strong>Support for Data Recording</strong></p>&#10;<p>Allows to store a short time period of realtime data in the board itself without the need to be connected, which can be later viewed in Refloat.</p>&#10;</li>&#10;<li>&#10;<p><strong>Don’t cut the motor during package config writes</strong></p>&#10;<p>Reverts the VESC firmware change of now cutting the motor while writing the package config.</p>&#10;</li>&#10;<li>&#10;<p><strong>Add the <code>crash_diag</code> VESC Terminal command</strong></p>&#10;<p>Can be used to debug spurious controller resets.</p>&#10;</li>&#10;</ul>&#10;<p>Please read the changelog for more details on all the changes (linked below).</p>&#10;<h2><a href="https://pev.dev/#p-6320-testing-the-firmware-after-installing-5" target="_blank" rel="noopener noreferrer"></a>Testing the firmware after installing</h2>&#10;<p>Make sure to follow <a href="https://pev.dev/t/testing-experimental-software/2955" target="_blank" rel="noopener noreferrer">my experimental software testing guide</a> to ensure the firmware works properly on your board before riding it.</p>&#10;<h2><a href="https://pev.dev/#p-6320-download-and-changelog-6" target="_blank" rel="noopener noreferrer"></a>Download and changelog</h2>&#10;<p><a href="https://github.com/lukash/bldc/releases/tag/v6.06-rflt-xtras-0.1" target="_blank" rel="noopener noreferrer">v6.06-rflt-xtras-0.1</a></p>&#10;<h2><a href="https://pev.dev/#p-6320-support-me-7" target="_blank" rel="noopener noreferrer"></a>Support me</h2>&#10;<p>I invest a lot of time and energy into developing and testing of these improvements. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;            <p><small>16 posts - 8 participants</small></p>&#10;            <p><a href="https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
-      <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" />
-
-      <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
-    </item>
-    <item>
       <title><![CDATA[Vesc using Ubox single]]></title>
       <link>https://pev.dev/t/vesc-using-ubox-single/3009#post_2</link>
       <guid isPermaLink="false">acsg5d-1czfdl1</guid>
@@ -701,7 +701,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel XR Classic vs XR]]></title>
@@ -749,7 +749,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[VESC battery packs]]></title>
@@ -761,7 +761,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Buy a Onewheel or read this]]></title>
@@ -965,7 +965,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Favorite Onewheel Tricks]]></title>
@@ -1013,7 +1013,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Best One Wheel Electric Scooter — Self Balancing Best Electric Unicycles in 2022]]></title>
@@ -1037,7 +1037,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -1157,7 +1157,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Best Onewheel Helmet: TSG PASS PRO vs PREDATOR DH6-XG Review]]></title>
@@ -1181,7 +1181,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[The Scoop on Future Motion’s Latest Self-Sabotage]]></title>
@@ -1205,7 +1205,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Trail Etiquette and General Good Riding Practices]]></title>
@@ -1217,7 +1217,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Balance Board]]></title>
@@ -1229,7 +1229,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[eastride – Onewheel Power Button & Sidekicks]]></title>
@@ -1241,7 +1241,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[eastride / Livestream Talk]]></title>
@@ -1253,7 +1253,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[How Much Does A Onewheel Weigh?]]></title>
@@ -1265,7 +1265,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Racing League]]></title>
@@ -1277,7 +1277,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[OneWheel what?]]></title>
@@ -1289,7 +1289,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Battery Upgrades – ChiBatterySystems]]></title>
@@ -1301,7 +1301,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Waterproofing Onewheel Shoes]]></title>
@@ -1313,7 +1313,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Installing FlightFins FlightFrame]]></title>
@@ -1325,7 +1325,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Fun Box Obstacle]]></title>
@@ -1337,7 +1337,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Fluxskinz Design Your Own Sole Tape]]></title>
@@ -1349,7 +1349,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Rail Badge – Logo – Emblem]]></title>
@@ -1361,7 +1361,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Lights Not Working – Flickering]]></title>
@@ -1373,7 +1373,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -1385,7 +1385,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Blog Sites – Best Of 2020]]></title>
@@ -1397,7 +1397,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel Pint First Look]]></title>
@@ -1409,7 +1409,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Early Onewheel Pint Reviews]]></title>
@@ -1421,7 +1421,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -1433,7 +1433,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Why You Need a Onewheel Pint]]></title>
@@ -1445,7 +1445,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
   </channel>
 </rss>

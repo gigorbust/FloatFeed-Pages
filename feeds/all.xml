@@ -5,8 +5,20 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 24 Nov 2026 18:27:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 00:45:19 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
+      <link>https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956#post_17</link>
+      <guid isPermaLink="false">1mepjui-1czfdl1</guid>
+      <pubDate>Tue, 24 Nov 2026 19:26:56 GMT</pubDate>
+      <description><![CDATA[<p>Release stage: beta I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release. Update Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed! IMU improvements (LSM6DS3 only) Add an option to increase the LSM6DS3 IMU communication speed to 700kHz Rework the sampling of the LSM6DS3 I</p>]]></description>
+      <content:encoded><![CDATA[<p>Release stage: <strong><em>beta</em></strong></p>&#10;<p>I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release.</p>&#10;<h2><a href="https://pev.dev/#p-6320-update-1" target="_blank" rel="noopener noreferrer"></a>Update</h2>&#10;<p><strong>Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed!</strong></p>&#10;<h2><a href="https://pev.dev/#p-6320-imu-improvements-lsm6ds3-only-2" target="_blank" rel="noopener noreferrer"></a>IMU improvements (LSM6DS3  only)</h2>&#10;<ul>&#10;<li><strong>Add an option to increase the LSM6DS3 IMU communication speed to 700kHz</strong></li>&#10;<li><strong>Rework the sampling of the LSM6DS3 IMU</strong></li>&#10;</ul>&#10;<p>These changes together clean up the data path from the IMU to the package (at least as much as possible with the current hardware). They massively improve the static vibration rejection as demonstrated in this video:<br />&#10;            <img src="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" width="690" height="388" />&#10;            <a href="https://www.youtube.com/embed/-kFPVx26u1s?feature=oembed&amp;wmode=opaque"></a>&#10;</p>&#10;<p>They also have the potential of getting rid of some cases of nose hunting. I have very little data on that atm., but they have resolved a particular case of nose hunting for me (on cobblestones at around 25km/h) and have improved stability for another rider at speeds close to or over 60 km/h.</p>&#10;<p>List of common Onewheel controllers with the LSM6DS3 IMU (The rest of common Onewheel controllers use the BMI160 IMU, to which no changes were made in this release. If you have a niche controller, you should verify.):</p>&#10;<ul>&#10;<li>ADV500</li>&#10;<li>JetFleetF6_20s</li>&#10;<li>JetFleetF6_24s</li>&#10;<li>JetFleetF6_32s</li>&#10;<li>Little_FOCer_V3_1</li>&#10;<li>Little_FOCer_V4</li>&#10;<li>Thor300</li>&#10;<li>Thor301</li>&#10;<li>Thor400</li>&#10;<li>Thor400v2</li>&#10;<li>TRONIC_250R</li>&#10;<li>X12_PRO24</li>&#10;<li>X12_PRO30</li>&#10;</ul>&#10;<p><strong>The increase in IMU communication speed to 700 kHz is experimental!</strong> It should be safe after testing it over ~10 minutes of careful riding.</p>&#10;<p>The higher speed can be configured by setting the “Use magnetometer” IMU config option to <em><strong>False</strong></em> (false = fast). Setting <em>True</em> (default) results in slow (400 kHz) speed being used.</p>&#10;<p>Tested combinations of IMU configurations and their status:</p>&#10;<ul>&#10;<li>Common IMU sample rates of 416 or 833 Hz <strong>safe</strong></li>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 900 Hz <strong>safe</strong></li>&#10;<li>&#10;<ul>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 1200 Hz <strong>DANGEROUS</strong></li>&#10;</ul>&#10;</li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1200 Hz <strong>should be safe after an initial test</strong></li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1600 Hz <strong>UNKNOWN - run at your own risk, may be the same situation as with 400 kHz / 1200 Hz</strong></li>&#10;</ul>&#10;<p>List of controllers tested at 700 kHz speed (single unit each):</p>&#10;<ul>&#10;<li>Tronic 250R (riding for ~2 months)</li>&#10;<li>JetFleet F6 (riding for ~5 months)</li>&#10;<li>Thor 400v1 (900 km)</li>&#10;<li>Thor 300 (benchtop testing)</li>&#10;<li>Thor 301 (brief benchtop testing)</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6320-recommended-imu-settings-after-careful-testing-3" target="_blank" rel="noopener noreferrer"></a>Recommended IMU settings (after careful testing)</h3>&#10;<ul>&#10;<li>Use magnetometer: False (fast 700 kHz speed)</li>&#10;<li>IMU Sample Rate: 1200 Hz</li>&#10;<li>Accel/Gyro Filter: IMU_FILTER_LOW</li>&#10;</ul>&#10;<h2><a href="https://pev.dev/#p-6320-other-changes-4" target="_blank" rel="noopener noreferrer"></a>Other changes</h2>&#10;<ul>&#10;<li>&#10;<p><strong>Disable Motor/MOSFET temeperature fault if Temp Cutoff End is set to 100°C or above</strong></p>&#10;<p>Setting the Temp Cutoff End to 100°C or higher for either Motor or MOSFET will completely disable the VESC firmware throttling and fault logic. Useful as a precaution for a hardware failure causing a fault and a nosedive.</p>&#10;<p>It is expected you rely on and respect the temperature alerts from the package (those are based off the Temp Cutoff <em>Start</em> config values).</p>&#10;</li>&#10;<li>&#10;<p><strong>Support for Data Recording</strong></p>&#10;<p>Allows to store a short time period of realtime data in the board itself without the need to be connected, which can be later viewed in Refloat.</p>&#10;</li>&#10;<li>&#10;<p><strong>Don’t cut the motor during package config writes</strong></p>&#10;<p>Reverts the VESC firmware change of now cutting the motor while writing the package config.</p>&#10;</li>&#10;<li>&#10;<p><strong>Add the <code>crash_diag</code> VESC Terminal command</strong></p>&#10;<p>Can be used to debug spurious controller resets.</p>&#10;</li>&#10;</ul>&#10;<p>Please read the changelog for more details on all the changes (linked below).</p>&#10;<h2><a href="https://pev.dev/#p-6320-testing-the-firmware-after-installing-5" target="_blank" rel="noopener noreferrer"></a>Testing the firmware after installing</h2>&#10;<p>Make sure to follow <a href="https://pev.dev/t/testing-experimental-software/2955" target="_blank" rel="noopener noreferrer">my experimental software testing guide</a> to ensure the firmware works properly on your board before riding it.</p>&#10;<h2><a href="https://pev.dev/#p-6320-download-and-changelog-6" target="_blank" rel="noopener noreferrer"></a>Download and changelog</h2>&#10;<p><a href="https://github.com/lukash/bldc/releases/tag/v6.06-rflt-xtras-0.1" target="_blank" rel="noopener noreferrer">v6.06-rflt-xtras-0.1</a></p>&#10;<h2><a href="https://pev.dev/#p-6320-support-me-7" target="_blank" rel="noopener noreferrer"></a>Support me</h2>&#10;<p>I invest a lot of time and energy into developing and testing of these improvements. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;            <p><small>17 posts - 9 participants</small></p>&#10;            <p><a href="https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+      <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" />
+
+      <dc:creator>@jenniferseward</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
+    </item>
     <item>
       <title><![CDATA[Top Tier Tahoe Trails || MAD VENTURES ONEWHEEL TOURS]]></title>
       <link>https://www.youtube.com/watch?v=C7wjV3Y-5Qk</link>
@@ -5660,18 +5672,6 @@
       <source url="https://houston.renteboards.com/blogs/news.atom">RenteBoards Houston Onewheel Products</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel-specific VESC firmware 6.06 release: Refloat Extras (rflt-xtras-0.1)]]></title>
-      <link>https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956#post_16</link>
-      <guid isPermaLink="false">1mop5jh-1czfdl1</guid>
-      <pubDate>Thu, 23 Jul 2026 18:18:52 GMT</pubDate>
-      <description><![CDATA[<p>Release stage: beta I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release. Update Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed! IMU improvements (LSM6DS3 only) Add an option to increase the LSM6DS3 IMU communication speed to 700kHz Rework the sampling of the LSM6DS3 I</p>]]></description>
-      <content:encoded><![CDATA[<p>Release stage: <strong><em>beta</em></strong></p>&#10;<p>I’ve accumulated a number of firmware fixes and improvements which are either in various stages of getting submitted for inclusion in the stock firmware or are not possible to include. I’ve now compiled them into a release.</p>&#10;<h2><a href="https://pev.dev/#p-6320-update-1" target="_blank" rel="noopener noreferrer"></a>Update</h2>&#10;<p><strong>Running IMU sample rate 1200 Hz at IMU communication bus speed 400 kHz has been found to cause spurious controller resets and is dangerous! Only run 1200 Hz sample rate when configuring 700 kHz IMU bus speed!</strong></p>&#10;<h2><a href="https://pev.dev/#p-6320-imu-improvements-lsm6ds3-only-2" target="_blank" rel="noopener noreferrer"></a>IMU improvements (LSM6DS3  only)</h2>&#10;<ul>&#10;<li><strong>Add an option to increase the LSM6DS3 IMU communication speed to 700kHz</strong></li>&#10;<li><strong>Rework the sampling of the LSM6DS3 IMU</strong></li>&#10;</ul>&#10;<p>These changes together clean up the data path from the IMU to the package (at least as much as possible with the current hardware). They massively improve the static vibration rejection as demonstrated in this video:<br />&#10;            <img src="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" width="690" height="388" />&#10;            <a href="https://www.youtube.com/embed/-kFPVx26u1s?feature=oembed&amp;wmode=opaque"></a>&#10;</p>&#10;<p>They also have the potential of getting rid of some cases of nose hunting. I have very little data on that atm., but they have resolved a particular case of nose hunting for me (on cobblestones at around 25km/h) and have improved stability for another rider at speeds close to or over 60 km/h.</p>&#10;<p>List of common Onewheel controllers with the LSM6DS3 IMU (The rest of common Onewheel controllers use the BMI160 IMU, to which no changes were made in this release. If you have a niche controller, you should verify.):</p>&#10;<ul>&#10;<li>ADV500</li>&#10;<li>JetFleetF6_20s</li>&#10;<li>JetFleetF6_24s</li>&#10;<li>JetFleetF6_32s</li>&#10;<li>Little_FOCer_V3_1</li>&#10;<li>Little_FOCer_V4</li>&#10;<li>Thor300</li>&#10;<li>Thor301</li>&#10;<li>Thor400</li>&#10;<li>Thor400v2</li>&#10;<li>TRONIC_250R</li>&#10;<li>X12_PRO24</li>&#10;<li>X12_PRO30</li>&#10;</ul>&#10;<p><strong>The increase in IMU communication speed to 700 kHz is experimental!</strong> It should be safe after testing it over ~10 minutes of careful riding.</p>&#10;<p>The higher speed can be configured by setting the “Use magnetometer” IMU config option to <em><strong>False</strong></em> (false = fast). Setting <em>True</em> (default) results in slow (400 kHz) speed being used.</p>&#10;<p>Tested combinations of IMU configurations and their status:</p>&#10;<ul>&#10;<li>Common IMU sample rates of 416 or 833 Hz <strong>safe</strong></li>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 900 Hz <strong>safe</strong></li>&#10;<li>&#10;<ul>&#10;<li>IMU BUS speed: 400 kHz (slow), IMU Sample Rate: 1200 Hz <strong>DANGEROUS</strong></li>&#10;</ul>&#10;</li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1200 Hz <strong>should be safe after an initial test</strong></li>&#10;<li>IMU BUS speed: 700 kHz (fast), IMU Sample Rate: 1600 Hz <strong>UNKNOWN - run at your own risk, may be the same situation as with 400 kHz / 1200 Hz</strong></li>&#10;</ul>&#10;<p>List of controllers tested at 700 kHz speed (single unit each):</p>&#10;<ul>&#10;<li>Tronic 250R (riding for ~2 months)</li>&#10;<li>JetFleet F6 (riding for ~5 months)</li>&#10;<li>Thor 400v1 (900 km)</li>&#10;<li>Thor 300 (benchtop testing)</li>&#10;<li>Thor 301 (brief benchtop testing)</li>&#10;</ul>&#10;<h3><a href="https://pev.dev/#p-6320-recommended-imu-settings-after-careful-testing-3" target="_blank" rel="noopener noreferrer"></a>Recommended IMU settings (after careful testing)</h3>&#10;<ul>&#10;<li>Use magnetometer: False (fast 700 kHz speed)</li>&#10;<li>IMU Sample Rate: 1200 Hz</li>&#10;<li>Accel/Gyro Filter: IMU_FILTER_LOW</li>&#10;</ul>&#10;<h2><a href="https://pev.dev/#p-6320-other-changes-4" target="_blank" rel="noopener noreferrer"></a>Other changes</h2>&#10;<ul>&#10;<li>&#10;<p><strong>Disable Motor/MOSFET temeperature fault if Temp Cutoff End is set to 100°C or above</strong></p>&#10;<p>Setting the Temp Cutoff End to 100°C or higher for either Motor or MOSFET will completely disable the VESC firmware throttling and fault logic. Useful as a precaution for a hardware failure causing a fault and a nosedive.</p>&#10;<p>It is expected you rely on and respect the temperature alerts from the package (those are based off the Temp Cutoff <em>Start</em> config values).</p>&#10;</li>&#10;<li>&#10;<p><strong>Support for Data Recording</strong></p>&#10;<p>Allows to store a short time period of realtime data in the board itself without the need to be connected, which can be later viewed in Refloat.</p>&#10;</li>&#10;<li>&#10;<p><strong>Don’t cut the motor during package config writes</strong></p>&#10;<p>Reverts the VESC firmware change of now cutting the motor while writing the package config.</p>&#10;</li>&#10;<li>&#10;<p><strong>Add the <code>crash_diag</code> VESC Terminal command</strong></p>&#10;<p>Can be used to debug spurious controller resets.</p>&#10;</li>&#10;</ul>&#10;<p>Please read the changelog for more details on all the changes (linked below).</p>&#10;<h2><a href="https://pev.dev/#p-6320-testing-the-firmware-after-installing-5" target="_blank" rel="noopener noreferrer"></a>Testing the firmware after installing</h2>&#10;<p>Make sure to follow <a href="https://pev.dev/t/testing-experimental-software/2955" target="_blank" rel="noopener noreferrer">my experimental software testing guide</a> to ensure the firmware works properly on your board before riding it.</p>&#10;<h2><a href="https://pev.dev/#p-6320-download-and-changelog-6" target="_blank" rel="noopener noreferrer"></a>Download and changelog</h2>&#10;<p><a href="https://github.com/lukash/bldc/releases/tag/v6.06-rflt-xtras-0.1" target="_blank" rel="noopener noreferrer">v6.06-rflt-xtras-0.1</a></p>&#10;<h2><a href="https://pev.dev/#p-6320-support-me-7" target="_blank" rel="noopener noreferrer"></a>Support me</h2>&#10;<p>I invest a lot of time and energy into developing and testing of these improvements. If you would like to support the development, here’s <a href="https://riddimrider.one/donate/" target="_blank" rel="noopener noreferrer">a few options to do so</a>.</p>&#10;            <p><small>16 posts - 8 participants</small></p>&#10;            <p><a href="https://pev.dev/t/onewheel-specific-vesc-firmware-6-06-release-refloat-extras-rflt-xtras-0-1/2956" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
-      <media:thumbnail url="https://pev.dev/uploads/default/optimized/2X/0/05f487dc83ff6203489ee877158c7c668f320b92_2_690x388.jpeg" />
-
-      <dc:creator>@riddimrider</dc:creator>
-      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
-    </item>
-    <item>
       <title><![CDATA[Is This The Best Trick Board? // Rep Your Set w/ Travis Tatum]]></title>
       <link>https://www.youtube.com/watch?v=OkMUMPOV_cc</link>
       <guid isPermaLink="false">184h4i6-14o2nhz</guid>
@@ -7844,18 +7844,6 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel team's Antic e-bike can pop eternal wheelies - Engadget]]></title>
-      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5</link>
-      <guid isPermaLink="false">uc98qe-1k6th9l</guid>
-      <pubDate>Wed, 19 Nov 2025 08:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel team&apos;s Antic e-bike can pop eternal wheelies engadget.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5" target="_blank" rel="noopener noreferrer">Onewheel team's Antic e-bike can pop eternal wheelies</a>  engadget.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. - PR Newswire]]></title>
       <link>https://news.google.com/rss/articles/CBMiogJBVV95cUxQWXNIQTB1aVNsbDhYWjkzXzhVRC1tSVlFVklkb2wzb2JjNjZaT3pyMTlEYXBrR0RXd0dHamFpQVJRVlpoVGFBSlFWb2RFN3BhRW9NREpyREdvS0p0WHBfa3U1MXV2b0RfdEUtOWszRUNUNTlxNzBxRzY0M1F3X1N2aHpULUlkcG9MV1FqNXoxVUt2d1Z2Z0hnWFZZS0xrZldidWtVbDluaFZEWGNnSEhIcDZQRHhfeUV6Yzc2TlVkUXVCVlh5OWE3YWFhZWN0dDBoc3hMX0pSTWl6bHM1OWVCbDBlZktvRjlhd1N2dW8wa21KREVDYmpsQUpfVG5GWWl2WEszR0tnUFVPeHA1QktRWC1LWGxrVHlGb1JQMVI5WUJDUQ?oc=5</link>
       <guid isPermaLink="false">1vy2fpa-1joxsrd</guid>
@@ -7866,6 +7854,18 @@
 
 
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel team's Antic e-bike can pop eternal wheelies - Engadget]]></title>
+      <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5</link>
+      <guid isPermaLink="false">uc98qe-1k6th9l</guid>
+      <pubDate>Wed, 19 Nov 2025 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel team&apos;s Antic e-bike can pop eternal wheelies engadget.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5" target="_blank" rel="noopener noreferrer">Onewheel team's Antic e-bike can pop eternal wheelies</a>  engadget.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. - webull.com]]></title>
@@ -9797,7 +9797,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2025/02/Onewheels-In-Snow.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Is Snowboarding Better Than Onewheel???]]></title>
@@ -11069,7 +11069,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2024/09/Onewheel-Maintenance.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Andrew Stroh rides the new Onewheel GTS and his thoughts on it. Winman’s 2024]]></title>
@@ -12245,7 +12245,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[YouTuber Builds Onewheel With Tracks Instead And It’s Not Great - Hackaday]]></title>
@@ -14050,14 +14050,14 @@
     <item>
       <title><![CDATA[What Happed With the Onewheel Recall? - Rider Guide]]></title>
       <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5</link>
-      <guid isPermaLink="false">i89pfl-1k6th9l</guid>
+      <guid isPermaLink="false">i89pfl-1joxsrd</guid>
       <pubDate>Wed, 04 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>What Happed With the Onewheel Recall? riderguide.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5" target="_blank" rel="noopener noreferrer">What Happed With the Onewheel Recall?</a>  riderguide.com]]></content:encoded>
 
 
 
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Future Motion’s Onewheel skateboard recall follows lengthy public spat with federal consumer safety officials - Lookout Santa Cruz]]></title>
@@ -14097,8 +14097,8 @@
     </item>
     <item>
       <title><![CDATA[All Onewheel e-skateboards recalled worldwide after four deaths - BBC]]></title>
-      <link>https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5</link>
-      <guid isPermaLink="false">r6x2tg-1k6th9l</guid>
+      <link>https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1ZmZOU2ZhV1Vla0pwXzg2TW1HSDVnSEQ0X0N0YWdJMF9rcU5FazdOX2NBb3RiVWE4ejY4WWVZdDVRY0taTVNVNGdmZ2ZWbGkyTmd5QVpwQQ?oc=5</link>
+      <guid isPermaLink="false">dkvj2t-1k6th9l</guid>
       <pubDate>Tue, 03 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel e-skateboards recalled worldwide after four deaths</a>  bbc.co.uk]]></content:encoded>
@@ -14204,6 +14204,18 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
+      <title><![CDATA[Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company]]></title>
+      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5</link>
+      <guid isPermaLink="false">1wlgib8-1joxsrd</guid>
+      <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>  Fast Company]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
       <title><![CDATA[Every Onewheel Recalled: 4 Deaths Reported - GearJunkie]]></title>
       <link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5</link>
       <guid isPermaLink="false">1pzkrxv-1k6th9l</guid>
@@ -14226,18 +14238,6 @@
 
 
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
-      <title><![CDATA[Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company]]></title>
-      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5</link>
-      <guid isPermaLink="false">1wlgib8-1joxsrd</guid>
-      <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>  Fast Company]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported - Spectrum Noticias]]></title>
@@ -14516,18 +14516,6 @@
       <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 Los Angeles]]></title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5</link>
-      <guid isPermaLink="false">19ixlje-1joxsrd</guid>
-      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Los Angeles</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Los Angeles]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[All Onewheel e-skateboards are recalled after reported deaths - NPR]]></title>
       <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5</link>
       <guid isPermaLink="false">18a4tc9-1k6th9l</guid>
@@ -14538,6 +14526,18 @@
 
 
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 Los Angeles]]></title>
+      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5</link>
+      <guid isPermaLink="false">19ixlje-1joxsrd</guid>
+      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Los Angeles</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Los Angeles]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[After first refusing, OneWheel recalls all of its self-balancing electric skateboards - Electrek]]></title>
@@ -15665,7 +15665,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Favorite Onewheel Tricks]]></title>
@@ -15917,7 +15917,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Best One Wheel Electric Scooter — Self Balancing Best Electric Unicycles in 2022]]></title>
@@ -15941,7 +15941,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/12/3-ton-Arbor-Press-Onewheel-Bearing-Press-.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Floatwheel ADV, l’alternative au Onewheel ?]]></title>
@@ -16040,18 +16040,6 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald]]></title>
-      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5</link>
-      <guid isPermaLink="false">1tw6iub-1k6th9l</guid>
-      <pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5" target="_blank" rel="noopener noreferrer">Federal regulator issues warning for Santa Cruz-based Onewheel</a>  montereyherald.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[How hard is it to ride a Onewheel? And are they safe for kids? - KSL News]]></title>
       <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5</link>
       <guid isPermaLink="false">qztwll-1joxsrd</guid>
@@ -16062,6 +16050,18 @@
 
 
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald]]></title>
+      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5</link>
+      <guid isPermaLink="false">1tw6iub-1k6th9l</guid>
+      <pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5" target="_blank" rel="noopener noreferrer">Federal regulator issues warning for Santa Cruz-based Onewheel</a>  montereyherald.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Future Motion Refuses to Recall Onewheel Skateboards After Deaths - CNET]]></title>
@@ -16078,14 +16078,14 @@
     <item>
       <title><![CDATA[Onewheel skateboards linked to 4 deaths, feds say - CBS News]]></title>
       <link>https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Yw?oc=5</link>
-      <guid isPermaLink="false">1u4hvfh-1k6th9l</guid>
+      <guid isPermaLink="false">1u4hvfh-1joxsrd</guid>
       <pubDate>Thu, 17 Nov 2022 08:00:00 GMT</pubDate>
       <description><![CDATA[<p>Onewheel skateboards linked to 4 deaths, feds say cbsnews.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Y9IBgAFBVV95cUxNdFJ5Z214d1M1bkxqX0pybTJPaHZ6dWNZNDUtNks3M3p0bzF3WHltWGktbHhZTXNOdjVfRTVXVGJYNllZN1FfaHZleGpqQ1Z0eU1lLTlUcVF2YUpfWWZ5em1IOV81Y1hDdFJjZVNyYllkM2tQdG84amlteC1jNndmZg?oc=5" target="_blank" rel="noopener noreferrer">Onewheel skateboards linked to 4 deaths, feds say</a>  cbsnews.com]]></content:encoded>
 
 
 
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[CPSC Issues Deadly Onewheel Electric Skateboard Warning After Calls For A Recall Go Ignored - HotHardware]]></title>
@@ -16462,14 +16462,14 @@
     <item>
       <title><![CDATA[Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off - ClassAction.org]]></title>
       <link>https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5</link>
-      <guid isPermaLink="false">1l16yld-1k6th9l</guid>
+      <guid isPermaLink="false">1l16yld-1joxsrd</guid>
       <pubDate>Thu, 08 Sep 2022 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off ClassAction.org</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5" target="_blank" rel="noopener noreferrer">Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off</a>  ClassAction.org]]></content:encoded>
 
 
 
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[OneWheel Shut Off Defect Consumer Rights Class Action - Hagens Berman]]></title>
@@ -16877,7 +16877,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Best Onewheel Helmet: TSG PASS PRO vs PREDATOR DH6-XG Review]]></title>
@@ -16901,7 +16901,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Representing the Onewheel at Cherry Blossom Parade with the DMV crews and Oak City (NC) crews. It will be televised 🤙🏼🤙🏼🤙🏼]]></title>
@@ -16973,7 +16973,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[New onewheel. Best places to ride around Baltimore and MD]]></title>
@@ -17033,7 +17033,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/Onewheel-Trial-Etiquette.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[One Man's Treasure]]></title>
@@ -17408,18 +17408,6 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[The new Onewheel GT can travel 32 miles on a single charge - The Verge]]></title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5</link>
-      <guid isPermaLink="false">vm13z0-1k6th9l</guid>
-      <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>The new Onewheel GT can travel 32 miles on a single charge theverge.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5" target="_blank" rel="noopener noreferrer">The new Onewheel GT can travel 32 miles on a single charge</a>  theverge.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire]]></title>
       <link>https://news.google.com/rss/articles/CBMitgJBVV95cUxNUTRZeGtfblpUSmg5U0U5bXprZzN5RW5YbkFqa2pjMDVMSDlHZFAtTGdyTUlhREtlaEpsSFVWSE9Va1NoaU90R2VJRWVCMnBpRHVDZUNyTWh2TDRuWDNmdk16QmxONXFJRzU2UVVzMTJ4UWNjYU9xOC1BY1d5NWtEYTNmYWhmZHVWdnZPOEZyQkJuMlpXNEV4SU40VlZwUHVibTk0MTFCcDB0bXRCU08yeGR0ZVhJR1pyVVpoZDNmVGRwbTQ4Q1dXQ2FOVHU0VGJNY2tLYzFsMDAzamQwRzh1eUhWTzF4Yml1bHlkbW9CODB4d2o1dUJjZDJKakFKcUtjcURlaGVGc0ktblVfdDhDLTl2eEszNzZBYjV6TFBCa3htYktBNkNVMFhKSHpWcjd6eVhfQ0VR?oc=5</link>
       <guid isPermaLink="false">g7fh15-1k6th9l</guid>
@@ -17434,10 +17422,22 @@
     <item>
       <title><![CDATA[Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek]]></title>
       <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5</link>
-      <guid isPermaLink="false">13wsk49-1k6th9l</guid>
+      <guid isPermaLink="false">13wsk49-1joxsrd</guid>
       <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5" target="_blank" rel="noopener noreferrer">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>  electrek.co]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[The new Onewheel GT can travel 32 miles on a single charge - The Verge]]></title>
+      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5</link>
+      <guid isPermaLink="false">vm13z0-1k6th9l</guid>
+      <pubDate>Wed, 27 Oct 2021 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>The new Onewheel GT can travel 32 miles on a single charge theverge.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5" target="_blank" rel="noopener noreferrer">The new Onewheel GT can travel 32 miles on a single charge</a>  theverge.com]]></content:encoded>
 
 
 
@@ -17477,7 +17477,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/10/Onewheel-Balance-Board-1.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[WCGW if I ride my onewheel on some offroad trails while playing a saxophone?]]></title>
@@ -17609,7 +17609,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Onewheel’s XR Could Be the Ultimate Companion for an Extended Off-Road Adventure - autoevolution]]></title>
@@ -17729,7 +17729,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Work. Life. Balance.]]></title>
@@ -17777,7 +17777,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2022/02/How-Much-Does-A-Onewheel-Weigh.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Wheelistic - Lesie Touat -France]]></title>
@@ -17849,7 +17849,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Premier tour avec un Onewheel tout neuf ! Notre avis sur la tenue de route en terrain mixte.]]></title>
@@ -17873,7 +17873,7 @@
 
 
       <dc:creator>eastride</dc:creator>
-      <source url="https://eastride.de/feed">East Ride DE (Site feed)</source>
+      <source url="https://eastride.de/feed/">East Ride DE</source>
     </item>
     <item>
       <title><![CDATA[Floaty McFly]]></title>
@@ -17957,7 +17957,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/02/ChiBatterySystems-Chargers-and-Battery-Upgrade-For-Onewheel.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[The Arborist]]></title>
@@ -18125,7 +18125,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2021/01/Waterproofing-Onewheel-Shoes.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Jack Mitrani]]></title>
@@ -18317,7 +18317,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/10/Installing-FlightFins-FlightFrame.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[#2 SHRED SESSION AT : Lac du Salagou Onewheel trail France]]></title>
@@ -18365,7 +18365,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/09/Building-A-Onewheel-Fun-Box.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[TFL x TFW Onewheel Group Ride Downtown Sacramento]]></title>
@@ -18437,7 +18437,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/08/Fluxskinz-Design-Your-Own-Onewheel-Sole-Tape-Grip-Art.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Subreddit Information & Discord Server]]></title>
@@ -18485,7 +18485,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/07/Onewheel-Rail-Badge-%E2%80%93-Logo-%E2%80%93-Emblem.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Female Onewheel Riders!!]]></title>
@@ -18617,7 +18617,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/05/Onewheel-Lights-Not-Working-%E2%80%93-Flickering.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Painting Your Onewheel Footpad]]></title>
@@ -18629,7 +18629,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2020/04/Wood-Stain-Painting-Your-Onewheel-Footpad.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-diy-mods/feed/">Onewheel DIY Mods Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[$250 3d printed DIY Onewheel!]]></title>
@@ -18677,7 +18677,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/11/Onewheel-Blogs.jpg?resize=2000%2C1600&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[DIY OW Rim Assembly]]></title>
@@ -18725,7 +18725,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/08/Unboxing-And-First-Look-At-The-New-Onewheel-Pint-.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel riders take sport to new level at Northstar - Sierra Sun]]></title>
@@ -18785,7 +18785,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/06/Early-Hands-On-Reviews-Of-The.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Different Terrain You Can Ride On A Onewheel]]></title>
@@ -18797,7 +18797,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Different-Terrain-You-Can-Ride-On-A-Onewheel.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Hold my beer while ride a Onewheel with a samurai sword.]]></title>
@@ -18833,7 +18833,7 @@
       <media:thumbnail url="https://i0.wp.com/thesidewaysmovement.com/wp-content/uploads/2019/05/Why-You-Need-A-Onewheel-Pint.jpg?resize=945%2C756&amp;ssl=1" />
 
       <dc:creator>Ben Domaschenz</dc:creator>
-      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement</source>
+      <source url="https://thesidewaysmovement.com/category/onewheel/onewheel-tips/feed/">Onewheel Tips Archives - The Sideways Movement (Category)</source>
     </item>
     <item>
       <title><![CDATA[Onewheel+ XR Review - TechGearLab]]></title>
