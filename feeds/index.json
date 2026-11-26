@@ -5,9 +5,9 @@
     "shortTitle": "Latest",
     "color": "#111827",
     "description": "Current Onewheel-community stories across every publishing topic.",
-    "sourceCount": 130,
-    "feedSourceCount": 128,
-    "articleCount": 1644,
+    "sourceCount": 131,
+    "feedSourceCount": 129,
+    "articleCount": 1645,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -49,9 +49,9 @@
     "shortTitle": "Gear",
     "color": "#ff7a18",
     "description": "Products, shops, brands, accessories, and commerce sources.",
-    "sourceCount": 11,
-    "feedSourceCount": 11,
-    "articleCount": 106,
+    "sourceCount": 12,
+    "feedSourceCount": 12,
+    "articleCount": 107,
     "rssUrl": "/feeds/gear.xml"
   },
   {
