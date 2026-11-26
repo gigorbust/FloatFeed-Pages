@@ -5,8 +5,32 @@
     <description>Current Onewheel-community stories across every publishing topic.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/all.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 25 Nov 2026 18:29:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:45:13 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Sharing a new VESC OneWheel iOS/Android app]]></title>
+      <link>https://pev.dev/t/sharing-a-new-vesc-onewheel-ios-android-app/3063#post_1</link>
+      <guid isPermaLink="false">1e61bot-1czfdl1</guid>
+      <pubDate>Wed, 25 Nov 2026 22:58:12 GMT</pubDate>
+      <description><![CDATA[<p>Hello! Last time I posted here I shared a web tool for viewing your rides . For some time I’ve been working on a new VESC OneWheel companion app (like Floaty / Float Control) that’s a perfect fit for me. I made it for me, and because I’m really interested in data logging and seeing information at a glance. It’s Open Source, and free (you can download the APKs/IPAs/etc from the GitHub page ). That said, I’ve gone to the effort of getting it publishing on the iOS App Store and the Android Google Play Store as well - and it’s paid there. The reason it’s paid there is as a “donation” - it’s not fr</p>]]></description>
+      <content:encoded><![CDATA[<p>Hello!</p>&#10;<p>Last time I posted here <a href="https://pev.dev/t/sharing-a-new-tool-for-analysing-rides-float-view/1948" target="_blank" rel="noopener noreferrer">I shared a web tool for viewing your rides</a>.</p>&#10;<p>For some time I’ve been working on a new VESC OneWheel companion app (like Floaty / Float Control) that’s a perfect fit for me. I made it for me, and because I’m really interested in data logging and seeing information at a glance.</p>&#10;<p>It’s Open Source, and free (you can download the APKs/IPAs/etc from <a href="https://github.com/acheronfail/float-view" rel="noopener noreferrer" target="_blank">the GitHub page</a>). That said, I’ve gone to the effort of getting it publishing on the iOS App Store and the Android Google Play Store as well - and it’s paid there. The reason it’s paid there is as a “donation” - it’s not free to get it published there, and if you appreciate it, it’s a nice way to support.</p>&#10;<p>That said - it’s open source - build it yourself, or download and install it yourself from GitHub. Do whatever you want! I use it every time I ride and I love it, so I’m just sharing it with you all here.</p>&#10;<p><strong>This couldn’t have been made without the incredible efforts of those who maintain refloat - they’re the real heroes here!</strong></p>&#10;<p>Here are links to the iOS and Android store pages which have some screenshots:</p>&#10;<p><a href="https://apps.apple.com/app/id6823768488" rel="noopener noreferrer" target="_blank">iOS App Link</a></p>&#10;<p><a href="https://play.google.com/store/apps/details?id=fail.acheron.floatview" rel="noopener noreferrer" target="_blank">Android App Link</a></p>&#10;<p>Ride safe!</p>&#10;            <p><small>1 post - 1 participant</small></p>&#10;            <p><a href="https://pev.dev/t/sharing-a-new-vesc-onewheel-ios-android-app/3063" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+
+
+      <dc:creator>@acheronfail</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
+    </item>
+    <item>
+      <title><![CDATA[Skrrrt skrrrt 💜⚡️]]></title>
+      <link>https://www.youtube.com/shorts/skk94O88roM</link>
+      <guid isPermaLink="false">8h53rh-48s3eu</guid>
+      <pubDate>Wed, 25 Nov 2026 18:35:18 GMT</pubDate>
+      <description><![CDATA[<p>Winter is coming.. time to dig into those street sessions! Onewheel skrrrt for days!</p>]]></description>
+      <content:encoded><![CDATA[<p><img src="https://i4.ytimg.com/vi/skk94O88roM/hqdefault.jpg" alt="" /></p><p>Winter is coming.. time to dig into those street sessions! Onewheel skrrrt for days!</p>]]></content:encoded>
+      <media:thumbnail url="https://i4.ytimg.com/vi/skk94O88roM/hqdefault.jpg" />
+      <media:content medium="video"><media:player url="https://www.youtube.com/watch?v=skk94O88roM" /></media:content>
+      <dc:creator>Vinie Vizzle</dc:creator>
+      <source url="https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A">Vinie Vizzle</source>
+    </item>
     <item>
       <title><![CDATA[Anyone here cooking pulled pork for a DIY PEV build day?]]></title>
       <link>https://pev.dev/t/anyone-here-cooking-pulled-pork-for-a-diy-pev-build-day/3062#post_1</link>
@@ -14240,19 +14264,7 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company]]></title>
-      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5</link>
-      <guid isPermaLink="false">1wlgib8-1joxsrd</guid>
-      <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>  Fast Company]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
-      <title><![CDATA[Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported - Spectrum Noticias]]></title>
+      <title><![CDATA[Onewheel skate­boards recalled for crash hazard; 4 deaths, serious injuries reported - Spectrum News]]></title>
       <link>https://news.google.com/rss/articles/CBMitwFBVV95cUxQcjdWaW1YTFV0S2dTWVVSaFZYTFpOczJKSHRyUW9vdk1pdjdkanZkOEtxWmRjYVF6ZG01SWQ2ekt3d19RckduVG5NQnkyV0d3cThwZ2NSUVhmTWJJdktyN2hLM3AyY0ZndzNyZk5BcTB5SFRnU0habDNNYmppX2NBTzNnWnJjQWJ4c0lvMGowNE1KUmRrSnY2dWpOemhvNWJDXzFNeGJvQmt5UVNwbWdUSWZoR2NNcVk?oc=5</link>
       <guid isPermaLink="false">qkagye-1joxsrd</guid>
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
@@ -14294,6 +14306,18 @@
       <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported nbclosangeles.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMi9gFBVV95cUxOeTZYMzZzV1RPS0tiLXZwc09kYUhoYXBXYzJMNmx3ZXFBdEpUNG5aN09wSi1kWk1LM1gyQVNPeVcwVTUzVnVvQTQwUk4zSTU5OFFvU2stUkkzVXhzbnVXNXh4T2haMHVMTUJmckhJR0tuRmxnQlExdjc5czJhcklSSFo5SUV1bE9zeVJYZlp6dDE4elIxQ2NBaFYxUllOdGRCWU5qS19GNThPNEZtOEtTalNpTW16WnBvTm4wSFdSWWdKVTJRMzFzalBUSUNST0RIWXFxNk9mLU5JSzB3bFhOWXpwZVRoSWFHcTVpWWtGRkZjeUpZanfSAf4BQVVfeXFMTzJ2RWpmNHVuU2NfNVVwdURFYkdMOVlSUlJwZi1mbU9ubEJlakh6clJRQmRFcWd4MTY4RS1NTkRLU1gzak9td215RWx5Uk5VTmV4YlVveUtsUWl5ZU11QkFzNjJKbGtOODZEM1NiYm5sd3o0d20yRlJtSGh3Vmx4TlFmbXIwN2FvU19jVUZIY0tlcmszd1VNaGJmT2F1bVVvNERnYTJpdlhpTGF0Nk83N2ZWODFiUDlOSzZ2QXVJa1dkQURHR2JZQjdpaTdxb3hLcS1JOU1aUW9CbkdrRlpvV3JuODN0SmlDTlNtTjlCSEJhd0VBNlZyc2p0c3JTSXc?oc=5" target="_blank" rel="noopener noreferrer">All Onewheel electric skateboards recalled after 4 deaths and dozens of serious injuries reported</a>  nbclosangeles.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company]]></title>
+      <link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5</link>
+      <guid isPermaLink="false">1wlgib8-1joxsrd</guid>
+      <pubDate>Mon, 02 Oct 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>  Fast Company]]></content:encoded>
 
 
 
@@ -14408,18 +14432,6 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News]]></title>
-      <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5</link>
-      <guid isPermaLink="false">gi4tg2-1joxsrd</guid>
-      <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5" target="_blank" rel="noopener noreferrer">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>  nbcnews.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider]]></title>
       <link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5</link>
       <guid isPermaLink="false">l9uvac-1joxsrd</guid>
@@ -14432,12 +14444,12 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business]]></title>
-      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5</link>
-      <guid isPermaLink="false">1v6lmtn-1joxsrd</guid>
+      <title><![CDATA[Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News]]></title>
+      <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5</link>
+      <guid isPermaLink="false">gi4tg2-1joxsrd</guid>
       <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5" target="_blank" rel="noopener noreferrer">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>  foxbusiness.com]]></content:encoded>
+      <description><![CDATA[<p>Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5" target="_blank" rel="noopener noreferrer">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>  nbcnews.com]]></content:encoded>
 
 
 
@@ -14450,6 +14462,18 @@
       <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
       <description><![CDATA[<p>Onewheel electric skateboards recalled after multiple reports of death, injury kfyrtv.com</p>]]></description>
       <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5" target="_blank" rel="noopener noreferrer">Onewheel electric skateboards recalled after multiple reports of death, injury</a>  kfyrtv.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - Fox Business]]></title>
+      <link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5</link>
+      <guid isPermaLink="false">1v6lmtn-1joxsrd</guid>
+      <pubDate>Sun, 01 Oct 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC foxbusiness.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPSko0enVCVkw2RHg5ajFCVnZrMko5U01UTER4SmlRWXhCZDdTQzlkajhhT25yd0h1QXF6SkVMR2FRcW1HS1ZaN2RvWGlfZGZrZ2daUUJ3clRtTEVoOHBfUkh5RVJOcjQ1XzFLZEd5RV82SUh3T3plNVV0T1RjeG9BXy05Yk5mazBDV0ZRekJPeElsQmpxcDFKRFFBZzZ0M0MxQkJMWEYtRlY2TTVvSGhUV3p1SnJ0UGF1dEHSAb8BQVVfeXFMTmk5UzN6amd0ZFZKZVNXVmFGV0oxWTgzd3Q2M1dlSm5yYzJ0cXc5X3lLSUVNWFc3U2p2WVloamMyZ0tPTkZ0WkxCU2JyZjNqbXZxYUZQTjZLYVFmeHpUYjVNc0gtS1BTVW0wMkhfbUlicW4zcVZTRW9JWXg4WEVGU0hLOVFCcXVyNHp4RS1TZC1MUFJVU29zOHVvZHI1Z0toRkFWbnJvYWxaSjVnS1lqNnNycFJ5aGxaMnpGeUx4M1k?oc=5" target="_blank" rel="noopener noreferrer">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>  foxbusiness.com]]></content:encoded>
 
 
 
@@ -14528,18 +14552,6 @@
       <source url="https://www.reddit.com/search.rss?q=onewheel&amp;sort=relevance&amp;type=link">onewheel Reddit Alert (Relevance search)</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York]]></title>
-      <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5</link>
-      <guid isPermaLink="false">fo439r-1k6th9l</guid>
-      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Eyewitness News]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[All Onewheel e-skateboards are recalled after reported deaths - NPR]]></title>
       <link>https://news.google.com/rss/articles/CBMiekFVX3lxTE1DRnNqTWg3Z0hRUmhvOWRUZUwzVjhfSmN1OEFrRXpFbWl3OWZqOHVJRjU2UFdpNjBJV19rNWo1SUhYaThkZF9VQ3N0Rkt2MXo4dTVLOTNMUkd0M0ZMQ00ybmVMRmxLWEhFTjdFUHh4VXhCSHNnN3Y4TUZn?oc=5</link>
       <guid isPermaLink="false">18a4tc9-1k6th9l</guid>
@@ -14550,6 +14562,18 @@
 
 
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 Los Angeles]]></title>
+      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5</link>
+      <guid isPermaLink="false">19ixlje-1joxsrd</guid>
+      <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Los Angeles</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Los Angeles]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[After first refusing, OneWheel recalls all of its self-balancing electric skateboards - Electrek]]></title>
@@ -14564,16 +14588,16 @@
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 Los Angeles]]></title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5</link>
-      <guid isPermaLink="false">19ixlje-1joxsrd</guid>
+      <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York]]></title>
+      <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5</link>
+      <guid isPermaLink="false">fo439r-1k6th9l</guid>
       <pubDate>Sat, 30 Sep 2023 07:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Los Angeles</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxQdGdHWG82N3hRajFsUFpmRnlQZk9VMDhFMWNXTkxNX2JBUjFreFZzWTRpcHU2LTJabVlZRmJwQzJURDZucllFN0lra3NZa0FJZDdWYzF1Qi1tcEllMGJIYlNTTnUzTTgxaHhuU25KVy1KcjNBeWVaRUZlZG5xdlhKWm1HQXhqRFhWeWFoSW8yYUNKZFnSAZgBQVVfeXFMUG5UdF92SjZHTjg0c0pQVWZSZmxZbEpjbU1SR2hOYURhcWJoUlN5dkxpSEQ1c0MzQmZXMHNLNm5MMTJobTdaZHdUcmtjbW10aU5DUDd5Q3Qxdms0ai1pX0Z0M09oMzF0WklmWUdQS1IyNlNwN0FGUllIOXp6WDdaZmVGdmtIc3oxUmlYQjVqZTRmMTl0QTQ1TU4?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Los Angeles]]></content:encoded>
+      <description><![CDATA[<p>Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5" target="_blank" rel="noopener noreferrer">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>  ABC7 Eyewitness News]]></content:encoded>
 
 
 
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - 6abc Philadelphia]]></title>
@@ -16052,18 +16076,6 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald]]></title>
-      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5</link>
-      <guid isPermaLink="false">1tw6iub-1k6th9l</guid>
-      <pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5" target="_blank" rel="noopener noreferrer">Federal regulator issues warning for Santa Cruz-based Onewheel</a>  montereyherald.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[How hard is it to ride a Onewheel? And are they safe for kids? - KSL News]]></title>
       <link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPbnY3ZVJ3LTdHZFJwWWh3MnUzaGcwNm10dWoyelIxS2tEWHN0QkM5aVFWeWFsSnJVcVFTc1JsRFJzQi1hTE9KSGlXQmY5NWpEeERybElIVENiUFFFMkljcjIyQzFTdTZDRy02RTRiRWt5NnB3SGV3RXpvNmNXWnU0cS1JWGFnVEZKdm16alFkR3RBcjF5Mi1ORWcxaHNYcXlnc3czX0hWSmFiWW1XazR4cw?oc=5</link>
       <guid isPermaLink="false">qztwll-1joxsrd</guid>
@@ -16074,6 +16086,18 @@
 
 
       <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Federal regulator issues warning for Santa Cruz-based Onewheel - Monterey Herald]]></title>
+      <link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5</link>
+      <guid isPermaLink="false">1tw6iub-1k6th9l</guid>
+      <pubDate>Fri, 18 Nov 2022 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Federal regulator issues warning for Santa Cruz-based Onewheel montereyherald.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ3U3TDBDVEx4akNqWEgxNUx6VlFFWVVWMTB0eE05UDBMRjRoZHk1ckJZM3Iwejl2b0JMOEx4VmRzX2pZdmpkSC0yZmVteVl5cTg3enVqM3hFWkhqMTROSVY0M2p4Y1NQVHA5LThaaDJyQ29kS3QtNVhvTm10eHVhX2VxSHNtSDhyaEUxWU8tSDZpUEZnLWpWRkJ3THJoajJ5V1FTY3g1Q2o?oc=5" target="_blank" rel="noopener noreferrer">Federal regulator issues warning for Santa Cruz-based Onewheel</a>  montereyherald.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[Future Motion Refuses to Recall Onewheel Skateboards After Deaths - CNET]]></title>
@@ -16136,18 +16160,6 @@
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
     </item>
     <item>
-      <title><![CDATA[Safety experts warn owners of Onewheel electric skateboards - whio.com]]></title>
-      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTV9Nd2VZWXFodjV5eUhCaVU0cTZ3Vm8wcVBlOFNTdzNqc3ZnUWdKMVhER09FZ3N3dHdRZ3RPUmdJdDcyOENTUmdqZF9FRXl0WVV6UEJxQmttcWM3SVoxejJYMVlaSG5TcVpqUzdWOE1aZE1qdXg0WjVweXNqeElGMGhURUgwQXluRHIxTnF1a0hfbUdfVG5mRjF6N0pDbGVZcUhqRHZaNXd0bTlONTdLSXo3SHp4TUtXa0xn0gHPAUFVX3lxTE1QLVh0QmxkTVhoRGE1b1BWc1p2WHpjNGZFYlU1OVRsbWwtRTliYWRYRnBjSDhPZFQ5TE43QWlvUVdhLU1lVFZWSlJnUVZCS3VKWjBrd05kQThlT19nbjY5VWx3RXJCN05Db1BMMklNd2hMRWlIMFowWEwxVGRSa3VwdWhBLURHbWxEUEdKQ0FxNDl0WWNmVnlpVUEtaU5zX1drS2dLOE5LVUpMTXNhWWxQOGdTSXA3Q1pNd0lvRDZWZnBVOEl3UWNBZ2F4OUNDWQ?oc=5</link>
-      <guid isPermaLink="false">119sooa-1joxsrd</guid>
-      <pubDate>Wed, 16 Nov 2022 08:00:00 GMT</pubDate>
-      <description><![CDATA[<p>Safety experts warn owners of Onewheel electric skateboards whio.com</p>]]></description>
-      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTV9Nd2VZWXFodjV5eUhCaVU0cTZ3Vm8wcVBlOFNTdzNqc3ZnUWdKMVhER09FZ3N3dHdRZ3RPUmdJdDcyOENTUmdqZF9FRXl0WVV6UEJxQmttcWM3SVoxejJYMVlaSG5TcVpqUzdWOE1aZE1qdXg0WjVweXNqeElGMGhURUgwQXluRHIxTnF1a0hfbUdfVG5mRjF6N0pDbGVZcUhqRHZaNXd0bTlONTdLSXo3SHp4TUtXa0xn0gHPAUFVX3lxTE1QLVh0QmxkTVhoRGE1b1BWc1p2WHpjNGZFYlU1OVRsbWwtRTliYWRYRnBjSDhPZFQ5TE43QWlvUVdhLU1lVFZWSlJnUVZCS3VKWjBrd05kQThlT19nbjY5VWx3RXJCN05Db1BMMklNd2hMRWlIMFowWEwxVGRSa3VwdWhBLURHbWxEUEdKQ0FxNDl0WWNmVnlpVUEtaU5zX1drS2dLOE5LVUpMTXNhWWxQOGdTSXA3Q1pNd0lvRDZWZnBVOEl3UWNBZ2F4OUNDWQ?oc=5" target="_blank" rel="noopener noreferrer">Safety experts warn owners of Onewheel electric skateboards</a>  whio.com]]></content:encoded>
-
-
-
-      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
-    </item>
-    <item>
       <title><![CDATA[Stop Using Onewheel Self-Balancing Skateboards, CPSC Warns After Reports of Four Deaths and Multiple Injuries - Gizmodo]]></title>
       <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxOa2NaSGV3VklPWDRPR1lleVd1cHVYbXpnOE1qY2VXTFhlcUlaQnIxaUkzeFpXWWRkb29VTDhVVnlTbmotUXd6QjMwNmR0cHdxRjZDblpIWnI1NmVhZFhNdmJ0dGVDVFJkZWlkQkNMSzk3RXJGOUVHTVlLdWFfYjBiYTU2M3NjWXFKLWJNZjQ4SQ?oc=5</link>
       <guid isPermaLink="false">jzevl7-1k6th9l</guid>
@@ -16158,6 +16170,18 @@
 
 
       <source url="https://news.google.com/rss/search?ceid=US%3Aen&amp;gl=US&amp;hl=en-US&amp;q=%22future+motion%22">&quot;future motion&quot; - Google News</source>
+    </item>
+    <item>
+      <title><![CDATA[Safety experts warn owners of Onewheel electric skateboards - whio.com]]></title>
+      <link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTV9Nd2VZWXFodjV5eUhCaVU0cTZ3Vm8wcVBlOFNTdzNqc3ZnUWdKMVhER09FZ3N3dHdRZ3RPUmdJdDcyOENTUmdqZF9FRXl0WVV6UEJxQmttcWM3SVoxejJYMVlaSG5TcVpqUzdWOE1aZE1qdXg0WjVweXNqeElGMGhURUgwQXluRHIxTnF1a0hfbUdfVG5mRjF6N0pDbGVZcUhqRHZaNXd0bTlONTdLSXo3SHp4TUtXa0xn0gHPAUFVX3lxTE1QLVh0QmxkTVhoRGE1b1BWc1p2WHpjNGZFYlU1OVRsbWwtRTliYWRYRnBjSDhPZFQ5TE43QWlvUVdhLU1lVFZWSlJnUVZCS3VKWjBrd05kQThlT19nbjY5VWx3RXJCN05Db1BMMklNd2hMRWlIMFowWEwxVGRSa3VwdWhBLURHbWxEUEdKQ0FxNDl0WWNmVnlpVUEtaU5zX1drS2dLOE5LVUpMTXNhWWxQOGdTSXA3Q1pNd0lvRDZWZnBVOEl3UWNBZ2F4OUNDWQ?oc=5</link>
+      <guid isPermaLink="false">119sooa-1joxsrd</guid>
+      <pubDate>Wed, 16 Nov 2022 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>Safety experts warn owners of Onewheel electric skateboards whio.com</p>]]></description>
+      <content:encoded><![CDATA[<a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTV9Nd2VZWXFodjV5eUhCaVU0cTZ3Vm8wcVBlOFNTdzNqc3ZnUWdKMVhER09FZ3N3dHdRZ3RPUmdJdDcyOENTUmdqZF9FRXl0WVV6UEJxQmttcWM3SVoxejJYMVlaSG5TcVpqUzdWOE1aZE1qdXg0WjVweXNqeElGMGhURUgwQXluRHIxTnF1a0hfbUdfVG5mRjF6N0pDbGVZcUhqRHZaNXd0bTlONTdLSXo3SHp4TUtXa0xn0gHPAUFVX3lxTE1QLVh0QmxkTVhoRGE1b1BWc1p2WHpjNGZFYlU1OVRsbWwtRTliYWRYRnBjSDhPZFQ5TE43QWlvUVdhLU1lVFZWSlJnUVZCS3VKWjBrd05kQThlT19nbjY5VWx3RXJCN05Db1BMMklNd2hMRWlIMFowWEwxVGRSa3VwdWhBLURHbWxEUEdKQ0FxNDl0WWNmVnlpVUEtaU5zX1drS2dLOE5LVUpMTXNhWWxQOGdTSXA3Q1pNd0lvRDZWZnBVOEl3UWNBZ2F4OUNDWQ?oc=5" target="_blank" rel="noopener noreferrer">Safety experts warn owners of Onewheel electric skateboards</a>  whio.com]]></content:encoded>
+
+
+
+      <source url="https://news.google.com/rss/search?q=%22onewheel%22&amp;hl=en-US&amp;gl=US&amp;ceid=US:en">&quot;onewheel&quot; - Google News</source>
     </item>
     <item>
       <title><![CDATA[[OLD] DIY One Wheel Build]]></title>

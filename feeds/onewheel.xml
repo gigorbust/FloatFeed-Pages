@@ -5,8 +5,20 @@
     <description>Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.</description>
     <link>https://gigorbust.github.io/FloatFeed-Pages/</link>
     <atom:link xmlns:atom="http://www.w3.org/2005/Atom" href="https://gigorbust.github.io/FloatFeed-Pages/feeds/onewheel.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 25 Nov 2026 18:29:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 00:45:13 GMT</lastBuildDate>
     <generator>FloatFeed static publisher</generator>
+    <item>
+      <title><![CDATA[Sharing a new VESC OneWheel iOS/Android app]]></title>
+      <link>https://pev.dev/t/sharing-a-new-vesc-onewheel-ios-android-app/3063#post_1</link>
+      <guid isPermaLink="false">1e61bot-1czfdl1</guid>
+      <pubDate>Wed, 25 Nov 2026 22:58:12 GMT</pubDate>
+      <description><![CDATA[<p>Hello! Last time I posted here I shared a web tool for viewing your rides . For some time I’ve been working on a new VESC OneWheel companion app (like Floaty / Float Control) that’s a perfect fit for me. I made it for me, and because I’m really interested in data logging and seeing information at a glance. It’s Open Source, and free (you can download the APKs/IPAs/etc from the GitHub page ). That said, I’ve gone to the effort of getting it publishing on the iOS App Store and the Android Google Play Store as well - and it’s paid there. The reason it’s paid there is as a “donation” - it’s not fr</p>]]></description>
+      <content:encoded><![CDATA[<p>Hello!</p>&#10;<p>Last time I posted here <a href="https://pev.dev/t/sharing-a-new-tool-for-analysing-rides-float-view/1948" target="_blank" rel="noopener noreferrer">I shared a web tool for viewing your rides</a>.</p>&#10;<p>For some time I’ve been working on a new VESC OneWheel companion app (like Floaty / Float Control) that’s a perfect fit for me. I made it for me, and because I’m really interested in data logging and seeing information at a glance.</p>&#10;<p>It’s Open Source, and free (you can download the APKs/IPAs/etc from <a href="https://github.com/acheronfail/float-view" rel="noopener noreferrer" target="_blank">the GitHub page</a>). That said, I’ve gone to the effort of getting it publishing on the iOS App Store and the Android Google Play Store as well - and it’s paid there. The reason it’s paid there is as a “donation” - it’s not free to get it published there, and if you appreciate it, it’s a nice way to support.</p>&#10;<p>That said - it’s open source - build it yourself, or download and install it yourself from GitHub. Do whatever you want! I use it every time I ride and I love it, so I’m just sharing it with you all here.</p>&#10;<p><strong>This couldn’t have been made without the incredible efforts of those who maintain refloat - they’re the real heroes here!</strong></p>&#10;<p>Here are links to the iOS and Android store pages which have some screenshots:</p>&#10;<p><a href="https://apps.apple.com/app/id6823768488" rel="noopener noreferrer" target="_blank">iOS App Link</a></p>&#10;<p><a href="https://play.google.com/store/apps/details?id=fail.acheron.floatview" rel="noopener noreferrer" target="_blank">Android App Link</a></p>&#10;<p>Ride safe!</p>&#10;            <p><small>1 post - 1 participant</small></p>&#10;            <p><a href="https://pev.dev/t/sharing-a-new-vesc-onewheel-ios-android-app/3063" target="_blank" rel="noopener noreferrer">Read full topic</a></p>]]></content:encoded>
+
+
+      <dc:creator>@acheronfail</dc:creator>
+      <source url="https://pev.dev/posts.rss">pev.dev - Latest posts</source>
+    </item>
     <item>
       <title><![CDATA[Anyone here cooking pulled pork for a DIY PEV build day?]]></title>
       <link>https://pev.dev/t/anyone-here-cooking-pulled-pork-for-a-diy-pev-build-day/3062#post_1</link>

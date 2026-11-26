@@ -7,7 +7,7 @@
     "description": "Current Onewheel-community stories across every publishing topic.",
     "sourceCount": 130,
     "feedSourceCount": 128,
-    "articleCount": 1638,
+    "articleCount": 1640,
     "rssUrl": "/feeds/all.xml"
   },
   {
@@ -18,7 +18,7 @@
     "description": "Primary FloatFeed lane: Onewheel, Floatwheel, EUC, e-skate, VESC, and rider culture.",
     "sourceCount": 15,
     "feedSourceCount": 14,
-    "articleCount": 121,
+    "articleCount": 122,
     "rssUrl": "/feeds/onewheel.xml"
   },
   {
@@ -40,7 +40,7 @@
     "description": "YouTube, media feeds, podcasts, and riding videos.",
     "sourceCount": 65,
     "feedSourceCount": 65,
-    "articleCount": 666,
+    "articleCount": 667,
     "rssUrl": "/feeds/video.xml"
   },
   {
