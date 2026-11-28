@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-27T18:28:08.982Z",
+  "generatedAt": "2026-11-28T00:43:46.652Z",
   "siteUrl": "https://gigorbust.github.io/FloatFeed-Pages/",
   "stats": {
-    "currentArticles": 365,
-    "archiveArticles": 1283
+    "currentArticles": 364,
+    "archiveArticles": 1287
   },
   "decks": [
     {
@@ -14,7 +14,7 @@
       "description": "Current Onewheel-community stories across every publishing topic.",
       "sourceCount": 131,
       "feedSourceCount": 129,
-      "articleCount": 1648,
+      "articleCount": 1651,
       "rssUrl": "/feeds/all.xml"
     },
     {
@@ -36,7 +36,7 @@
       "description": "Onewheel news, community discoveries, and publisher stories.",
       "sourceCount": 13,
       "feedSourceCount": 13,
-      "articleCount": 319,
+      "articleCount": 321,
       "rssUrl": "/feeds/news.xml"
     },
     {
@@ -47,7 +47,7 @@
       "description": "YouTube, media feeds, podcasts, and riding videos.",
       "sourceCount": 65,
       "feedSourceCount": 65,
-      "articleCount": 672,
+      "articleCount": 673,
       "rssUrl": "/feeds/video.xml"
     },
     {
@@ -866,7 +866,7 @@
       "kind": "feed",
       "sourcePlatform": "Publisher",
       "hasFeed": true,
-      "articleCount": 219,
+      "articleCount": 221,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2868,7 +2868,7 @@
       "kind": "video",
       "sourcePlatform": "YouTube",
       "hasFeed": true,
-      "articleCount": 44,
+      "articleCount": 45,
       "sourceStatus": {
         "publisher": "unverified",
         "endpoint": "valid_feed",
@@ -2970,6 +2970,71 @@
   ],
   "articles": [
     {
+      "id": "1voqk9f-1czfdl1",
+      "title": "Pushback: high voltage warning while riding at 90% after update to 7.0",
+      "description": "So you encountered a problem and need help… bug? crash? weird behavior? Please include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting controller/motor thor301 / hypercore firmware version 7.0 package version (and name) refloat 1.2 configuration details my can is busted how often has this happened? single incident? can you reproduce it? it worked fine before i updated fw. after that ",
+      "contentHtml": "<p>So you encountered a problem and need help…</p>\n<p>bug?<br>\ncrash?<br>\nweird behavior?<br>\nPlease include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting</p>\n<p>controller/motor thor301 / hypercore<br>\nfirmware version 7.0<br>\npackage version (and name) refloat 1.2<br>\nconfiguration details<br>\nmy can is busted</p>\n<p>how often has this happened? single incident? can you reproduce it?</p>\n<p>it worked fine before i updated fw. after that everything broke and all the sensors were reporting values way out of spec. i had to redo the entire config from floathub</p>\n<p>the circumstances leading up to it, when the incident happened what exactly were you doing?<br>\nand last but not least: log files / videos - however DO NOT EXPECT that we’ll watch minutes of video or sift thru megabytes of logs to try to figure out what might have happened. Keep the logs and videos short.</p>\n<p>i updated the firmware on my controller from within vesc tools</p>\n<p>I personally ignore any video posted as the primary problem description. Use your words <img src=\"https://pev.dev/images/emoji/twitter/wink.png?v=15\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n            <p><small>4 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030\">Read full topic</a></p>",
+      "url": "https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030#post_4",
+      "publishedAt": "2026-11-28T00:36:43.000Z",
+      "author": "@Drumbeater82 Matthew Ahrens",
+      "videoId": "",
+      "image": "",
+      "sourceId": "pev-dev-latest-posts-1cj89fa",
+      "source": "pev.dev - Latest posts",
+      "sourceDomain": "pev.dev",
+      "sourceKind": "feed",
+      "deck": "onewheel",
+      "feedUrl": "https://pev.dev/posts.rss",
+      "duplicateSourceIds": [
+        "pev-dev-latest-posts-1cj89fa",
+        "pev-dev-latest-topics-zkk6og"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "cbjc2t-1czfdl1",
+      "title": "Refloat version 1.3",
+      "description": "Should have posted this way earlier, there’s a small percentage of users getting markable nose oscillations (nose hunting) after upgrading to Refloat 1.3. From what I’ve heard so far, decreasing the IMU Sample Rate to 416 Hz is a workaround to fix the problem. I’m not sure about the exact cause of this, I believe it’s just the messed up timing from the old firmware IMU sampling code. Seems updating to a firmware with my IMU fixes does fix the issue. For LSM6DS3 controllers, firmware 7.00 should do, though it doesn’t have all the fixes. For BMI160 controllers (or if you wanna get all the fixes ",
+      "contentHtml": "<p>Refloat 1.3 is here. This is a big one, it brings a number of improvements that cause small changes in behavior, bundled in one release to minimize the disruption.</p>\n<p>Release stage: <em><strong>stable</strong></em></p>\n<h2><a name=\"p-6403-update-1\" class=\"anchor\" href=\"https://pev.dev#p-6403-update-1\" aria-label=\"Heading link\"></a>Update</h2>\n<p>1.3.1 is in the works (beta stage). Notably it fixes a serious bug which could cause nose hunting or non-smooth motor operation on some setups, a few more fixes and a “Convert from 1.2” button added to the tune dialogs.</p>\n<h2><a name=\"p-6403-whats-new-2\" class=\"anchor\" href=\"https://pev.dev#p-6403-whats-new-2\" aria-label=\"Heading link\"></a>What’s new</h2>\n<p>Three major changes define this release:</p>\n<h3><a name=\"p-6403-timing-rework-3\" class=\"anchor\" href=\"https://pev.dev#p-6403-timing-rework-3\" aria-label=\"Heading link\"></a>Timing rework</h3>\n<p>The internal timing and synchronization have been overhauled. All calculations are now independent of the frequency they run at, and the core balancing control runs in sync with the IMU. The Loop Hertz config option has been removed.</p>\n<p>The practical result is better vibration rejection and more consistent tune behavior across different boards and configurations. Tunes should transfer more cleanly between setups.</p>\n<p>I’ve written a <a href=\"https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925\">detailed post</a> about the technical details.</p>\n<h3><a name=\"p-6403-setpoint-smoothing-4\" class=\"anchor\" href=\"https://pev.dev#p-6403-setpoint-smoothing-4\" aria-label=\"Heading link\"></a>Setpoint smoothing</h3>\n<p>All Tilts (ATR, Torque Tilt, Brake Tilt, Turn Tilt and Remote) now have setpoint smoothing. This replaces the old linear transitions with smooth curves that allow higher tiltback speeds without jerkiness. The algorithm is based on the <a href=\"https://pev.dev/t/refloat-v1-1-feature-preview-2-haptic-feedback-setpoint-smoothing/2326/2\">3-Stage filter</a> from earlier feature previews.</p>\n<p>The main knobs to adjust are the Smoothing Time Constants:</p>\n<ul>\n<li><strong>Smoothing Time Constant</strong>: the overall smoothing delay (think 0.15-0.3s)</li>\n<li><strong>On Speed Time Constant</strong>: smooths the “into tiltback” transition</li>\n<li><strong>Off Speed Time Constant</strong>: smooths the “release” transition</li>\n</ul>\n<p>Torque Tilt and ATR have all three configurable. Turn Tilt and Remote are simplified to just the Smoothing Time Constant. The Time Constants are now the primary thing to tweak. Tiltback Speeds for Turn Tilt and Remote have been removed entirely in favor of the smoothing, and for Torque Tilt and ATR they’ve been reset to higher defaults that better complement it (your Torque Tilt and ATR Tiltback speeds won’t carry over from tune backups).</p>\n<p>As smoothing replaces its function, ATR Response Boost has been removed. ATR Transition Boost has been reworked to apply to both the smoothing constants and angling rates.</p>\n<p>More details on this can be found in the <a href=\"https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959\">feature preview post</a>.</p>\n<p>The defaults for the new smoothing options work well for smooth casual riding. For racing and aggressive riding in general, the numbers need to be lowered in general, the following values should be a good starting point for a race tune:</p>\n<ul>\n<li>Torque Tilt\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.15</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.05</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.1</li>\n</ul>\n</li>\n<li>ATR\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.2</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.08</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.01</li>\n</ul>\n</li>\n</ul>\n<h3><a name=\"p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" class=\"anchor\" href=\"https://pev.dev#p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" aria-label=\"Heading link\"></a>Torque normalization via Flux Linkage (firmware 6.06+)</h3>\n<p>On firmware 6.06+, the package now uses the motor’s Flux Linkage value to convert current to torque internally. This compensates for different motors’ torque constants and makes tunes behave more consistently across different motors. The reference value is 27 mWb. The more your motor differs from this, the more your tune will be adjusted.</p>\n<p>On firmware 6.05 and older, the behavior remains unchanged.</p>\n<h2><a name=\"p-6403-updating-to-13-6\" class=\"anchor\" href=\"https://pev.dev#p-6403-updating-to-13-6\" aria-label=\"Heading link\"></a>Updating to 1.3</h2>\n<p>This release will cause small changes in tune behavior:</p>\n<ul>\n<li><strong>Timing corrections:</strong> Angling speeds for tilts and pushbacks were running about 9-17% slower than configured. In practice, the new smoothing overshadows this (and Tiltback Speeds which remain will reset to higher values as mentioned above).</li>\n<li><strong>Torque normalization (6.06+ only):</strong> Config options are now internally adjusted based on your motor’s Flux Linkage. To compensate and retain your current tune behavior, calculate <code>k = Flux Linkage / 27</code> and:\n<ul>\n<li><strong>Divide by <code>k</code></strong> (likely noticeable, recommended to adjust): Torque Tilt Strength, Torque Tilt Strength (Regen)</li>\n<li><strong>Multiply by <code>k</code></strong> (subtle, adjust if needed): Angle P, Rate P, Angle I, I Term Limit, Booster Currents, Torque Tilt Start Current, ATR Amps Ratios</li>\n</ul>\n</li>\n<li><strong>Smoothing defaults:</strong> The defaults are tuned for smooth casual riding. Aggressive or racing tunes may need the Time Constants dialed down a bit for more responsiveness.</li>\n</ul>\n<p>For Flux Linkage normalization to work correctly, make sure your Motor Cfg → Additional Info → Setup → Motor Poles value is correct. If your board reports speed correctly, it should be. The correct value for all Onewheel motors to date is 30.</p>\n<p>Automatic config restore works as usual: confirm the dialog after upgrading and your config will be migrated.</p>\n<h2><a name=\"p-6403-other-notable-changes-7\" class=\"anchor\" href=\"https://pev.dev#p-6403-other-notable-changes-7\" aria-label=\"Heading link\"></a>Other notable changes</h2>\n<ul>\n<li>New and more consistent Reverse Stop implementation</li>\n<li>Motor utilization on the LED status bar (motor saturation, battery saturation, duty cycle)</li>\n<li>Option to swap left/right footpad ADCs</li>\n<li>Fullscreen remote overlay in package UI</li>\n<li>Reworked remote/wheel control from apps</li>\n<li>Various fixes (see full changelog)</li>\n</ul>\n<h2><a name=\"p-6403-download-and-changelog-8\" class=\"anchor\" href=\"https://pev.dev#p-6403-download-and-changelog-8\" aria-label=\"Heading link\"></a>Download and changelog</h2>\n<p><a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.0\">Refloat 1.3.0</a><br>\n<a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.1-beta3\">Refloat 1.3.1-beta3</a></p>\n<h2><a name=\"p-6403-support-the-project-9\" class=\"anchor\" href=\"https://pev.dev#p-6403-support-the-project-9\" aria-label=\"Heading link\"></a>Support the project</h2>\n<p>I invest a lot of time and energy into the development and testing of Refloat. If you would like to support the development, here’s <a href=\"https://riddimrider.one/donate/\">a few options to do so</a>.</p>\n            <p><small>13 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/refloat-version-1-3/2995\">Read full topic</a></p>",
+      "url": "https://pev.dev/t/refloat-version-1-3/2995#post_14",
+      "publishedAt": "2026-11-27T19:08:16.000Z",
+      "author": "@riddimrider",
+      "videoId": "",
+      "image": "",
+      "sourceId": "pev-dev-latest-posts-1cj89fa",
+      "source": "pev.dev - Latest posts",
+      "sourceDomain": "pev.dev",
+      "sourceKind": "feed",
+      "deck": "onewheel",
+      "feedUrl": "https://pev.dev/posts.rss",
+      "duplicateSourceIds": [
+        "pev-dev-latest-posts-1cj89fa",
+        "pev-dev-latest-topics-zkk6og"
+      ],
+      "mergedItemCount": 6
+    },
+    {
+      "id": "1wo3srk-48s3eu",
+      "title": "This mini XR shreds! 💜⚡️",
+      "description": "Balance is key in life. Forest balance challenge on the mini onewheel growler XR.",
+      "contentHtml": "<p>Balance is key in life. Forest balance challenge on the mini onewheel growler XR.</p>",
+      "url": "https://www.youtube.com/shorts/H43D_srNDBA",
+      "publishedAt": "2026-11-27T18:58:33.000Z",
+      "author": "Vinie Vizzle",
+      "videoId": "H43D_srNDBA",
+      "image": "https://i1.ytimg.com/vi/H43D_srNDBA/hqdefault.jpg",
+      "sourceId": "vinie-vizzle-7ackvr",
+      "source": "Vinie Vizzle",
+      "sourceDomain": "youtube.com",
+      "sourceKind": "video",
+      "deck": "video",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCr8p39gXe912ZG-jDWpCM_A",
+      "duplicateSourceIds": [
+        "vinie-vizzle-7ackvr"
+      ],
+      "mergedItemCount": 1
+    },
+    {
       "id": "1lr0ay4-1mfabo8",
       "title": "Onewheel Football Launcher",
       "description": "",
@@ -3010,6 +3075,29 @@
         "onewheel-forum-recent-7x71yd"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "1j74emc-1joxsrd",
+      "title": "Onewheel Black Friday Sale: Lowest Prices Ever on Onewheel - StreetInsider",
+      "description": "Onewheel Black Friday Sale: Lowest Prices Ever on Onewheel StreetInsider",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkV2aXhRMFF0VVZCSGpXSkJiWUV5aWlBam1kWFVCUjY5SzVVek9vWXdHRk5PRmlhaGZMYVJvS0VvY2NMUFBFODdHUkp2Qi15ZHZ4ZUdybzBuUm8zMFpNbjNFSmVkWFo0RWJTTnVyU0VpV3JYd3VTTnNfT19lS3hQTURVS1M1bnduN1ExcHI5OHJtaFJqTnpJVlh5by04Z1pqMjdTZ2NFY0NKby1OZTg5VFJpSkx0UW9HWWJr?oc=5\" target=\"_blank\">Onewheel Black Friday Sale: Lowest Prices Ever on Onewheel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StreetInsider</font>",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkV2aXhRMFF0VVZCSGpXSkJiWUV5aWlBam1kWFVCUjY5SzVVek9vWXdHRk5PRmlhaGZMYVJvS0VvY2NMUFBFODdHUkp2Qi15ZHZ4ZUdybzBuUm8zMFpNbjNFSmVkWFo0RWJTTnVyU0VpV3JYd3VTTnNfT19lS3hQTURVS1M1bnduN1ExcHI5OHJtaFJqTnpJVlh5by04Z1pqMjdTZ2NFY0NKby1OZTg5VFJpSkx0UW9HWWJr?oc=5",
+      "publishedAt": "2026-11-26T13:02:23.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "eandde-1joxsrd",
@@ -3654,6 +3742,29 @@
         "onewheel-youtube-feed-fm-6kqsk4"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "4umgp8-1joxsrd",
+      "title": "Man on Onewheel sought after allegedly exposing himself at Westminster lake - WesternSlopeNow.com",
+      "description": "Man on Onewheel sought after allegedly exposing himself at Westminster lake WesternSlopeNow.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2lZUmJybWV3SzFPZVM1NHhTNU1IODhWNk9OSndlYnVaQzg2c000dXZRdFdQUU1nVzdoUGI5ejRmeGtGRnoxQVpWUkF1RWhpU1BDLWFwRnhHemNkbVB1RHRDQ1lGRGtKd2lydktnd2RKQ3JsblRsXzZMM1ZJcUViY2MtR2VHRFRPUG1ROWJ3VVhKYWZCWTJQOVNXUmVJZ0RpQ3dsS1haenhTd0M0OEUzMllfMFBTUTVfN0Vzb0lhSW5EZw?oc=5\" target=\"_blank\">Man on Onewheel sought after allegedly exposing himself at Westminster lake</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WesternSlopeNow.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2lZUmJybWV3SzFPZVM1NHhTNU1IODhWNk9OSndlYnVaQzg2c000dXZRdFdQUU1nVzdoUGI5ejRmeGtGRnoxQVpWUkF1RWhpU1BDLWFwRnhHemNkbVB1RHRDQ1lGRGtKd2lydktnd2RKQ3JsblRsXzZMM1ZJcUViY2MtR2VHRFRPUG1ROWJ3VVhKYWZCWTJQOVNXUmVJZ0RpQ3dsS1haenhTd0M0OEUzMllfMFBTUTVfN0Vzb0lhSW5EZw?oc=5",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "9ayx7x-1mfabo8",
@@ -7085,28 +7196,6 @@
       "embedHeightFetchedAt": "2026-11-02T18:28:28.021Z"
     },
     {
-      "id": "b7kxax-1czfdl1",
-      "title": "Refloat version 1.3",
-      "description": "Should have posted this way earlier, there’s a small percentage of users getting markable nose oscillations (nose hunting) after upgrading to Refloat 1.3. From what I’ve heard so far, decreasing the IMU Sample Rate to 416 Hz is a workaround to fix the problem. I’m not sure about the exact cause of this, I believe it’s just the messed up timing from the old firmware IMU sampling code. Seems updating to a firmware with my IMU fixes does fix the issue. For LSM6DS3 controllers, firmware 7.00 should do, though it doesn’t have all the fixes. For BMI160 controllers (or if you wanna get all the fixes ",
-      "contentHtml": "<p>Refloat 1.3 is here. This is a big one, it brings a number of improvements that cause small changes in behavior, bundled in one release to minimize the disruption.</p>\n<p>Release stage: <em><strong>stable</strong></em></p>\n<h2><a name=\"p-6403-update-1\" class=\"anchor\" href=\"https://pev.dev#p-6403-update-1\" aria-label=\"Heading link\"></a>Update</h2>\n<p>1.3.1 is in the works (beta stage). Notably it fixes a serious bug which could cause nose hunting or non-smooth motor operation on some setups, a few more fixes and a “Convert from 1.2” button added to the tune dialogs.</p>\n<h2><a name=\"p-6403-whats-new-2\" class=\"anchor\" href=\"https://pev.dev#p-6403-whats-new-2\" aria-label=\"Heading link\"></a>What’s new</h2>\n<p>Three major changes define this release:</p>\n<h3><a name=\"p-6403-timing-rework-3\" class=\"anchor\" href=\"https://pev.dev#p-6403-timing-rework-3\" aria-label=\"Heading link\"></a>Timing rework</h3>\n<p>The internal timing and synchronization have been overhauled. All calculations are now independent of the frequency they run at, and the core balancing control runs in sync with the IMU. The Loop Hertz config option has been removed.</p>\n<p>The practical result is better vibration rejection and more consistent tune behavior across different boards and configurations. Tunes should transfer more cleanly between setups.</p>\n<p>I’ve written a <a href=\"https://pev.dev/t/making-refloats-control-loop-frequency-independent/2925\">detailed post</a> about the technical details.</p>\n<h3><a name=\"p-6403-setpoint-smoothing-4\" class=\"anchor\" href=\"https://pev.dev#p-6403-setpoint-smoothing-4\" aria-label=\"Heading link\"></a>Setpoint smoothing</h3>\n<p>All Tilts (ATR, Torque Tilt, Brake Tilt, Turn Tilt and Remote) now have setpoint smoothing. This replaces the old linear transitions with smooth curves that allow higher tiltback speeds without jerkiness. The algorithm is based on the <a href=\"https://pev.dev/t/refloat-v1-1-feature-preview-2-haptic-feedback-setpoint-smoothing/2326/2\">3-Stage filter</a> from earlier feature previews.</p>\n<p>The main knobs to adjust are the Smoothing Time Constants:</p>\n<ul>\n<li><strong>Smoothing Time Constant</strong>: the overall smoothing delay (think 0.15-0.3s)</li>\n<li><strong>On Speed Time Constant</strong>: smooths the “into tiltback” transition</li>\n<li><strong>Off Speed Time Constant</strong>: smooths the “release” transition</li>\n</ul>\n<p>Torque Tilt and ATR have all three configurable. Turn Tilt and Remote are simplified to just the Smoothing Time Constant. The Time Constants are now the primary thing to tweak. Tiltback Speeds for Turn Tilt and Remote have been removed entirely in favor of the smoothing, and for Torque Tilt and ATR they’ve been reset to higher defaults that better complement it (your Torque Tilt and ATR Tiltback speeds won’t carry over from tune backups).</p>\n<p>As smoothing replaces its function, ATR Response Boost has been removed. ATR Transition Boost has been reworked to apply to both the smoothing constants and angling rates.</p>\n<p>More details on this can be found in the <a href=\"https://pev.dev/t/refloat-1-3-feature-preview-timing-rework-and-setpoint-smoothing/2959\">feature preview post</a>.</p>\n<p>The defaults for the new smoothing options work well for smooth casual riding. For racing and aggressive riding in general, the numbers need to be lowered in general, the following values should be a good starting point for a race tune:</p>\n<ul>\n<li>Torque Tilt\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.15</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.05</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.1</li>\n</ul>\n</li>\n<li>ATR\n<ul>\n<li><em>Smoothing Time Constant</em>: 0.2</li>\n<li><em>Smooting On Speed Time Constant</em>: 0.08</li>\n<li><em>Smooting Off Speed Time Constant</em>: 0.01</li>\n</ul>\n</li>\n</ul>\n<h3><a name=\"p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" class=\"anchor\" href=\"https://pev.dev#p-6403-torque-normalization-via-flux-linkage-firmware-606-5\" aria-label=\"Heading link\"></a>Torque normalization via Flux Linkage (firmware 6.06+)</h3>\n<p>On firmware 6.06+, the package now uses the motor’s Flux Linkage value to convert current to torque internally. This compensates for different motors’ torque constants and makes tunes behave more consistently across different motors. The reference value is 27 mWb. The more your motor differs from this, the more your tune will be adjusted.</p>\n<p>On firmware 6.05 and older, the behavior remains unchanged.</p>\n<h2><a name=\"p-6403-updating-to-13-6\" class=\"anchor\" href=\"https://pev.dev#p-6403-updating-to-13-6\" aria-label=\"Heading link\"></a>Updating to 1.3</h2>\n<p>This release will cause small changes in tune behavior:</p>\n<ul>\n<li><strong>Timing corrections:</strong> Angling speeds for tilts and pushbacks were running about 9-17% slower than configured. In practice, the new smoothing overshadows this (and Tiltback Speeds which remain will reset to higher values as mentioned above).</li>\n<li><strong>Torque normalization (6.06+ only):</strong> Config options are now internally adjusted based on your motor’s Flux Linkage. To compensate and retain your current tune behavior, calculate <code>k = Flux Linkage / 27</code> and:\n<ul>\n<li><strong>Divide by <code>k</code></strong> (likely noticeable, recommended to adjust): Torque Tilt Strength, Torque Tilt Strength (Regen)</li>\n<li><strong>Multiply by <code>k</code></strong> (subtle, adjust if needed): Angle P, Rate P, Angle I, I Term Limit, Booster Currents, Torque Tilt Start Current, ATR Amps Ratios</li>\n</ul>\n</li>\n<li><strong>Smoothing defaults:</strong> The defaults are tuned for smooth casual riding. Aggressive or racing tunes may need the Time Constants dialed down a bit for more responsiveness.</li>\n</ul>\n<p>For Flux Linkage normalization to work correctly, make sure your Motor Cfg → Additional Info → Setup → Motor Poles value is correct. If your board reports speed correctly, it should be. The correct value for all Onewheel motors to date is 30.</p>\n<p>Automatic config restore works as usual: confirm the dialog after upgrading and your config will be migrated.</p>\n<h2><a name=\"p-6403-other-notable-changes-7\" class=\"anchor\" href=\"https://pev.dev#p-6403-other-notable-changes-7\" aria-label=\"Heading link\"></a>Other notable changes</h2>\n<ul>\n<li>New and more consistent Reverse Stop implementation</li>\n<li>Motor utilization on the LED status bar (motor saturation, battery saturation, duty cycle)</li>\n<li>Option to swap left/right footpad ADCs</li>\n<li>Fullscreen remote overlay in package UI</li>\n<li>Reworked remote/wheel control from apps</li>\n<li>Various fixes (see full changelog)</li>\n</ul>\n<h2><a name=\"p-6403-download-and-changelog-8\" class=\"anchor\" href=\"https://pev.dev#p-6403-download-and-changelog-8\" aria-label=\"Heading link\"></a>Download and changelog</h2>\n<p><a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.0\">Refloat 1.3.0</a><br>\n<a href=\"https://github.com/lukash/refloat/releases/tag/v1.3.1-beta3\">Refloat 1.3.1-beta3</a></p>\n<h2><a name=\"p-6403-support-the-project-9\" class=\"anchor\" href=\"https://pev.dev#p-6403-support-the-project-9\" aria-label=\"Heading link\"></a>Support the project</h2>\n<p>I invest a lot of time and energy into the development and testing of Refloat. If you would like to support the development, here’s <a href=\"https://riddimrider.one/donate/\">a few options to do so</a>.</p>\n            <p><small>13 posts - 3 participants</small></p>\n            <p><a href=\"https://pev.dev/t/refloat-version-1-3/2995\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/refloat-version-1-3/2995#post_10",
-      "publishedAt": "2026-10-17T13:33:52.000Z",
-      "author": "@riddimrider",
-      "videoId": "",
-      "image": "",
-      "sourceId": "pev-dev-latest-posts-1cj89fa",
-      "source": "pev.dev - Latest posts",
-      "sourceDomain": "pev.dev",
-      "sourceKind": "feed",
-      "deck": "onewheel",
-      "feedUrl": "https://pev.dev/posts.rss",
-      "duplicateSourceIds": [
-        "pev-dev-latest-posts-1cj89fa",
-        "pev-dev-latest-topics-zkk6og"
-      ],
-      "mergedItemCount": 6
-    },
-    {
       "id": "1er36hn-frtrep",
       "title": "OnlyAmps Chargers Are Finally Here!",
       "description": "submitted by /u/Only-Amps [link] [comments]",
@@ -9214,7 +9303,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -13081,28 +13172,6 @@
         "fallmantech-1dn64sj"
       ],
       "mergedItemCount": 4
-    },
-    {
-      "id": "ftxnsx-vbx98k",
-      "title": "Pushback: high voltage warning while riding at 90% after update to 7.0",
-      "description": "So you encountered a problem and need help… bug? crash? weird behavior? Please include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting controller/motor thor301 / hypercore firmware version 7.0 package version (and name) refloat 1.2 configuration details my can is busted how often has this happened? single incident? can you reproduce it? it worked fine before i updated fw. after that ",
-      "contentHtml": "<p>So you encountered a problem and need help…</p>\n<p>bug?<br>\ncrash?<br>\nweird behavior?<br>\nPlease include ALL the info if you want useful help. The more obscure your issue the more details we’ll need. There can never be too much info. Basically we need to be able to reproduce it or at least fully understand the circumstances leading up to the issue you’re reporting</p>\n<p>controller/motor thor301 / hypercore<br>\nfirmware version 7.0<br>\npackage version (and name) refloat 1.2<br>\nconfiguration details<br>\nmy can is busted</p>\n<p>how often has this happened? single incident? can you reproduce it?</p>\n<p>it worked fine before i updated fw. after that everything broke and all the sensors were reporting values way out of spec. i had to redo the entire config from floathub</p>\n<p>the circumstances leading up to it, when the incident happened what exactly were you doing?<br>\nand last but not least: log files / videos - however DO NOT EXPECT that we’ll watch minutes of video or sift thru megabytes of logs to try to figure out what might have happened. Keep the logs and videos short.</p>\n<p>i updated the firmware on my controller from within vesc tools</p>\n<p>I personally ignore any video posted as the primary problem description. Use your words <img src=\"https://pev.dev/images/emoji/twitter/wink.png?v=15\" title=\":wink:\" class=\"emoji\" alt=\":wink:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n            <p><small>3 posts - 2 participants</small></p>\n            <p><a href=\"https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030\">Read full topic</a></p>",
-      "url": "https://pev.dev/t/pushback-high-voltage-warning-while-riding-at-90-after-update-to-7-0/3030",
-      "publishedAt": "2026-08-15T11:16:25.000Z",
-      "author": "qqmajikpp",
-      "videoId": "",
-      "image": "",
-      "sourceId": "pev-dev-latest-topics-zkk6og",
-      "source": "pev.dev - Latest topics (pev.dev)",
-      "sourceDomain": "pev.dev",
-      "sourceKind": "feed",
-      "deck": "onewheel",
-      "feedUrl": "https://pev.dev/latest.rss",
-      "duplicateSourceIds": [
-        "pev-dev-latest-topics-zkk6og",
-        "pev-dev-latest-posts-1cj89fa"
-      ],
-      "mergedItemCount": 3
     },
     {
       "id": "8i4odp-1mfabo8",
@@ -18153,6 +18222,30 @@
       "mergedItemCount": 4
     },
     {
+      "id": "uc98qe-1k6th9l",
+      "title": "Onewheel team's Antic e-bike can pop eternal wheelies - Engadget",
+      "description": "Onewheel team's Antic e-bike can pop eternal wheelies engadget.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5\" target=\"_blank\">Onewheel team's Antic e-bike can pop eternal wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5",
+      "publishedAt": "2025-11-19T08:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "1vy2fpa-1joxsrd",
       "title": "Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. - PR Newswire",
       "description": "Future Motion, creators of Onewheel, launch Antic -- a new bike brand debuting a reimagined 1970s mini bike that can balance riders in a wheelie. prnewswire.com",
@@ -18198,28 +18291,6 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "uc98qe-1k6th9l",
-      "title": "Onewheel team's Antic e-bike can pop eternal wheelies - Engadget",
-      "description": "Onewheel team's Antic e-bike can pop eternal wheelies engadget.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5\" target=\"_blank\">Onewheel team's Antic e-bike can pop eternal wheelies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">engadget.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFZIOVlwQjQxUXFhYVJyMFd2SjV3X18xSVdGX2Qwanpha3NUNG1Ua2YzQkhnYVdZYS1NLXBMeHdaOHpHanprX3JrX2Y4NXhoSVp0Tml2cDBhdmxEamIwUUF4ZFZUNmYwMWJMaUhzdDNtbUhoWVhqQi1EZ2lZVFdxcDBReGxlRS03ZDdNdW1FbW1mXzd3U09LSDVJOVczQURlbGJaWm1GME9JWnM?oc=5",
-      "publishedAt": "2025-11-19T08:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 4
     },
     {
       "id": "1081qrd-1x5tbt7",
@@ -19381,9 +19452,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -20011,7 +20080,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -22502,7 +22571,7 @@
       "feedUrl": "https://thesidewaysmovement.com/feed/",
       "duplicateSourceIds": [
         "the-sideways-movement-4mideq",
-        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-1031nqx",
+        "10-the-sideways-movement-https-thesidewaysmovement-com-onewheel-blog-sites-4mideq",
         "the-sideways-movement-1031nqx"
       ],
       "mergedItemCount": 3
@@ -23110,9 +23179,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 3
     },
@@ -25159,7 +25226,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -25270,7 +25339,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -28036,7 +28107,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -29480,7 +29553,7 @@
       "mergedItemCount": 2
     },
     {
-      "id": "i89pfl-1joxsrd",
+      "id": "i89pfl-1k6th9l",
       "title": "What Happed With the Onewheel Recall? - Rider Guide",
       "description": "What Happed With the Onewheel Recall? riderguide.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE04MXhTZVJtYVM5bEc3a2lSeG95RHVVNlYzXzl3MmtLM0FRb090M1dPamJTbGY5dGp2enpzZlktOW92U2ZiZ2ZZNDFRMWtoREJqQmFGaVhnaXh4M08tQ3FFdGc4TXUzTFpfaTZfdTdsSEQ0cWFBMExqVXZB?oc=5\" target=\"_blank\">What Happed With the Onewheel Recall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">riderguide.com</font>",
@@ -29489,17 +29562,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -29575,11 +29648,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "dkvj2t-1k6th9l",
+      "id": "r6x2tg-1k6th9l",
       "title": "All Onewheel e-skateboards recalled worldwide after four deaths - BBC",
       "description": "All Onewheel e-skateboards recalled worldwide after four deaths bbc.co.uk",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5\" target=\"_blank\">All Onewheel e-skateboards recalled worldwide after four deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bbc.co.uk</font>",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1ZmZOU2ZhV1Vla0pwXzg2TW1HSDVnSEQ0X0N0YWdJMF9rcU5FazdOX2NBb3RiVWE4ejY4WWVZdDVRY0taTVNVNGdmZ2ZWbGkyTmd5QVpwQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDTFc0Q3FxcmEzbUlXcXRfMTB5dmFnMnotOUllWTExS3ZmeXQ5b2xnNW5ZMUpZc0JrMF9XR3BvMS1pOW1MdzVEblpCeVF4ZDlyeFJ3aGI1Z0NLQQ?oc=5",
       "publishedAt": "2023-10-03T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -29597,6 +29670,27 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
+    },
+    {
+      "id": "1wowj0n-1k6th9l",
+      "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
+      "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled worldwide after deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sky.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5",
+      "publishedAt": "2023-10-03T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
     },
     {
       "id": "1wxku03-1joxsrd",
@@ -29692,27 +29786,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1wowj0n-1k6th9l",
-      "title": "Onewheel electric skateboards recalled worldwide after deaths - Sky News",
-      "description": "Onewheel electric skateboards recalled worldwide after deaths news.sky.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled worldwide after deaths</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news.sky.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3ZzWHE2bng2SThpYXhvdkJfbGwxaFhlMXVoMThFM0Vvcml0Z3htejM2SEVUUjg0TFp2ZnJPeTRCWmlzWUFOVzBRdGlEVmpFNHA4cHhrNEJ1bWpGUDJPWHIzeVFYM0loVWRXNzh1T0ZKZUpBVlk2c3hwUTFhRWRLZHBVNXczdUIyQjV2dkNTTUs1M1VlLXFFNzl6UVRKdw?oc=5",
-      "publishedAt": "2023-10-03T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
-    },
-    {
       "id": "r0jn2b-1qm87mh",
       "title": "Madd Tips #1: How to Nose Drag!",
       "description": "Ever wonder how to go full throttle by pressing the nose all the way down? Here I'll show you some tips on how to do one of the gnarliest stunts on a onewheel! Caution: this stunt is not for the feint of heart and you should take extra time on the warm up steps and wear safety gear. Don't be afraid to backtrack on steps and enjoy the drag!! ig @maxxsend #onewheel #thefloatlife #tricktips #TFL #braille #FloatSupply #NightRiding #OnewheelXR #Skating #FloatOnMyFriends #OnewheelPint #MADDmax #OnewheelRider #OnewheelGang #OnewheelAccessories #OnewheelNation #onewheeltricks #Esk8 #PEV #Esk8Squad #DestroyBoredom",
@@ -29751,7 +29824,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -29777,27 +29852,49 @@
       "mergedItemCount": 2
     },
     {
-      "id": "1wlgib8-1joxsrd",
-      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
-      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
+      "id": "1pzkrxv-1k6th9l",
+      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
+      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
       "publishedAt": "2023-10-02T07:00:00.000Z",
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
         "onewheel-google-news-p1u7u8"
       ],
-      "mergedItemCount": 3
+      "mergedItemCount": 4
+    },
+    {
+      "id": "1qjtm5r-1k6th9l",
+      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
+      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 2
     },
     {
       "id": "qkagye-1joxsrd",
@@ -29894,6 +29991,29 @@
       "mergedItemCount": 4
     },
     {
+      "id": "1wlgib8-1joxsrd",
+      "title": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard - Fast Company",
+      "description": "Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard Fast Company",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5\" target=\"_blank\">Onewheel recall: Deaths, crash hazard, what to do if you have an electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcndmUFJlOEZJYW1XeGRteHdkcDJhckNtOFgtbEtYUk9NYi1yaGMxRWViczhYUTZtOEN0WHV5TDdKaGVSM2VfblNhbzUtcFpyNnBjWHJua1JpN1FEblk3SXlvd3lzalM3a0NXenF0am9odFpkTDduQ0dGcDdEOVFKYjNLei1laFNzdm9pemY4WmpvaGFWUEN4ZjlSV0RwSWtjdnBjQm9McUxWd2pBeTVz?oc=5",
+      "publishedAt": "2023-10-02T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
       "id": "165d1hz-1joxsrd",
       "title": "All Onewheel electric skateboards are under recall after 4 deaths and serious injury reports - Los Angeles Times",
       "description": "All Onewheel electric skateboards are under recall after 4 deaths and serious injury reports Los Angeles Times",
@@ -29915,49 +30035,6 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "1pzkrxv-1k6th9l",
-      "title": "Every Onewheel Recalled: 4 Deaths Reported - GearJunkie",
-      "description": "Every Onewheel Recalled: 4 Deaths Reported gearjunkie.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5\" target=\"_blank\">Every Onewheel Recalled: 4 Deaths Reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">gearjunkie.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nMFpLdTdJa3ZEV3daNTNacFpxOHoyMTNPTnd3R2pFYWFmRGwzbkFJVHE0RzZQenRaR25EakowMm96bTN1aVlmd3h5cUVGLXZycnQzNTFUOWFVWU9nTUs5NWliU3YyQQ?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 4
-    },
-    {
-      "id": "1qjtm5r-1k6th9l",
-      "title": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC - New York Post",
-      "description": "More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC New York Post",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5\" target=\"_blank\">More than a quarter million Onewheel electric skateboards recalled due to deaths, injuries: CPSC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1F5b0Z3NjFlUmtZUmpsRGJlZHI5ODlOX01WRlZuZHNzZWVDc09yNzE3WURlY251U1B2S1lpZThxVzBUQjM1UmFSS3FvZ3lWNHZDc0VWSG1PcDkxUnJHTEZrZ0IwdDV1cUkzWmtDOUxPTmVpOVhmaFdscXFCUlpaZUYyWWlvblBkQkdFTm12aktlcW5qMHM0MVRleFFUNXhwTGQ4VDlxZU1rRkpZMXhyUnBQYlZtSGMwUHpLandINmJrT3c?oc=5",
-      "publishedAt": "2023-10-02T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 2
     },
     {
       "id": "zt9hqj-1k6th9l",
@@ -30141,11 +30218,58 @@
       "mergedItemCount": 3
     },
     {
+      "id": "l9uvac-1joxsrd",
+      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
+      "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8",
+        "future-motion-google-news-ftx3vn"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "gi4tg2-1joxsrd",
       "title": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 - NBC News",
       "description": "Onewheel electric skateboards recalled after 4 reported deaths since 2019 nbcnews.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after 4 reported deaths since 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nbcnews.com</font>",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1N6dlJNbmlYcnMxd216Z0tETml6N2hWeFZvVnpJM1BKUWxteW9yV05qa1dtYjRrbHIwNHJOclJUUVBPS3JoOUJPSkpJdUItRTMweU05ZUtsaFh5RklNcUlBVUJ0MnFYNnRIQk5YSFY3bl9pemVRUkFuVVJMbDJwQy1xeG5CaHhWZHhUSmRKVVcyNjFWR25BaFVNdnZRVW1VSjhDRTN2QkRTOEdhLUE?oc=5",
+      "publishedAt": "2023-10-01T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "onewheel-google-news-xwe1wh",
+      "source": "\"onewheel\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "duplicateSourceIds": [
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
+    },
+    {
+      "id": "1he8fki-1joxsrd",
+      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
+      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -30187,58 +30311,11 @@
       "mergedItemCount": 3
     },
     {
-      "id": "l9uvac-1joxsrd",
-      "title": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries - Business Insider",
-      "description": "Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries businessinsider.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5\" target=\"_blank\">Some 300,000 Onewheel electric skateboards recalled after 4 deaths and dozens of reported injuries</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">businessinsider.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR1QyMVF3d2tlU3lJdHBJRUhaOTNUdXVVTjl5WWQ3TjAtcDN3dERXM3FRNWQwMmtTYVJEVGViRXFyRHZjanRGMzh1LWZIdmNXczR4SlRUNldUdlota2RPUUdzMVB3V0E4VmR3QzFibHRYMHhpNy0tNGg2RHE0YklDd0Q5YXB3aElOaENJdm1QN0hiQTcxWjBoQ29lVTVoSEJGMkFqLS04THVmcHJteExtaE9ZZTd5QXFl?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
-      ],
-      "mergedItemCount": 4
-    },
-    {
       "id": "624tc3-1joxsrd",
       "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - KFYR-TV",
       "description": "Onewheel electric skateboards recalled after multiple reports of death, injury kfyrtv.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">kfyrtv.com</font>",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRy1sS3BJSFlJRUtNU1FFZ3M5MG9PZS1kYjBMZWFNZFlkMnJWVmJWUHZzaUpwWkJhdU96OC0xbnpDZWpDSTFDZ3BlUlRYUzZFRHBxSE5WX285QlE3TGRWbkU5TGZrVFUwTDFpZm1oVFg5enVZa0YzWi1aV2VhdDlYSnM0OEtMNHdZbHBlN3JDQkRIRkJqbnVTOUZBZjhFTlUwYWE5NkNRR2tVNXcyYUHSAcIBQVVfeXFMTVdlSElmRUFlT2daVmx1TjhsVU5aSXNfWVlCcTdzMDVmbGcxOXZxeGR3UFg5Wkd1M213emwxMVFiRzRva0N1cEVJYm91NEJaVEF1OVZoMjgtdlhrNGNnYk9lUUh5WTZVeWlXR29tSnlRWW01Nk16ZGdld3dmTkFvTWFfd3VsSGNsSnpMYzdyR3V3WXotaHNTMnEwV19kZFBldjhUN2hkRjhwQTJfUjhRaXJ3OFZSY0xuQXN0QlpxMW1HbFE?oc=5",
-      "publishedAt": "2023-10-01T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
-      "duplicateSourceIds": [
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
-      ],
-      "mergedItemCount": 3
-    },
-    {
-      "id": "1he8fki-1joxsrd",
-      "title": "Onewheel electric skateboards recalled after multiple reports of death, injury - FOX19 | Cincinnati",
-      "description": "Onewheel electric skateboards recalled after multiple reports of death, injury FOX19 | Cincinnati",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5\" target=\"_blank\">Onewheel electric skateboards recalled after multiple reports of death, injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX19 | Cincinnati</font>",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMDlDRDBmdDFjU1gteFJLMVd0Y2tTcE5VanpOYWdUNjdZelZ2eTlUMmNSRVBsZ0dmajhJQkZKN0JHbUMtZ3NkRE1xYk1UNk1zQTY2dHJ3bGl4SG9KYXF2Q1R2b2FJRlNJb1Y5VGxqa01nSDNKWVJUdzNRckpIYXhzRFItWDlRLWFBY29qWVZPOWVWSjlOYzdpVzNTQ2VPc24xUTVLS0stckc5MDdV0gHAAUFVX3lxTFBIWXhvQnM4R3J0ZlhvU2VNN05SQklYdDZWTk5XRWVySlcyeWp1N0FvSjM2SUVucDVhcGZ3bllCWHJ1ZXBvZHpUTko2SFJTa1V0TWxtZEYtLXQ4Ymd6aE5lVURtcFEtcGNNSEhlZklBYjc0eVo0TlFQbThhR1VnRzB6TzZ1VThUTUM4MWMybE51RXRFVFdKaGU1OERodWpqRllmeHVGQ1BXQTUyclBXLWdweWdxSHpUT1J2S1dZSGJBSw?oc=5",
       "publishedAt": "2023-10-01T07:00:00.000Z",
       "author": "",
       "videoId": "",
@@ -30367,6 +30444,30 @@
       "embedHeight": 500,
       "embedHeightSource": "cached_reddit_oembed",
       "embedHeightFetchedAt": "2026-09-17T18:47:11.271Z"
+    },
+    {
+      "id": "fo439r-1k6th9l",
+      "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York",
+      "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5\" target=\"_blank\">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Eyewitness News</font>",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5",
+      "publishedAt": "2023-09-30T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 3
     },
     {
       "id": "18a4tc9-1k6th9l",
@@ -30509,28 +30610,6 @@
       "mergedItemCount": 3
     },
     {
-      "id": "fo439r-1k6th9l",
-      "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC7 New York",
-      "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC7 Eyewitness News",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5\" target=\"_blank\">Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 Eyewitness News</font>",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2hyVVp0UDVfdHFMbS1BOXktUFViemFkM0dfdVU2czkwM053UkhQUDVveTNLQTZkLU5SNU51NmRQY1RzRTJUakpTeUVmaWNPRzdDV3g4ZFE1VWpPWGVPbEdEVjBSN3VhMEZSYlo4YUpFR3RTOE5NS2V4TlZZS3BRcV9WYTNfc1Q1emRqODhVZWlpVm1idmfSAZsBQVVfeXFMUDBLYjZyeTBNTDlhYV85REVCTG9uYi0xcEJZc2tIMzl0alVvMUx4MnpNd2I4SDRPbHVIUjVRQmFFOHBLTFNWVzBkSlo3RkdZSDdTSVpqS0FvTWtpSThDNDY5QTdwMXpGZEQ3MEVqTVhWcVBoSURVQUFid0tETFlYVWZfOVZjeTQ2T3pid2M5aXVGQnJyRzhXNUxudDA?oc=5",
-      "publishedAt": "2023-09-30T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 3
-    },
-    {
       "id": "1t3r1ja-1k6th9l",
       "title": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard - ABC30 Fresno",
       "description": "Onewheel recall notice issued by CPSC after 4 deaths linked to self-balancing electric skateboard ABC30 Fresno",
@@ -30615,7 +30694,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -33186,7 +33267,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1u4hvfh-1joxsrd",
+      "id": "1u4hvfh-1k6th9l",
       "title": "Onewheel skateboards linked to 4 deaths, feds say - CBS News",
       "description": "Onewheel skateboards linked to 4 deaths, feds say cbsnews.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE9hN0ZHQUdYeUxyLVl3LThTcE5aN2ZuRDZ2cVZFT1RyNTdXWWZpR3hiWm9nbXpsdDRSVTJRb1ItNU9Ibk1ZTzA2NUI1SlJjeFZid05hQ0JsTjdLazNNVzhVRUxRWXB1VjFGZ1JUcE43VFdBaVUzcHRraUI1Y9IBgAFBVV95cUxNdFJ5Z214d1M1bkxqX0pybTJPaHZ6dWNZNDUtNks3M3p0bzF3WHltWGktbHhZTXNOdjVfRTVXVGJYNllZN1FfaHZleGpqQ1Z0eU1lLTlUcVF2YUpfWWZ5em1IOV81Y1hDdFJjZVNyYllkM2tQdG84amlteC1jNndmZg?oc=5\" target=\"_blank\">Onewheel skateboards linked to 4 deaths, feds say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">cbsnews.com</font>",
@@ -33195,17 +33276,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -33273,7 +33354,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -33889,7 +33972,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "1l16yld-1joxsrd",
+      "id": "1l16yld-1k6th9l",
       "title": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off - ClassAction.org",
       "description": "Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off ClassAction.org",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxObi1Ja3VlVUZZS3VIZDMwdEVTRnJCa1dqM1RMcTg4cERiandSYk92ZlhZRjkzMjhvQUY4aDNBc3RpUVhCdWtYUndMUG96eTdTalFaTV83Vk1qSG5xMk9fTnY4eW5MWWpkMWNETElDM1NLZncxSVNkSU5CSC1PYzBaVlFfSkl3VDJMUjhseDlfaFFVbGNINFpRMGc0R2IyU0puX1BRaGwwZDBCQl9NTjI4dEpSTU1zS0pkUmhDWmJB?oc=5\" target=\"_blank\">Onewheel Class Action Says Pushback ‘Defect’ Can Cause Board to Nosedive, Randomly Shut Off</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ClassAction.org</font>",
@@ -33898,17 +33981,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -33930,9 +34013,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 4
     },
@@ -34128,7 +34209,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -35629,6 +35712,30 @@
       "mergedItemCount": 3
     },
     {
+      "id": "vm13z0-1k6th9l",
+      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
+      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 4
+    },
+    {
       "id": "g7fh15-1k6th9l",
       "title": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports - PR Newswire",
       "description": "Onewheel® Maker Future Motion Introduces Two Next Generation Products, Onewheel GT And Onewheel Pint X, Advancing Urban Transportation And Digital Boardsports prnewswire.com",
@@ -35648,6 +35755,30 @@
         "future-motion-google-news-ftx3vn"
       ],
       "mergedItemCount": 2
+    },
+    {
+      "id": "13wsk49-1k6th9l",
+      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
+      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
+      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
+      "publishedAt": "2021-10-27T07:00:00.000Z",
+      "author": "",
+      "videoId": "",
+      "image": "",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
+      "sourceDomain": "news.google.com",
+      "sourceKind": "feed",
+      "deck": "news",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
+      "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
+      ],
+      "mergedItemCount": 4
     },
     {
       "id": "180228f-1joxsrd",
@@ -35671,50 +35802,6 @@
         "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
-    },
-    {
-      "id": "vm13z0-1k6th9l",
-      "title": "The new Onewheel GT can travel 32 miles on a single charge - The Verge",
-      "description": "The new Onewheel GT can travel 32 miles on a single charge theverge.com",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5\" target=\"_blank\">The new Onewheel GT can travel 32 miles on a single charge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theverge.com</font>",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWlAyLUhLT3JrNGF1dVo1ZE9KdzJRY0xZWWFhUUtDN1p1dkdjeFY3SFhfQWZLVEFtblduWm1NUzZPcmRyVlNELWJQandyUVN0SVYzTTMyeVc4Zkg4aUJwTGg3NmlrSkk1RkxPaG1kRldoZUlMd19hZzZESVYxS0JQQ2R1dW9nX2FRMEZ2VURlMTNBaFE?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 4
-    },
-    {
-      "id": "13wsk49-1k6th9l",
-      "title": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits - Electrek",
-      "description": "Onewheel launches two new self-balancing electric boards, pushing physics to the limits electrek.co",
-      "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5\" target=\"_blank\">Onewheel launches two new self-balancing electric boards, pushing physics to the limits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">electrek.co</font>",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2xGMTRScmo1TDhibnRKSWNuRE9kQnZrY2U3TXhUQy15d0EzOElndHhsUjFzVkRpYm9fR3MwR3BVX3U5YXMtTURBbzlKa3ZWVzJxU25FZURDeG1ZcWRfYWpVR2ZMaTNPeTh2UjNRa2RITTlIa1Z3elctTzFPN0t1RTY1VGtMeWlKaUNlNnNpTDJUX21GTlo1Q1lpc283emRON2R4Ml9hMWtVT3BZT0tLb1RDX1A1dUJvWXc?oc=5",
-      "publishedAt": "2021-10-27T07:00:00.000Z",
-      "author": "",
-      "videoId": "",
-      "image": "",
-      "sourceId": "future-motion-google-news-ftx3vn",
-      "source": "\"future motion\" - Google News",
-      "sourceDomain": "news.google.com",
-      "sourceKind": "feed",
-      "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
-      "duplicateSourceIds": [
-        "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
-      ],
-      "mergedItemCount": 4
     },
     {
       "id": "1uz8msw-1tth00z",
@@ -36513,9 +36600,7 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh",
-        "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8"
+        "onewheel-google-news-xwe1wh"
       ],
       "mergedItemCount": 4
     },
@@ -38272,7 +38357,7 @@
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn"
       ],
-      "mergedItemCount": 1
+      "mergedItemCount": 2
     },
     {
       "id": "v2643y-1joxsrd",
@@ -38298,7 +38383,7 @@
       "mergedItemCount": 3
     },
     {
-      "id": "vgg1p6-1joxsrd",
+      "id": "vgg1p6-1k6th9l",
       "title": "onewheel pint is a mini, portable one-wheeled skateboard for novices - Designboom",
       "description": "onewheel pint is a mini, portable one-wheeled skateboard for novices designboom.com",
       "contentHtml": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNRm5lRWNKMURjREZ1azFSMk5TWWFNRk5FOHNIQ0Q2bTZ0dXN6VGJLVEczQ2lka3JUVGtSYkl3QjhNTmtkSlZ3eE54VVZjUFUySDBRcDdUcm5qajVIN0dyX1FmNE0tZHlqOXYyODExbFpGQlVwNFNyZEtXLUttMDFDZWxwbTRNdUc0WVAycGNmdw?oc=5\" target=\"_blank\">onewheel pint is a mini, portable one-wheeled skateboard for novices</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">designboom.com</font>",
@@ -38307,17 +38392,17 @@
       "author": "",
       "videoId": "",
       "image": "",
-      "sourceId": "onewheel-google-news-xwe1wh",
-      "source": "\"onewheel\" - Google News",
+      "sourceId": "future-motion-google-news-ftx3vn",
+      "source": "\"future motion\" - Google News",
       "sourceDomain": "news.google.com",
       "sourceKind": "feed",
       "deck": "news",
-      "feedUrl": "https://news.google.com/rss/search?q=%22onewheel%22&hl=en-US&gl=US&ceid=US:en",
+      "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
+        "future-motion-google-news-ftx3vn",
         "onewheel-google-news-xwe1wh",
         "onewheel-google-news-1xmgk0a",
-        "onewheel-google-news-p1u7u8",
-        "future-motion-google-news-ftx3vn"
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 4
     },
@@ -38452,7 +38537,9 @@
       "feedUrl": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%22future+motion%22",
       "duplicateSourceIds": [
         "future-motion-google-news-ftx3vn",
-        "onewheel-google-news-xwe1wh"
+        "onewheel-google-news-xwe1wh",
+        "onewheel-google-news-1xmgk0a",
+        "onewheel-google-news-p1u7u8"
       ],
       "mergedItemCount": 3
     },
@@ -39733,7 +39820,7 @@
       "title": "Latest",
       "url": "/feeds/all.xml",
       "sourceCount": 131,
-      "articleCount": 1648
+      "articleCount": 1651
     },
     {
       "id": "onewheel",
@@ -39747,14 +39834,14 @@
       "title": "Onewheel news + blogs",
       "url": "/feeds/news.xml",
       "sourceCount": 13,
-      "articleCount": 319
+      "articleCount": 321
     },
     {
       "id": "video",
       "title": "Video + podcasts",
       "url": "/feeds/video.xml",
       "sourceCount": 65,
-      "articleCount": 672
+      "articleCount": 673
     },
     {
       "id": "gear",
